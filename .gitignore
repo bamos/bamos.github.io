@@ -8,6 +8,9 @@
 *.bak
 \#*\#
 
+# file-browser settings - anywhere
+.directory
+
 # CVS recovered versions - anywhere
 .\#*
 
@@ -21,5 +24,14 @@
 *.tar.bz2
 *.tar.gz
 *.tgz
+
+# ignore the persistent .build tag in the main directory
+/.build
+
+# ignore misc build directories
+/build-*/
+
+# in case we want our gh-pages branch close at hand
+/gh-pages
 
 # end-of-file
