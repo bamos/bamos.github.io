@@ -1,0 +1,16 @@
+---
+layout: default
+title: About
+page_name: about
+---
+
+### This site
+
+Born out of necessity (to get github project pages working), I figured
+blogging may even prove a useful means of noting things that would otherwise
+get buried in mailing lists.
+
+<small class="meta">
+  The layout is slightly reworked from [John Duff's](http://jduff.github.com)
+</small>
+

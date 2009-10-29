@@ -1,0 +1,85 @@
+---
+# -*- html -*- mode
+topnav:
+  - text: About
+    href: /about
+  - text: Blog
+    href: /
+  - text: Archives
+    href: /tags/
+---
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mark Olesen : {{ page.title }} </title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="language" content="en" />
+<link rel="stylesheet" type="text/css" href="/css/default.css" />
+</head>
+
+<body class="{{ page.page_name }}">
+<div id="top">
+</div>
+
+<div id="content">
+  <div id="banner">
+    <h1><a href="http://olesenm.github.com">Mark Olesen</a></h1>
+
+    <div class='clear'></div>
+    <ul>
+      <li><a href="/about">About</a></li>
+      <li><a href="/">Blog</a></li>
+      <li><a href="/tags/">Archives</a></li>
+      <li style="float:right"><a href="http://github.com/olesenm">GitHub Profile</a></li>
+      <li style="float:none;" class="clear"></li>
+    </ul>
+  </div>
+
+  <div id="page">
+    <div id="main">
+      {{ content }}
+    </div>
+    <div id="sidebar">
+      <h3>GitHub projects</h3>
+      <ul id="links">
+        <li><a href="http://olesenm.github.com/flex-grid">flex-grid</a></li>
+        <li><a href="http://olesenm.github.com/xml-qstat">xml-qstat</a></li>
+        </ul>
+      <h3>Misc. Links</h3>
+      <ul id="links">
+        <li><a href="http://www.OpenFOAM.org">OpenFOAM</a></li>
+        <li><a href="http://gridengine.sunsource.net">GridEngine</a></li>
+        <li><a href="http://wiki.gridengine.info/wiki/">GridEngine wiki</a></li>
+        </ul>
+      <br/>
+
+    </div>
+    <div id="license">
+    </div>
+
+    </div>
+  </div>
+
+  <div id="bottom">
+    <a href="/about/">About</a> |
+    <a href="http://olesenm.github.com">Blog</a> |
+    <a href="/tags/">Archives</a> |
+    updated {{ site.time | date:"%Y-%m-%d" }}
+  </div>
+
+  <!-- Google Analytics Code -->
+  <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+    try {
+    var pageTracker = _gat._getTracker("UA-9947336-1");
+    pageTracker._trackPageview();
+    } catch(err) {}
+  </script>
+
+
+</body>
+</html>
+

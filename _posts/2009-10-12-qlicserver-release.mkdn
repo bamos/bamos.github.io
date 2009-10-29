@@ -1,0 +1,50 @@
+---
+layout: post
+title: Updated flex-grid - Release 2009-10-12
+tags: [gridengine, flexlm]
+---
+
+A new version of my FlexLM / GridEngine integration has been released. The
+version 2009-10-12 supersede previous releases. It is primarily a bugfix
+version (triad handling), with other minor improvements.
+
+The download files formerly known as **qlicserver** can now be found as a
+more generic **flex-grid**. The name change reflects the fact that it might
+also be a useful place to bundle other miscellaneous flexible
+gridengine-related scripts.
+
+For redundancy and simplicity, I've also converted the various releases into
+a git repository, which is currently hosted at github. <br/>
+Project Page: [http://olesenm.github.com/flex-grid/](http://olesenm.github.com/flex-grid/)
+<br/>
+Project Repo: [http://github.com/olesenm/flex-grid](http://github.com/olesenm/flex-grid)
+
+This has the advantage of making it easier for the end-user to track the
+changes between releases, or between their own version and the released
+version. It also provides a convenient means of browsing the repository
+files and even just grabbing a single file (for people in a hurry). For
+example,
+
+        wget http://github.com/olesenm/flex-grid/raw/master/site/qlicserver
+
+The changes to the code itself are listed on the project page:
+[http://olesenm.github.com/flex-grid/changes.html](http://olesenm.github.com/flex-grid/changes.html)
+
+The latest release (flex-grid-20091012.tar.gz) is also available on the
+
+        http://gridengine.sunsource.net/servlets/ProjectDocumentList
+
+But it can also be downloaded as a zip or tar file from the github
+repository directly.
+
+[http://github.com/olesenm/flex-grid/tarball/master](http://github.com/olesenm/flex-grid/tarball/master)
+
+Documentation about the rational behind the qlicserver can be found both on the
+wiki page:
+
+[http://wiki.gridengine.info/wiki/index.php/Olesen-FLEXlm-Integration](http://wiki.gridengine.info/wiki/index.php/Olesen-FLEXlm-Integration)
+and as a [presentation from the 2007 workshop](http://gridengine.sunsource.net/download/workshop10-12_09_07/SGE-WS2007-FlexLMLoadsensorIntegrationwithSGE_EMCON_MarkOlesen.pdf)
+
+Further information about configuring the qlicserver is also available on the
+[wiki page](http://wiki.gridengine.info/wiki/index.php/Olesen-FLEXlm-Configuration)
+
