@@ -1,6 +1,6 @@
 ---
+# -*- html -*- mode
 layout: default
-page_name: blog
 ---
 <div id="post">
   <h2>{{page.title}}</h2>
@@ -8,7 +8,7 @@ page_name: blog
 </div>
 
 <small class="meta">
-  {{ page.date | date:"%Y-%m-%d" }}
+  {{ page.date | date:"%d %b %Y" }}
   {% for t in page.tags %}
   {% if forloop.first == true %} | {% endif %}
   <a href='/tags#{{ t | escape }}'>{{ t }}</a>{% if forloop.last == false %}, {% endif %}

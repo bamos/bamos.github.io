@@ -6,6 +6,8 @@ topnav:
   - text: Blog
     href: /
   - text: Archives
+    href: /archives/
+  - text: Categories
     href: /tags/
 ---
 <!DOCTYPE html>
@@ -17,45 +19,43 @@ topnav:
 <link rel="stylesheet" type="text/css" href="/css/default.css" />
 </head>
 
-<body class="{{ page.page_name }}">
-<div id="top">
-</div>
-
-<div id="content">
-  <div id="banner">
-    <h1><a href="http://olesenm.github.com">Mark Olesen</a></h1>
-
-    <div class='clear'></div>
-    <ul>
-      <li><a href="/about">About</a></li>
-      <li><a href="/">Blog</a></li>
-      <li><a href="/tags/">Archives</a></li>
-      <li style="float:right"><a href="http://github.com/olesenm">GitHub Profile</a></li>
-      <li style="float:none;" class="clear"></li>
-    </ul>
+<body>
+  <div id="top">
   </div>
 
-  <div id="page">
-    <div id="main">
-      {{ content }}
+  <div id="content">
+    <div id="banner">
+      <h1><a href="http://olesenm.github.com">Mark Olesen</a></h1>
+      <div class="clear"></div>
+      <ul>
+        <li><a href="/about">About</a></li>
+        <li><a href="/">Blog</a></li>
+        <li><a href="/archives/">Archives</a></li>
+        <li><a href="/tags/">Categories</a></li>
+        <li style="float:right"><a href="http://github.com/olesenm">GitHub Profile</a></li>
+        <li style="float:none;" class="clear"></li>
+      </ul>
     </div>
-    <div id="sidebar">
-      <h3>GitHub projects</h3>
-      <ul id="links">
-        <li><a href="http://olesenm.github.com/flex-grid">flex-grid</a></li>
-        <li><a href="http://olesenm.github.com/xml-qstat">xml-qstat</a></li>
-        </ul>
-      <h3>Misc. Links</h3>
-      <ul id="links">
-        <li><a href="http://www.OpenFOAM.org">OpenFOAM</a></li>
-        <li><a href="http://gridengine.sunsource.net">GridEngine</a></li>
-        <li><a href="http://wiki.gridengine.info/wiki/">GridEngine wiki</a></li>
-        </ul>
-      <br/>
 
-    </div>
-    <div id="license">
-    </div>
+    <div id="page">
+      <div id="main">
+        {{ content }}
+      </div>
+      <div id="sidebar">
+        <h3>GitHub projects</h3>
+        <ul id="links">
+          <li><a href="http://olesenm.github.com/flex-grid">flex-grid</a></li>
+          <li><a href="http://olesenm.github.com/xml-qstat">xml-qstat</a></li>
+          </ul>
+        <h3>Misc. Links</h3>
+        <ul id="links">
+          <li><a href="http://www.OpenFOAM.org">OpenFOAM</a></li>
+          <li><a href="http://gridengine.sunsource.net">GridEngine</a></li>
+          <li><a href="http://wiki.gridengine.info/wiki/">GridEngine wiki</a></li>
+          </ul>
+        <br/>
+      </div>
+      <div class="clear"></div>
 
     </div>
   </div>
@@ -63,7 +63,9 @@ topnav:
   <div id="bottom">
     <a href="/about/">About</a> |
     <a href="http://olesenm.github.com">Blog</a> |
-    <a href="/tags/">Archives</a> |
+    <a href="/archives/">Archives</a> |
+    <a href="/tags/">Categories</a>
+    &ndash;
     updated {{ site.time | date:"%Y-%m-%d" }}
   </div>
 
@@ -79,7 +81,5 @@ topnav:
     } catch(err) {}
   </script>
 
-
 </body>
 </html>
-

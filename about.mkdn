@@ -1,7 +1,6 @@
 ---
 layout: default
-title: About
-page_name: about
+title:  About
 ---
 
 ### This site
@@ -11,6 +10,7 @@ blogging may even prove a useful means of noting things that would otherwise
 get buried in mailing lists.
 
 <small class="meta">
-  The layout is slightly reworked from [John Duff's](http://jduff.github.com)
+  The layout is slightly reworked from
+  <a href="http://jduff.github.com">John Duff's</a>
 </small>
 

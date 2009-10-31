@@ -34,14 +34,15 @@ img {
     margin: 20px 0px;
 }
 
-#banner h1, #banner h3{
-    margin: 10px 0px 0px 0px;
+#banner h1, #banner h3 { 
+    margin: 0px;
     float: left;
 }
 
 #banner h3 {
     font-size: 110%;
     padding-left: 10px;
+    margin-top: 10px;
     margin-bottom: 10px;
     color: #333;
 }
@@ -81,10 +82,7 @@ img {
     text-decoration: none;
 }
 
-#banner ul li a:hover, 
-  body.archives #banner li.archives a,
-  body.blog #banner li.blog a, 
-  body.about #banner li.about a
+#banner ul li a:hover, #banner li a
 {
     color: #000;
     background-color: #fff;
@@ -153,12 +151,7 @@ img {
     padding: 4px 0 4px 28px;
 }
 
-#license {
-    clear: both;
-}
-
-.excerpt {
-}
+.excerpt { }
 
 .meta {
     display: block;
