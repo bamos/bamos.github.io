@@ -54,7 +54,6 @@ img {
 
 #header h1, #header h3 {
     margin: 0px;
-    float: left;
 }
 
 #header h3 {
@@ -74,28 +73,30 @@ img {
 }
 
 #header form {
-    float: right;
     margin-top: 15px;
+    float: right;
+    width: 25%;
 }
 
+#header ul {
+    margin-top: 1px;
+    border-left: 5px solid #686;
+    border-right: 5px solid #686;
+    border-top: 10px solid #686;
+    padding: 5px;
+    background-color: #686;
+}
+
+#header ul
 #header ul li,
-#header ul,
 #header ul li a
 {
     background-color: #686;
     padding: 5px;
 }
 
-#header ul {
-    margin: 5px 0px 0px 0px;
-    border-top: solid 5px #686;
-    padding-bottom: 10px;
-    padding-top: 0px;
-}
-
 #header ul li {
     display: inline;
-    float: left;
 }
 
 #header ul li a {
@@ -111,6 +112,12 @@ img {
     text-decoration: none;
 }
 
+#header ul li#current a {
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+}
+
 /* col1: main column */
 #col1 {
     float: left;
@@ -120,7 +127,7 @@ img {
 /* col3: side bar */
 #col3 {
     font-size: 0.9em;
-    float: right;
+    float:  right;
     width:  25%;
 }
 
@@ -128,7 +135,7 @@ img {
   padding-left: 10px;
   padding-right: 20px;
   /* add border */
-  border-left: 1px #ddd solid;
+  border-left: 1px solid #ddd;
   /* padding: 10px 0; */
 }
 
@@ -142,10 +149,12 @@ img {
 
 .paging .newer {
     float: right;
+    width: 25%;
 }
 
 .paging .older {
     float: left;
+    width: 25%;
 }
 
 
@@ -157,16 +166,25 @@ img {
 
 /* vertical lists: */
 /* title */
-h6.vlist {
+
+h3.vlist, h6.vlist {
   font-weight: bold;
   font-size: 100%;
-  width: 90%;
-  padding: 3px 0px 3px 10%; /* LTR */
   margin:0;
   color: #444;
   background-color: #fff;
-  border-top: 2px #ddd solid;
+  border-top: 2px solid #ddd;
   border-bottom: 4px #888 solid;
+}
+
+h3.vlist {
+  width: 20%;
+  padding: 3px 0px 3px 3px; /* LTR */
+}
+
+h6.vlist {
+  width: 90%;
+  padding: 3px 0px 3px 10%; /* LTR */
 }
 
 .vlist {

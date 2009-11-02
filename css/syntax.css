@@ -3,10 +3,13 @@
  */
 
 .highlight  {
-    background-color: #f0f0f0;
+    background-color: #fffeee;
     overflow: auto;
-    font-size: 0.67em;
-    line-height: 1.1em;
+    font-size: 0.9em;
+    line-height: 1em;
+    padding-left: 0.5em;
+    border: 1px solid #ddd;
+
 }
 
 .highlight .c { color: #999988; font-style: italic } /* Comment */

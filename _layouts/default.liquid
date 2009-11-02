@@ -10,7 +10,8 @@ topnav:
   - text: Categories
     href: /tags/
 ---
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
 <title>Mark Olesen : {{ page.title }} </title>
@@ -19,6 +20,11 @@ topnav:
 <link rel="stylesheet" type="text/css" href="/css/default.css" />
 <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
 </head>
+
+{% assign navTitle = 'Blog' %}
+{% for t in page.topnav %}
+{% if t.text == page.title %}{% assign navTitle = page.title %}{% endif %}
+{% endfor %}
 
 <body>
 <div class="page_margins">
@@ -30,10 +36,11 @@ topnav:
     <div id="nav">
       <div class="hlist">
         <ul>
-          <li><a href="/about">About</a></li>
-          <li><a href="/">Blog</a></li>
-          <li><a href="/archives/">Archives</a></li>
-          <li><a href="/tags/">Categories</a></li>
+          {% for t in page.topnav %}
+          {% if t.text == navTitle %}<li id="current">{% else %}<li>{% endif %}
+          <a href="{{ t.href }}" {% if t.title %}title="{{ t.title }}"{% endif %}>{{ t.text }}</a>
+          </li>
+          {% endfor %}
           <li style="float:right;"><a href="http://github.com/olesenm">GitHub Profile</a></li>
           <li style="float:none;" class="clear"></li>
         </ul>

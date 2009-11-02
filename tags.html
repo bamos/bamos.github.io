@@ -4,7 +4,7 @@ title:  Categories
 ---
 
 {% for tag in site.tags %}
-  <h3 id="{{ tag[0] }}">{{ tag[0] }}</h3>
+  <h3 id="{{ tag[0] }}" class="vlist">{{ tag[0] }}</h3>
   <ul>
     {% for post in tag[1] %}
       <li style="list-style-type: none; padding: 2px">
