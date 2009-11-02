@@ -1,3 +1,5 @@
+/* default CSS */
+
 body {
     margin: 10px;
     padding: 0px;
@@ -30,16 +32,32 @@ img {
     border: none;
 }
 
-#banner {
-    margin: 20px 0px;
+.thumbnails img, img.thumbnails {
+    max-width: 100px;
+    max-width: 100px;
+    padding: 5px;
+    float: left;
 }
 
-#banner h1, #banner h3 { 
+/* page margins */
+.page_margins {
+    text-align: left;
+    margin: 0 auto;
+    min-width: 700px;
+    max-width: 1000px;
+}
+
+#header {
+    margin: 20px 0px;
+    list-style-type: none;
+}
+
+#header h1, #header h3 {
     margin: 0px;
     float: left;
 }
 
-#banner h3 {
+#header h3 {
     font-size: 110%;
     padding-left: 10px;
     margin-top: 10px;
@@ -47,60 +65,74 @@ img {
     color: #333;
 }
 
-#banner h1 a {
+#header h1 a  {
     text-decoration: none;
 }
 
-#banner h1 a:hover {
+#header h1 a:hover {
     text-decoration: underline;
 }
 
-#banner form {
+#header form {
     float: right;
     margin-top: 15px;
 }
-#banner ul li, #banner ul, #banner ul li a {
+
+#header ul li,
+#header ul,
+#header ul li a
+{
     background-color: #686;
     padding: 5px;
 }
 
-#banner ul {
+#header ul {
     margin: 5px 0px 0px 0px;
     border-top: solid 5px #686;
     padding-bottom: 10px;
     padding-top: 0px;
 }
 
-#banner ul li {
+#header ul li {
     display: inline;
     float: left;
-    list-style-type:  none;
 }
 
-#banner ul li a {
+#header ul li a {
     color: #fff;
     text-decoration: none;
 }
 
-#banner ul li a:hover, #banner li a
+#header ul li a:hover,
+#header li a
 {
     color: #000;
     background-color: #fff;
     text-decoration: none;
 }
 
-#content, #top, #bottom {
-    text-align: left;
-    margin: auto;
-    width: 1000px;
-}
-
-#main {
+/* col1: main column */
+#col1 {
     float: left;
     width: 70%;
 }
 
-#post, .excerpt {
+/* col3: side bar */
+#col3 {
+    font-size: 0.9em;
+    float: right;
+    width:  25%;
+}
+
+#col3_content {
+  padding-left: 10px;
+  padding-right: 20px;
+  /* add border */
+  border-left: 1px #ddd solid;
+  /* padding: 10px 0; */
+}
+
+.post, .excerpt {
     line-height: 20px;
 }
 
@@ -116,40 +148,43 @@ img {
     float: left;
 }
 
+
 .clear {
     clear: both;
     height: 0px;
     line-height: 0px;
 }
 
-#comments {
-    padding-top: 10px;
+/* vertical lists: */
+/* title */
+h6.vlist {
+  font-weight: bold;
+  font-size: 100%;
+  width: 90%;
+  padding: 3px 0px 3px 10%; /* LTR */
+  margin:0;
+  color: #444;
+  background-color: #fff;
+  border-top: 2px #ddd solid;
+  border-bottom: 4px #888 solid;
 }
 
-#sidebar {
-    font-size: 0.9em;
-    float: right;
-    width:  25%;
-}
-
-#sidebar ul {
-    padding-left: 15px;
-}
-
-#sidebar li {
-    margin-left: 0px;
-    padding-left: 0px;
-    margin-bottom: 5px;
-}
-
-#sidebar ul#links {
+.vlist {
     margin: 0px;
     list-style-type: none;
+    padding-left: 6px;
 }
 
-#sidebar ul#links li {
+.vlist ul {
+    margin: 0px;
+    list-style-type: none;
+    padding-left: 6px;
+}
+
+.vlist li {
     padding: 4px 0 4px 28px;
 }
+
 
 .excerpt { }
 
@@ -161,16 +196,9 @@ img {
     padding: 5px;
 }
 
-#bottom {
+#footer {
     border-top: 2px solid #CCCCCC;
     margin: 10px auto;
     padding-top: 5px;
-}
-
-.thumbnails img, img.thumbnails {
-    max-width: 100px;
-    max-width: 100px;
-    padding: 5px;
-    float: left;
 }
 

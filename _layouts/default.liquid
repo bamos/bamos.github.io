@@ -21,30 +21,38 @@ topnav:
 </head>
 
 <body>
-  <div id="top">
+<div class="page_margins">
+  <div id="header">
+    <h1><a href="http://olesenm.github.com">Mark Olesen</a></h1>
+    <div class="clear"></div>
+
+    <!-- begin: main navigation #nav -->
+    <div id="nav">
+      <div class="hlist">
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/">Blog</a></li>
+          <li><a href="/archives/">Archives</a></li>
+          <li><a href="/tags/">Categories</a></li>
+          <li style="float:right;"><a href="http://github.com/olesenm">GitHub Profile</a></li>
+          <li style="float:none;" class="clear"></li>
+        </ul>
+      </div>
+    </div>
+    <!-- end: main navigation -->
   </div>
 
-  <div id="content">
-    <div id="banner">
-      <h1><a href="http://olesenm.github.com">Mark Olesen</a></h1>
-      <div class="clear"></div>
-      <ul>
-        <li><a href="/about">About</a></li>
-        <li><a href="/">Blog</a></li>
-        <li><a href="/archives/">Archives</a></li>
-        <li><a href="/tags/">Categories</a></li>
-        <li style="float:right"><a href="http://github.com/olesenm">GitHub Profile</a></li>
-        <li style="float:none;" class="clear"></li>
-      </ul>
-    </div>
-
-    <div id="page">
-      <div id="main">
+  <!-- begin: main content area #main -->
+  <div id="main">
+    <div id="col1">
+      <div id="col1_content">
         {{ content }}
       </div>
-      <div id="sidebar">
-        <h3>GitHub projects</h3>
-        <ul id="links">
+    </div>
+    <div id="col3">
+      <div id="col3_content">
+        <h6 class="vlist">GitHub projects</h6>
+        <ul class="vlist">
           <li>
             <a
               href="http://olesenm.github.com/flex-grid"
@@ -58,8 +66,8 @@ topnav:
               >xml-qstat</a>
           </li>
         </ul>
-        <h3>Misc. Links</h3>
-        <ul id="links">
+        <h6 class="vlist">Misc. Links</h6>
+        <ul class="vlist">
           <li>
             <a
               href="http://gridengine.sunsource.net"
@@ -79,12 +87,13 @@ topnav:
           </ul>
         <br/>
       </div>
-      <div class="clear"></div>
-
     </div>
+    <div class="clear"></div>
   </div>
+  <!-- end: #main -->
 
-  <div id="bottom">
+  <!-- begin: #footer -->
+  <div id="footer">
     <a href="/about/">About</a> |
     <a href="http://olesenm.github.com">Blog</a> |
     <a href="/archives/">Archives</a> |
@@ -92,6 +101,9 @@ topnav:
     &ndash;
     updated {{ site.time | date:"%Y-%m-%d" }}
   </div>
+  <!-- end: #footer -->
+
+</div>
 
 </body>
 </html>

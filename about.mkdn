@@ -27,6 +27,7 @@ external links.
   <a href="http://github.com/olesenm/olesenm.github.com">git repository</a>
   &ndash;
   The layout is slightly reworked from
-  <a href="http://jduff.github.com">John Duff's</a>
+  <a href="http://jduff.github.com">John Duff's</a>, with elements borrowed
+  from <a href="http://www.yaml.de/en/">YAML</a>
 </small>
 
