@@ -12,7 +12,9 @@ get buried in mailing lists.
 ### Disclaimers
 
 The contents of the blog represent my *personal* opinion and are not
-authorized by any of the companies or institutions mentioned.
+authorized by any of the companies or institutions mentioned, nor is any
+affiliation implied. No responsibility is taken for the contents of
+external links.
 
 - [Grid Engine&reg;](http://gridengine.sunsource.net/) is a registered
   trademark of [SUN microsystems](http://www.sun.com/)
@@ -21,6 +23,9 @@ authorized by any of the companies or institutions mentioned.
 
 
 <small class="meta">
+  The contents of these pages are managed in a
+  <a href="http://github.com/olesenm/olesenm.github.com">git repository</a>
+  &ndash;
   The layout is slightly reworked from
   <a href="http://jduff.github.com">John Duff's</a>
 </small>
