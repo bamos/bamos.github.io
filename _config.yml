@@ -4,15 +4,14 @@ lsi:         false
 server_port: 4000
 pygments:    true
 markdown:    maruku
-# permalink:  date
+#permalink:   date
 permalink:   pretty
-paginate: 5
+paginate:    5
 maruku:
-  use_tex:    false
-  use_divs:   false
-  png_dir:    images/latex
-  png_url:    /images/latex
+  use_tex:   false
+  use_divs:  false
+  png_dir:   images/latex/
+  png_url:   /images/latex/
 exclude:
   - README.txt
   - Rakefile
-

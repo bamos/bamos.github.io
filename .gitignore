@@ -31,8 +31,9 @@
 # ignore misc build directories
 /build-*/
 
-# ignore jekyll-generated directory
+# ignore jekyll-generated directories
 /_site/
+/images/latex/
 
 # in case we want our gh-pages branch close at hand
 /gh-pages
