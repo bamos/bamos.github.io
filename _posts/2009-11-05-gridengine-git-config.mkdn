@@ -14,7 +14,7 @@ and simply used [git](http://git-scm.org) for the backend storage.
 After seeing the simplicity of the solution and its usefulness, it looked to
 be a *must have*, except that I generally use git for almost everything and
 adding subversion to the mix would be annoying. The crux point thus seemed
-to be replacing `svn_load_dirs.pl` to import and update everything with an
+to be replacing `svn_load_dirs.pl` (to import and update everything) with an
 equivalent `git-load-dirs`. Unfortunately, `git-load-dirs` would
 make the script dependent on a number of additional python modules.
 
@@ -32,8 +32,9 @@ reveals two obviously useful command-line options:
 
 The resulting
 [GridEngine-git-config](http://github.com/olesenm/flex-grid/blob/master/scripts/GridEngine-git-config)
-script is now part of the [flex-grid](http://olesenm.github.com/flex-grid/)
-{programs](http://olesenm.github.com/flex-grid/programs.html).
+script is now part of the
+[programs](http://olesenm.github.com/flex-grid/programs.html) in
+[flex-grid](http://olesenm.github.com/flex-grid/).
 
 In the current long form it adds various error checking and intelligence to
 avoid creating unnecessary snapshots, but stripped of all that it essentially
@@ -92,3 +93,16 @@ and
 
 both of which only rely on git being installed.
 
+
+For convenience, the GridEngine-git-config script provides a pass-through
+for some common git commands:
+- *GridEngine-git-config*  ***log***
+- *GridEngine-git-config*  ***ls-files***
+- *GridEngine-git-config*  ***show***
+- *GridEngine-git-config*  ***whatchanged***
+
+Under normal circumstances, the ***show*** and ***whatchanged*** would be
+the most useful means of seeing which changes have occurred.
+
+The `git instaweb` or the `gitweb.cgi` can also be used to browse the
+changes.

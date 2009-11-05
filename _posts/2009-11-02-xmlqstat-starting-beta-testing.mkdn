@@ -14,7 +14,7 @@ this:
 - ./make-httpi.sh and answer the questions
 - start the newly configured httpi-xmlqstat
 - edit the config/config.xml to reflect your cluster names
-  and their SGE_ROOT, SGE_CELL
+  and their SGE\_ROOT, SGE\_CELL
 - direct your browser to the http://{host:port}/xmlqstat/ for httpi
 
 The only system requirements: Perl + GridEngine.
