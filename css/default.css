@@ -24,10 +24,13 @@ p {
     margin-top: 10px;
 }
 
-h1, h2, h3,
+h1, h2, h3 {
+    color: #000;
+}
+
 h1 a, h2 a, h3 a,
 a.read-more {
-    color: #000;
+    color: #993300;
 }
 
 a.read-more {
@@ -173,16 +176,34 @@ img {
 }
 
 #col3_content {
-  padding-left: 10px;
-  padding-right: 20px;
-  padding-bottom: 50px;
-  /* add border */
-  border-left: 1px solid #ddd;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    /* add border */
+    border-left: 1px solid #ddd;
+}
+
+#col3_content a {
+    color: #993300;
 }
 
 .post, .excerpt {
     line-height: 20px;
 }
+
+h3.excerpt {
+    font-weight: bold;
+    font-size: 100%;
+    color: #993300;
+    border-top: 2px solid #ddd;
+    border-bottom: 4px #888 solid;
+}
+
+h3.excerpt a {
+    color: #993300;
+    text-decoration: none;
+}
+
 
 .paging {
     margin: 20px 0px;
@@ -209,23 +230,23 @@ img {
 /* title */
 
 h3.vlist, h6.vlist {
-  font-weight: bold;
-  font-size: 100%;
-  margin:0;
-  color: #444;
-  background-color: #fff;
-  border-top: 2px solid #ddd;
-  border-bottom: 4px #888 solid;
+    font-weight: bold;
+    font-size: 100%;
+    margin:0;
+    color: #444;
+    background-color: #fff;
+    border-top: 2px solid #ddd;
+    border-bottom: 4px #888 solid;
 }
 
 h3.vlist {
-  width: 20%;
-  padding: 3px 0px 3px 3px; /* LTR */
+    width: 20%;
+    padding: 3px 0px 3px 3px; /* LTR */
 }
 
 h6.vlist {
-  width: 90%;
-  padding: 3px 0px 3px 10%; /* LTR */
+    width: 90%;
+    padding: 3px 0px 3px 10%; /* LTR */
 }
 
 .vlist {

@@ -4,10 +4,10 @@ title:  blog, ideas, etc.
 ---
 
 {% for post in paginator.posts %}
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <h3 class="excerpt"><a href="{{ post.url }}">{{ post.title }}</a></h3>
   <p class="excerpt">
     {{ post.content | strip_html | truncatewords: 50 }} &nbsp;
-    <a href="{{ post.url }}" class="read-more">Read more</a>
+    <a href="{{ post.url }}" class="read-more">read more</a>
   </p>
   <small class="meta">
     {{ post.date | date:"%d %b %Y" }}

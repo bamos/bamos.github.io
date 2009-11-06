@@ -16,15 +16,15 @@ Dynamics](http://en.wikipedia.org/wiki/Computational_fluid_dynamics).
 
 I am well-versed in Perl, which I consider an excellent tool for data
 munging and for a variety of other tasks. Since starting to use OpenFOAM for
-CFD calculations a few years back, I have also upgraded my C++ skills to
-suit. As a further outcome of practicing CFD, which generally requires
+CFD calculations a few years ago, I have also upgraded my C++ skills to
+match. As a further outcome of practicing CFD, which generally requires
 parallel processing to achieve acceptable run-times, I continue to
 reconfigure and maintain a Linux cluster using GridEngine as the resource
 management (queuing) system.
 
 As a side-note, I maintained and enhanced an orphaned
 [rxvt](http://en.wikipedia.org/wiki/Rxvt) many years ago when my
-underpowered workstation found XTerm to be a too much of a memory hog.
+underpowered workstation found XTerm to be a memory hog.
 
 
 ### Disclaimers ###{: class="vlist"}
