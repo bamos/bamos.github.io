@@ -3,13 +3,31 @@ layout: default
 title:  About
 ---
 
-### This site
+### This site ###{: class="vlist"}
 
 Born out of necessity (to get github project pages working), I figured
 blogging may even prove a useful means of noting things that would otherwise
 get buried in mailing lists.
 
-### Disclaimers
+### About me ###{: class="vlist"}
+
+My background is in [Computational Fluid
+Dynamics](http://en.wikipedia.org/wiki/Computational_fluid_dynamics).
+
+I am well-versed in Perl, which I consider an excellent tool for data
+munging and for a variety of other tasks. Since starting to use OpenFOAM for
+CFD calculations a few years back, I have also upgraded my C++ skills to
+suit. As a further outcome of practicing CFD, which generally requires
+parallel processing to achieve acceptable run-times, I continue to
+reconfigure and maintain a Linux cluster using GridEngine as the resource
+management (queuing) system.
+
+As a side-note, I maintained and enhanced an orphaned
+[rxvt](http://en.wikipedia.org/wiki/Rxvt) many years ago when my
+underpowered workstation found XTerm to be a too much of a memory hog.
+
+
+### Disclaimers ###{: class="vlist"}
 
 The contents of the blog represent my *personal* opinion and are not
 authorized by any of the companies or institutions mentioned, nor is any
@@ -23,11 +41,10 @@ external links.
 
 
 <small class="meta">
-  The contents of these pages are managed in a
-  <a href="http://github.com/olesenm/olesenm.github.com">git repository</a>
-  &ndash;
-  The layout is slightly reworked from
-  <a href="http://jduff.github.com">John Duff's</a>, with elements borrowed
-  from <a href="http://www.yaml.de/en/">YAML</a>
+The page contents are managed in a
+<a href="http://github.com/olesenm/olesenm.github.com">git repository</a>
+and published with <a href="http://jekyllrb.com">jekyll</a>. Some elements
+borrowed from <a href="http://www.yaml.de/en/">YAML</a>.
+
 </small>
 

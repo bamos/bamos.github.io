@@ -5,6 +5,7 @@ topnav:
     href: /about
   - text: Blog
     href: /
+    http: "http://olesenm.github.com"
   - text: Archives
     href: /archives/
   - text: Categories
@@ -29,7 +30,7 @@ topnav:
 <body>
 <div class="page_margins">
   <div id="header">
-    <h1><a href="http://olesenm.github.com">Mark Olesen</a></h1>
+    <h2><a href="http://olesenm.github.com">Mark Olesen</a></h2>
     <div class="clear"></div>
 
     <!-- begin: main navigation #nav -->
@@ -37,8 +38,8 @@ topnav:
       <div class="hlist">
         <ul>
           {% for t in page.topnav %}
-          {% if t.text == navTitle %}<li id="current">{% else %}<li>{% endif %}
-          <a href="{{ t.href }}" {% if t.title %}title="{{ t.title }}"{% endif %}>{{ t.text }}</a>
+          <li{% if t.text == navTitle %} class="active"{% endif %}>
+          <a href="{{ t.href }}"{% if t.title %} title="{{ t.title }}"{% endif %}>{{ t.text }}</a>
           </li>
           {% endfor %}
           <li><a href="http://github.com/olesenm">GitHub</a></li>
@@ -79,6 +80,9 @@ topnav:
               href="http://gridengine.sunsource.net"
               >GridEngine</a>:
             <a
+              href="http://gridengine.info/"
+              >info</a>
+            <a
               href="http://wiki.gridengine.info/wiki/"
               >wiki</a>
           </li>
@@ -100,12 +104,19 @@ topnav:
 
   <!-- begin: #footer -->
   <div id="footer">
-    <a href="/about/">About</a> |
-    <a href="http://olesenm.github.com">Blog</a> |
-    <a href="/archives/">Archives</a> |
-    <a href="/tags/">Categories</a>
-    &ndash;
-    updated {{ site.time | date:"%Y-%m-%d" }}
+    <div class="hlist">
+      <ul>
+        {% for t in page.topnav %}
+        <li{% if t.text == navTitle %} class="active"{% endif %}>
+        <a href="{% if t.http %}{{ t.http }}{% else %}{{ t.href }}{% endif %}"
+        {% if t.title %} title="{{ t.title }}"{% endif %}
+        >{{ t.text }}</a>
+        {% if forloop.last == false %} | {% endif %}
+        </li>
+        {% endfor %}
+        <li>&ndash; updated {{ site.time | date:"%Y-%m-%d" }}</li>
+      </ul>
+    </div>
   </div>
   <!-- end: #footer -->
 
