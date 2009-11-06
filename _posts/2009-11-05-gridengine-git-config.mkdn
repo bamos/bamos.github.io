@@ -18,7 +18,7 @@ to be replacing `svn_load_dirs.pl` (to import and update everything) with an
 equivalent `git-load-dirs`. Unfortunately, `git-load-dirs` would
 make the script dependent on a number of additional python modules.
 
-Luckily, every now and then it pays to *rtfm* instead of just searching
+Luckily, every now and then it pays to *RTFM* instead of just searching
 everywhere in the internet for a solution. Using `git --help` or `man git`
 reveals two obviously useful command-line options:
 
@@ -27,8 +27,8 @@ reveals two obviously useful command-line options:
             setting the GIT_DIR environment variable...
 
         --work-tree=<path>
-            Set the path to the working tree...
-
+            Set the path to the working tree... This can also be controlled by
+            setting the GIT_WORK_TREE environment variable...
 
 The resulting
 [GridEngine-git-config](http://github.com/olesenm/flex-grid/blob/master/scripts/GridEngine-git-config)
@@ -52,13 +52,14 @@ export SGE_ROOT SGE_CELL GIT_DIR
 . $SGE_ROOT/$SGE_CELL/common/settings.sh
 
 # Create a fresh empty directory
-GIT_WORK_TREE=$(mktemp -d)
-trap "rm -rf $GIT_WORK_TREE 2>/dev/null; exit 0" EXIT TERM INT
+tmpDir=$(mktemp -d)
+trap "rm -rf $tmpDir 2>/dev/null; exit 0" EXIT TERM INT
 
 $SGE_ROOT/util/upgrade_modules/save_sge_config.sh $GIT_WORK_TREE
 
 (
-    cd $GIT_WORK_TREE || exit 1;
+    cd $tmpDir || exit 1
+    GIT_WORK_TREE=.; export GIT_WORK_TREE
 
     # use backup_date for the commit message
     msg=$(cat backup_date)
@@ -70,15 +71,14 @@ $SGE_ROOT/util/upgrade_modules/save_sge_config.sh $GIT_WORK_TREE
     if [ "$needsCommit" = true ]
     then
         # register all new files
-        git --work-tree=. add .
+        git add .
 
         # commit everything
-        git --work-tree=. commit -a -m "$msg"
+        git commit -a -m "$msg"
     else
         echo "no changes to be committed $msg"
     fi
 )
-
 {% endhighlight %}
 
 
