@@ -22,13 +22,13 @@ Luckily, every now and then it pays to *RTFM* instead of just searching
 everywhere in the internet for a solution. Using `git --help` or `man git`
 reveals two obviously useful command-line options:
 
-        --git-dir=<path>
-            Set the path to the repository. This can also be controlled by
-            setting the GIT_DIR environment variable...
+    --git-dir=<path>
+        Set the path to the repository. This can also be controlled by
+        setting the GIT_DIR environment variable...
 
-        --work-tree=<path>
-            Set the path to the working tree... This can also be controlled by
-            setting the GIT_WORK_TREE environment variable...
+    --work-tree=<path>
+        Set the path to the working tree... This can also be controlled by
+        setting the GIT_WORK_TREE environment variable...
 
 The resulting
 [GridEngine-git-config](http://github.com/olesenm/flex-grid/blob/master/scripts/GridEngine-git-config)
@@ -85,11 +85,11 @@ $SGE_ROOT/util/upgrade_modules/save_sge_config.sh $GIT_WORK_TREE
 Stripped down to the essentials, the `svn_load_dirs.pl` has been replaced by
 the tandem
 
-        git add .
+    git add .
 
 and
 
-        git commit -a
+    git commit -a
 
 both of which only rely on git being installed.
 

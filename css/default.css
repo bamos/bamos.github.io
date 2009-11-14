@@ -24,6 +24,12 @@ p {
     margin-top: 10px;
 }
 
+pre, code
+{
+    color: #880000;
+    margin-bottom: 1em;
+}
+
 h1, h2, h3 {
     color: #000;
 }

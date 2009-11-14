@@ -68,7 +68,6 @@ normal branch. If the coding doesn't work, you can just leave it about as an
 unused branch that might prove useful for coding ideas later or else just
 delete it.
 
-
 Apart from using local non-tracked branches, the only other significant
 change to your workflow would be to use `git fetch` followed by `git merge`
 instead of the simpler `git pull`. This has the following advantages:
@@ -95,15 +94,14 @@ about getting things going.
 Assuming */data/app/OpenFOAM* as the applications directory, create a
 directory for all OpenFOAM-related things (if it doesn't already exist)
 and change there:
-{% highlight console %}
+
     $ mkdir -p /data/app/OpenFOAM
     $ cd /data/app/OpenFOAM
-{% endhighlight %}
 
 We can use a single `clone` command to start things off
-{% highlight console %}
+
     $ git clone --origin repo git://repo.or.cz/OpenFOAM-1.6.x.git
-{% endhighlight %}
+
 The leading *git://* protocol can also be replaced by *http://* if there is
 a firewall blocking the git port 9418. if you have the choice though, the
 *git://* protocol is more efficient (faster).
@@ -123,26 +121,25 @@ This is the very first thing that we wish to change, but to be on the safe
 side we'll first find out where we are.
 
 List all branches (local and remote):
-{% highlight console %}
+
     $ git branch -a -l
       * master
         repo/master
-{% endhighlight %}
+
 the branch with the '\*' is the current (active) branch.
 
 Before we create a new local branch and remove the tracking branch, we should
 also be careful and verify that the tree and the staging area are clean:
-{% highlight console %}
+
     $ git status
-{% endhighlight %}
 
 If you have been working cleanly, there shouldn't be anything showing up
 here as being staged or needing committing. If some files show up as being
 modified, you should check what has changed before deciding if you want to
 keep these changes or not:
-{% highlight console %}
+
     $ git diff
-{% endhighlight %}
+
 
 If you have inadvertently made changes to a particular file that you would
 like to discard, using `git checkout HEAD some/path/fileName` will retrieve
@@ -150,15 +147,15 @@ a fresh copy from the repository.
 
 Assuming everything is clean, we can simply start our *userName* branch (in
 my case *olesen* as the user-name) from the current position:
-{% highlight console %}
+
     $ git checkout -b userName HEAD
-{% endhighlight %}
+
 We can also do the same thing if we want to have a branch point starting at
 the current position of *repo/master*, except here we would need to instruct
 git not to track the remote:
-{% highlight console %}
+
     $ git checkout --no-track -b userName repo/master
-{% endhighlight %}
+
 When you start sharing repositories with coworkers, you will soon appreciate
 that each user has given their branch a unique name.
 
@@ -167,18 +164,16 @@ aren't tempted to start working on a tracking branch again, we'll delete it
 immediately. Note that this only removes the branching information, not any
 of the OpenFOAM files themselves. If we wish, we can re-create a tracking
 branch at any time.
-{% highlight console %}
+
     $ git branch -d master
-{% endhighlight %}
 
 We can now develop asynchronously between branches with our changes on
 *userName* and all of the upstream changes on *repo/master*. If we want to
 see which commits exist on one branch but not on the other, it is now a bit
 easier:
-{% highlight console %}
+
     $ git log --no-merges userName ^repo/master
     $ git log --no-merges repo/master ^userName
-{% endhighlight %}
 
 
 ---------------
@@ -306,33 +301,33 @@ On any local branch:
 - Work, work, work, commit, work, work, work, commit
 
 Periodically fetch changes:
-{% highlight console %}
+
     $ git fetch repo
     $ git getrepo   # using the git alias
-{% endhighlight %}
+
 
 See what has changed that we don't already have:
-{% highlight console %}
+
     $ git log --stat --no-merges repo/master ^HEAD
     $ git logrepo   # using the git alias
-{% endhighlight %}
+
 
 Or see what changed at all:
-{% highlight console %}
+
     $ git show repo/master
     $ git show repo/master~1
     $ git diff HEAD repo/master
-{% endhighlight %}
+
 
 Or just what changed:
-{% highlight console %}
+
     $ git whatchanged repo/master
-{% endhighlight %}
+
 
 Continue to work/commit, or merge now (only on a clean tree):
-{% highlight console %}
+
     $ git merge repo/master
-{% endhighlight %}
+
 
 Merging without any local changes just fast-forwards the branch.
 
@@ -348,15 +343,15 @@ usual translates to using a USB stick to connect the two repositories.
 The command `git bundle` is used to pack changes. After the USB stick has
 been transported to its new location, it can be added as a new remote
 repository that we'll call *bundle* for the sake of convenience:
-{% highlight console %}
+
     $ git remote add bundle /media/TOSHIBA/transfer/home2work.gitbundle
     $ git remote show bundle
-{% endhighlight %}
+
 The fetch/merge is identical to any other remote repository:
-{% highlight console %}
+
     $ git fetch bundle
     $ git merge bundle/home
-{% endhighlight %}
+
 Examining the *.git/config* file reveals that the *bundle* remote is indeed
 fetching from a particular file on the USB stick:
 {% highlight ini %}
