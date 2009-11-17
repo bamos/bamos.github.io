@@ -39,26 +39,26 @@ In addition to the original environment, the following environment variables
 are also defined internally (since almost all of the OpenFOAM solvers and
 utilities use the *argList* class):
 
-*FOAM_CASE*
+*FOAM\_CASE*
 : set to the path of the global case (same for serial and parallel jobs).
   This corresponds roughly to the value provided by the *-case* option or
   the current working directory if the *-case* option was not specified.
 
-*FOAM_CASENAME*
+*FOAM\_CASENAME*
 : set to the name of the global case. This is the equivalent of the basename
-  of *FOAM_CASE* (ie, stripped of any leading directory components).
+  of *FOAM\_CASE* (ie, stripped of any leading directory components).
 
 
-Whereas the *FOAM_CASENAME* variable is new in the OpenFOAM-1.6 version, the
-*FOAM_CASE* variable has existed for sometime in OpenFOAM. With *FOAM_CASE*,
+Whereas the *FOAM\_CASENAME* variable is new in the OpenFOAM-1.6 version, the
+*FOAM\_CASE* variable has existed for sometime in OpenFOAM. With *FOAM\_CASE*,
 we have a convenient means of addressing locations elsewhere within our
 calculation case. This is often useful when specifying the location of
 tabulated boundary conditions that don't really fit anywhere nicely in
 OpenFOAM's constant/system/*timeValue* directory scheme.
 
-If you happen to encounter a dictionary that uses *$FOAM_ROOT/$FOAM_CASE*,
+If you happen to encounter a dictionary that uses *$FOAM\_ROOT/$FOAM\_CASE*,
 this is from the days before OpenFOAM had the *-case* option. In current
-versions (OpenFOAM-1.5 and newer), *$FOAM_ROOT/* is no longer defined or
+versions (OpenFOAM-1.5 and newer), *$FOAM\_ROOT/* is no longer defined or
 needed and you can simply remove it.
 
 ---------------
@@ -89,7 +89,7 @@ A much more elegant solution is to simply use file links. For example,
 Of course since we have linked in the entire *constant/* and *system/*
 directories, it is going to be rather difficult to modify anything in
 *newCalc/system/* without inadvertently changing the values for
-*oldCalc/system/*. The solution is to have slightly modified versions of 
+*oldCalc/system/*. The solution is to have slightly modified versions of
 the important *system/* dictionaries (ie, *system/controlDict*,
 *system/decomposeParDict*, *system/fvSchemes*, *system/fvSolution*) that
 have a very minor modification near the end of them:
@@ -106,7 +106,7 @@ and
 #includeIfPresent "$FOAM_CASE/fvSolution"
 {% endhighlight %}
 
-*etc.* 
+*etc.*
 
 This makes it possible to share most of the settings while retaining the
 ability to make local adjstments for a particular case without affecting the
@@ -160,7 +160,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * //
 #include        "$FOAM_CASE/boundaryConditions"
-dimensions      [0 0 0 1 0 0 0];                                               
+dimensions      [0 0 0 1 0 0 0];
 internalField   uniform $temperature;
 
 inletCondition
@@ -176,10 +176,10 @@ wallCondition
 {% endhighlight %}
 
 The first point of interest is that we place all of our boundary conditions
-in a single file and place this file directly in the *$FOAM_CASE* directory.
+in a single file and place this file directly in the *$FOAM\_CASE* directory.
 This not only lets us share the *0/* files between the calculations, it also
 places all of our essential boundary conditions in a single file where they
-are easy to find and simple to edit. The *$FOAM_CASE/boundaryConditions*
+are easy to find and simple to edit. The *$FOAM\_CASE/boundaryConditions*
 file would contain something like this:
 
 {% highlight cpp %}
@@ -192,7 +192,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * //
 flowRate        0.2;     // 720 kg/h
-pressure        1.15e+5; 
+pressure        1.15e+5;
 temperature     1273;    // 1000 C
 intensity       0.1;
 mixingLength    0.005;
@@ -215,8 +215,8 @@ boundaryField
 {% endhighlight %}
 
 
-The contents (if any) of the "*$FOAM_CASE/boundaryField*" and
-"*$FOAM_CASE/boundaryField-$FOAM_CASENAME*" files can now be used to specify
+The contents (if any) of the "*$FOAM\_CASE/boundaryField*" and
+"*$FOAM\_CASE/boundaryField-$FOAM\_CASENAME*" files can now be used to specify
 which particular patches are currently to have an *inletCondition* and which
 should have a *wallCondition* etc.
 
