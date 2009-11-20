@@ -33,6 +33,12 @@ name:   "http://olesenm.github.com"
   <priority>0.5</priority>
   <changefreq>weekly</changefreq>
 </url>
+<url>
+  <loc>{{ page.name }}/other/</loc>
+  <lastmod>{{ site.time | date:"%Y-%M-%d" }}</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
 </url>
   <loc>{{ page.name }}/page2/</loc>
   <lastmod>{{ site.time | date:"%Y-%M-%d" }}</lastmod>

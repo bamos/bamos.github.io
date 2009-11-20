@@ -1,0 +1,11 @@
+---
+layout: default
+title:  Other
+---
+
+### Miscellaneous ###{: class="vlist"}
+
+- [DANSIS](http://www.dansis.dk) presentation about the *Integration,
+  interoperability and symbiosis* of [OpenFOAM and
+  Star-CD](/doc/DANSIS2007-StarCD-OpenFOAM-MarkOlesen.pdf)
+
