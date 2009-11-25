@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Moving flex-grid entirely to github
-tags: [gridengine, flexlm, github]
+tags: [gridengine, flexlm]
 ---
 
 The transition to github is almost complete.

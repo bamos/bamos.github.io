@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting started with OpenFOAM and git
-tags: [OpenFOAM]
+tags: [OpenFOAM, git]
 ---
 
 I have the general impression from the
