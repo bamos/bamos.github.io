@@ -135,7 +135,7 @@ To get a general idea of where most of the changes occurred:
 
         git diff --stat foam15x/master foam16x/master
 
-which we can also restrict to to particular path:
+which we can also restrict to a particular path:
 
         git diff --stat foam15x/master foam16x/master src/OpenFOAM/db
 
@@ -169,12 +169,12 @@ the development continues after a release:
          o  1.5.x
 
 
-The changes in *development* should not find their way into the stable
-*1.5.x* branch unless they are clearly necessary bugfixes or feature
-requests with limited impingement on the overall code. Even many innocent
-cosmetic changes should probably not be applied to the stable branch -- do
-you really want to recompile everything just because someone tweaked the
-documentation formatting in some key header?
+The changes in *development* should normally not find their way into the
+stable *1.5.x* branch unless they are clearly necessary bugfixes or feature
+requests with limited impingement on the overall code. Even many seemingly
+innocent cosmetic changes should probably not be applied to the stable
+branch -- do you really want to recompile everything just because someone
+tweaked the documentation formatting in some key header?
 
 Thus in short, the *development* and *1.5.x* branches will rapidly diverge
 in their git histories. Bugfixes will be applied to both the *development*
@@ -215,21 +215,21 @@ branches be split across separate repositories. However, there are also
 advantages to having separate repositories:
 
 *Pro*
-: no confusion for users about which version they are using -- one
+: No confusion for users about which version they are using -- one
   repository per OpenFOAM version.
-: the git repositories have fewer changes in them and are thus smaller
+: The git repositories have fewer changes in them and are thus smaller
   and faster.
 
 *Contra*
-: the git history of the internal development repository is missing from the
+: The git history of the internal development repository is missing from the
   released versions.
 
 
 The only remaining difficulty (or irritation) might be that the git history
 of the internal development repository is missing from the released
-versions. I don't know if we *really* need to know every step of OpenCFD's
-internal development in order to use OpenFOAM. It might help, it might be
-interesting, but probably isn't necessary.
+versions. I don't know if we *really* need to know every step of OpenFOAM's
+internal development in order to use it. It might help, it might be
+interesting, but probably isn't strictly necessary.
 
 On the other hand, I can quite understand why there is no *OpenFOAM-dev*
 repository published between official releases. Just imagine the flood of
