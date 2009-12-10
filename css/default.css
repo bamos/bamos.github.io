@@ -282,6 +282,20 @@ h6.vlist {
     padding: 5px;
 }
 
+/* extra space before final entry */
+.final {
+    margin-top: 15px;
+}
+
+/* colors like a post-it note */
+.note {
+    display: block;
+    background-color: #FFFF99;
+    border: 1px solid #CCCCCC;
+    color: black;
+    padding: 5px;
+}
+
 #footer {
     border-top: 2px solid #ddd;
     padding-top: 5px;

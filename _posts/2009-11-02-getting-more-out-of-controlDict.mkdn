@@ -90,3 +90,31 @@ to remove particular elements again.
 In addition to the extra flexibility, the new dictionary form is internally
 *slightly* more efficient too.
 
+
+<div class="note">
+  Note added 2009-12-10.
+  <br/>
+  The #remove directive currently does not actually work as I suggested,
+  since the remove action is restricted to the current dictionary scope
+  and thus does not affect other dictionary contents when merged.
+  For example,
+
+<small><pre>
+    dict
+    {
+       foo xxx;
+       bar yyy;
+    }
+
+    dict
+    {
+       baz zzz;
+       #remove foo
+    }
+</pre></small>
+
+  This only removes 'foo' from the current scope (the second dict), since it
+  occurs before the dictionary merge does.
+
+</div>
+

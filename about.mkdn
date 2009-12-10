@@ -39,7 +39,7 @@ external links.
 - [OpenFOAM&reg;](http://www.openfoam.org/) is a registered trademark
   of [OpenCFD Ltd.](http://www.opencfd.co.uk/)
 
-<small class="meta">
+<small class="meta final">
 The site content is managed in a
 <a href="http://github.com/olesenm/olesenm.github.com">git repository</a>
 and published with <a href="http://jekyllrb.com">jekyll</a>. Some elements
