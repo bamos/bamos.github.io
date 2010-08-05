@@ -36,13 +36,15 @@ external links.
 
 - [Grid Engine&reg;](http://gridengine.sunsource.net/) is a registered
   trademark of [SUN microsystems](http://www.sun.com/)
-- [OpenFOAM&reg;](http://www.openfoam.org/) is a registered trademark
-  of [OpenCFD Ltd.](http://www.opencfd.co.uk/)
+- [OpenFOAM&reg;](http://www.openfoam.com/) is a registered trademark
+  of [OpenCFD Ltd.](http://www.openfoam.com/about/)
 
 <small class="meta final">
 The site content is managed in a
 <a href="http://github.com/olesenm/olesenm.github.com">git repository</a>
-and published with <a href="http://jekyllrb.com">jekyll</a>. Some elements
-borrowed from <a href="http://www.yaml.de/en/">YAML</a>.
+and published with <a href="http://jekyllrb.com">jekyll</a>.
+<br/>The site layout can be reused with (cc)
+<a href="http://creativecommons.org/licenses/by-sa/3.0/">some rights reserved</a>.
+Some layout elements are borrowed from <a href="http://www.yaml.de/en/">YAML</a>.
 </small>
 
