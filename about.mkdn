@@ -13,7 +13,7 @@ varied interests. This website is under construction.
 Full credit for the beautiful layout of this site goes to
 [Mark Olsen](https://github.com/olesenm/olesenm.github.com).
 It is licensed with (cc)
-[some rights reserved](http://creativecommons.org/licenses/by-sa/3.0/)
+[Attribution-ShareAlike 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
 
 The site content is managed with [GitHub](http://github.com/bamos/bamos.github.com)
 and published with [jekyll](http://jekyllrb.com).
