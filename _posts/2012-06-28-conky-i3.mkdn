@@ -1,0 +1,67 @@
+--
+layout: post
+title: Using Conky with the i3 Window Manager
+tags: [Linux]
+--
+
+
+I've recently started using the [i3](http://i3wm.org/)
+[window manager](http://en.wikipedia.org/wiki/X_window_manager) in place
+of [ratpoison](http://www.nongnu.org/ratpoison/) and I've had a wonderful
+experience thus far. I love it! Not to put down ratpoison, though; it's
+also a great window manager.
+
+This article is to tell you how to use conky with i3 through i3bar. When
+I was doing this, I probably skimmed over the part in the
+[documentation](http://i3wm.org/docs/userguide.html#status_comman) too
+fast that said "i3bar can run a program and display every line of its
+stdout output on the right hand side of the bar." This then caused me
+to spend some time researching this. I'm documenting this because
+nobody else has done so, probably because it's so simple.
+
+Conveniently, referencing the [conky configuration settings]
+(http://conky.sourceforge.net/config_settings.html), setting out_to_x to
+false (no) and out_to_console to true (yes) lets conky be used as a
+command line program that prints the status at a set interval rather
+than using X.
+
+For example, here is my simple .conkyrc file:
+
+    # ~/.conkyrc
+
+    out_to_x no
+    out_to_console yes
+
+    update_interval 1
+
+    TEXT
+    Kernel: $kernel :: \
+    Uptime: $uptime :: \
+    CPU: $cpu% :: \
+    Temp: $acpitemp°C :: \
+    RAM: $memperc% :: \
+    Battery: $battery_percent% :: \
+    HD: $fs_used / $fs_size :: \
+    Network: ${exec netcfg current}\
+    ${exec if [[ -z `netcfg current` ]]; then echo None; fi;} :: \
+    ${time %A %B %d, %Y :: %I:%M:%S %p}
+
+Note that conky can be run from the command line now:
+
+    brandon@tchaikovsky:~/ $ conky
+    Kernel: 3.4.4-2-ARCH :: Uptime: 1h 57m 48s :: CPU: 11% :: Temp: 49°C :: RAM: 16% :: Battery: 99% :: HD: 14.1GiB / 39.0GiB :: Network: Home :: Friday June 29, 2012 ::  3:51:58 PM
+    Kernel: 3.4.4-2-ARCH :: Uptime: 1h 57m 49s :: CPU: 11% :: Temp: 49°C :: RAM: 16% :: Battery: 99% :: HD: 14.1GiB / 39.0GiB :: Network: Home :: Friday June 29, 2012 ::  3:51:59 PM
+    Kernel: 3.4.4-2-ARCH :: Uptime: 1h 57m 50s :: CPU: 10% :: Temp: 49°C :: RAM: 16% :: Battery: 99% :: HD: 14.1GiB / 39.0GiB :: Network: Home :: Friday June 29, 2012 ::  3:52:00 PM
+
+This command just needs to be tied back in with i3 in the bar section of the configuration file. Mine looks like this:
+
+    # ~/.i3/config
+
+    [...]
+
+    bar {
+      status_command conky
+    }
+
+After i3 is restarted (mod+Shift+r), conky's output should be displayed
+in the status bar.
