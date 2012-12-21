@@ -6,9 +6,10 @@ title:  About
 ### About me ###{: class="vlist"}
 
 I am a Computer Science undergraduate at [Virginia Tech](http://www.cs.vt.edu) with
-varied interests. This site is under construction.
+varied interests. This website is under construction.
 
-<small class="meta final">
+### About this site ###{: class="vlist"}
+
 Full credit for the beautiful layout of this site goes to
 [Mark Olsen](https://github.com/olesenm/olesenm.github.com).
 It is licensed with (cc)
@@ -16,5 +17,3 @@ It is licensed with (cc)
 
 The site content is managed with [GitHub](http://github.com/bamos/bamos.github.com)
 and published with [jekyll](http://jekyllrb.com).
-</small>
-
