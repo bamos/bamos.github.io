@@ -27,7 +27,7 @@ than using X.
 
 For example, here is my simple .conkyrc file:
 
-{% highlight bash linenos %}
+{% highlight bash %}
 # ~/.conkyrc
 
 out_to_x no
@@ -46,11 +46,11 @@ HD: $fs_used / $fs_size :: \
 Network: ${exec netcfg current}\
 ${exec if [[ -z `netcfg current` ]]; then echo None; fi;} :: \
 ${time %A %B %d, %Y :: %I:%M:%S %p}
-{% endhighlight}
+{% endhighlight %}
 
 Note that conky can be run from the command line now:
 
-{% highlight bash linenos %}
+{% highlight bash %}
 brandon@tchaikovsky:~/ $ conky
 Kernel: 3.4.4-2-ARCH :: Uptime: 1h 57m 48s :: CPU: 11% :: Temp: 49°C :: RAM: 16% :: Battery: 99% :: HD: 14.1GiB / 39.0GiB :: Network: Home :: Friday June 29, 2012 ::  3:51:58 PM
 Kernel: 3.4.4-2-ARCH :: Uptime: 1h 57m 49s :: CPU: 11% :: Temp: 49°C :: RAM: 16% :: Battery: 99% :: HD: 14.1GiB / 39.0GiB :: Network: Home :: Friday June 29, 2012 ::  3:51:59 PM
@@ -59,7 +59,7 @@ Kernel: 3.4.4-2-ARCH :: Uptime: 1h 57m 50s :: CPU: 10% :: Temp: 49°C :: RAM: 16
 
 This command just needs to be tied back in with i3 in the bar section of the configuration file. Mine looks like this:
 
-{% highlight bash linenos %}
+{% highlight bash %}
 # ~/.i3/config
 
 [...]
