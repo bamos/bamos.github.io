@@ -1,8 +1,8 @@
---
+---
 layout: post
 title: Using Conky with the i3 Window Manager
 tags: [Linux]
---
+---
 
 
 I've recently started using the [i3](http://i3wm.org/)
