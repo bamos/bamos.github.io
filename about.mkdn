@@ -3,48 +3,18 @@ layout: default
 title:  About
 ---
 
-### This site ###{: class="vlist"}
-
-Born out of necessity (to get github project pages working), I figured
-blogging may even prove a useful means of noting things that would otherwise
-get buried in mailing lists.
-
 ### About me ###{: class="vlist"}
 
-My background is in [Computational Fluid
-Dynamics](http://en.wikipedia.org/wiki/Computational_fluid_dynamics).
-
-I am well-versed in Perl, which I consider an excellent tool for data
-munging and for a variety of other tasks. Since starting to use OpenFOAM for
-CFD calculations a few years ago, I have also upgraded my C++ skills to
-match. As a further outcome of practicing CFD, which generally requires
-parallel processing to achieve acceptable run-times, I continue to
-reconfigure and maintain a Linux cluster using GridEngine as the resource
-management (queuing) system.
-
-As a side-note, I maintained and enhanced an orphaned
-[rxvt](http://en.wikipedia.org/wiki/Rxvt) many years ago when my
-underpowered workstation found XTerm to be a memory hog.
-
-
-### Disclaimers ###{: class="vlist"}
-
-The contents of the blog represent my *personal* opinion and are not
-authorized by any of the companies or institutions mentioned, nor is any
-affiliation implied. No responsibility is taken for the contents of
-external links.
-
-- [Grid Engine&reg;](http://gridengine.sunsource.net/) is a registered
-  trademark of [SUN microsystems](http://www.sun.com/)
-- [OpenFOAM&reg;](http://www.openfoam.com/) is a registered trademark
-  of [OpenCFD Ltd.](http://www.openfoam.com/about/)
+I am a Computer Science undergraduate at [Virginia Tech](http://www.cs.vt.edu) with
+varied interests. This site is under construction.
 
 <small class="meta final">
-The site content is managed in a
-<a href="http://github.com/olesenm/olesenm.github.com">git repository</a>
-and published with <a href="http://jekyllrb.com">jekyll</a>.
-<br/>The site layout can be reused with (cc)
-<a href="http://creativecommons.org/licenses/by-sa/3.0/">some rights reserved</a>.
-Some layout elements are borrowed from <a href="http://www.yaml.de/en/">YAML</a>.
+Full credit for the beautiful layout of this site goes to
+[Mark Olsen](https://github.com/olesenm/olesenm.github.com).
+It is licensed with (cc)
+[some rights reserved](http://creativecommons.org/licenses/by-sa/3.0/)
+
+The site content is managed with [GitHub](http://github.com/bamos/bamos.github.com)
+and published with [jekyll](http://jekyllrb.com).
 </small>
 

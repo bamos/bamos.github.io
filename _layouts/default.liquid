@@ -10,14 +10,12 @@ topnav:
     href: /archives/
   - text: Categories
     href: /tags/
-  - text: Other
-    href: /other/
 ---
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>Brandon Amos : {{ page.title }} </title>
+<title>Brandon Amos: {{ page.title }} </title>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 <meta name="language" content="en" />
 <link rel="stylesheet" type="text/css" href="/css/default.css" />
@@ -60,49 +58,24 @@ topnav:
     </div>
     <div id="col3">
       <div id="col3_content">
-        <h6 class="vlist">GitHub projects</h6>
+        <h6 class="vlist">Links</h6>
         <ul class="vlist">
           <li>
             <a
-              href="http://bamos.github.com/flex-grid"
-              title="Tools for GridEngine integration"
-              >flex-grid</a>
+              href="http://www.facebook.com/bdamos"
+              >Facebook</a>
           </li>
           <li>
             <a
-              href="http://bamos.github.com/xml-qstat"
-              title="Web-based status monitoring of Grid Engine clusters"
-              >xml-qstat</a>
+              href="https://plus.google.com/100160904081630441204"
+              >Google+</a>
+          </li>
+          <li>
+            <a
+              href="http://www.linkedin.com/profile/view?id=165493965"
+              >Linkedin</a>
           </li>
         </ul>
-        <h6 class="vlist">Misc. Links</h6>
-        <ul class="vlist">
-          <li>
-            <a
-              href="http://gridengine.sunsource.net"
-              >GridEngine</a>:
-            <a
-              href="http://gridengine.info/"
-              >info</a>
-            <a
-              href="http://wiki.gridengine.info/wiki/"
-              >wiki</a>
-          </li>
-          <li>
-            <a
-              href="http://www.openfoam.com"
-              >OpenFOAM</a>:
-            <a
-              href="http://github.com/OpenCFD/OpenFOAM-2.0.x"
-              >2.0.x git</a>
-            <a
-              href="http://www.cfd-online.com/Forums/openfoam/"
-              >forums</a>
-            <a
-              href="http://openfoamwiki.net/"
-              >wiki</a>
-          </li>
-          </ul>
         <br/>
       </div>
     </div>
@@ -122,7 +95,7 @@ topnav:
         {% if forloop.last == false %} | {% endif %}
         </li>
         {% endfor %}
-        <li>&ndash; updated {{ site.time | date:"%Y-%m-%d" }}</li>
+        <li>&ndash; Last Generated {{ site.time | date:"%Y-%m-%d" }}</li>
       </ul>
     </div>
   </div>
