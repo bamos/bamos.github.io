@@ -1,41 +1,29 @@
-# git-ls-files --others --exclude-from=.git/info/exclude
-# Lines that start with '#' are comments.
+_layout/ideas.txt
 
-# editor and misc backup files - anywhere
 *~
 .*~
 *.orig
 *.bak
 \#*\#
 
-# file-browser settings - anywhere
 .directory
 
-# CVS recovered versions - anywhere
 .\#*
 
-# objects and archives - anywhere
 *.[oa]
 *.la
 *.so
 *.jar
 
-# source packages - anywhere
 *.tar.bz2
 *.tar.gz
 *.tgz
 
-# ignore the persistent .build tag in the main directory
 /.build
 
-# ignore misc build directories
 /build-*/
 
-# ignore jekyll-generated directories
 /_site/
 /images/latex/
 
-# in case we want our gh-pages branch close at hand
 /gh-pages
-
-# end-of-file
