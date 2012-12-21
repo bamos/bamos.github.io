@@ -27,41 +27,47 @@ than using X.
 
 For example, here is my simple .conkyrc file:
 
-    # ~/.conkyrc
+{% highlight bash linenos %}
+# ~/.conkyrc
 
-    out_to_x no
-    out_to_console yes
+out_to_x no
+out_to_console yes
 
-    update_interval 1
+update_interval 1
 
-    TEXT
-    Kernel: $kernel :: \
-    Uptime: $uptime :: \
-    CPU: $cpu% :: \
-    Temp: $acpitemp°C :: \
-    RAM: $memperc% :: \
-    Battery: $battery_percent% :: \
-    HD: $fs_used / $fs_size :: \
-    Network: ${exec netcfg current}\
-    ${exec if [[ -z `netcfg current` ]]; then echo None; fi;} :: \
-    ${time %A %B %d, %Y :: %I:%M:%S %p}
+TEXT
+Kernel: $kernel :: \
+Uptime: $uptime :: \
+CPU: $cpu% :: \
+Temp: $acpitemp°C :: \
+RAM: $memperc% :: \
+Battery: $battery_percent% :: \
+HD: $fs_used / $fs_size :: \
+Network: ${exec netcfg current}\
+${exec if [[ -z `netcfg current` ]]; then echo None; fi;} :: \
+${time %A %B %d, %Y :: %I:%M:%S %p}
+{% endhighlight}
 
 Note that conky can be run from the command line now:
 
-    brandon@tchaikovsky:~/ $ conky
-    Kernel: 3.4.4-2-ARCH :: Uptime: 1h 57m 48s :: CPU: 11% :: Temp: 49°C :: RAM: 16% :: Battery: 99% :: HD: 14.1GiB / 39.0GiB :: Network: Home :: Friday June 29, 2012 ::  3:51:58 PM
-    Kernel: 3.4.4-2-ARCH :: Uptime: 1h 57m 49s :: CPU: 11% :: Temp: 49°C :: RAM: 16% :: Battery: 99% :: HD: 14.1GiB / 39.0GiB :: Network: Home :: Friday June 29, 2012 ::  3:51:59 PM
-    Kernel: 3.4.4-2-ARCH :: Uptime: 1h 57m 50s :: CPU: 10% :: Temp: 49°C :: RAM: 16% :: Battery: 99% :: HD: 14.1GiB / 39.0GiB :: Network: Home :: Friday June 29, 2012 ::  3:52:00 PM
+{% highlight bash linenos %}
+brandon@tchaikovsky:~/ $ conky
+Kernel: 3.4.4-2-ARCH :: Uptime: 1h 57m 48s :: CPU: 11% :: Temp: 49°C :: RAM: 16% :: Battery: 99% :: HD: 14.1GiB / 39.0GiB :: Network: Home :: Friday June 29, 2012 ::  3:51:58 PM
+Kernel: 3.4.4-2-ARCH :: Uptime: 1h 57m 49s :: CPU: 11% :: Temp: 49°C :: RAM: 16% :: Battery: 99% :: HD: 14.1GiB / 39.0GiB :: Network: Home :: Friday June 29, 2012 ::  3:51:59 PM
+Kernel: 3.4.4-2-ARCH :: Uptime: 1h 57m 50s :: CPU: 10% :: Temp: 49°C :: RAM: 16% :: Battery: 99% :: HD: 14.1GiB / 39.0GiB :: Network: Home :: Friday June 29, 2012 ::  3:52:00 PM
+{% endhighlight %}
 
 This command just needs to be tied back in with i3 in the bar section of the configuration file. Mine looks like this:
 
-    # ~/.i3/config
+{% highlight bash linenos %}
+# ~/.i3/config
 
-    [...]
+[...]
 
-    bar {
-      status_command conky
-    }
+bar {
+  status_command conky
+}
+{% endhighlight %}
 
 After i3 is restarted (mod+Shift+r), conky's output should be displayed
 in the status bar.
