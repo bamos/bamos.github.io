@@ -99,7 +99,9 @@ topnav:
         {% if forloop.last == false %} | {% endif %}
         </li>
         {% endfor %}
-        <li>&ndash; Last Generated {{ site.time | date:"%Y-%m-%d" }}</li>
+        <li><small><em>
+            &ndash; Generated {{ site.time | date:"%Y.%m.%d" }}
+        </em><small></li>
       </ul>
     </div>
   </div>
