@@ -16,7 +16,7 @@ The script is available on
 ### Example###{: class="vlist"}
 
 {% highlight bash %}
-./compare-dirs.sh test_dir1 test_dir2                                             [2012.12.24 10:47:49 PM]
+./compare-dirs.sh test_dir1 test_dir2
 Creating checksums for files in dir1.
 Checking files in dir2.
 md5:  60b725f10c9c85c70d97880dfe8191b3
