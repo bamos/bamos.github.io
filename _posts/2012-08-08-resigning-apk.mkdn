@@ -15,7 +15,7 @@ The script that I posted on
 takes the name of the apk as a parameter and
 automatically resigns the application.
 
-### Example
+### Example###{: class="vlist"}
 
 {% highlight bash %}
 $ ./re-signer.sh foo.apk 
