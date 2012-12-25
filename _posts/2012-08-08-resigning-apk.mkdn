@@ -10,17 +10,12 @@ the application needs to be re-signed with a debug certificate. I was able to fi
 [Drag and Drop](http://www.troido.de/en/downloadslsmallgsoftware-a-driverslsmallg)
 application that automatically resigns applications. However, nothing I found met 
 my needs of doing this to an entire directory of apk files via the command line.
-The script that I posted
-[here](https://github.com/bamos/android-antimalware/blob/master/TestSuite/re-signer.sh)
-on my GitHub does just this. It takes the name of the apk as a parameter and
+The script that I posted on
+[GitHub](https://github.com/bamos/simple-shell-scripts/blob/master/re-signer.sh)
+takes the name of the apk as a parameter and
 automatically resigns the application.
 
-Note that you have to have everything set up correctly before running the
-script for it to work properly. I don't do much error checking on utility
-scripts because I make them simply for making a task that can be done
-manually easier with not much more.
-
-Following is a usage example of the script.
+### Example
 
 {% highlight bash %}
 $ ./re-signer.sh foo.apk 

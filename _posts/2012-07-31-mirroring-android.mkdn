@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Configuring Gerrit Code Review to Mirror the Android Repository
+title: Configuring Gerrit Code Review to mirror the Android repository
 tags: [Android]
 ---
 

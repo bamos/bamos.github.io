@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using rtcwake as an Alarm Clock in Linux
+title: Using rtcwake as an alarm clock in Linux
 tags: [Linux]
 ---
 
@@ -23,43 +23,8 @@ The modifications I made simplify both the code and its usage. If it's
 executed without any parameters, the time defaults to 5:00 and if the
 time is passed as a parameter, it sets the alarm for that time.
 Nothing else needs to be thought about.
-
-{% highlight bash %}
-#!/bin/bash
-# alarm.sh
-# Auto suspend and wake-up script
-#
-# Puts the computer on standby and automatically wakes it up at specified time
-#
-# Written by Romke van der Meulen <redge.online@gmail.com>
-# Minor mods fossfreedom for AskUbuntu
-# Minor mods by Brandon Amos <http://www.brandonamos.org> for default time and cleaner code
-
-# Sets the desired time for the next occuring time
-# so the desired time isn't before $NOW
-set_desired() {
-    NOW=$((`date +%s`))
-    DESIRED=$((`date +%s -d "$1"`))
-    if [ $DESIRED -lt $NOW ]; then
-        DESIRED=$((`date +%s -d "tomorrow $1"`))
-    fi
-}
-
-# If nothing is passed as a parameter, default to the next 
-# occuring 5:00, otherwise, read the first parameter
-if [ $# -lt 1 ]; then
-    set_desired 5:00
-else
-    set_desired $(echo -n "$1$2")
-fi
-
-# Kill rtcwake (if necessary) and call it again
-killall rtcwake > /dev/null 2>&1
-rtcwake -l -m mem -t $DESIRED
-
-# Turn off the display after waking
-xset dpms force off
-{% endhighlight %}
+The most recent version of this script can be found on 
+[GitHub](https://github.com/bamos/simple-shell-scripts/blob/master/alarm.sh).
 
 Usage examples (Executed at 6:51 AM on July 11th):
 {% highlight bash %}
