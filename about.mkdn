@@ -3,12 +3,11 @@ layout: default
 title:  About
 ---
 
+<img class="alignright border" src="/images/me.jpg"/>
 ### About me ###{: class="vlist"}
-I am a Computer Science undergraduate at
-[Virginia Tech](http://www.cs.vt.edu) with
-varied interests.
-
-This website is under construction.
+I am a Computer Science undergraduate at [Virginia Tech](http://www.cs.vt.edu)
+with varied interests, most of them guessable. The purpose of this
+website is twofold: to share and archive my work.
 
 ### About this site ###{: class="vlist"}
 Full credit for the beautiful layout of this site goes to
@@ -16,8 +15,8 @@ Full credit for the beautiful layout of this site goes to
 The layout is licensed with 
 [Attribution-ShareAlike 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 
-The site content is managed on GitHub
-([source](http://github.com/bamos/bamos.github.com))
+The site content is managed on 
+[GitHub](http://github.com/bamos/bamos.github.com)
 and published with [jekyll](http://jekyllrb.com).
 Unless otherwise stated, all content is licensed with
 [Attribution 3.0 Unported](http://creativecommons.org/licenses/by/3.0/deed.en_US).
