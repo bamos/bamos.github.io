@@ -14,8 +14,7 @@ This website is under construction.
 Full credit for the beautiful layout of this site goes to
 [Mark Olsen](https://github.com/olesenm/olesenm.github.com).
 The layout is licensed with 
-[Attribution-ShareAlike 3.0](
-    http://creativecommons.org/licenses/by-sa/3.0/).
+[Attribution-ShareAlike 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 
 The site content is managed on GitHub
 ([source](http://github.com/bamos/bamos.github.com))
