@@ -3,7 +3,9 @@ layout: default
 title:  About
 ---
 
-<img class="alignright border" src="/images/me.jpg"/>
+<a href="/images/me-large.jpg">
+    <img class="alignright border" src="/images/me.jpg"/>
+</a>
 ### About me ###{: class="vlist"}
 I am a Computer Science undergraduate at [Virginia Tech](http://www.cs.vt.edu)
 with varied interests, most of them guessable. The purpose of this
