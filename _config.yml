@@ -1,10 +1,12 @@
+name: "Brandon Amos: Blog"
+description: The personal blog of Brandon Amos
+url: http://bamos.github.com
 destination: ./_site
 auto:        false
 lsi:         false
 server_port: 4000
 pygments:    true
 markdown:    maruku
-#permalink:   date
 permalink:   pretty
 paginate:    5
 maruku:
