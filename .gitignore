@@ -1,29 +1,6 @@
 _posts/ideas
 
-*~
-.*~
-*.orig
-*.bak
-\#*\#
-
-.directory
-
-.\#*
-
-*.[oa]
-*.la
-*.so
-*.jar
-
-*.tar.bz2
-*.tar.gz
-*.tgz
-
-/.build
-
-/build-*/
+*.swp
 
 /_site/
 /images/latex/
-
-/gh-pages
