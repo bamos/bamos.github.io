@@ -16,7 +16,7 @@ takes the name of the apk as a parameter and
 automatically resigns the application.
 
 ### Example###{: class="vlist"}
-<br>
+<br/>
 {% highlight bash %}
 $ ./re-signer.sh foo.apk 
 Moving the original apk to a temporary location
