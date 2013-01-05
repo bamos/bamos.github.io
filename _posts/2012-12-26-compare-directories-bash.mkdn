@@ -14,7 +14,7 @@ The script is available on
 [GitHub](https://github.com/bamos/simple-shell-scripts/blob/master/compare-dirs.sh).
 
 ### Example###{: class="vlist"}
-
+<br>
 {% highlight bash %}
 ./compare-dirs.sh test_dir1 test_dir2
 Creating checksums for files in dir1.

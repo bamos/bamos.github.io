@@ -4,7 +4,7 @@ title:  About
 ---
 
 <a href="/images/me-large.jpg">
-    <img class="alignright border" src="/images/me.jpg"/>
+    <img class="alignright border" src="/images/me.jpg" alt="Me"/>
 </a>
 ### About me ###{: class="vlist"}
 I am a Computer Science undergraduate at [Virginia Tech](http://www.cs.vt.edu)
@@ -16,6 +16,9 @@ Full credit for the beautiful layout of this site goes to
 [Mark Olsen](https://github.com/olesenm/olesenm.github.com).
 The layout is licensed with 
 [Attribution-ShareAlike 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
+
+The XML for the RSS feed was obtained from
+[snaptortoise/jekyll-rss-feeds](https://github.com/snaptortoise/jekyll-rss-feeds).
 
 The site content is managed on 
 [GitHub](http://github.com/bamos/bamos.github.com)

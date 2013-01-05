@@ -13,7 +13,7 @@ topnav:
 ---
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>Brandon Amos: {{ page.title }} </title>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
@@ -124,10 +124,10 @@ topnav:
         {% endfor %}
         <li><small><em>
             &ndash; Generated {{ site.time | date:"%Y.%m.%d" }}
-        </em><small></li>
+        </em></small></li>
       </ul>
       <a href="/feed.xml">
-        <img class="alignright" src="/images/rss.png">
+        <img class="alignright" src="/images/rss.png" alt="RSS Feed"/>
       </a>
     </div>
   </div>
