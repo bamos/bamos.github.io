@@ -28,11 +28,11 @@ work.
 Trackbacks
 ----------
 
-+ https://help.ubuntu.com/10.04/serverguide/mysql.html
-+ http://gerrit.googlecode.com/svn/documentation/2.2.1/install.html
-+ http://source.android.com/source/using-repo.html
-+ http://groups.google.com/group/repo-discuss
-+ http://source.android.com/source/version-control.html
++ [https://help.ubuntu.com/10.04/serverguide/mysql.html](https://help.ubuntu.com/10.04/serverguide/mysql.html)
++ [http://gerrit.googlecode.com/svn/documentation/2.2.1/install.html](http://gerrit.googlecode.com/svn/documentation/2.2.1/install.html)
++ [http://source.android.com/source/using-repo.html](http://source.android.com/source/using-repo.html)
++ [http://groups.google.com/group/repo-discuss](http://groups.google.com/group/repo-discuss)
++ [http://source.android.com/source/version-control.html](http://source.android.com/source/version-control.html)
 
 Preconditions
 -------------------
