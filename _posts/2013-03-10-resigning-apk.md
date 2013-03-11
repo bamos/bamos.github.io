@@ -16,8 +16,7 @@ The script that I posted on
 takes the name of the apk as a parameter and
 automatically resigns the application.
 
-### Example###{: class="vlist"}
-<br/>
+### Usage
 {% highlight bash %}
 $ ./re-signer.sh foo.apk 
 Moving the original apk to a temporary location
@@ -78,3 +77,39 @@ Verification succesful
 Signing the apk
 Cleaning up
 {% endhighlight %}
+
+# Prerequisites
+Before running the script, ensure:
+
+ 1. You have created a debug key with `keytool`.
+    The command for this is found in the script.
+ 2. The `JARSIGNER` and `KEYSTORE` variables have been
+    updated to your specific configuration.
+    At the time of writing this (March 2013), `JARSIGNER` needs JDK6
+    because JDK7 handles certificates differently.
+
+# Script Overview
+First, move the apk to a temporary location.
+{% highlight bash %}
+NAME=$(echo $1 | sed s'/\.apk$//')
+mv $NAME.apk $NAME-temp.apk
+{% endhighlight %}
+
+Then, unzip the apk, remove META-INF, and zip and align the contents.
+{% highlight bash %}
+unzip $NAME-temp.apk -d $NAME
+cd $NAME
+rm -rf META-INF
+zip -r ../$NAME-nometa.apk *
+cd ..
+rm -rf $NAME
+zipalign -v 4 $NAME-nometa.apk $NAME.apk
+{% endhighlight %}
+
+Lastly, sign the apk and remove excess files.
+{% highlight bash %}
+$JARSIGNER -keystore $KEYSTORE-storepass android \
+    -keypass android $NAME.apk androiddebugkey
+rm $NAME-temp.apk $NAME-nometa.apk
+{% endhighlight %}
+
