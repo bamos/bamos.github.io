@@ -19,7 +19,7 @@ the LaTeX document template.
 These files are available on
 [GitHub](https://github.com/bamos/simple-shell-scripts/).
 
-## Usage
+#### Usage
 
 Create a file with the days of the week as follows. Also, create
 a png file with your signature and put them in the same directory
@@ -45,7 +45,7 @@ The pdf of the timesheet is placed in the `Archives` directory.
 [See example.](/data/2013-02-10/2013.02.01.pdf)
 
 
-## LaTeX Template
+#### LaTeX Template
 `template.tex` is mostly a normal LaTeX document.
 The interesting areas to note are:
 
@@ -159,7 +159,7 @@ Hours Certified By:
 \end{document}
 {% endhighlight %}
 
-## Shell Script
+#### Shell Script
 The magic is in the shell script `timesheet.sh`.
 
 First, the helper function `die` is defined to echo a message and exit.
@@ -196,7 +196,7 @@ mv template.pdf Archives/$PDF
 mv $INPUT Archives/
 {% endhighlight %}
 
-### Populating the table.
+##### Populating the table.
 
 First, use the simple helper function `delimit_days` to delimit 7 arguments
 with the first argument.
@@ -271,7 +271,7 @@ function populate_table {
 }
 {% endhighlight %}
 
-### Checking the correct date.
+##### Checking the correct date.
 [sed](http://www.grymoire.com/Unix/Sed.html) is used to modify the
 LaTeX template directly. First, all boxes are unchecked.
 Then, a regex with 3 groups is used to search for line with the
@@ -292,7 +292,7 @@ function check_date_box {
 }
 {% endhighlight %}
 
-### Getting the filename.
+##### Getting the filename.
 The technique discussed [here](http://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash)
 is used to trim the extension from the filename.
 
@@ -305,7 +305,7 @@ function get_filename {
 }
 {% endhighlight %}
 
-### Entire script.
+##### Entire script.
 
 {% highlight bash %}
 #!/bin/bash

@@ -13,7 +13,7 @@ information for the files in directory1.
 The script is available on
 [GitHub](https://github.com/bamos/simple-shell-scripts/blob/master/compare-dirs.sh).
 
-## Example
+#### Example
 {% highlight bash %}
 ./compare-dirs.sh test_dir1 test_dir2
 Creating checksums for files in dir1.
@@ -27,7 +27,7 @@ dir1: test_dir1/b
 dir2: test_dir2/b
 {% endhighlight %}
 
-## Script Overview
+#### Script Overview
 
 First, define functions to check for correctness.
 {% highlight bash %}
@@ -100,7 +100,7 @@ populate_dir1_arrays
 check_dir2
 {% endhighlight %}
 
-## Entire script
+#### Entire script
 {% highlight bash %}
 #!/bin/bash
 #
