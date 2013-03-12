@@ -24,7 +24,7 @@ This Mathematica script produces the following B-splines:
 <img src="/data/2013-03-12/1-B5.jpg" width="350px"/>
 
 #### Script
-{% highlight %}
+{% highlight ocaml %}
 #!/usr/local/bin/MathematicaScript -script
 
 (* bsplines-functions.m *)
