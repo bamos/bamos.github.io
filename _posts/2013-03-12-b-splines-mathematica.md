@@ -37,7 +37,7 @@ bspline[j_Integer, 1, t_List,x_] := If[
     0.0
 ];
 
-(* Use the recurrence relationship de Boor gives on page 90 *)
+(* Use the recurrence relationship de Boor gives on page 90. *)
 bspline[i_Integer, k_Integer, t_List, x_] :=
     If[ t[[i+k-1]] == t[[i]],
         0.0,
