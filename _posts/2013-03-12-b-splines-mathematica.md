@@ -24,12 +24,20 @@ This Mathematica script produces the following B-splines:
 <img src="/data/2013-03-12/1-B5.jpg" width="350px"/>
 
 #### Script
+The script is fairly short. I run it in my Linux shell and
+the [hashbang](http://en.wikipedia.org/wiki/Shebang_(Unix)) is set
+to execute `MathematicaScript` so the script can be run as:
+
+{% highlight bash %}
+$ ./plot-bsplines.m
+{% endhighlight %}
+
+
 {% highlight ocaml %}
 #!/usr/local/bin/MathematicaScript -script
 
-(* bsplines-functions.m *)
+(* plot-bsplines.m *)
 (* Brandon Amos *)
-(* 2012.10.24 *)
 
 bspline[j_Integer, 1, t_List,x_] := If[
     t[[j]] <= x < t[[j+1]],
