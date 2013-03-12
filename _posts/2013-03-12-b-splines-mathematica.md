@@ -24,14 +24,16 @@ This Mathematica script produces the following B-splines:
 <img src="/data/2013-03-12/1-B5.jpg" width="350px"/>
 
 #### Script
-The script is fairly short. I run it in my Linux shell and
-the [hashbang](http://en.wikipedia.org/wiki/Shebang_(Unix)) is set
+The script is fairly short and should run on any platform.
+Though, I use my Linux shell and
+the [hashbang](http://en.wikipedia.org/wiki/Shebang_(Unix) is set
 to execute `MathematicaScript` so the script can be run as:
 
 {% highlight bash %}
 $ ./plot-bsplines.m
 {% endhighlight %}
 
+The body of the script is:
 
 {% highlight ocaml %}
 #!/usr/local/bin/MathematicaScript -script
