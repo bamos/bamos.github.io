@@ -19,9 +19,6 @@ Scala project.
 + To run tests: `sbt test`
 
 #### Testing with ScalaTest
-As with all proper test-driven development,
-I'll start by showing the tests.
-
 The tests use ScalaTest's `AssertionsForJunit` class
 and rely on asserting a simple list is sorted.
 There is also a simple test case for the heap used
