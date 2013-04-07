@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Evaluating and Plotting B-Splines in Mathematica
+title: Evaluating and plotting B-Splines with Mathematica
 tags: [Mathematica]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Detecting duplicate files in 2 directories via Bash
-tags: [Linux, Bash]
+title: Detecting duplicate files in 2 directories with Bash
+tags: [Bash]
 ---
 
 Detecting duplicate files between 2 directories is straightforward
