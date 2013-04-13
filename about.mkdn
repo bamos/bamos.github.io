@@ -25,5 +25,3 @@ The XML for the RSS feed was obtained from
 The site content is managed on 
 [GitHub](http://github.com/bamos/bamos.github.com)
 and published with [jekyll](http://jekyllrb.com).
-Unless otherwise stated, all content is licensed with
-[Attribution 3.0 Unported](http://creativecommons.org/licenses/by/3.0/deed.en_US).
