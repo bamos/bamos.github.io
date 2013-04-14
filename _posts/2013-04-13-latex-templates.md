@@ -137,3 +137,6 @@ sagittis urna molestie. Morbi aliquam rutrum viverra.
 \includegraphics[width=\linewidth]{mips.png}
 \end{Figure}
 {% endhighlight %}
+
+##### Class implementation
+See [here](https://github.com/bamos/latex-templates/blob/master/cheatsheet/cheatsheet.cls).
