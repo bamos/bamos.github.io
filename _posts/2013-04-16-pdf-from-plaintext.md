@@ -20,6 +20,8 @@ to convert ps files to pdf files,
 and Bash's
 [here documents](http://tldp.org/LDP/abs/html/here-docs.html)
 to feed the command list.
+[This post](http://vim.wikia.com/wiki/Page_1_of_123_in_header_of_hardcopy)
+from vim's wikia was also helpful for adding the page numbers.
 
 {% highlight bash %}
 #!/bin/bash
