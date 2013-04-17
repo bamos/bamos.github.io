@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating hourly timesheets with Bash and LaTeX
-tags: [Bash,LaTeX]
+tags: [Bash, LaTeX]
 ---
 
 As I made the slow transition from Windows to Linux over the past few years,
