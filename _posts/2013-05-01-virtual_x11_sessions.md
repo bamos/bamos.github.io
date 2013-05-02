@@ -16,8 +16,7 @@ graphical applications with the caveats:
 2. The sessions are not persistent after disconnecting.
 
 Due to both of these issues limiting my work,
-I looked into alternatives, and here are some
-pieces of software that do the job.
+There are free software projects that provide the services I need.
 
 + [NoMachine NX](http://nomachine.com) - An enterprise
   multi-platform solution for remote access and virtual
