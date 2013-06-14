@@ -30,7 +30,6 @@ topnav:
 
 </head>
 
-{% assign navTitle = 'Blog' %}
 {% for t in page.topnav %}
 {% if t.text == page.title %}{% assign navTitle = page.title %}{% endif %}
 {% endfor %}
