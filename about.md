@@ -13,6 +13,7 @@ website is twofold: to share and archive my work.
 
 + If you'd like to get in contact with me, feel free to
 [email](http://www.google.com/recaptcha/mailhide/d?k=01isoY3JTKYdPXHqmBRjYYYA==&c=bzTg1_QbUW16izbfjdRV4w==).
+Please use my PGP key if possible.
 + If you'd like to learn more, see my [vitae](../cv/).
 
 ### About this site ###{: class="vlist"}
