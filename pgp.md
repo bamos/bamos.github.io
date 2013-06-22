@@ -21,3 +21,6 @@ I'm always interested in increasing my
 [web of trust](http://en.wikipedia.org/wiki/Web_of_trust).
 Let's sign keys if we have a way of verifying identities
 (e.g. I know you in person).
+
+### Emails.
+On the topic, I prefer writing emails in plaintext and inlining responses.

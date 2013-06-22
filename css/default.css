@@ -141,7 +141,7 @@ img.border {border:3px solid #888; padding:4px;}
 /* col1: main column */
 #col1 {
     float: left;
-    width: 70%;
+    width: 85%;
 }
 
 
@@ -155,12 +155,12 @@ img.border {border:3px solid #888; padding:4px;}
 #col3 {
     font-size: 0.9em;
     float:  right;
-    width:  25%;
+    width:  10%;
 }
 
 #col3_content {
     padding-left: 10px;
-    padding-right: 20px;
+    padding-right: 10px;
     padding-bottom: 50px;
     /* add border */
     border-left: 1px solid #ddd;
