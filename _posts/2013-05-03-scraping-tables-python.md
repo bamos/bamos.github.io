@@ -9,7 +9,6 @@ class within Python's Standard Library provides a reasonable
 interface for scraping the content from tables amongst a lot
 of extraneous HTML.
 
-In this specific example, I'll show 
 Here, I'll show an example of using this to parse tables with
 country names from
 [NationsOnline](http://www.nationsonline.org/oneworld/countrynames_italian.htm).
