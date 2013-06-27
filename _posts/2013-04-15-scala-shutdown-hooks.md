@@ -6,9 +6,10 @@ tags: [Scala]
 
 When using a
 [JVM language](https://en.wikipedia.org/wiki/List_of_JVM_languages),
-[shutdown hooks](http://docs.oracle.com/javase/7/docs/api/java/lang/Runtime.html#addShutdownHook(java.lang.Thread))
+[shutdown hooks](http://docs.oracle.com/javase/7/docs/api/java/lang/Runtime.html#addShutdownHook(java.lang.Thread)
 are called before the VM shuts down.
-They are also used to catch user interrupts, such as Ctrl-C.
+They are also used to catch user interrupts
+caused by Ctrl-C, for example.
 IBM also has
 [well-written material](http://www.ibm.com/developerworks/ibm/library/i-signalhandling)
 on shutdown hooks and signal handling in Java.
