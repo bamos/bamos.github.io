@@ -25,7 +25,7 @@ h1 a, h2 a, h3 a, a.read-more { color: #993300; }
 a.read-more { font-style: italic; }
 
 img { border: none; }
-img.alignleft {display:inline; float:left; margin:0 15px 5px 0;}
+img.alignleft {float:left; margin:0 15px 5px 0;}
 img.alignright {float:right; margin:0 0 5px 15px;}
 img.border {border:3px solid #888; padding:4px;}
 
