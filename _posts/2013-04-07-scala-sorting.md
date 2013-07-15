@@ -6,9 +6,8 @@ tags: [Scala]
 
 For the purposes of learning [Scala](http://www.scala-lang.org/)
 and familiarizing myself with popular sorting algorithms,
-I have created a
-[scala-sorting](https://github.com/bamos/scala-sorting)
-repository on GitHub.
+There are available at
+[bamos/scala-sorting](https://github.com/bamos/scala-sorting)
 
 It shows an example of using [sbt](http://www.scala-sbt.org/)
 and [ScalaTest](http://www.scalatest.org/) with a basic

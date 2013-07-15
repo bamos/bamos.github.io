@@ -9,8 +9,8 @@ documentation allows printing to a postscript document.
 I've commonly done this within vim with the `hardcopy` command,
 but I now use a shell script to automate this
 and produce a pdf.
-This is available on
-[GitHub](https://github.com/bamos/simple-shell-scripts/blob/master/createpdf.sh).
+This is available at
+[bamos/simple-shell-scripts](https://github.com/bamos/simple-shell-scripts/blob/master/createpdf.sh).
 
 The implementation uses vim's
 [script/batch](http://vimdoc.sourceforge.net/htmldoc/usr_26.html#26.4)

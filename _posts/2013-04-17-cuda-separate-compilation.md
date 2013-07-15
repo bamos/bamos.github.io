@@ -6,8 +6,9 @@ tags: [CUDA]
 
 For projects with many C or C++ files and few CUDA files,
 separate compilation with nvcc and g++ is optimal.
-NVIDIA posted a presentation
-[here](http://developer.download.nvidia.com/GTC/gpu-object-linking.pdf).
+NVIDIA posted a
+[presentation](http://developer.download.nvidia.com/GTC/gpu-object-linking.pdf)
+expraining this.
 Further, there are questions on Stack Overflow about this.
 A few I found are:
  + [G++ NVCC How to compile CUDA code then Link it to a G++ C++ project](http://stackoverflow.com/questions/9421108)

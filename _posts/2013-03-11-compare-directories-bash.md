@@ -10,8 +10,8 @@ Using the following script, I detected 8 duplicate files between a
 directory with 1741 files and a directory with 53 files.
 It should scale as long as Bash is able to maintain an array containing
 information for the files in directory1.
-The script is available on
-[GitHub](https://github.com/bamos/simple-shell-scripts/blob/master/compare-dirs.sh).
+The script is available from
+[bamos/simple-shell-scripts](https://github.com/bamos/simple-shell-scripts/blob/master/compare-dirs.sh).
 
 #### Example
 {% highlight bash %}

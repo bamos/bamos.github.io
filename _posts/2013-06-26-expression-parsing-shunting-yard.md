@@ -10,8 +10,8 @@ as an expression using Dijkstra's
 I wasn't able to find a robust C++ implementation of this algorithm
 that suited my needs. I modified
 [code](http://www.daniweb.com/software-development/cpp/code/427500/calculator-using-shunting-yard-algorithm)
-posted by Jesse Brown and the current version is on
-[GitHub](https://github.com/bamos/cpp-expression-parser).
+posted by Jesse Brown and the current version is at
+[bamos/cpp-expression-parser](https://github.com/bamos/cpp-expression-parser).
 
 #### Minimal example.
 A short example illustrates the features of this implementation.

@@ -11,8 +11,8 @@ find many sources for doing this, including a
 [Drag and Drop](http://www.troido.de/en/downloadslsmallgsoftware-a-driverslsmallg)
 application that automatically resigns applications. However, nothing I found met 
 my needs of doing this to an entire directory of apk files via the command line.
-The script that I posted on
-[GitHub](https://github.com/bamos/simple-shell-scripts/blob/master/re-signer.sh)
+The script that I posted at
+[bamos/simple-shell-scripts](https://github.com/bamos/simple-shell-scripts/blob/master/re-signer.sh)
 takes the name of the apk as a parameter and
 automatically resigns the application.
 

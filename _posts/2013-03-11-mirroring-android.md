@@ -4,8 +4,8 @@ title: Configuring Gerrit Code Review to mirror the Android repository
 tags: [Android]
 ---
 
-This documentation can also be found on
-[GitHub](https://github.com/bamos/mirror-android-repo/blob/master/install-gerrit.md)
+This documentation can also be found at
+[bamos/mirror-android-repo](https://github.com/bamos/mirror-android-repo/blob/master/install-gerrit.md)
 
 Some groups or organizations that work with modified versions of Android
 might find it useful to mirror the repository and manage commits with

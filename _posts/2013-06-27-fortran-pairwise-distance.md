@@ -4,9 +4,11 @@ title: Calculating Euclidean pairwise distance in Fortran.
 tags: [Fortran]
 ---
 
-I've started [GitHub repo](https://github.com/bamos/fortran-simple-routines)
-to host simple Fortran routines in hopes of sharing my code to save time.
-My first and currently only program is to calculate the
+
+I've started
+[bamos/fortran-simple-routines](https://github.com/bamos/fortran-simple-routines)
+to host simple Fortran routines.
+My first and program is to calculate the
 [Euclidean pairwise distance](http://www.mathworks.com/help/stats/pdist.html)
 between pairs of objects in a matrix.
 

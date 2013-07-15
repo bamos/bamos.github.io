@@ -6,7 +6,7 @@ tags: [LaTeX]
 
 I use [LaTeX](http://www.latex-project.org/) whenever possible.
 I've started a collection of templates that I've found
-and modified on [GitHub](https://github.com/bamos/latex-templates).
+and modified at [bamos/latex-templates](https://github.com/bamos/latex-templates).
 Currently, this includes templates that I use for
 [homework](/data/2013-04-13/hw.pdf) and for
 [cheatsheets](/data/2013-04-13/cheatsheet.pdf).

@@ -16,8 +16,8 @@ script and LaTeX file. The shell script parses a plaintext file
 containing a table of the amount of hours I work and inserts it into
 the LaTeX document template.
 
-These files are available on
-[GitHub](https://github.com/bamos/simple-shell-scripts/).
+These scripts are available at
+[bamos/simple-shell-scripts](https://github.com/bamos/simple-shell-scripts/).
 
 #### Usage
 
