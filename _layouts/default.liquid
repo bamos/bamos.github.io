@@ -23,8 +23,11 @@ topnav:
 
 </head>
 
+{% if page.title != "PGP" and page.title != "CV" %}
+  {% assign navTitle = "Blog" %}
+{% endif %}
 {% for t in page.topnav %}
-{% if t.text == page.title %}{% assign navTitle = page.title %}{% endif %}
+  {% if t.text == page.title %}{% assign navTitle = page.title %}{% endif %}
 {% endfor %}
 
 <body>
