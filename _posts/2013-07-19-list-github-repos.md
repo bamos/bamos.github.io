@@ -14,7 +14,10 @@ The script is available from
 and available below for reference.
 
 #### Usage.
-`./list-github-repos.py <user>`
+
+{% highlight bash %}
+./list-github-repos.py <user>
+{% endhighlight %}
 
 This outputs the list of repos and their descriptions to
 stdout and creates a LaTeX snippet `projects-github.tex`
