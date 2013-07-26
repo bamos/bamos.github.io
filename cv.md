@@ -1,11 +1,14 @@
 ---
 layout: default
-title:  CV
+title:  Curriculum Vitae
 ---
 
 ### Curriculum Vitae
 
-[Download.](../data/cv.pdf)
+Below is the [pdf](../data/cv.pdf) of my vitae.
+
+See [bamos/latex-resume-cv](https://github.com/bamos/latex-resume-cv)
+for the LaTeX source and [here](../resume/) for my resume.
 
 <iframe src='../data/cv.pdf' width="720px" height="500px">
   <p>Sorry, your browser doesn't have a PDF plugin.

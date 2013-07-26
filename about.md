@@ -14,7 +14,7 @@ The purpose of this website is twofold: to share and archive my work.
 + If you'd like to get in contact with me, feel free to
 [email](http://www.google.com/recaptcha/mailhide/d?k=01isoY3JTKYdPXHqmBRjYYYA==&c=bzTg1_QbUW16izbfjdRV4w==).<br/>
 Please use [PGP](../pgp) if possible.
-+ If you'd like to learn more, see my [vitae](../cv/).
++ If you'd like to learn more, see my [resume](../resume) or [vitae](../cv/).
 
 ### About this site ###{: class="vlist"}
 Full credit for the beautiful layout of this site goes to
