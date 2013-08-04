@@ -18,12 +18,12 @@ for your emails due to the heterogeneity of emails.
 
 At a high level, `mbox-convos.py` does the following.
 
-  + Reads an `mbox` file and matches messages to or from a
-     list of emails.
-  + Extracts the messages, including
-     [PGP messages](http://bamos.github.io/2013/08/04/python-message-pgp/),
-     and creates a LaTeX document.
-  + Produces a PDF with `pdflatex`.
+1. Reads an `mbox` file and matches messages to or from a
+   list of emails.
+2. Extracts the messages, including
+   [PGP messages](http://bamos.github.io/2013/08/04/python-message-pgp/),
+   and creates a LaTeX document.
+3. Produces a PDF with `pdflatex`.
 
 #### Obtaining an mbox file with getmail.
 [getmail](http://pyropus.ca/software/getmail/)
