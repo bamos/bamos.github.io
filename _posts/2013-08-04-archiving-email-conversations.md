@@ -16,7 +16,7 @@ Unfortunately, I only have this working on my Linux machine.
 You also might have to help me out to get it to work
 for your emails due to the heterogeneity of emails.
 
-See [here](http://127.0.0.1:4000/data/2013-08-05/convos-example.pdf)
+See [here](http://bamos.github.io/data/2013-08-05/convos-example.pdf)
 for a short example produced by
 [this](https://github.com/bamos/mbox-convos/blob/master/example.mbox)
 mbox file.
