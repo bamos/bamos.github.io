@@ -59,11 +59,10 @@ message_log = ~/.getmail/gmail.log
 Hopefully from here you won't have much trouble.
 Let me know if you do!
 
-Run `mbox-convos.py` on your file to create a PDF.
+Run `mbox-convos.py` on your mbox file to create a PDF.
 If you want to decrypt PGP messages,
 just add `--gpgDir ~/.gnupg`.
 
 {% highlight bash %}
-./mbox-convos.py --emails friend@gmail.com \
-  --mboxFile ~/.getmail/gmail-backup.mbox
+./mbox-convos.py --emails friend@gmail.com --mboxFile ~/.getmail/gmail-backup.mbox
 {% endhighlight %}
