@@ -260,7 +260,9 @@ I have also written testing code.
 I usually use the
 [unittest](http://docs.python.org/3.3/library/unittest.html)
 framework to write unit tests for my code.
-However, in this case, I don't use any testing frameworks.
+However, in this case, I don't use any unit testing frameworks
+because most of the functionality of the program is based on
+command line input.
 
 {% highlight python %}
 #!/usr/bin/env python3.3
