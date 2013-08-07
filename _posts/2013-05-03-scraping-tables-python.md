@@ -17,8 +17,10 @@ due to slight changes in the HTML between pages.
 Further, the restriction is applied to not include columns with only
 numbers, and to add an option to generate a pickle.
 
+These are both available from
+[bamos/simple-python-scripts](https://github.com/bamos/simple-python-scripts).
+
 #### Implementation
-[Download](http://bamos.github.io/data/2013-05-03/ScrapeCountries.py)
 
 {% highlight python %}
 #!/usr/bin/env python3.3
@@ -26,6 +28,10 @@ numbers, and to add an option to generate a pickle.
 # ScrapeCountries.py
 #
 # Scrapes countries from http://www.nationsonline.org
+#
+# Note: Because the website fluctuates, this is not up to date and
+#   tests won't all pass. However, I'm leaving this for the HTMLParser
+#   example rather than parsing accuracy.
 #
 # Brandon Amos
 # 2013.04.26
@@ -59,9 +65,6 @@ class URLParser():
     # Some files have <br> in the middle of a <td> tag,
     # and cause the parser to misinterpret the data.
     htmlContent = htmlContent.replace("<br>", "")
-
-    # Unescape HTML entities.
-    h = html.parser.HTMLParser()
 
     # Parse the html.
     parser = CountryParser(numCols, extractionMap, exceptions, strict=False)
@@ -259,12 +262,14 @@ I usually use the
 framework to write unit tests for my code.
 However, in this case, I don't use any testing frameworks.
 
-[Download](http://bamos.github.io/data/2013-05-03/ScrapeCountriesTest.py)
-
 {% highlight python %}
 #!/usr/bin/env python3.3
 #
 # ScrapeCountriesTest.py
+#
+# Note: Because the website fluctuates, this is not up to date and
+#   tests won't all pass. However, I'm leaving this for the HTMLParser
+#   example rather than parsing accuracy.
 #
 # Brandon Amos
 # 2013.05.01
