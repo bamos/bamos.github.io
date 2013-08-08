@@ -1,7 +1,7 @@
 # Brandon Amos
 
 ## About
-This is the source code for my personal website: <http://bamos.github.com>.
+This is the source code for my personal website: <http://bamos.github.io>.
 
 ## Credits
 Full credit for the beautiful layout goes to
