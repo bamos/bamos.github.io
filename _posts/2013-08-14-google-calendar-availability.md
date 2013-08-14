@@ -89,7 +89,7 @@ from datetime import date,datetime
 from tempfile import TemporaryFile
 from time import localtime,mktime,strftime,strptime,time
 
-from IntervalTree import *
+from IntervalTree import Interval,IntervalTree
 
 class TimeInterval(Interval):
   def __repr__(self):
