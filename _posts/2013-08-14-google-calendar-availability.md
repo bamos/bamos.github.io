@@ -12,7 +12,7 @@ The purpose of doing this wasn't to save time overall,
 but to automate a tedious process and
 come up with an interesting implementation.
 
-The Python script is available at
+My solution is a Python 3.3 script, available at
 [bamos/ical-availability](https://github.com/bamos/ical-availability).
 
 #### Example.
