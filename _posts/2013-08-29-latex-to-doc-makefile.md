@@ -56,10 +56,6 @@ provided below and in the repository.
 
 \begin{document}
 
-Disclaimer: This file is originally produced with LaTeX and
-converted to doc format with
-\url{http://github.com/bamos/latex-templates/tree/master/hw-doc}. \\
-
 \headerline{\today}
 {\bf Class - Homework.}
 {Brandon Amos} \\
