@@ -4,22 +4,28 @@ title:  About
 ---
 
 <a href="/images/me-large.jpg">
-    <img class="alignright border" src="/images/me.jpg" alt="Me"/>
+  <img class="alignright border" src="/images/me.jpg" alt="Me"/>
 </a>
-### About me ###{: class="vlist"}
+
+### About me. ###{: class="vlist"}
 I am a Computer Science undergraduate at [Virginia Tech](http://www.cs.vt.edu)
-with varied interests.<br/>
-The purpose of this website is twofold: to share and archive my work.
+intersted in mobile computing, security, and compilers,
+and I hope to start on my PhD in 2014.
+My research interests span across mobile computing, security, compilers.
+I hope to use mobile computing as a platform for novel
+security and/or compiler research.
 
-+ If you'd like to get in contact with me, feel free to
-[email](http://www.google.com/recaptcha/mailhide/d?k=01isoY3JTKYdPXHqmBRjYYYA==&c=bzTg1_QbUW16izbfjdRV4w==).<br/>
-Please use [PGP](../pgp) if possible.
-+ If you'd like to learn more, see my [resume](../resume) or [vitae](../cv/).
+Find my publications on
+[Google Scholar](http://scholar.google.com/citations?user=CZwrwHAAAAAJ)
+and see
+[my vitae](../cv) or
+[email me](http://www.google.com/recaptcha/mailhide/d?k=01isoY3JTKYdPXHqmBRjYYYA==&c=bzTg1_QbUW16izbfjdRV4w==)
+for more info on anything.
 
-### About this site ###{: class="vlist"}
-Full credit for the beautiful layout of this site goes to
-[Mark Olsen](https://github.com/olesenm/olesenm.github.com).<br/>
-The layout is licensed with 
+### Credits and licenses. ###{: class="vlist"}
+The layout was created by
+[Mark Olsen](https://github.com/olesenm/olesenm.github.com)
+and is licensed under
 [Attribution-ShareAlike 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 
 The XML for the RSS feed was obtained from
