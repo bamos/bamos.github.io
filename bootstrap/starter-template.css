@@ -1,0 +1,11 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+img { border: none; }
+img.alignleft {float:left; margin:0 15px 5px 0;}
+img.alignright {float:right; margin:0 0 5px 15px;}
+img.border {border:3px solid #888; padding:4px;}
