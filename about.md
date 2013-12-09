@@ -11,10 +11,6 @@ title:  About
 I am a Computer Science undergraduate at [Virginia Tech](http://www.cs.vt.edu)
 intersted in mobile computing, security, and compilers,
 and I hope to start on my PhD in 2014.
-My research interests span across mobile computing, security, compilers.
-I hope to use mobile computing as a platform for novel
-security and/or compiler research.
-
 Find my publications on
 [Google Scholar](http://scholar.google.com/citations?user=CZwrwHAAAAAJ)
 and see
