@@ -1,0 +1,70 @@
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage[hmargin=0.7in,vmargin=1in,landscape]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{tabularx,array,varwidth}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+{\LARGE Big-O Cheat Sheet} \\
+Generated \today. \\
+Brandon Amos <\url{http://bamos.github.io}>
+
+\newcolumntype{M}{>{\begin{varwidth}{4.5cm}}l<{\end{varwidth}}}
+\section{Searching}
+\begin{tabularx}{\textwidth}{ MXXXXX }
+Algorithm&Data Structure&\multicolumn{2}{l}{Time Complexity}&Space Complexity\\
+\hline
+&&Average&\multicolumn{2}{l}{Worst}\\
+\hline
+Depth First Search (DFS) & Graph of $|V|$ vertices and $|E|$ edges & - & $O\left(|E| + |V|\right)$ & $O\left(|V|\right)$\\
+Breadth First Search (BFS) & Graph of $|V|$ vertices and $|E|$ edges & - & $O\left(|E| + |V|\right)$ & $O\left(|V|\right)$\\
+Binary search & Sorted array of n elements & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(1\right)$\\
+Linear (Brute Force) & Array & $O\left(n\right)$ & $O\left(n\right)$ & $O\left(1\right)$\\
+Shortest path by Dijkstra, using a Min-heap as priority queue & Graph with $|V|$ vertices and $|E|$ edges & $O\left((|V| + |E|) \log |V|\right)$ & $O\left((|V| + |E|) \log |V|\right)$ & $O\left(|V|\right)$\\
+Shortest path by Dijkstra, using an unsorted array as priority queue & Graph with $|V|$ vertices and $|E|$ edges & $O\left(|V|^2\right)$ & $O\left(|V|^2\right)$ & $O\left(|V|\right)$\\
+Shortest path by Bellman-Ford & Graph with $|V|$ vertices and $|E|$ edges & $O\left(|V||E|\right)$ & $O\left(|V||E|\right)$ & $O\left(|V|\right)$\\
+
+\end{tabularx}
+\section{Sorting}
+\begin{tabularx}{\textwidth}{ MXXXXXX }
+Algorithm&Data Structure&\multicolumn{3}{l}{Time Complexity}&Worst Case Auxiliary Space Complexity\\
+\hline
+&&Best&Average&\multicolumn{2}{l}{Worst}\\
+\hline
+Quicksort & Array & $O\left(n \log(n)\right)$ & $O\left(n \log(n)\right)$ & $O\left(n^2\right)$ & $O\left(n\right)$\\
+Mergesort & Array & $O\left(n \log(n)\right)$ & $O\left(n \log(n)\right)$ & $O\left(n \log(n)\right)$ & $O\left(n\right)$\\
+Heapsort & Array & $O\left(n \log(n)\right)$ & $O\left(n \log(n)\right)$ & $O\left(n \log(n)\right)$ & $O\left(1\right)$\\
+Bubble Sort & Array & $O\left(n\right)$ & $O\left(n^2\right)$ & $O\left(n^2\right)$ & $O\left(1\right)$\\
+Insertion Sort & Array & $O\left(n\right)$ & $O\left(n^2\right)$ & $O\left(n^2\right)$ & $O\left(1\right)$\\
+Select Sort & Array & $O\left(n^2\right)$ & $O\left(n^2\right)$ & $O\left(n^2\right)$ & $O\left(1\right)$\\
+Bucket Sort & Array & $O\left(n+k\right)$ & $O\left(n+k\right)$ & $O\left(n^2\right)$ & $O\left(nk\right)$\\
+Radix Sort & Array & $O\left(nk\right)$ & $O\left(nk\right)$ & $O\left(nk\right)$ & $O\left(n+k\right)$\\
+
+\end{tabularx}
+\section{Data Structures}
+\begin{tabularx}{\textwidth}{ MXXXXXXXXXX }
+Data Structure&\multicolumn{8}{l}{Time Complexity}&Space Complexity\\
+\hline
+&\multicolumn{4}{l}{Average}&\multicolumn{5}{l}{Worst}\\
+\hline
+&Indexing&Search&Insertion&Deletion&Indexing&Search&Insertion&Deletion&\\
+\hline
+Basic Array & $O\left(1\right)$ & $O\left(n\right)$ & - & - & $O\left(1\right)$ & $O\left(n\right)$ & - & - & $O\left(n\right)$\\
+Dynamic Array & $O\left(1\right)$ & $O\left(n\right)$ & $O\left(n\right)$ & $O\left(n\right)$ & $O\left(1\right)$ & $O\left(n\right)$ & $O\left(n\right)$ & $O\left(n\right)$ & $O\left(n\right)$\\
+Singly-Linked List & $O\left(n\right)$ & $O\left(n\right)$ & $O\left(1\right)$ & $O\left(1\right)$ & $O\left(n\right)$ & $O\left(n\right)$ & $O\left(1\right)$ & $O\left(1\right)$ & $O\left(n\right)$\\
+Doubly-Linked List & $O\left(n\right)$ & $O\left(n\right)$ & $O\left(1\right)$ & $O\left(1\right)$ & $O\left(n\right)$ & $O\left(n\right)$ & $O\left(1\right)$ & $O\left(1\right)$ & $O\left(n\right)$\\
+Skip List & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(n\right)$ & $O\left(n\right)$ & $O\left(n\right)$ & $O\left(n\right)$ & $O\left(n \log(n)\right)$\\
+Hash Table & - & $O\left(1\right)$ & $O\left(1\right)$ & $O\left(1\right)$ & - & $O\left(n\right)$ & $O\left(n\right)$ & $O\left(n\right)$ & $O\left(n\right)$\\
+Binary Search Tree & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(n\right)$ & $O\left(n\right)$ & $O\left(n\right)$ & $O\left(n\right)$ & $O\left(n\right)$\\
+Cartresian Tree & - & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & - & $O\left(n\right)$ & $O\left(n\right)$ & $O\left(n\right)$ & $O\left(n\right)$\\
+B-Tree & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(n\right)$\\
+Red-Black Tree & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(n\right)$\\
+Splay Tree & - & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & - & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(n\right)$\\
+AVL Tree & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(\log(n)\right)$ & $O\left(n\right)$\\
+
+\end{tabularx}
+
+\end{document}
