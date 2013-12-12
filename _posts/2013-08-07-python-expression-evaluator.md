@@ -13,7 +13,7 @@ at runtime.
 [bamos/simple-python-scripts](https://github.com/bamos/simple-python-scripts)
 contains a modified solution from a StackOverflow post.
 
-#### Background.
+# Background.
 [This](http://stackoverflow.com/questions/2371436/evaluating-a-mathematical-expression-in-a-string)
 StackOverflow post asks about evaluating arithmetic expressions.
 Note all of the posts warning against using `eval()`,
@@ -29,7 +29,7 @@ only supported AST nodes and operations.
 From this code, I wrapped the methods in a class, added support for a
 variable map, added unary operators, and added all binary operators.
 
-#### Usage.
+# Usage.
 See below for my [unittest](http://docs.python.org/3.3/library/unittest.html)
 code showing the usage of the program.
 
@@ -55,7 +55,7 @@ if __name__ == '__main__':
     unittest.main()
 {% endhighlight %}
 
-#### Implementation.
+# Implementation.
 {% highlight python %}
 # EvalExpr.py
 # A module to evaluate a mathematical expression using Python's AST.

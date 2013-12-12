@@ -9,7 +9,7 @@
     line-height: 1em;
     padding-left: 0.5em;
     border: 1px solid #ddd;
-
+    text-align: left;
 }
 
 .highlight .c { color: #999988; font-style: italic } /* Comment */

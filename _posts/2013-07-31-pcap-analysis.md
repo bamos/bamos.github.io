@@ -17,14 +17,14 @@ and hopefully this will help people in a similar position.
 To summarize, this extracts files such as `jpg`, `zip`,
 `png`, and `html` from a pcap file.
 
-#### Sniffing traffic.
+# Sniffing traffic.
 This post assumes you've already collected data and need to analyze pcap files.
 I personally use [tshark](http://www.wireshark.org/docs/man-pages/tshark.html),
 which comes with [Wireshark](http://www.wireshark.org/).
 However, the [Wikipedia page](http://en.wikipedia.org/wiki/Pcap) for pcap
 files lists a few other tools.
 
-#### Analyzing pcap files.
+# Analyzing pcap files.
 After obtaining pcap files, use `tcpflow` to extract all of the
 TCP streams.
 `-r` reads from a file, 
@@ -48,7 +48,7 @@ The `foremost.out` directory will now contain a file `audit.txt`
 showing all of the files extracted from the tcp streams,
 the extracted files, organized by their file extension.
 
-#### Script.
+# Script.
 I've made a simple Bash script `analyze-pcap.sh` to automate this process.
 This is also located in
 [bamos/simple-shell-scripts](https://github.com/bamos/simple-shell-scripts/blob/master/analyze-pcap.sh).
@@ -76,7 +76,7 @@ rm -f $TCP_STREAMS report.xml
 echo "Output is in '$OUTPUT'."
 {% endhighlight %}
 
-#### Further analysis.
+# Further analysis.
 For an introduction to deeper analysis of pcap files,
 Shive Persaud's
 [Finding A Needle In A PCAP](http://blogs.cisco.com/security/finding-a-needle-in-a-pcap/)

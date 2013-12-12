@@ -13,7 +13,7 @@ that suited my needs. I modified
 posted by Jesse Brown and the current version is at
 [bamos/cpp-expression-parser](https://github.com/bamos/cpp-expression-parser).
 
-#### Minimal example.
+# Minimal example.
 A short example illustrates the features of this implementation.
 `calculate` is called statically to parse an expression
 with a map of variables.
@@ -30,7 +30,7 @@ int main() {
 }
 {% endhighlight %}
 
-#### Overview
+# Overview
 The main steps of the `calculate` method are:
 
  1. Create the operator precedence map.
@@ -38,7 +38,7 @@ The main steps of the `calculate` method are:
     with Dijkstra's Shunting-yard algorithm.
  3. Evaluate the expression in RPN form.
 
-#### Converting to RPN.
+# Converting to RPN.
 Most of the Shunting-yard algorithm resides here.
 The idea is to do everything in one pass for elegance.
 Please see the
@@ -97,7 +97,7 @@ TokenQueue_t calculator::toRPN(const char* expr,
 {% endhighlight %}
 
 
-#### Evaluating RPN form.
+# Evaluating RPN form.
 The RPN is represented as tokens in a stack.
 To evaluate this, pop all of the elements off and handle
 operations when encountered.
@@ -144,7 +144,7 @@ while (!rpn.empty()) {
 
 The evaluated value resides in `evaluation.top` of type double.
 
-#### Future work.
+# Future work.
 See the [issues](https://github.com/bamos/cpp-expression-parser/issues)
 on GitHub for work to be done.
 I'm currently not actively working on additional features,

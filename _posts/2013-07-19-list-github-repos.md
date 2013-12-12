@@ -13,7 +13,7 @@ The script is available from
 [bamos/list-github-repos](https://github.com/bamos/list-github-repos),
 and available below for reference.
 
-#### Usage.
+# Usage.
 
 {% highlight bash %}
 ./list-github-repos.py <user>
@@ -26,7 +26,7 @@ with the same information.
 Add the snippet to your LaTeX document with
 `\input{projects-github.tex}`.
 
-#### Script.
+# Script.
 
 {% highlight python %}
 #!/usr/bin/env python3.3

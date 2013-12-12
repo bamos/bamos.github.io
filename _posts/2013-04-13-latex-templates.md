@@ -11,7 +11,7 @@ Currently, this includes templates that I use for
 [homework](/data/2013-04-13/hw.pdf) and for
 [cheatsheets](/data/2013-04-13/cheatsheet.pdf).
 
-#### Generic Makefile for LaTeX
+# Generic Makefile for LaTeX
 I also use [GNU Make](http://www.gnu.org/software/make/) whenever possible.
 I find them slightly cleaner than using
 [latexmk](http://www.phys.psu.edu/~collins/software/latexmk-jcc/).
@@ -34,12 +34,12 @@ all: $(PDF)
 clean: ; rm -rf *.aux *.log $(PDF)
 {% endhighlight %}
 
-#### Homework
+# Homework
 This is the template I use mostly for homework.
 
 See an example [here](/data/2013-04-13/hw.pdf).
 
-##### Usage
+## Usage
 {% highlight latex %}
 \documentclass[12pt]{hw}
 \usepackage[hmargin=0.55in, vmargin=0.9in]{geometry}
@@ -71,7 +71,7 @@ sed quam vitae turpis molestie placerat posuere ut mauris. Mauris non leo a
 tellus sagittis dignissim. Aenean in nisi eros.
 {% endhighlight %}
 
-##### Class implementation
+## Class implementation
 {% highlight latex %}
 \ProvidesClass{hw}
 \LoadClassWithOptions{article}
@@ -102,14 +102,14 @@ amsthm,enumerate}
 {% endhighlight %}
 
 
-#### Cheatsheet
+# Cheatsheet
 This is a template I use when creating quick reference cards.
 This is mostly a fork of [this](http://www.stdout.org/~winston/latex/),
 but slightly modified to my tastes.
 
 See an example [here](/data/2013-04-13/cheatsheet.pdf).
 
-##### Example
+## Example
 {% highlight latex %}
 \documentclass[10pt,landscape]{cheatsheet}
 
@@ -149,7 +149,7 @@ sagittis urna molestie. Morbi aliquam rutrum viverra.
 \end{Figure}
 {% endhighlight %}
 
-##### Class implementation
+## Class implementation
 {% highlight latex %}
 % http://www.stdout.org/~winston/latex/latexsheet.tex
 

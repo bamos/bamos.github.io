@@ -24,7 +24,7 @@ to then decrypt the octet-stream using PGP.
 The decrypted message then needs to be parsed back into a message
 structure and the plaintext body needs to be extracted again.
 
-#### Usage.
+# Usage.
 Specifically, the following code can be used to try to extract
 the plaintext part of a PGP message.
 I provide the `getPgpBody` method below to do the high-level overview
@@ -40,7 +40,7 @@ pgpText = getPgpBody(msg, gpg, gpgPass)
 print(pgpText)
 {% endhighlight %}
 
-#### Implementation.
+# Implementation.
 
 {% highlight python %}
 def applyCharsets(body, msg):

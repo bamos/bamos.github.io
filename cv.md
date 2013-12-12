@@ -3,7 +3,7 @@ layout: default
 title:  Curriculum Vitae
 ---
 
-### Curriculum Vitae
+# Curriculum Vitae
 
 Below is the [pdf](../data/cv.pdf) of my vitae.
 

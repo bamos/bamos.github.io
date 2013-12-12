@@ -15,7 +15,7 @@ come up with an interesting implementation.
 My solution is a Python 3.3 script, available at
 [bamos/ical-availability](https://github.com/bamos/ical-availability).
 
-#### Example.
+# Example.
 Particularly, the script works with Google Calendar private URLs.
 
 {% highlight bash %}
@@ -27,7 +27,7 @@ Particularly, the script works with Google Calendar private URLs.
 8/18: 8:00-22:00
 {% endhighlight %}
 
-#### Usage.
+# Usage.
 
 {% highlight bash %}
 usage: ical-availability.py [-h] [-l file [file ...]] [-r file [file ...]]
@@ -53,7 +53,7 @@ optional arguments:
                         The time to end every day. Defaults to 22:00.
 {% endhighlight %}
 
-#### Implementation.
+# Implementation.
 Particularly, the implementation uses an
 [interval tree](http://en.wikipedia.org/wiki/Interval_tree)
 [implementation](https://code.google.com/p/bpbio/source/browse/trunk/interval_tree/interval_tree.py)

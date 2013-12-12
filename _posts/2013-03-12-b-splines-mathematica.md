@@ -4,12 +4,12 @@ title: Evaluating and plotting B-Splines with Mathematica
 tags: [Mathematica]
 ---
 
-#### Background
+# Background
 Carl de Boor's [A Practical Guide to Splines](http://amzn.com/0387953663)
 provides an excellent introduction to B-splines, among everything else
 in the book.
 
-#### Context and example
+# Context and example
 Given a knot sequence and order `k`, how can the corresponding
 B-splines be produced?
 
@@ -23,7 +23,7 @@ This Mathematica script produces the following B-splines:
 <img src="/data/2013-03-12/1-B4.jpg" width="350px"/>
 <img src="/data/2013-03-12/1-B5.jpg" width="350px"/>
 
-#### Script
+# Script
 The script is fairly short and should run on any platform.
 Though, I use my Linux shell and
 the [hashbang](http://en.wikipedia.org/wiki/Shebang_(Unix) is set

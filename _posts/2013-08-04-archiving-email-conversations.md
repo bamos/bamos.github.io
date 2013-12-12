@@ -30,7 +30,7 @@ At a high level, `mbox-convos.py` does the following.
    and creates a LaTeX document.
 3. Produces a PDF with `pdflatex`.
 
-#### Obtaining an mbox file with getmail.
+# Obtaining an mbox file with getmail.
 [getmail](http://pyropus.ca/software/getmail/)
 is a useful utility to download an mbox file from POP or IMAP.
 Matt Cutts wrote a great
@@ -60,7 +60,7 @@ verbose = 1
 message_log = ~/.getmail/gmail.log
 {% endhighlight %}
 
-#### Creating a PDF with mbox-convos.
+# Creating a PDF with mbox-convos.
 Hopefully from here you won't have much trouble.
 Let me know if you do!
 

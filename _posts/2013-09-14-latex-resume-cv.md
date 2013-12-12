@@ -26,7 +26,7 @@ for a high-level introdution
 and [here](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.122.6892&rep=rep1&type=pdf)
 for a technical introduction.
 
-#### Overview.
+# Overview.
 The system splits the resume and vitae into separate files
 through the use if `\ifresume` and `ifcv` tags.
 For example, in the main entry point, `base.tex`,
@@ -39,7 +39,7 @@ the title is displayed with:
 Output `vitae` if the current document is the vitae,
 and output `resume` otherwise.
 
-#### Setting up `\ifresume` and `\ifcv` tags.
+# Setting up `\ifresume` and `\ifcv` tags.
 
 To set up tags, create the documents `resume.tex` and `cv.tex`,
 define them, and then input a common document, such as `base.tex`.
@@ -56,7 +56,7 @@ Go and craft your resume and vitae in LaTeX
 and trim out sections with `\ifresume` and `\ifcv`
 control flows!
 
-#### Using a Makefile
+# Using a Makefile
 Finally, I use a Makefile to build my documents and
 output Postscript, PDF, and plain text version.
 The following using the `latex` command once

@@ -3,7 +3,7 @@ layout: default
 title:  PGP
 ---
 
-### PGP.
+# PGP.
 I sign and encrypt emails with PGP.
 
 See the following for an introduction and general overview.
@@ -13,7 +13,7 @@ See the following for an introduction and general overview.
  + [Phil Zimmermann's Essay](http://www.philzimmermann.com/EN/essays/WhyIWrotePGP.html)
  + [Wikipedia](http://en.wikipedia.org/wiki/Pretty_Good_Privacy)
 
-### My key.
+# My key.
 You can find my key from any
 [SKS OpenPGP Keyserver](http://keyserver.cns.vt.edu/),
 or from [here](../data/bdamos_pgp.asc).

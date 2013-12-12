@@ -20,7 +20,7 @@ numbers, and to add an option to generate a pickle.
 These are both available from
 [bamos/simple-python-scripts](https://github.com/bamos/simple-python-scripts).
 
-#### Implementation
+# Implementation
 
 {% highlight python %}
 #!/usr/bin/env python3.3
@@ -255,7 +255,7 @@ if __name__ == '__main__':
 {% endhighlight %}
 
 
-#### Testing Code
+# Testing Code
 I have also written testing code.
 I usually use the
 [unittest](http://docs.python.org/3.3/library/unittest.html)

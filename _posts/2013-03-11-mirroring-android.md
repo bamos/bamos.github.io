@@ -19,12 +19,12 @@ works.
 **DISCLAIMER: This is still experimental and being reviewed! Proceed at your
 own risk!**
 
-#### Limitations
+# Limitations
 
 + Git has to be used to push to the server. Uploading with `repo` doesn't
 work.
 
-#### Trackbacks
+# Trackbacks
 
 + [https://help.ubuntu.com/10.04/serverguide/mysql.html](https://help.ubuntu.com/10.04/serverguide/mysql.html)
 + [http://gerrit.googlecode.com/svn/documentation/2.2.1/install.html](http://gerrit.googlecode.com/svn/documentation/2.2.1/install.html)
@@ -32,7 +32,7 @@ work.
 + [http://groups.google.com/group/repo-discuss](http://groups.google.com/group/repo-discuss)
 + [http://source.android.com/source/version-control.html](http://source.android.com/source/version-control.html)
 
-#### Preconditions
+# Preconditions
 This was all done on a nearly clean Ubuntu 10.04 LTS VM with Gerrit 2.2.1.
 Also, perhaps you should start screen now if you're connected via ssh.
 
@@ -40,7 +40,7 @@ Also, perhaps you should start screen now if you're connected via ssh.
 $ screen
 {% endhighlight %}
 
-#### Download and Install Software
+# Download and Install Software
 
 Also, verify MySQL automatically started
 
@@ -51,7 +51,7 @@ $ sudo netstat -tap | grep mysqudo netstat -tap | grep mysql
 tcp        0      0 localhost:mysql         *:*                     LISTEN      5136/mysqld 
 {% endhighlight %}
 
-#### Prepare Gerrit
+# Prepare Gerrit
 
 Create a Unix account for Gerrit and change to it's shell.
 
@@ -160,7 +160,7 @@ Starting Gerrit Code Review: OK
 gerrit2  $ rm ~gerrit2/gerrit.war
 {% endhighlight %}
 
-#### Configure Gerrit
+# Configure Gerrit
 Load the site in a browser and register an account.
 ( *Note:* repo makes it difficult to upload to a repository if your
 username differs from the first section (before the @) of your email.
@@ -212,7 +212,7 @@ Make the Access for All-Projects:
 
   + Read: Project Owners
 
-#### Add Android to Gerrit
+# Add Android to Gerrit
 Verify that everything is working thus far by accessing your Gerrit server
 via ssh:
 
@@ -233,7 +233,7 @@ gerrit2 $ repo forall -c 'echo $REPO_PATH; ssh -p <sshPort> <gerritUser>@<host> 
 gerrit2 $ repo forall -c 'echo $REPO_PATH; git push ssh://<gerritUser@<host>:<sshPort>/android/$REPO_PATH +refs/heads/* +refs/tags/*;' 
 {% endhighlight %}
 
-#### Daemon Configuration
+# Daemon Configuration
 Exit the gerrit2 account.
 Create a configuration file for gerrit by setting the GERRIT_SITE variable
 in a config file. Make the Gerrit daemon start on boot.
@@ -245,7 +245,7 @@ $ sudo ln -s ~gerrit2/review_site/bin/gerrit.sh /etc/init.d/gerrit
 $ update-rc.d gerrit defaults
 {% endhighlight %}
 
-#### Set Up the Manifest
+# Set Up the Manifest
 Check out the manifest and modify `default.xml` to point to your server by
 creating a new remote tag and pointing default to it:
 
@@ -270,7 +270,7 @@ $ cd ..; rm -rf manifest/;
 {% endhighlight %}
 
 
-#### Sync a Client
+# Sync a Client
 At this point, the server is *hopefully* configured and setup properly.
 After verifying that a user and public key exist on Gerrit,
 make a new directory for the source and initialize the repo.
@@ -286,7 +286,7 @@ $ repo sync -j 40
 {% endhighlight %}
 
 
-#### Upload to the Server
+# Upload to the Server
 I did this mainly for my reference; I kept it for testing convenience.
 Suppose you want to work on the project at the path &lt;path&gt; on the branch
 &lt;branch&gt;, starting in the android root directory.
@@ -306,14 +306,14 @@ $ git commit -am <msg>
 $ git push ssh://<gerritUser>@<host>:<sshPort>/<serverPath> HEAD:refs/for/master
 {% endhighlight %}
 
-#### Upload to the Server without Review
+# Upload to the Server without Review
 To bypass review, a user must be in a group that has the "Push Branch" permission.
 
 {% highlight bash %}
 $ git push ssh://<gerritUser>@<host>:<sshPort>/<serverPath> HEAD:refs/heads/master
 {% endhighlight %}
 
-#### Rewriting Git's History
+# Rewriting Git's History
 
 Check out the Android repository and use `checklog.sh` to check the git logs
 for the desired author and email. The results will be written to
@@ -357,7 +357,7 @@ $ mv HEAD-old HEAD
 {% endhighlight %}
 
 
-#### Gerrit Tips
+# Gerrit Tips
 
 + Remove a project by deleting the Git repository from the filesystem in
 `~gerrit2/review_site/git` then flush the cache with

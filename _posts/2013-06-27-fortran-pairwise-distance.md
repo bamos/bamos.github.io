@@ -12,7 +12,7 @@ My first and program is to calculate the
 [Euclidean pairwise distance](http://www.mathworks.com/help/stats/pdist.html)
 between pairs of objects in a matrix.
 
-#### Example.
+# Example.
 Consider the vectors `((0.5377, -1.3077), (1.8339, -0.4336), 
 (-2.2588, 0.4326), (0.8622, 3.5784), (0.3188, 2.7694))`.
 The first element of the Euclidean parwise distance vector
@@ -33,7 +33,7 @@ WRITE(*,*) PDIST(X)
 !     3.543266 4.4313316 3.4791746 0.9745587
 {% endhighlight %}
 
-#### Function implementation.
+# Function implementation.
 {% highlight fortran %}
 FUNCTION PDIST(X) RESULT (DISTANCES)
   ! Calculate the Euclidean pairwise distance between elements I and J

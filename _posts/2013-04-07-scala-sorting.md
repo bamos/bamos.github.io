@@ -13,11 +13,11 @@ It shows an example of using [sbt](http://www.scala-sbt.org/)
 and [ScalaTest](http://www.scalatest.org/) with a basic
 Scala project.
 
-#### Compiling and testing
+# Compiling and testing
 + To compile: `sbt compile`
 + To run tests: `sbt test`
 
-#### Testing with ScalaTest
+# Testing with ScalaTest
 The tests use ScalaTest's `AssertionsForJunit` class
 and rely on asserting a simple list is sorted.
 There is also a simple test case for the heap used
@@ -76,7 +76,7 @@ class SortingTest extends AssertionsForJUnit {
 }
 {% endhighlight %}
 
-#### [Heapsort](http://en.wikipedia.org/wiki/Heapsort)
+# [Heapsort](http://en.wikipedia.org/wiki/Heapsort)
 
 {% highlight scala %}
 package org.github.bamos.scalasorting
@@ -143,7 +143,7 @@ class MaxHeap {
 }
 {% endhighlight %}
 
-#### [Insertion sort](http://en.wikipedia.org/wiki/Insertion_sort)
+# [Insertion sort](http://en.wikipedia.org/wiki/Insertion_sort)
 {% highlight scala %}
 package org.github.bamos.scalasorting
 
@@ -164,7 +164,7 @@ object InsertionSort {
 }
 {% endhighlight %}
 
-#### [Mergesort](http://en.wikipedia.org/wiki/Merge_sort)
+# [Mergesort](http://en.wikipedia.org/wiki/Merge_sort)
 {% highlight scala %}
 package org.github.bamos.scalasorting
 
@@ -229,7 +229,7 @@ object MergeSort {
 }
 {% endhighlight %}
 
-#### [Quicksort](http://en.wikipedia.org/wiki/Quicksort)
+# [Quicksort](http://en.wikipedia.org/wiki/Quicksort)
 {% highlight scala %}
 package org.github.bamos.scalasorting
 
@@ -301,7 +301,7 @@ object QuickSort {
 }
 {% endhighlight %}
 
-#### [Shell sort](http://en.wikipedia.org/wiki/Shell_sort)
+# [Shell sort](http://en.wikipedia.org/wiki/Shell_sort)
 {% highlight scala %}
 package org.github.bamos.scalasorting
 

@@ -3,7 +3,7 @@ layout: default
 title:  Resume
 ---
 
-### Resume
+# Resume
 
 Below is the [pdf](../data/resume.pdf) of my resume.
 

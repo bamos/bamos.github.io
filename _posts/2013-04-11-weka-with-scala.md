@@ -12,14 +12,14 @@ The framework is currently being rewritten in
 [Scala](http://www.scala-lang.org) from Bash,
 and Weka's Java libraries integrate easily.
 
-#### Setting up.
+# Setting up.
 In Linux, download the [Weka jar](http://www.cs.waikato.ac.nz/ml/weka/downloading.html)
 and add it to the build path or resources of your project.
 
 Specifically, with [sbt](http://www.scala-sbt.org/),
 it is sufficient to have `weka.jar` in the `lib` directory.
 
-#### Combine all ARFF files in a directory.
+# Combine all ARFF files in a directory.
 Following is an excerpt to combine all of the ARFF
 files in a directory into a single ARFF file.
 

@@ -32,7 +32,7 @@ accomplish my goal of having X sessions on my headless server.
 Further, all of the applications I'm using are available
 in the default CentOS repositories.
 
-#### Starting Xvfb.
+# Starting Xvfb.
 [Xvfb](http://en.wikipedia.org/wiki/Xvfb) provides an X11 server
 that can run on memory and not show any screen output.
 On the remote server, start `Xvfb` on display ":1".
@@ -41,7 +41,7 @@ On the remote server, start `Xvfb` on display ":1".
 remote$ Xvfb :1 &
 {% endhighlight %}
 
-#### Starting applications and a windowing manager.
+# Starting applications and a windowing manager.
 Now, we can change the environment variable DISPLAY
 to point to the new display.
 
@@ -64,7 +64,7 @@ remote$ xclock &
 remote$ xclock &
 {% endhighlight %}
 
-#### VNC configuration.
+# VNC configuration.
 To connect to the display, start a VNC server on it.
 [x11vnc](http://www.karlrunge.com/x11vnc/) works
 well for this.

@@ -20,7 +20,7 @@ to automate the use both of these tools with
 Just make sure both `TeX4ht` and `unoconv` are installed
 and available on your `PATH` before running.
 
-#### Makefile
+# Makefile
 {% highlight make %}
 SRC=$(wildcard *.tex)
 FLAGS=-halt-on-error
@@ -38,7 +38,7 @@ clean-extra: ; rm -f $(EXTRA_FILES)
 clean: clean-extra; rm -f $(PDF) $(ODT) $(DOC)
 {% endhighlight %}
 
-#### Example file.
+# Example file.
 Note this requires
 [hwdoc.cls](https://github.com/bamos/latex-templates/blob/master/hw-doc/hwdoc.cls),
 provided below and in the repository.
@@ -104,7 +104,7 @@ int main() {
 \end{document}
 {% endhighlight %}
 
-#### LaTeX class.
+# LaTeX class.
 {% highlight latex %}
 \ProvidesClass{hwdoc}
 \LoadClassWithOptions{article}
