@@ -9,7 +9,7 @@ title:  About
 
 # About me.
 I am a Computer Science undergraduate at [Virginia Tech](http://www.cs.vt.edu)
-intersted in mobile computing, security, and compiler research.
+interested in mobile computing, security, and compiler research.
 I have ongoing research projects in
 _malware analysis_ at runtime on _mobile systems_ using _machine learning_,
 automatic _compiler systems_ on heterogeneous architectures,
