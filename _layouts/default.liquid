@@ -110,5 +110,20 @@ img.border {border:3px solid #888; padding:4px;}
     <script src="//static.getclicky.com/js" type="text/javascript"></script>
     <script type="text/javascript">try{ clicky.init(100602499); }catch(e){}</script>
     <script type="text/javascript">var switchTo5x=true;</script>
+    <!-- Piwik -->
+    <script type="text/javascript">
+var _paq = _paq || [];
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+ var u=(("https:" == document.location.protocol) ? "https" : "http") + "://192.168.1.162:8088/piwik/";
+ _paq.push(['setTrackerUrl', u+'piwik.php']);
+ _paq.push(['setSiteId', 1]);
+ var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+ g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+ })();
+    </script>
+    <noscript><p><img src="http://192.168.1.162:8088/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+    <!-- End Piwik Code -->
   </body>
 </html>
