@@ -30,5 +30,5 @@ Thanks!
 [github]: http://github.com/bamos
 [website]: https://github.com/bamos/bamos.github.io
 [jekyll]: http://jekyllrb.com
-[email]: http://www.google.com/recaptcha/mailhide/d?k=01isoY3JTKYdPXHqmBRjYYYA==&c=bzTg1_QbUW16izbfjdRV4w==,
+[email]: http://www.google.com/recaptcha/mailhide/d?k=01isoY3JTKYdPXHqmBRjYYYA==&c=bzTg1_QbUW16izbfjdRV4w==
 [pgp]: ../pgp
