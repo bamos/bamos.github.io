@@ -17,7 +17,7 @@ For more information, find my publications on
 
 Furthermore, I enjoy contributing to the open-source community
 and maintain as many projects as possible on my
-[GitHub][github], including [this website][website]
+[GitHub][github], including [this website][website],
 which is published with [jekyll][jekyll].
 
 If you'd like to contact me, please [email me][email],
