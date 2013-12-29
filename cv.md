@@ -66,12 +66,12 @@ Compiler, mobile, or security research or development in Linux.
 
 
 
-## Conference
-+ "Applying machine learning classifiers to dynamic Android malware detection at scale."  Brandon Amos, Hamilton Turner, Jules White. IWCMC'13 Security, Trust, and Privacy Symposium. Cagliari, Italy, July 2013.
-+ "Fortran 95 implementation of QNSTOP for global and stochastic optimization."  Brandon Amos, David Easterling, Layne Watson, Brent Castle, Michael Trosset, William Thacker. Submitted.
-
 ## Magazine
-+ "Bad Parts: Are Our Manufacturing Systems At Risk of Silent Cyber-attacks?" Hamilton Turner,  Brandon Amos, Jules White, Jaime Camelio, Chris Williams, Robert Parker. Submitted.
+1. "Bad Parts: Are Our Manufacturing Systems At Risk of Silent Cyber-attacks?" Hamilton Turner,  Brandon Amos, Jules White, Jaime Camelio, Chris Williams, Robert Parker. Submitted.
+
+## Conference
+1. "Applying machine learning classifiers to dynamic Android malware detection at scale."  Brandon Amos, Hamilton Turner, Jules White. IWCMC'13 Security, Trust, and Privacy Symposium. Cagliari, Italy, July 2013.
+2. "Fortran 95 implementation of QNSTOP for global and stochastic optimization."  Brandon Amos, David Easterling, Layne Watson, Brent Castle, Michael Trosset, William Thacker. Submitted.
 
 
 
