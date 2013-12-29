@@ -9,7 +9,7 @@ title:  vitæ
 # Interests
 
 
-__Compiler__, __mobile__, or __security__ research or development in __Linux__. 
+ __Compiler__ ,  __mobile__ , or  __security__  research or development in  __Linux__ . 
 
  Seeking a PhD fellowship starting May 2014 or internship from May-August 2014.
 
@@ -30,24 +30,24 @@ __Compiler__, __mobile__, or __security__ research or development in __Linux__.
 ## Virginia Tech Computer Science
 ### Undergraduate Research Assistant
 + Blacksburg, Virginia | Advisor: Dr. Layne Watson | January 2013-Present
-+ Optimization algorithm in __Fortran 95__ resulting in primary authorship on a conference publication.
++ Optimization algorithm in  __Fortran 95__  resulting in primary authorship on a conference publication.
 
 ## Systems Software Research Group
 ### Undergraduate Research Assistant
 + Blacksburg, Virginia | Advisor: Dr. Binoy Ravindran | November 2012-Present
 + Work supported with NSF and NEEC REU grants.
-+ Automatic __OpenMP__ to __CUDA__ translation using __C++__ and the __ROSE__ compiler framework.
-+ __Scala__ and __Bash__ development in __Linux__.
++ Automatic  __OpenMP__  to  __CUDA__  translation using  __C++__  and the  __ROSE__  compiler framework.
++  __Scala__  and  __Bash__  development in  __Linux__ .
 
 ## Magnum Research Group
 ### Undergraduate Research Assistant
 + Blacksburg, Virginia | Advisor: Dr. Jules White | May 2012-Present
 + Work supported with ARO REU grant.
-+ Android __malware detection research__ resulting in primary authorship on a conference publication.
-+ Created a distributed __Actor__ system using __Scala__ for __machine learning__ classification of APKs.
-+ Developed __VC#__ programs for a pilot study on manufacturing cyber-physical security.
-+ Assisted __C++__ and __Make__ development in __Linux__ for a deployment optimization framework.
-+ Modified the __Android source__ to provide non-standard logging information for dynamic malware analysis.
++ Android  __malware detection research__  resulting in primary authorship on a conference publication.
++ Created a distributed  __Actor__  system using  __Scala__  for  __machine learning__  classification of APKs.
++ Developed  __VC#__  programs for a pilot study on manufacturing cyber-physical security.
++ Assisted  __C++__  and  __Make__  development in  __Linux__  for a deployment optimization framework.
++ Modified the  __Android source__  to provide non-standard logging information for dynamic malware analysis.
 
 
 
@@ -58,7 +58,7 @@ __Compiler__, __mobile__, or __security__ research or development in __Linux__.
 ## Virginia Tech Computer Science Department
 ### Undergraduate Teaching Assistant
 + Blacksburg, Virginia | January 2013-May 2013
-+ Assisted students in a software design and data structures class using __Java__ and __Android__.
++ Assisted students in a software design and data structures class using  __Java__  and  __Android__ .
 
 
 
@@ -67,11 +67,11 @@ __Compiler__, __mobile__, or __security__ research or development in __Linux__.
 
 
 ## Conference
-1. "Applying machine learning classifiers to dynamic Android malware detection at scale." __Brandon Amos__, Hamilton Turner, Jules White. IWCMC'13 Security, Trust, and Privacy Symposium. Cagliari, Italy, July 2013.
-2. "Fortran 95 implementation of QNSTOP for global and stochastic optimization." __Brandon Amos__, David Easterling, Layne Watson, Brent Castle, Michael Trosset, William Thacker. Submitted.
+1. "Applying machine learning classifiers to dynamic Android malware detection at scale."  __Brandon Amos__ , Hamilton Turner, Jules White. IWCMC'13 Security, Trust, and Privacy Symposium. Cagliari, Italy, July 2013.
+2. "Fortran 95 implementation of QNSTOP for global and stochastic optimization."  __Brandon Amos__ , David Easterling, Layne Watson, Brent Castle, Michael Trosset, William Thacker. Submitted.
 
 ## Magazine
-1. "Bad Parts: Are Our Manufacturing Systems At Risk of Silent Cyber-attacks?" Hamilton Turner, __Brandon Amos__, Jules White, Jaime Camelio, Chris Williams, Robert Parker. Submitted.
+1. "Bad Parts: Are Our Manufacturing Systems At Risk of Silent Cyber-attacks?" Hamilton Turner,  __Brandon Amos__ , Jules White, Jaime Camelio, Chris Williams, Robert Parker. Submitted.
 
 
 
@@ -82,36 +82,30 @@ __Compiler__, __mobile__, or __security__ research or development in __Linux__.
 ## Qualcomm, Inc.
 ### Source Integrity Team Software Intern
 + San Diego, California | May 2013-August 2013
-+ Developed a __web application__ to modify an XML-based grammar for fuzz vector generation. Implemented with client-side __HTML__ and __js__, using __D3__ for graphics and __Handlebars__ for templating.
-+ Developed an XML-based grammar translator in __C++__ with the __Xerces__ XML parser in __Linux__. Reimplemented in __Python__ using the __ElementTree__ XML API for better analysis and tree transformation.
++ Developed a  __web application__  to modify an XML-based grammar for fuzz vector generation. Implemented with client-side  __HTML__  and  __js__ , using  __D3__  for graphics and  __Handlebars__  for templating.
++ Developed an XML-based grammar translator in  __C++__  with the  __Xerces__  XML parser in  __Linux__ . Reimplemented in  __Python__  using the  __ElementTree__  XML API for better analysis and tree transformation.
 
 ## Phoenix Integration, Inc.
 ### Software Engineer Intern
 + Blacksburg, Virginia | May 2012-August 2012
-+ Integrated a new licensing mode into CenterLink, a grid computing application, using __FLEXlm__ and __Java__.
-+ Assisted development of industry software in __VC++__, __VC#__, __Java__, and __Tomcat__.
-+ Improved the testing (__JUnit__ and __NUnit__) and installation (__Ant__, __InstallShield__, and __Make__) frameworks.
++ Integrated a new licensing mode into CenterLink, a grid computing application, using  __FLEXlm__  and  __Java__ .
++ Assisted development of industry software in  __VC++__ ,  __VC#__ ,  __Java__ , and  __Tomcat__ .
++ Improved the testing ( __JUnit__  and  __NUnit__ ) and installation ( __Ant__ ,  __InstallShield__ , and  __Make__ ) frameworks.
 
 ## Sunapsys, Inc.
 ### Network Administrator Intern
 + Vinton, Virginia | January 2011-August 2011
-+ __Linux__ server configuration and __Bash__ development.
++  __Linux__  server configuration and  __Bash__  development.
 
 
 
 # Skills
 
 
-__Preferred Environments:__ Linux\*\*\*, vim/gdb\*\*\*, git\*\*\*, Make\*\* 
-
- __Languages__: Bash\*\*, C/C++\*\*, C#\*, Fortran\*\*, HTML/CSS\*, \LaTeX \*\*, Java\*\*, JavaScript\*\*, 
-
-   Mathematica\*\*, PHP\*, Python\*\*\*, R\*, Scala\*\* __Systems__: Android\*\*, Linux\*\*\* 
-
- __Version Control/Review__: Gerrit\*, Git\*\*\*, Subversion\*\* 
-
-  __Rankings:__ 1/10\* - 3/10\*\* - 5/10\*\*\* - 7/10\*\*\*\*
-
++ __Preferred Environments:__ Linux\*\*\*, vim/gdb\*\*\*, git\*\*\*, Make\*\*
++ __Languages:__ Bash\*\*, C/C++\*\*, C#\*, Fortran\*\*, HTML/CSS\*, LaTeX \*\*, Java\*\*, JavaScript\*\*,  Mathematica\*\*, PHP\*, Python\*\*\*, R\*, Scala\*\*
++ __Systems:__ Android\*\*, Linux\*\*\*
++ __Rankings:__ 1/10\* - 3/10\*\* - 5/10\*\*\* - 7/10\*\*\*\*
 
 
 # Honors & Awards
@@ -141,14 +135,14 @@ __Preferred Environments:__ Linux\*\*\*, vim/gdb\*\*\*, git\*\*\*, Make\*\*
 
 
 
-## Personal Blog and Website -- http://bamos.io
-+ Hosted on GitHub Pages. Uses __Markdown__ for posts and __Jekyll__ for static HTML generation.
-+ __27 posts__ across the following tags, listed by highest frequency.
-+ Python, Bash, LaTeX, Linux, Scala, Android, Mathematica, C++, Fortran, CUDA'
-
 ## GithHub Portfolio -- http://github.com/bamos
 + Hosts code samples, original source code, and patches for open source projects.
 + 20 original repositories, 6 forked repositories.
+
+## Personal Blog and Website -- http://bamos.io
++ Hosted on GitHub Pages. Uses  __Markdown__  for posts and  __Jekyll__  for static HTML generation.
++  __27 posts__  across the following tags, listed by highest frequency.
++ Python, Bash, LaTeX, Linux, Scala, Android, Mathematica, C++, Fortran, CUDA'
 
 
 
