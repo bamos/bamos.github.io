@@ -55,7 +55,7 @@ title:  vitæ
 
 
 
-## Virginia Tech Computer Science Department
+## Virginia Tech Computer Science
 ### Undergraduate Teaching Assistant
 + Blacksburg, Virginia | January 2013-May 2013
 + Assisted students in a software design and data structures class using  __Java__  and  __Android__ .
@@ -135,14 +135,14 @@ title:  vitæ
 
 
 
+## [GithHub Portfolio](http://github.com/bamos)
++ Hosts code samples, original source code, and patches for open source projects.
++ 20 original repositories, 6 forked repositories.
+
 ## [Personal Blog and Website](http://bamos.io)
 + Hosted on GitHub Pages. Uses  __Markdown__  for posts and  __Jekyll__  for static HTML generation.
 +  __27 posts__  across the following tags, listed by highest frequency.
 + Python, Bash, LaTeX, Linux, Scala, Android, Mathematica, C++, Fortran, CUDA
-
-## [GithHub Portfolio](http://github.com/bamos)
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 20 original repositories, 6 forked repositories.
 
 
 
