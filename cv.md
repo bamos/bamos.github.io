@@ -84,8 +84,9 @@ title:  vitæ
 ## Snowplow Analytics Ltd.
 ### Software Winter Intern
 + London, United Kingdom (Remote) | December 2013-January 2014
-+ Open-source  __Scala__  development on the Snowplow analytics platform in a startup environment.
++ Open-source  __Scala__  development with a startup on the Snowplow analytics platform.
 + Developed a new server using  __Spray__  and  __Actors__  to store  __Apache Thrift__  events on  __Amazon Kinesis__ .
++ Completed project ahead of schedule, and also ported Snowplow's Scala enrichment process to Kinesis.
 
 ## Qualcomm, Inc.
 ### Source Integrity Team Software Intern
@@ -111,7 +112,7 @@ title:  vitæ
 
 
 + __Preference:__ Linux, vim, git, Make, sbt
-+ __Languages:__ Bash\*\*, C/C++\*\*, C#\*, Fortran\*\*, HTML/CSS\*, LaTeX \*\*, Java\*\*, JavaScript\*\*,  Mathematica\*\*, Make\*\*\*, PHP\*, Python\*\*\*, R\*, Scala\*\*\*
++ __Languages:__ Akka\*\*, Bash\*\*, C/C++\*\*, C#\*, Fortran\*\*, HTML/CSS\*, LaTeX \*\*, Java\*\*, JavaScript\*\*,  Mathematica\*\*, Make\*\*\*, PHP\*, Python\*\*\*, R\*, Scala\*\*\*
 + __Systems:__ Android\*\*, Linux\*\*\*
 + __Rankings:__ 1/10\* - 3/10\*\* - 5/10\*\*\* - 7/10\*\*\*\*
 
