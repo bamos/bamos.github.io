@@ -18,17 +18,22 @@ title: Blog
   </small>
 {% endfor %}
 
-<div class="paging">
+<br/><br/>
+
+<div>
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+      <a href="/" class="newer">Newer Posts</a>
+    {% else %}
+      <a href="/page{{paginator.previous_page}}" class="newer">Newer Posts</a>
+    {% endif %}
+  {% endif %}
+
+  {% if paginator.previous_page and paginator.next_page %}
+  |
+  {% endif %}
+
   {% if paginator.next_page %}
     <a href="/page{{paginator.next_page}}" class="older">Older Posts</a>
   {% endif %}
-{% if paginator.previous_page %}
-  {% if paginator.previous_page == 1 %}
-    <a href="/" class="newer">Newer Posts</a>
-  {% else %}
-    <a href="/page{{paginator.previous_page}}" class="newer">Newer Posts</a>
-  {% endif %}
-{% endif %}
-
-  <div class="clear"></div>
 </div>
