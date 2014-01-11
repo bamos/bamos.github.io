@@ -30,13 +30,15 @@ title:  vitæ
 ## Virginia Tech Computer Science
 ### Undergraduate Research Assistant
 + Blacksburg, Virginia | Advisor: Dr. Layne Watson | January 2013-Present
-+ Optimization algorithm in  __Fortran 95__  resulting in primary authorship on a conference publication.
++ Algorithm development for stochastic optimization using quasi-Newton methods for parameter estimation in  __Fortran 95__  and  __OpenMP__  resulting in primary authorship on a conference publication.
++ Bioinformatics research on yeast cell modeling using  __Fortran 95__ ,  __C++__ , and  __Matlab__ .
 
 ## Systems Software Research Group
 ### Undergraduate Research Assistant
 + Blacksburg, Virginia | Advisor: Dr. Binoy Ravindran | November 2012-Present
 + Work supported with NSF and NEEC REU grants.
-+ Automatic  __OpenMP__  to  __CUDA__  translation using  __C++__  and the  __ROSE__  compiler framework.
++ Research on automatic  __OpenMP__  to  __CUDA__  translation using  __C++__  and the  __ROSE__  compiler framework.
++ Polyhedral loop optimization research to restructure  __OpenCL__  kernels for locality using  __LLVM__  and  __Polly__ .
 +  __Scala__  and  __Bash__  development in  __Linux__ .
 
 ## Magnum Research Group
@@ -45,7 +47,7 @@ title:  vitæ
 + Work supported with ARO REU grant.
 + Android  __malware detection research__  resulting in primary authorship on a conference publication.
 + Created a distributed  __Actor__  system using  __Scala__  for  __machine learning__  classification of APKs.
-+ Developed  __VC#__  programs for a pilot study on manufacturing cyber-physical security.
++ Developed  __VC#__  and  __Python__  programs for a pilot study on manufacturing cyber-physical security.
 + Assisted  __C++__  and  __Make__  development in  __Linux__  for a deployment optimization framework.
 + Modified the  __Android source__  to provide non-standard logging information for dynamic malware analysis.
 
@@ -79,6 +81,12 @@ title:  vitæ
 
 
 
+## Snowplow Analytics Ltd.
+### Software Winter Intern
++ London, United Kingdom (Remote) | December 2013-January 2014
++ Open-source  __Scala__  development on the Snowplow analytics platform in a startup environment.
++ Developed a new server using  __Spray__  and  __Actors__  to store  __Apache Thrift__  events on  __Amazon Kinesis__ .
+
 ## Qualcomm, Inc.
 ### Source Integrity Team Software Intern
 + San Diego, California | May 2013-August 2013
@@ -102,8 +110,8 @@ title:  vitæ
 # Skills
 
 
-+ __Preferred Environments:__ Linux\*\*\*, vim/gdb\*\*\*, git\*\*\*, Make\*\*
-+ __Languages:__ Bash\*\*, C/C++\*\*, C#\*, Fortran\*\*, HTML/CSS\*, LaTeX \*\*, Java\*\*, JavaScript\*\*,  Mathematica\*\*, PHP\*, Python\*\*\*, R\*, Scala\*\*
++ __Preference:__ Linux, vim, git, Make, sbt
++ __Languages:__ Bash\*\*, C/C++\*\*, C#\*, Fortran\*\*, HTML/CSS\*, LaTeX \*\*, Java\*\*, JavaScript\*\*,  Mathematica\*\*, Make\*\*\*, PHP\*, Python\*\*\*, R\*, Scala\*\*\*
 + __Systems:__ Android\*\*, Linux\*\*\*
 + __Rankings:__ 1/10\* - 3/10\*\* - 5/10\*\*\* - 7/10\*\*\*\*
 
@@ -135,14 +143,14 @@ title:  vitæ
 
 
 
-## [GithHub Portfolio](http://github.com/bamos)
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 20 original repositories, 6 forked repositories.
-
 ## [Personal Blog and Website](http://bamos.io)
 + Hosted on GitHub Pages. Uses  __Markdown__  for posts and  __Jekyll__  for static HTML generation.
 +  __27 posts__  across the following tags, listed by highest frequency.
 + Python, Bash, LaTeX, Linux, Scala, Android, Mathematica, C++, Fortran, CUDA
+
+## [GithHub Portfolio](http://github.com/bamos)
++ Hosts code samples, original source code, and patches for open source projects.
++ 20 original repositories, 6 forked repositories.
 
 
 
