@@ -9,7 +9,7 @@ title:  vitæ
 # Interests
 
 
- __Compiler__ ,  __mobile__ , or  __security__  research or development in  __Linux__ . 
+**Compiler**, **mobile**, or **security** research or development in **Linux**. 
 
  Seeking a PhD fellowship starting May 2014 or internship from May-August 2014.
 
@@ -30,26 +30,26 @@ title:  vitæ
 ## Virginia Tech Computer Science
 ### Undergraduate Research Assistant
 + Blacksburg, Virginia | Advisor: Dr. Layne Watson | January 2013-Present
-+ Algorithm development for stochastic optimization using quasi-Newton methods for parameter estimation in  __Fortran 95__  and  __OpenMP__  resulting in primary authorship on a conference publication.
-+ Bioinformatics research on yeast cell modeling using  __Fortran 95__ ,  __C++__ , and  __Matlab__ .
++ Algorithm development for stochastic optimization using quasi-Newton methods for parameter estimation in **Fortran 95** and **OpenMP** resulting in primary authorship on a conference publication.
++ Bioinformatics research on yeast cell modeling using **Fortran 95**, **C++**, and **Matlab**.
 
 ## Systems Software Research Group
 ### Undergraduate Research Assistant
 + Blacksburg, Virginia | Advisor: Dr. Binoy Ravindran | November 2012-Present
 + Work supported with NSF and NEEC REU grants.
-+ Research on automatic  __OpenMP__  to  __CUDA__  translation using  __C++__  and the  __ROSE__  compiler framework.
-+ Polyhedral loop optimization research to restructure  __OpenCL__  kernels for locality using  __LLVM__  and  __Polly__ .
-+  __Scala__  and  __Bash__  development in  __Linux__ .
++ Research on automatic **OpenMP** to **CUDA** translation using **C++** and the **ROSE** compiler framework.
++ Polyhedral loop optimization research to restructure **OpenCL** kernels for locality using **LLVM** and **Polly**.
++ **Scala** and **Bash** development in **Linux**.
 
 ## Magnum Research Group
 ### Undergraduate Research Assistant
 + Blacksburg, Virginia | Advisor: Dr. Jules White | May 2012-Present
 + Work supported with ARO REU grant.
-+ Android  __malware detection research__  resulting in primary authorship on a conference publication.
-+ Created a distributed  __Actor__  system using  __Scala__  for  __machine learning__  classification of APKs.
-+ Developed  __VC#__  and  __Python__  programs for a pilot study on manufacturing cyber-physical security.
-+ Assisted  __C++__  and  __Make__  development in  __Linux__  for a deployment optimization framework.
-+ Modified the  __Android source__  to provide non-standard logging information for dynamic malware analysis.
++ Android **malware detection research** resulting in primary authorship on a conference publication.
++ Created a distributed **Actor** system using **Scala** for **machine learning** classification of APKs.
++ Developed **VC#** and **Python** programs for a pilot study on manufacturing cyber-physical security.
++ Assisted **C++** and **Make** development in **Linux** for a deployment optimization framework.
++ Modified the **Android source** to provide non-standard logging information for dynamic malware analysis.
 
 
 
@@ -60,7 +60,7 @@ title:  vitæ
 ## Virginia Tech Computer Science
 ### Undergraduate Teaching Assistant
 + Blacksburg, Virginia | January 2013-May 2013
-+ Assisted students in a software design and data structures class using  __Java__  and  __Android__ .
++ Assisted students in a software design and data structures class using **Java** and **Android**.
 
 
 
@@ -69,11 +69,11 @@ title:  vitæ
 
 
 ## Conference
-1. "Applying machine learning classifiers to dynamic Android malware detection at scale."  __Brandon Amos__ , Hamilton Turner, Jules White. IWCMC'13 Security, Trust, and Privacy Symposium. Cagliari, Italy, July 2013.
-2. "Fortran 95 implementation of QNSTOP for global and stochastic optimization."  __Brandon Amos__ , David Easterling, Layne Watson, Brent Castle, Michael Trosset, William Thacker. Submitted.
+1. "Applying machine learning classifiers to dynamic Android malware detection at scale." **Brandon Amos**, Hamilton Turner, Jules White. IWCMC'13 Security, Trust, and Privacy Symposium. Cagliari, Italy, July 2013.
+2. "Fortran 95 implementation of QNSTOP for global and stochastic optimization." **Brandon Amos**, David Easterling, Layne Watson, Brent Castle, Michael Trosset, William Thacker. SpringSim'14 High Performance Computing Symposium. Tampa, Florida, USA, April 2014.
 
 ## Magazine
-1. "Bad Parts: Are Our Manufacturing Systems At Risk of Silent Cyber-attacks?" Hamilton Turner,  __Brandon Amos__ , Jules White, Jaime Camelio, Chris Williams, Robert Parker. Submitted.
+1. "Bad Parts: Are Our Manufacturing Systems At Risk of Silent Cyber-attacks?" Hamilton Turner, **Brandon Amos**, Jules White, Jaime Camelio, Chris Williams, Robert Parker. Submitted.
 
 
 
@@ -84,27 +84,27 @@ title:  vitæ
 ## Snowplow Analytics Ltd.
 ### Software Winter Intern
 + London, United Kingdom (Remote) | December 2013-January 2014
-+ Open-source  __Scala__  development with a startup on the Snowplow analytics platform.
-+ Developed a new server using  __Spray__  and  __Actors__  to store  __Apache Thrift__  events on  __Amazon Kinesis__ .
++ Open-source **Scala** development with a startup on the Snowplow analytics platform.
++ Developed a new server using **Spray** and **Actors** to store **Apache Thrift** events on **Amazon Kinesis**.
 + Completed project ahead of schedule, and also ported Snowplow's Scala enrichment process to Kinesis.
 
 ## Qualcomm, Inc.
 ### Source Integrity Team Software Intern
 + San Diego, California | May 2013-August 2013
-+ Developed a  __web application__  to modify an XML-based grammar for fuzz vector generation. Implemented with client-side  __HTML__  and  __js__ , using  __D3__  for graphics and  __Handlebars__  for templating.
-+ Developed an XML-based grammar translator in  __C++__  with the  __Xerces__  XML parser in  __Linux__ . Reimplemented in  __Python__  using the  __ElementTree__  XML API for better analysis and tree transformation.
++ Developed a **web application** to modify an XML-based grammar for fuzz vector generation. Implemented with client-side **HTML** and **js**, using **D3** for graphics and **Handlebars** for templating.
++ Developed an XML-based grammar translator in **C++** with the **Xerces** XML parser in **Linux**. Reimplemented in **Python** using the **ElementTree** XML API for better analysis and tree transformation.
 
 ## Phoenix Integration, Inc.
 ### Software Engineer Intern
 + Blacksburg, Virginia | May 2012-August 2012
-+ Integrated a new licensing mode into CenterLink, a grid computing application, using  __FLEXlm__  and  __Java__ .
-+ Assisted development of industry software in  __VC++__ ,  __VC#__ ,  __Java__ , and  __Tomcat__ .
-+ Improved the testing ( __JUnit__  and  __NUnit__ ) and installation ( __Ant__ ,  __InstallShield__ , and  __Make__ ) frameworks.
++ Integrated a new licensing mode into CenterLink, a grid computing application, using **FLEXlm** and **Java**.
++ Assisted development of industry software in **VC++**, **VC#**, **Java**, and **Tomcat**.
++ Improved the testing (**JUnit** and **NUnit**) and installation (**Ant**, **InstallShield**, and **Make**) frameworks.
 
 ## Sunapsys, Inc.
 ### Network Administrator Intern
 + Vinton, Virginia | January 2011-August 2011
-+  __Linux__  server configuration and  __Bash__  development.
++ **Linux** server configuration and **Bash** development.
 
 
 
@@ -144,14 +144,14 @@ title:  vitæ
 
 
 
-## [Personal Blog and Website](http://bamos.io)
-+ Hosted on GitHub Pages. Uses  __Markdown__  for posts and  __Jekyll__  for static HTML generation.
-+  __27 posts__  across the following tags, listed by highest frequency.
-+ Python, Bash, LaTeX, Linux, Scala, Android, Mathematica, C++, Fortran, CUDA
-
 ## [GithHub Portfolio](http://github.com/bamos)
 + Hosts code samples, original source code, and patches for open source projects.
 + 20 original repositories, 6 forked repositories.
+
+## [Personal Blog and Website](http://bamos.io)
++ Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
++ **27 posts** across the following tags, listed by highest frequency.
++ Python, Bash, LaTeX, Linux, Scala, Android, Mathematica, C++, Fortran, CUDA
 
 
 
