@@ -112,7 +112,7 @@ title:  vitæ
 
 
 + __Preference:__ Linux, vim, git, Make, sbt
-+ __Languages:__ Akka\*\*, Bash\*\*, C/C++\*\*, C#\*, Fortran\*\*, HTML/CSS\*, LaTeX \*\*, Java\*\*, JavaScript\*\*,  Mathematica\*\*, Make\*\*\*, PHP\*, Python\*\*\*, R\*, Scala\*\*\*
++ __Languages:__ Akka\*\*, Bash\*\*, C/C++\*\*, C#\*, Fortran\*\*, HTML/CSS\*, LaTeX\*\*, Java\*\*, JavaScript\*\*,  Mathematica\*\*, Make\*\*\*, PHP\*, Python\*\*\*, R\*, Scala\*\*\*
 + __Systems:__ Android\*\*, Linux\*\*\*
 + __Rankings:__ 1/10\* - 3/10\*\* - 5/10\*\*\* - 7/10\*\*\*\*
 
