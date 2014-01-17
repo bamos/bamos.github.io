@@ -86,7 +86,7 @@ title:  vitæ
 + London, United Kingdom (Remote) | December 2013-January 2014
 + Open-source **Scala** development with a startup on the Snowplow analytics platform.
 + Developed a new server using **Spray** and **Actors** to store **Apache Thrift** events on **Amazon Kinesis**.
-+ Completed project ahead of schedule, and also ported Snowplow's Scala enrichment process to Kinesis.
++ Completed project ahead of schedule, and also helped port Snowplow's Scala enrichment process to Kinesis.
 
 ## Qualcomm, Inc.
 ### Source Integrity Team Software Intern
@@ -144,14 +144,14 @@ title:  vitæ
 
 
 
-## [GithHub Portfolio](http://github.com/bamos)
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 20 original repositories, 6 forked repositories.
-
 ## [Personal Blog and Website](http://bamos.io)
 + Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
 + **27 posts** across the following tags, listed by highest frequency.
 + Python, Bash, LaTeX, Linux, Scala, Android, Mathematica, C++, Fortran, CUDA
+
+## [GithHub Portfolio](http://github.com/bamos)
++ Hosts code samples, original source code, and patches for open source projects.
++ 20 original repositories, 6 forked repositories.
 
 
 
