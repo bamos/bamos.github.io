@@ -1,0 +1,94 @@
+\documentclass[12pt]{article}
+\usepackage[hmargin=0.55in, vmargin=1.2in]{geometry}
+\usepackage[T1]{fontenc}
+
+\usepackage{enumitem}
+\setlength{\parskip}{1ex}\setlength{\parindent}{0pt}
+\setlist{nolistsep}
+
+\usepackage{listings, textcomp,color}
+\lstdefinelanguage{scala}{
+  morekeywords={abstract,case,catch,class,def,%
+    do,else,extends,false,final,finally,%
+    for,if,implicit,import,match,mixin,%
+    new,null,object,override,package,%
+    private,protected,requires,return,sealed,%
+    super,this,throw,trait,true,try,%
+    type,val,var,while,with,yield},
+  otherkeywords={=>,<-,<\%,<:,>:,\#,@},
+  sensitive=true,
+  morecomment=[l]{//},
+  morecomment=[n]{/*}{*/},
+  morestring=[b]",
+  morestring=[b]',
+  morestring=[b]"""
+}
+\lstset{language=Scala,upquote=true,
+  basicstyle=\footnotesize,commentstyle=\textit,stringstyle=\upshape,
+  numbers=left,numberstyle=\footnotesize,stepnumber=1,numbersep=5pt,
+  backgroundcolor=\color{white},frame=single,tabsize=2,
+  showspaces=false,showstringspaces=false,showtabs=false,
+  breaklines=true,breakatwhitespace=true,escapeinside={\%*}{*)}
+}
+
+\usepackage{fancyhdr}\pagestyle{fancy}
+\lhead{\today}\chead{{\bf Scala Collector Listings}}\rhead{Brandon Amos}
+
+\usepackage{lastpage}
+\cfoot{Page \thepage\ of \pageref{LastPage}}
+
+
+\begin{document}
+
+\tableofcontents
+
+\section{kinesis-example-scala-consumer}
+\newcommand{\filesrc}[1]{\subsection{#1}
+  \lstinputlisting{
+    /home/brandon/kinesis-example-scala-consumer/src/main/scala/com.snowplowanalytics.kinesis.consumer/#1
+  }
+}
+\filesrc{KinesisConsumerApp.scala}
+\filesrc{RecordProcessorFactory.scala}
+\filesrc{RecordProcessor.scala}
+
+\section{scala-stream-collector}
+\renewcommand{\filesrc}[1]{\subsection{#1}
+  \lstinputlisting{
+    /home/brandon/scala-stream-collector/src/main/scala/com.snowplowanalytics.snowplow.collectors.scalastream/#1
+  }
+}
+\newcommand{\filetest}[1]{\subsection{#1}
+  \lstinputlisting{
+    /home/brandon/scala-stream-collector/src/test/scala/com.snowplowanalytics.snowplow.collectors.scalastream/#1
+  }
+}
+\filesrc{ScalaCollectorApp.scala}
+\filesrc{CollectorService.scala}
+\filesrc{ResponseHandler.scala}
+\filesrc{sinks/KinesisSink.scala}
+\filesrc{sinks/StdoutSink.scala}
+\filetest{CollectorServiceSpec.scala}
+
+\section{scala-kinesis-enrich}
+\renewcommand{\filesrc}[1]{\subsection{#1}
+  \lstinputlisting{
+    /home/brandon/scala-kinesis-enrich/src/main/scala/com.snowplowanalytics.snowplow.enrich.kinesis/#1
+  }
+}
+\renewcommand{\filetest}[1]{\subsection{#1}
+  \lstinputlisting{
+    /home/brandon/scala-kinesis-enrich/src/test/scala/com.snowplowanalytics.snowplow.enrich.kinesis/#1
+  }
+}
+\filesrc{KinesisEnrichApp.scala}
+\filesrc{sinks/ISink.scala}
+\filesrc{sinks/KinesisSink.scala}
+\filesrc{sinks/StdouterrSink.scala}
+\filesrc{sources/AbstractSource.scala}
+\filesrc{sources/KinesisSource.scala}
+\filesrc{sources/StdinSource.scala}
+\filesrc{sources/TestSource.scala}
+\filetest{KinesisEnrichSpec.scala}
+
+\end{document}
