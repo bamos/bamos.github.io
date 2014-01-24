@@ -104,7 +104,9 @@ title:  vitæ
 ## Sunapsys, Inc.
 ### Network Administrator Intern
 + Vinton, Virginia | January 2011-August 2011
-+ **Linux** server configuration and **Bash** development.
++ Internship in high-school with a small local company to replace Windows domain, mail, DHCP, and DNS servers with virtualized **Linux** servers.
++ Fully developed the servers and successfully migrated all of the office's computers.
++ Created **Bash** scripts to provide incremental backups.
 
 
 
