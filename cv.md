@@ -46,7 +46,7 @@ title:  vitæ
 + Blacksburg, Virginia | Advisor: Dr. Jules White | May 2012-Present
 + Work supported with ARO REU grant.
 + Android **malware detection research** resulting in primary authorship on a conference publication.
-+ Created a distributed **Actor** system using **Scala** for **machine learning** classification of APKs.
++ Led a small team to create a distributed **Actor** system in **Scala** for **machine learning** classification of APKs.
 + Developed **VC#** and **Python** programs for a pilot study on manufacturing cyber-physical security.
 + Assisted **C++** and **Make** development in **Linux** for a deployment optimization framework.
 + Modified the **Android source** to provide non-standard logging information for dynamic malware analysis.
