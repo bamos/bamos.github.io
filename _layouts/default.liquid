@@ -29,8 +29,8 @@ body {
   text-align: justify;
 }
 img { border: none; }
-img.alignleft { float:left; margin:0 15px 5px 0; }
-img.alignright { float:right; margin:0 0 5px 15px; }
+.alignleft { float:left; margin:0 15px 5px 0; }
+.alignright { float:right; margin:0 0 5px 15px; }
 img.border { border:3px solid #888; padding:4px; }
 
 .footer-links {
@@ -106,11 +106,15 @@ img.border { border:3px solid #888; padding:4px; }
             </li>
           {% endfor %}
             <li><small><em>&ndash; Generated {{ site.time | date:"%Y.%m.%d" }}</em></small></li>
-            <li>
+            <li class="alignright">
+              Subscribe
+              <a href='http://blogtrottr.com/?subscribe=http://bamos.io/feed.xml'
+                title='Get this feed delivered by email.'>
+                <img src='/images/social/email.png'
+                height="20px" alt='Blogtrottr' />
+              </a>
               <a href="/feed.xml">
-                <img class="alignright"
-                  height="20px"
-                  src="/images/rss.png"
+                <img height="20px" src="/images/rss.png"
                   alt="RSS Feed"/>
               </a>
             </li>
