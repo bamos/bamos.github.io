@@ -4,7 +4,11 @@ title:  vitæ
 ---
 
 # brandon amos. vitæ.
-[PDF](../data/cv.pdf) | [source](https://github.com/bamos/cv)
+
+[PDF](/data/cv.pdf) |
+[source](https://github.com/bamos/cv) |
+[email](http://goo.gl/ht7U8r) |
+(540) 947--1238
 
 # Interests
 
