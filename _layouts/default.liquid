@@ -1,5 +1,4 @@
 ---
-# -*- html -*- mode
 topnav:
   - text: About
     href: /about/
@@ -9,6 +8,13 @@ topnav:
     href: /archives/
   - text: Tags
     href: /tags/
+subscribe:
+  - img: /images/social/email.png
+    link: http://feedburner.google.com/fb/a/mailverify?uri=BrandonAmosBlog
+    alt: Email
+  - img: /images/social/rss.png
+    link: /rss
+    alt: RSS Feed
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -78,7 +84,7 @@ img.border { border:3px solid #888; padding:4px; }
                 {% endif %}
               >
               <a href="{{ t.href }}" title="{{ t.title }}">{{ t.text }}</a>
-            </li>
+              </li>
             {% endfor %}
           </ul>
         </div>
@@ -105,15 +111,18 @@ img.border { border:3px solid #888; padding:4px; }
             {% if forloop.last == false %} | {% endif %}
             </li>
           {% endfor %}
-            <li><small><em>&ndash; Generated {{ site.time | date:"%Y.%m.%d" }}</em></small></li>
+            <li>
+              <small>
+                <em>&ndash; Generated {{ site.time | date:"%Y.%m.%d" }}</em>
+              </small>
+            </li>
             <li class="alignright">
               Subscribe
-<a href='http://feedburner.google.com/fb/a/mailverify?uri=BrandonAmosBlog&loc=en_US'>
-  <img src='/images/social/email.png' height="20px" alt='Email' />
-</a>
-<a href="/feed.xml">
-  <img height="20px" src="/images/social/rss.png" alt="RSS Feed"/>
-</a>
+              {% for s in page.subscribe %}
+                <a href="{{ s.link }}">
+                  <img src="{{ s.img }}" height="20px" alt="{{ s.alt }}" />
+                </a>
+              {% endfor %}
             </li>
           </ul>
         </div>
