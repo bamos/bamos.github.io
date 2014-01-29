@@ -3,22 +3,22 @@ layout: default
 title:  About
 social:
   - link: https://www.facebook.com/bdamos
-    alt: Facebook
+    title: Facebook
     img: /images/social/facebook.png
   - link: http://github.com/bamos
-    alt: GitHub
+    title: GitHub
     img: /images/social/github.png
   - link: https://plus.google.com/u/0/+BrandonAmos/
-    alt: Google+
+    title: Google+
     img: /images/social/googleplus.png
   - link: http://www.linkedin.com/profile/view?id=165493965
-    alt: LinkedIn
+    title: LinkedIn
     img: /images/social/linkedin.png
   - link: http://stackexchange.com/users/1318112/highphi
-    alt: StackExchange
+    title: StackExchange
     img: /images/social/stackoverflow.png
   - link: https://twitter.com/brandondamos
-    alt: Twitter
+    title: Twitter
     img: /images/social/twitter.png
 ---
 
