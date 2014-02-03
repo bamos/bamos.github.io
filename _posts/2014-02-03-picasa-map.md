@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Initial release of Picasa map.
+title: Marking photos from Picasa on a map: Picasa Map.
 tags: [JavaScript]
 ---
 
