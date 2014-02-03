@@ -16,21 +16,21 @@ To do add a click listener, create a Maplace object, then overload it with
 the following.
 
 {% highlight javascript %}
-  var m = new Maplace({
-    locations: [
-      {
-        lat: 45.9,
-        lon: 10.9,
-        url: "http://google.com"
-      }
-    ]
+var m = new Maplace({
+  locations: [
+    {
+      lat: 45.9,
+      lon: 10.9,
+      url: "http://google.com"
+    }
+  ]
+});
+m.o.afterCreateMarker = function (index, location, marker) {
+  google.maps.event.addListener(marker, 'click', function() {
+    window.open(this.url);
   });
-  m.o.afterCreateMarker = function (index, location, marker) {
-    google.maps.event.addListener(marker, 'click', function() {
-      window.open(this.url);
-    });
-  };
-  m.Load();
+};
+m.Load();
 {% endhighlight %}
 
 [maplace]: https://github.com/danielemoraschi/Maplace.js
