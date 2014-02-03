@@ -76,8 +76,9 @@ title:  vitæ
 1. "Fortran 95 implementation of QNSTOP for global and stochastic optimization." **Brandon Amos**, David Easterling, Layne Watson, Brent Castle, Michael Trosset, William Thacker. SpringSim'14 High Performance Computing Symposium. Tampa, Florida, USA, April 2014.
 2. "Applying machine learning classifiers to dynamic Android malware detection at scale." **Brandon Amos**, Hamilton Turner, Jules White. IWCMC'13 Security, Trust, and Privacy Symposium. Cagliari, Italy, July 2013.
 
-## Magazine
-1. "Bad Parts: Are Our Manufacturing Systems At Risk of Silent Cyber-attacks?" Hamilton Turner, **Brandon Amos**, Jules White, Jaime Camelio, Chris Williams, Robert Parker. Submitted.
+## Submitted
+1. "Cyber Security and Industrial Manufacturing: Toward a Future of Trusted Manufacturing." Hamilton Turner, **Brandon Amos**, Jules White, Robert Parker, Christopher Williams, Jaime Camelio. Submitted.
+2. "Bad Parts: Are Our Manufacturing Systems At Risk of Silent Cyber-attacks?" Hamilton Turner, **Brandon Amos**, Jules White, Jaime Camelio, Chris Williams, Robert Parker. Submitted.
 
 
 
@@ -150,14 +151,14 @@ title:  vitæ
 
 
 
+## [GithHub Portfolio](http://github.com/bamos)
++ Hosts code samples, original source code, and patches for open source projects.
++ 20 original repositories, 6 forked repositories.
+
 ## [Personal Blog and Website](http://bamos.io)
 + Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
 + **27 posts** across the following tags, listed by highest frequency.
 + Python, Bash, LaTeX, Linux, Scala, Android, Mathematica, C++, Fortran, CUDA
-
-## [GithHub Portfolio](http://github.com/bamos)
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 20 original repositories, 6 forked repositories.
 
 
 
