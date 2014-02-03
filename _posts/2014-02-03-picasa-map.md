@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Marking photos from Picasa on a map: Picasa Map.
+title: Marking photos from Picasa on a map with Picasa Map.
 tags: [JavaScript]
 ---
 
