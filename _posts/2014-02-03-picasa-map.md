@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Marking photos from Picasa on a map with Picasa Map.
-tags: [JavaScript]
+tags: [Python,JavaScript]
 ---
 
 Google's Picasa provides a great way of organizing and geotagging pictures.
