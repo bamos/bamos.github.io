@@ -77,8 +77,8 @@ title:  vitæ
 2. "Applying machine learning classifiers to dynamic Android malware detection at scale." **Brandon Amos**, Hamilton Turner, Jules White. IWCMC'13 Security, Trust, and Privacy Symposium. Cagliari, Italy, July 2013.
 
 ## Submitted
-1. "Cyber Security and Industrial Manufacturing: Toward a Future of Trusted Manufacturing." Hamilton Turner, **Brandon Amos**, Jules White, Robert Parker, Christopher Williams, Jaime Camelio. Submitted.
-2. "Bad Parts: Are Our Manufacturing Systems At Risk of Silent Cyber-attacks?" Hamilton Turner, **Brandon Amos**, Jules White, Jaime Camelio, Chris Williams, Robert Parker. Submitted.
+1. "Cyber Security and Industrial Manufacturing: Toward a Future of Trusted Manufacturing." Hamilton Turner, **Brandon Amos**, Jules White, Robert Parker, Christopher Williams, Jaime Camelio.
+2. "Bad Parts: Are Our Manufacturing Systems At Risk of Silent Cyber-attacks?" Hamilton Turner, **Brandon Amos**, Jules White, Jaime Camelio, Chris Williams, Robert Parker.
 
 
 
