@@ -30,7 +30,6 @@ class cache(object):
 
   def __call__(self, *args, **kwargs):
     key  = str(args) + str(kwargs)
-    print(key)
     try:
       if time.time() - self.cache_times[key] > 60*60*1: # 1 hour.
         raise CacheTimeout
