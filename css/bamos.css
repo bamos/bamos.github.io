@@ -21,3 +21,7 @@ img.border { border:3px solid #888; padding:4px; }
 .footer-links li:first-child {
   padding-left: 0;
 }
+
+.code {
+  margin: 0
+}
