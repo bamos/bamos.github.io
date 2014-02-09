@@ -21,8 +21,7 @@ title:  vitæ
 
 
 
-## Virginia Tech
-### B.S. Computer Science, Honors Scholar. Mathematics minor.
+## B.S. Computer Science, Honors Scholar. Mathematics minor. Virginia Tech
 + Blacksburg, Virginia | August 2011-May 2014
 + Major GPA: 4.00/4.00 | Overall GPA: 3.98/4.00
 
