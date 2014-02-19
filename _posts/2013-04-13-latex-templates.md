@@ -36,8 +36,6 @@ clean: ; rm -rf *.aux *.log $(PDF)
 # Homework
 This is the template I use mostly for homework.
 
-See an example [here](/data/2013-04-13/hw.pdf).
-
 ## Usage
 {% highlight latex %}
 \documentclass[12pt]{hw}
@@ -105,8 +103,6 @@ amsthm,enumerate}
 This is a template I use when creating quick reference cards.
 This is mostly a fork of [this](http://www.stdout.org/~winston/latex/),
 but slightly modified to my tastes.
-
-See an example [here](/data/2013-04-13/cheatsheet.pdf).
 
 ## Example
 {% highlight latex %}
