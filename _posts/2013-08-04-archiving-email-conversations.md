@@ -34,7 +34,7 @@ At a high level, `mbox-convos.py` does the following.
 [getmail](http://pyropus.ca/software/getmail/)
 is a useful utility to download an mbox file from POP or IMAP.
 Matt Cutts wrote a great
-[post](http://www.mattcutts.com/blog/backup-gmail-in-linux-with-getmail/http:/www.mattcutts.com/blog/backup-gmail-in-linux-with-getmail/)
+[post](http://www.mattcutts.com/blog/backup-gmail-in-linux-with-getmail)
 on how to use this with GMail.
 
 One portion that's not very clear is that POP can only download

@@ -26,8 +26,8 @@ This Mathematica script produces the following B-splines:
 # Script
 The script is fairly short and should run on any platform.
 Though, I use my Linux shell and
-the [hashbang](http://en.wikipedia.org/wiki/Shebang_(Unix) is set
-to execute `MathematicaScript` so the script can be run as:
+the [hashbang][hashbang] is set to execute `MathematicaScript` so
+the script can be run as:
 
 {% highlight bash %}
 $ ./plot-bsplines.m
@@ -72,3 +72,5 @@ knots = {0, 1, 1, 3, 4, 6, 6, 6}; order = 3;
 (makeSpline[knots, order, First[knots], Last[knots], #])& /@
     Range[1,Length[knots]-order];
 {% endhighlight %}
+
+[hashbang]: http://en.wikipedia.org/wiki/Shebang_(Unix)

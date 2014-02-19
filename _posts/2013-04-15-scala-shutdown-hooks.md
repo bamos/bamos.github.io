@@ -10,9 +10,6 @@ When using a
 are called before the VM shuts down.
 They are also used to catch user interrupts
 caused by Ctrl-C, for example.
-IBM also has
-[well-written material](http://www.ibm.com/developerworks/ibm/library/i-signalhandling)
-on shutdown hooks and signal handling in Java.
 
 In Scala specifically, this process is similar to the references above.
 However, I'm writing this post because

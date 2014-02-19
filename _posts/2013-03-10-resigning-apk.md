@@ -7,12 +7,11 @@ tags: [Android]
 I'm currently writing [Robotium](http://code.google.com/p/robotium)
 applications to test Android APK files that I didn't write. To do this,
 the application needs to be re-signed with a debug certificate. I was able to
-find many sources for doing this, including a
-[Drag and Drop](http://www.troido.de/en/downloadslsmallgsoftware-a-driverslsmallg)
-application that automatically resigns applications. However, nothing I found met 
-my needs of doing this to an entire directory of apk files via the command line.
+find many sources for doing this.
+However, nothing I found met my needs of doing this to an
+entire directory of apk files via the command line.
 The script that I posted at
-[bamos/simple-shell-scripts](https://github.com/bamos/simple-shell-scripts/blob/master/re-signer.sh)
+[bamos/simple-shell-scripts](https://github.com/bamos/simple-shell-scripts/blob/master/resigner.sh)
 takes the name of the apk as a parameter and
 automatically resigns the application.
 
