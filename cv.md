@@ -9,14 +9,12 @@ title:  vitæ
 [source](https://github.com/bamos/cv) |
 [email](http://goo.gl/ht7U8r) |
 (540) 947--1238 |
-Generated February 10, 2014.
+Generated February 22, 2014.
 
 # Interests
 
 
-**Compiler**, **mobile**, or **security** research or development in **Linux**. 
-
- Seeking a PhD fellowship starting May 2014 or internship from May-August 2014.
+**Compiler**, **mobile**, or **security** research or development in **Linux**.
 
 # Education
 
@@ -153,12 +151,12 @@ B.S. Computer Science, Honors Scholar. Mathematics minor. Virginia Tech.
 
 ## [Personal Blog and Website](http://bamos.io)
 + Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
-+ **27 posts** across the following tags, listed by highest frequency.
-+ Python, Bash, LaTeX, Linux, Scala, Android, Mathematica, C++, Fortran, CUDA
++ **37 posts** across the following tags, listed by highest frequency.
++ Python, Bash, LaTeX, Scala, Linux, Fortran, JavaScript, Android, News, CUDA, OpenMP, C++, Mathematica
 
 ## [GithHub Portfolio](http://github.com/bamos)
 + Hosts code samples, original source code, and patches for open source projects.
-+ 20 original repositories, 6 forked repositories.
++ 23 original repositories, 7 forked repositories.
 
 
 
