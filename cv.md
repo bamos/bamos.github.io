@@ -9,7 +9,7 @@ title:  vitæ
 [source](https://github.com/bamos/cv) |
 [email](http://goo.gl/ht7U8r) |
 (540) 947--1238 |
-Generated February 22, 2014.
+Generated February 24, 2014.
 
 # Interests
 
@@ -107,7 +107,7 @@ B.S. Computer Science, Honors Scholar. Mathematics minor. Virginia Tech.
 ## Sunapsys, Inc.
 ### Network Administrator Intern
 + Vinton, Virginia | January 2011-August 2011
-+ Internship in high-school with a small local company to replace Windows domain, mail, DHCP, and DNS servers with virtualized **Linux** servers.
++ Internship in high school with a small local company to replace Windows domain, mail, DHCP, and DNS servers with virtualized **Linux** servers.
 + Fully developed the servers and successfully migrated all of the office's computers.
 + Created **Bash** scripts to provide incremental backups.
 
@@ -163,7 +163,7 @@ B.S. Computer Science, Honors Scholar. Mathematics minor. Virginia Tech.
 # Activities
 
 
-+ Honors Residential College, Virginia Tech, 2013
++ Honors Residential College, Virginia Tech, 2013-2014
 + Hokies Pep Band, Virginia Tech, 2012-2013
 + Computer Science Community Service, Virginia Tech, 2012
 + Symphony Band, Virginia Tech, 2011-2012
