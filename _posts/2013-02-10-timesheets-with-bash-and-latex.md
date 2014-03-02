@@ -4,6 +4,10 @@ title: Creating hourly timesheets with Bash and LaTeX
 tags: [Bash, LaTeX]
 ---
 
+__Note:__ I no longer use these scripts, and if I were to start using
+them again, I'd use Python and Jinja2 and read timesheet data from YAML
+to create a LaTeX document.
+
 As I made the slow transition from Windows to Linux over the past few years,
 I've taken a liking to using [LaTeX](http://www.latex-project.org/)
 over any of the [WYSIWYG](http://en.wikipedia.org/wiki/WYSIWYG)
