@@ -9,7 +9,7 @@ title:  vitæ
 [source](https://github.com/bamos/cv) |
 [email](http://goo.gl/ht7U8r) |
 (540) 947--1238 |
-Generated February 24, 2014.
+Generated March 06, 2014.
 
 # Interests
 
@@ -125,6 +125,7 @@ B.S. Computer Science, Honors Scholar. Mathematics minor. Virginia Tech.
 # Honors & Awards
 
 
++ ACC Meeting of the Minds Undergraduate Research Conference
 + Honorable Mention, CRA Outstanding Undergraduate Researcher Award, 2014
   + 1 of 15 North American males awarded honorable mention for exemplary computer science research.
 + Qualstar Award, Qualcomm, 2013
