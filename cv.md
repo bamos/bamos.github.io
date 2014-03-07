@@ -9,7 +9,7 @@ title:  vitæ
 [source](https://github.com/bamos/cv) |
 [email](http://goo.gl/ht7U8r) |
 (540) 947--1238 |
-Generated March 06, 2014.
+Generated March 07, 2014.
 
 # Interests
 
@@ -125,39 +125,39 @@ B.S. Computer Science, Honors Scholar. Mathematics minor. Virginia Tech.
 # Honors & Awards
 
 
-+ ACC Meeting of the Minds Undergraduate Research Conference
-+ Honorable Mention, CRA Outstanding Undergraduate Researcher Award, 2014
++ [ACC Meeting of the Minds Undergraduate Research Conference, 2014](http://www.vtnews.vt.edu/articles/2014/03/030514-uged-accmom.html)
++ [Honorable Mention, CRA Outstanding Undergraduate Researcher Award, 2014](http://cra.org/awards/undergrad-view/2014_outstanding_undergraduate_award_recipients/)
   + 1 of 15 North American males awarded honorable mention for exemplary computer science research.
 + Qualstar Award, Qualcomm, 2013
-+ Benjamin F. Bock Merit Scholarship, Virginia Tech Engineering, 2013
++ Benjamin F. Bock Merit Scholarship, Virginia Tech Engineering, 2013-2014
 + Sophomore Scholar Award, Virginia Tech Computer Science, 2013
   + Given to the sophomore in Computer Science with the most outstanding academic record.
-+ University Honors, Virginia Tech, 2012-2013
-+ Intelligence Community Center of Academic Excellence Scholar, Virginia Tech, 2012-2013
++ University Honors, Virginia Tech, 2012-2014
++ Intelligence Community Center of Academic Excellence Scholar, Virginia Tech, 2012-2014
   + Merit-based scholarship providing a cyber-security research fellowship.
 + Dean's List with Distinction, Virginia Tech, 2011-2013
 + Engineering Merit Scholarship, Roanoke County Public Schools Education Foundation, 2011
   + Merit-based scholarship presented annually to one student in the graduating Engineering class.
 + Papa John's Merit Scholarship, 2011
 + Gay B. Shober Memorial Merit Scholarship, Roanoke County Federal Credit Union, 2011
-+ Pamplin Leader Scholarship, Virginia Tech, 2011
++ [Pamplin Leader Scholarship, Virginia Tech, 2011](http://ww2.roanoke.com/community/virginia/education/wb/292050)
   + Merit-based scholarship presented to one student from each public high school in Virginia.
 + I. Luck Gravett Memorial Merit Scholarship, Scottish Rite of Freemasonry, 2011
-+ Salem-Roanoke County Chamber of Commerce Merit Scholarship, 2011
++ [Salem-Roanoke County Chamber of Commerce Merit Scholarship, 2011](http://s-rcchamber.org/wp-content/uploads/2011/03/August-2011-NL.pdf)
 
 
 # Projects
 
 
 
+## [GithHub Portfolio](http://github.com/bamos)
++ Hosts code samples, original source code, and patches for open source projects.
++ 23 original repositories, 7 forked repositories.
+
 ## [Personal Blog and Website](http://bamos.io)
 + Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
 + **37 posts** across the following tags, listed by highest frequency.
 + Python, Bash, LaTeX, Scala, Linux, Fortran, JavaScript, Android, News, CUDA, OpenMP, C++, Mathematica
-
-## [GithHub Portfolio](http://github.com/bamos)
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 23 original repositories, 7 forked repositories.
 
 
 
