@@ -9,7 +9,7 @@ title:  vitæ
 [source](https://github.com/bamos/cv) |
 [email](http://goo.gl/ht7U8r) |
 (540) 947--1238 |
-Generated March 07, 2014.
+Generated March 20, 2014.
 
 # Interests
 
@@ -71,12 +71,34 @@ B.S. Computer Science, Honors Scholar. Mathematics minor. Virginia Tech.
 
 
 ## Conference
-1. "Fortran 95 implementation of QNSTOP for global and stochastic optimization." **Brandon Amos**, David Easterling, Layne Watson, Brent Castle, Michael Trosset, William Thacker. SpringSim'14 High Performance Computing Symposium. Tampa, Florida, USA, April 2014.
-2. "Applying machine learning classifiers to dynamic Android malware detection at scale." **Brandon Amos**, Hamilton Turner, Jules White. IWCMC'13 Security, Trust, and Privacy Symposium. Cagliari, Italy, July 2013.
+1. "Fortran 95 implementation of QNSTOP for global and stochastic
+optimization." **Brandon Amos**, David Easterling, Layne Watson,
+Brent Castle, Michael Trosset, William Thacker.
+SpringSim'14 High Performance Computing Symposium.
+Tampa, Florida, USA, April 2014.
+
+2. "Applying machine learning classifiers to dynamic Android malware
+detection at scale."
+**Brandon Amos**, Hamilton Turner, Jules White.
+IWCMC'13 Security, Trust, and Privacy Symposium.
+Cagliari, Italy, July 2013.
+
 
 ## Submitted
-1. "Cyber Security and Industrial Manufacturing: Toward a Future of Trusted Manufacturing." Hamilton Turner, **Brandon Amos**, Jules White, Robert Parker, Christopher Williams, Jaime Camelio.
-2. "Bad Parts: Are Our Manufacturing Systems At Risk of Silent Cyber-attacks?" Hamilton Turner, **Brandon Amos**, Jules White, Jaime Camelio, Chris Williams, Robert Parker.
+1. "Global Parameter Estimation for a Eukaryotic Cell Cycle Model in
+Systems Biology." Tricity Andrew, **Brandon Amos**,
+David Easterling, Cihan Oguz, William Baumann, John Tyson,
+Layne Watson.
+
+2. "Cyber Security and Industrial Manufacturing: Toward a
+Future of Trusted Manufacturing." Hamilton Turner,
+**Brandon Amos**, Jules White, Robert Parker,
+Christopher Williams, Jaime Camelio.
+
+3. "Bad Parts: Are Our Manufacturing Systems At Risk of Silent
+Cyber-attacks?" Hamilton Turner, **Brandon Amos**, Jules White,
+Jaime Camelio, Chris Williams, Robert Parker.
+
 
 
 
