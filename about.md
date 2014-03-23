@@ -35,7 +35,7 @@ For more information, find my publications on
 [Google Scholar][scholar] and see [my vitae][cv].
 
 Furthermore, I enjoy contributing to the open-source community
-and maintain as many projects as possible on my
+and maintain as many projects as possible on
 [GitHub][github], including [this website][website],
 which is published with [jekyll][jekyll].
 
@@ -51,7 +51,7 @@ and feel free to use [PGP][pgp].
   </a>
 {% endfor %}
 </div>
-  
+
 [vt]: http://www.cs.vt.edu
 [scholar]: http://scholar.google.com/citations?user=CZwrwHAAAAAJ
 [cv]: ../cv
