@@ -9,7 +9,7 @@ title:  vitæ
 [source](https://github.com/bamos/cv) |
 [email](http://goo.gl/ht7U8r) |
 (540) 947--1238 |
-Generated March 20, 2014.
+Generated March 25, 2014.
 
 # Interests
 
@@ -37,7 +37,7 @@ B.S. Computer Science, Honors Scholar. Mathematics minor. Virginia Tech.
 
 ## Systems Software Research Group
 ### Undergraduate Research Assistant
-+ Blacksburg, Virginia | Advisor: Dr. Binoy Ravindran | November 2012-Present
++ Blacksburg, Virginia | Advisor: Dr. Binoy Ravindran | November 2012-March 2014
 + Work supported with NSF and NEEC REU grants.
 + Research on automatic **OpenMP** to **CUDA** translation using **C++** and the **ROSE** compiler framework.
 + Polyhedral loop optimization research to restructure **OpenCL** kernels for locality using **LLVM** and **Polly**.
@@ -45,7 +45,7 @@ B.S. Computer Science, Honors Scholar. Mathematics minor. Virginia Tech.
 
 ## Magnum Research Group
 ### Undergraduate Research Assistant
-+ Blacksburg, Virginia | Advisor: Dr. Jules White | May 2012-Present
++ Blacksburg, Virginia | Advisor: Dr. Jules White | May 2012-January 2014
 + Work supported with ARO REU grant.
 + Android **malware detection research** resulting in primary authorship on a conference publication.
 + Led a small team to create a distributed **Actor** system in **Scala** for **machine learning** classification of APKs.
