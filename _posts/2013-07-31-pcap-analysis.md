@@ -27,7 +27,7 @@ files lists a few other tools.
 # Analyzing pcap files.
 After obtaining pcap files, use `tcpflow` to extract all of the
 TCP streams.
-`-r` reads from a file, 
+`-r` reads from a file,
 `-C` prints all contents to the console, and
 `-B` prints binary output.
 

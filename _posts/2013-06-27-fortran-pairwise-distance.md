@@ -13,7 +13,7 @@ My first and program is to calculate the
 between pairs of objects in a matrix.
 
 # Example.
-Consider the vectors `((0.5377, -1.3077), (1.8339, -0.4336), 
+Consider the vectors `((0.5377, -1.3077), (1.8339, -0.4336),
 (-2.2588, 0.4326), (0.8622, 3.5784), (0.3188, 2.7694))`.
 The first element of the Euclidean parwise distance vector
 would be the distance between the first and second elements:

@@ -48,7 +48,7 @@ Also, verify MySQL automatically started
 $ sudo apt-get install git-core mysql-server openjdk-6-jre
 $ wget https://dl-ssl.google.com/dl/googlesource/git-repo/repo -O /usr/bin/repo
 $ sudo netstat -tap | grep mysqudo netstat -tap | grep mysql
-tcp        0      0 localhost:mysql         *:*                     LISTEN      5136/mysqld 
+tcp        0      0 localhost:mysql         *:*                     LISTEN      5136/mysqld
 {% endhighlight %}
 
 # Prepare Gerrit
@@ -165,7 +165,7 @@ Load the site in a browser and register an account.
 ( *Note:* repo makes it difficult to upload to a repository if your
 username differs from the first section (before the @) of your email.
 You can save some trouble here by making your username on gerrit the
-same as the first part of your email. `foo` should be the username of 
+same as the first part of your email. `foo` should be the username of
 `foo@bar.baz`)
 The first user to register an account is automatically placed into the
 Administrators group.
@@ -229,8 +229,8 @@ Single quotes are important here. Also note that &lt;sshPort&gt; is the ssh port
 of the internal daemon running within Gerrit, not the regular ssh port.
 
 {% highlight bash %}
-gerrit2 $ repo forall -c 'echo $REPO_PATH; ssh -p <sshPort> <gerritUser>@<host> gerrit create-project --name android/$REPO_PATH --owner android;' 
-gerrit2 $ repo forall -c 'echo $REPO_PATH; git push ssh://<gerritUser@<host>:<sshPort>/android/$REPO_PATH +refs/heads/* +refs/tags/*;' 
+gerrit2 $ repo forall -c 'echo $REPO_PATH; ssh -p <sshPort> <gerritUser>@<host> gerrit create-project --name android/$REPO_PATH --owner android;'
+gerrit2 $ repo forall -c 'echo $REPO_PATH; git push ssh://<gerritUser@<host>:<sshPort>/android/$REPO_PATH +refs/heads/* +refs/tags/*;'
 {% endhighlight %}
 
 # Daemon Configuration

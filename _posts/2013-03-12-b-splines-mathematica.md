@@ -62,8 +62,8 @@ bspline[i_Integer, k_Integer, t_List, x_] :=
 makeSpline[knots_, order_Integer, minItem_, maxItem_, i_Integer] := Module[
     {spline, splinePlot},
     spline[x_] = bspline[i, order, knots, x];
-    splinePlot = Plot[spline[x], {x, minItem, maxItem}, PlotRange->{0,1}, 
-        PlotLabel->"B-Spline B" <> ToString[i] <> "(x)"]; 
+    splinePlot = Plot[spline[x], {x, minItem, maxItem}, PlotRange->{0,1},
+        PlotLabel->"B-Spline B" <> ToString[i] <> "(x)"];
     Export[Directory[] <> "/figures/1-B" <> ToString[i] <> ".jpg",
         splinePlot];
 ];

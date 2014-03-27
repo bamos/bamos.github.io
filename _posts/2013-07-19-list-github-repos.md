@@ -84,7 +84,7 @@ if __name__=="__main__":
       print('  + ' + repo['description'])
   f.write('\\end{itemize}\n')
 
-  
+
   f.write('{\\bf Forked repositories.}\n')
   print("\nForked repositories.")
 

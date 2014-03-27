@@ -11,7 +11,7 @@ page creating the page, and there is currently no option to change this.
 Creating new pages like this is easy, but in large Wiki's links become
 difficult to manage and can lead to difficulties validating links.
 
-[bamos/github-wiki-link-validator][repo] contains 
+[bamos/github-wiki-link-validator][repo] contains
 a Python 3.3 script using BeautifulSoup 4
 to crawl a published Github wiki and detect
 internal links pointing to invalid locations.

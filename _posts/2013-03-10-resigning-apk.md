@@ -17,24 +17,24 @@ automatically resigns the application.
 
 # Usage
 {% highlight bash %}
-$ ./re-signer.sh foo.apk 
+$ ./re-signer.sh foo.apk
 Moving the original apk to a temporary location
 Unzipping and removing META-INF
 Archive:  foo-temp.apk
-  inflating: foo/META-INF/MANIFEST.MF  
-  inflating: foo/META-INF/ANDROID.SF  
-  inflating: foo/META-INF/ANDROID.RSA  
-  inflating: foo/assets/exploid  
-  inflating: foo/assets/profile  
-  inflating: foo/assets/rageagainstthecage  
- extracting: foo/assets/sqlite.db  
-  inflating: foo/lib/armeabi/libandroidterm.so  
- extracting: foo/res/drawable/icon.png  
- extracting: foo/res/drawable/minispiral.png  
-  inflating: foo/res/layout/main.xml  
-  inflating: foo/AndroidManifest.xml  
-  inflating: foo/classes.dex  
-  inflating: foo/resources.arsc  
+  inflating: foo/META-INF/MANIFEST.MF
+  inflating: foo/META-INF/ANDROID.SF
+  inflating: foo/META-INF/ANDROID.RSA
+  inflating: foo/assets/exploid
+  inflating: foo/assets/profile
+  inflating: foo/assets/rageagainstthecage
+ extracting: foo/assets/sqlite.db
+  inflating: foo/lib/armeabi/libandroidterm.so
+ extracting: foo/res/drawable/icon.png
+ extracting: foo/res/drawable/minispiral.png
+  inflating: foo/res/layout/main.xml
+  inflating: foo/AndroidManifest.xml
+  inflating: foo/classes.dex
+  inflating: foo/resources.arsc
 Zipping and removing the directory
   adding: AndroidManifest.xml (deflated 68%)
   adding: assets/ (stored 0%)

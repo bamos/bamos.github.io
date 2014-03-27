@@ -55,15 +55,15 @@ This is the template I use mostly for homework.
 \begin{document}
 
 \problem{1}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet 
-dictum urna, sed vehicula ligula commodo eu. Lorem ipsum dolor sit 
-amet, consectetur adipiscing elit. Donec in neque ut quam aliquam 
-facilisis nec sit amet massa. Lorem ipsum dolor sit amet, consectetur 
-adipiscing elit. Pellentesque at congue sem. Proin pharetra risus 
-eget augue auctor nec mattis justo ornare. Suspendisse eleifend 
-egestas est, a vulputate orci eleifend eu. Vestibulum dapibus 
-pellentesque luctus. Praesent blandit rhoncus ligula vel tristique. 
-Mauris est metus, laoreet a consequat non, condimentum ut neque. In 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet
+dictum urna, sed vehicula ligula commodo eu. Lorem ipsum dolor sit
+amet, consectetur adipiscing elit. Donec in neque ut quam aliquam
+facilisis nec sit amet massa. Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Pellentesque at congue sem. Proin pharetra risus
+eget augue auctor nec mattis justo ornare. Suspendisse eleifend
+egestas est, a vulputate orci eleifend eu. Vestibulum dapibus
+pellentesque luctus. Praesent blandit rhoncus ligula vel tristique.
+Mauris est metus, laoreet a consequat non, condimentum ut neque. In
 sed quam vitae turpis molestie placerat posuere ut mauris. Mauris non leo a
 tellus sagittis dignissim. Aenean in nisi eros.
 {% endhighlight %}
@@ -186,7 +186,7 @@ amsthm,enumerate, enumitem}
 
 % Turn off header and footer
 \pagestyle{empty}
- 
+
 
 % Redefine section commands to use less space
 \makeatletter
@@ -204,7 +204,7 @@ amsthm,enumerate, enumitem}
                                 {\normalfont\small\bfseries}}
 \makeatother
 
-% Insert 
+% Insert
 % http://tex.stackexchange.com/questions/12262/multicol-and-figures
 \newenvironment{Figure}
   {\par\medskip\noindent\minipage{\linewidth}}

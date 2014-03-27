@@ -62,7 +62,7 @@ which is a tree data structure used to store overlapping intervals.
 
 The basic structure of the program is to:
 
-1. Parse all of the calendars and obtain a list of intervals of every event. 
+1. Parse all of the calendars and obtain a list of intervals of every event.
    Each interval contains the start and stop value.
 
    Also, add an interval from the beginning of the day to the current time
@@ -183,7 +183,7 @@ def getAvailableTimes(intervalTree, daysAway, startTime, endTime, freeTime):
           dailyTimes.append(TimeInterval(time.stop, busyTimes[idx+1].start))
     if dailyTimes:
       availableTimes.append(dailyTimes)
-        
+
     if day + 1 > daysInMonth:
       if month + 1 > 12:
         year += 1; month = 1; day = 1

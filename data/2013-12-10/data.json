@@ -1,1361 +1,1361 @@
 [
   {
-    "title": "Searching", 
+    "title": "Searching",
     "headings": [
       [
-        "Algorithm", 
-        "Data Structure", 
-        "Time Complexity", 
-        "Time Complexity", 
+        "Algorithm",
+        "Data Structure",
+        "Time Complexity",
+        "Time Complexity",
         "Space Complexity"
-      ], 
+      ],
       [
-        null, 
-        null, 
-        "Average", 
-        "Worst", 
+        null,
+        null,
+        "Average",
+        "Worst",
         "Worst"
       ]
-    ], 
+    ],
     "data": [
       {
-        "wikiIntro": "todo", 
-        "wiki": "Depth-first_search", 
+        "wikiIntro": "todo",
+        "wiki": "Depth-first_search",
         "row": [
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "Depth First Search (DFS)"
-          }, 
+          },
           {
             "content": "Graph of |V| vertices and |E| edges"
-          }, 
+          },
           {
             "content": "-"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(|E| + |V|)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(|V|)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Breadth-first_search", 
+        "wikiIntro": "todo",
+        "wiki": "Breadth-first_search",
         "row": [
           {
             "content": "Breadth First Search (BFS)"
-          }, 
+          },
           {
             "content": "Graph of |V| vertices and |E| edges"
-          }, 
+          },
           {
             "content": "-"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(|E| + |V|)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(|V|)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Binary_search_algorithm", 
+        "wikiIntro": "todo",
+        "wiki": "Binary_search_algorithm",
         "row": [
           {
             "content": "Binary search"
-          }, 
+          },
           {
             "content": "Sorted array of n elements"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Brute-force_search", 
+        "wikiIntro": "todo",
+        "wiki": "Brute-force_search",
         "row": [
           {
             "content": "Linear (Brute Force)"
-          }, 
+          },
           {
             "content": "Array"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Dijkstra's_algorithm", 
+        "wikiIntro": "todo",
+        "wiki": "Dijkstra's_algorithm",
         "row": [
           {
             "content": "Shortest path by Dijkstra, using a Min-heap as priority queue"
-          }, 
+          },
           {
             "content": "Graph with |V| vertices and |E| edges"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O((|V| + |E|) log |V|)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O((|V| + |E|) log |V|)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(|V|)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Dijkstra's_algorithm", 
+        "wikiIntro": "todo",
+        "wiki": "Dijkstra's_algorithm",
         "row": [
           {
             "content": "Shortest path by Dijkstra, using an unsorted array as priority queue"
-          }, 
+          },
           {
             "content": "Graph with |V| vertices and |E| edges"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(|V|^2)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(|V|^2)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(|V|)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Bellman%E2%80%93Ford_algorithm", 
+        "wikiIntro": "todo",
+        "wiki": "Bellman%E2%80%93Ford_algorithm",
         "row": [
           {
             "content": "Shortest path by Bellman-Ford"
-          }, 
+          },
           {
             "content": "Graph with |V| vertices and |E| edges"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(|V||E|)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(|V||E|)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(|V|)"
           }
         ]
       }
     ]
-  }, 
+  },
   {
-    "title": "Sorting", 
+    "title": "Sorting",
     "headings": [
       [
-        "Algorithm", 
-        "Data Structure", 
-        "Time Complexity", 
-        "Time Complexity", 
-        "Time Complexity", 
+        "Algorithm",
+        "Data Structure",
+        "Time Complexity",
+        "Time Complexity",
+        "Time Complexity",
         "Worst Case Auxiliary Space Complexity"
-      ], 
+      ],
       [
-        null, 
-        null, 
-        "Best", 
-        "Average", 
-        "Worst", 
+        null,
+        null,
+        "Best",
+        "Average",
+        "Worst",
         "Worst"
       ]
-    ], 
+    ],
     "data": [
       {
-        "wikiIntro": "todo", 
-        "wiki": "Quicksort", 
+        "wikiIntro": "todo",
+        "wiki": "Quicksort",
         "row": [
           {
             "content": "Quicksort"
-          }, 
+          },
           {
             "content": "Array"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(n log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(n log(n))"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n^2)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(n)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Merge_sort", 
+        "wikiIntro": "todo",
+        "wiki": "Merge_sort",
         "row": [
           {
             "content": "Mergesort"
-          }, 
+          },
           {
             "content": "Array"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(n log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(n log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(n log(n))"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Heapsort", 
+        "wikiIntro": "todo",
+        "wiki": "Heapsort",
         "row": [
           {
             "content": "Heapsort"
-          }, 
+          },
           {
             "content": "Array"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(n log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(n log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(n log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Bubble_sort", 
+        "wikiIntro": "todo",
+        "wiki": "Bubble_sort",
         "row": [
           {
             "content": "Bubble Sort"
-          }, 
+          },
           {
             "content": "Array"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n^2)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n^2)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Insertion_sort", 
+        "wikiIntro": "todo",
+        "wiki": "Insertion_sort",
         "row": [
           {
             "content": "Insertion Sort"
-          }, 
+          },
           {
             "content": "Array"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n^2)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n^2)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Selection_sort", 
+        "wikiIntro": "todo",
+        "wiki": "Selection_sort",
         "row": [
           {
             "content": "Select Sort"
-          }, 
+          },
           {
             "content": "Array"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n^2)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n^2)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n^2)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Bucket_sort", 
+        "wikiIntro": "todo",
+        "wiki": "Bucket_sort",
         "row": [
           {
             "content": "Bucket Sort"
-          }, 
+          },
           {
             "content": "Array"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(n+k)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(n+k)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n^2)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(nk)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Radix_sort", 
+        "wikiIntro": "todo",
+        "wiki": "Radix_sort",
         "row": [
           {
             "content": "Radix Sort"
-          }, 
+          },
           {
             "content": "Array"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(nk)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(nk)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(nk)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(n+k)"
           }
         ]
       }
     ]
-  }, 
+  },
   {
-    "title": "Data Structures", 
+    "title": "Data Structures",
     "headings": [
       [
-        "Data Structure", 
-        "Time Complexity", 
-        "Time Complexity", 
-        "Time Complexity", 
-        "Time Complexity", 
-        "Time Complexity", 
-        "Time Complexity", 
-        "Time Complexity", 
-        "Time Complexity", 
+        "Data Structure",
+        "Time Complexity",
+        "Time Complexity",
+        "Time Complexity",
+        "Time Complexity",
+        "Time Complexity",
+        "Time Complexity",
+        "Time Complexity",
+        "Time Complexity",
         "Space Complexity"
-      ], 
+      ],
       [
-        null, 
-        "Average", 
-        "Average", 
-        "Average", 
-        "Average", 
-        "Worst", 
-        "Worst", 
-        "Worst", 
-        "Worst", 
+        null,
+        "Average",
+        "Average",
+        "Average",
+        "Average",
+        "Worst",
+        "Worst",
+        "Worst",
+        "Worst",
         "Worst"
-      ], 
+      ],
       [
-        null, 
-        "Indexing", 
-        "Search", 
-        "Insertion", 
-        "Deletion", 
-        "Indexing", 
-        "Search", 
-        "Insertion", 
-        "Deletion", 
+        null,
+        "Indexing",
+        "Search",
+        "Insertion",
+        "Deletion",
+        "Indexing",
+        "Search",
+        "Insertion",
+        "Deletion",
         null
       ]
-    ], 
+    ],
     "data": [
       {
-        "wikiIntro": "todo", 
-        "wiki": "Array_data_structure", 
+        "wikiIntro": "todo",
+        "wiki": "Array_data_structure",
         "row": [
           {
             "content": "Basic Array"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
             "content": "-"
-          }, 
+          },
           {
             "content": "-"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
             "content": "-"
-          }, 
+          },
           {
             "content": "-"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(n)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Dynamic_array", 
+        "wikiIntro": "todo",
+        "wiki": "Dynamic_array",
         "row": [
           {
             "content": "Dynamic Array"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(n)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Singly_linked_list#Singly_linked_lists", 
+        "wikiIntro": "todo",
+        "wiki": "Singly_linked_list#Singly_linked_lists",
         "row": [
           {
             "content": "Singly-Linked List"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(n)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Doubly_linked_list", 
+        "wikiIntro": "todo",
+        "wiki": "Doubly_linked_list",
         "row": [
           {
             "content": "Doubly-Linked List"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(n)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Skip_list", 
+        "wikiIntro": "todo",
+        "wiki": "Skip_list",
         "row": [
           {
             "content": "Skip List"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n log(n))"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Hash_table", 
+        "wikiIntro": "todo",
+        "wiki": "Hash_table",
         "row": [
           {
             "content": "Hash Table"
-          }, 
+          },
           {
             "content": "-"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
             "content": "-"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(n)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Binary_search_tree", 
+        "wikiIntro": "todo",
+        "wiki": "Binary_search_tree",
         "row": [
           {
             "content": "Binary Search Tree"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(n)"
           }
         ]
-      }, 
+      },
       {
         "row": [
           {
             "content": "Cartresian Tree"
-          }, 
+          },
           {
             "content": "-"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
             "content": "-"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(n)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "B_tree", 
+        "wikiIntro": "todo",
+        "wiki": "B_tree",
         "row": [
           {
             "content": "B-Tree"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(n)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Red-black_tree", 
+        "wikiIntro": "todo",
+        "wiki": "Red-black_tree",
         "row": [
           {
             "content": "Red-Black Tree"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(n)"
           }
         ]
-      }, 
+      },
       {
         "row": [
           {
             "content": "Splay Tree"
-          }, 
+          },
           {
             "content": "-"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
             "content": "-"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(n)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "AVL_tree", 
+        "wikiIntro": "todo",
+        "wiki": "AVL_tree",
         "row": [
           {
             "content": "AVL Tree"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(n)"
           }
         ]
       }
     ]
-  }, 
+  },
   {
-    "title": "Heaps", 
+    "title": "Heaps",
     "headings": [
       [
-        "Heaps", 
-        "Time Complexity", 
-        "Time Complexity", 
-        "Time Complexity", 
-        "Time Complexity", 
-        "Time Complexity", 
-        "Time Complexity", 
+        "Heaps",
+        "Time Complexity",
+        "Time Complexity",
+        "Time Complexity",
+        "Time Complexity",
+        "Time Complexity",
+        "Time Complexity",
         "Time Complexity"
-      ], 
+      ],
       [
-        null, 
-        "Heapify", 
-        "Find Max", 
-        "Extract Max", 
-        "Increase Key", 
-        "Insert", 
-        "Delete", 
-        "Merge", 
+        null,
+        "Heapify",
+        "Find Max",
+        "Extract Max",
+        "Increase Key",
+        "Insert",
+        "Delete",
+        "Merge",
         null
       ]
-    ], 
+    ],
     "data": [
       {
-        "wikiIntro": "todo", 
-        "wiki": "Linked_list", 
+        "wikiIntro": "todo",
+        "wiki": "Linked_list",
         "row": [
           {
             "content": "Linked List (sorted)"
-          }, 
+          },
           {
             "content": "-"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(m+n)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Linked_list", 
+        "wikiIntro": "todo",
+        "wiki": "Linked_list",
         "row": [
           {
             "content": "Linked List (unsorted)"
-          }, 
+          },
           {
             "content": "-"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Binary_heap", 
+        "wikiIntro": "todo",
+        "wiki": "Binary_heap",
         "row": [
           {
             "content": "Binary Heap"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(n)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(m+n)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Binomial_heap", 
+        "wikiIntro": "todo",
+        "wiki": "Binomial_heap",
         "row": [
           {
             "content": "Binomial Heap"
-          }, 
+          },
           {
             "content": "-"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Fibonacci_heap", 
+        "wikiIntro": "todo",
+        "wiki": "Fibonacci_heap",
         "row": [
           {
             "content": "Fibonacci Heap"
-          }, 
+          },
           {
             "content": "-"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))*"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)*"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(log(n))*"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
           }
         ]
       }
     ]
-  }, 
+  },
   {
-    "title": "Graphs", 
-    "headings": [], 
+    "title": "Graphs",
+    "headings": [],
     "data": [
       {
         "row": []
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Adjacency_list", 
+        "wikiIntro": "todo",
+        "wiki": "Adjacency_list",
         "row": [
           {
             "content": "Adjacency list"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(|V|+|E|)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(|V| + |E|)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(|E|)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(|V|)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Incidence_list", 
+        "wikiIntro": "todo",
+        "wiki": "Incidence_list",
         "row": [
           {
             "content": "Incidence list"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(|V|+|E|)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(|E|)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(|E|)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(|E|)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Adjacency_matrix", 
+        "wikiIntro": "todo",
+        "wiki": "Adjacency_matrix",
         "row": [
           {
             "content": "Adjacency matrix"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(|V|^2)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(|V|^2)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(|V|^2)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
-          }, 
+          },
           {
-            "ranking": "good", 
+            "ranking": "good",
             "content": "O(1)"
           }
         ]
-      }, 
+      },
       {
-        "wikiIntro": "todo", 
-        "wiki": "Incidence_matrix", 
+        "wikiIntro": "todo",
+        "wiki": "Incidence_matrix",
         "row": [
           {
             "content": "Incidence matrix"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(|V| \u22c5 |E|)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(|V| \u22c5 |E|)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(|V| \u22c5 |E|)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(|V| \u22c5 |E|)"
-          }, 
+          },
           {
-            "ranking": "poor", 
+            "ranking": "poor",
             "content": "O(|V| \u22c5 |E|)"
-          }, 
+          },
           {
-            "ranking": "fair", 
+            "ranking": "fair",
             "content": "O(|E|)"
           }
         ]
       }
     ]
-  }, 
+  },
   {
-    "title": "Contributors", 
-    "headings": [], 
+    "title": "Contributors",
+    "headings": [],
     "data": []
   }
 ]

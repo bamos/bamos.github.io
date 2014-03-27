@@ -43,7 +43,7 @@ Heyo, (First line not skipped)
 
 This is another test message to demonstrate M3.
 Additional checks are made to ensure a message doesn't contain
-a mistyped header 
+a mistyped header
 For example, M3 also checks for lines starting with
 To:, CC:, or Subject:, such as this one, and prompts to
 make sure it's not parsing the header of the next message.

@@ -237,7 +237,7 @@ import scala.collection.mutable.ArraySeq
 
 object QuickSort {
   def sort(vals: ArraySeq[Int]) {
-    sort(vals, 0, vals.length-1) 
+    sort(vals, 0, vals.length-1)
   }
 
   private def sort(vals: ArraySeq[Int], lo: Int, hi: Int) {
@@ -252,7 +252,7 @@ object QuickSort {
   private def findPivot(vals: ArraySeq[Int], lo: Int, hi: Int): Int = {
     return findMedian(vals, lo, (lo+hi)/2, hi)
   }
-  
+
   private def
   findMedian(vals: ArraySeq[Int], lo: Int, mid: Int, hi: Int): Int = {
     val loVal = vals(lo); val midVal = vals(mid); val hiVal = vals(hi);

@@ -15,7 +15,7 @@ I've created a small hack to fix this so people visiting
 my embedded calendar will automatically have the timezone
 changed to their timezone using [jstz][jstz].
 
-See [this demo][demo], and see the code with timezones removed below. 
+See [this demo][demo], and see the code with timezones removed below.
 Use `jquery` to update the `div` for the Calendar with the static
 URL, but replace the timezone `ctz` with the dynamically selected
 value from the dropdown box.
@@ -26,7 +26,7 @@ to `America/New_York` on error.
 
 {% highlight html %}
 <select id="ctz" onchange="updateTimezone()">
-  <option value="Pacific/Midway">(GMT-11:00) Midway</option> 
+  <option value="Pacific/Midway">(GMT-11:00) Midway</option>
   <!-- ... -->
   <option value="Pacific/Kiritimati">(GMT+14:00) Kiritimati</option></select>
 </select>
@@ -54,7 +54,7 @@ function updateTimezone() {
     'src=vt.edu_85j468bdgiqfc9tn6v6bjbv1ro%40group.calendar.google.com&amp;' +
     'color=%23333333&amp;' +
     'ctz=' + selectedTz + '" ' +
-  'style="border-width:0 " ' + 
+  'style="border-width:0 " ' +
     'width="800" height="600" ' +
     'frameborder="0" scrolling="no">' +
 '</iframe>');

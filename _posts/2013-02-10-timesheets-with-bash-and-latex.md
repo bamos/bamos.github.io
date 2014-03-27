@@ -39,7 +39,7 @@ Begin | End   | Sat   | Sun   | Mon   | Tue   | Wed   | Thur  | Fri
 Next, run the script and pass the text file as an argument.
 
 {% highlight text %}
-./timesheet.sh 2013.02.01.txt 
+./timesheet.sh 2013.02.01.txt
 Successfully generated and archived timesheet for '2013.02.01'
 {% endhighlight %}
 
@@ -124,7 +124,7 @@ YEAR: \underline{2013}
     Begin & End & Sat & Sun & Mon & Tue & Wed & Thur & Fri & TOTAL &
         Signature of & Initials of \\
     Date & Date &&&&&&&&& Employee & Supervisor \\ \hline
-    \input{table-contents} 
+    \input{table-contents}
 \end{tabular}
 \end{table}
 
