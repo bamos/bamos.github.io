@@ -21,9 +21,11 @@ Generated April 07, 2014.
 
 
 Ph.D. Candidate Computer Science. Carnegie Mellon University.
+
 + Pittsburgh, Pennsylvania | August 2014-
 
 B.S. Computer Science, Honors Scholar. Mathematics minor. Virginia Tech.
+
 + Blacksburg, Virginia | August 2011-May 2014
 + Major GPA: 4.00/4.00 | Overall GPA: 3.98/4.00
 
@@ -172,14 +174,14 @@ Jaime Camelio, Chris Williams, Robert Parker.
 
 
 
+## [GitHub Portfolio](http://github.com/bamos)
++ Hosts code samples, original source code, and patches for open source projects.
++ 23 original repositories, 7 forked repositories.
+
 ## [Personal Blog and Website](http://bamos.io)
 + Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
 + **37 posts** across the following tags, listed by highest frequency.
 + Python, Bash, LaTeX, Scala, Linux, Fortran, JavaScript, Android, News, CUDA, OpenMP, C++, Mathematica
-
-## [GitHub Portfolio](http://github.com/bamos)
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 23 original repositories, 7 forked repositories.
 
 
 
