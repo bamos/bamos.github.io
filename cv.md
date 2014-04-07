@@ -9,7 +9,7 @@ title:  vitæ
 [source](https://github.com/bamos/cv) |
 [email](http://goo.gl/ht7U8r) |
 (540) 947--1238 |
-Generated March 28, 2014.
+Generated April 07, 2014.
 
 # Interests
 
@@ -20,9 +20,10 @@ Generated March 28, 2014.
 
 
 
+Ph.D. Candidate Computer Science. Carnegie Mellon University.
++ Pittsburgh, Pennsylvania | August 2014-
 B.S. Computer Science, Honors Scholar. Mathematics minor. Virginia Tech.
-+ Blacksburg, Virginia | August 2011-May 2014
-+ Major GPA: 4.00/4.00 | Overall GPA: 3.98/4.00
++ Blacksburg, Virginia | August 2011-May 2014+ Major GPA: 4.00/4.00 | Overall GPA: 3.98/4.00
 
 
 # Research Experience
@@ -34,7 +35,6 @@ B.S. Computer Science, Honors Scholar. Mathematics minor. Virginia Tech.
 + Blacksburg, Virginia | Advisor: Dr. Layne Watson | January 2013-Present
 + Algorithm development for stochastic optimization using quasi-Newton methods for parameter estimation in **Fortran 95** and **OpenMP** resulting in primary authorship on a conference publication.
 + Bioinformatics research on yeast cell modeling using **Fortran 95**, **C++**, and **Matlab**.
-
 ## Systems Software Research Group
 ### Undergraduate Research Assistant
 + Blacksburg, Virginia | Advisor: Dr. Binoy Ravindran | November 2012-March 2014
@@ -42,7 +42,6 @@ B.S. Computer Science, Honors Scholar. Mathematics minor. Virginia Tech.
 + Research on automatic **OpenMP** to **CUDA** translation using **C++** and the **ROSE** compiler framework.
 + Polyhedral loop optimization research to restructure **OpenCL** kernels for locality using **LLVM** and **Polly**.
 + **Scala** and **Bash** development in **Linux**.
-
 ## Magnum Research Group
 ### Undergraduate Research Assistant
 + Blacksburg, Virginia | Advisor: Dr. Jules White | May 2012-January 2014
@@ -52,7 +51,6 @@ B.S. Computer Science, Honors Scholar. Mathematics minor. Virginia Tech.
 + Developed **VC#** and **Python** programs for a pilot study on manufacturing cyber-physical security.
 + Assisted **C++** and **Make** development in **Linux** for a deployment optimization framework.
 + Modified the **Android source** to provide non-standard logging information for dynamic malware analysis.
-
 
 
 # Teaching Experience
@@ -106,33 +104,32 @@ Jaime Camelio, Chris Williams, Robert Parker.
 
 
 
+## Adobe Research
+### Data Science Intern
++ San Jose, California | Map 2014-August 2014
 ## Snowplow Analytics Ltd.
 ### Software Winter Intern
 + London, United Kingdom (Remote) | December 2013-January 2014
 + Open-source **Scala** development with a startup on the Snowplow analytics platform.
 + Developed a new server using **Spray** and **Actors** to store **Apache Thrift** events on **Amazon Kinesis**.
 + Completed project ahead of schedule, and also helped port Snowplow's Scala enrichment process to Kinesis.
-
 ## Qualcomm, Inc.
 ### Source Integrity Team Software Intern
 + San Diego, California | May 2013-August 2013
 + Developed a **web application** to modify an XML-based grammar for fuzz vector generation. Implemented with client-side **HTML** and **js**, using **D3** for graphics and **Handlebars** for templating.
 + Developed an XML-based grammar translator in **C++** with the **Xerces** XML parser in **Linux**. Reimplemented in **Python** using the **ElementTree** XML API for better analysis and tree transformation.
-
 ## Phoenix Integration, Inc.
 ### Software Engineer Intern
 + Blacksburg, Virginia | May 2012-August 2012
 + Integrated a new licensing mode into CenterLink, a grid computing application, using **FLEXlm** and **Java**.
 + Assisted development of industry software in **VC++**, **VC#**, **Java**, and **Tomcat**.
 + Improved the testing (**JUnit** and **NUnit**) and installation (**Ant**, **InstallShield**, and **Make**) frameworks.
-
 ## Sunapsys, Inc.
 ### Network Administrator Intern
 + Vinton, Virginia | January 2011-August 2011
 + Internship in high school with a small local company to replace Windows domain, mail, DHCP, and DNS servers with virtualized **Linux** servers.
 + Fully developed the servers and successfully migrated all of the office's computers.
 + Created **Bash** scripts to provide incremental backups.
-
 
 
 # Skills
