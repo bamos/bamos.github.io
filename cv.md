@@ -22,8 +22,11 @@ Generated April 07, 2014.
 
 Ph.D. Candidate Computer Science. Carnegie Mellon University.
 + Pittsburgh, Pennsylvania | August 2014-
+
 B.S. Computer Science, Honors Scholar. Mathematics minor. Virginia Tech.
-+ Blacksburg, Virginia | August 2011-May 2014+ Major GPA: 4.00/4.00 | Overall GPA: 3.98/4.00
++ Blacksburg, Virginia | August 2011-May 2014
++ Major GPA: 4.00/4.00 | Overall GPA: 3.98/4.00
+
 
 
 # Research Experience
