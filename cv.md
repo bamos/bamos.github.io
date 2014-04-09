@@ -9,7 +9,7 @@ title:  vitæ
 [source](https://github.com/bamos/cv) |
 [email](http://goo.gl/ht7U8r) |
 (540) 947--1238 |
-Generated April 07, 2014.
+Generated April 08, 2014.
 
 # Interests
 
@@ -20,11 +20,11 @@ Generated April 07, 2014.
 
 
 
-Ph.D. Candidate Computer Science. Carnegie Mellon University.
+Ph.D. Candidate in Computer Science __Carnegie Mellon University__.
 
-+ Pittsburgh, Pennsylvania | August 2014-
++ Pittsburgh, Pennsylvania | Starting August 2014
 
-B.S. Computer Science, Honors Scholar. Mathematics minor. Virginia Tech.
+Bachelor of Science in Computer Science, Honors Scholar __Virginia Tech__.
 
 + Blacksburg, Virginia | August 2011-May 2014
 + Major GPA: 4.00/4.00 | Overall GPA: 3.98/4.00
