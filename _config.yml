@@ -1,18 +1,10 @@
 name: "Brandon Amos: Blog"
 description: The personal blog of Brandon Amos
-url: http://bamos.github.io
+url: http://bamos.io
 destination: ./_site
-lsi:         false
-port:        4000
-pygments:    true
-markdown:    maruku
-permalink:   pretty
-paginate:    5
-maruku:
-  use_tex:   false
-  use_divs:  false
-  png_dir:   images/latex/
-  png_url:   /images/latex/
-exclude:
-  - README.txt
-  - Rakefile
+lsi: false
+port: 4000
+pygments: true
+markdown: kramdown
+permalink: pretty
+paginate: 5
