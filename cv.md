@@ -68,7 +68,7 @@ __Magnum Research Group__.  Undergraduate Research Assistant.
 
 __Virginia Tech Computer Science__.  Undergraduate Teaching Assistant.
 
-+ Blacksburg, Virginia &#123; January 2013-May 2013
++ Blacksburg, Virginia &#124; January 2013-May 2013
 + Assisted students in a software design and data structures class using **Java** and **Android**.
 
 
