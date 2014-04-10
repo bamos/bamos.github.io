@@ -9,7 +9,7 @@ title:  vitæ
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/ht7U8r) &#124;
 (540) 947--1238 &#124;
-Generated April 09, 2014.
+Generated April 10, 2014.
 
 # Interests
 
@@ -20,11 +20,11 @@ My research interests are currently in the **mobile** and **distributed** comput
 
 
 
-__Carnegie Mellon University__.  Ph.D. Candidate, Computer Science.
+__<big>Carnegie Mellon University.</big>__  Ph.D. Candidate, Computer Science.
 
 + Pittsburgh, Pennsylvania &#124; Starting August 2014
 
-__Virginia Tech__.  B.S., Computer Science, Honors Scholar.
+__<big>Virginia Tech.</big>__  B.S., Computer Science, Honors Scholar.
 
 + Blacksburg, Virginia &#124; August 2011-May 2014
 + Major GPA: 4.00/4.00 &#124; Overall GPA: 3.98/4.00
@@ -36,23 +36,23 @@ __Virginia Tech__.  B.S., Computer Science, Honors Scholar.
 
 
 
-__Virginia Tech Computer Science__.  Undergraduate Research Assistant.
+__<big>Virginia Tech Computer Science.</big>__  Undergraduate Research Assistant.
 
-+ Blacksburg, Virginia &#124; Advisor: Dr. Layne Watson &#124; January 2013-Present
++ Blacksburg, Virginia&#124; Advisor: Dr. Layne Watson -->&#124; January 2013-Present
 + Algorithm development for stochastic optimization using quasi-Newton methods for parameter estimation in **Fortran 95** and **OpenMP** resulting in primary authorship on a conference publication.
 + Bioinformatics research on yeast cell modeling using **Fortran 95**, **C++**, and **Matlab**.
 
-__Systems Software Research Group__.  Undergraduate Research Assistant.
+__<big>Systems Software Research Group.</big>__  Undergraduate Research Assistant.
 
-+ Blacksburg, Virginia &#124; Advisor: Dr. Binoy Ravindran &#124; November 2012-March 2014
++ Blacksburg, Virginia&#124; Advisor: Dr. Binoy Ravindran -->&#124; November 2012-March 2014
 + Work supported with NSF and NEEC REU grants.
 + Research on automatic **OpenMP** to **CUDA** translation using **C++** and the **ROSE** compiler framework.
 + Polyhedral loop optimization research to restructure **OpenCL** kernels for locality using **LLVM** and **Polly**.
 + **Scala** and **Bash** development in **Linux**.
 
-__Magnum Research Group__.  Undergraduate Research Assistant.
+__<big>Magnum Research Group.</big>__  Undergraduate Research Assistant.
 
-+ Blacksburg, Virginia &#124; Advisor: Dr. Jules White &#124; May 2012-January 2014
++ Blacksburg, Virginia&#124; Advisor: Dr. Jules White -->&#124; May 2012-January 2014
 + Work supported with ARO REU grant.
 + Android **malware detection research** resulting in primary authorship on a conference publication.
 + Led a small team to create a distributed **Actor** system in **Scala** for **machine learning** classification of APKs.
@@ -66,11 +66,10 @@ __Magnum Research Group__.  Undergraduate Research Assistant.
 
 
 
-__Virginia Tech Computer Science__.  Undergraduate Teaching Assistant.
+__<big>Virginia Tech Computer Science.</big>__  Undergraduate Teaching Assistant.
 
-+ Blacksburg, Virginia &#123; January 2013-May 2013
++ Blacksburg, Virginia&#124; January 2013-May 2013
 + Assisted students in a software design and data structures class using **Java** and **Android**.
-
 
 
 # Publications
@@ -125,54 +124,45 @@ Jaime Camelio, Chris Williams, Robert Parker.
 
 
 
-__Adobe Research__.  Data Science Intern.
+__<big>Adobe Research.</big>__  Data Science Intern.
 
-+ San Jose, California &#124; Map 2014-August 2014
++ San Jose, California&#124; Map 2014-August 2014
 
+__<big>Snowplow Analytics Ltd..</big>__  Software Winter Intern.
 
-__Snowplow Analytics Ltd.__.  Software Winter Intern.
-
-+ London, United Kingdom (Remote) &#124; December 2013-January 2014
++ London, United Kingdom (Remote)&#124; December 2013-January 2014
 + Open-source **Scala** development with a startup on the Snowplow analytics platform.
 + Developed a new server using **Spray** and **Actors** to store **Apache Thrift** events on **Amazon Kinesis**.
 + Completed project ahead of schedule, and also helped port Snowplow's Scala enrichment process to Kinesis.
 
+__<big>Qualcomm, Inc..</big>__  Source Integrity Team Software Intern.
 
-
-__Qualcomm, Inc__.  Source Integrity Team Software Intern.
-
-+ San Diego, California &#124; May 2013-August 2013
++ San Diego, California&#124; May 2013-August 2013
 + Developed a **web application** to modify an XML-based grammar for fuzz vector generation. Implemented with client-side **HTML** and **js**, using **D3** for graphics and **Handlebars** for templating.
 + Developed an XML-based grammar translator in **C++** with the **Xerces** XML parser in **Linux**. Reimplemented in **Python** using the **ElementTree** XML API for better analysis and tree transformation.
 
+__<big>Phoenix Integration, Inc..</big>__  Software Engineer Intern.
 
-
-__Phoenix Integration, Inc__.  Software Engineer Intern.
-
-+ Blacksburg, Virginia &#124; May 2012-August 2012
++ Blacksburg, Virginia&#124; May 2012-August 2012
 + Integrated a new licensing mode into CenterLink, a grid computing application, using **FLEXlm** and **Java**.
 + Assisted development of industry software in **VC++**, **VC#**, **Java**, and **Tomcat**.
 + Improved the testing (**JUnit** and **NUnit**) and installation (**Ant**, **InstallShield**, and **Make**) frameworks.
 
+__<big>Sunapsys, Inc..</big>__  Network Administrator Intern.
 
-
-__Sunapsys, Inc__.  Network Administrator Intern.
-
-+ Vinton, Virginia &#124; January 2011-August 2011
++ Vinton, Virginia&#124; January 2011-August 2011
 + Internship in high school with a small local company to replace Windows domain, mail, DHCP, and DNS servers with virtualized **Linux** servers.
 + Fully developed the servers and successfully migrated all of the office's computers.
 + Created **Bash** scripts to provide incremental backups.
 
 
-
-
 # Skills
 
 
-+ __Preference:__ Linux, vim, git, Make, sbt
-+ __Languages:__ Akka\*\*, Bash\*\*, C/C++\*\*, C#\*, Fortran\*\*, HTML/CSS\*, LaTeX\*\*, Java\*\*, JavaScript\*\*,  Mathematica\*\*, Make\*\*\*, PHP\*, Python\*\*\*, R\*, Scala\*\*\*
-+ __Systems:__ Android\*\*, Linux\*\*\*
-+ __Rankings:__ 1/10\* - 3/10\*\* - 5/10\*\*\* - 7/10\*\*\*\*
++ __Preference.__ Linux, vim, git, Make, sbt
++ __Languages.__ Akka\*\*, Bash\*\*, C/C++\*\*, C#\*, Fortran\*\*, HTML/CSS\*, LaTeX\*\*, Java\*\*, JavaScript\*\*,  Mathematica\*\*, Make\*\*\*, PHP\*, Python\*\*\*, R\*, Scala\*\*\*
++ __Systems.__ Android\*\*, Linux\*\*\*
++ __Rankings.__ 1/10\* - 3/10\*\* - 5/10\*\*\* - 7/10\*\*\*\*
 
 
 # Honors & Awards
@@ -204,19 +194,19 @@ __Sunapsys, Inc__.  Network Administrator Intern.
 
 
 
+[GitHub Portfolio](http://github.com/bamos)
+
+
++ Hosts code samples, original source code, and patches for open source projects.
++ 23 original repositories, 7 forked repositories.
+
+
 [Personal Blog and Website](http://bamos.io)
 
 
 + Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
 + **37 posts** across the following tags, listed by highest frequency.
 + Python, Bash, LaTeX, Scala, Linux, Fortran, JavaScript, Android, News, CUDA, OpenMP, C++, Mathematica
-
-
-[GitHub Portfolio](http://github.com/bamos)
-
-
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 23 original repositories, 7 forked repositories.
 
 
 
