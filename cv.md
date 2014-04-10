@@ -38,13 +38,13 @@ __<big>Virginia Tech.</big>__  B.S., Computer Science, Honors Scholar.
 
 __<big>Virginia Tech Computer Science.</big>__  Undergraduate Research Assistant.
 
-+ Blacksburg, Virginia&#124; Advisor: Dr. Layne Watson -->&#124; January 2013-Present
++ Blacksburg, Virginia&#124; Advisor: Dr. Layne Watson&#124; January 2013-Present
 + Algorithm development for stochastic optimization using quasi-Newton methods for parameter estimation in **Fortran 95** and **OpenMP** resulting in primary authorship on a conference publication.
 + Bioinformatics research on yeast cell modeling using **Fortran 95**, **C++**, and **Matlab**.
 
 __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistant.
 
-+ Blacksburg, Virginia&#124; Advisor: Dr. Binoy Ravindran -->&#124; November 2012-March 2014
++ Blacksburg, Virginia&#124; Advisor: Dr. Binoy Ravindran&#124; November 2012-March 2014
 + Work supported with NSF and NEEC REU grants.
 + Research on automatic **OpenMP** to **CUDA** translation using **C++** and the **ROSE** compiler framework.
 + Polyhedral loop optimization research to restructure **OpenCL** kernels for locality using **LLVM** and **Polly**.
@@ -52,7 +52,7 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
 
 __<big>Magnum Research Group.</big>__  Undergraduate Research Assistant.
 
-+ Blacksburg, Virginia&#124; Advisor: Dr. Jules White -->&#124; May 2012-January 2014
++ Blacksburg, Virginia&#124; Advisor: Dr. Jules White&#124; May 2012-January 2014
 + Work supported with ARO REU grant.
 + Android **malware detection research** resulting in primary authorship on a conference publication.
 + Led a small team to create a distributed **Actor** system in **Scala** for **machine learning** classification of APKs.
@@ -126,7 +126,7 @@ Jaime Camelio, Chris Williams, Robert Parker.
 
 __<big>Adobe Research.</big>__  Data Science Intern.
 
-+ San Jose, California&#124; Map 2014-August 2014
++ San Jose, California&#124; May 2014-August 2014
 
 __<big>Snowplow Analytics Ltd..</big>__  Software Winter Intern.
 
@@ -168,13 +168,14 @@ __<big>Sunapsys, Inc..</big>__  Network Administrator Intern.
 # Honors & Awards
 
 
++ Senior Scholar Award, Virginia Tech Computer Science, 2013
+  + Given to the senior in Computer Science with the most outstanding academic record.
 + [ACC Meeting of the Minds Undergraduate Research Conference, 2014](http://www.vtnews.vt.edu/articles/2014/03/030514-uged-accmom.html)
 + [Honorable Mention, CRA Outstanding Undergraduate Researcher Award, 2014](http://cra.org/awards/undergrad-view/2014_outstanding_undergraduate_award_recipients/)
   + 1 of 15 North American males awarded honorable mention for exemplary computer science research.
 + Qualstar Award, Qualcomm, 2013
 + Benjamin F. Bock Merit Scholarship, Virginia Tech Engineering, 2013-2014
 + Sophomore Scholar Award, Virginia Tech Computer Science, 2013
-  + Given to the sophomore in Computer Science with the most outstanding academic record.
 + University Honors, Virginia Tech, 2012-2014
 + Intelligence Community Center of Academic Excellence Scholar, Virginia Tech, 2012-2014
   + Merit-based scholarship providing a cyber-security research fellowship.
