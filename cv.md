@@ -77,7 +77,7 @@ __<big>Virginia Tech Computer Science.</big>__  Undergraduate Teaching Assistant
 
 
 
-__Conference.__
+__<big>Conference.</big>__
 
 
 1. "Fortran 95 implementation of QNSTOP for global and stochastic
@@ -96,7 +96,7 @@ Cagliari, Italy, July 2013.
 
 
 
-__Submitted.__
+__<big>Submitted.</big>__
 
 
 1. "Global Parameter Estimation for a Eukaryotic Cell Cycle Model in
@@ -194,19 +194,19 @@ __<big>Sunapsys, Inc..</big>__  Network Administrator Intern.
 
 
 
-[GitHub Portfolio](http://github.com/bamos)
-
-
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 23 original repositories, 7 forked repositories.
-
-
-[Personal Blog and Website](http://bamos.io)
+<big>[Personal Blog and Website](http://bamos.io)<\big>
 
 
 + Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
 + **37 posts** across the following tags, listed by highest frequency.
 + Python, Bash, LaTeX, Scala, Linux, Fortran, JavaScript, Android, News, CUDA, OpenMP, C++, Mathematica
+
+
+<big>[GitHub Portfolio](http://github.com/bamos)<\big>
+
+
++ Hosts code samples, original source code, and patches for open source projects.
++ 23 original repositories, 7 forked repositories.
 
 
 
