@@ -14,7 +14,7 @@ Generated April 09, 2014.
 # Interests
 
 
-**Compiler**, **mobile**, or **security** research or development in **Linux**.
+My research interests are currently in the **mobile** and **distributed** computing space to provide enabling technology for next-generation mobile applications.
 
 # Education
 
