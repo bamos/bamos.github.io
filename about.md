@@ -25,12 +25,11 @@ social:
 [![me](/images/me.jpg)](/images/me-large.jpg)
 
 # About me.
-I am a Computer Science undergraduate at [Virginia Tech][scholar]
-interested in mobile computing, security, and compiler research.
-I have ongoing research projects in
-_malware analysis_ at runtime on _mobile systems_ using _machine learning_,
-automatic _compiler systems_ on heterogeneous architectures,
-and  _stochastic optimization_.
+I will be a Computer Science PhD student at [Carnegie Mellon][cmu]
+starting in August 2014 and will obtain a B.S. in Computer
+Science in May 2014 from [Virginia Tech][vt].
+I'm currently interested the intersection of distributed
+and mobile computing to enable next-generation mobile applications.
 For more information, find my publications on
 [Google Scholar][scholar] and see [my vitae][cv].
 
@@ -52,6 +51,7 @@ and feel free to use [PGP][pgp].
 {% endfor %}
 </div>
 
+[cmu]: http://cs.cmu.edu
 [vt]: http://www.cs.vt.edu
 [scholar]: http://scholar.google.com/citations?user=CZwrwHAAAAAJ
 [cv]: ../cv
