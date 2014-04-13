@@ -9,7 +9,7 @@ title: vitæ
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/ht7U8r) &#124;
 (540) 947--1238 &#124;
-Generated April 11, 2014.
+Generated April 12, 2014.
 
 # Interests
 
@@ -138,7 +138,7 @@ __<big>Adobe Research.</big>__  Data Science Intern.
 + San Jose, California
 &#124; May 2014-August 2014
 
-__<big>Snowplow Analytics Ltd..</big>__  Software Winter Intern.
+__<big>Snowplow Analytics.</big>__  Software Winter Intern.
 
 + London, United Kingdom (Remote)
 &#124; December 2013-January 2014
@@ -146,14 +146,14 @@ __<big>Snowplow Analytics Ltd..</big>__  Software Winter Intern.
 + Developed a new server using **Spray** and **Actors** to store **Apache Thrift** events on **Amazon Kinesis**.
 + Completed project ahead of schedule, and also helped port Snowplow's Scala enrichment process to Kinesis.
 
-__<big>Qualcomm, Inc..</big>__  Source Integrity Team Software Intern.
+__<big>Qualcomm.</big>__  Source Integrity Team Software Intern.
 
 + San Diego, California
 &#124; May 2013-August 2013
 + Developed a **web application** to modify an XML-based grammar for fuzz vector generation. Implemented with client-side **HTML** and **js**, using **D3** for graphics and **Handlebars** for templating.
 + Developed an XML-based grammar translator in **C++** with the **Xerces** XML parser in **Linux**. Reimplemented in **Python** using the **ElementTree** XML API for better analysis and tree transformation.
 
-__<big>Phoenix Integration, Inc..</big>__  Software Engineer Intern.
+__<big>Phoenix Integration.</big>__  Software Engineer Intern.
 
 + Blacksburg, Virginia
 &#124; May 2012-August 2012
@@ -161,7 +161,7 @@ __<big>Phoenix Integration, Inc..</big>__  Software Engineer Intern.
 + Assisted development of industry software in **VC++**, **VC#**, **Java**, and **Tomcat**.
 + Improved the testing (**JUnit** and **NUnit**) and installation (**Ant**, **InstallShield**, and **Make**) frameworks.
 
-__<big>Sunapsys, Inc..</big>__  Network Administrator Intern.
+__<big>Sunapsys.</big>__  Network Administrator Intern.
 
 + Vinton, Virginia
 &#124; January 2011-August 2011
@@ -209,19 +209,19 @@ __<big>Sunapsys, Inc..</big>__  Network Administrator Intern.
 
 
 
+<big>[GitHub Portfolio](http://github.com/bamos)</big>
+
+
++ Hosts code samples, original source code, and patches for open source projects.
++ 23 original repositories, 7 forked repositories.
+
+
 <big>[Personal Blog and Website](http://bamos.io)</big>
 
 
 + Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
 + **37 posts** across the following tags, listed by highest frequency.
 + Python, Bash, LaTeX, Scala, Linux, Fortran, JavaScript, Android, News, CUDA, OpenMP, C++, Mathematica
-
-
-<big>[GitHub Portfolio](http://github.com/bamos)</big>
-
-
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 23 original repositories, 7 forked repositories.
 
 
 
