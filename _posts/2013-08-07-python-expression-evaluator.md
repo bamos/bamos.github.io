@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Evaluating string expressions at runtime with Python 3.3.
+title: Evaluating string expressions at runtime with Python 3.
 tags: [Python]
 ---
 
@@ -34,7 +34,7 @@ See below for my [unittest](http://docs.python.org/3.3/library/unittest.html)
 code showing the usage of the program.
 
 {% highlight python %}
-#!/usr/bin/env python3.3
+#!/usr/bin/env python3
 #
 # EvalExprTest.py
 # Tests for the EvalExpr.py module.

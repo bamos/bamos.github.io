@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Obtaining a (LaTeX) list of Github repos with Python.
+title: Obtaining a (LaTeX) list of Github repos with Python 3.
 tags: [Python, LaTeX]
 ---
 
@@ -29,7 +29,7 @@ Add the snippet to your LaTeX document with
 # Script.
 
 {% highlight python %}
-#!/usr/bin/env python3.3
+#!/usr/bin/env python3
 #
 # list-github-repos.py
 # Obtain a pretty list of all of a user's public Github repos.

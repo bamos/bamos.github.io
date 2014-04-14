@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scraping HTML tables with Python 3.3 and HTMLParser
+title: Scraping HTML tables with Python 3 and HTMLParser
 tags: [Python]
 ---
 
@@ -23,7 +23,7 @@ These are both available from
 # Implementation
 
 {% highlight python %}
-#!/usr/bin/env python3.3
+#!/usr/bin/env python3
 #
 # ScrapeCountries.py
 #
@@ -265,7 +265,7 @@ because most of the functionality of the program is based on
 command line input.
 
 {% highlight python %}
-#!/usr/bin/env python3.3
+#!/usr/bin/env python3
 #
 # ScrapeCountriesTest.py
 #

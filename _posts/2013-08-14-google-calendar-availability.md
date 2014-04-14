@@ -72,7 +72,7 @@ The basic structure of the program is to:
 4. Print the free intervals.
 
 {% highlight python %}
-#!/usr/bin/env python3.3
+#!/usr/bin/env python3
 #
 # ical-availability.py
 # Analyze an iCal and pretty-print your availability.

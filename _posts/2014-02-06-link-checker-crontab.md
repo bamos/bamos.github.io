@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Email broken links daily with Python in Linux.
+title: Email broken links daily with Python 3 in Linux.
 tags: [Python,Linux]
 ---
 
@@ -60,4 +60,4 @@ such as the following one, which runs at 8pm (20:00) daily.
 [cron]: http://en.wikipedia.org/wiki/Cron
 [linkchecker]: http://wummel.github.io/linkchecker/
 [sps]: https://github.com/bamos/simple-python-scripts
-[src]: https://github.com/bamos/simple-python-scripts/blob/master/python3.3/link-checker.py
+[src]: https://github.com/bamos/simple-python-scripts/blob/master/python3/link-checker.py
