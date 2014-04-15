@@ -25,7 +25,7 @@ social:
 [![me](/images/me.jpg)](/images/me-large.jpg)
 
 # About me.
-I will be a Computer Science PhD student at [Carnegie Mellon][cmu]
+I will be a Computer Science Ph.D. student at [Carnegie Mellon][cmu]
 starting in August 2014 and will obtain a B.S. in Computer
 Science in May 2014 from [Virginia Tech][vt].
 I'm currently interested the intersection of distributed
