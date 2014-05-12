@@ -38,7 +38,9 @@ and maintain as many projects as possible on
 [GitHub][github], including [this website][website],
 which is published with [jekyll][jekyll].
 
-If you'd like to contact me, please [email me][email],
+If you'd like to contact me, please email me at
+<!-- http://obfuscateplease.com/ -->
+<a href="&#109;ailt&#111;:b&#97;&#109;o&#115;&#64;&#99;&#109;&#117;&#46;&#101;&#100;&#117;">&#98;a&#109;&#111;&#115;&#64;&#99;&#109;u&#46;&#101;<span style="display:none">pypbq</span>&#100;<span style="display:none">iqwkq</span>&#117;</a>,
 and feel free to use [PGP][pgp].
 
 ### Social networks.
@@ -54,9 +56,8 @@ and feel free to use [PGP][pgp].
 [cmu]: http://cs.cmu.edu
 [vt]: http://www.cs.vt.edu
 [scholar]: http://scholar.google.com/citations?user=CZwrwHAAAAAJ
-[cv]: ../cv
-[github]: http://github.com/bamos
+[cv]: /cv
+[github]: https://github.com/bamos
 [website]: https://github.com/bamos/bamos.github.io
 [jekyll]: http://jekyllrb.com
-[email]: http://www.google.com/recaptcha/mailhide/d?k=01isoY3JTKYdPXHqmBRjYYYA==&c=bzTg1_QbUW16izbfjdRV4w==
-[pgp]: ../pgp
+[pgp]: /pgp
