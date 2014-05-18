@@ -15,7 +15,7 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/ht7U8r) &#124;
 (540) 947--1238 &#124;
-Generated May 12, 2014.
+Generated May 17, 2014.
 
 # Interests
 
@@ -198,12 +198,13 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 + [Honorable Mention, CRA Outstanding Undergraduate Researcher Award, 2014](http://cra.org/awards/undergrad-view/2014_outstanding_undergraduate_award_recipients/)
   + 1 of 15 North American males awarded honorable mention for exemplary computer science research.
 + Qualstar Award, Qualcomm, 2013
++ Pi Mu Epsilon Honor Society, Inducted 2013
 + Benjamin F. Bock Merit Scholarship, Virginia Tech Engineering, 2013-2014
 + Sophomore Scholar Award, Virginia Tech Computer Science, 2013
 + University Honors, Virginia Tech, 2012-2014
 + Intelligence Community Center of Academic Excellence Scholar, Virginia Tech, 2012-2014
   + Merit-based scholarship providing a cyber-security research fellowship.
-+ Dean's List with Distinction, Virginia Tech, 2011-2013
++ Dean's List with Distinction, Virginia Tech, 2011-2014
 + Engineering Merit Scholarship, Roanoke County Public Schools Education Foundation, 2011
   + Merit-based scholarship presented annually to one student in the graduating Engineering class.
 + Papa John's Merit Scholarship, 2011
@@ -219,19 +220,19 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 
 
 
-<big>[GitHub Portfolio](http://github.com/bamos)</big>
-
-
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 22 original repositories, 8 forked repositories.
-
-
 <big>[Personal Blog and Website](http://bamos.io)</big>
 
 
 + Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
 + **37 posts** across the following tags, listed by highest frequency.
 + Python, Bash, LaTeX, Scala, Linux, Fortran, JavaScript, Android, News, CUDA, OpenMP, C++, Mathematica
+
+
+<big>[GitHub Portfolio](http://github.com/bamos)</big>
+
+
++ Hosts code samples, original source code, and patches for open source projects.
++ 22 original repositories, 8 forked repositories.
 
 
 
