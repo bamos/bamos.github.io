@@ -15,7 +15,7 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/ht7U8r) &#124;
 (540) 947--1238 &#124;
-Generated May 17, 2014.
+Generated May 27, 2014.
 
 # Interests
 
@@ -179,9 +179,9 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 # Skills
 
 
-+ __Preference.__ Linux, vim, git, Make, sbt
++ __Preference.__ Mac, vim, git, Make, sbt
 + __Languages.__ Akka\*\*, Bash\*\*, C/C++\*\*, C#\*, Fortran\*\*, HTML/CSS\*, LaTeX\*\*, Java\*\*, JavaScript\*\*,  Mathematica\*\*, Make\*\*\*, PHP\*, Python\*\*\*, R\*, Scala\*\*\*
-+ __Systems.__ Android\*\*, Linux\*\*\*
++ __Systems.__ Android\*\*, Linux\*\*\*, Mac\*\*\*
 + __Rankings.__ 1/10\* - 3/10\*\* - 5/10\*\*\* - 7/10\*\*\*\*
 
 
