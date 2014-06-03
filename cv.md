@@ -15,7 +15,7 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/ht7U8r) &#124;
 (540) 947--1238 &#124;
-Generated May 27, 2014.
+Generated June 02, 2014.
 
 # Interests
 
@@ -32,7 +32,7 @@ __<big>Carnegie Mellon University.</big>__  Ph.D. Student, Computer Science.
 &#124; Starting August 2014
 
 __<big>Virginia Tech.</big>__  B.S., Computer Science, Honors Scholar.
-GPA: 3.98/4.00
+GPA: 3.99/4.00
 
 + Blacksburg, Virginia
 &#124; August 2011-May 2014
@@ -95,11 +95,12 @@ __<big>Virginia Tech Computer Science.</big>__  Undergraduate Teaching Assistant
 __<big>Conference.</big>__
 
 
-1. "Fortran 95 implementation of QNSTOP for global and stochastic
-optimization." **Brandon Amos**, David Easterling, Layne Watson,
-Brent Castle, Michael Trosset, William Thacker.
-SpringSim'14 High Performance Computing Symposium.
-Tampa, Florida, USA, April 2014.
+1. **Brandon Amos**, David Easterling, Layna Watson, Brent Castle,
+Michael Trosset, and William Thacker,
+"Fortran 95 implementation of QNSTOP for global and stochastic
+optimization", in Proc. 2014 Spring Simulation Multiconference,
+22nd High Performance Computer Symp.,
+Soc. for Modelling and Simulation Internat., Vista, CA, 2014, 111-118.
 
 
 2. "Applying machine learning classifiers to dynamic Android malware
@@ -220,19 +221,19 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 
 
 
+<big>[GitHub Portfolio](http://github.com/bamos)</big>
+
+
++ Hosts code samples, original source code, and patches for open source projects.
++ 22 original repositories, 8 forked repositories.
+
+
 <big>[Personal Blog and Website](http://bamos.io)</big>
 
 
 + Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
 + **37 posts** across the following tags, listed by highest frequency.
 + Python, Bash, LaTeX, Scala, Linux, Fortran, JavaScript, Android, News, CUDA, OpenMP, C++, Mathematica
-
-
-<big>[GitHub Portfolio](http://github.com/bamos)</big>
-
-
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 22 original repositories, 8 forked repositories.
 
 
 
