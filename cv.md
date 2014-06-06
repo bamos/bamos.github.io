@@ -140,7 +140,7 @@ Jaime Camelio, Chris Williams, Robert Parker.
 
 
 
-__<big>Adobe Research.</big>__  Data Science Intern.
+__<big>Adobe Research.</big>__  Data Scientist Intern.
 
 + San Jose, California
 &#124; May 2014-August 2014
