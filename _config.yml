@@ -8,3 +8,5 @@ pygments: true
 markdown: kramdown
 permalink: pretty
 paginate: 5
+gems:
+  - jekyll-sitemap
