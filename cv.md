@@ -106,8 +106,8 @@ in Systems Biology," in <em>2014 Summer Simulation Multiconference</em>, 2014<br
 
 __<big>Articles.</big>__
 
-[4] H. Turner, B. Amos, J. White, J. Camelio, C. Williams, and R. Parker, "Bad Parts: Are Our Manufacturing Systems At Risk of Silent
-Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, 2014<br><br>
+[4] H. Turner, J. White, B. Amos, J. Camelio, C. Williams, and R. Parker, "Bad Parts: Are Our Manufacturing Systems At Risk of Silent
+Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear<br><br>
 
 
 
@@ -199,19 +199,19 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 
 
 
-<big>[GitHub Portfolio](http://github.com/bamos)</big>
-
-
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 22 original repositories, 8 forked repositories.
-
-
 <big>[Personal Blog and Website](http://bamos.io)</big>
 
 
 + Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
 + **37 posts** across the following tags, listed by highest frequency.
 + Python, Bash, LaTeX, Scala, Linux, Fortran, JavaScript, Android, News, CUDA, OpenMP, C++, Mathematica
+
+
+<big>[GitHub Portfolio](http://github.com/bamos)</big>
+
+
++ Hosts code samples, original source code, and patches for open source projects.
++ 22 original repositories, 8 forked repositories.
 
 
 
