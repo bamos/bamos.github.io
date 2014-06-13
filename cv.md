@@ -107,7 +107,7 @@ in Systems Biology," in <em>2014 Summer Simulation Multiconference</em>, 2014<br
 __<big>Articles.</big>__
 
 [4] H. Turner, B. Amos, J. White, J. Camelio, C. Williams, and R. Parker, "Bad Parts: Are Our Manufacturing Systems At Risk of Silent
-Cyber-attacks?," <em>IEEE Security and Privacy Magazine</em>, 2014<br><br>
+Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, 2014<br><br>
 
 
 
