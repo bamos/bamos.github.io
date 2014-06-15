@@ -15,7 +15,7 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/ht7U8r) &#124;
 (540) 947--1238 &#124;
-Generated June 13, 2014.
+Generated June 15, 2014.
 
 # Interests
 
@@ -94,12 +94,12 @@ __<big>Virginia Tech Computer Science.</big>__  Undergraduate Teaching Assistant
 
 __<big>Conference Proceedings.</big>__
 
-[1] B. Amos, H. Turner, and J. White, "Applying machine learning classifiers to dynamic Android
-malware detection at scale," in <em>IWCMC'13 Security, Trust and Privacy Symposium</em>, 2013<br><br>
+[1] T. Andrew, B. Amos, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson, "Global Parameter Estimation for a Eukaryotic Cell Cycle Model
+in Systems Biology," in <em>2014 Summer Simulation Multiconference</em>, 2014<br><br>
 [2] B. Amos, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker, "Fortran 95 implementation of QNSTOP for global and
 stochastic optimization," in <em>2014 Spring Simulation Multiconference, 22nd High Performance Computer Symposium, Society for Modeling and Simulation International</em>, 2014<br><br>
-[3] T. Andrew, B. Amos, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson, "Global Parameter Estimation for a Eukaryotic Cell Cycle Model
-in Systems Biology," in <em>2014 Summer Simulation Multiconference</em>, 2014<br><br>
+[3] B. Amos, H. Turner, and J. White, "Applying machine learning classifiers to dynamic Android
+malware detection at scale," in <em>IWCMC'13 Security, Trust and Privacy Symposium</em>, 2013<br><br>
 
 
 
