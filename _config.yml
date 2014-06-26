@@ -4,7 +4,9 @@ url: http://bamos.io
 destination: ./_site
 lsi: false
 port: 4000
-pygments: true
+highlighter: pygments
 markdown: kramdown
 permalink: pretty
 paginate: 5
+gems:
+  - jekyll-sitemap

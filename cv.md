@@ -15,7 +15,7 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/ht7U8r) &#124;
 (540) 947--1238 &#124;
-Generated May 17, 2014.
+Generated June 15, 2014.
 
 # Interests
 
@@ -32,7 +32,7 @@ __<big>Carnegie Mellon University.</big>__  Ph.D. Student, Computer Science.
 &#124; Starting August 2014
 
 __<big>Virginia Tech.</big>__  B.S., Computer Science, Honors Scholar.
-GPA: 3.98/4.00
+GPA: 3.99/4.00
 
 + Blacksburg, Virginia
 &#124; August 2011-May 2014
@@ -92,43 +92,22 @@ __<big>Virginia Tech Computer Science.</big>__  Undergraduate Teaching Assistant
 
 
 
-__<big>Conference.</big>__
+__<big>Conference Proceedings.</big>__
 
-
-1. "Fortran 95 implementation of QNSTOP for global and stochastic
-optimization." **Brandon Amos**, David Easterling, Layne Watson,
-Brent Castle, Michael Trosset, William Thacker.
-SpringSim'14 High Performance Computing Symposium.
-Tampa, Florida, USA, April 2014.
-
-
-2. "Applying machine learning classifiers to dynamic Android malware
-detection at scale."
-**Brandon Amos**, Hamilton Turner, Jules White.
-IWCMC'13 Security, Trust, and Privacy Symposium.
-Cagliari, Italy, July 2013.
+[1] T. Andrew, B. Amos, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson, "Global Parameter Estimation for a Eukaryotic Cell Cycle Model
+in Systems Biology," in <em>2014 Summer Simulation Multiconference</em>, 2014<br><br>
+[2] B. Amos, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker, "Fortran 95 implementation of QNSTOP for global and
+stochastic optimization," in <em>2014 Spring Simulation Multiconference, 22nd High Performance Computer Symposium, Society for Modeling and Simulation International</em>, 2014<br><br>
+[3] B. Amos, H. Turner, and J. White, "Applying machine learning classifiers to dynamic Android
+malware detection at scale," in <em>IWCMC'13 Security, Trust and Privacy Symposium</em>, 2013<br><br>
 
 
 
 
-__<big>Submitted.</big>__
+__<big>Articles.</big>__
 
-
-1. "Global Parameter Estimation for a Eukaryotic Cell Cycle Model in
-Systems Biology." Tricity Andrew, **Brandon Amos**,
-David Easterling, Cihan Oguz, William Baumann, John Tyson,
-Layne Watson.
-
-
-2. "Cyber Security and Industrial Manufacturing: Toward a
-Future of Trusted Manufacturing." Hamilton Turner,
-**Brandon Amos**, Jules White, Robert Parker,
-Christopher Williams, Jaime Camelio.
-
-
-3. "Bad Parts: Are Our Manufacturing Systems At Risk of Silent
-Cyber-attacks?" Hamilton Turner, **Brandon Amos**, Jules White,
-Jaime Camelio, Chris Williams, Robert Parker.
+[4] H. Turner, J. White, B. Amos, J. Camelio, C. Williams, and R. Parker, "Bad Parts: Are Our Manufacturing Systems At Risk of Silent
+Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear<br><br>
 
 
 
@@ -139,7 +118,7 @@ Jaime Camelio, Chris Williams, Robert Parker.
 
 
 
-__<big>Adobe Research.</big>__  Data Science Intern.
+__<big>Adobe Research.</big>__  Data Scientist Intern.
 
 + San Jose, California
 &#124; May 2014-August 2014
@@ -179,9 +158,9 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 # Skills
 
 
-+ __Preference.__ Linux, vim, git, Make, sbt
++ __Preference.__ Mac, vim, git, Make, sbt
 + __Languages.__ Akka\*\*, Bash\*\*, C/C++\*\*, C#\*, Fortran\*\*, HTML/CSS\*, LaTeX\*\*, Java\*\*, JavaScript\*\*,  Mathematica\*\*, Make\*\*\*, PHP\*, Python\*\*\*, R\*, Scala\*\*\*
-+ __Systems.__ Android\*\*, Linux\*\*\*
++ __Systems.__ Android\*\*, Linux\*\*\*, Mac\*\*\*
 + __Rankings.__ 1/10\* - 3/10\*\* - 5/10\*\*\* - 7/10\*\*\*\*
 
 

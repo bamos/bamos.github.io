@@ -13,7 +13,7 @@ Please download my key from [here](/data/bdamos_pgp.asc)
 or from any [SKS OpenPGP Keyserver](http://keyserver.cns.vt.edu/),
 and do get in contact if you would like to sign keys.
 
-For more detailed information to PGP, I recommend the following pages.
+For more detailed information on PGP, I recommend the following pages.
 
  + [LUGOD's PGP Presentation](http://www.lugod.org/presentations/pgp/)
  + [Phil Dibowitz's Docs](http://www.phildev.net/pgp/)

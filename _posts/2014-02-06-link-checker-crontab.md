@@ -12,7 +12,7 @@ Using `linkchecker` on my website with `--no-warnings` and
 making the results very difficult to glance through!
 Many of the 97 warnings were 8 lines for a denial via `robots.txt`:
 
-```
+<pre>
 URL        `https://github.com/bamos/latex-templates/tree/gh-pages//hw'
 Name       `hw'
 Parent URL http://bamos.github.io/latex-templates/, line 50, col 5
@@ -21,7 +21,7 @@ Check time 0.600 seconds
 Warning    [http-robots-denied] Access denied by robots.txt,
            skipping content checks.
 Result     Valid: 200 OK
-```
+</pre>
 
 From `linkchecker`'s output, I wanted something to run daily with
 [cron][cron] on my server to email me a concise report only if
@@ -30,7 +30,7 @@ errors were encountered, which is what [this][src] Python 3.3 script in
 
 Upon error, an email of the following format is sent.
 
-```
+<pre>
 Error checking links for http://bamos.io
 
 URL        `https://github.com/bamos/simple-shell-scripts/blob/master/re-signer.sh'
@@ -40,7 +40,7 @@ Result     Error: 404 Not Found
 URL        `http://www.troido.de/en/downloadslsmallgsoftware-a-driverslsmallg'
 Parent URL http://bamos.github.io/2013/03/10/resigning-apk/, line 64, col 285
 Result     Error: 404 Not Found
-```
+</pre>
 
 To configure the script for your own purposes, add your
 SMTP authentication to the settings and run it in your shell.
