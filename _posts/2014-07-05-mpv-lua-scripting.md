@@ -23,16 +23,14 @@ from the master branch.
 + Print an MP3 track's info.
 + Share a track's information using the command-line email client `mutt`.
 
-`mpv` will read all Lua scripts in `~/.mpv/lua` by default.
+`mpv` reads all Lua scripts in `~/.mpv/lua` by default.
 If you want to store scripts in a different directory,
-set them as `lua=<filename>` option in [~/.mpv/config][.mpv/config],
+set them as `lua=<filename>` in [~/.mpv/config][.mpv/config],
 where `<filename>` is a comma delimited list of scripts to load.
 
 From these scripts, `mpv` provides an `mp` class to interface
-with the rest of the player.
-For more information on `mp`, see the interface [on Github][lua-mp].
-For adding features in this article, I exclusively use
-`mp.get_property("path")` to get the path to the current track.
+with the rest of the player, see the [implementation on Github][lua-mp].
+I only use `mp.get_property("path")` to get the path to the current track.
 
 The following are snippets from my [music.lua][music.lua] script,
 which is in my [dotfiles][dotfiles] repo.

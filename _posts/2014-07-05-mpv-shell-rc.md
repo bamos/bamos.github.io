@@ -27,6 +27,8 @@ files to load the following aliases and functions.
 + `playdir` or `pd` will use `mpvshuf` to play all the files in the
    directories provided on the command line.
 
+<script src="http://gist-it.appspot.com/https://github.com/bamos/dotfiles/blob/master/.mpv/shellrc.sh?footer=minimal"></script>
+
 [mpv]: http://mpv.io
 [mplayer]: http://www.mplayerhq.hu
 
