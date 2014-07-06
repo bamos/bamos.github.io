@@ -8,7 +8,7 @@ This is part of a 3-post series on using mpv and Python
 for music organization and playing in Linux and OSX.
 
 + [Improving mpv as a music player with Lua scripts.][mpv-lua-scripting]
-+ [Bash/Zsh shell functions to help use mpv for music.][mpv-shell-rc]
++ [Improving mpv as a music player with Bash/Zsh shell functions.][mpv-shell-rc]
 
 This article introduces a Python script I use to organize my
 mp3 music directory structure for iTunes and [mpv][mpv].

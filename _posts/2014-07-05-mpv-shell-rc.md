@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bash/Zsh shell functions to help use mpv for music.
+title: Improving mpv as a music player with Bash/Zsh shell functions.
 tags: [Linux,Bash,Zsh]
 ---
 

@@ -8,7 +8,7 @@ This is part of a 3-post series on using mpv and Python
 for music organization and playing in Linux and OSX.
 
 + [Using Python to organize a music directory.][music-organizer]
-+ [Bash/Zsh shell functions to help use mpv for music.][mpv-shell-rc]
++ [Improving mpv as a music player with Bash/Zsh shell functions.][mpv-shell-rc]
 
 [mpv][mpv] is a fork of [mplayer][mplayer] and adds
 bug patches, an improved command-line interface, and
