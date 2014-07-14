@@ -15,7 +15,7 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/ht7U8r) &#124;
 (540) 947--1238 &#124;
-Generated June 29, 2014.
+Generated July 13, 2014.
 
 # Interests
 
@@ -155,6 +155,27 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 + Created **Bash** scripts to provide incremental backups.
 
 
+# Projects
+
+
+
+
+<big>[GitHub Portfolio](http://github.com/bamos)</big>
+
+
++ Hosts code samples, original source code, and patches for open source projects.
++ 23 original repositories, 7 forked repositories.
+
+
+<big>[Personal Blog and Website](http://bamos.io)</big>
+
+
++ Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
++ **40 posts** across the following tags, listed by highest frequency.
++ Python, Bash, Linux, LaTeX, Fortran, Scala, Android, JavaScript, Zsh, CUDA, News, OpenMP, C++, Mathematica, mpv, Lua
+
+
+
 # Skills
 
 
@@ -192,27 +213,6 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
   + Merit-based scholarship presented to one student from each public high school in Virginia.
 + I. Luck Gravett Memorial Merit Scholarship, Scottish Rite of Freemasonry, 2011
 + [Salem-Roanoke County Chamber of Commerce Merit Scholarship, 2011](http://s-rcchamber.org/wp-content/uploads/2011/03/August-2011-NL.pdf)
-
-
-# Projects
-
-
-
-
-<big>[Personal Blog and Website](http://bamos.io)</big>
-
-
-+ Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
-+ **37 posts** across the following tags, listed by highest frequency.
-+ Python, Bash, LaTeX, Scala, Linux, Fortran, JavaScript, Android, News, CUDA, OpenMP, C++, Mathematica
-
-
-<big>[GitHub Portfolio](http://github.com/bamos)</big>
-
-
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 22 original repositories, 8 forked repositories.
-
 
 
 # Activities
