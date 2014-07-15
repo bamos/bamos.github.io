@@ -21,8 +21,10 @@ but the project is open to pull requests to support
 other media formats.__
 
 I have a small collection of Python scripts I add to my `PATH`
-in [bamos/python-scripts][python-scripts], including
-[music-organizer.py][music-organizer.py].
+in the [bamos/python-scripts][python-scripts] GitHub repository,
+including [music-organizer.py][music-organizer.py].
+Please star the repository if you like the project!
+
 `music-organizer.py` organizes my music into the simple directory
 structure of `<artist>/<track>`, where `<artist>` and `<track>` are
 lower case strings separated by dashes.

@@ -18,6 +18,8 @@ I use to slightly improve mpv's capabilities as a music player.
 
 I source [mpv/shellrc.sh][mpv/shellrc.sh] in my zshrc and bashrc
 files to load the following aliases and functions.
+These are all contained in my [dotfiles][dotfiles] repository on Github.
+Please star the repository if you like the project!
 
 + `mpvnova` uses `mpv` with no video for audio only.
 + `mpvshuf` uses `mpvnova` and infinitely shuffles.
