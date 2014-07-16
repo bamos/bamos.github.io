@@ -23,8 +23,6 @@ other media formats.__
 I have a small collection of Python scripts I add to my `PATH`
 in the [bamos/python-scripts][python-scripts] GitHub repository,
 including [music-organizer.py][music-organizer.py].
-Please star the repository if you like the project!
-
 `music-organizer.py` organizes my music into the simple directory
 structure of `<artist>/<track>`, where `<artist>` and `<track>` are
 lower case strings separated by dashes.

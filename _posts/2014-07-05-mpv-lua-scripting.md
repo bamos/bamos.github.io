@@ -34,7 +34,6 @@ I only use `mp.get_property("path")` to get the path to the current track.
 
 The following are snippets from my [music.lua][music.lua] script,
 which is in my [dotfiles][dotfiles] repository on Github.
-Please star the repository if you like the project!
 I use the following Lua imports and helper function
 to execute a shell command and return the output as a string.
 
