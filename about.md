@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: about
 title:  About
 social:
   - link: https://www.facebook.com/bdamos
@@ -22,9 +22,7 @@ social:
     img: /images/social/twitter.png
 ---
 
-[![me](/images/me.jpg)](/images/me-large.jpg)
 
-# About me.
 I will be a Computer Science Ph.D. student at [Carnegie Mellon][cmu]
 starting in August 2014 and obtained a B.S. in Computer Science
 in May 2014 from [Virginia Tech][vt].
