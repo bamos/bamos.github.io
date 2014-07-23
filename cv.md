@@ -15,7 +15,7 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/ht7U8r) &#124;
 (540) 947--1238 &#124;
-Generated July 22, 2014.
+Generated July 23, 2014.
 
 # Interests
 
@@ -95,7 +95,7 @@ __<big>Virginia Tech Computer Science.</big>__  Undergraduate Teaching Assistant
 __<big>Conference Proceedings.</big>__
 
 [1] T. Andrew, B. Amos, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson, "Global Parameter Estimation for a Eukaryotic Cell Cycle Model
-in Systems Biology," in <em>2014 Summer Simulation Multiconference</em>, 2014<br><br>
+in Systems Biology," in <em>2014 Summer Simulation Multiconference, Society for Modeling and Simulation International</em>, 2014<br><br>
 [2] B. Amos, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker, "Fortran 95 implementation of QNSTOP for global and
 stochastic optimization," in <em>2014 Spring Simulation Multiconference, 22nd High Performance Computer Symposium, Society for Modeling and Simulation International</em>, 2014<br><br>
 [3] B. Amos, H. Turner, and J. White, "Applying machine learning classifiers to dynamic Android
@@ -160,19 +160,19 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 
 
 
+<big>[GitHub Portfolio](http://github.com/bamos)</big>
+
+
++ Hosts code samples, original source code, and patches for open source projects.
++ 23 original repositories, 7 forked repositories.
+
+
 <big>[Personal Blog and Website](http://bamos.io)</big>
 
 
 + Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
 + **40 posts** across the following tags, listed by highest frequency.
 + Python, Bash, Linux, LaTeX, Fortran, Scala, Android, JavaScript, Zsh, CUDA, News, OpenMP, C++, Mathematica, mpv, Lua
-
-
-<big>[GitHub Portfolio](http://github.com/bamos)</big>
-
-
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 23 original repositories, 7 forked repositories.
 
 
 
