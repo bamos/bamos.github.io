@@ -42,6 +42,8 @@ use of the computers.
 My summer project has been to explore open source research
 technology and compare techniques of programming the
 distributed system for Adobe's needs.
+Specifically, I'm using [Apache Spark][spark] and [Spray][spray]
+to create an analytics query engine in [Scala][scala].
 
 In my day-to-day work, Adobe's internal GitHub issue tracker
 allows my manager and me to track, discuss, and prioritize my tasks.
@@ -95,3 +97,7 @@ document.getElementById('links').onclick = function (event) {
 [adobe-research]: http://www.adobe.com/technology.html
 [adobe-research-github]: https://github.com/adobe-research
 [bamos-github]: https://github.com/bamos/
+
+[spark]: http://spark.apache.org
+[spray]: http://spray.io
+[scala]: http://www.scala-lang.org/
