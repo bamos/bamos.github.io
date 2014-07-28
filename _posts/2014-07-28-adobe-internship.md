@@ -54,7 +54,6 @@ for my manager.
 Concluding my summer, we're planning to release
 open source projects to Adobe Research's GitHub
 and are considering writing a short technical report.
-
 My summer with Adobe Research has been fantastic,
 and I hope to have another opportunity to collaborate
 with the group in the future!
