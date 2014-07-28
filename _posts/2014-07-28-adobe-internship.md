@@ -6,7 +6,6 @@ pics:
   - /data/2014-07-28/big-sur-1.jpg
   - /data/2014-07-28/big-sur-2.jpg
   - /data/2014-07-28/sf.jpg
-  - /data/2014-07-28/adobe-2.jpg
   - /data/2014-07-28/santa-cruz.jpg
 ---
 
