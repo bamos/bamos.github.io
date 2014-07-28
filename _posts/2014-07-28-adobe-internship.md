@@ -45,13 +45,6 @@ distributed system for Adobe's needs.
 Specifically, I'm using writing a [Scala][scala] application to
 create an analytics query engine using [Apache Spark][spark] and [Spray][spray].
 
-In my day-to-day work, Adobe's internal GitHub issue tracker
-allows my manager and me to track, discuss, and prioritize my tasks.
-For example, one of my tasks could be to create and plot a
-performance measure of the distributed system.
-Once implementing this, I would attach the code and plot to the issue
-for my manager.
-
 Concluding my summer, we're planning to release
 open source projects to Adobe Research's GitHub
 and are considering writing a short technical report.
