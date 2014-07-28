@@ -2,10 +2,20 @@
 layout: post
 title: Life as a summer intern at Adobe Research.
 tags: [News]
+pics:
+  - /data/2014-07-28/big-sur-1.jpg
+  - /data/2014-07-28/big-sur-2.jpg
+  - /data/2014-07-28/sf.jpg
+  - /data/2014-07-28/adobe-2.jpg
+  - /data/2014-07-28/santa-cruz.jpg
 ---
+
+<link rel="stylesheet" href="/data/2014-07-28/blueimp-gallery.css">
 
 I've had a great experience interning with [Adobe Research][adobe-research]
 in San Jose this summer, and I am writing this post to talk about my experiences.
+
+<center><img width="65%" src="/data/2014-07-28/adobe.jpg"/></center>
 
 ## Background
 I'm entering Carnegie Mellon's Computer Science PhD program in August
@@ -48,6 +58,41 @@ and are considering writing a short technical report.
 My summer with Adobe Research has been fantastic,
 and I hope to have another opportunity to collaborate
 with the group in the future!
+
+## Bay Area
+I've had a lot of fun exploring the Bay Area as an intern.
+Check out some of my favorite pictures below!
+
+<div id="blueimp-gallery" class="blueimp-gallery">
+  <div class="slides"></div>
+  <h3 class="title"></h3>
+  <a class="prev">‹</a>
+  <a class="next">›</a>
+  <a class="close">×</a>
+  <a class="play-pause"></a>
+  <ol class="indicator"></ol>
+</div>
+
+<div id='links' style="clear: both">
+  {% for pic in page.pics %}
+    <a href="{{pic}}" data-gallery>
+      <img src="{{pic}}" height='150em'/>
+    </a>
+  {% endfor %}
+</div>
+
+<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+<script src="/data/2014-07-28/blueimp-gallery.js"></script>
+<script>
+document.getElementById('links').onclick = function (event) {
+  event = event || window.event;
+  var target = event.target || event.srcElement,
+    link = target.src ? target.parentNode : target,
+    options = {index: link, event: event},
+    links = this.getElementsByTagName('a');
+  blueimp.Gallery(links, options);
+};
+</script>
 
 [adobe-research]: http://www.adobe.com/technology.html
 [adobe-research-github]: https://github.com/adobe-research
