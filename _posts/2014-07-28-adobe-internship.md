@@ -45,10 +45,10 @@ distributed system for Adobe's needs.
 Specifically, I'm using writing a [Scala][scala] application to
 create an analytics query engine using [Apache Spark][spark] and [Spray][spray].
 
-Concluding my summer, we're planning to release
+To conclude the summer, we're planning to release
 open source projects to Adobe Research's GitHub
 and are considering writing a short technical report.
-My summer with Adobe Research has been fantastic,
+This summer with Adobe Research has been fantastic,
 and I hope to have another opportunity to collaborate
 with the group in the future!
 
