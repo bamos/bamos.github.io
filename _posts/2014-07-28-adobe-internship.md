@@ -42,8 +42,8 @@ use of the computers.
 My summer project has been to explore open source research
 technology and compare techniques of programming the
 distributed system for Adobe's needs.
-Specifically, I'm using [Apache Spark][spark] and [Spray][spray]
-to create an analytics query engine in [Scala][scala].
+Specifically, I'm using writing a [Scala][scala] application to
+create an analytics query engine using [Apache Spark][spark] and [Spray][spray].
 
 In my day-to-day work, Adobe's internal GitHub issue tracker
 allows my manager and me to track, discuss, and prioritize my tasks.
