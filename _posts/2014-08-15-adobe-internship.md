@@ -50,7 +50,8 @@ and we've submitted a paper to an international academic conference
 on distributed systems.
 Check out the projects below, and please star them to support the work!
 
-+ `adobe-research/spindle` - *In progress.*
++ `adobe-research/spindle` -
+  *Next-generation web analytics processing with Scala and Spark.*
 + [adobe-research/spark-cluster-deployment][spark-cluster-deployment] -
   *Automates Spark standalone cluster tasks with Puppet and Fabric.*
 + [adobe-research/spark-parquet-thrift-example][spark-parquet-thrift-example] -
@@ -61,7 +62,7 @@ Check out the projects below, and please star them to support the work!
 ## Bay Area
 I've had a lot of fun exploring the Bay Area as an intern.
 Check out some of my favorite pictures below!
-Also, see [http://bamos.io/pics][http://bamos.io/pics]
+Also, see [http://bamos.io/pics](http://bamos.io/pics)
 for my entire picture collection.
 
 <div id="blueimp-gallery" class="blueimp-gallery">
