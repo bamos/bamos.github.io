@@ -15,7 +15,7 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/ht7U8r) &#124;
 (540) 947--1238 &#124;
-Generated July 28, 2014.
+Generated August 03, 2014.
 
 # Interests
 
@@ -122,7 +122,8 @@ __<big>Adobe Research.</big>__  Data Scientist Intern.
 
 + San Jose, California
 &#124; May 2014-August 2014
-+ Advanced **Scala** devoplement on the Adobe analytics platform to create and benchmark an analytics query engine using Spark and Spray.
++ Distributed systems research on building and benchmarking an analytics query engine.
++ The analytics query engine is implemented in **Scala** with the Spark, and Spray libraries and the benchmarking is implemented in **Python**.
 
 __<big>Snowplow Analytics.</big>__  Software Winter Intern.
 
