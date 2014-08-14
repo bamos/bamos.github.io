@@ -1,12 +1,36 @@
 ---
 layout: post
-title: Life as a summer intern at Adobe Research.
+title: Concluding my internshp with Adobe Research.
 tags: [News]
 pics:
   - /data/2014-07-28/big-sur-1.jpg
   - /data/2014-07-28/big-sur-2.jpg
   - /data/2014-07-28/sf.jpg
   - /data/2014-07-28/santa-cruz.jpg
+  - /data/2014-07-28/20140811_130103.jpg
+  - /data/2014-07-28/20140811_144008.jpg
+  - /data/2014-07-28/20140811_144044.jpg
+  - /data/2014-07-28/20140811_144219.jpg
+  - /data/2014-07-28/20140811_144757.jpg
+  - /data/2014-07-28/20140811_150515.jpg
+  - /data/2014-07-28/20140811_150528.jpg
+  - /data/2014-07-28/20140811_150550.jpg
+  - /data/2014-07-28/20140811_150555.jpg
+  - /data/2014-07-28/20140811_150643.jpg
+  - /data/2014-07-28/20140811_150724.jpg
+  - /data/2014-07-28/20140811_150830.jpg
+  - /data/2014-07-28/20140811_150909.jpg
+  - /data/2014-07-28/20140811_150943.jpg
+  - /data/2014-07-28/20140811_151014.jpg
+  - /data/2014-07-28/20140811_152214.jpg
+  - /data/2014-07-28/20140811_154741.jpg
+  - /data/2014-07-28/20140811_154915.jpg
+  - /data/2014-07-28/20140811_155543.jpg
+  - /data/2014-07-28/20140811_160355.jpg
+  - /data/2014-07-28/20140811_160551.jpg
+  - /data/2014-07-28/20140811_160729.jpg
+  - /data/2014-07-28/20140811_161637.jpg
+  - /data/2014-07-28/20140811_161642.jpg
 ---
 
 <link rel="stylesheet" href="/data/2014-07-28/blueimp-gallery.css">
@@ -15,23 +39,6 @@ I've had a great experience interning with [Adobe Research][adobe-research]
 in San Jose this summer, and I am writing this post to talk about my experiences.
 
 <center><img width="65%" src="/data/2014-07-28/adobe.jpg"/></center>
-
-## Background
-I'm entering Carnegie Mellon's Computer Science PhD program in August
-to study distributed and mobile systems.
-I also strongly support open source software and
-maintain an [active GitHub portfolio][bamos-github].
-I balance my work between research and advanced development
-to contribute to theory and open source projects.
-
-I first heard about Adobe Research when I saw open source projects
-on the [Adobe Research GitHub][adobe-research-github] last December.
-The combination of research theory with open source technology made
-me interested in working with Adobe Research.
-I emailed a prominent contributer to the projects regarding
-summer internships and he said he was looking for interns.
-After talking on the phone with him, he put me in contact
-with the HR department and I officially signed on as an intern with him!
 
 ## Internship Project
 Adobe provides marketing technology to process large amounts of data
@@ -45,12 +52,14 @@ distributed system for Adobe's needs.
 Specifically, I'm using writing a [Scala][scala] application to
 create an analytics query engine using [Apache Spark][spark] and [Spray][spray].
 
-To conclude the summer, we're planning to release
-open source projects to Adobe Research's GitHub
-and are considering writing a short technical report.
-This summer with Adobe Research has been fantastic,
-and I hope to have another opportunity to collaborate
-with the group in the future!
+### Open Source Project: Deploying Spark to a cluster with Puppet and Fabric.
+In progress.
+
+### Open Source Project: Example Spark project using Parquet as a columnar store.
+In progress.
+
+### Open Source Project: Spindle, a web analytics query engine in Spark.
+In progress.
 
 ## Bay Area
 I've had a lot of fun exploring the Bay Area as an intern.
