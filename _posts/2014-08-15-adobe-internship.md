@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Concluding my internship with Adobe Research.
+title: Concluding my Adobe Research internship.
 tags: [News]
 pics:
   - /data/2014-07-28/big-sur-1.jpg
@@ -35,37 +35,25 @@ pics:
 
 <link rel="stylesheet" href="/data/2014-07-28/blueimp-gallery.css">
 
-I've had a great experience interning with [Adobe Research][adobe-research]
-in San Jose this summer, and I am writing this post to talk about my experiences.
-
 <center><img width="65%" src="/data/2014-07-28/adobe.jpg"/></center>
 
-## Internship Project
-Adobe provides marketing technology to process large amounts of data
-using thousands of computers in synchrony, which is a distributed system.
-Communication between thousands of computers is difficult, and
-Adobe's current solution might not be the most efficient
-use of the computers.
-My summer project has been to explore open source research
-technology and compare techniques of programming the
-distributed system for Adobe's needs.
-Specifically, I'm using writing a [Scala][scala] application to
-create an analytics query engine using [Apache Spark][spark] and [Spray][spray].
+I've had a great experience interning with [Adobe Research][adobe-research]
+in San Jose this summer.
+I've met a lot of interesting people and have been build distributed systems
+to split computations of large data sets between many computers in synchrony
+using [Scala][scala], [Apache Spark][spark], and [Spray][spray].
 
-### Open Source Project: Deploying Spark to a cluster with Puppet and Fabric.
-Description in progress.
+Adobe has been generous enough to let me open source all of my
+work as 3 projects on the [Adobe Research GitHub][adobe-research-github] group,
+and we've submitted a paper to an international academic conference
+on distributed systems.
+Check out the projects below, and please star them to support the work!
 
-This project is available from
-[adobe-research/spark-cluster-deployment][spark-cluster-deployment].
-
-### Open Source Project: Example Spark project using Parquet as a columnar store.
-Description in progress.
-
-This project is available from
-[adobe-research/spark-cluster-deployment][spark-parquet-thrift-example].
-
-### Open Source Project: Spindle, a web analytics query engine in Spark.
-In progress.
++ [adobe-research/spark-cluster-deployment][spark-cluster-deployment] -
+  *Automates Spark standalone cluster tasks with Puppet and Fabric.*
++ [adobe-research/spark-parquet-thrift-example][spark-parquet-thrift-example]. -
+  *Example Spark project using Parquet as a columnar store with Thrift objects.*
++ `adobe-research/spindle` - *In progress.*
 
 ## Bay Area
 I've had a lot of fun exploring the Bay Area as an intern.
