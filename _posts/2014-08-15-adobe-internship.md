@@ -81,7 +81,7 @@ Check out some of my favorite pictures below!
   <ol class="indicator"></ol>
 </div>
 
-<div id='links' style="clear: both">
+<div id='links' style="clear: both; text-align: left">
   {% for pic in page.pics %}
     <a href="{{pic}}" data-gallery>
       <img src="{{pic}}" height='150em'/>
