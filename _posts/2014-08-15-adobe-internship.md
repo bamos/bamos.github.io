@@ -53,10 +53,16 @@ Specifically, I'm using writing a [Scala][scala] application to
 create an analytics query engine using [Apache Spark][spark] and [Spray][spray].
 
 ### Open Source Project: Deploying Spark to a cluster with Puppet and Fabric.
-In progress.
+Description in progress.
+
+This project is available from
+[adobe-research/spark-cluster-deployment][spark-cluster-deployment].
 
 ### Open Source Project: Example Spark project using Parquet as a columnar store.
-In progress.
+Description in progress.
+
+This project is available from
+[adobe-research/spark-cluster-deployment][spark-parquet-thrift-example].
 
 ### Open Source Project: Spindle, a web analytics query engine in Spark.
 In progress.
@@ -103,3 +109,6 @@ document.getElementById('links').onclick = function (event) {
 [spark]: http://spark.apache.org
 [spray]: http://spray.io
 [scala]: http://www.scala-lang.org/
+
+[spark-cluster-deployment]: https://github.com/adobe-research/spark-cluster-deployment
+[spark-parquet-thrift-example]: https://github.com/adobe-research/spark-parquet-thrift-example
