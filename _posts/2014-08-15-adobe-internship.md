@@ -7,6 +7,7 @@ pics:
   - /data/2014-07-28/big-sur-2.jpg
   - /data/2014-07-28/sf.jpg
   - /data/2014-07-28/santa-cruz.jpg
+  - /data/2014-07-28/santa-cruz-2.jpg
   - /data/2014-07-28/20140811_130103.jpg
   - /data/2014-07-28/20140811_144008.jpg
   - /data/2014-07-28/20140811_144044.jpg
@@ -55,9 +56,13 @@ Check out the projects below, and please star them to support the work!
   *Example Spark project using Parquet as a columnar store with Thrift objects.*
 + `adobe-research/spindle` - *In progress.*
 
+
+
 ## Bay Area
 I've had a lot of fun exploring the Bay Area as an intern.
 Check out some of my favorite pictures below!
+Also, see [http://bamos.io/pics][http://bamos.io/pics]
+for my entire picture collection.
 
 <div id="blueimp-gallery" class="blueimp-gallery">
   <div class="slides"></div>
