@@ -40,7 +40,7 @@ pics:
 
 I've had a great experience interning with [Adobe Research][adobe-research]
 in San Jose this summer.
-I've met a lot of interesting people and have been build distributed systems
+I've met a lot of interesting people and have built distributed systems
 to split computations of large data sets between many computers in synchrony
 using [Scala][scala], [Apache Spark][spark], and [Spray][spray].
 
@@ -50,11 +50,11 @@ and we've submitted a paper to an international academic conference
 on distributed systems.
 Check out the projects below, and please star them to support the work!
 
++ `adobe-research/spindle` - *In progress.*
 + [adobe-research/spark-cluster-deployment][spark-cluster-deployment] -
   *Automates Spark standalone cluster tasks with Puppet and Fabric.*
-+ [adobe-research/spark-parquet-thrift-example][spark-parquet-thrift-example]. -
++ [adobe-research/spark-parquet-thrift-example][spark-parquet-thrift-example] -
   *Example Spark project using Parquet as a columnar store with Thrift objects.*
-+ `adobe-research/spindle` - *In progress.*
 
 
 
