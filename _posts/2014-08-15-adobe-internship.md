@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Concluding my internshp with Adobe Research.
+title: Concluding my internship with Adobe Research.
 tags: [News]
 pics:
   - /data/2014-07-28/big-sur-1.jpg
