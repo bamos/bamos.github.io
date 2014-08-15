@@ -50,14 +50,12 @@ and we've submitted a paper to an international academic conference
 on distributed systems.
 Check out the projects below, and please star them to support the work!
 
-+ `adobe-research/spindle` -
++ [adobe-research/spindle][spindle] -
   *Next-generation web analytics processing with Scala and Spark.*
 + [adobe-research/spark-cluster-deployment][spark-cluster-deployment] -
   *Automates Spark standalone cluster tasks with Puppet and Fabric.*
 + [adobe-research/spark-parquet-thrift-example][spark-parquet-thrift-example] -
   *Example Spark project using Parquet as a columnar store with Thrift objects.*
-
-
 
 ## Bay Area
 I've had a lot of fun exploring the Bay Area as an intern.
@@ -104,5 +102,6 @@ document.getElementById('links').onclick = function (event) {
 [spray]: http://spray.io
 [scala]: http://www.scala-lang.org/
 
+[spindle]: https://github.com/adobe-research/spindle
 [spark-cluster-deployment]: https://github.com/adobe-research/spark-cluster-deployment
 [spark-parquet-thrift-example]: https://github.com/adobe-research/spark-parquet-thrift-example
