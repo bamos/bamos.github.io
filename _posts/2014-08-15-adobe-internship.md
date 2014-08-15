@@ -42,7 +42,8 @@ I've had a great experience interning with [Adobe Research][adobe-research]
 in San Jose this summer.
 I've met a lot of interesting people and have built distributed systems
 to split computations of large data sets between many computers in synchrony
-using [Scala][scala], [Apache Spark][spark], and [Spray][spray].
+using [Scala][scala], [Apache Spark][spark], [Spray][spray], and
+[Parquet][parquet].
 
 Adobe has been generous enough to let me open source all of my
 work as 3 projects on the [Adobe Research GitHub][adobe-research-github] group,
@@ -101,6 +102,7 @@ document.getElementById('links').onclick = function (event) {
 [spark]: http://spark.apache.org
 [spray]: http://spray.io
 [scala]: http://www.scala-lang.org/
+[parquet]: http://parquet.incubator.apache.org
 
 [spindle]: https://github.com/adobe-research/spindle
 [spark-cluster-deployment]: https://github.com/adobe-research/spark-cluster-deployment
