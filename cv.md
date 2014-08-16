@@ -15,7 +15,7 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/ht7U8r) &#124;
 (540) 947--1238 &#124;
-Generated August 03, 2014.
+Generated August 16, 2014.
 
 # Interests
 
@@ -44,6 +44,18 @@ GPA: 3.99/4.00
 
 
 
+__<big>Magnum Research Group.</big>__  Undergraduate Research Assistant.
+
++ Blacksburg, Virginia
+&#124; Advisor: Dr. Jules White
+&#124; May 2012-January 2014
++ Work supported with ARO REU grant.
++ Android **malware detection research** resulting in primary authorship on a conference publication.
++ Led a small team to create a distributed **Actor** system in **Scala** for **machine learning** classification of APKs.
++ Developed **VC#** and **Python** programs for a pilot study on manufacturing cyber-physical security.
++ Assisted **C++** and **Make** development in **Linux** for a deployment optimization framework.
++ Modified the **Android source** to provide non-standard logging information for dynamic malware analysis.
+
 __<big>Virginia Tech Computer Science.</big>__  Undergraduate Research Assistant.
 
 + Blacksburg, Virginia
@@ -61,18 +73,6 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
 + Research on automatic **OpenMP** to **CUDA** translation using **C++** and the **ROSE** compiler framework.
 + Polyhedral loop optimization research to restructure **OpenCL** kernels for locality using **LLVM** and **Polly**.
 + **Scala** and **Bash** development in **Linux**.
-
-__<big>Magnum Research Group.</big>__  Undergraduate Research Assistant.
-
-+ Blacksburg, Virginia
-&#124; Advisor: Dr. Jules White
-&#124; May 2012-January 2014
-+ Work supported with ARO REU grant.
-+ Android **malware detection research** resulting in primary authorship on a conference publication.
-+ Led a small team to create a distributed **Actor** system in **Scala** for **machine learning** classification of APKs.
-+ Developed **VC#** and **Python** programs for a pilot study on manufacturing cyber-physical security.
-+ Assisted **C++** and **Make** development in **Linux** for a deployment optimization framework.
-+ Modified the **Android source** to provide non-standard logging information for dynamic malware analysis.
 
 
 # Teaching Experience
@@ -122,8 +122,8 @@ __<big>Adobe Research.</big>__  Data Scientist Intern.
 
 + San Jose, California
 &#124; May 2014-August 2014
-+ Distributed systems research on building and benchmarking an analytics query engine.
-+ The analytics query engine is implemented in **Scala** with the Spark, and Spray libraries and the benchmarking is implemented in **Python**.
++ Distributed systems research on building and benchmarking a web analytics processing engine with **Scala**, **Spark**, **Spray**, and **Parquet**.
++ Released 3 open source projects on the Adobe Research GitHub page and submitted a conference paper.
 
 __<big>Snowplow Analytics.</big>__  Software Winter Intern.
 
