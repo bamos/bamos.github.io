@@ -38,21 +38,18 @@ pics:
 
 <center><img width="65%" src="/data/2014-07-28/adobe.jpg"/></center>
 
-I've had a great experience interning with [Adobe Research][adobe-research]
-in San Jose this summer.
+I've had a great experience interning with
+[Adobe Research][adobe-research] in San Jose, California this summer.
 I've met a lot of interesting people and have built distributed systems
-to split computations of large data sets between many computers in synchrony
-using [Scala][scala], [Apache Spark][spark], [Spray][spray], and
-[Parquet][parquet].
+to split computations of large data sets between many computers
+in synchrony using [Scala][scala], [Apache Spark][spark],
+[Spray][spray], and [Parquet][parquet].
 
-Adobe has been generous enough to let me open source all of my
-work as 3 projects on the [Adobe Research GitHub][adobe-research-github] group,
-and we've submitted a paper to an international academic conference
-on distributed systems.
-Check out the projects below, and please star them to support the work!
+We have open sourced all of my work as 3 projects on the
+[Adobe Research GitHub][adobe-research-github] group.
 
 + [adobe-research/spindle][spindle] -
-  *Next-generation web analytics processing with Scala and Spark.*
+  *Next-generation web analytics processing with Scala, Spark, and Parquet.*
 + [adobe-research/spark-cluster-deployment][spark-cluster-deployment] -
   *Automates Spark standalone cluster tasks with Puppet and Fabric.*
 + [adobe-research/spark-parquet-thrift-example][spark-parquet-thrift-example] -
