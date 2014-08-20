@@ -23,10 +23,10 @@ social:
 ---
 
 
-I will be a Computer Science Ph.D. student at [Carnegie Mellon][cmu]
-starting in August 2014 and obtained a B.S. in Computer Science
-in May 2014 from [Virginia Tech][vt].
-I'm currently interested the intersection of distributed
+I am a Computer Science Ph.D. student at [Carnegie Mellon][cmu]
+and obtained a B.S. in Computer Science
+from [Virginia Tech][vt] in May 2014.
+I'm interested the intersection of distributed
 and mobile computing to enable next-generation mobile applications.
 For more information, find my publications on
 [Google Scholar][scholar] and see [my vitae][cv].
