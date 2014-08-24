@@ -31,7 +31,7 @@ and mobile computing to enable next-generation mobile applications.
 For more information, find my publications on
 [Google Scholar][scholar] and see [my vitae][cv].
 
-Furthermore, I enjoy contributing to the open-source community
+I enjoy contributing to the open-source community
 and maintain as many projects as possible on
 [GitHub][github], including [this website][website],
 which is published with [jekyll][jekyll].
