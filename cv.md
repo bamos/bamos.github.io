@@ -15,12 +15,12 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/ht7U8r) &#124;
 (540) 947--1238 &#124;
-Generated August 16, 2014.
+Generated August 24, 2014.
 
 # Interests
 
 
-My research interests are in the **mobile** and **distributed** computing space to enable technology for next-generation mobile applications.
+My research interests are in the **mobile** and **distributed** computing space to enable next-generation mobile applications.
 
 # Education
 
