@@ -29,7 +29,7 @@ My research interests are in the **mobile** and **distributed** computing space 
 __<big>Carnegie Mellon University.</big>__  Ph.D. Student, Computer Science.
 
 + Pittsburgh, Pennsylvania
-&#124; Starting August 2014
+&#124; August 2014-Present
 
 __<big>Virginia Tech.</big>__  B.S., Computer Science, Honors Scholar.
 GPA: 3.99/4.00
