@@ -13,7 +13,7 @@ h1 {
 
 [PDF](/data/cv.pdf) &#124;
 [source](https://github.com/bamos/cv) &#124;
-[email](http://goo.gl/ht7U8r) &#124;
+[email](http://goo.gl/O4586Q) &#124;
 (540) 947--1238 &#124;
 Generated August 27, 2014.
 
