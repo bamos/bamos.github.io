@@ -15,7 +15,7 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/O4586Q) &#124;
 (540) 947--1238 &#124;
-Generated August 27, 2014.
+Generated August 29, 2014.
 
 # Interests
 
@@ -162,19 +162,19 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 
 
 
-<big>[GitHub Portfolio](http://github.com/bamos)</big>
-
-
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 23 original repositories, 7 forked repositories.
-
-
 <big>[Personal Blog and Website](http://bamos.io)</big>
 
 
 + Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
 + **40 posts** across the following tags, listed by highest frequency.
 + Python, Bash, Linux, LaTeX, Fortran, Scala, Android, JavaScript, Zsh, CUDA, News, OpenMP, C++, Mathematica, mpv, Lua
+
+
+<big>[GitHub Portfolio](http://github.com/bamos)</big>
+
+
++ Hosts code samples, original source code, and patches for open source projects.
++ 23 original repositories, 7 forked repositories.
 
 
 
@@ -226,7 +226,5 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 + Symphony Band, Virginia Tech, 2011-2012
 + Linux and Unix Users Group, Virginia Tech, 2011-2012
 + Galileo Living-Learning Community, Virginia Tech, 2011-2012
-+ Trumpet Section Leader, Marching Band, Northside High School, 2010-2011
-+ Tennis Team, Northside High School, 2008-2011
 
 
