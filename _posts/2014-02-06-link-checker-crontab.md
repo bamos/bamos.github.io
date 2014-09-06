@@ -53,9 +53,9 @@ sent over email. If this goes well, add a `cron` entry
 such as the following one, which runs at 8pm (20:00) daily.
 
 
-```
+<pre>
 0 20 * * * /home/brandon/link-checker.py
-```
+</pre>
 
 [cron]: http://en.wikipedia.org/wiki/Cron
 [linkchecker]: http://wummel.github.io/linkchecker/

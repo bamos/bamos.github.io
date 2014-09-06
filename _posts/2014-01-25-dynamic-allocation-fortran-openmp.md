@@ -84,7 +84,7 @@ END PROGRAM TEST
 
 # gfortran 4.8.2 output.
 
-```
+{% highlight bash %}
 Bad usage allocating before the parallel region.
 
 Thread: 0, TestVar:  140734123837976, TestHeapArray:         25712352
@@ -110,11 +110,11 @@ Thread: 0, TestVar:  140734123837976, TestHeapArray:         25706464
 Thread: 0, TestVar:  140734123837976, TestHeapArray:         25706464
 Thread: 0, TestVar:  140734123837976, TestHeapArray:         25706464
 Thread: 0, TestVar:  140734123837976, TestHeapArray:         25706464
-```
+{% endhighlight %}
 
 # Sun 12 output.
 
-```
+{% highlight bash %}
 Bad usage allocating before the parallel region.
 
 Thread: 0, TestVar:  140734298830036, TestHeapArray:        449990832
@@ -140,7 +140,7 @@ Thread: 1, TestVar:   47751553039732, TestHeapArray:        449992224
 Thread: 1, TestVar:   47751553039732, TestHeapArray:        449992224
 Thread: 0, TestVar:  140734298829508, TestHeapArray:        449990832
 Thread: 0, TestVar:  140734298829508, TestHeapArray:        449990832
-```
+{% endhighlight %}
 
 [hanging]: http://software.intel.com/en-us/forums/topic/289962
 [recursive]: https://groups.google.com/forum/#!topic/comp.lang.fortran/WcV9MNtekfY

@@ -20,9 +20,9 @@ For an example, run `link-validator` on the project's
 [sample Wiki](https://github.com/bamos/github-wiki-link-validator/wiki).
 
 
-```
+{% highlight bash %}
 $ ./link-validator.py https://github.com/bamos/github-wiki-link-validator/wiki
-```
+{% endhighlight %}
 
 + https://github.com/bamos/github-wiki-link-validator/wiki
   + https://github.com/bamos/github-wiki-link-validator/wiki/links
