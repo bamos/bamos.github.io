@@ -4,6 +4,8 @@ title: Using network block device on Android.
 tags: [Android,Linux]
 ---
 
+**This post describes how to create a network block device
+on Android to use storage on a remote server.**
 Linux uses [block devices][block-devices] to provide reads and writes
 to hardware technology without exposing the hardware characteristics
 of the devices.
@@ -11,8 +13,6 @@ For example, the first registered hard drive block device is located
 at `/dev/sda`.
 A [network block device][nbd-general] enables a remote machine
 to provide the content of a block device on a system across the network.
-**This post describes how to create a network block device
-on Android to use storage on a remote server.**
 This post is motivated by a class project and describes
 how to modify Android's Linux kernel to include `nbd` and
 build the user-space `nbd` client as an ARM executable.
@@ -24,9 +24,12 @@ with [SuperSU 1.43][supersu].
 Root is necessary to create the block file in `/dev` and
 load the `nbd` kernel module.
 [Ubuntu 14.04 LTS][ubuntu-14] is used for building.
+
 This post assumes the [Android SDK][sdk] and [Android NDK][ndk]
 are installed and available in the `ANDROID_SDK` and `ANDROID_NDK`
 environment variables.
+The command line snippets prefixed with `android>` should execute
+on the Android device, and all others should be done on the Linux computer.
 
 # Building the nbd kernel module for Android.
 The Linux kernel provides many options, drivers, and modules.
@@ -50,8 +53,8 @@ The following portions are specific to the Galaxy Nexus device.
 Find the appropriate repositories for other devices in the
 [Building Kernels][building-kernels] portion of the Android documentation.
 
-Get the commit number for the most recent kernel.
-This in `fb3c9ac` in the following snippet.
+Get the commit number for the most recent kernel,
+which is `fb3c9ac` in the following snippet.
 
 {% highlight bash %}
 git clone https://android.googlesource.com/device/samsung/tuna
@@ -89,8 +92,9 @@ CONFIG_SCSI_WAIT_SCAN=m
 {% endhighlight %}
 
 The default Android Linux kernel does not support modules,
-and trying to add just the `nbd.ko` file produced with
-`make drivers/block/nbd.ko` results in the following error.
+and trying to insert `make drivers/block/nbd.ko`
+results in the following error because the default
+kernel doesn't support modules.
 
 {% highlight bash %}
 insmod nbd.ko
@@ -152,11 +156,11 @@ vim nbd-client.c
 
 {% highlight C %}
 void finish_sock(int sock, int nbd, int swap) {
-	if (ioctl(nbd, NBD_SET_SOCK, sock) < 0)
-		err("Ioctl NBD_SET_SOCK failed: %m\n");
+  if (ioctl(nbd, NBD_SET_SOCK, sock) < 0)
+    err("Ioctl NBD_SET_SOCK failed: %m\n");
 
-	if (swap) {
-		// mlockall(MCL_CURRENT | MCL_FUTURE);
+  if (swap) {
+    // mlockall(MCL_CURRENT | MCL_FUTURE);
     printf("Error: mlockall unsupported in ARM build.\n");
     exit(-1);
   }
@@ -164,17 +168,17 @@ void finish_sock(int sock, int nbd, int swap) {
 {% endhighlight %}
 
 Use the toolchain's `arm-linux-androideabi-gcc` to compile for ARM.
-Ensure the `NDKROOT` environment variable is set.
+Ensure the `ANDROID_NDK` environment variable is set.
 
 {% highlight bash %}
 die() { echo $*; return -1; }
 touch man/nbd-{client.8,server.{1,5},trdump.1}.sh.in
 autoreconf -f -i || die "autoreconf failed."
 
-export AR=$NDKROOT/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86/bin/arm-linux-androideabi-ar
-export LD=$NDKROOT/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86/bin/arm-linux-androideabi-ld
-export CC=$NDKROOT/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc
-export CFLAGS="--sysroot=$NDKROOT/platforms/android-18/arch-arm"
+export AR=$ANDROID_NDK/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86/bin/arm-linux-androideabi-ar
+export LD=$ANDROID_NDK/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86/bin/arm-linux-androideabi-ld
+export CC=$ANDROID_NDK/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc
+export CFLAGS="--sysroot=$ANDROID_NDK/platforms/android-18/arch-arm"
 
 ./configure --host=armv7-unknown-linux \
   --target=armv7-unknown-linux || die "configure failed"
