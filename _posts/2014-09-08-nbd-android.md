@@ -269,7 +269,7 @@ On the server, create a blank 100MB file with `dd`,
 mount it to a loop device, and initialize the ext4 filesystem on it.
 
 {% highlight bash %}
-dd if=/dev/zero of=/tmp/nbd-file bs=1k count=100000
+truncate --size 100M /tmp/nbd-file
 sudo losetup /dev/loop1 /tmp/nbd-file
 sudo mkfs.ext4 /dev/loop1
 sudo losetup -d /dev/loop1
