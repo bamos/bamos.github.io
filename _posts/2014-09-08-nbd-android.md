@@ -17,6 +17,57 @@ This post is motivated by a class project and describes
 how to modify Android's Linux kernel to include `nbd` and
 build the user-space `nbd` client as an ARM executable.
 
+# Practical Use Cases.
+Using `nbd` on a resource-limited mobile device will cause
+performance and energy issues, but there are a few use cases
+where using nbd to mount a remote block device is helpful.
+
+The examples below could also be performed at a higher level,
+such as with inodes or with a distributed filesystem.
+However, none of these options gives obviously better
+performance or development time advantages,
+and experimental results comparing nbd to the
+alternatives will show the best option.
+
+## Device Management for Corporate Security Policies.
+The network block device can be paired with LVM to mirror
+Android's physical block devices as files on a remote server.
+With corporate phones, nbd could be used to synchronize
+the device containing `/system` to a central
+server when employees are on-site so that
+the phone configuration files can be monitored.
+
+## Application Behavior Analysis for Malware Detection.
+The amount of applications on the marketplace is approaching
+1 million, and seemingly benign applications could
+perform malicious actions on a user's device.
+This use case would involve using nbd with LVM to
+mirror all of the phone's block devices to a remote server
+that has the capabilities of streaming the block writes in real time
+when an application is performing.
+
+Then, each application can be experimentally profiled and
+paired with a sequence of hard disk reads and writes.
+These sequences could reveal the nature of the application,
+and perhaps a malicious application could somehow gain
+privilege escalation and modify the contents of `/system`.
+
+This technique of malware analysis by associating an
+application with some stream of events is called *dynamic analysis*,
+and my paper [Applying machine learning classifiers to dynamic
+Android malware detection at scale][antimalware] further
+discusses this approach.
+
+## Filesystem Development Debugging.
+Consider a systems-level developer modifying the Android system
+and Linux kernel. Some change that she made to a complex internal
+function call is causing kernel panics and thinks monitoring
+the state of the device's storage leading up to the crash
+will help reveal the bug.
+NBD can again be paired with LVM to mirror and stream the hard
+disk writes to a remote server and be used as a development tool.
+
+# Prerequisites.
 The follow portions have been executed on a "yakju" Galaxy Nexus
 device with Android 4.3 (JWR66Y) from
 [Android's stock Nexus images][nexus-images] rooted
@@ -349,4 +400,4 @@ android> /data/nbdroid/nbd-client -d /dev/nbd0
 [qemu-nbd]: http://manpages.ubuntu.com/manpages/precise/man8/qemu-nbd.8.html
 [watch]: http://linux.die.net/man/1/watch
 [strings]: http://linux.die.net/man/1/stringshttp://linux.die.net/man/1/strings
-
+[antimalware]: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6583806
