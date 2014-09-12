@@ -352,7 +352,7 @@ on the server.
 {% highlight bash %}
 adb shell
 android> su
-android> /data/nbdroid/mknod nbd0 b 43 0
+android> /data/nbdroid/mknod /dev/nbd0 b 43 0
 android> /data/nbdroid/nbd-client <server-ip> 9001 /dev/nbd0
 
 Negotiation: ..size = 97MB
@@ -363,7 +363,7 @@ Mount the `nbd0` device and create a file on it.
 
 {% highlight bash %}
 android> mkdir /data/nbdroid/nbd-mount
-android> mount /dev/nbd0 /data/nbdroid/nbd-mount
+android> mount -r -w -t ext4 /dev/nbd0 /data/nbdroid/nbd-mount
 android> echo "12345678" > /data/nbdroid/nbd-mount/new-file.txt
 {% endhighlight %}
 
