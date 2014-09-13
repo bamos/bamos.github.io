@@ -4,20 +4,17 @@ title: C++ string expression parsing with Dijkstra's shunting yard algorithm.
 tags: [C++]
 ---
 
-Here, I show modifications to C++ code to parse a character sequence
+A simple form of mathematical expression parsing can take a string such
+as `-pi+1` on input and output `-2.14`.
+This post presents a C++ library to parse a character sequence
 as an expression using Dijkstra's
-[Shunting-yard algorithm](http://en.wikipedia.org/wiki/Shunting-yard_algorithm).
-I wasn't able to find a robust C++ implementation of this algorithm
-that suited my needs. I modified
-[code](http://www.daniweb.com/software-development/cpp/code/427500/calculator-using-shunting-yard-algorithm)
-posted by Jesse Brown and the current version is at
+[Shunting-yard algorithm](http://en.wikipedia.org/wiki/Shunting-yard_algorithm),
+which modifies
+[Jesse Brown's code](http://www.daniweb.com/software-development/cpp/code/427500/calculator-using-shunting-yard-algorithm).
+The library is available in open source from
 [bamos/cpp-expression-parser](https://github.com/bamos/cpp-expression-parser).
 
 # Minimal example.
-A short example illustrates the features of this implementation.
-`calculate` is called statically to parse an expression
-with a map of variables.
-
 {% highlight cpp %}
 #include <iostream>
 #include "shunting-yard.h"
