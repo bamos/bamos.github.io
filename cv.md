@@ -15,12 +15,12 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/O4586Q) &#124;
 (540) 947--1238 &#124;
-Generated August 29, 2014.
+Generated September 15, 2014.
 
-# Interests
+# Research Interests
 
 
-My research interests are in the **mobile** and **distributed** computing space to enable next-generation mobile applications.
+Mobile computing; distributed systems; computer vision.
 
 # Education
 
@@ -44,24 +44,31 @@ GPA: 3.99/4.00
 
 
 
+__<big>Carnegie Mellon University.</big>__  Research Assistant.
+
++ Pittsburgh, Pennsylvania
+&#124; Advisor: Dr. Mahadev Satyanarayanan
+&#124; August 2014-Present
++ **Research Area**: Mobile computing and distributed systems.
+
 __<big>Magnum Research Group.</big>__  Undergraduate Research Assistant.
 
 + Blacksburg, Virginia
 &#124; Advisor: Dr. Jules White
 &#124; May 2012-January 2014
-+ Work supported with ARO REU grant.
-+ Android **malware detection research** resulting in primary authorship on a conference publication.
-+ Led a small team to create a distributed **Actor** system in **Scala** for **machine learning** classification of APKs.
++ **Research Area**: Mobile computing and security.
++ Android **malware detection research** resulting in primary authorship on a conference publication. The current **Scala** implementation uses a distributed **Actor** system to obtain run-time feature vectors to train **machine learning** classifiers.
++ Modified the **Android source** to provide non-standard logging information for dynamic malware analysis.
 + Developed **VC#** and **Python** programs for a pilot study on manufacturing cyber-physical security.
 + Assisted **C++** and **Make** development in **Linux** for a deployment optimization framework.
-+ Modified the **Android source** to provide non-standard logging information for dynamic malware analysis.
 
-__<big>Virginia Tech Computer Science.</big>__  Undergraduate Research Assistant.
+__<big>Virginia Tech, Computer Science.</big>__  Undergraduate Research Assistant.
 
 + Blacksburg, Virginia
 &#124; Advisor: Dr. Layne Watson
 &#124; January 2013-May 2014
-+ Algorithm development for stochastic optimization using quasi-Newton methods for parameter estimation in **Fortran 95** and **OpenMP** resulting in primary authorship on a conference publication.
++ **Research Area**: Scientific computing.
++ Algorithm development for stochastic optimization using quasi-Newton methods for **parameter estimation** in **Fortran 95** and **OpenMP**.
 + Bioinformatics research on yeast cell modeling using **Fortran 95**, **C++**, and **Matlab**.
 
 __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistant.
@@ -69,7 +76,7 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
 + Blacksburg, Virginia
 &#124; Advisor: Dr. Binoy Ravindran
 &#124; November 2012-March 2014
-+ Work supported with NSF and NEEC REU grants.
++ **Research Area**: Compilers.
 + Research on automatic **OpenMP** to **CUDA** translation using **C++** and the **ROSE** compiler framework.
 + Polyhedral loop optimization research to restructure **OpenCL** kernels for locality using **LLVM** and **Polly**.
 + **Scala** and **Bash** development in **Linux**.
@@ -78,14 +85,10 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
 # Teaching Experience
 
 
-
-
-__<big>Virginia Tech Computer Science.</big>__  Undergraduate Teaching Assistant.
-
-+ Blacksburg, Virginia
-&#124; January 2013-May 2013
-+ Assisted students in a software design and data structures class using **Java** and **Android**.
-
++ Undergraduate TA.
+  **CS 2114, Software Design and Data Structures**.
+  Virginia Tech.
+  January 2013-May 2013.
 
 # Publications
 
@@ -94,11 +97,13 @@ __<big>Virginia Tech Computer Science.</big>__  Undergraduate Teaching Assistant
 
 __<big>Conference Proceedings.</big>__
 
-[1] T. Andrew, B. Amos, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson, "Global Parameter Estimation for a Eukaryotic Cell Cycle Model
+[1] B. Amos and D. Tompkins, "Performance study of Spindle, a web analytics query engine
+implemented in Spark," submitted<br><br>
+[2] T. Andrew, B. Amos, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson, "Global Parameter Estimation for a Eukaryotic Cell Cycle Model
 in Systems Biology," in <em>2014 Summer Simulation Multiconference, Society for Modeling and Simulation International</em>, 2014<br><br>
-[2] B. Amos, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker, "Fortran 95 implementation of QNSTOP for global and
+[3] B. Amos, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker, "Fortran 95 implementation of QNSTOP for global and
 stochastic optimization," in <em>2014 Spring Simulation Multiconference, 22nd High Performance Computer Symposium, Society for Modeling and Simulation International</em>, 2014<br><br>
-[3] B. Amos, H. Turner, and J. White, "Applying machine learning classifiers to dynamic Android
+[4] B. Amos, H. Turner, and J. White, "Applying machine learning classifiers to dynamic Android
 malware detection at scale," in <em>IWCMC'13 Security, Trust and Privacy Symposium</em>, 2013<br><br>
 
 
@@ -106,7 +111,8 @@ malware detection at scale," in <em>IWCMC'13 Security, Trust and Privacy Symposi
 
 __<big>Articles.</big>__
 
-[4] H. Turner, J. White, B. Amos, J. Camelio, C. Williams, and R. Parker, "Bad Parts: Are Our Manufacturing Systems At Risk of Silent
+[5] B. Amos, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset, "QNSTOP-QuasiNewton Algorithm for Stochastic Optimization," submitted<br><br>
+[6] H. Turner, J. White, B. Amos, J. Camelio, C. Williams, and R. Parker, "Bad Parts: Are Our Manufacturing Systems At Risk of Silent
 Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear<br><br>
 
 
@@ -122,14 +128,15 @@ __<big>Adobe Research.</big>__  Data Scientist Intern.
 
 + San Jose, California
 &#124; May 2014-August 2014
-+ Distributed systems research on building and benchmarking a web analytics processing engine with **Scala**, **Spark**, **Spray**, and **Parquet**.
-+ Released 3 open source projects on the Adobe Research GitHub page and submitted a conference paper.
++ **Research Area**: Distributed Systems
++ Built and released  Spindle, an open source web analytics processing engine with **Scala**, **Spark**, **Spray**, and **Parquet** on **HDFS**.
++ Spindle is available on GitHub at [http://github.com/adobe-research/spindle](http://github.com/adobe-research/spindle).
 
 __<big>Snowplow Analytics.</big>__  Software Winter Intern.
 
 + London, United Kingdom (Remote)
 &#124; December 2013-January 2014
-+ Open-source **Scala** development with a startup on the Snowplow analytics platform.
++ Open-source **Scala** development with a startup on the Snowplow analytics platform, available at [http://github.com/snowplow/snowplow](http://github.com/snowplow/snowplow).
 + Developed a new server using **Spray** and **Actors** to store **Apache Thrift** events on **Amazon Kinesis**.
 + Completed project ahead of schedule, and also helped port Snowplow's Scala enrichment process to Kinesis.
 
@@ -138,23 +145,23 @@ __<big>Qualcomm.</big>__  Source Integrity Team Software Intern.
 + San Diego, California
 &#124; May 2013-August 2013
 + Developed a **web application** to modify an XML-based grammar for fuzz vector generation. Implemented with client-side **HTML** and **js**, using **D3** for graphics and **Handlebars** for templating.
-+ Developed an XML-based grammar translator in **C++** with the **Xerces** XML parser in **Linux**. Reimplemented in **Python** using the **ElementTree** XML API for better analysis and tree transformation.
++ Developed an XML-based grammar translator in **C++** with the **Xerces** XML parser in **Linux**. Reimplemented in **Python** using the **ElementTree** XML API for sophisticated analysis and tree transformations.
 
 __<big>Phoenix Integration.</big>__  Software Engineer Intern.
 
 + Blacksburg, Virginia
 &#124; May 2012-August 2012
-+ Integrated a new licensing mode into CenterLink, a grid computing application, using **FLEXlm** and **Java**.
-+ Assisted development of industry software in **VC++**, **VC#**, **Java**, and **Tomcat**.
++ Developed industry software in **VC++**, **VC#**, **Java**, and **Tomcat**.
 + Improved the testing (**JUnit** and **NUnit**) and installation (**Ant**, **InstallShield**, and **Make**) frameworks.
++ Integrated a new licensing mode into CenterLink, a grid computing application, using **FLEXlm** and **Java**.
 
 __<big>Sunapsys.</big>__  Network Administrator Intern.
 
 + Vinton, Virginia
 &#124; January 2011-August 2011
-+ Internship in high school with a small local company to replace Windows domain, mail, DHCP, and DNS servers with virtualized **Linux** servers.
-+ Fully developed the servers and successfully migrated all of the office's computers.
-+ Created **Bash** scripts to provide incremental backups.
++ Internship in high school to replace Windows domain, mail, DHCP, and DNS servers with virtual **Linux** servers using **KVM** and **virsh**.
++ Successfully created the servers and migrated the office's computers to the Linux servers.
++ Created **Bash** scripts for incremental backups with rsync and hard links.
 
 
 # Projects
@@ -162,19 +169,19 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 
 
 
-<big>[Personal Blog and Website](http://bamos.io)</big>
-
-
-+ Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
-+ **40 posts** across the following tags, listed by highest frequency.
-+ Python, Bash, Linux, LaTeX, Fortran, Scala, Android, JavaScript, Zsh, CUDA, News, OpenMP, C++, Mathematica, mpv, Lua
-
-
 <big>[GitHub Portfolio](http://github.com/bamos)</big>
 
 
 + Hosts code samples, original source code, and patches for open source projects.
-+ 23 original repositories, 7 forked repositories.
++ 25 original repositories, 5 forked repositories.
+
+
+<big>[Personal Blog and Website](http://bamos.io)</big>
+
+
++ Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
++ **42 posts** across the following tags, listed by highest frequency.
++ Python, Bash, Linux, LaTeX, Fortran, Android, Scala, News, JavaScript, Zsh, C++, OpenMP, Lua, Make, Mathematica, mpv
 
 
 
