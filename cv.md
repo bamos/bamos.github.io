@@ -56,7 +56,7 @@ __<big>Magnum Research Group.</big>__  Undergraduate Research Assistant.
 + Blacksburg, Virginia
 &#124; Advisor: Dr. Jules White
 &#124; May 2012-January 2014
-+ **Research Area**: Mobile computing and security.
++ **Research Area**: Mobile computing, cyber-physical systems, and security.
 + Android **malware detection research** resulting in primary authorship on a conference publication. The current **Scala** implementation uses a distributed **Actor** system to obtain run-time feature vectors to train **machine learning** classifiers.
 + Modified the **Android source** to provide non-standard logging information for dynamic malware analysis.
 + Developed **VC#** and **Python** programs for a pilot study on manufacturing cyber-physical security.
