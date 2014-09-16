@@ -15,7 +15,7 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/O4586Q) &#124;
 (540) 947--1238 &#124;
-Generated September 15, 2014.
+Generated September 16, 2014.
 
 # Research Interests
 
@@ -77,7 +77,7 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
 &#124; Advisor: Dr. Binoy Ravindran
 &#124; November 2012-March 2014
 + **Research Area**: Compilers.
-+ Research on automatic **OpenMP** to **CUDA** translation using **C++** and the **ROSE** compiler framework.
++ Compiler research on a heterogenous system on automatic **OpenMP** to **CUDA** translation using **C++** and the **ROSE** compiler framework.
 + Polyhedral loop optimization research to restructure **OpenCL** kernels for locality using **LLVM** and **Polly**.
 + **Scala** and **Bash** development in **Linux**.
 
