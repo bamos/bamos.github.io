@@ -98,7 +98,7 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
 __<big>Conference Proceedings.</big>__
 
 [C1] **B. Amos** and D. Tompkins, "Performance study of Spindle, a web analytics query engine
-implemented in Spark," submitted<br><br>
+implemented in Spark," in <em>Proceedings of the 2014 IEEE International Conference on Cloud Computing Technology and Science (CloudCom), Big Data Track</em>, 2014<br><br>
 [C2] T. Andrew, **B. Amos**, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson, "Global Parameter Estimation for a Eukaryotic Cell Cycle Model
 in Systems Biology," in <em>2014 Summer Simulation Multiconference, Society for Modeling and Simulation International</em>, 2014<br><br>
 [C3] **B. Amos**, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker, "Fortran 95 implementation of QNSTOP for global and
