@@ -15,7 +15,7 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/O4586Q) &#124;
 (540) 947--1238 &#124;
-Generated September 21, 2014.
+Generated September 22, 2014.
 
 # Research Interests
 
@@ -111,14 +111,14 @@ malware detection at scale," in <em>IWCMC'13 Security, Trust and Privacy Symposi
 
 __<big>Journal Articles.</big>__
 
-[1] **B. Amos**, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset, "QNSTOP-QuasiNewton Algorithm for Stochastic Optimization," submitted<br><br>
+[J1] **B. Amos**, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset, "QNSTOP-QuasiNewton Algorithm for Stochastic Optimization," submitted<br><br>
 
 
 
 
 __<big>Magazine Articles.</big>__
 
-[1] H. Turner, J. White, **B. Amos**, J. Camelio, C. Williams, and R. Parker, "Bad Parts: Are Our Manufacturing Systems At Risk of Silent
+[M1] H. Turner, J. White, **B. Amos**, J. Camelio, C. Williams, and R. Parker, "Bad Parts: Are Our Manufacturing Systems At Risk of Silent
 Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear<br><br>
 
 
@@ -175,19 +175,19 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 
 
 
-<big>[GitHub Portfolio](http://github.com/bamos)</big>
-
-
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 25 original repositories, 5 forked repositories.
-
-
 <big>[Personal Blog and Website](http://bamos.io)</big>
 
 
 + Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
 + **42 posts** across the following tags, listed by highest frequency.
 + Python, Bash, Linux, LaTeX, Fortran, Android, Scala, News, JavaScript, Zsh, C++, OpenMP, Lua, Make, Mathematica, mpv
+
+
+<big>[GitHub Portfolio](http://github.com/bamos)</big>
+
+
++ Hosts code samples, original source code, and patches for open source projects.
++ 25 original repositories, 5 forked repositories.
 
 
 
