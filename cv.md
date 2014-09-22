@@ -15,7 +15,7 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/O4586Q) &#124;
 (540) 947--1238 &#124;
-Generated September 16, 2014.
+Generated September 21, 2014.
 
 # Research Interests
 
@@ -97,22 +97,28 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
 
 __<big>Conference Proceedings.</big>__
 
-[1] B. Amos and D. Tompkins, "Performance study of Spindle, a web analytics query engine
+[C1] **B. Amos** and D. Tompkins, "Performance study of Spindle, a web analytics query engine
 implemented in Spark," submitted<br><br>
-[2] T. Andrew, B. Amos, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson, "Global Parameter Estimation for a Eukaryotic Cell Cycle Model
+[C2] T. Andrew, **B. Amos**, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson, "Global Parameter Estimation for a Eukaryotic Cell Cycle Model
 in Systems Biology," in <em>2014 Summer Simulation Multiconference, Society for Modeling and Simulation International</em>, 2014<br><br>
-[3] B. Amos, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker, "Fortran 95 implementation of QNSTOP for global and
+[C3] **B. Amos**, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker, "Fortran 95 implementation of QNSTOP for global and
 stochastic optimization," in <em>2014 Spring Simulation Multiconference, 22nd High Performance Computer Symposium, Society for Modeling and Simulation International</em>, 2014<br><br>
-[4] B. Amos, H. Turner, and J. White, "Applying machine learning classifiers to dynamic Android
+[C4] **B. Amos**, H. Turner, and J. White, "Applying machine learning classifiers to dynamic Android
 malware detection at scale," in <em>IWCMC'13 Security, Trust and Privacy Symposium</em>, 2013<br><br>
 
 
 
 
-__<big>Articles.</big>__
+__<big>Journal Articles.</big>__
 
-[5] B. Amos, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset, "QNSTOP-QuasiNewton Algorithm for Stochastic Optimization," submitted<br><br>
-[6] H. Turner, J. White, B. Amos, J. Camelio, C. Williams, and R. Parker, "Bad Parts: Are Our Manufacturing Systems At Risk of Silent
+[1] **B. Amos**, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset, "QNSTOP-QuasiNewton Algorithm for Stochastic Optimization," submitted<br><br>
+
+
+
+
+__<big>Magazine Articles.</big>__
+
+[1] H. Turner, J. White, **B. Amos**, J. Camelio, C. Williams, and R. Parker, "Bad Parts: Are Our Manufacturing Systems At Risk of Silent
 Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear<br><br>
 
 
@@ -169,19 +175,19 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 
 
 
-<big>[GitHub Portfolio](http://github.com/bamos)</big>
-
-
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 25 original repositories, 5 forked repositories.
-
-
 <big>[Personal Blog and Website](http://bamos.io)</big>
 
 
 + Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
 + **42 posts** across the following tags, listed by highest frequency.
 + Python, Bash, Linux, LaTeX, Fortran, Android, Scala, News, JavaScript, Zsh, C++, OpenMP, Lua, Make, Mathematica, mpv
+
+
+<big>[GitHub Portfolio](http://github.com/bamos)</big>
+
+
++ Hosts code samples, original source code, and patches for open source projects.
++ 25 original repositories, 5 forked repositories.
 
 
 
