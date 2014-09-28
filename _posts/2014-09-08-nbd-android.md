@@ -279,7 +279,8 @@ for the nbd client to use.
 
 Download GNU Darwin's `mknod.c`, which is used in favor of
 [GNU coreutil's mknod.c][gnu-mknod] because it will (surprisingly)
-compile for ARM without any compile or linking issues.
+compile for ARM without any compilation or linking issues.
+Recall we set the environment variable `CC` is to the ARM compiler above.
 
 {% highlight bash %}
 cd ~/nbdroid
