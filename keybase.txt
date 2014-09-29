@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/bamos
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bamos.github.io
+  * I am bamos (https://keybase.io/bamos) on keybase.
+  * I have a public key with fingerprint 9C65 37B9 732B EBAC 744D  8973 E9B7 164C B72D 6B6F
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "9c6537b9732bebac744d8973e9b7164cb72d6b6f",
+            "host": "keybase.io",
+            "key_id": "e9b7164cb72d6b6f",
+            "uid": "27a1da8f1a6d811aef2e556735523600",
+            "username": "bamos"
+        },
+        "service": {
+            "hostname": "bamos.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1412029952,
+    "expire_in": 157680000,
+    "prev": "689ba8da3ee8138ab6462be71abd86e5e22c07992182bd08c0b93e45b4d7551c",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+Comment: I have signed or encrypted this message with PGP.
+Comment: For more information, see http://bamos.io/pgp.
+
+owFtUV1IFFEU3t0ymSXB/EXTwCnoh01nZud3S4JMDRFMFKGHdrt35u7uYM7szsxa
+upghUlgWSghC+JCSpkQFItv6kKIIhflSoeBDolAkFP0vRA91xwp66L4czvm+853v
+3NOXsc3hcm4m8moTh5t15+LsF+hoPPgqLU5CXWkjfXGyGW2FoKqFkBExVM0ifaQk
+85xXgJLgZSCCQBZYVhFxhiQo0DwrQ4FReMgHSQ8Z1k27A8tAYKJSVcc1nARUBVf/
+w49tAYwAaAWIQRrwikjTAAUZxHG84OU4xstTlE00kaGBFoTZELToJtnhIXGpVZWR
+bdie+y9cGlKtcAz+NhAxdEuX9XMYDFtWxPTZzVZbxGafRzDwRycAVU3Bi+OOVmSY
+qq6RPhozZUu1hWmWZihGkjjGQ6ILEdVAAdVmcAIvUvjZc1ArluRFCQJRAV6ERNor
+AsizPP44gQZQEXnEIYaRKUGSGFpkoEKJMgUlL2I5yCoCx9EyaW8W1XTSx2GbIIQl
+TTWkAStmILLD3eMs2u5wuhw70lz27RxuIvPvRZ9Upf9Ipz4+qqqt7rjTfrbpwc/6
+md31Q6uTnSuFYyeIugMLqa69EyPuS8ls0zMtxxJzuxYGAJHxfj6/4s0V4sb6y6n6
+pe7X+44lZ0R39iLf4KqrTZ2Kpx99a5S9u/Y59CLnobLcNph1/WSsoLG/pik+5Pcv
+pJJoYn3t1lxJ5Pmnyp2X+wekezP5w9+55J7pb6mSuqyrd/t65zejsxv93Q09OZNw
+fNQ3um4khlZDQtaH8Ei0YtCX69GqyomGwqdjkbLTMX+O9GxYyS1wLxdPlc9/vdh1
+aCPsb1FuFrdXHFnqrV6ZEJuogTPVj2vGjxNRIrOyvWCx03N7f9H9pbzKNe0X
+=mA9R
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bamos
+
+==================================================================
