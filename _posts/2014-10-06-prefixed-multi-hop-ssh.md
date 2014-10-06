@@ -28,7 +28,7 @@ Host b*
 I used this for a few hours and realized a flaw when I cloned a BitBucket repository.
 I was able to successfully clone my repository, but my connection was
 being routed through the master node of my cluster!
-Thankfully I was on a new computer and haven't yet sshed into the master.
+Thankfully I was on a new computer and hadn't yet sshed into the master.
 Otherwise I wouldn't have gotten the authenticity warning.
 
 {% highlight bash %}
