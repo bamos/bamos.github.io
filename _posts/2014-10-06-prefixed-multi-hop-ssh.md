@@ -68,8 +68,7 @@ Host prefix-b*
 
 An alternative to using `cut`, as pointed out in the comments of this post,
 is to use Bash variable substition.
-This can not be done directly because `%h` is inserted as a string
-literal and has to be added as a shell variable.
+This can't be done directly because `%h` has to be added as a shell variable.
 
 <pre>
 Host prefix-b*
