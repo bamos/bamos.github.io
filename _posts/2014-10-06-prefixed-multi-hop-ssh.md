@@ -22,7 +22,7 @@ proxying my connection through my host to all of my server nodes.
 
 <pre>
 Host b*
-  ProxyCommand ssh master_node exec nc %h %p
+  ProxyCommand ssh master_node -W %h:%p
 </pre>
 
 I used this for a few hours and realized a flaw when I cloned a BitBucket repository.
@@ -62,7 +62,7 @@ to my cluster's nodes.
 
 <pre>
 Host prefix-b*
-  ProxyCommand ssh master_node exec nc $(echo -n %h | cut -d '-' -f 1 --complement) %p
+  ProxyCommand ssh master_node -W $(echo -n %h | cut -d '-' -f 1 --complement):%p
 </pre>
 
 
@@ -74,7 +74,7 @@ so wildcards like `prefix*` can be used.
 
 <pre>
 Host prefix-b*
-  ProxyCommand ssh master_node exec nc $(TMP=%h; echo -n ${TMP/prefix-/}) %p
+  ProxyCommand ssh master_node -W $(TMP=%h; echo -n ${TMP/prefix-/}):%p
 </pre>
 
 [ssh-config]: http://linux.die.net/man/5/ssh_config
