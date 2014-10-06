@@ -61,10 +61,20 @@ I'm now using the following **correct** ssh config entry to add a prefix
 to my cluster's nodes.
 
 <pre>
-Host b*
+Host prefix-b*
   ProxyCommand ssh master_node exec nc $(echo -n %h | cut -d '-' -f 1 --complement) %p
 </pre>
 
+
+An alternative to using `cut`, as pointed out in the comments of this post,
+is to use Bash variable substition.
+This can not be done directly because `%h` is inserted as a string
+literal and has to be added as a shell variable.
+
+<pre>
+Host prefix-b*
+  ProxyCommand ssh master_node exec nc $(TMP=%h; echo -n ${TMP/prefix-/}) %p
+</pre>
 
 [ssh-config]: http://linux.die.net/man/5/ssh_config
 [perras-post]: http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/
