@@ -44,7 +44,7 @@ the list of known hosts.
 
 I wanted to add a prefix to the `b*` wildcard, but couldn't
 find any documentation of how to do this.
-I didn't originally come up with a good solution to this.
+I didn't originally come up with a solution to this.
 
 A few days later, I came up with a solution using a subshell and the
 [cut][cut] command.
