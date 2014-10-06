@@ -49,10 +49,10 @@ I didn't originally come up with a solution to this.
 A few days later, I came up with a solution using a subshell and the
 [cut][cut] command.
 I knew `cut` can be used to remove a prefix.
-For example, `cut -d '-' -f 2` will remove the prefix from `prefix-b1`.
+For example, `cut -d '-' -f 1 --complement` will remove the prefix from `prefix-b1`.
 
 {% highlight bash %}
-$ echo 'prefix-b1' | cut -d '-' -f 2
+$ echo 'prefix-b1' | cut -d '-' -f 1 --complement
 b1
 {% endhighlight %}
 
@@ -62,7 +62,7 @@ to my cluster's nodes.
 
 <pre>
 Host b*
-  ProxyCommand ssh master_node exec nc $(echo -n %h | cut -d '-' -f 2) %p
+  ProxyCommand ssh master_node exec nc $(echo -n %h | cut -d '-' -f 1 --complement) %p
 </pre>
 
 
