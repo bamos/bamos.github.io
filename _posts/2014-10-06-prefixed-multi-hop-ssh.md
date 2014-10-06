@@ -67,8 +67,10 @@ Host prefix-b*
 
 
 An alternative to using `cut`, as pointed out in the comments of this post,
-is to use Bash variable substition.
+is to use Bash variable substitution.
 This can't be done directly because `%h` has to be added as a shell variable.
+Using variable substitution has the advantage of not needing a delimiter,
+so wildcards like `prefix*` can be used.
 
 <pre>
 Host prefix-b*
