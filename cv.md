@@ -195,7 +195,7 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 # Skills
 
 
-+ __Preference.__ Mac, vim, git, Make, sbt
++ __Preference.__ Arch Linux, Mac, vim, git, Make, sbt
 + __Languages.__ Akka\*\*, Bash\*\*, C/C++\*\*, C#\*, Fortran\*\*, HTML/CSS\*, LaTeX\*\*, Java\*\*, JavaScript\*\*,  Mathematica\*\*, Make\*\*\*, PHP\*, Python\*\*\*, R\*, Scala\*\*\*
 + __Systems.__ Android\*\*, Linux\*\*\*, Mac\*\*\*
 + __Rankings.__ 1/10\* - 3/10\*\* - 5/10\*\*\* - 7/10\*\*\*\*
