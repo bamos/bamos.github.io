@@ -97,7 +97,7 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
 
 __<big>Conference Proceedings.</big>__
 
-[C1] W. Hu, **B. Amos**, Z. Chen, W. Richter, P. Pillai, B. Gilbert, J. Harkes, and M. Satyanarayanan, "The Case for Offload Shaping," submitted<br><br>
+[C1] W. Hu, **B. Amos**, Z. Chen, K. Ha, W. Richter, P. Pillai, B. Gilbert, J. Harkes, and M. Satyanarayanan, "The Case for Offload Shaping," submitted<br><br>
 [C2] **B. Amos** and D. Tompkins, "Performance study of Spindle, a web analytics query engine
 implemented in Spark," in <em>Proceedings of the 2014 IEEE International Conference on Cloud Computing Technology and Science (CloudCom), Big Data Track</em>, 2014<br><br>
 [C3] T. Andrew, **B. Amos**, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson, "Global Parameter Estimation for a Eukaryotic Cell Cycle Model
