@@ -12,7 +12,7 @@ script in my [bamos/python-scripts][python-scripts] GitHub repo.
 This script will merge PDF documents and insert blank pages
 so that the printed pages won't overlap documents.
 The `modulo` option is helpful to print 2 PDF pages per physical
-page, for example.
+page side.
 
 The script uses [Ghostscript][gs] to merge the documents
 and [pdfinfo][pdfinfo] to extract the number of pages
