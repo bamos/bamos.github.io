@@ -4,7 +4,7 @@ title:  PGP
 ---
 
 # PGP.
-I sign and encrypt emails with PGP, which means emails I send
+I sign and encrypt emails with PGP, which means my emails
 have a signature attached verifying that the message was sent
 by me and not somebody else.
 This signature is often shown by mail clients without

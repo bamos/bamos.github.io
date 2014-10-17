@@ -15,7 +15,7 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/O4586Q) &#124;
 (540) 947--1238 &#124;
-Generated September 22, 2014.
+Generated October 16, 2014.
 
 # Research Interests
 
@@ -97,13 +97,14 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
 
 __<big>Conference Proceedings.</big>__
 
-[C1] **B. Amos** and D. Tompkins, "Performance study of Spindle, a web analytics query engine
+[C1] W. Hu, **B. Amos**, Z. Chen, K. Ha, W. Richter, P. Pillai, B. Gilbert, J. Harkes, and M. Satyanarayanan, "The Case for Offload Shaping," submitted<br><br>
+[C2] **B. Amos** and D. Tompkins, "Performance study of Spindle, a web analytics query engine
 implemented in Spark," in <em>Proceedings of the 2014 IEEE International Conference on Cloud Computing Technology and Science (CloudCom), Big Data Track</em>, 2014<br><br>
-[C2] T. Andrew, **B. Amos**, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson, "Global Parameter Estimation for a Eukaryotic Cell Cycle Model
+[C3] T. Andrew, **B. Amos**, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson, "Global Parameter Estimation for a Eukaryotic Cell Cycle Model
 in Systems Biology," in <em>2014 Summer Simulation Multiconference, Society for Modeling and Simulation International</em>, 2014<br><br>
-[C3] **B. Amos**, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker, "Fortran 95 implementation of QNSTOP for global and
+[C4] **B. Amos**, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker, "Fortran 95 implementation of QNSTOP for global and
 stochastic optimization," in <em>2014 Spring Simulation Multiconference, 22nd High Performance Computer Symposium, Society for Modeling and Simulation International</em>, 2014<br><br>
-[C4] **B. Amos**, H. Turner, and J. White, "Applying machine learning classifiers to dynamic Android
+[C5] **B. Amos**, H. Turner, and J. White, "Applying machine learning classifiers to dynamic Android
 malware detection at scale," in <em>IWCMC'13 Security, Trust and Privacy Symposium</em>, 2013<br><br>
 
 
@@ -194,7 +195,7 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 # Skills
 
 
-+ __Preference.__ Mac, vim, git, Make, sbt
++ __Preference.__ Arch Linux, Mac, vim, git, Make, sbt
 + __Languages.__ Akka\*\*, Bash\*\*, C/C++\*\*, C#\*, Fortran\*\*, HTML/CSS\*, LaTeX\*\*, Java\*\*, JavaScript\*\*,  Mathematica\*\*, Make\*\*\*, PHP\*, Python\*\*\*, R\*, Scala\*\*\*
 + __Systems.__ Android\*\*, Linux\*\*\*, Mac\*\*\*
 + __Rankings.__ 1/10\* - 3/10\*\* - 5/10\*\*\* - 7/10\*\*\*\*

@@ -38,7 +38,7 @@ class cache(object):
       self.cache[key] = rval = self.fun(*args, **kwargs)
       self.cache_times[key] = time.time()
       return rval
-    except TypeError: # incase key isn't a valid key - don't cache
+    except TypeError: # Don't cache if the key isn't valid.
       return self.fun(*args, **kwargs)
 {% endhighlight %}
 
