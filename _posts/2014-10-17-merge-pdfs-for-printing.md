@@ -18,7 +18,7 @@ The script uses [Ghostscript][gs] to merge the documents
 and [pdfinfo][pdfinfo] to extract the number of pages
 in the input documents.
 
-```
+{% highlight bash %}
 $ merge-pdfs-printable.py a.pdf b.pdf c.pdf --modulo 4
 a.pdf
  + Pages: 6
@@ -30,7 +30,7 @@ c.pdf
  + Pages: 13
  + Added 3 blank pages.
 Merged output is in '/tmp/tmpm2n5g0mh-merge.pdf'.
-```
+{% endhighlight %}
 
 [gs]: http://www.ghostscript.com/doc/current/Use.htm
 [pdfinfo]: http://linux.die.net/man/1/pdfinfo
