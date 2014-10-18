@@ -14,9 +14,10 @@ so that the printed pages won't overlap documents.
 The `modulo` option is helpful to print 2 PDF pages per physical
 page side.
 
-The script uses [Ghostscript][gs] to merge the documents
-and [pdfinfo][pdfinfo] to extract the number of pages
-in the input documents.
+The script uses [PyPDF2][pypdf2] to merge the documents
+and to extract the number of pages
+in the input documents and [ghostscript][gs]
+to create a blank PDF page.
 
 {% highlight bash %}
 $ merge-pdfs-printable.py a.pdf b.pdf c.pdf --modulo 4
@@ -33,6 +34,6 @@ Merged output is in '/tmp/tmpm2n5g0mh-merge.pdf'.
 {% endhighlight %}
 
 [gs]: http://www.ghostscript.com/doc/current/Use.htm
-[pdfinfo]: http://linux.die.net/man/1/pdfinfo
+[pypdf2]: https://github.com/mstamy2/PyPDF2
 [python-scripts]: https://github.com/bamos/python-scripts
 [merge-pdfs-printable]: https://github.com/bamos/python-scripts/blob/master/python3/merge-pdfs-printable.py
