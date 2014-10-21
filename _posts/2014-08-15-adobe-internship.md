@@ -55,6 +55,10 @@ We have open sourced all of my work as 3 projects on the
 + [adobe-research/spark-parquet-thrift-example][spark-parquet-thrift-example] -
   *Example Spark project using Parquet as a columnar store with Thrift objects.*
 
+My paper "Performance study of Spindle, a web analytics query engine
+implemented in Spark" has been accepted to the [CloudCom 2014][cloudcom]
+conference in Singapore, where I'll be presenting the work.
+
 ## Bay Area
 I've had a lot of fun exploring the Bay Area as an intern.
 Check out some of my favorite pictures below!
@@ -104,3 +108,5 @@ document.getElementById('links').onclick = function (event) {
 [spindle]: https://github.com/adobe-research/spindle
 [spark-cluster-deployment]: https://github.com/adobe-research/spark-cluster-deployment
 [spark-parquet-thrift-example]: https://github.com/adobe-research/spark-parquet-thrift-example
+
+[cloudcom]: http://2014.cloudcom.org/
