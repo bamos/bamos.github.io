@@ -33,6 +33,11 @@ c.pdf
 Merged output is in '/tmp/tmpm2n5g0mh-merge.pdf'.
 {% endhighlight %}
 
+Note: Some of my decrypted PDF documents have resulted in
+`PyPDF2.utils.PdfReadError: file has not been decrypted`.
+My current workaround solution is to run `pdf2ps` on
+the PDF and then `ps2pdf` on the PS file.
+
 [gs]: http://www.ghostscript.com/doc/current/Use.htm
 [pypdf2]: https://github.com/mstamy2/PyPDF2
 [python-scripts]: https://github.com/bamos/python-scripts
