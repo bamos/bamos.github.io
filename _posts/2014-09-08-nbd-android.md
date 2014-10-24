@@ -189,35 +189,10 @@ The nbd client interfaces with the nbd kernel module to
 provide a command line utility for initializing nbd devices.
 Android doesn't provide this utility by default,
 so this portion describes how to compile the nbd client for ARM
-with [Android NDK's][android-ndk] r9 standalone toolchain,
-available from [here][r9d].
+with android-18, arm-linux-androideabi-4.8, and NDK r10b.
 
-Clone the repository and replace the `mlockall` syscall with
-the following error message for `swap` mode.
-The following commands will not link with `mlockall`.
-
-{% highlight bash %}
-git clone https://github.com/yoe/nbd.git
-cd nbd
-vim nbd-client.c
-
-
-{% endhighlight %}
-
-{% highlight C %}
-void finish_sock(int sock, int nbd, int swap) {
-  if (ioctl(nbd, NBD_SET_SOCK, sock) < 0)
-    err("Ioctl NBD_SET_SOCK failed: %m\n");
-
-  if (swap) {
-    // mlockall(MCL_CURRENT | MCL_FUTURE);
-    printf("Error: mlockall unsupported in ARM build.\n");
-    exit(-1);
-  }
-}
-{% endhighlight %}
-
-Use the toolchain's `arm-linux-androideabi-gcc` to compile for ARM.
+Clone the repository and create a new standalone toolchain
+and compile `nbd-client` for ARM.
 Ensure the `ANDROID_NDK` environment variable is set.
 
 {% highlight bash %}
@@ -225,13 +200,26 @@ die() { echo $*; return -1; }
 touch man/nbd-{client.8,server.{1,5},trdump.1}.sh.in
 autoreconf -f -i || die "autoreconf failed."
 
-export AR=$ANDROID_NDK/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86/bin/arm-linux-androideabi-ar
-export LD=$ANDROID_NDK/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86/bin/arm-linux-androideabi-ld
-export CC=$ANDROID_NDK/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86/bin/arm-linux-androideabi-gcc
-export CFLAGS="--sysroot=$ANDROID_NDK/platforms/android-18/arch-arm"
+$ANDROID_NDK/build/tools/make-standalone-toolchain.sh \
+  --platform=android-18 \
+  --toolchain=arm-linux-androideabi-4.8 \
+  --install-dir=$PWD/toolchain
 
-./configure --host=armv7-unknown-linux \
-  --target=armv7-unknown-linux || die "configure failed"
+pathadd() { PATH="${PATH:+"$PATH:"}$1"; }
+pathadd "$PWD/toolchain/bin"
+command -v arm-linux-androideabi-gcc &> /dev/null || exit -1
+export SYSROOT=$PWD/toolchain/sysroot
+export CC="arm-linux-androideabi-gcc --sysroot=$SYSROOT"
+export CXX=arm-linux-androideabi-g++
+export LD=arm-linux-androideabi-ld
+export RANLIB=arm-linux-androideabi-ranlib
+export AR=arm-linux-androideabi-ar
+export CROSS_PREFIX=arm-linux-androideabi-
+export CFLAGS='-march=armv7-a -mfloat-abi=softfp -mfpu=neon'
+export LDFLAGS='-Wl,--fix-cortex-a8'
+
+./configure --host=armv7-unknown-linux --target=armv7-unknown-linux \
+  || die "configure failed"
 make nbd-client
 {% endhighlight %}
 
