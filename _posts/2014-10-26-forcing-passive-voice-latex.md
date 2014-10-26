@@ -16,6 +16,9 @@ This includes false positives from LaTeX commands such as `\huge`,
 but I intend to create a project to intelligently run `write-good`
 and other writing analysis tools on LaTeX documents.
 
+Note: The return status and correct flag handling are available in my
+fork at [bamos/write-good][bamos/write-good].
+
 {% highlight make %}
 SRC=$(wildcard *.tex)
 PDF=$(SRC:.tex=.pdf)
@@ -56,3 +59,5 @@ See below for the before and after screenshots of the webpage.
 [ghp]: https://pages.github.com/
 [gbc]: https://github.com/robwierzbowski/grunt-build-control
 [npm]: https://www.npmjs.org/
+
+[bamos/write-good]: https://github.com/bamos/write-good
