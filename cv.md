@@ -15,7 +15,7 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/O4586Q) &#124;
 (540) 947--1238 &#124;
-Generated October 24, 2014.
+Generated October 26, 2014.
 
 # Research Interests
 
@@ -57,7 +57,7 @@ __<big>Magnum Research Group.</big>__  Undergraduate Research Assistant.
 &#124; Advisor: Dr. Jules White
 &#124; May 2012-January 2014
 + **Research Area**: Mobile computing, cyber-physical systems, and security.
-+ Android **malware detection research** resulting in primary authorship on a conference publication. The current **Scala** implementation uses a distributed **Actor** system to obtain run-time feature vectors to train **machine learning** classifiers.
++ Android **malware detection research** resulting in primary authorship on a conference publication. The current **Actor-based Scala** implementation obtains run-time feature vectors for machine learning.
 + Modified the **Android source** to provide non-standard logging information for dynamic malware analysis.
 + Developed **VC#** and **Python** programs for a pilot study on manufacturing cyber-physical security.
 + Assisted **C++** and **Make** development in **Linux** for a deployment optimization framework.
@@ -151,7 +151,7 @@ __<big>Qualcomm.</big>__  Source Integrity Team Software Intern.
 
 + San Diego, California
 &#124; May 2013-August 2013
-+ Developed a **web application** to modify an XML-based grammar for fuzz vector generation. Implemented with client-side **HTML** and **js**, using **D3** for graphics and **Handlebars** for templating.
++ Developed an XML modification **web application** for fuzz vector generation. Implemented with client-side **HTML** and **js**, using **D3** for graphics and **Handlebars** for templating.
 + Developed an XML-based grammar translator in **C++** with the **Xerces** XML parser in **Linux**. Reimplemented in **Python** using the **ElementTree** XML API for sophisticated analysis and tree transformations.
 
 __<big>Phoenix Integration.</big>__  Software Engineer Intern.
@@ -167,7 +167,7 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 + Vinton, Virginia
 &#124; January 2011-August 2011
 + Internship in high school to replace Windows domain, mail, DHCP, and DNS servers with virtual **Linux** servers using **KVM** and **virsh**.
-+ Successfully created the servers and migrated the office's computers to the Linux servers.
++ Migrated the office's computers to the Linux servers.
 + Created **Bash** scripts for incremental backups with rsync and hard links.
 
 
