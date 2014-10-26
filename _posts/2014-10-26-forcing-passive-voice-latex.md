@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Forcing the passive voice in LaTeX documents.
+title: Forcing passive voice in LaTeX documents.
 tags: [LaTeX]
 ---
 
@@ -8,7 +8,7 @@ tags: [LaTeX]
 and works well on plaintext [LaTeX][latex] documents.
 I've updated the [Makefile's][make] in my
 [latex-templates project][lt] to use `write-good`
-and refuse to build documents containing the passive voice.
+and refuse to build documents containing passive voice.
 All other messages are output as warnings after building.
 The following snippet is a Makefile from my latex-templates project
 with this behavior, which also uses [latexmk][lm] to build the document.
