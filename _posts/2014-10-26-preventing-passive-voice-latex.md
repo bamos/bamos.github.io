@@ -31,6 +31,8 @@ and other writing analysis tools on LaTeX documents.
 
 Note: The return status and correct flag handling are available in my
 fork at [bamos/write-good][bamos/write-good].
+I've submitted a [pull request][pr] to merge these changes into
+the original repository.
 
 {% highlight make %}
 SRC=$(wildcard *.tex)
@@ -77,3 +79,5 @@ See below for the before and after screenshots of the webpage.
 
 [pv1]: http://www.lel.ed.ac.uk/~gpullum/passive_loathing.pdf
 [pv2]: http://en.wikipedia.org/wiki/English_passive_voice#Advice_in_favor_of_the_passive_voice
+
+[pr]: https://github.com/btford/write-good/pull/31
