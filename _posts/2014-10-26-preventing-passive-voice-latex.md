@@ -10,7 +10,7 @@ I often place the passive voice in technical documents where the active
 voice better suits and have been searching for ways to automatically
 prevent using the passive voice.
 I recognize that using the passive voice can be favorable,
-as [this article][pv1] and [Wikipedia][pv2] describe.
+as [this article][pv1] and [Wikipedia][pv2] describe, but
 I want to break my bad habit of misusing the passive voice.
 
 I've found the [btford/write-good][wg] project, which is a
