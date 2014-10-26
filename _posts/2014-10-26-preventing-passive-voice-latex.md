@@ -1,10 +1,20 @@
 ---
 layout: post
-title: Forcing passive voice in LaTeX documents.
+title: Preventing passive voice in LaTeX documents.
 tags: [LaTeX]
 ---
 
-[btford/write-good][wg] is a native linter for English prose
+I'm two months into a CS Ph.D. program and all my LaTeX writing
+is technical.
+I often place the passive voice in technical documents where the active
+voice better suits and have been searching for ways to automatically
+prevent using the passive voice.
+I recognize that using the passive voice can be favorable,
+as [this article][pv1] and [Wikipedia][pv2] describe.
+I want to break my bad habit of misusing the passive voice.
+
+I've found the [btford/write-good][wg] project, which is a
+native linter for English prose
 and works well on plaintext [LaTeX][latex] documents.
 I've updated the [Makefile's][make] in my
 [latex-templates project][lt] to use `write-good`
@@ -61,3 +71,6 @@ See below for the before and after screenshots of the webpage.
 [npm]: https://www.npmjs.org/
 
 [bamos/write-good]: https://github.com/bamos/write-good
+
+[pv1]: http://www.lel.ed.ac.uk/~gpullum/passive_loathing.pdf
+[pv2]: http://en.wikipedia.org/wiki/English_passive_voice#Advice_in_favor_of_the_passive_voice
