@@ -15,7 +15,7 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](http://goo.gl/O4586Q) &#124;
 (540) 947--1238 &#124;
-Generated October 26, 2014.
+Generated October 29, 2014.
 
 # Research Interests
 
@@ -55,7 +55,7 @@ __<big>Magnum Research Group.</big>__  Undergraduate Research Assistant.
 
 + Blacksburg, Virginia
 &#124; Advisor: Dr. Jules White
-&#124; May 2012-January 2014
+&#124; May 2012-May 2014
 + **Research Area**: Mobile computing, cyber-physical systems, and security.
 + Android **malware detection research** resulting in primary authorship on a conference publication. The current **Actor-based Scala** implementation obtains run-time feature vectors for machine learning.
 + Modified the **Android source** to provide non-standard logging information for dynamic malware analysis.
