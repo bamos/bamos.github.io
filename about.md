@@ -27,7 +27,8 @@ Hi! I am a Computer Science Ph.D. student at [Carnegie Mellon][cmu]
 and obtained a B.S. in Computer Science
 from [Virginia Tech][vt] in May 2014.
 I'm interested the intersection of distributed
-and mobile computing.
+and mobile computing and am happy to be advised
+by [Satya][satya].
 For more information, find my publications on
 [Google Scholar][scholar] and see [my vitae][cv].
 
@@ -59,3 +60,4 @@ and feel free to use [PGP][pgp].
 [website]: https://github.com/bamos/bamos.github.io
 [jekyll]: http://jekyllrb.com
 [pgp]: /pgp
+[satya]: http://www.cs.cmu.edu/~satya/
