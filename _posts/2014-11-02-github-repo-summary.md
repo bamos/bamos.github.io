@@ -4,8 +4,7 @@ title: Adding similar projects to a GitHub README with Python.
 tags: [Python]
 ---
 
-In the open source community, projects are often inspired by other related projects
-and offer some unique characteristic.
+In the open source community, projects are often inspired by related projects.
 In some of my projects,
 I have a section explicitly describing why my project is unique
 with a table summarizing other GitHub projects with their star counts
