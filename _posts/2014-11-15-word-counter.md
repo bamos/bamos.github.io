@@ -6,7 +6,7 @@ tags: [Python]
 
 This post introduces a small Python script
 [word-counter.py](https://github.com/bamos/python-scripts/blob/master/python3/word-counter.py) to count the word frequencies over sliding
-windows in my LaTeX and Markdown documents.
+windows or N-grams in my LaTeX and Markdown documents.
 This is part of my
 [bamos/python-scripts](https://github.com/bamos/python-scripts)
 repository, which contains other small Python snippets.
