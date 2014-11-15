@@ -25,7 +25,7 @@ For example, the following is the output on the `README`
 Markdown file of the `python-scripts` repo.
 For LaTeX documents, I use [opendetex](https://code.google.com/p/opendetex/)
 to convert the documents to plain text before
-running them through `word-counter.py`.
+using `word-counter.py`.
 The number on the left indicates the number of time the
 word occurs in the document.
 
