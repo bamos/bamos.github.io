@@ -15,7 +15,7 @@ The [btford/write-good](https://github.com/btford/write-good)
 project has motivated me to start performing automatic analysis
 of the LaTeX and Markdown documents I write.
 The Makefile's in my
-[bamoms/latex-templates](https://github.com/bamos/latex-templates)
+[bamos/latex-templates](https://github.com/bamos/latex-templates)
 project will call `write-good` after compiling a document
 to print out an analysis of suggested portions I should rephrase.
 My `word-counter.py` script will analyze the word frequencies
