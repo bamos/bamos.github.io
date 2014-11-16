@@ -142,8 +142,9 @@ CONFIG_BLK_DEV_NBD=m
 CONFIG_SCSI_WAIT_SCAN=m
 {% endhighlight %}
 
+Build `nbd.ko` with `make drivers/block/nbd.ko`.
 The default Android Linux kernel does not support modules.
-Because of this, trying to insert `make drivers/block/nbd.ko`
+Because of this, trying to insert `nbd.ko`
 results in the following error.
 
 {% highlight bash %}
