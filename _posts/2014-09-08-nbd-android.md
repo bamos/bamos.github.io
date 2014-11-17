@@ -139,7 +139,6 @@ Edit `.config` and ensure the following lines are set.
 {% highlight bash %}
 CONFIG_MODULES=y
 CONFIG_BLK_DEV_NBD=m
-CONFIG_SCSI_WAIT_SCAN=m
 {% endhighlight %}
 
 Build `nbd.ko` with `make drivers/block/nbd.ko`.
