@@ -197,6 +197,8 @@ Ensure the `ANDROID_NDK` environment variable is set.
 
 {% highlight bash %}
 die() { echo $*; return -1; }
+git clone https://github.com/yoe/nbd.git
+cd nbd
 touch man/nbd-{client.8,server.{1,5},trdump.1}.sh.in
 autoreconf -f -i || die "autoreconf failed."
 
