@@ -16,6 +16,8 @@ to provide the content of a block device on a system across the network.
 This post is motivated by a class project and describes
 how to modify Android's Linux kernel to include `nbd` and
 build the user-space `nbd` client as an ARM executable.
+An alternate to building these programs manually is to
+use [BusyBox](http://www.busybox.net/).
 
 # Practical Use Cases.
 Using `nbd` on a resource-limited mobile device will cause
