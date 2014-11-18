@@ -9,7 +9,7 @@ on Android to use storage on a remote server.**
 Linux uses [block devices][block-devices] to provide reads and writes
 to hardware technology without exposing the hardware characteristics
 of the devices.
-For example, the first registered hard drive block device is located
+For example, the first registered hard drive block device mounts
 at `/dev/sda`.
 A [network block device][nbd-general] enables a remote machine
 to provide the content of a block device on a system across the network.
@@ -19,30 +19,24 @@ build the user-space `nbd` client as an ARM executable.
 
 # Practical Use Cases.
 Using `nbd` on a resource-limited mobile device will cause
-performance and energy issues, but there are a few use cases
+performance and energy issues, but there are use cases
 where using nbd to mount a remote block device is helpful.
-
-The examples below could also be performed at a higher level,
-such as with inodes or with a distributed filesystem.
-However, none of these options gives obviously better
-performance or development time advantages,
-and experimental results comparing nbd to the
-alternatives will show the best option.
+Inodes or a distributed filesystem can also be used for
+these examples, but further experimental results
+are needed to determine the best solution.
 
 ## Device Management for Corporate Security Policies.
-The network block device can be paired with LVM to mirror
-Android's physical block devices as files on a remote server.
-With corporate phones, nbd could be used to synchronize
-the device containing `/system` to a central
-server when employees are on-site so that
-the phone configuration files can be monitored.
+Corporate phones can use a network block device with LVM to mirror
+Android's physical block devices as files on a remote server
+to synchronize the device containing `/system` to a central
+server when employees are on-site.
 
 ## Application Behavior Analysis for Malware Detection.
 The amount of applications on the marketplace is approaching
 1 million, and seemingly benign applications could
 perform malicious actions on a user's device.
 This use case would involve using nbd with LVM to
-mirror all of the phone's block devices to a remote server
+mirror the phone's block devices to a remote server
 that has the capabilities of streaming the block writes in real time
 when an application is performing.
 
@@ -64,33 +58,34 @@ and Linux kernel. Some change that she made to a complex internal
 function call is causing kernel panics and thinks monitoring
 the state of the device's storage leading up to the crash
 will help reveal the bug.
-NBD can again be paired with LVM to mirror and stream the hard
-disk writes to a remote server and be used as a development tool.
+Low level filesystem debugging can be done with nbd with LVM
+to mirror and stream the hard disk writes to a remote server.
 
 # Prerequisites.
-The follow portions have been executed on a "yakju" Galaxy Nexus
+The follow sections use a "yakju" Galaxy Nexus
 device with Android 4.3 (JWR66Y) from
 [Android's stock Nexus images][nexus-images] rooted
 with [SuperSU 1.43][supersu].
 Root is necessary to create the block file in `/dev` and
 load the `nbd` kernel module.
-[Ubuntu 14.04 LTS][ubuntu-14] is used for building.
+This has been tested in [Ubuntu 14.04 LTS][ubuntu-14]
+and [Arch Linux](https://www.archlinux.org/).
 
 This post assumes the [Android SDK][sdk] and [Android NDK][ndk]
 are installed and available in the `ANDROID_SDK` and `ANDROID_NDK`
 environment variables.
-The command line snippets prefixed with `android>` should execute
-on the Android device, and all others should be done on the Linux computer.
+The command line snippets prefixed with `<android>` should execute
+on the Android device, and all others on the Linux computer.
 
 # Building the nbd kernel module for Android.
-The Linux kernel provides many options, drivers, and modules.
-Android runs on resource-limited mobile devices,
-so the kernel is minimal and the nbd module is disabled by default.
-This portion describes how to build and load the nbd kernel module
+The Linux kernel provides options, drivers, and modules.
+Android's kernel is minimal to support resource-limited mobile devices
+and disables the nbd module.
+This section describes how to build and load the nbd kernel module
 on Android.
 
-All code in this post will be managed in the `~/nbdroid` directory.
-First, obtain and add the ARM compiler executables to the
+All code in this post is managed in the `~/nbdroid` directory.
+First, add the ARM compiler executables to the
 `PATH` environment variable.
 
 {% highlight bash %}
@@ -100,9 +95,9 @@ git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/
 pathadd $PWD/arm-eabi-4.6/bin
 {% endhighlight %}
 
-The following portions are specific to the Galaxy Nexus device.
+The following sections are specific to the Galaxy Nexus device.
 Find the appropriate repositories for other devices in the
-[Building Kernels][building-kernels] portion of the Android documentation.
+[Building Kernels][building-kernels] section of the Android documentation.
 
 Get the commit number for the most recent kernel,
 which is `fb3c9ac` in the following snippet.
@@ -134,7 +129,7 @@ git checkout fb3c9ac
 make tuna_defconfig
 {% endhighlight %}
 
-Edit `.config` and ensure the following lines are set.
+Edit `.config` and set the following options.
 
 {% highlight bash %}
 CONFIG_MODULES=y
@@ -188,7 +183,7 @@ nbd 8104 - - Live 0x00000000
 The nbd client interfaces with the nbd kernel module to
 provide a command line utility for initializing nbd devices.
 Android doesn't provide this utility by default,
-so this portion describes how to compile the nbd client for ARM
+so this section describes how to compile the nbd client for ARM
 with android-18, arm-linux-androideabi-4.8, and NDK r10b.
 
 Clone the repository and create a new standalone toolchain
@@ -263,7 +258,7 @@ Default value for port with -N is 10809. Note that port must always be numeric
 At this point, the nbd code is ready to execute and mount block
 devices on Android.
 The [mknod][mknod] command to create the file for the block device
-is not bundled with Android by default and this portion describes
+is not bundled with Android by default and this section describes
 how to compile the `mknod` utility and create a `/dev/nbd0` device
 for the nbd client to use.
 
@@ -281,7 +276,7 @@ wget http://src.gnu-darwin.org/src/sbin/mknod/mknod.c
 $CC mknod.c -o mknod $CFLAGS
 {% endhighlight %}
 
-Push `mknod` to the Android device similar to `nbd-client`.
+Push `mknod` to the Android device.
 
 {% highlight bash %}
 adb push mknod /sdcard/nbdroid/
@@ -301,8 +296,7 @@ usage: mknod name [b | c] major minor [owner:group]
 {% endhighlight %}
 
 # Demo.
-All executables and libraries have been set up.
-The following portion presents a short demo of connecting
+The following section presents a short demo of connecting
 the nbd client on Android to an nbd server on Linux.
 
 ## Preparing the nbd server.
@@ -358,8 +352,8 @@ android> echo "12345678" > /data/nbdroid/nbd-mount/new-file.txt
 {% endhighlight %}
 
 ## Observing file changes on the server.
-These changes are reflected in the exported file on the server
-from the `watch` command.
+These changes can be see in the exported file on the server
+with the `watch` command.
 
 <center>
   <img src="/data/2014-09-08/android-nbd-changes.png" width="70%"/>
