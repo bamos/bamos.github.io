@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Obtaining a (LaTeX) list of Github repos with Python 3.
+title: Obtaining a (LaTeX) list of GitHub repos with Python 3.
 tags: [Python, LaTeX]
 ---
 
 In my [vitae](http://bamos.github.io/cv/), I use a Python script to
-generate a list of Github repos I've created and forked.
-This script is my first exposure to REST and the Github API,
+generate a list of GitHub repos I've created and forked.
+This script is my first exposure to REST and the GitHub API,
 which is remarkably simple to use in this case.
 
 The script is available from

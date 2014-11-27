@@ -38,7 +38,7 @@ Matt Cutts wrote a great
 on how to use this with GMail.
 
 One portion that's not very clear is that POP can only download
-a few hundrew messages at a time while IMAP can download
+a few hundred messages at a time while IMAP can download
 all of your messages at once.
 See below for the configuration I use to sync with GMail,
 located at `~/.getmail/getmail.gmail`.

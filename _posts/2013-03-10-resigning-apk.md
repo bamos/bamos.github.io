@@ -72,7 +72,7 @@ Verifying alignment of foo.apk (4)...
    64308 res/layout/ (OK)
    64385 res/layout/main.xml (OK - compressed)
    64733 resources.arsc (OK - compressed)
-Verification succesful
+Verification successful
 Signing the apk
 Cleaning up
 {% endhighlight %}
