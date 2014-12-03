@@ -170,8 +170,8 @@ if __name__ == '__main__':
   outputFile = args.output
 
   # Default values.
-  numPops = 0 # The number of irrelavant data values at the top to ignore.
-  exceptions = [] # Legitamet country rows marked as erroneous.
+  numPops = 0 # The number of irrelevant data values at the top to ignore.
+  exceptions = [] # Legitimate country rows marked as erroneous.
   numCols = 3 # The number of columns.
   extractionMap = (0, 1, 2) # The subset of columns to use as output.
 
@@ -336,7 +336,7 @@ try:
   afghanistan = lines[0].split("\t")
   assert afghanistan[0] == "Afghanistan", "Incorrect content (1)."
   assert afghanistan[1] == "أفغانستان", "Incorrect content (2)."
-  assert afghanistan[2] == "Afghanestan", "Incorrect content (3)."
+  assert afghanistan[2] == "Afghanistan", "Incorrect content (3)."
 
   zimbabwe = lines[226].split("\t")
   assert zimbabwe[0] == "Zimbabwe", "Incorrect content (4)."
@@ -366,7 +366,7 @@ try:
   afghanistan = countryData[0]
   assert afghanistan[0] == "Afghanistan", "Incorrect content (1)."
   assert afghanistan[1] == "أفغانستان", "Incorrect content (2)."
-  assert afghanistan[2] == "Afghanestan", "Incorrect content (3)."
+  assert afghanistan[2] == "Afghanistan", "Incorrect content (3)."
 
   zimbabwe = countryData[226]
   assert zimbabwe[0] == "Zimbabwe", "Incorrect content (4)."

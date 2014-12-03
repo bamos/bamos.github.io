@@ -6,7 +6,7 @@ tags: [Python]
 
 A few months ago, I wrote a
 [blog post](http://bamos.github.io/2013/06/26/expression-parsing-shunting-yard/)
-on expression parsing with Dijkstra's shunting yark algorithm in C++
+on expression parsing with Dijkstra's shunting yard algorithm in C++
 to evaluate a string at runtime.
 I've since also needed to use Python to evaluate an expression
 at runtime.

@@ -30,7 +30,7 @@ The 'bad' section allocates outside of the parallel region,
 and with `gfortran` 4.8.2, the memory addresses for both the
 single variable and array differ across threads, as expected.
 However, the Sun compiler's memory addresses do not differ!
-Different threads will attempt to access the same varaible
+Different threads will attempt to access the same variable
 with the assumption the variable is `private`, when it is shared.
 
 To overcome this and ensure correctness across all compilers,
