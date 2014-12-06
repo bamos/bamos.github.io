@@ -7,10 +7,13 @@ layout: default
 </div>
 
 <small class="meta final">
-  {{ page.date | date:"%d %b %Y" }}
+  {{ page.date | date:"%d %b %Y" }} |
+  <a href="https://github.com/bamos/bamos.github.io/blob/master/{{ page.path }}">
+    Source
+  </a>
   {% for t in page.tags %}
-  {% if forloop.first == true %} | {% endif %}
-  <a href='/tags#{{ t | escape }}'>{{ t }}</a>{% if forloop.last == false %}, {% endif %}
+    {% if forloop.first == true %} | {% endif %}
+    <a href='/tags#{{ t | escape }}'>{{ t }}</a>{% if forloop.last == false %}, {% endif %}
   {% endfor %}
 </small>
 
