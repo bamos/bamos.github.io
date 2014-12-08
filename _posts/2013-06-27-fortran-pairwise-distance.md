@@ -15,7 +15,7 @@ between pairs of objects in a matrix.
 # Example.
 Consider the vectors `((0.5377, -1.3077), (1.8339, -0.4336),
 (-2.2588, 0.4326), (0.8622, 3.5784), (0.3188, 2.7694))`.
-The first element of the Euclidean parwise distance vector
+The first element of the Euclidean pairwise distance vector
 would be the distance between the first and second elements:
 `sqrt((0.5377-1.8339)^2 + (-1.3077-(-0.4336))^2) = 1.5633`.
 
