@@ -14,7 +14,7 @@ h1 {
 [PDF](/data/cv.pdf) &#124;
 [source](https://github.com/bamos/cv) &#124;
 [email](mailto:bamos@cs.cmu.edu) &#124;
-~(540)~947~1238 &#124;
+ (540) 947 1238 &#124;
 Generated December 07, 2014.
 
 # Research Interests
