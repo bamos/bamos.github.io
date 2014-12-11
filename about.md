@@ -26,7 +26,7 @@ social:
 Hi! I am a Computer Science Ph.D. student at [Carnegie Mellon][cmu]
 and obtained a B.S. in Computer Science
 from [Virginia Tech][vt] in May 2014.
-I'm interested the intersection of distributed
+I'm interested in the intersection of distributed
 and mobile computing and am happy to be advised
 by [Satya][satya].
 For more information, find my publications on
