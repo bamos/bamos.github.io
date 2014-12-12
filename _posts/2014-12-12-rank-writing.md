@@ -41,8 +41,8 @@ phrases from a database of frequently misused, bad, or
 wordy diction.
 
 ## write-good
-[write-good][write-good] is by Brian Ford providing a linter
-for English prose using techniques from
+[write-good][write-good] is by Brian Ford and provides a linter
+for English prose with techniques from
 [here](http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/) and
 [here](https://github.com/devd/Academic-Writing-Check).
 
