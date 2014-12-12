@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ranking the writing quality of my blog posts with
+title: Ranking the writing quality of text documents
   a simple Python script.
 tags: [Python]
 ---
