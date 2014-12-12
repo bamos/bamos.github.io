@@ -68,43 +68,37 @@ I maintain my blog posts with Jekyll and Markdown on GitHub
 in [_posts][_posts] at [bamos/bamos.github.io][blog].
 The following shows the beginning and the end of
 `rank-writing.py` on my posts.
-The highest ranked posts have a large number of false positives
-by aspell that I still need to fix.
+The top posts have a large number of false positives from
+diction from having inline source code.
 
 {% highlight yaml %}
 $ rank-writing.py *.yaml
 
 === 2013-05-03-scraping-tables-python.md ===
-Total: 53
-├── aspell: 34
-├── diction: 0
-└── write-good: 19
+  Total: 53
+  ├── aspell: 0
+  ├── diction: 34
+  └── write-good: 19
 
 === 2014-09-08-nbd-android.md ===
-Total: 45
-├── aspell: 31
-├── diction: 0
-└── write-good: 14
+  Total: 45
+  ├── aspell: 0
+  ├── diction: 31
+  └── write-good: 14
 
 ...
 
-=== 2013-03-11-mirroring-android.md ===
-Total: 1
-├── aspell: 1
-├── diction: 0
-└── write-good: 0
-
 === 2014-10-26-analyzing-writing-in-latex.md ===
-Total: 0
-├── aspell: 0
-├── diction: 0
-└── write-good: 0
+  Total: 0
+  ├── aspell: 0
+  ├── diction: 0
+  └── write-good: 0
 
 === 2013-04-16-pdf-from-plaintext.md ===
-Total: 0
-├── aspell: 0
-├── diction: 0
-└── write-good: 0
+  Total: 0
+  ├── aspell: 0
+  ├── diction: 0
+  └── write-good: 0
 {% endhighlight %}
 
 I have 47 blog posts and the entire script runs in 4.551 seconds,
@@ -117,32 +111,32 @@ with a Python thread or process pool if performance becomes an issue.
 the available tools to avoid large amounts of aspell false positives.
 The options `--aspell`, `--diction`, `--write-good` communicate
 these subsets,
-as shown in the following example that only runs `diction` and `write-good`.
+as shown in the following example that only runs `aspell` and `write-good`.
 
 {% highlight yaml %}
-$ rank-writing.py --diction --write-good *.md
+$ rank-writing.py --aspell --write-good *.md
 
 === 2013-05-03-scraping-tables-python.md ===
-Total: 19
-├── diction: 0
-└── write-good: 19
+  Total: 19
+  ├── aspell: 0
+  └── write-good: 19
 
 === 2014-07-05-music-organizer.md ===
-Total: 17
-├── diction: 0
-└── write-good: 17
+  Total: 17
+  ├── aspell: 0
+  └── write-good: 17
 
 ...
 
 === 2013-04-16-pdf-from-plaintext.md ===
-Total: 0
-├── diction: 0
-└── write-good: 0
+  Total: 0
+  ├── aspell: 0
+  └── write-good: 0
 
 === 2013-03-11-mirroring-android.md ===
-Total: 0
-├── diction: 0
-└── write-good: 0
+  Total: 0
+  ├── aspell: 0
+  └── write-good: 0
 {% endhighlight %}
 
 [blog]: https://github.com/bamos/bamos.github.io
