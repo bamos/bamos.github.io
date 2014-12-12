@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ranking the writing quality of text documents
-  a simple Python script.
+  with a simple Python script.
 tags: [Python]
 ---
 
