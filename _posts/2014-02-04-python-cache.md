@@ -18,6 +18,9 @@ The modifications below implement such a timeout,
 and are working great in my application!
 See it [live][picasa-map-heroku].
 
+[functools.lru_cache](https://docs.python.org/3/library/functools.html#functools.lru_cache)
+is an alternate to implementing this by hand.
+
 # Modified cache decorator
 {% highlight Python %}
 class CacheTimeout(Exception): pass
