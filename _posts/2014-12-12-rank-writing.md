@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ranking the writing quality of text documents
+title: Aggregate writing quality rankings of text documents
   with a simple Python script.
 tags: [Python]
 ---
