@@ -14,7 +14,8 @@ tags: [News]
 I'm a student interested in open source technologies and today,
 I am happy to join many others with a one-year GitHub streak.
 This post summarizes my experiences and transitions I've made
-over the past year.
+over the past year
+My GitHub profile is [bamos](https://github.com/bamos).
 
 # Takeaways
 The following is a short list of my takeaways
