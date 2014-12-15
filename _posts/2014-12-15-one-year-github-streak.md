@@ -25,7 +25,7 @@ Daily contributions are my preference and help me stay organized.
 However, [git.io/top](http://git.io/top) shows that only 11 of the top 1,000
 GitHub profiles have surpassed a year-long streak (December 15, 2014).
 
-## Daily contributions don't have to take all day.
+## Daily contributions don't distract from a personal life.
 [Ryan Seys][ryan] challenged himself to make substantial code
 improvements daily.
 However, [Arn-O][arn-o] and [NatashaTheRobot][natasha] support and
@@ -37,8 +37,9 @@ support external workloads and my personal life.
 I have traveled to over 10 cities over the past year
 with friends and family and am always able to find small
 commits to improve my projects in less than 5 minutes.
-When traveling without the internet, commits done offline and pushed
-to GitHub days later are still counted.
+These few minutes every day during sometime week-long vacations
+are negligible and help me keep the streak for motivation during
+my professional life.
 
 ## Writing, documentation, and issues can always be improved.
 Hamming suggests in the Q and A portion of
@@ -115,6 +116,7 @@ The timeline uses a modified version of
       <a href="http://snowplowanalytics.com">Snowplow Analytics</a>,
       which provides an open-source analytics platform at
       <a href="https://github.com/snowplow/snowplow">snowplow/snowplow</a>.
+      See my contributions <a href="https://github.com/snowplow/snowplow/commits?author=bamos">here</a>.
     </p>
   </div>
 </li>
