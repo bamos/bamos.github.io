@@ -9,18 +9,19 @@ h1 {
 }
 </style>
 
-# brandon amos. vitæ.
+# Brandon Amos. vitæ.
 
 [PDF](/data/cv.pdf) &#124;
 [source](https://github.com/bamos/cv) &#124;
 [email](mailto:bamos@cs.cmu.edu) &#124;
  (540) 947 1238 &#124;
-Generated December 10, 2014.
+Generated December 16, 2014.
 
 # Research Interests
 
 
 Mobile computing, distributed systems, and computer vision.
+
 # Education
 
 
@@ -35,6 +36,7 @@ GPA: 3.99/4.00
 
 + Blacksburg, Virginia
 &#124; August 2011-May 2014
+
 
 
 # Research Experience
@@ -76,6 +78,7 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
 + Compiler research on a heterogenous system on automatic **OpenMP** to **CUDA** translation using **C++** and the **ROSE** compiler framework.
 + Polyhedral loop optimization research to restructure **OpenCL** kernels for locality using **LLVM** and **Polly**.
 
+
 # Teaching Experience
 
 
@@ -83,6 +86,7 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
   **CS 2114, Software Design and Data Structures**.
   Virginia Tech.
   January 2013-May 2013.
+
 # Publications
 
 
@@ -114,6 +118,7 @@ __<big>Magazine Articles.</big>__
 
 [M1] H. Turner, J. White, **B. Amos**, J. Camelio, C. Williams, and R. Parker, "Bad Parts: Are Our Manufacturing Systems At Risk of Silent
 Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear<br><br>
+
 
 
 
@@ -159,9 +164,17 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 &#124; January 2011-August 2011
 + Internship in high school to replace Windows domain, mail, DHCP, and DNS servers with virtual **Linux** servers using **KVM** and **virsh**.
 
+
 # Projects
 
 
+
+
+<big>[GitHub Portfolio](http://github.com/bamos)</big>
+
+
++ Hosts code samples, original source code, and patches for open source projects.
++ 25 original repositories, 5 forked repositories.
 
 
 <big>[Personal Blog and Website](http://bamos.io)</big>
@@ -172,12 +185,6 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 + Python, Bash, Linux, LaTeX, Fortran, Android, Scala, News, JavaScript, Zsh, C++, OpenMP, Lua, Make, Mathematica, mpv
 
 
-<big>[GitHub Portfolio](http://github.com/bamos)</big>
-
-
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 25 original repositories, 5 forked repositories.
-
 
 # Skills
 
@@ -186,6 +193,7 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 + __Languages.__ Akka\*\*, Bash\*\*, C/C++\*\*, C#\*, Fortran\*\*, HTML/CSS\*, LaTeX\*\*, Java\*\*, JavaScript\*\*,  Mathematica\*\*, Make\*\*\*, PHP\*, Python\*\*\*, R\*, Scala\*\*\*
 + __Systems.__ Android\*\*, Linux\*\*\*, Mac\*\*\*
 + __Rankings.__ 1/10\* - 3/10\*\* - 5/10\*\*\* - 7/10\*\*\*\*
+
 
 # Honors & Awards
 
@@ -216,6 +224,7 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 + I. Luck Gravett Memorial Merit Scholarship, Scottish Rite of Freemasonry, 2011
 + [Salem-Roanoke County Chamber of Commerce Merit Scholarship, 2011](http://s-rcchamber.org/wp-content/uploads/2011/03/August-2011-NL.pdf)
 
+
 # Activities
 
 
@@ -225,4 +234,5 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 + Symphony Band, Virginia Tech, 2011-2012
 + Linux and Unix Users Group, Virginia Tech, 2011-2012
 + Galileo Living-Learning Community, Virginia Tech, 2011-2012
+
 
