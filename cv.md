@@ -15,7 +15,8 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](mailto:bamos@cs.cmu.edu) &#124;
  (540) 947 1238 &#124;
-Generated December 16, 2014.
+Generated December 20, 2014.
+
 
 # Research Interests
 
@@ -43,15 +44,45 @@ GPA: 3.99/4.00
 
 
 
+<div class="panel-group" id="accordion" role="tablist"
+     aria-multiselectable="true">
 
-__<big>Carnegie Mellon University.</big>__  Research Assistant.
+  
+  <div class="panel panel-default">
+    <div class="panel-heading"
+         role="tab" id="Rheading1">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#Rcollapse1" aria-expanded="false" aria-controls="Rcollapse1">
+          <b>Carnegie Mellon University</b>: Research Assistant
+        </a>
+      </h4>
+    </div>
+    <div id="Rcollapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="Rheading1">
+
+<div class="panel-body" markdown="1">
 
 + Pittsburgh, Pennsylvania
 &#124; Advisor: Dr. Mahadev Satyanarayanan
 &#124; August 2014-Present
 + **Research Area**: Mobile computing and distributed systems.
 
-__<big>Magnum Research Group.</big>__  Undergraduate Research Assistant.
+
+</div>
+</div>
+</div>
+  
+  <div class="panel panel-default">
+    <div class="panel-heading"
+         role="tab" id="Rheading2">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#Rcollapse2" aria-expanded="false" aria-controls="Rcollapse2">
+          <b>Magnum Research Group</b>: Undergraduate Research Assistant
+        </a>
+      </h4>
+    </div>
+    <div id="Rcollapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="Rheading2">
+
+<div class="panel-body" markdown="1">
 
 + Blacksburg, Virginia
 &#124; Advisor: Dr. Jules White
@@ -60,7 +91,23 @@ __<big>Magnum Research Group.</big>__  Undergraduate Research Assistant.
 + Android malware detection research implemented with a distributed **Actor-based Scala** system.
 + Manufacturing cyber-physical security research implemented with **VC#** and **Python**.
 
-__<big>Virginia Tech.</big>__  Undergraduate Research Assistant.
+
+</div>
+</div>
+</div>
+  
+  <div class="panel panel-default">
+    <div class="panel-heading"
+         role="tab" id="Rheading3">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#Rcollapse3" aria-expanded="false" aria-controls="Rcollapse3">
+          <b>Virginia Tech</b>: Undergraduate Research Assistant
+        </a>
+      </h4>
+    </div>
+    <div id="Rcollapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="Rheading3">
+
+<div class="panel-body" markdown="1">
 
 + Blacksburg, Virginia
 &#124; Advisor: Dr. Layne Watson
@@ -69,7 +116,23 @@ __<big>Virginia Tech.</big>__  Undergraduate Research Assistant.
 + Algorithm development for stochastic optimization using quasi-Newton methods for **parameter estimation** in **Fortran 95** and **OpenMP**.
 + Bioinformatics research on yeast cell modeling using **Fortran 95**, **C++**, and **Matlab**.
 
-__<big>Systems Software Research Group.</big>__  Undergraduate Research Assistant.
+
+</div>
+</div>
+</div>
+  
+  <div class="panel panel-default">
+    <div class="panel-heading"
+         role="tab" id="Rheading4">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#Rcollapse4" aria-expanded="false" aria-controls="Rcollapse4">
+          <b>Systems Software Research Group</b>: Undergraduate Research Assistant
+        </a>
+      </h4>
+    </div>
+    <div id="Rcollapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="Rheading4">
+
+<div class="panel-body" markdown="1">
 
 + Blacksburg, Virginia
 &#124; Advisor: Dr. Binoy Ravindran
@@ -77,6 +140,13 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
 + **Research Area**: Compilers.
 + Compiler research on a heterogenous system on automatic **OpenMP** to **CUDA** translation using **C++** and the **ROSE** compiler framework.
 + Polyhedral loop optimization research to restructure **OpenCL** kernels for locality using **LLVM** and **Polly**.
+
+
+</div>
+</div>
+</div>
+  
+</div>
 
 
 # Teaching Experience
@@ -92,7 +162,22 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
 
 
 
-__<big>Conference Proceedings.</big>__
+<div class="panel-group" id="accordion" role="tablist"
+     aria-multiselectable="true">
+
+  
+  <div class="panel panel-default">
+    <div class="panel-heading"
+         role="tab" id="pub-heading1">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#pub-collapse1" aria-expanded="false" aria-controls="pub-collapse1">
+          <b>Conference Proceedings.</b>
+        </a>
+      </h4>
+    </div>
+    <div id="pub-collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="pub-heading1">
+
+<div class="panel-body" markdown="1">
 
 [C1] W. Hu, **B. Amos**, Z. Chen, K. Ha, W. Richter, P. Pillai, B. Gilbert, J. Harkes, and M. Satyanarayanan, "The Case for Offload Shaping," submitted<br><br>
 [C2] **B. Amos** and D. Tompkins, "Performance study of Spindle, a web analytics query engine
@@ -102,40 +187,97 @@ in Systems Biology," in <em>2014 Summer Simulation Multiconference, Society for 
 [C4] **B. Amos**, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker, "Fortran 95 implementation of QNSTOP for global and
 stochastic optimization," in <em>2014 Spring Simulation Multiconference, 22nd High Performance Computer Symposium, Society for Modeling and Simulation International</em>, 2014<br><br>
 [C5] **B. Amos**, H. Turner, and J. White, "Applying machine learning classifiers to dynamic Android
-malware detection at scale," in <em>IWCMC'13 Security, Trust and Privacy Symposium</em>, 2013<br><br>
+malware detection at scale," in <em>IWCMC'13 Security, Trust and Privacy Symposium</em>, 2013
 
+</div>
+</div>
+</div>
+  
+  <div class="panel panel-default">
+    <div class="panel-heading"
+         role="tab" id="pub-heading2">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#pub-collapse2" aria-expanded="false" aria-controls="pub-collapse2">
+          <b>Journal Articles.</b>
+        </a>
+      </h4>
+    </div>
+    <div id="pub-collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="pub-heading2">
 
+<div class="panel-body" markdown="1">
 
+[J1] **B. Amos**, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset, "QNSTOP-QuasiNewton Algorithm for Stochastic Optimization," submitted
 
-__<big>Journal Articles.</big>__
+</div>
+</div>
+</div>
+  
+  <div class="panel panel-default">
+    <div class="panel-heading"
+         role="tab" id="pub-heading3">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#pub-collapse3" aria-expanded="false" aria-controls="pub-collapse3">
+          <b>Magazine Articles.</b>
+        </a>
+      </h4>
+    </div>
+    <div id="pub-collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="pub-heading3">
 
-[J1] **B. Amos**, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset, "QNSTOP-QuasiNewton Algorithm for Stochastic Optimization," submitted<br><br>
-
-
-
-
-__<big>Magazine Articles.</big>__
+<div class="panel-body" markdown="1">
 
 [M1] H. Turner, J. White, **B. Amos**, J. Camelio, C. Williams, and R. Parker, "Bad Parts: Are Our Manufacturing Systems At Risk of Silent
-Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear<br><br>
+Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear
 
-
-
+</div>
+</div>
+</div>
+  
+</div>
 
 
 # Industry Experience
 
 
 
+<div class="panel-group" id="accordion" role="tablist"
+     aria-multiselectable="true">
 
-__<big>Adobe Research.</big>__  Data Scientist Intern.
+  
+  <div class="panel panel-default">
+    <div class="panel-heading"
+         role="tab" id="Iheading1">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#Icollapse1" aria-expanded="false" aria-controls="Icollapse1">
+          <b>Adobe Research</b>: Data Scientist Intern
+        </a>
+      </h4>
+    </div>
+    <div id="Icollapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="Iheading1">
+
+<div class="panel-body" markdown="1">
 
 + San Jose, California
 &#124; May 2014-August 2014
 + **Research Area**: Distributed Systems
 + Built and released  Spindle as an open sourec web analytics processing engine using **Scala**, **Spark**, **Spray**, and **Parquet** on **HDFS**. Spindle is available on GitHub at [http://github.com/adobe-research/spindle](http://github.com/adobe-research/spindle).
 
-__<big>Snowplow Analytics.</big>__  Software Winter Intern.
+
+</div>
+</div>
+</div>
+  
+  <div class="panel panel-default">
+    <div class="panel-heading"
+         role="tab" id="Iheading2">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#Icollapse2" aria-expanded="false" aria-controls="Icollapse2">
+          <b>Snowplow Analytics</b>: Software Winter Intern
+        </a>
+      </h4>
+    </div>
+    <div id="Icollapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="Iheading2">
+
+<div class="panel-body" markdown="1">
 
 + London, United Kingdom (Remote)
 &#124; December 2013-January 2014
@@ -143,14 +285,46 @@ __<big>Snowplow Analytics.</big>__  Software Winter Intern.
 + Developed a new server using **Spray** and **Actors** to store **Apache Thrift** events on **Amazon Kinesis**.
 + Completed project ahead of schedule, and also helped port Snowplow's Scala enrichment process to Kinesis.
 
-__<big>Qualcomm.</big>__  Source Integrity Team Software Intern.
+
+</div>
+</div>
+</div>
+  
+  <div class="panel panel-default">
+    <div class="panel-heading"
+         role="tab" id="Iheading3">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#Icollapse3" aria-expanded="false" aria-controls="Icollapse3">
+          <b>Qualcomm</b>: Source Integrity Team Software Intern
+        </a>
+      </h4>
+    </div>
+    <div id="Icollapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="Iheading3">
+
+<div class="panel-body" markdown="1">
 
 + San Diego, California
 &#124; May 2013-August 2013
 + Developed an XML modification **web application** for fuzz vector generation. Implemented with client-side **HTML** and **js**, using **D3** for graphics and **Handlebars** for templating.
 + Developed an XML-based grammar translator in **C++** with the **Xerces** XML parser in **Linux**. Reimplemented in **Python** using the **ElementTree** XML API for sophisticated analysis and tree transformations.
 
-__<big>Phoenix Integration.</big>__  Software Engineer Intern.
+
+</div>
+</div>
+</div>
+  
+  <div class="panel panel-default">
+    <div class="panel-heading"
+         role="tab" id="Iheading4">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#Icollapse4" aria-expanded="false" aria-controls="Icollapse4">
+          <b>Phoenix Integration</b>: Software Engineer Intern
+        </a>
+      </h4>
+    </div>
+    <div id="Icollapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="Iheading4">
+
+<div class="panel-body" markdown="1">
 
 + Blacksburg, Virginia
 &#124; May 2012-August 2012
@@ -158,23 +332,39 @@ __<big>Phoenix Integration.</big>__  Software Engineer Intern.
 + Improved the testing (**JUnit** and **NUnit**) and installation (**Ant**, **InstallShield**, and **Make**) frameworks.
 + Integrated a new licensing mode into CenterLink, a grid computing application, using **FLEXlm** and **Java**.
 
-__<big>Sunapsys.</big>__  Network Administrator Intern.
+
+</div>
+</div>
+</div>
+  
+  <div class="panel panel-default">
+    <div class="panel-heading"
+         role="tab" id="Iheading5">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#Icollapse5" aria-expanded="false" aria-controls="Icollapse5">
+          <b>Sunapsys</b>: Network Administrator Intern
+        </a>
+      </h4>
+    </div>
+    <div id="Icollapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="Iheading5">
+
+<div class="panel-body" markdown="1">
 
 + Vinton, Virginia
 &#124; January 2011-August 2011
 + Internship in high school to replace Windows domain, mail, DHCP, and DNS servers with virtual **Linux** servers using **KVM** and **virsh**.
 
 
+</div>
+</div>
+</div>
+  
+</div>
+
+
 # Projects
 
 
-
-
-<big>[GitHub Portfolio](http://github.com/bamos)</big>
-
-
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 25 original repositories, 5 forked repositories.
 
 
 <big>[Personal Blog and Website](http://bamos.io)</big>
@@ -183,6 +373,13 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 + Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
 + **42 posts** across the following tags, listed by highest frequency.
 + Python, Bash, Linux, LaTeX, Fortran, Android, Scala, News, JavaScript, Zsh, C++, OpenMP, Lua, Make, Mathematica, mpv
+
+
+<big>[GitHub Portfolio](http://github.com/bamos)</big>
+
+
++ Hosts code samples, original source code, and patches for open source projects.
++ 25 original repositories, 5 forked repositories.
 
 
 
@@ -234,5 +431,4 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 + Symphony Band, Virginia Tech, 2011-2012
 + Linux and Unix Users Group, Virginia Tech, 2011-2012
 + Galileo Living-Learning Community, Virginia Tech, 2011-2012
-
 
