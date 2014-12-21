@@ -1,6 +1,6 @@
 ---
 layout: post
-title: One-year GitHub streak!
+title: Takeaways from my one-year GitHub streak.
 tags: [News]
 ---
 
