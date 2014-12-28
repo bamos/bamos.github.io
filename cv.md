@@ -170,19 +170,19 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 
 
 
-<big>[GitHub Portfolio](http://github.com/bamos)</big>
-
-
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 25 original repositories, 5 forked repositories.
-
-
 <big>[Personal Blog and Website](http://bamos.io)</big>
 
 
 + Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
 + **42 posts** across the following tags, listed by highest frequency.
 + Python, Bash, Linux, LaTeX, Fortran, Android, Scala, News, JavaScript, Zsh, C++, OpenMP, Lua, Make, Mathematica, mpv
+
+
+<big>[GitHub Portfolio](http://github.com/bamos)</big>
+
+
++ Hosts code samples, original source code, and patches for open source projects.
++ 25 original repositories, 5 forked repositories.
 
 
 
