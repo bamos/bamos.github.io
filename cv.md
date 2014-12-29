@@ -15,7 +15,7 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](mailto:bamos@cs.cmu.edu) &#124;
  (540) 947 1238 &#124;
-Generated December 28, 2014.
+Generated December 29, 2014.
 
 # Research Interests
 
@@ -170,19 +170,19 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 
 
 
+<big>[GitHub Portfolio](http://github.com/bamos)</big>
+
+
++ Hosts code samples, original source code, and patches for open source projects.
++ 25 original repositories, 5 forked repositories.
+
+
 <big>[Personal Blog and Website](http://bamos.io)</big>
 
 
 + Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
 + **42 posts** across the following tags, listed by highest frequency.
 + Python, Bash, Linux, LaTeX, Fortran, Android, Scala, News, JavaScript, Zsh, C++, OpenMP, Lua, Make, Mathematica, mpv
-
-
-<big>[GitHub Portfolio](http://github.com/bamos)</big>
-
-
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 25 original repositories, 5 forked repositories.
 
 
 
@@ -198,20 +198,20 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 # Honors & Awards
 
 
-+ Phi Beta Kappa Honor Society, Inducted 2014
-+ 1st Place Capstone Award, Virginia Tech Computer Science, 2014
-+ David Heilman Research Award, Virginia Tech Computer Science, 2014
++ Phi Beta Kappa Honor Society
++ 1st Place Capstone Award, Virginia Tech Computer Science
++ David Heilman Research Award, Virginia Tech Computer Science
   + Given to the Computer Science student with the most outstanding research experience.
-+ Senior Scholar Award, Virginia Tech Computer Science, 2014
++ Senior Scholar Award, Virginia Tech Computer Science
   + Given to the senior in Computer Science with the most outstanding academic record.
-+ [Honorable Mention, CRA Outstanding Undergraduate Researcher Award, 2014](http://cra.org/awards/undergrad-view/2014_outstanding_undergraduate_award_recipients/)
-+ Benjamin F. Bock Merit Scholarship, Virginia Tech Engineering, 2013-2014
-+ Intelligence Community Center of Academic Excellence Fellowship, Virginia Tech, 2012-2014
-+ Engineering Merit Scholarship, Roanoke County Public Schools Education Foundation, 2011
-+ Papa John's Merit Scholarship, 2011
-+ Gay B. Shober Memorial Merit Scholarship, Roanoke County Federal Credit Union, 2011
-+ [Pamplin Leader Merit Scholarship, Virginia Tech, 2011](http://ww2.roanoke.com/community/virginia/education/wb/292050)
-+ I. Luck Gravett Memorial Merit Scholarship, Scottish Rite of Freemasonry, 2011
-+ [Salem-Roanoke County Chamber of Commerce Merit Scholarship, 2011](http://s-rcchamber.org/wp-content/uploads/2011/03/August-2011-NL.pdf)
++ [Honorable Mention, CRA Outstanding Undergraduate Researcher Award](http://cra.org/awards/undergrad-view/2014_outstanding_undergraduate_award_recipients/)
++ Benjamin F. Bock Merit Scholarship, Virginia Tech Engineering
++ Intelligence Community Center of Academic Excellence Scholarship, Virginia Tech
++ Engineering Merit Scholarship, Roanoke County Public Schools Education Foundation
++ Papa John's Merit Scholarship
++ Gay B. Shober Memorial Merit Scholarship, Roanoke County Federal Credit Union
++ [Pamplin Leader Merit Scholarship, Virginia Tech](http://ww2.roanoke.com/community/virginia/education/wb/292050)
++ I. Luck Gravett Memorial Merit Scholarship, Scottish Rite of Freemasonry
++ [Salem-Roanoke County Chamber of Commerce Merit Scholarship](http://s-rcchamber.org/wp-content/uploads/2011/03/August-2011-NL.pdf)
 
 
