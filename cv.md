@@ -17,10 +17,12 @@ h1 {
  (540) 947 1238 &#124;
 Generated December 29, 2014.
 
+
 # Research Interests
 
 
 Mobile computing, distributed systems, and computer vision.
+
 # Education
 
 
@@ -35,6 +37,7 @@ GPA: 3.99/4.00
 
 + Blacksburg, Virginia
 &#124; August 2011-May 2014
+
 
 
 # Research Experience
@@ -76,6 +79,7 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
 + Compiler research on a heterogenous system on automatic **OpenMP** to **CUDA** translation using **C++** and the **ROSE** compiler framework.
 + Polyhedral loop optimization research to restructure **OpenCL** kernels for locality using **LLVM** and **Polly**.
 
+
 # Teaching Experience
 
 
@@ -83,6 +87,7 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
   **CS 2114, Software Design and Data Structures**.
   Virginia Tech.
   January 2013-May 2013.
+
 # Publications
 
 
@@ -114,6 +119,7 @@ __<big>Magazine Articles.</big>__
 
 [M1] H. Turner, J. White, **B. Amos**, J. Camelio, C. Williams, and R. Parker, "Bad Parts: Are Our Manufacturing Systems At Risk of Silent
 Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear<br><br>
+
 
 
 
@@ -159,6 +165,7 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 &#124; January 2011-August 2011
 + Internship in high school to replace Windows domain, mail, DHCP, and DNS servers with virtual **Linux** servers using **KVM** and **virsh**.
 
+
 # Projects
 
 
@@ -179,6 +186,7 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 + Python, Bash, Linux, LaTeX, Fortran, Android, Scala, News, JavaScript, Zsh, C++, OpenMP, Lua, Make, Mathematica, mpv
 
 
+
 # Skills
 
 
@@ -186,6 +194,7 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 + __Languages.__ Akka\*\*, Bash\*\*, C/C++\*\*, C#\*, Fortran\*\*, HTML/CSS\*, LaTeX\*\*, Java\*\*, JavaScript\*\*,  Mathematica\*\*, Make\*\*\*, PHP\*, Python\*\*\*, R\*, Scala\*\*\*
 + __Systems.__ Android\*\*, Linux\*\*\*, Mac\*\*\*
 + __Rankings.__ 1/10\* - 3/10\*\* - 5/10\*\*\* - 7/10\*\*\*\*
+
 
 # Honors & Awards
 
