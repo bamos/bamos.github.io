@@ -21,7 +21,6 @@ Generated December 29, 2014.
 
 
 Mobile computing, distributed systems, and computer vision.
-
 # Education
 
 
@@ -36,7 +35,6 @@ GPA: 3.99/4.00
 
 + Blacksburg, Virginia
 &#124; August 2011-May 2014
-
 
 
 # Research Experience
@@ -78,7 +76,6 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
 + Compiler research on a heterogenous system on automatic **OpenMP** to **CUDA** translation using **C++** and the **ROSE** compiler framework.
 + Polyhedral loop optimization research to restructure **OpenCL** kernels for locality using **LLVM** and **Polly**.
 
-
 # Teaching Experience
 
 
@@ -86,7 +83,6 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
   **CS 2114, Software Design and Data Structures**.
   Virginia Tech.
   January 2013-May 2013.
-
 # Publications
 
 
@@ -118,7 +114,6 @@ __<big>Magazine Articles.</big>__
 
 [M1] H. Turner, J. White, **B. Amos**, J. Camelio, C. Williams, and R. Parker, "Bad Parts: Are Our Manufacturing Systems At Risk of Silent
 Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear<br><br>
-
 
 
 
@@ -164,7 +159,6 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 &#124; January 2011-August 2011
 + Internship in high school to replace Windows domain, mail, DHCP, and DNS servers with virtual **Linux** servers using **KVM** and **virsh**.
 
-
 # Projects
 
 
@@ -185,7 +179,6 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 + Python, Bash, Linux, LaTeX, Fortran, Android, Scala, News, JavaScript, Zsh, C++, OpenMP, Lua, Make, Mathematica, mpv
 
 
-
 # Skills
 
 
@@ -193,7 +186,6 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 + __Languages.__ Akka\*\*, Bash\*\*, C/C++\*\*, C#\*, Fortran\*\*, HTML/CSS\*, LaTeX\*\*, Java\*\*, JavaScript\*\*,  Mathematica\*\*, Make\*\*\*, PHP\*, Python\*\*\*, R\*, Scala\*\*\*
 + __Systems.__ Android\*\*, Linux\*\*\*, Mac\*\*\*
 + __Rankings.__ 1/10\* - 3/10\*\* - 5/10\*\*\* - 7/10\*\*\*\*
-
 
 # Honors & Awards
 
@@ -204,14 +196,13 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
   + Given to the Computer Science student with the most outstanding research experience.
 + Senior Scholar Award, Virginia Tech Computer Science
   + Given to the senior in Computer Science with the most outstanding academic record.
-+ [Honorable Mention, CRA Outstanding Undergraduate Researcher Award](http://cra.org/awards/undergrad-view/2014_outstanding_undergraduate_award_recipients/)
++ [Honorable Mention, CRA Outstanding Undergraduate Researcher Award](http://cra.org/awards/undergrad-view/2014_outstanding_undergraduate_award_recipients/), 
 + Benjamin F. Bock Merit Scholarship, Virginia Tech Engineering
 + Intelligence Community Center of Academic Excellence Scholarship, Virginia Tech
 + Engineering Merit Scholarship, Roanoke County Public Schools Education Foundation
 + Papa John's Merit Scholarship
 + Gay B. Shober Memorial Merit Scholarship, Roanoke County Federal Credit Union
-+ [Pamplin Leader Merit Scholarship, Virginia Tech](http://ww2.roanoke.com/community/virginia/education/wb/292050)
++ [Pamplin Leader Merit Scholarship, Virginia Tech](http://ww2.roanoke.com/community/virginia/education/wb/292050), 
 + I. Luck Gravett Memorial Merit Scholarship, Scottish Rite of Freemasonry
-+ [Salem-Roanoke County Chamber of Commerce Merit Scholarship](http://s-rcchamber.org/wp-content/uploads/2011/03/August-2011-NL.pdf)
-
++ [Salem-Roanoke County Chamber of Commerce Merit Scholarship](http://s-rcchamber.org/wp-content/uploads/2011/03/August-2011-NL.pdf), 
 
