@@ -30,6 +30,8 @@ Next, you'll likely need to change the `put` command coordinates
 to fit with different text sizes because they are anchored at the bottom-left.
 I welcome pull requests or comments on how to better anchor the
 text areas.
+If I make another version in the future, I plan to use
+[TikZ](http://sourceforge.net/projects/pgf/) for the design.
 
 The image below shows the output of the template,
 and the PDF is available [here](/data/2014-12-30/business-cards.pdf).
