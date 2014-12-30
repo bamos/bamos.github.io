@@ -10,9 +10,9 @@ tags: [LaTeX]
 
 [LaTeX](http://www.latex-project.org/) is a typesetting system
 for high-quality technical documents.
-I've added a simple LaTeX business card template to my
-[bamos/latex-templates](https://github.com/bamos/latex-templates)
-project, which now contains ten simple LaTeX templates.
+I maintain my LaTeX templates as an open source project on GitHub
+at [bamos/latex-templates](https://github.com/bamos/latex-templates)
+and have added a simple LaTeX business card template.
 You can browse the sources at
 [templates/business-cards](https://github.com/bamos/latex-templates/tree/master/templates/business-cards),
 or download the tar-archived directory from
