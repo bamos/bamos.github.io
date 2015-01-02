@@ -15,7 +15,7 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](mailto:bamos@cs.cmu.edu) &#124;
  (540) 947 1238 &#124;
-Generated December 29, 2014.
+Generated January 02, 2015.
 
 
 # Research Interests
@@ -76,7 +76,7 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
 &#124; Advisor: Dr. Binoy Ravindran
 &#124; November 2012-March 2014
 + **Research Area**: Compilers.
-+ Compiler research on a heterogenous system on automatic **OpenMP** to **CUDA** translation using **C++** and the **ROSE** compiler framework.
++ Compiler research on a heterogeneous system on automatic **OpenMP** to **CUDA** translation using **C++** and the **ROSE** compiler framework.
 + Polyhedral loop optimization research to restructure **OpenCL** kernels for locality using **LLVM** and **Polly**.
 
 
@@ -134,7 +134,7 @@ __<big>Adobe Research.</big>__  Data Scientist Intern.
 + San Jose, California
 &#124; May 2014-August 2014
 + **Research Area**: Distributed Systems
-+ Built and released  Spindle as an open sourec web analytics processing engine using **Scala**, **Spark**, **Spray**, and **Parquet** on **HDFS**. Spindle is available on GitHub at [http://github.com/adobe-research/spindle](http://github.com/adobe-research/spindle).
++ Built and released  Spindle as an open source web analytics processing engine using **Scala**, **Spark**, **Spray**, and **Parquet** on **HDFS**. Spindle is available on GitHub at [http://github.com/adobe-research/spindle](http://github.com/adobe-research/spindle).
 
 __<big>Snowplow Analytics.</big>__  Software Winter Intern.
 
@@ -171,19 +171,19 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 
 
 
-<big>[GitHub Portfolio](http://github.com/bamos)</big>
-
-
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 25 original repositories, 5 forked repositories.
-
-
 <big>[Personal Blog and Website](http://bamos.io)</big>
 
 
 + Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
 + **42 posts** across the following tags, listed by highest frequency.
 + Python, Bash, Linux, LaTeX, Fortran, Android, Scala, News, JavaScript, Zsh, C++, OpenMP, Lua, Make, Mathematica, mpv
+
+
+<big>[GitHub Portfolio](http://github.com/bamos)</big>
+
+
++ Hosts code samples, original source code, and patches for open source projects.
++ 25 original repositories, 5 forked repositories.
 
 
 
