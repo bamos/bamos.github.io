@@ -26,7 +26,7 @@ social:
 Hi! I am a Computer Science Ph.D. student at [Carnegie Mellon][cmu]
 and obtained a B.S. in Computer Science
 from [Virginia Tech][vt] in May 2014.
-I'm interested the intersection of distributed
+I'm interested in the intersection of distributed
 and mobile computing and am happy to be advised
 by [Satya][satya].
 For more information, find my publications on
@@ -38,8 +38,8 @@ and maintain as many projects as possible on
 which is published with [jekyll][jekyll].
 
 If you'd like to contact me, please email me at
-<!-- http://obfuscateplease.com/ -->
-<a href="&#109;ailt&#111;:b&#97;&#109;o&#115;&#64;&#99;&#109;&#117;&#46;&#101;&#100;&#117;">&#98;a&#109;&#111;&#115;&#64;&#99;&#109;u&#46;&#101;<span style="display:none">pypbq</span>&#100;<span style="display:none">iqwkq</span>&#117;</a>,
+<!-- http://www.albionresearch.com/misc/obfuscator.php -->
+<a href='m&#97;ilto&#58;b&#97;m&#37;6Fs&#64;%63s&#46;cmu&#46;edu'>b&#97;mos&#64;&#99;&#115;&#46;cmu&#46;edu</a>,
 and feel free to use [PGP][pgp].
 
 ### Social networks.

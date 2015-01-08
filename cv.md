@@ -9,18 +9,20 @@ h1 {
 }
 </style>
 
-# brandon amos. vitæ.
+# Brandon Amos. vitæ.
 
 [PDF](/data/cv.pdf) &#124;
 [source](https://github.com/bamos/cv) &#124;
 [email](mailto:bamos@cs.cmu.edu) &#124;
  (540) 947 1238 &#124;
-Generated December 07, 2014.
+Generated January 02, 2015.
+
 
 # Research Interests
 
 
-Mobile computing; distributed systems; computer vision.
+Mobile computing, distributed systems, and computer vision.
+
 # Education
 
 
@@ -35,6 +37,7 @@ GPA: 3.99/4.00
 
 + Blacksburg, Virginia
 &#124; August 2011-May 2014
+
 
 
 # Research Experience
@@ -73,8 +76,9 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
 &#124; Advisor: Dr. Binoy Ravindran
 &#124; November 2012-March 2014
 + **Research Area**: Compilers.
-+ Compiler research on a heterogenous system on automatic **OpenMP** to **CUDA** translation using **C++** and the **ROSE** compiler framework.
++ Compiler research on a heterogeneous system on automatic **OpenMP** to **CUDA** translation using **C++** and the **ROSE** compiler framework.
 + Polyhedral loop optimization research to restructure **OpenCL** kernels for locality using **LLVM** and **Polly**.
+
 
 # Teaching Experience
 
@@ -83,6 +87,7 @@ __<big>Systems Software Research Group.</big>__  Undergraduate Research Assistan
   **CS 2114, Software Design and Data Structures**.
   Virginia Tech.
   January 2013-May 2013.
+
 # Publications
 
 
@@ -118,6 +123,7 @@ Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear<br><br>
 
 
 
+
 # Industry Experience
 
 
@@ -128,7 +134,7 @@ __<big>Adobe Research.</big>__  Data Scientist Intern.
 + San Jose, California
 &#124; May 2014-August 2014
 + **Research Area**: Distributed Systems
-+ Built and released  Spindle as an open sourec web analytics processing engine using **Scala**, **Spark**, **Spray**, and **Parquet** on **HDFS**. Spindle is available on GitHub at [http://github.com/adobe-research/spindle](http://github.com/adobe-research/spindle).
++ Built and released  Spindle as an open source web analytics processing engine using **Scala**, **Spark**, **Spray**, and **Parquet** on **HDFS**. Spindle is available on GitHub at [http://github.com/adobe-research/spindle](http://github.com/adobe-research/spindle).
 
 __<big>Snowplow Analytics.</big>__  Software Winter Intern.
 
@@ -159,16 +165,10 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 &#124; January 2011-August 2011
 + Internship in high school to replace Windows domain, mail, DHCP, and DNS servers with virtual **Linux** servers using **KVM** and **virsh**.
 
+
 # Projects
 
 
-
-
-<big>[GitHub Portfolio](http://github.com/bamos)</big>
-
-
-+ Hosts code samples, original source code, and patches for open source projects.
-+ 25 original repositories, 5 forked repositories.
 
 
 <big>[Personal Blog and Website](http://bamos.io)</big>
@@ -179,6 +179,14 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 + Python, Bash, Linux, LaTeX, Fortran, Android, Scala, News, JavaScript, Zsh, C++, OpenMP, Lua, Make, Mathematica, mpv
 
 
+<big>[GitHub Portfolio](http://github.com/bamos)</big>
+
+
++ Hosts code samples, original source code, and patches for open source projects.
++ 25 original repositories, 5 forked repositories.
+
+
+
 # Skills
 
 
@@ -187,42 +195,23 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 + __Systems.__ Android\*\*, Linux\*\*\*, Mac\*\*\*
 + __Rankings.__ 1/10\* - 3/10\*\* - 5/10\*\*\* - 7/10\*\*\*\*
 
+
 # Honors & Awards
 
 
-+ Phi Beta Kappa Honor Society, Inducted 2014
-+ 1st Place Capstone Award, Virginia Tech Computer Science, 2014
-+ David Heilman Research Award, Virginia Tech Computer Science, 2014
++ Phi Beta Kappa Honor Society
++ 1st Place Capstone Award, Virginia Tech Computer Science
++ David Heilman Research Award, Virginia Tech Computer Science
   + Given to the Computer Science student with the most outstanding research experience.
-+ Senior Scholar Award, Virginia Tech Computer Science, 2014
++ Senior Scholar Award, Virginia Tech Computer Science
   + Given to the senior in Computer Science with the most outstanding academic record.
-+ [ACC Meeting of the Minds Undergraduate Research Conference, 2014](http://www.vtnews.vt.edu/articles/2014/03/030514-uged-accmom.html)
-+ [Honorable Mention, CRA Outstanding Undergraduate Researcher Award, 2014](http://cra.org/awards/undergrad-view/2014_outstanding_undergraduate_award_recipients/)
-  + 1 of 15 North American males awarded honorable mention for exemplary computer science research.
-+ Qualstar Award, Qualcomm, 2013
-+ Pi Mu Epsilon Honor Society, Inducted 2013
-+ Benjamin F. Bock Merit Scholarship, Virginia Tech Engineering, 2013-2014
-+ Sophomore Scholar Award, Virginia Tech Computer Science, 2013
-+ University Honors, Virginia Tech, 2012-2014
-+ Intelligence Community Center of Academic Excellence Scholar, Virginia Tech, 2012-2014
-  + Merit-based scholarship providing a cyber-security research fellowship.
-+ Dean's List with Distinction, Virginia Tech, 2011-2014
-+ Engineering Merit Scholarship, Roanoke County Public Schools Education Foundation, 2011
-  + Merit-based scholarship presented annually to one student in the graduating Engineering class.
-+ Papa John's Merit Scholarship, 2011
-+ Gay B. Shober Memorial Merit Scholarship, Roanoke County Federal Credit Union, 2011
-+ [Pamplin Leader Scholarship, Virginia Tech, 2011](http://ww2.roanoke.com/community/virginia/education/wb/292050)
-  + Merit-based scholarship presented to one student from each public high school in Virginia.
-+ I. Luck Gravett Memorial Merit Scholarship, Scottish Rite of Freemasonry, 2011
-+ [Salem-Roanoke County Chamber of Commerce Merit Scholarship, 2011](http://s-rcchamber.org/wp-content/uploads/2011/03/August-2011-NL.pdf)
-
-# Activities
-
-
-+ Honors Residential College, Virginia Tech, 2013-2014
-+ Hokies Pep Band, Virginia Tech, 2012-2013
-+ Computer Science Community Service, Virginia Tech, 2012
-+ Symphony Band, Virginia Tech, 2011-2012
-+ Linux and Unix Users Group, Virginia Tech, 2011-2012
-+ Galileo Living-Learning Community, Virginia Tech, 2011-2012
++ [Honorable Mention, CRA Outstanding Undergraduate Researcher Award](http://cra.org/awards/undergrad-view/2014_outstanding_undergraduate_award_recipients/), 
++ Benjamin F. Bock Merit Scholarship, Virginia Tech Engineering
++ Intelligence Community Center of Academic Excellence Scholarship, Virginia Tech
++ Engineering Merit Scholarship, Roanoke County Public Schools Education Foundation
++ Papa John's Merit Scholarship
++ Gay B. Shober Memorial Merit Scholarship, Roanoke County Federal Credit Union
++ [Pamplin Leader Merit Scholarship, Virginia Tech](http://ww2.roanoke.com/community/virginia/education/wb/292050), 
++ I. Luck Gravett Memorial Merit Scholarship, Scottish Rite of Freemasonry
++ [Salem-Roanoke County Chamber of Commerce Merit Scholarship](http://s-rcchamber.org/wp-content/uploads/2011/03/August-2011-NL.pdf), 
 
