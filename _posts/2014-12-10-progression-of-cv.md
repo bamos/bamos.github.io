@@ -44,7 +44,7 @@ to understand the template when I wanted to make a small modification.
 This isn't as visually pleasing as other templates
 and spacing is still difficult to get right!
 
-# Third: Current
+# Third Version: Current
 <center>
   <small>Click the image to view the PDF.</small><br>
   <a href='/data/2014-12-10/cv-3.pdf'>
