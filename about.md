@@ -26,23 +26,21 @@ social:
 Hi! I am a Computer Science Ph.D. student at [Carnegie Mellon][cmu]
 and obtained a B.S. in Computer Science
 from [Virginia Tech][vt] in May 2014.
-I'm interested in the intersection of distributed
-and mobile computing and am happy to be advised
-by [Satya][satya].
-For more information, find my publications on
-[Google Scholar][scholar] and see [my vitae][cv].
+I'm interested in distributed and mobile computing and am
+happy to be advised by [Satya][satya].
+For more information, find my publications on [Google Scholar][scholar],
+[my vitae][cv], and my [GitHub profile][github].
 
-I enjoy contributing to the open-source community
-and maintain as many projects as possible on
-[GitHub][github], including [this website][website],
-which is published with [jekyll][jekyll].
+This website is published with [jekyll][jekyll]
+and [openly available on GitHub][website] under
+the MIT license.
 
-If you'd like to contact me, please email me at
 <!-- http://www.albionresearch.com/misc/obfuscator.php -->
-<a href='m&#97;ilto&#58;b&#97;m&#37;6Fs&#64;%63s&#46;cmu&#46;edu'>b&#97;mos&#64;&#99;&#115;&#46;cmu&#46;edu</a>,
-and feel free to use [PGP][pgp].
++ Email: <a href='m&#97;ilto&#58;b&#97;m&#37;6Fs&#64;%63s&#46;cmu&#46;edu'>b&#97;mos&#64;&#99;&#115;&#46;cmu&#46;edu</a> ([PGP](/pgp))
++ IRC: `bdamos` on [Freenode](https://freenode.net/) and
+  [OFTC](http://www.oftc.net/).
 
-### Social networks.
+<br>
 
 <div class="footer-widget-container">
 {% for s in page.social %}
@@ -59,5 +57,4 @@ and feel free to use [PGP][pgp].
 [github]: https://github.com/bamos
 [website]: https://github.com/bamos/bamos.github.io
 [jekyll]: http://jekyllrb.com
-[pgp]: /pgp
 [satya]: http://www.cs.cmu.edu/~satya/
