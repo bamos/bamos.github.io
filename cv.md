@@ -15,7 +15,7 @@ h1 {
 [source](https://github.com/bamos/cv) &#124;
 [email](mailto:bamos@cs.cmu.edu) &#124;
  (540) 947 1238 &#124;
-Generated January 02, 2015.
+Generated February 01, 2015.
 
 
 # Research Interests
@@ -171,14 +171,6 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 
 
 
-<big>[Personal Blog and Website](http://bamos.io)</big>
-
-
-+ Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
-+ **42 posts** across the following tags, listed by highest frequency.
-+ Python, Bash, Linux, LaTeX, Fortran, Android, Scala, News, JavaScript, Zsh, C++, OpenMP, Lua, Make, Mathematica, mpv
-
-
 <big>[GitHub Portfolio](http://github.com/bamos)</big>
 
 
@@ -186,14 +178,21 @@ __<big>Sunapsys.</big>__  Network Administrator Intern.
 + 25 original repositories, 5 forked repositories.
 
 
+<big>[Personal Blog and Website](http://bamos.github.io)</big>
+
+
++ Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
++ **42 posts** across the following tags, listed by highest frequency.
++ Python, Bash, Linux, LaTeX, Fortran, Android, Scala, News, JavaScript, Zsh, C++, OpenMP, Lua, Make, Mathematica, mpv
+
+
 
 # Skills
 
 
 + __Preference.__ Arch Linux/Mac, vim/emacs, git/Make/sbt
-+ __Languages.__ Akka\*\*, Bash\*\*, C/C++\*\*, C#\*, Fortran\*\*, HTML/CSS\*, LaTeX\*\*, Java\*\*, JavaScript\*\*,  Mathematica\*\*, Make\*\*\*, PHP\*, Python\*\*\*, R\*, Scala\*\*\*
-+ __Systems.__ Android\*\*, Linux\*\*\*, Mac\*\*\*
-+ __Rankings.__ 1/10\* - 3/10\*\* - 5/10\*\*\* - 7/10\*\*\*\*
++ __Languages.__ Akka, Bash, C/C++, C#, Fortran, HTML/CSS, LaTeX, Java, JavaScript,  Mathematica, Make, PHP, Python, R, Scala
++ __Systems.__ Android, Linux, Mac
 
 
 # Honors & Awards
