@@ -22,8 +22,6 @@ social:
     img: /images/social/twitter.png
 ---
 
-# About
-
 Hi! I am a Computer Science Ph.D. student at [Carnegie Mellon][cmu]
 and obtained a B.S. in Computer Science
 from [Virginia Tech][vt] in May 2014.
