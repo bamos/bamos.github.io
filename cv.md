@@ -5,9 +5,22 @@ title: CV
 
 ## Brandon Amos ##
 
+<<<<<<< HEAD
 [PDF](/data/cv.pdf) |
 [source](https://github.com/bamos/cv) |
 Generated February 03, 2015.
+=======
+# Brandon Amos. vitæ.
+
+[PDF](/data/cv.pdf) &#124;
+[source](https://github.com/bamos/cv) &#124;
+[email](mailto:bamos@cs.cmu.edu) &#124;
+ (540) 947 1238 &#124;
+Generated February 01, 2015.
+
+
+# Research Interests
+>>>>>>> 232e3a277162f677f381aec957569e0484073c8c
 
 
 ## Research Interests
@@ -68,6 +81,7 @@ malware detection at scale," in <em>IWCMC'13 Security, Trust and Privacy Symposi
 Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear<br><br>
 
 
+<<<<<<< HEAD
 ## Industry Experience
 + Data Scientist Intern,
   Adobe Research,
@@ -95,6 +109,88 @@ Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear<br><br>
 ## Honors & Awards
 + 1st Place Undergraduate Senior Capstone Award, Virginia Tech Computer Science, 2014
 + David Heilman Research Award, Virginia Tech Computer Science, 2014
+=======
+
+
+
+# Industry Experience
+
+
+
+
+__<big>Adobe Research.</big>__  Data Scientist Intern.
+
++ San Jose, California
+&#124; May 2014-August 2014
++ **Research Area**: Distributed Systems
++ Built and released  Spindle as an open source web analytics processing engine using **Scala**, **Spark**, **Spray**, and **Parquet** on **HDFS**. Spindle is available on GitHub at [http://github.com/adobe-research/spindle](http://github.com/adobe-research/spindle).
+
+__<big>Snowplow Analytics.</big>__  Software Winter Intern.
+
++ London, United Kingdom (Remote)
+&#124; December 2013-January 2014
++ Open-source **Scala** development with a startup on the Snowplow analytics platform, available at [http://github.com/snowplow/snowplow](http://github.com/snowplow/snowplow).
++ Developed a new server using **Spray** and **Actors** to store **Apache Thrift** events on **Amazon Kinesis**.
++ Completed project ahead of schedule, and also helped port Snowplow's Scala enrichment process to Kinesis.
+
+__<big>Qualcomm.</big>__  Source Integrity Team Software Intern.
+
++ San Diego, California
+&#124; May 2013-August 2013
++ Developed an XML modification **web application** for fuzz vector generation. Implemented with client-side **HTML** and **js**, using **D3** for graphics and **Handlebars** for templating.
++ Developed an XML-based grammar translator in **C++** with the **Xerces** XML parser in **Linux**. Reimplemented in **Python** using the **ElementTree** XML API for sophisticated analysis and tree transformations.
+
+__<big>Phoenix Integration.</big>__  Software Engineer Intern.
+
++ Blacksburg, Virginia
+&#124; May 2012-August 2012
++ Developed industry software in **VC++**, **VC#**, **Java**, and **Tomcat**.
++ Improved the testing (**JUnit** and **NUnit**) and installation (**Ant**, **InstallShield**, and **Make**) frameworks.
++ Integrated a new licensing mode into CenterLink, a grid computing application, using **FLEXlm** and **Java**.
+
+__<big>Sunapsys.</big>__  Network Administrator Intern.
+
++ Vinton, Virginia
+&#124; January 2011-August 2011
++ Internship in high school to replace Windows domain, mail, DHCP, and DNS servers with virtual **Linux** servers using **KVM** and **virsh**.
+
+
+# Projects
+
+
+
+
+<big>[GitHub Portfolio](http://github.com/bamos)</big>
+
+
++ Hosts code samples, original source code, and patches for open source projects.
++ 25 original repositories, 5 forked repositories.
+
+
+<big>[Personal Blog and Website](http://bamos.github.io)</big>
+
+
++ Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
++ **42 posts** across the following tags, listed by highest frequency.
++ Python, Bash, Linux, LaTeX, Fortran, Android, Scala, News, JavaScript, Zsh, C++, OpenMP, Lua, Make, Mathematica, mpv
+
+
+
+# Skills
+
+
++ __Preference.__ Arch Linux/Mac, vim/emacs, git/Make/sbt
++ __Languages.__ Akka, Bash, C/C++, C#, Fortran, HTML/CSS, LaTeX, Java, JavaScript,  Mathematica, Make, PHP, Python, R, Scala
++ __Systems.__ Android, Linux, Mac
+
+
+# Honors & Awards
+
+
++ Phi Beta Kappa Honor Society
++ 1st Place Capstone Award, Virginia Tech Computer Science
++ David Heilman Research Award, Virginia Tech Computer Science
+>>>>>>> 232e3a277162f677f381aec957569e0484073c8c
   + Given to the Computer Science student with the most outstanding research experience.
 + Senior Scholar Award, Virginia Tech Computer Science, 2014
   + Given to the senior in Computer Science with the most outstanding academic record.
