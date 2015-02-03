@@ -75,7 +75,7 @@ Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear<br><br>
 + Software Winter Intern,
   Snowplow Analytics,
   Dec 2013-Jan 2014
-+ Source Integrity Team Software Intern,
++ Software Intern,
   Qualcomm,
   May 2013-Aug 2013
 + Software Engineer Intern,
