@@ -99,4 +99,4 @@ Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear<br><br>
 + Senior Scholar Award, Virginia Tech Computer Science, 2014
   + Given to the senior in Computer Science with the most outstanding academic record.
 + Honorable Mention, CRA Outstanding Undergraduate Researcher Award, 2014
-+ Awarded eight undergraduate merit scholarships, Virginia Tech, 2011-2014
++ Awarded eight undergraduate merit scholarships, 2011-2014
