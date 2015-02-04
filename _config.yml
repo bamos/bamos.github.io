@@ -1,11 +1,15 @@
-name: "Brandon Amos: Blog"
+name: Brandon Amos
 description: The personal blog of Brandon Amos
-url: http://bamos.io
+url: http://bamos.github.io
+twitter: brandondamos
+github.owner_url: https://github.com/bamos
 destination: ./_site
 lsi: false
 port: 4000
 highlighter: pygments
 markdown: kramdown
+kramdown:
+  parse_block_html: true
 permalink: pretty
 paginate: 5
 gems:

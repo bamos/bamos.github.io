@@ -1,5 +1,10 @@
-body {
-  padding-top: 50px;
+/* From @mnot at: https://github.com/twbs/bootstrap/issues/1767 */
+*[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
 }
 .starter-template {
   padding: 40px 15px;
