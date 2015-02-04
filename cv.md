@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: layout
 title: CV
 ---
 
+<section class="content">
 ## Brandon Amos ##
 
 [PDF](/data/cv.pdf) |
@@ -100,3 +101,5 @@ Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear<br><br>
   + Given to the senior in Computer Science with the most outstanding academic record.
 + Honorable Mention, CRA Outstanding Undergraduate Researcher Award, 2014
 + Awarded eight undergraduate merit scholarships, 2011-2014
+
+</section>
