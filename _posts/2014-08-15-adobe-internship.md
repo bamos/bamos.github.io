@@ -76,11 +76,14 @@ for my entire picture collection.
 </div>
 
 <div id='links' style="clear: both; text-align: left">
+  {% capture cache %}
   {% for pic in page.pics %}
-    <a href="{{pic}}" data-gallery>
-      <img src="{{pic}}" height='150em'/>
-    </a>
+<a href="{{pic}}" data-gallery>
+  <img src="{{pic}}" height='150em'/>
+</a>
   {% endfor %}
+  {% endcapture %}
+{{ cache | strip_newlines }}
 </div>
 
 <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
