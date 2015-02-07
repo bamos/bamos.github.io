@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Merging PDF's for printing by adding blank pages with Python.
+title: Merging PDFs for printing by adding blank pages with Python.
 tags: [Python]
 ---
 
