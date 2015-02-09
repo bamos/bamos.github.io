@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Short progression of my LaTeX/Python resume and CV.
+title: Short progression of my LaTeX/Python resume and CV
 tags: [LaTeX,Python]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Catching an interrupt and adding a shutdown hook in Scala.
+title: Catching an interrupt and adding a shutdown hook in Scala
 tags: [Scala]
 ---
 

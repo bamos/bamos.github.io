@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Email broken links daily with Python 3 in Linux.
+title: Email broken links daily with Python 3 in Linux
 tags: [Python,Linux]
 ---
 

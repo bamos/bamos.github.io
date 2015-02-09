@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Running virtual X11 sessions.
+title: Running virtual X11 sessions
 tags: [Linux]
 ---
 This is a short guide documenting my experiences

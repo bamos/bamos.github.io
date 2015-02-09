@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Redirect libav's log to Android's logcat when using NDK/JNI.
+title: Redirect libav's log to Android's logcat when using NDK/JNI
 tags: [Android]
 ---
 

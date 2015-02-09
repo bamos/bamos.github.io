@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prefixed multi-hop SSH wildcard configurations.
+title: Prefixed multi-hop SSH wildcard configurations
 tags: [Linux]
 ---
 

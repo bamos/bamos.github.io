@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Improving mpv as a music player with Lua scripts.
+title: Improving mpv as a music player with Lua scripts
 tags: [Linux,Lua,mpv]
 ---
 
@@ -89,7 +89,7 @@ end
 
 ## Move the current track into a new subdirectory.
 Sometimes I filter through an album and make certain
-songs as `good` by placing them in subdirectory entitled `good`.
+songs as `good` by placing them in subdirectory entitled `good`
 This is added by making the directory if it doesn't
 exist and moving the track into the directory.
 
@@ -105,7 +105,7 @@ end
 
 ## Print an MP3 track's info.
 The following uses `exiftool` to read exif metadata from an mp3
-and concisely print the artist and title.
+and concisely print the artist and title
 I disable `mpv`'s messaging by setting
 `msg-level=demux=no:ad=no:ffmpeg=no:ao=no` in
 [.mpv/config][.mpv/config] and use this instead.
@@ -120,7 +120,7 @@ function get_current_track_field(field)
   )
 end
 
--- Print the current track's artist and title in the following format.
+-- Print the current track's artist and title in the following format
 --
 -- [music] ---------------
 -- [music] Title: Marche Slave
@@ -156,7 +156,7 @@ function prompt_input(title)
     val = os.capture(
       '/Applications/CocoaDialog.app/Contents/MacOS/CocoaDialog ' ..
       'standard-inputbox ' ..
-      '--title "' .. title .. '" ' ..
+      '--title "' .. title .. '" ' .
       '| tail -n 1'
     )
   end
@@ -185,7 +185,7 @@ end
 
 ## Registering keybindings.
 Lastly, register the keybindings with [mp][lua-mp] by specifying
-the key to press, the title, and Lua function.
+the key to press, the title, and Lua function
 
 {% highlight lua %}
 -- Set key bindings.

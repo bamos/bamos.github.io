@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Analyzing writing in LaTeX documents.
+title: Analyzing writing in LaTeX documents
 tags: [LaTeX]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Adding similar projects to a GitHub README with Python.
+title: Adding similar projects to a GitHub README with Python
 tags: [Python]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Printing your availability from Google Calendar or any other ics.
+title: Printing your availability from Google Calendar or any other ics
 tags: [Python]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using network block device on Android.
+title: Using network block device on Android
 tags: [Android,Linux]
 ---
 

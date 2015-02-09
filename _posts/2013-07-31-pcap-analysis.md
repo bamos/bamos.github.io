@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A quick and dirty analysis of pcap files with tcpflow and foremost.
+title: A quick and dirty analysis of pcap files with tcpflow and foremost
 tags: [Bash]
 ---
 

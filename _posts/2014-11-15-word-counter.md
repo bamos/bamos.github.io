@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simple Python script to count word frequencies.
+title: Simple Python script to count word frequencies
 tags: [Python]
 ---
 
