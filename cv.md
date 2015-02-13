@@ -57,7 +57,7 @@ implemented in Spark," in <em>Proceedings of the 2014 IEEE International Confere
 in Systems Biology</a>," in <em>2014 Summer Simulation Multiconference, Society for Modeling and Simulation International</em>, 2014<br><br>
 [C5] **B. Amos**, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker, "<a href='http://dl.acm.org/citation.cfm?id=2663525'>Fortran 95 implementation of QNSTOP for global and
 stochastic optimization</a>," in <em>2014 Spring Simulation Multiconference, 22nd High Performance Computer Symposium, Society for Modeling and Simulation International</em>, 2014<br><br>
-[C6] **B. Amos**, H. Turner, and J. White, "<a href='http://dx.doi.org/10.1109/IWCMC.2013.6583806'>Applying machine learning classifiers to dynamic Android
+[C6] **B. Amos**, H. Turner, and J. White, "<a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf'>Applying machine learning classifiers to dynamic Android
 malware detection at scale</a>," in <em>IWCMC'13 Security, Trust and Privacy Symposium</em>, 2013<br><br>
 
 
