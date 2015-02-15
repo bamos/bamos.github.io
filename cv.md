@@ -9,7 +9,7 @@ title: CV
 
 [PDF](/data/cv.pdf) |
 [source](https://github.com/bamos/cv) |
-Generated February 12, 2015.
+Generated February 15, 2015.
 
 
 ## Research Interests
@@ -74,7 +74,7 @@ Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear<br><br>
 + Data Scientist Intern,
   Adobe Research,
   May 2014-Aug 2014
-+ Software Winter Intern,
++ Software Engineer Intern,
   Snowplow Analytics,
   Dec 2013-Jan 2014
 + Software Engineer Intern,
