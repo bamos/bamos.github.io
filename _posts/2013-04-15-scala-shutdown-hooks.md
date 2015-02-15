@@ -7,13 +7,9 @@ tags: [Scala]
 When using a
 [JVM language](https://en.wikipedia.org/wiki/List_of_JVM_languages),
 [shutdown hooks](http://docs.oracle.com/javase/7/docs/api/java/lang/Runtime.html#addShutdownHook(java.lang.Thread))
-are called before the VM shuts down.
-They are also used to catch user interrupts
-caused by Ctrl-C, for example.
-
-In Scala specifically, this process is similar to the references above.
-However, I'm writing this post because
-I struggled finding a specific example to bootstrap from.
+are called before the VM shuts down receives signals.
+This posts presents a minimal example of using
+shutdown hooks in Scala.
 
 The `addShutdown` method is defined in Scala's
 [sys](http://www.scala-lang.org/api/current/index.html#scala.sys.package)
@@ -28,9 +24,9 @@ for for official documentation on this.
 Let's consider the following program.
 {% highlight scala %}
 object ShutdownHook extends App {
-  println("Going to sleep. Goodnight.")
+  println("Sleeping.")
   Thread.sleep(10000);
-  println("Good morning!")
+  println("Resuming.")
 }
 {% endhighlight %}
 
@@ -45,18 +41,18 @@ object ShutdownHook extends App {
     Thread.sleep(1000)
     println("Done shutting down.")
   }
-  println("Going to sleep. Goodnight.")
+  println("Sleeping.")
   Thread.sleep(10000);
-  println("Good morning!")
+  println("Resuming.")
 }
 {% endhighlight %}
 <br/>
 {% highlight scala %}
 object ShutdownHook extends App {
   sys addShutdownHook(shutdown)
-  println("Going to sleep. Goodnight.")
+  println("Sleeping.")
   Thread.sleep(10000);
-  println("Good morning!")
+  println("Resuming.")
 
   private def shutdown {
     println("Shutdown hook caught.")
