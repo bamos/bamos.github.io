@@ -9,7 +9,7 @@ title: CV
 
 [PDF](/data/cv.pdf) |
 [source](https://github.com/bamos/cv) |
-Generated February 15, 2015.
+Generated February 16, 2015.
 
 
 ## Research Interests
@@ -91,7 +91,6 @@ Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear<br><br>
 ## Skills
 + Most Experience: C/C++, Fortran, Linux, Python, Scala/sbt
 + Some Experience: Akka, Android, Bash, Java, LaTeX, Make, *Mathematica*, R
-+ Least Experience: C\#, HTML/CSS/js
 
 
 ## Honors & Awards
