@@ -17,11 +17,10 @@ package. It registers a shutdown hook and returns the Thread it created.
 [The thread](http://www.scala-lang.org/api/current/index.html#scala.sys.ShutdownHookThread)
 it returns is able to unregister itself, if desired.
 
-The parameter to `addShutdownHook` is a by-name parameter.
-See the [Scala Reference](http://www.scala-lang.org/docu/files/ScalaReference.pdf)
-for for official documentation on this.
+The parameter to `addShutdownHook` is a by-name parameter,
+as the [Scala Reference](http://www.scala-lang.org/docu/files/ScalaReference.pdf) documents.
 
-Let's consider the following program.
+Consider the following program.
 {% highlight scala %}
 object ShutdownHook extends App {
   println("Sleeping.")
