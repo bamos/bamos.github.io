@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dynamic memory allocation with Fortran OpenMP.
+title: Dynamic memory allocation with Fortran OpenMP
 tags: [Fortran,OpenMP]
 ---
 

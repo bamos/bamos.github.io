@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bash shell script to automatically install BLAS and LAPACK.
+title: Bash shell script to automatically install BLAS and LAPACK
 tags: [Bash,Fortran,Linux]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reading and extracting PGP email messages with Python 3.3.
+title: Reading and extracting PGP email messages with Python 3.3
 tags: [Python]
 ---
 

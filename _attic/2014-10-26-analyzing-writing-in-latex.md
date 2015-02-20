@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Analyzing writing in LaTeX documents.
+title: Analyzing writing in LaTeX documents
 tags: [LaTeX]
 ---
 
 I maintain a collection of LaTeX templates at [bamos/latex-templates][lt]
-and have recently added [btford/write-good][write-good] to the Makefile's.
-`write-good` is a native linter for English prose and works well on
+and have recently added [btford/write-good][wg] to the Makefile's.
+`write-good` is a naive linter for English prose and works well on
 LaTeX documents.
 The following Makefile will output a list of warnings and tips for
 improving writing after building the LaTeX documents.

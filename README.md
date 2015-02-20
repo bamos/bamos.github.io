@@ -1,8 +1,9 @@
 # About
-This is the source code for my personal website: <http://bamos.github.io>.
+This is the source code for my personal website.
+Unless stated otherwise, all content is MIT-licensed.
 
-# Credits
-The XML for the RSS feed was obtained from
-[snaptortoise/jekyll-rss-feeds](https://github.com/snaptortoise/jekyll-rss-feeds).
+# Theme licensing
+The theme is MIT licensed by Zach Holman and available at
+[holman/left](https://github.com/holman/left).
 
 [test](https://github.com/bamos/test)

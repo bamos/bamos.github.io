@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Concluding my Adobe Research internship.
+title: Concluding my Adobe Research internship
 tags: [News]
 pics:
   - /data/2014-07-28/big-sur-1.jpg
@@ -16,8 +16,6 @@ pics:
   - /data/2014-07-28/20140811_150515.jpg
   - /data/2014-07-28/20140811_150528.jpg
   - /data/2014-07-28/20140811_150550.jpg
-  - /data/2014-07-28/20140811_150555.jpg
-  - /data/2014-07-28/20140811_150643.jpg
   - /data/2014-07-28/20140811_150724.jpg
   - /data/2014-07-28/20140811_150830.jpg
   - /data/2014-07-28/20140811_150909.jpg
@@ -28,7 +26,6 @@ pics:
   - /data/2014-07-28/20140811_154915.jpg
   - /data/2014-07-28/20140811_155543.jpg
   - /data/2014-07-28/20140811_160355.jpg
-  - /data/2014-07-28/20140811_160551.jpg
   - /data/2014-07-28/20140811_160729.jpg
   - /data/2014-07-28/20140811_161637.jpg
   - /data/2014-07-28/20140811_161642.jpg
@@ -76,11 +73,14 @@ for my entire picture collection.
 </div>
 
 <div id='links' style="clear: both; text-align: left">
+  {% capture cache %}
   {% for pic in page.pics %}
-    <a href="{{pic}}" data-gallery>
-      <img src="{{pic}}" height='150em'/>
-    </a>
+<a href="{{pic}}" data-gallery>
+  <img src="{{pic}}" height='150em'/>
+</a>
   {% endfor %}
+  {% endcapture %}
+{{ cache | strip_newlines }}
 </div>
 
 <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>

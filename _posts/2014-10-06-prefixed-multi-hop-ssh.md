@@ -1,13 +1,16 @@
 ---
 layout: post
-title: Prefixed multi-hop SSH wildcard configurations.
+title: Prefixed multi-hop SSH wildcard configurations
 tags: [Linux]
 ---
 
 [SSH client configuration files][ssh-config] are useful to define
 aliases and options for servers when using ssh so that you don't
 have to specify them manually.
-Take a look at Joël Perras' [blog post][perras-post] for a practical overview.
+Joël Perras' [blog post][perras-post] presents an overview
+of SSH config files.
+This post presents how to use SSH config files to
+route traffic through a master node to many client nodes.
 
 The `ProxyCommand` option provides transparent multi-hop SSH,
 as described in [this post][multihop-post].
@@ -15,21 +18,21 @@ Furthermore, the `PATTERNS` section in the [man page][ssh-config]
 describes how `*` and `?` wildcards can be used in the `Host` definition
 and the host can be referenced with the `%h` variable.
 
-I'm using `ProxyCommand` and `PATTERNS` to access nodes on a cluster computer
-with names `b1`, `b2`, and so an.
-So, I thought the following **incorrect** configuration was transparently
-proxying my connection through my host to all of my server nodes.
+I use `ProxyCommand` and `PATTERNS` to access nodes on a
+cluster computer behind a master node with names `b1`, `b2`, and so on.
+I thought the following **incorrect** configuration transparently
+proxied my connection through the master host to all of the internal nodes.
 
 <pre>
 Host b*
   ProxyCommand ssh master_node -W %h:%p
 </pre>
 
-I used this for a few hours and realized a flaw when I cloned a BitBucket repository.
+The problem is that the wildcard `b*` captures all hostnames
+that start with a `b` rather than nodes with the regex `b\d*`.
+I noticed this when I cloned a BitBucket repository.
 I was able to successfully clone my repository, but my connection was
-being routed through the master node of my cluster!
-Thankfully I was on a new computer and hadn't yet sshed into the master.
-Otherwise I wouldn't have gotten the authenticity warning.
+routed through the master node of my cluster!
 
 {% highlight bash %}
 ~/repos » gclo git@bitbucket.org:bamos/<repo>.git
@@ -42,13 +45,8 @@ Warning: Permanently added 'master_node,<ip address>' (RSA) to
 the list of known hosts.
 {% endhighlight %}
 
-I wanted to add a prefix to the `b*` wildcard, but couldn't
-find any documentation of how to do this.
-I didn't originally come up with a solution to this.
-
-A few days later, I came up with a solution using a subshell and the
-[cut][cut] command.
-I knew `cut` can be used to remove a prefix.
+My first solution used a subshell and the [cut][cut]
+command to remove the prefix from the prefixed hostname.
 For example, `cut -d '-' -f 1 --complement` will remove the prefix from `prefix-b1`.
 
 {% highlight bash %}
@@ -57,8 +55,6 @@ b1
 {% endhighlight %}
 
 This prefix removal can done in a subshell in the `ProxyCommand` definition.
-I'm now using the following **correct** ssh config entry to add a prefix
-to my cluster's nodes.
 
 <pre>
 Host prefix-b*
@@ -66,8 +62,7 @@ Host prefix-b*
 </pre>
 
 
-An alternative to using `cut`, as pointed out in the comments of this post,
-is to use Bash variable substitution.
+An alternative to using `cut` is to use Bash variable substitution.
 This can't be done directly because `%h` has to be added as a shell variable.
 Using variable substitution has the advantage of not needing a delimiter,
 so wildcards like `prefix*` can be used.

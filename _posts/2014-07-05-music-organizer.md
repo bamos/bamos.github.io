@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Python to organize a music directory.
+title: Using Python to organize a music directory
 tags: [Linux,Python]
 ---
 

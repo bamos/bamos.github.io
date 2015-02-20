@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Weka's API with Scala to combine ARFF files.
+title: Using Weka's API with Scala to combine ARFF files
 tags: [Scala]
 ---
 

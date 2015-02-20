@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Archiving email conversations to a PDF with Python and LaTeX.
+title: Archiving email conversations to a PDF with Python and LaTeX
 tags: [LaTeX, Python]
 ---
 

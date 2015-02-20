@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python cache decorator with timeout.
+title: Python cache decorator with timeout
 tags: [Python]
 ---
 

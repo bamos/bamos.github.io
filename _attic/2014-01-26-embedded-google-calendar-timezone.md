@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Embedded Google Calendar timezone selection.
+title: Embedded Google Calendar timezone selection
 tags: [JavaScript]
 ---
 

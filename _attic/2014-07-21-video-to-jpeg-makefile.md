@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Extract the first frame of video files as JPEG images for LaTeX/Beamer.
+title: Extract the first frame of video files as JPEG images for LaTeX/Beamer
 tags: [Make,LaTeX,Linux]
 ---
 

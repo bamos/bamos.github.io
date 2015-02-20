@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Improving mpv as a music player with Lua scripts.
+title: Improving mpv as a music player with Lua scripts
 tags: [Linux,Lua,mpv]
 ---
 

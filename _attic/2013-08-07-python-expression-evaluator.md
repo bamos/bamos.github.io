@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Evaluating string expressions at runtime with Python 3.
+title: Evaluating string expressions at runtime with Python 3
 tags: [Python]
 ---
 
