@@ -4,18 +4,17 @@ title: Catching an interrupt and adding a shutdown hook in Scala
 tags: [Scala]
 ---
 
-When using a
-[JVM language](https://en.wikipedia.org/wiki/List_of_JVM_languages),
-[shutdown hooks](http://docs.oracle.com/javase/7/docs/api/java/lang/Runtime.html#addShutdownHook(java.lang.Thread))
-are called before the VM shuts down receives signals.
+[Shutdown hooks](http://docs.oracle.com/javase/7/docs/api/java/lang/Runtime.html#addShutdownHook(java.lang.Thread))
+in
+[JVM languages](https://en.wikipedia.org/wiki/List_of_JVM_languages),
+are called before the VM shuts down or receives signals.
 This posts presents a minimal example of using
 shutdown hooks in Scala.
 
 The `addShutdown` method is defined in Scala's
 [sys](http://www.scala-lang.org/api/current/index.html#scala.sys.package)
-package. It registers a shutdown hook and returns the Thread it created.
-[The thread](http://www.scala-lang.org/api/current/index.html#scala.sys.ShutdownHookThread)
-it returns is able to unregister itself, if desired.
+package. It registers a shutdown hook and returns a
+[shutdown hook thread](http://www.scala-lang.org/api/current/index.html#scala.sys.ShutdownHookThread).
 
 The parameter to `addShutdownHook` is a by-name parameter,
 as the [Scala Reference](http://www.scala-lang.org/docu/files/ScalaReference.pdf) documents.
