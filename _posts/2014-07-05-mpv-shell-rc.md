@@ -30,6 +30,7 @@ These are all contained in my [dotfiles][dotfiles] repository on Github.
 
 <script src="http://gist-it.appspot.com/https://github.com/bamos/dotfiles/blob/master/.mpv/shellrc.sh?footer=minimal"></script>
 
+[dotfiles]: https://github.com/bamos/dotfiles
 [mpv]: http://mpv.io
 [mplayer]: http://www.mplayerhq.hu
 
