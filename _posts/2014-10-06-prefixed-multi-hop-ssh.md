@@ -12,11 +12,12 @@ of SSH config files.
 This post presents how to use SSH config files to
 route traffic through a master node to many client nodes.
 
-The `ProxyCommand` option provides transparent multi-hop SSH,
-as described in [this post][multihop-post].
-Furthermore, the `PATTERNS` section in the [man page][ssh-config]
-describes how `*` and `?` wildcards can be used in the `Host` definition
-and the host can be referenced with the `%h` variable.
+[This post][multihop-post] describes how the `ProxyCommand` section
+provides transparent multi-hop SSH.
+The `PATTERNS` section in the [man page][ssh-config]
+describes wildcards and variables in the `Host` section,
+such as `*` (multi-character wildcard) and `?` (single-character wildcard).
+In `ProxyCommand`, `%h` expands to the host and `%p` expands to the port.
 
 I use `ProxyCommand` and `PATTERNS` to access nodes on a
 cluster computer behind a master node with names `b1`, `b2`, and so on.
