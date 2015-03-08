@@ -23,16 +23,18 @@ a {
     margin-left: 2px;
     border-radius: 5px; }
   .sidebar .name {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    /* text-align: right; */
     margin: 10px 0 20px 0; }
     .sidebar .name #fname {
-      padding-left: 1px;
-      font-size: 12px;
-      letter-spacing: 3px;
+      /* padding-left: 1px; */
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: 1px;
       color: black; }
     .sidebar .name #lname {
-      font-size: 22px;
-      font-weight: bold;
+      font-size: 13px;
+      /* font-weight: bold; */
       letter-spacing: 1px;
       color: black; }
   .sidebar .meta a {
