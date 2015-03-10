@@ -9,7 +9,7 @@ title: CV
 
 [PDF](/data/cv.pdf) |
 [source](https://github.com/bamos/cv) |
-Generated March 08, 2015.
+Generated March 10, 2015.
 
 
 ## Research Interests
@@ -52,7 +52,7 @@ Mobile computing, distributed systems, and computer vision.
 [C1] M. Satyanarayanan, P. Simoens, Y. Xiao, P. Pillai, Z. Chen, K. Ha, W. Hu, and **B. Amos**, "Edge Analytics in the Internet of Things," in <em>IEEE Pervasive Computing 2015 (to appear)</em>, 2015.<br><br>
 [C2] W. Hu, **B. Amos**, Z. Chen, K. Ha, W. Richter, P. Pillai, B. Gilbert, J. Harkes, and M. Satyanarayanan, <a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf'>"The Case for Offload Shaping,"</a> in <em>HotMobile 2015</em>, 2015.<br><br>
 [C3] **B. Amos**, and D. Tompkins, "Performance study of Spindle, a web analytics query engine
-implemented in Spark," in <em>Proceedings of the 2014 IEEE International Conference on Cloud Computing Technology and Science (CloudCom), Big Data Track</em>, 2014.<br><br>
+implemented in Spark," in <em>(Short Paper) Proceedings of the 2014 IEEE International Conference on Cloud Computing Technology and Science (CloudCom)</em>, 2014.<br><br>
 [C4] T. Andrew, **B. Amos**, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson, <a href='http://dl.acm.org/citation.cfm?id=2685662'>"Global Parameter Estimation for a Eukaryotic Cell Cycle Model
 in Systems Biology,"</a> in <em>2014 Summer Simulation Multiconference, Society for Modeling and Simulation International</em>, 2014.<br><br>
 [C5] **B. Amos**, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker, <a href='http://dl.acm.org/citation.cfm?id=2663525'>"Fortran 95 implementation of QNSTOP for global and
