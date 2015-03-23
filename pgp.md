@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: post
 title:  PGP
 ---
 
-# PGP
 I sign and encrypt emails with PGP, which means my emails
 have a signature attached verifying that the message was sent
 by me and not somebody else.
