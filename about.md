@@ -8,8 +8,8 @@ title:  About
 
   <p>
     Hi! I am a Computer Science Ph.D. student at [Carnegie Mellon][cmu].
-    My research interests are in distributed, mobile computing, and
-    machine learning, and I am happy to be advised by [Satya][satya].
+    My research interests are in machine learning, mobile computing,
+    and distributed systems, and I am happy to be advised by [Satya][satya].
     For more information, find my publications on [Google Scholar][scholar],
     [my vitae][cv], and my [GitHub profile][github].
   </p>
