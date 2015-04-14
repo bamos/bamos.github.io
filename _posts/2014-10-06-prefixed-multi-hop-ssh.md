@@ -24,10 +24,10 @@ cluster computer behind a master node with names `b1`, `b2`, and so on.
 I thought the following **incorrect** configuration transparently
 proxied my connection through the master host to all of the internal nodes.
 
-<pre>
+{% highlight bash %}
 Host b*
   ProxyCommand ssh master_node -W %h:%p
-</pre>
+{% endhighlight %}
 
 The problem is that the wildcard `b*` captures all hostnames
 that start with a `b` rather than nodes with the regex `b\d*`.
@@ -57,10 +57,10 @@ b1
 
 This prefix removal can done in a subshell in the `ProxyCommand` definition.
 
-<pre>
+{% highlight bash %}
 Host prefix-b*
   ProxyCommand ssh master_node -W $(echo -n %h | cut -d '-' -f 1 --complement):%p
-</pre>
+{% endhighlight %}
 
 
 An alternative to using `cut` is to use Bash variable substitution.
@@ -68,10 +68,10 @@ This can't be done directly because `%h` has to be added as a shell variable.
 Using variable substitution has the advantage of not needing a delimiter,
 so wildcards like `prefix*` can be used.
 
-<pre>
+{% highlight bash %}
 Host prefix-b*
   ProxyCommand ssh master_node -W $(TMP=%h; echo -n ${TMP/prefix-/}):%p
-</pre>
+{% endhighlight %}
 
 [ssh-config]: http://linux.die.net/man/5/ssh_config
 [perras-post]: http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/

@@ -5,11 +5,13 @@ title: CV
 
 <section class="content">
 
-## Brandon Amos ##
+# Brandon Amos
 
-[PDF](/data/cv.pdf) |
-[source](https://github.com/bamos/cv) |
+<section class="byline">
+[PDF](/data/cv.pdf) &bull;
+[source](https://github.com/bamos/cv) &bull;
 Generated March 26, 2015.
+</section>
 
 
 ## Research Interests
