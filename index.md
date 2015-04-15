@@ -49,7 +49,7 @@ Dynamic Android malware analysis.
 + [cv](https://github.com/bamos/cv):
   Python-driven resume-curriculum vitae with Jinja templates.
 + [yaml-mailer](https://github.com/bamos/yaml-mailer):
-  Parse a YAML file to email many people different messages.
+  Email many people different messages.
 + I collect LaTeX and Beamer code snippets in
   [latex-templates](https://github.com/bamos/latex-templates)
   and [beamer-snippets](https://github.com/bamos/beamer-snippets).
