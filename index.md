@@ -33,7 +33,8 @@ Controlling Android emulators on a distributed system.
 Dynamic Android malware analysis.
 
 ## Fun Projects
-+ [This website](https://github.com/bamos/bamos.github.io).
++ [This website](https://github.com/bamos/bamos.github.io):
+  Built with Jekyll and hosted on GitHub pages.
 + I keep a collection of quotes from books in my
   [reading list](http://bamos.github.io/reading-list/).
 + I hate finding broken links in projects and
