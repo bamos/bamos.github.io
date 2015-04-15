@@ -22,6 +22,7 @@ open source, and reproducible.
 You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
 
 ## Research Projects
++ [Publications](https://scholar.google.com/citations?user=CZwrwHAAAAAJ)
 + [Elijah](http://elijah.cs.cmu.edu/):
 Low-latency video processing applications.
 + [Spindle](https://github.com/adobe-research/spindle):
@@ -33,7 +34,8 @@ Dynamic Android malware analysis.
 
 ## Fun Projects
 + [This website](https://github.com/bamos/bamos.github.io).
-+ Sometimes I read, check out my [reading list](http://bamos.github.io/reading-list/).
++ I keep a collection of quotes from books in my
+  [reading list](http://bamos.github.io/reading-list/).
 + I hate finding broken links in projects and
   created [girl](https://github.com/bamos/girl)
   to help remove some broken links from GitHub.
