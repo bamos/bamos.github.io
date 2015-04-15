@@ -22,7 +22,6 @@ open source, and reproducible.
 You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
 
 ## Research Projects
-+ [Publications](https://scholar.google.com/citations?user=CZwrwHAAAAAJ)
 + [Elijah](http://elijah.cs.cmu.edu/):
 Low-latency video processing applications.
 + [Spindle](https://github.com/adobe-research/spindle):
