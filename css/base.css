@@ -4,8 +4,10 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased; }
 
-a {
-  color: #227ce8; }
+a { color: #227ce8; }
+
+.rounded-img { border-radius: 25px; }
+img { margin: 3px;}
 
 .sidebar {
   position: fixed;
