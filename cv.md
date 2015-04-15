@@ -8,9 +8,9 @@ title: CV
 # Brandon Amos
 
 <section class="byline">
-[PDF](/data/cv.pdf) &bull;
-[source](https://github.com/bamos/cv) &bull;
-Generated March 26, 2015.
+  [PDF](/data/cv.pdf) &bull;
+  [source](https://github.com/bamos/cv) &bull;
+  Generated April 15, 2015
 </section>
 
 
@@ -51,15 +51,16 @@ Machine learning, mobile computing, and distributed systems.
 ## Publications
 
 ### Conference Proceedings
-[C1] M. Satyanarayanan, P. Simoens, Y. Xiao, P. Pillai, Z. Chen, K. Ha, W. Hu, and **B. Amos**, "Edge Analytics in the Internet of Things," in <em>IEEE Pervasive Computing 2015 (to appear)</em>, 2015.<br><br>
-[C2] W. Hu, **B. Amos**, Z. Chen, K. Ha, W. Richter, P. Pillai, B. Gilbert, J. Harkes, and M. Satyanarayanan, <a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf'>"The Case for Offload Shaping,"</a> in <em>HotMobile 2015</em>, 2015.<br><br>
-[C3] **B. Amos**, and D. Tompkins, "Performance study of Spindle, a web analytics query engine
+[C1] M. Satyanarayanan, P. Simoens, Y. Xiao, P. Pillai, Z. Chen, K. Ha, W. Hu, and **B. Amos**, <a href='http://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf'>"Edge Analytics in the Internet of Things,"</a> in <em>IEEE Pervasive Computing 2015 (to appear)</em>, 2015.<br><br>
+[C2] Z. Chen, L. Jiang, W. Hu, K. Ha, **B. Amos**, P. Pillai, A. Hauptmann, and M. Satyanarayanan, <a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf'>"Early Implementation Experience with Wearable Cognitive Assistance Applications,"</a> in <em>WearSys 2015</em>, 2015.<br><br>
+[C3] W. Hu, **B. Amos**, Z. Chen, K. Ha, W. Richter, P. Pillai, B. Gilbert, J. Harkes, and M. Satyanarayanan, <a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf'>"The Case for Offload Shaping,"</a> in <em>HotMobile 2015</em>, 2015.<br><br>
+[C4] **B. Amos**, and D. Tompkins, "Performance study of Spindle, a web analytics query engine
 implemented in Spark," in <em>(Short Paper) Proceedings of the 2014 IEEE International Conference on Cloud Computing Technology and Science (CloudCom)</em>, 2014.<br><br>
-[C4] T. Andrew, **B. Amos**, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson, <a href='http://dl.acm.org/citation.cfm?id=2685662'>"Global Parameter Estimation for a Eukaryotic Cell Cycle Model
+[C5] T. Andrew, **B. Amos**, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson, <a href='http://dl.acm.org/citation.cfm?id=2685662'>"Global Parameter Estimation for a Eukaryotic Cell Cycle Model
 in Systems Biology,"</a> in <em>2014 Summer Simulation Multiconference, Society for Modeling and Simulation International</em>, 2014.<br><br>
-[C5] **B. Amos**, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker, <a href='http://dl.acm.org/citation.cfm?id=2663525'>"Fortran 95 implementation of QNSTOP for global and
+[C6] **B. Amos**, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker, <a href='http://dl.acm.org/citation.cfm?id=2663525'>"Fortran 95 implementation of QNSTOP for global and
 stochastic optimization,"</a> in <em>2014 Spring Simulation Multiconference, 22nd High Performance Computer Symposium, Society for Modeling and Simulation International</em>, 2014.<br><br>
-[C6] **B. Amos**, H. Turner, and J. White, <a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf'>"Applying machine learning classifiers to dynamic Android
+[C7] **B. Amos**, H. Turner, and J. White, <a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf'>"Applying machine learning classifiers to dynamic Android
 malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Symposium</em>, 2013.<br><br>
 
 
