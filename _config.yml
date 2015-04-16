@@ -1,8 +1,5 @@
 name: Brandon Amos
-description: The personal blog of Brandon Amos
 url: http://bamos.github.io
-twitter: brandondamos
-github.owner_url: https://github.com/bamos
 destination: ./_site
 lsi: false
 port: 4000
