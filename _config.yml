@@ -1,6 +1,7 @@
 name: Brandon Amos
 url: http://bamos.github.io
 destination: ./_site
+twitter: brandondamos
 lsi: false
 port: 4000
 highlighter: pygments
