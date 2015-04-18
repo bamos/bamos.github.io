@@ -23,7 +23,7 @@ You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
 
 ## Research Projects
 + [Elijah](http://elijah.cs.cmu.edu/):
-Low-latency video processing applications.
+Low-latency mobile computing.
 + [Spindle](https://github.com/adobe-research/spindle):
 Web analytics processing with Scala, Spark, and Parquet.
 + [Clasp](https://github.com/hamiltont/clasp):
@@ -34,25 +34,33 @@ Dynamic Android malware analysis.
 ## Fun Projects
 + [This website](https://github.com/bamos/bamos.github.io):
   Built with Jekyll and hosted on GitHub pages.
-+ I keep a collection of quotes from books in my
-  [reading list](http://bamos.github.io/reading-list/).
-+ I hate finding broken links in projects and
-  created [girl](https://github.com/bamos/girl)
-  to help remove some broken links from GitHub.
-+ I love using [Arch Linux](https://www.archlinux.org/),
-  [xmonad](http://xmonad.org/), and other Linux-based tools.
-  Check out my [dotfiles](https://github.com/bamos/dotfiles).
-+ I created
-  [zsh-history-analysis](https://github.com/bamos/zsh-history-analysis)
-  to analyze my shell usage patterns.
-+ [Short Python scripts](https://github.com/bamos/python-scripts)
++ [My reading list](http://bamos.github.io/reading-list/):
+  YAML data and hosted on GitHub pages.
++ [dotfiles](https://github.com/bamos/dotfiles):
+  &hearts;
+  [Arch Linux](https://www.archlinux.org/),
+  OSX,
+  [mutt](http://www.mutt.org/),
+  [xmonad](http://xmonad.org/),
+  [i3](https://i3wm.org/),
+  [vim](http://www.vim.org/),
+  [emacs](https://www.gnu.org/software/emacs/),
+  [zsh](http://www.zsh.org/),
+  [mpv](http://mpv.io/),
+  [cmus](https://cmus.github.io/).
++ [girl](https://github.com/bamos/girl):
+  Find broken links on GitHub.
++ [zsh-history-analysis](https://github.com/bamos/zsh-history-analysis):
+  Analyze shell usage patterns with Python and R.
++ [python-scripts](https://github.com/bamos/python-scripts):
+  Short and fun Python scripts.
 + [cv](https://github.com/bamos/cv):
   Python-driven resume-curriculum vitae with Jinja templates.
 + [yaml-mailer](https://github.com/bamos/yaml-mailer):
   Email many people different messages.
-+ I collect LaTeX and Beamer code snippets in
-  [latex-templates](https://github.com/bamos/latex-templates)
-  and [beamer-snippets](https://github.com/bamos/beamer-snippets).
++ [latex-templates](https://github.com/bamos/latex-templates)
+  and [beamer-snippets](https://github.com/bamos/beamer-snippets):
+  Personal collection and previewing of LaTeX/Beamer snippets.
   Admittedly, I now use Keynote for presentations.
 
 </section>

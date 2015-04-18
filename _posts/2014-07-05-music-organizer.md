@@ -57,24 +57,24 @@ the current directory.
 For example, suppose a user has the following directory structure
 for an artist.
 
-<pre>
+{% highlight bash %}
 Album1/Track A.mp3
 Album1/Track B.mp3
 Album1/Track C.mp3
 Album2/Track D.mp3
 Album2/Track E.mp3
-</pre>
+{% endhighlight %}
 
 Running `music-organizer.py --artist` in this directory will
 produce the following.
 
-<pre>
+{% highlight bash %}
 track-a.mp3
 track-b.mp3
 track-c.mp3
 track-d.mp3
 track-e.mp3
-</pre>
+{% endhighlight %}
 
 ## Collection Mode.
 In collection mode, the artist names will be preserved to allow
@@ -83,24 +83,24 @@ be sorted.
 For example, suppose a user has the following directory structure
 as a collection.
 
-<pre>
+{% highlight bash %}
 Alpha 1.mp3 (Artist: Alpha, Title: 1)
 Alpha 2.mp3 (Artist: Alpha, Title: 2)
 Beta 1.mp3 (Artist: Beta, Title: 1)
 KeepThisDir/1.mp3
 KeepThisDir/2.mp3
-</pre>
+{% endhighlight %}
 
 Running `music-organizer.py --collection` in this directory will
 produce the following.
 
-<pre>
+{% highlight bash %}
 alpha/1.mp3 (Artist: Alpha, Title: 1)
 alpha/2.mp3 (Artist: Alpha, Title: 2)
 beta/1.mp3 (Artist: Beta, Title: 1)
 KeepThisDir/1.mp3
 KeepThisDir/2.mp3
-</pre>
+{% endhighlight %}
 
 ## Edge cases.
 I've encountered two edge cases when running `music-organizer.py` on
@@ -118,7 +118,7 @@ and suggest this to be changed.
 Use `--ignore-multiple-artists` to allow this.
 
 ## Detailed Usage.
-<pre>
+{% highlight bash %}
 > music-organizer.py -h
 usage: music-organizer.py [-h] [--delete-conflicts]
                           [--ignore-multiple-artists] [--collection]
@@ -146,7 +146,7 @@ optional arguments:
   --artist              Operate in 'artist' mode and copy all songs to the
                         root of the directory and cleanly format the names to
                         be easily typed and navigated in a shell.
-</pre>
+{% endhighlight %}
 
 [mpv]: http://mpv.io
 [mplayer]: http://www.mplayerhq.hu

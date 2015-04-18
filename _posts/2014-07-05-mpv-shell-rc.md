@@ -28,7 +28,31 @@ These are all contained in my [dotfiles][dotfiles] repository on Github.
 + `playdir` or `pd` will use `mpvshuf` to play all the files in the
    directories provided on the command line.
 
-<script src="http://gist-it.appspot.com/https://github.com/bamos/dotfiles/blob/master/.mpv/shellrc.sh?footer=minimal"></script>
+{% highlight bash %}
+# shellrc.sc
+# Source this to add additional shell features for mpv.
+
+alias mpvnova='mpv --no-video'
+alias mpvshuf='mpvnova --shuffle --loop inf'
+alias mpvp='mpvshuf --playlist'
+
+playcurrentdir() {
+  mpvp <(find "$PWD" -type f -follow)
+}
+alias pcd='playcurrentdir'
+
+playdir() {
+  if [[ $# == 0 ]]; then
+    echo "playdir requires one or more directories on input."
+  else
+    if [[ $(uname) == "Linux" ]]; then READLINK=readlink;
+    else READLINK=greadlink; fi
+    mpvshuf --playlist <(find "$@" -type f -follow -exec $READLINK -f {} \;)
+    unset READLINK
+  fi
+}
+alias pd='playdir'
+{% endhighlight %}
 
 [dotfiles]: https://github.com/bamos/dotfiles
 [mpv]: http://mpv.io
