@@ -10,7 +10,7 @@ title: CV
 <section class="byline">
   [PDF](/data/cv.pdf) &bull;
   [source](https://github.com/bamos/cv) &bull;
-  Generated April 15, 2015
+  Generated April 19, 2015
 </section>
 
 
@@ -30,17 +30,17 @@ Machine learning, mobile computing, and distributed systems.
 
 ## Research Experience
 + Research Assistant, Carnegie Mellon University, Aug 2014-Present
-    + Advisor: Dr. Mahadev Satyanarayanan
-    + Area: Machine learning, mobile computing, and distributed systems.
+    + **Advisor**: Dr. Mahadev Satyanarayanan
+    + **Area**: Machine learning, mobile computing, and distributed systems.
 + Undergraduate Research Assistant, Magnum Research Group, May 2012-May 2014
-    + Advisor: Dr. Jules White
-    + Area: Mobile computing, cyber-physical systems, and security.
+    + **Advisor**: Dr. Jules White
+    + **Area**: Mobile computing, cyber-physical systems, and security.
 + Undergraduate Research Assistant, Virginia Tech, Jan 2013-May 2014
-    + Advisor: Dr. Layne Watson
-    + Area: Scientific computing, global/stochastic optimization, and bioinformatics.
+    + **Advisor**: Dr. Layne Watson
+    + **Area**: Scientific computing, global/stochastic optimization, and bioinformatics.
 + Undergraduate Research Assistant, Systems Software Research Group, Nov 2012-Mar 2014
-    + Advisor: Dr. Binoy Ravindran
-    + Area: Heterogeneous compilers.
+    + **Advisor**: Dr. Binoy Ravindran
+    + **Area**: Heterogeneous compilers.
 
 
 ## Teaching Experience
