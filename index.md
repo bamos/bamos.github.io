@@ -21,6 +21,9 @@ open source, and reproducible.
 
 You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
 
+**I'm looking for motivated undergraduates at CMU who
+are interested in doing research!**
+
 ## Research Projects
 + [Elijah](http://elijah.cs.cmu.edu/):
 Low-latency mobile computing.
@@ -49,7 +52,7 @@ Dynamic Android malware analysis.
   [mpv](http://mpv.io/),
   [cmus](https://cmus.github.io/).
 + [girl](https://github.com/bamos/girl):
-  Find broken links on GitHub.
+  Scala program to find broken links in GitHub projects.
 + [zsh-history-analysis](https://github.com/bamos/zsh-history-analysis):
   Analyze shell usage patterns with Python and R.
 + [python-scripts](https://github.com/bamos/python-scripts):
@@ -60,7 +63,7 @@ Dynamic Android malware analysis.
   Email many people different messages.
 + [latex-templates](https://github.com/bamos/latex-templates)
   and [beamer-snippets](https://github.com/bamos/beamer-snippets):
-  Personal collection and previewing of LaTeX/Beamer snippets.
+  Personal collection and previewing of LaTeX and Beamer snippets.
   Admittedly, I now use Keynote for presentations.
 
 </section>
