@@ -11,7 +11,7 @@ for music organization and playing in Linux and OSX.
 + [Improving mpv as a music player with Bash/Zsh shell functions.][mpv-shell-rc]
 
 This article introduces a Python script I use to organize my
-mp3 music directory structure for iTunes and [mpv][mpv].
+mp3 music directory structure for [cmus][cmus] and [mpv][mpv].
 mpv is a fork of [mplayer][mplayer] and adds
 bug patches, an improved command-line interface, and
 an experimental Lua scripting option.
@@ -28,10 +28,9 @@ structure of `<artist>/<track>`, where `<artist>` and `<track>` are
 lower case strings separated by dashes.
 I call these lowercase strings `neat` and convert them with the `toNeat`
 function below.
-I have mostly switched to iTunes for music, but keeping the files
-as lowercase helps me navigate my music directory easily on the command
-line if I'm trying to synchronize artists between computers or
-use mpv.
+Keeping the files as lowercase helps me navigate the music directory
+on the command line if I'm trying to synchronize artists between
+computers with [unison][unison] or use mpv.
 
 {% highlight Python %}
 # Maps a string such as 'The Beatles' to 'the-beatles'.
@@ -148,6 +147,7 @@ optional arguments:
                         be easily typed and navigated in a shell.
 {% endhighlight %}
 
+[cmus]: https://cmus.github.io/
 [mpv]: http://mpv.io
 [mplayer]: http://www.mplayerhq.hu
 
@@ -157,3 +157,5 @@ optional arguments:
 [python-scripts]: https://github.com/bamos/python-scripts
 [music-organizer.py]: https://github.com/bamos/python-scripts/blob/master/python2.7/music-organizer.py
 [picard]: https://musicbrainz.org/doc/MusicBrainz_Picard
+
+[unison]: http://www.cis.upenn.edu/~bcpierce/unison/
