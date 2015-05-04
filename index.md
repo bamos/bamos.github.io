@@ -22,9 +22,6 @@ open source, and reproducible.
 
 You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
 
-**I'm looking for motivated undergraduates who
-are interested in doing machine learning research with Haskell!**
-
 ## Research Projects
 + [Elijah](http://elijah.cs.cmu.edu/):
 Low-latency mobile computing.
