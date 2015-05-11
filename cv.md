@@ -15,7 +15,7 @@ title: CV
 
 
 ## Research Interests
-Machine learning, mobile computing, and distributed systems.
+Machine learning, statistics, optimization, and distributed systems.
 
 
 ## Education
