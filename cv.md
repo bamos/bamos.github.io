@@ -10,7 +10,7 @@ title: CV
 <section class="byline">
   [PDF](/data/cv.pdf) &bull;
   [source](https://github.com/bamos/cv) &bull;
-  Generated April 19, 2015
+  Generated May 11, 2015
 </section>
 
 
@@ -44,8 +44,8 @@ Machine learning, mobile computing, and distributed systems.
 
 
 ## Teaching Experience
-+ Undergraduate TA, Virginia Tech,
-  CS 2114, Jan 2013-May 2013
++ Software Design and Data Structures (CS 2114), Undergraduate TA,
+  VT S2013
 
 
 ## Publications
@@ -91,9 +91,16 @@ Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear.<br><br>
   Jan 2011-Aug 2011
 
 
+## Graduate Coursework
++ Semantics of Programming Languages (15-812), A. Platzer, CMU S2015
++ Optimizing Compilers for Modern Architecture (15-745), T. Mowry, CMU S2015
++ Advanced Operating Systems and Distributed Systems (15-712), D. Andersen, CMU F2014
++ Mobile and Pervasive Computing (15-812), M. Satyanarayanan and D. Siewiorek, CMU F2014
+
+
 ## Skills
-+ Most Experience: C/C++, Fortran, Linux, Python, Scala/sbt
-+ Some Experience: Akka, Android, Bash, Java, LaTeX, Make, *Mathematica*, R
++ Most Experience: Fortran, Linux, Python, Scala
++ Some Experience: Akka, Android, Bash, C/C++, Haskell, LaTeX, Make, *Mathematica*, R
 
 
 ## Honors & Awards
