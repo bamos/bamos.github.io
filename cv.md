@@ -10,12 +10,12 @@ title: CV
 <section class="byline">
   [PDF](/data/cv.pdf) &bull;
   [source](https://github.com/bamos/cv) &bull;
-  Generated May 11, 2015
+  Generated May 12, 2015
 </section>
 
 
 ## Research Interests
-Machine learning, statistics, optimization, and distributed systems.
+Machine learning, mobile computing, and distributed systems.
 
 
 ## Education
