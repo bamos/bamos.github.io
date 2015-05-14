@@ -12,6 +12,7 @@ title:  Brandon Amos
 
 # Brandon Amos
 
+Hi!
 I'm a Computer Science Ph.D. student
 at Carnegie Mellon University, where
 I work on machine learning,
@@ -22,19 +23,38 @@ open source, and reproducible.
 
 You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
 
-## Research Projects
-+ [Elijah](http://elijah.cs.cmu.edu/):
-Low-latency mobile computing.
-+ [Spindle](https://github.com/adobe-research/spindle):
-Web analytics processing with Scala, Spark, and Parquet.
-+ [Clasp](https://github.com/hamiltont/clasp):
-Controlling Android emulators on a distributed system.
-+ [STREAM](https://github.com/VT-Magnum-Research/antimalware):
-Dynamic Android malware analysis.
+# Research Projects
 
-## Fun Projects
-+ [This website](https://github.com/bamos/bamos.github.io):
-  Built with Jekyll and hosted on GitHub pages.
++ [Elijah](http://elijah.cs.cmu.edu/): Low-latency mobile applications
+    that often involve real-time video or audio processing.
+    My PhD research studies distributed algorithms to
+    theoretically improve the performance of deep neural networks and
+    integer/combinatorial optimization.
++ [Spindle](https://github.com/adobe-research/spindle):
+  Web analytics processing with Scala, Spark, and Parquet,
+  created as a summer intern at Adobe Research.
++ [Clasp](https://github.com/hamiltont/clasp):
+  Large-scale Android emulator control on a distributed system.
++ **STREAM**:
+  As an undergraduate, I studied the application of machine
+  learning techniques to detecting Android malware,
+  which resulted in
+  [this publication](http://bamos.github.io/data/papers/amos-iwcmc2013.pdf).
+  The code is openly available
+  [on GitHub](https://github.com/VT-Magnum-Research/antimalware).
++ [QNSTOP](https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf):
+  As an undergraduate, I also helped develop parallel versions of quasi-Newton
+  stochastic optimization algorithms.
+  A preprint of our early results are available as a tech
+  report
+  [here](https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf).
+  I helped apply these techniques to the
+  a systems biology problem in
+  [this publication](http://dl.acm.org/citation.cfm?id=2685662).
+
+# Fun Side-Projects
++ [SnowGlobe](https://github.com/bamos/snowglobe):
+  Haskell-driven, small-scale web analytics with minimal configuration.
 + [My reading list](http://bamos.github.io/reading-list/):
   YAML data and hosted on GitHub pages.
 + [dotfiles](https://github.com/bamos/dotfiles):
@@ -55,6 +75,8 @@ Dynamic Android malware analysis.
   Analyze shell usage patterns with Python and R.
 + [python-scripts](https://github.com/bamos/python-scripts):
   Short and fun Python scripts.
++ [This website](https://github.com/bamos/bamos.github.io):
+  Built with Jekyll and hosted on GitHub pages.
 + [cv](https://github.com/bamos/cv):
   Python-driven resume-curriculum vitae with Jinja templates.
 + [yaml-mailer](https://github.com/bamos/yaml-mailer):

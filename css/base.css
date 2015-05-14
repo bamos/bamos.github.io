@@ -82,7 +82,7 @@ img { margin: 3px;}
     font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
     font-weight: 400; }
   .content h2 a {
-    color: #111;
+    /* color: #111; */
     text-decoration: none; }
   .content h3 {
     color: #333;
