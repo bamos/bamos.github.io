@@ -36,20 +36,18 @@ You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
 + [Clasp](https://github.com/hamiltont/clasp):
   Large-scale Android emulator control on a distributed system.
 + **STREAM**:
-  As an undergraduate, I studied the application of machine
-  learning techniques to detecting Android malware,
-  which resulted in
+  As an undergraduate, I applied of machine learning techniques to dynamic
+  Android malware detection, which resulted in
   [this publication](http://bamos.github.io/data/papers/amos-iwcmc2013.pdf).
   The code is openly available
   [on GitHub](https://github.com/VT-Magnum-Research/antimalware).
-+ [QNSTOP](https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf):
++ **QNSTOP**:
   As an undergraduate, I also helped develop parallel versions of quasi-Newton
   stochastic optimization algorithms.
   A preprint of our early results are available as a tech
   report
   [here](https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf).
-  I helped apply these techniques to the
-  a systems biology problem in
+  I applied these techniques to a systems biology problem in
   [this publication](http://dl.acm.org/citation.cfm?id=2685662).
 
 # Fun Side-Projects
