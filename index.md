@@ -26,8 +26,8 @@ You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
 
 + [Elijah](http://elijah.cs.cmu.edu/): Low-latency mobile applications
     that often involve real-time video or audio processing.
-    My PhD research studies distributed algorithms to
-    theoretically improve the performance of deep neural networks and
+    For my PhD, I'm studying distributed algorithms to improve the
+    performance of deep neural networks and
     integer/combinatorial optimization.
 + [Spindle](https://github.com/adobe-research/spindle):
   Web analytics processing with Scala, Spark, and Parquet,
