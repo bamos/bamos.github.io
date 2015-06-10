@@ -10,7 +10,7 @@ title: CV
 <section class="byline">
   [PDF](/data/cv.pdf) &bull;
   [source](https://github.com/bamos/cv) &bull;
-  Generated May 12, 2015
+  Generated June 10, 2015
 </section>
 
 
@@ -69,8 +69,7 @@ malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Sym
 
 ### Magazine Articles
 [M1] M. Satyanarayanan, P. Simoens, Y. Xiao, P. Pillai, Z. Chen, K. Ha, W. Hu, and **B. Amos**, <a href='http://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf'>"Edge Analytics in the Internet of Things,"</a> <em>IEEE Pervasive Computing</em>, to appear.<br><br>
-[M2] H. Turner, J. White, **B. Amos**, J. Camelio, C. Williams, and R. Parker, "Bad Parts: Are Our Manufacturing Systems At Risk of Silent
-Cyber-attacks?" <em>IEEE Security and Privacy Magazine</em>, to appear.<br><br>
+[M2] H. Turner, J. White, J. Camelio, C. Williams, **B. Amos**, and R. Parker, "Bad Parts: Are Our Manufacturing Systems at Risk of Silent Cyberattacks?" <em>Security \& Privacy, IEEE</em>, 2015.<br><br>
 
 
 ## Industry Experience
