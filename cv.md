@@ -10,7 +10,7 @@ title: CV
 <section class="byline">
   [PDF](/data/cv.pdf) &bull;
   [source](https://github.com/bamos/cv) &bull;
-  Generated June 10, 2015
+  Generated June 13, 2015
 </section>
 
 
@@ -98,7 +98,7 @@ malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Sym
 
 
 ## Skills
-+ Most Experience: Fortran, Linux, Python, Scala
++ Most Experience: Linux, Python, Scala
 + Some Experience: Akka, Android, Bash, C/C++, Haskell, LaTeX, Make, *Mathematica*, R
 
 
