@@ -50,6 +50,7 @@ You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
   [this publication](http://dl.acm.org/citation.cfm?id=2685662).
 
 # Fun Side Projects
++ [My CS conference tracker](https://github.com/bamos/conference-tracker).
 + [SnowGlobe](https://github.com/bamos/snowglobe):
   Haskell-driven, small-scale web analytics with minimal configuration.
 + [My reading list](http://bamos.github.io/reading-list/):
