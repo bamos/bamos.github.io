@@ -29,11 +29,11 @@ You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
   For my PhD, I'm studying distributed algorithms to improve the
   performance of deep neural networks and
   integer/combinatorial optimization.
-+ [Spindle](https://github.com/adobe-research/spindle):
-  Web analytics processing with Scala, Spark, and Parquet,
-  created as a summer intern at Adobe Research.
-+ [Clasp](https://github.com/hamiltont/clasp):
-  Large-scale Android emulator control on a distributed system.
++ I created **Spindle**
+  as a summer intern at Adobe Research before starting my PhD,
+  which is a web analytics engine built with Scala, Spark, and Parquet,
+  The code is openly available
+  [on GitHub](https://github.com/adobe-research/spindle).
 + **STREAM**:
   As an undergraduate, I applied of machine learning techniques to dynamic
   Android malware detection, which resulted in
@@ -46,7 +46,8 @@ You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
   A preprint of our early results are available as a tech
   report
   [here](https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf).
-  I applied these techniques to a systems biology problem in
+  I helped apply QNSTOP and other optimization algorithms to a systems
+  biology problem in
   [this publication](http://dl.acm.org/citation.cfm?id=2685662).
 
 # Fun Side Projects
