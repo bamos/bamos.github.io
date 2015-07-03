@@ -18,6 +18,11 @@ failed = 0
 passed = 0
 skipped = 0
 
+IGNORED_FILES = [
+  '_site/data/2014-07-28/blueimp-gallery.css'
+  '_site/data/2014-12-15/Blueprint-VerticalTimeline/css/component.css'
+]
+
 class XMLValidator < W3CValidators::Validator
   def validate_file(file)
     if file.respond_to? :read

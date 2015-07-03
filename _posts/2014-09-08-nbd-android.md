@@ -327,9 +327,7 @@ commands.
 watch -n 1 strings /tmp/nbd-file
 {% endhighlight %}
 
-<center>
-  <img src="/data/2014-09-08/android-nbd-init.png" width="70%"/>
-</center>
+<img src="/data/2014-09-08/android-nbd-init.png"/>
 
 ## Connecting the nbd client on the Android device to the nbd server.
 In Android, make a new nbd device and attach to the nbd export
@@ -357,9 +355,7 @@ android> echo "12345678" > /data/nbdroid/nbd-mount/new-file.txt
 These changes can be see in the exported file on the server
 with the `watch` command.
 
-<center>
-  <img src="/data/2014-09-08/android-nbd-changes.png" width="70%"/>
-</center>
+<img src="/data/2014-09-08/android-nbd-changes.png" />
 
 ## Unmounting and detaching nbd
 Use the following commands to cleanly disconnect the nbd client.
