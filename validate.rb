@@ -83,6 +83,7 @@ end
 
 Dir.glob("_site/**/*") do |file|
   next if File.directory?(file)
+  next if IGNORED_FILES.include? file
 
   validator = case File.extname(file)
               when '.html'
@@ -97,15 +98,17 @@ Dir.glob("_site/**/*") do |file|
                 W3CValidators::CSSValidator.new
               else
                 skipped += 1
-                puts file.colorize(:light_black)
+                # puts file.colorize(:light_black)
                 next
               end
 
-  if validator.validate_file(file).errors.empty?
+  errors = validator.validate_file(file).errors
+  if errors.empty?
     puts file.colorize(:green)
     passed += 1
   else
     puts file.colorize(:red)
+    puts errors
     failed += 1
   end
 end

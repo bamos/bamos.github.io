@@ -121,7 +121,8 @@ img { margin: 3px;}
       border-radius: 3px;
       padding: 2px 3px; }
   .content img {
-    align: center;
+    margin-left: auto;
+    margin-right: auto;
     padding: 3px;
     border: 1px solid #eeeeee;
     max-width: 100%; }
