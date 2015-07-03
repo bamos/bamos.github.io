@@ -12,3 +12,11 @@ permalink: pretty
 paginate: 5
 gems:
   - jekyll-sitemap
+
+exclude:
+  - .travis.yml
+  - validate.rb
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
