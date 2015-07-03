@@ -19,7 +19,7 @@ passed = 0
 skipped = 0
 
 IGNORED_FILES = [
-  '_site/data/2014-07-28/blueimp-gallery.css'
+  '_site/data/2014-07-28/blueimp-gallery.css',
   '_site/data/2014-12-15/Blueprint-VerticalTimeline/css/component.css'
 ]
 
