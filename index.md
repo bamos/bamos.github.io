@@ -3,10 +3,10 @@ layout: layout
 title:  Brandon Amos
 ---
 
-<section class="content">
+<div class="content">
 <div class="pull-right">
 <a href="/images/me-large.jpg">
-  <img src="/images/me.jpg" class="rounded-img"/>
+  <img src="/images/me.jpg" class="rounded-img" alt="Me"/>
 </a>
 </div>
 
@@ -85,4 +85,4 @@ You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
   Personal collection and previewing of LaTeX and Beamer snippets.
   Admittedly, I now use Keynote for presentations.
 
-</section>
+</div>

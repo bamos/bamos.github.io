@@ -2,23 +2,23 @@
 layout: layout
 ---
 
-<section class="content">
+<div class="content">
   <h1>
     {{ page.title }}
   </h1>
 
-  <section class="byline">
+  <div class="byline">
     {{ page.date | date: "%B %e, %Y" }}
-  </section>
+  </div>
 
   {{ content }}
 
   {% comment %}
-  <section class="meta">
+  <div class="meta">
     <h3>Discussion, links, and tweets</h3>
       <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}">Tweet</a>
       <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
       <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-  </section>
+  </div>
   {% endcomment %}
-</section>
+</div>
