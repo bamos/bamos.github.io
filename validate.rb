@@ -1,9 +1,10 @@
 #!/usr/bin/env ruby
 #
-# Original by Simon Sigurdhsson at
+# Original accessed in July 2015 by Simon Sigurdhsson.
 # https://github.com/urdh/blog/blob/gh-pages/validate.rb
 #
-# Modifications by Brandon Amos, http://bamos.github.io
+# Modifications in July 2015 by Brandon Amos <http://bamos.github.io>.
+# https://github.com/bamos/bamos.github.io/blob/master/validate.rb
 
 require 'rubygems'
 require 'nokogiri'
