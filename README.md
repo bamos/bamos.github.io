@@ -12,5 +12,7 @@ The theme is MIT licensed by Zach Holman and available at
 Travis CI builds the static website with Jekyll and uses
 [validate.rb](validate.rb) to check content for w3c compliance.
 Simon Sigurdhsson wrote the
-[original validate.rb script](https://github.com/urdh/blog/blob/gh-pages/validate.rb)
-and Brandon Amos has modified and released it under the same license.
+[original validate.rb script](https://github.com/urdh/blog/blob/gh-pages/validate.rb),
+available in the public domain by the CC0 license,
+and the modifications here are also available in the public domain
+by the CC0 license.
