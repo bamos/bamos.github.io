@@ -10,7 +10,7 @@ title: CV
 <section class="byline">
   [PDF](/data/cv.pdf) &bull;
   [source](https://github.com/bamos/cv) &bull;
-  Generated July 20, 2015
+  Generated August 13, 2015
 </section>
 
 
