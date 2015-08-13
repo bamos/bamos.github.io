@@ -43,11 +43,6 @@ Machine learning, mobile computing, and distributed systems.
     + **Area**: Heterogeneous compilers.
 
 
-## Teaching Experience
-+ Software Design and Data Structures (CS 2114), Undergraduate TA,
-  VT S2013
-
-
 ## Publications
 
 ### Conference Proceedings
@@ -72,22 +67,28 @@ malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Sym
 [M2] H. Turner, J. White, J. Camelio, C. Williams, **B. Amos**, and R. Parker, <a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094'>"Bad Parts: Are Our Manufacturing Systems at Risk of Silent Cyberattacks?"</a> <em>Security & Privacy, IEEE</em>, 2015.<br><br>
 
 
+## Teaching Experience
++ Software Design and Data Structures (CS 2114), Undergraduate TA,
+  VT S2013
+
+
 ## Industry Experience
-+ Data Scientist Intern,
-  Adobe Research,
-  May 2014-Aug 2014
-+ Software Engineer Intern,
-  Snowplow Analytics,
-  Dec 2013-Jan 2014
-+ Software Engineer Intern,
-  Qualcomm,
-  May 2013-Aug 2013
-+ Software Engineer Intern,
-  Phoenix Integration,
-  May 2012-Aug 2012
-+ Network Administrator Intern,
-  Sunapsys,
-  Jan 2011-Aug 2011
++ Data Scientist Intern, Adobe Research, May 2014-Aug 2014
+    + **Research Area**: Distributed Systems
+    + Built and released *Spindle* as an open source web analytics processing engine using **Scala**, **Spark**, **Spray**, and **Parquet** on **HDFS**. Spindle is available on GitHub at [http://github.com/adobe-research/spindle](http://github.com/adobe-research/spindle).
++ Software Engineer Intern, Snowplow Analytics, Dec 2013-Jan 2014
+    + Open-source **Scala** development with a startup on the Snowplow analytics platform, available at [http://github.com/snowplow/snowplow](http://github.com/snowplow/snowplow).
+    + Developed a new server using **Spray** and **Actors** to store **Apache Thrift** events on **Amazon Kinesis**.
+    + Completed project ahead of schedule, and also helped port Snowplow's Scala enrichment process to Kinesis.
++ Software Engineer Intern, Qualcomm, May 2013-Aug 2013
+    + Developed an XML modification **web application** for fuzz vector generation. Implemented with client-side **HTML** and **js**, using **D3** for graphics and **Handlebars** for templating.
+    + Developed an XML-based grammar translator in **C++** with the **Xerces** XML parser in **Linux**. Reimplemented in **Python** using the **ElementTree** XML API for sophisticated analysis and tree transformations.
++ Software Engineer Intern, Phoenix Integration, May 2012-Aug 2012
+    + Developed industry software in **VC++**, **VC\#**, **Java**, and **Tomcat**.
+    + Improved the testing (**JUnit** and **NUnit**) and installation (**Ant**, **InstallShield**, and **Make**) frameworks.
+    + Integrated a new licensing mode into CenterLink, a grid computing application, using **FLEXlm** and **Java**.
++ Network Administrator Intern, Sunapsys, Jan 2011-Aug 2011
+    + Internship in high school to replace Windows domain, mail, DHCP, and DNS servers with virtual **Linux** servers using **KVM** and **virsh**.
 
 
 ## Graduate Coursework
@@ -98,8 +99,9 @@ malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Sym
 
 
 ## Skills
-+ Most Experience: Linux, Python, Scala
-+ Some Experience: Akka, Android, Bash, C/C++, Haskell, LaTeX, Make, *Mathematica*, R
++ Fluent: Linux, Python, Scala
++ Experienced: Bash, C/C++, Haskell, HTML/CSS/JavaScript, Java, LaTeX, Lua, Make, *Mathematica*, R
++ Frameworks: Akka, Android, Caffe, Node.js, NumPy, Torch7, Pandas, SciPy, scikit-learn, Spark, Spray
 
 
 ## Honors & Awards
