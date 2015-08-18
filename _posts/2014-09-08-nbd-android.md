@@ -381,5 +381,5 @@ android> /data/nbdroid/nbd-client -d /dev/nbd0
 [gnu-mknod]: http://git.savannah.gnu.org/cgit/coreutils.git/tree/src/mknod.c
 [qemu-nbd]: http://manpages.ubuntu.com/manpages/precise/man8/qemu-nbd.8.html
 [watch]: http://linux.die.net/man/1/watch
-[strings]: http://linux.die.net/man/1/stringshttp://linux.die.net/man/1/strings
+[strings]: http://linux.die.net/man/1/strings
 [antimalware]: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6583806
