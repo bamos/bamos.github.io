@@ -10,7 +10,7 @@ title: CV
 <section class="byline">
   [PDF](/data/cv.pdf) &bull;
   [source](https://github.com/bamos/cv) &bull;
-  Generated August 19, 2015
+  Generated August 22, 2015
 </section>
 
 
@@ -24,7 +24,7 @@ Machine learning, mobile computing, and distributed systems.
   Aug 2014-Present
 + B.S., Computer Science,
   Virginia Tech,
-  May 2014
+  Aug 2011-May 2014
     (3.99/4.00)
 
 
@@ -107,7 +107,7 @@ malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Sym
 ## Skills
 + Fluent: Linux, Python, Scala
 + Experienced: Bash, C/C++, Haskell, HTML/CSS/JavaScript, Java, LaTeX, Lua, Make, *Mathematica*, R
-+ Frameworks: Akka, Android, Caffe, Node.js, NumPy, Torch7, Pandas, SciPy, scikit-learn, Spark, Spray
++ Frameworks: Akka, Android SDK/NDK, Caffe, Node.js, NumPy, Torch7, Pandas, SciPy, scikit-learn, Spark, Spray
 
 
 ## Honors & Awards
