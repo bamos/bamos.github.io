@@ -16,7 +16,9 @@ Hi!
 I'm a Computer Science Ph.D. student
 at Carnegie Mellon University, where
 I work on machine learning,
-mobile computing, and distributed systems.
+mobile computing, and distributed systems
+in the [Elijah](http://elijah.cs.cmu.edu/)
+research group.
 I strive to make all of my work free,
 open source, and reproducible.
 
@@ -24,11 +26,6 @@ You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
 
 # Research Projects
 
-+ [Elijah](http://elijah.cs.cmu.edu/): Low-latency mobile applications
-  that often involve real-time video or audio processing.
-  For my PhD, I'm studying distributed algorithms to improve the
-  performance of deep neural networks and
-  integer/combinatorial optimization.
 + I created **Spindle**
   as a summer intern at Adobe Research before starting my PhD,
   which is a web analytics engine built with Scala, Spark, and Parquet,
@@ -51,7 +48,7 @@ You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
   [this publication](http://dl.acm.org/citation.cfm?id=2685662).
 
 # Fun Side Projects
-+ [My CS conference tracker](https://github.com/bamos/conference-tracker).
++ [CS conference tracker](https://github.com/bamos/conference-tracker).
 + [SnowGlobe](https://github.com/bamos/snowglobe):
   Haskell-driven, small-scale web analytics with minimal configuration.
 + [My reading list](http://bamos.github.io/reading-list/):
