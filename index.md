@@ -28,7 +28,7 @@ You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
 
 + I created **Spindle**
   as a summer intern at Adobe Research before starting my PhD,
-  which is a web analytics engine built with Scala, Spark, and Parquet,
+  which is a web analytics engine built with Scala, Spark, and Parquet.
   The code is openly available
   [on GitHub](https://github.com/adobe-research/spindle).
 + **STREAM**:
