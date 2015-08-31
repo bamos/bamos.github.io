@@ -10,7 +10,7 @@ title: CV
 <section class="byline">
   [PDF](/data/cv.pdf) &bull;
   [source](https://github.com/bamos/cv) &bull;
-  Generated August 22, 2015
+  Generated August 31, 2015
 </section>
 
 
@@ -105,9 +105,9 @@ malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Sym
 
 
 ## Skills
-+ Fluent: Linux, Python, Scala
-+ Experienced: Bash, C/C++, Haskell, HTML/CSS/JavaScript, Java, LaTeX, Lua, Make, *Mathematica*, R
++ Languages: Bash, C/C++, Haskell, HTML/CSS/JavaScript, Java, LaTeX, Lua, Make, *Mathematica*, Python, R, Scala
 + Frameworks: Akka, Android SDK/NDK, Caffe, Node.js, NumPy, Torch7, Pandas, SciPy, scikit-learn, Spark, Spray
++ Systems: Linux, OSX
 
 
 ## Honors & Awards
