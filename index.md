@@ -26,19 +26,19 @@ You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
 
 # Research Projects
 
-+ I created **Spindle**
-  as a summer intern at Adobe Research before starting my PhD,
-  which is a web analytics engine built with Scala, Spark, and Parquet.
++ As a summer intern at Adobe Research, 
+  I created a web analytics engine with Scala, Spark,
+  and Parquet.
   The code is openly available
   [on GitHub](https://github.com/adobe-research/spindle).
-+ **STREAM**:
-  As an undergraduate, I applied of machine learning techniques to dynamic
++ As an undergraduate at Virginia Tech,
+  I applied of machine learning techniques to dynamic
   Android malware detection, which resulted in
   [this publication](http://bamos.github.io/data/papers/amos-iwcmc2013.pdf).
   The code is openly available
   [on GitHub](https://github.com/VT-Magnum-Research/antimalware).
-+ **QNSTOP**:
-  As an undergraduate, I also helped develop parallel versions of quasi-Newton
++ As an undergraduate at Virginia Tech,
+  I also helped develop parallel versions of quasi-Newton
   stochastic optimization algorithms.
   A preprint of our early results are available as a tech
   report
