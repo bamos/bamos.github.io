@@ -16,7 +16,7 @@ Hi!
 I'm a Computer Science Ph.D. student
 at Carnegie Mellon University, where
 I work on machine learning,
-mobile computing, and distributed systems
+computer vision, and mobile computing
 in the [Elijah](http://elijah.cs.cmu.edu/)
 research group.
 I strive to make all of my work free,
@@ -26,7 +26,7 @@ You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
 
 # Research Projects
 
-+ As a summer intern at Adobe Research, 
++ As a summer intern at Adobe Research,
   I created a web analytics engine with Scala, Spark,
   and Parquet.
   The code is openly available
