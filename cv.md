@@ -10,7 +10,7 @@ title: CV
 <section class="byline">
   [PDF](/data/cv.pdf) &bull;
   [source](https://github.com/bamos/cv) &bull;
-  Generated October 14, 2015
+  Generated October 17, 2015
 </section>
 
 
@@ -32,6 +32,7 @@ Machine learning, computer vision, and mobile computing.
 + Research Assistant, Carnegie Mellon University, Aug 2014-Present
     + **Advisor**: Dr. Mahadev Satyanarayanan
     + **Area**: Machine learning, mobile computing, and distributed systems.
+    + OpenFace project lead, available on GitHub at [http://github.com/cmusatyalab/openface](http://github.com/cmusatyalab/openface).
 + Undergraduate Research Assistant, Magnum Research Group, May 2012-May 2014
     + **Advisor**: Dr. Jules White
     + **Area**: Mobile computing, cyber-physical systems, and security.
