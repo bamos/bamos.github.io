@@ -26,6 +26,10 @@ You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
 
 # Research Projects
 
++ At CMU, I am the project lead of
+  [OpenFace](https://github.com/cmusatyalab/openface),
+  which provides free and open-source face recognition
+  technology.
 + As a summer intern at Adobe Research,
   I created a web analytics engine with Scala, Spark,
   and Parquet.
