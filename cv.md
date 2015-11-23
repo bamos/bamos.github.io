@@ -10,7 +10,7 @@ title: CV
 <section class="byline">
   [PDF](/data/cv.pdf) &bull;
   [source](https://github.com/bamos/cv) &bull;
-  Generated October 17, 2015
+  Generated November 23, 2015
 </section>
 
 
@@ -26,13 +26,15 @@ Machine learning, computer vision, and mobile computing.
   Virginia Tech,
   Aug 2011-May 2014
     (3.99/4.00)
++   Northside High School (Roanoke, Virginia),
+  May 2011
 
 
 ## Research Experience
 + Research Assistant, Carnegie Mellon University, Aug 2014-Present
     + **Advisor**: Dr. Mahadev Satyanarayanan
-    + **Area**: Machine learning, mobile computing, and distributed systems.
-    + OpenFace project lead, available on GitHub at [http://github.com/cmusatyalab/openface](http://github.com/cmusatyalab/openface).
+    + **Area**: Machine learning, computer vision, and mobile computing.
+    + Face recognition with deep neural networks. I created the OpenFace project, which is available on GitHub at [http://github.com/cmusatyalab/openface](http://github.com/cmusatyalab/openface).
 + Undergraduate Research Assistant, Magnum Research Group, May 2012-May 2014
     + **Advisor**: Dr. Jules White
     + **Area**: Mobile computing, cyber-physical systems, and security.
