@@ -29,15 +29,15 @@ You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
 + At CMU, I am the project lead of
   [OpenFace](http://cmusatyalab.github.io/openface/)
   which provides free and open-source face recognition
-  technology.
+  technology with deep neural networks.
 + As a summer intern at Adobe Research,
   I created a web analytics engine with Scala, Spark,
   and Parquet.
   The code is openly available
   [on GitHub](https://github.com/adobe-research/spindle).
 + As an undergraduate at Virginia Tech,
-  I applied of machine learning techniques to dynamic
-  Android malware detection, which resulted in
+  I researched dynamic Android malware detection,
+  which resulted in
   [this publication](http://bamos.github.io/data/papers/amos-iwcmc2013.pdf).
   The code is openly available
   [on GitHub](https://github.com/VT-Magnum-Research/antimalware).
