@@ -10,7 +10,7 @@ title: CV
 <section class="byline">
   [PDF](/data/cv.pdf) &bull;
   [source](https://github.com/bamos/cv) &bull;
-  Generated November 23, 2015
+  Generated November 29, 2015
 </section>
 
 
@@ -32,21 +32,21 @@ Machine learning, computer vision, and mobile computing.
 
 ## Research Experience
 + Research Assistant, Carnegie Mellon University, Aug 2014-Present
-    + **Advisor**: Dr. Mahadev Satyanarayanan
+    + **Advisor**: Prof. Mahadev Satyanarayanan
     + **Area**: Machine learning, computer vision, and mobile computing.
     + Face recognition with deep neural networks. I created the OpenFace project, which is available on GitHub at [http://github.com/cmusatyalab/openface](http://github.com/cmusatyalab/openface).
 + Undergraduate Research Assistant, Magnum Research Group, May 2012-May 2014
-    + **Advisor**: Dr. Jules White
+    + **Advisor**: Prof. Jules White
     + **Area**: Mobile computing, cyber-physical systems, and security.
     + Android malware detection research implemented with a distributed **Actor-based Scala** system.
     + Manufacturing cyber-physical security research implemented with **VC\#** and **Python**.
 + Undergraduate Research Assistant, Virginia Tech, Jan 2013-May 2014
-    + **Advisor**: Dr. Layne Watson
+    + **Advisor**: Prof. Layne Watson
     + **Area**: Scientific computing, global/stochastic optimization, and bioinformatics.
     + Algorithm development for global and stochastic optimization using quasi-Newton methods for **parameter estimation** in **Fortran 95** and **OpenMP**.
     + Bioinformatics research on yeast cell modeling using **Fortran 95**, **C++**, and **Matlab**.
 + Undergraduate Research Assistant, Systems Software Research Group, Nov 2012-Mar 2014
-    + **Advisor**: Dr. Binoy Ravindran
+    + **Advisor**: Prof. Binoy Ravindran
     + **Area**: Heterogeneous compilers.
     + Compiler research on a heterogeneous system on automatic **OpenMP** to **CUDA** translation using **C++** and the **ROSE** compiler framework.
     + Polyhedral loop optimization research to restructure **OpenCL** kernels for locality using **LLVM** and **Polly**.
