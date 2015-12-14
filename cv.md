@@ -10,7 +10,7 @@ title: CV
 <section class="byline">
   [PDF](/data/cv.pdf) &bull;
   [source](https://github.com/bamos/cv) &bull;
-  Generated November 29, 2015
+  Generated on December 14, 2015
 </section>
 
 
@@ -101,8 +101,8 @@ malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Sym
 
 
 ## Graduate Coursework
-+ Convex Optimization (10-725), Ryan Tibshirani, (in progress) CMU F2015
-+ Algorithms in the Real World (15-853), G. Blelloch and A. Gupta, (in progress) CMU F2015
++ Convex Optimization (10-725), R. J. Tibshirani, CMU F2015
++ Algorithms in the Real World (15-853), G. Blelloch and A. Gupta, CMU F2015
 + Semantics of Programming Languages (15-812), A. Platzer, CMU S2015
 + Optimizing Compilers for Modern Architecture (15-745), T. Mowry, CMU S2015
 + Advanced Operating Systems and Distributed Systems (15-712), D. Andersen, CMU F2014
