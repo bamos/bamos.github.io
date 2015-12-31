@@ -86,7 +86,7 @@ malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Sym
     + **Research Area**: Distributed Systems
     + Built and released *Spindle* as an open source web analytics processing engine using **Scala**, **Spark**, **Spray**, and **Parquet** on **HDFS**. Spindle is available on GitHub at [http://github.com/adobe-research/spindle](http://github.com/adobe-research/spindle).
 + Software Engineer Intern, Snowplow Analytics, Dec 2013-Jan 2014
-    + Open-source **Scala** development with a startup on the Snowplow analytics platform, available at [http://github.com/snowplow/snowplow](http://github.com/snowplow/snowplow).
+    + Open-source **Scala** development with a startup on the Snowplow analytics platform. My contributions are available at [https://github.com/snowplow/snowplow/commits?author=bamos](https://github.com/snowplow/snowplow/commits?author=bamos).
     + Developed a new server using **Spray** and **Actors** to store **Apache Thrift** events on **Amazon Kinesis**.
     + Completed project ahead of schedule, and also helped port Snowplow's Scala enrichment process to Kinesis.
 + Software Engineer Intern, Qualcomm, May 2013-Aug 2013
