@@ -100,13 +100,13 @@ malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Sym
     + Internship in high school to replace Windows domain, mail, DHCP, and DNS servers with virtual **Linux** servers using **KVM** and **virsh**.
 
 
-## Graduate Coursework
-+ Convex Optimization (10-725), R. J. Tibshirani, CMU F2015
-+ Algorithms in the Real World (15-853), G. Blelloch and A. Gupta, CMU F2015
-+ Semantics of Programming Languages (15-812), A. Platzer, CMU S2015
-+ Optimizing Compilers for Modern Architecture (15-745), T. Mowry, CMU S2015
-+ Advanced Operating Systems and Distributed Systems (15-712), D. Andersen, CMU F2014
-+ Mobile and Pervasive Computing (15-812), M. Satyanarayanan and D. Siewiorek, CMU F2014
+## CMU Graduate Coursework
++ Convex Optimization (10-725), R. J. Tibshirani, F2015
++ Algorithms in the Real World (15-853), G. Blelloch and A. Gupta, F2015
++ Semantics of Programming Languages (15-812), A. Platzer, S2015
++ Optimizing Compilers for Modern Architecture (15-745), T. Mowry, S2015
++ Advanced Operating Systems and Distributed Systems (15-712), D. Andersen, F2014
++ Mobile and Pervasive Computing (15-812), M. Satyanarayanan and D. Siewiorek, F2014
 
 
 ## Skills
