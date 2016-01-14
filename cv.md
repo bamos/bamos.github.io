@@ -10,7 +10,7 @@ title: CV
 <section class="byline">
   [PDF](/data/cv.pdf) &bull;
   [source](https://github.com/bamos/cv) &bull;
-  Generated on December 31, 2015
+  Generated on January 14, 2016
 </section>
 
 
@@ -101,6 +101,7 @@ malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Sym
 
 
 ## CMU Graduate Coursework
++ Computer Vision (16-720), D. Ramanan, S2016
 + Convex Optimization (10-725), R. J. Tibshirani, F2015
 + Algorithms in the Real World (15-853), G. Blelloch and A. Gupta, F2015
 + Semantics of Programming Languages (15-812), A. Platzer, S2015
