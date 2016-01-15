@@ -9,7 +9,7 @@ markdown: kramdown
 kramdown:
   parse_block_html: true
 permalink: pretty
-paginate: 5
+#paginate: 5
 gems:
   - jekyll-sitemap
 
