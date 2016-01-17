@@ -3,7 +3,8 @@ layout: layout
 title: "Posts"
 ---
 
-<section class="content">
+<div class="content">
+  <h1>Blog Posts</h1>
   <ul class="listing">
     {% for post in site.posts %}
       {% unless post.draft %}
@@ -14,4 +15,4 @@ title: "Posts"
       {% endunless %}
     {% endfor %}
   </ul>
-</section>
+</div>
