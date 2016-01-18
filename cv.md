@@ -1,16 +1,16 @@
 ---
 layout: layout
-title: CV
+title: 'Brandon Amos: CV'
 ---
 
 <section class="content">
 
-# Brandon Amos
+# Brandon Amos: CV
 
 <section class="byline">
   [PDF](/data/cv.pdf) &bull;
   [source](https://github.com/bamos/cv) &bull;
-  Generated on January 14, 2016
+  Generated on January 18, 2016
 </section>
 
 
@@ -55,30 +55,32 @@ Machine learning, computer vision, and mobile computing.
 ## Publications
 
 ### Conference Proceedings
-[C1] Z. Chen, L. Jiang, W. Hu, K. Ha, **B. Amos**, P. Pillai, A. Hauptmann, and M. Satyanarayanan, <a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf'>"Early Implementation Experience with Wearable Cognitive Assistance Applications,"</a> in <em>WearSys 2015</em>, 2015.<br><br>
-[C2] W. Hu, **B. Amos**, Z. Chen, K. Ha, W. Richter, P. Pillai, B. Gilbert, J. Harkes, and M. Satyanarayanan, <a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf'>"The Case for Offload Shaping,"</a> in <em>HotMobile 2015</em>, 2015.<br><br>
-[C3] **B. Amos**, and D. Tompkins, "Performance study of Spindle, a web analytics query engine
-implemented in Spark," in <em>(Short Paper) Proceedings of the 2014 IEEE International Conference on Cloud Computing Technology and Science (CloudCom)</em>, 2014.<br><br>
-[C4] T. Andrew, **B. Amos**, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson, <a href='http://dl.acm.org/citation.cfm?id=2685662'>"Global Parameter Estimation for a Eukaryotic Cell Cycle Model
-in Systems Biology,"</a> in <em>2014 Summer Simulation Multiconference, Society for Modeling and Simulation International</em>, 2014.<br><br>
-[C5] **B. Amos**, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker, <a href='http://dl.acm.org/citation.cfm?id=2663525'>"Fortran 95 implementation of QNSTOP for global and
-stochastic optimization,"</a> in <em>2014 Spring Simulation Multiconference, 22nd High Performance Computer Symposium, Society for Modeling and Simulation International</em>, 2014.<br><br>
-[C6] **B. Amos**, H. Turner, and J. White, <a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf'>"Applying machine learning classifiers to dynamic Android
-malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Symposium</em>, 2013.<br><br>
++ [C1] Z. Chen, L. Jiang, W. Hu, K. Ha, **B. Amos**, P. Pillai, A. Hauptmann, and M. Satyanarayanan, <a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf'>"Early Implementation Experience with Wearable Cognitive Assistance Applications,"</a> in <em>WearSys 2015</em>, 2015.
++ [C2] W. Hu, **B. Amos**, Z. Chen, K. Ha, W. Richter, P. Pillai, B. Gilbert, J. Harkes, and M. Satyanarayanan, <a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf'>"The Case for Offload Shaping,"</a> in <em>HotMobile 2015</em>, 2015.
++ [C3] **B. Amos**, and D. Tompkins, "Performance study of Spindle, a web analytics query engine
+implemented in Spark," in <em>(Short Paper) Proceedings of the 2014 IEEE International Conference on Cloud Computing Technology and Science (CloudCom)</em>, 2014.
++ [C4] T. Andrew, **B. Amos**, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson, <a href='http://dl.acm.org/citation.cfm?id=2685662'>"Global Parameter Estimation for a Eukaryotic Cell Cycle Model
+in Systems Biology,"</a> in <em>2014 Summer Simulation Multiconference, Society for Modeling and Simulation International</em>, 2014.
++ [C5] **B. Amos**, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker, <a href='http://dl.acm.org/citation.cfm?id=2663525'>"Fortran 95 implementation of QNSTOP for global and
+stochastic optimization,"</a> in <em>2014 Spring Simulation Multiconference, 22nd High Performance Computer Symposium, Society for Modeling and Simulation International</em>, 2014.
++ [C6] **B. Amos**, H. Turner, and J. White, <a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf'>"Applying machine learning classifiers to dynamic Android
+malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Symposium</em>, 2013.
 
 
 ### Journal Articles
-[J1] **B. Amos**, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset, <a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf'>"QNSTOP-QuasiNewton Algorithm for Stochastic Optimization,"</a> submitted, pre-print available as a tech report.<br><br>
++ [J1] **B. Amos**, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset, <a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf'>"QNSTOP-QuasiNewton Algorithm for Stochastic Optimization,"</a> submitted, pre-print available as a tech report.
 
 
 ### Magazine Articles
-[M1] M. Satyanarayanan, P. Simoens, Y. Xiao, P. Pillai, Z. Chen, K. Ha, W. Hu, and **B. Amos**, <a href='http://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf'>"Edge Analytics in the Internet of Things,"</a> <em>IEEE Pervasive Computing</em>, to appear.<br><br>
-[M2] H. Turner, J. White, J. Camelio, C. Williams, **B. Amos**, and R. Parker, <a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094'>"Bad Parts: Are Our Manufacturing Systems at Risk of Silent Cyberattacks?"</a> <em>Security & Privacy, IEEE</em>, 2015.<br><br>
++ [M1] M. Satyanarayanan, P. Simoens, Y. Xiao, P. Pillai, Z. Chen, K. Ha, W. Hu, and **B. Amos**, <a href='http://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf'>"Edge Analytics in the Internet of Things,"</a> <em>IEEE Pervasive Computing</em>, to appear.
++ [M2] H. Turner, J. White, J. Camelio, C. Williams, **B. Amos**, and R. Parker, <a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094'>"Bad Parts: Are Our Manufacturing Systems at Risk of Silent Cyberattacks?"</a> <em>Security & Privacy, IEEE</em>, 2015.
 
 
 ## Teaching Experience
-+ Software Design and Data Structures (CS 2114), Undergraduate TA,
-  VT S2013
++ Distributed Systems (CMU 15-440/640), Graduate TA,
+  S2016
++ Software Design and Data Structures (VT CS 2114), Undergraduate TA,
+  S2013
 
 
 ## Industry Experience
@@ -101,7 +103,8 @@ malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Sym
 
 
 ## CMU Graduate Coursework
-+ Computer Vision (16-720), D. Ramanan, S2016
++ Intro to Machine Learning (10-701), T. Mitchell, S2016 (Au)
++ Computer Vision (16-720), D. Ramanan, S2016 (Au)
 + Convex Optimization (10-725), R. J. Tibshirani, F2015
 + Algorithms in the Real World (15-853), G. Blelloch and A. Gupta, F2015
 + Semantics of Programming Languages (15-812), A. Platzer, S2015
