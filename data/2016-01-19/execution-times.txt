@@ -1,0 +1,39 @@
+(openface)openface(master*)$ ./util/profile-pipeline.py ./images/examples/lennon-1.jpg --networkModel ./models/openface/nn4.small2.v1.t7
+Argument parsing and loading libraries took 0.1795 seconds.
+Loading the dlib and OpenFace models took 0.9411 seconds.
+Image size: (1050, 1400, 3)
+Number of iterations: 100
+Average Detection Time (seconds): 1.0717 +/- 0.0441
+Average Alignment Time (seconds): 0.0045 +/- 0.0003
+Average Neural Net Representation Time (seconds): 0.4810 +/- 0.0861
+Average Total Time (seconds): 1.5572 +/- 0.1047
+
+(openface)openface(master*)$ ./util/profile-pipeline.py ./images/examples/carell.jpg --networkModel ./models/openface/nn4.small2.v1.t7
+Argument parsing and loading libraries took 0.2230 seconds.
+Loading the dlib and OpenFace models took 0.9264 seconds.
+Image size: (891, 601, 3)
+Number of iterations: 100
+Average Detection Time (seconds): 0.4112 +/- 0.0235
+Average Alignment Time (seconds): 0.0043 +/- 0.0001
+Average Neural Net Representation Time (seconds): 0.4688 +/- 0.0925
+Average Total Time (seconds): 0.8843 +/- 0.1007
+
+(openface)openface(e19042d*)$ ./profile-pipeline.py ./images/examples/lennon-1.jpg --networkModel ./models/openface/nn4.v1.t7
+Argument parsing and loading libraries took 0.3893 seconds.
+Loading the dlib and OpenFace models took 0.8939 seconds.
+Image size: (1050, 1400, 3)
+Number of iterations: 100
+Average Detection Time (seconds): 1.0771 +/- 0.0577
+Average Alignment Time (seconds): 1.0691 +/- 0.0215
+Average Neural Net Representation Time (seconds): 0.6763 +/- 0.1231
+Average Total Time (seconds): 2.8224 +/- 0.1456
+
+(openface)openface(e19042d*)$ ./profile-pipeline.py ./images/examples/carell.jpg --networkModel ./models/openface/nn4.v1.t7
+Argument parsing and loading libraries took 0.3811 seconds.
+Loading the dlib and OpenFace models took 0.9059 seconds.
+Image size: (891, 601, 3)
+Number of iterations: 100
+Average Detection Time (seconds): 0.4056 +/- 0.0128
+Average Alignment Time (seconds): 0.3907 +/- 0.0163
+Average Neural Net Representation Time (seconds): 0.6497 +/- 0.1391
+Average Total Time (seconds): 1.4459 +/- 0.1469
