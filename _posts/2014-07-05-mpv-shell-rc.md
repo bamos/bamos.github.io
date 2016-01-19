@@ -58,7 +58,7 @@ alias pd='playdir'
 [mpv]: http://mpv.io
 [mplayer]: http://www.mplayerhq.hu
 
-[mpv-lua-scripting]: http://bamos.io/2014/07/05/mpv-lua-scripting
-[music-organizer]: http://bamos.io/2014/07/05/music-organizer/
+[mpv-lua-scripting]: /2014/07/05/mpv-lua-scripting
+[music-organizer]: /2014/07/05/music-organizer/
 
 [mpv/shellrc.sh]: https://github.com/bamos/dotfiles/blob/master/.mpv/shellrc.sh

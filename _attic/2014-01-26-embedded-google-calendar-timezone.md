@@ -28,4 +28,4 @@ to `America/New_York` on error.
 [embed]: https://support.google.com/calendar/answer/41207?hl=en
 [timezones]: /data/2014-01-26/timezones.txt
 [jstz]: http://pellepim.bitbucket.org/jstz/
-[demo]: http://bamos.io/meet
+[demo]: http://bamos.github.io/meet

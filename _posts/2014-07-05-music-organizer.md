@@ -151,8 +151,8 @@ optional arguments:
 [mpv]: http://mpv.io
 [mplayer]: http://www.mplayerhq.hu
 
-[mpv-lua-scripting]: http://bamos.io/2014/07/05/mpv-lua-scripting
-[mpv-shell-rc]: http://bamos.io/2014/07/05/mpv-shell-rc/
+[mpv-lua-scripting]: /2014/07/05/mpv-lua-scripting
+[mpv-shell-rc]: /2014/07/05/mpv-shell-rc/
 
 [python-scripts]: https://github.com/bamos/python-scripts
 [music-organizer.py]: https://github.com/bamos/python-scripts/blob/master/python2.7/music-organizer.py

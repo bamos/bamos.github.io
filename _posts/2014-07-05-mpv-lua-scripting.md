@@ -205,5 +205,5 @@ mp.add_key_binding("s", "share", share_info)
 [.mpv/config]: https://github.com/bamos/dotfiles/blob/master/.mpv/config
 [music.lua]: https://github.com/bamos/dotfiles/blob/master/.mpv/lua/music.lua
 
-[music-organizer]: http://bamos.io/2014/07/05/music-organizer/
-[mpv-shell-rc]: http://bamos.io/2014/07/05/mpv-shell-rc/
+[music-organizer]: /2014/07/05/music-organizer/
+[mpv-shell-rc]: /2014/07/05/mpv-shell-rc/

@@ -31,7 +31,7 @@ errors were encountered, which is what [this][src] Python 3.3 script in
 Upon error, an email of the following format is sent.
 
 <pre>
-Error checking links for http://bamos.io
+Error checking links for http://bamos.github.io
 
 URL        `https://github.com/bamos/simple-shell-scripts/blob/master/re-signer.sh'
 Parent URL http://bamos.github.io/2013/03/10/resigning-apk/, line 64, col 570

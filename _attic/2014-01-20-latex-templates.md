@@ -8,7 +8,7 @@ tags: [LaTeX]
 LaTeX templates I use and have created,
 and I've added a very simple `gh-pages` branch so users
 can preview the documents:
-[http://bamos.io/latex-templates](http://bamos.io/latex-templates)
+[http://bamos.github.io/latex-templates](http://bamos.github.io/latex-templates)
 
 The current documents are:
 

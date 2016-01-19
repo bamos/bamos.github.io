@@ -59,7 +59,7 @@ conference in Singapore, where I'll be presenting the work.
 ## Bay Area
 I've had a lot of fun exploring the Bay Area as an intern.
 Check out some of my favorite pictures below!
-Also, see [http://bamos.io/pics](http://bamos.io/pics)
+Also, see [http://bamos.github.io/pics](http://bamos.github.io/pics)
 for my entire picture collection.
 
 <div id="blueimp-gallery" class="blueimp-gallery">

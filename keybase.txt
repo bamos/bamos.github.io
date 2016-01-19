@@ -38,7 +38,7 @@ with the aforementioned key, yielding the PGP signature:
 -----BEGIN PGP MESSAGE-----
 Version: GnuPG v1
 Comment: I have signed or encrypted this message with PGP.
-Comment: For more information, see http://bamos.io/pgp.
+Comment: For more information, see http://bamos.github.io/pgp.
 
 owFtUV1IFFEU3t0ymSXB/EXTwCnoh01nZud3S4JMDRFMFKGHdrt35u7uYM7szsxa
 upghUlgWSghC+JCSpkQFItv6kKIIhflSoeBDolAkFP0vRA91xwp66L4czvm+853v

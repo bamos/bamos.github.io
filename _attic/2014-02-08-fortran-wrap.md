@@ -63,5 +63,5 @@ is wrapped to:
 2.7183479469335622, -0.08224886565674905, 3.507597308608203/)
 </pre>
 
-[site]: http://bamos.io/fortran-wrap
+[site]: http://bamos.github.io/fortran-wrap
 [gh]: https://github.com/bamos/fortran-wrap
