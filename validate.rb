@@ -21,7 +21,8 @@ skipped = 0
 
 IGNORED_FILES = [
   '_site/data/2014-07-28/blueimp-gallery.css',
-  '_site/data/2014-12-15/Blueprint-VerticalTimeline/css/component.css'
+  '_site/data/2014-12-15/Blueprint-VerticalTimeline/css/component.css',
+  '_site/css/font-awesome.min.css'
 ]
 
 class XMLValidator < W3CValidators::Validator
@@ -103,8 +104,20 @@ Dir.glob("_site/**/*") do |file|
                 next
               end
 
-  errors = validator.validate_file(file).errors
-  if errors.empty?
+  errors = nil
+  begin
+    errors = validator.validate_file(file).errors
+  rescue => e
+    puts
+    puts file
+    puts '  + Warning: Unable to validate:'
+    puts '==========='
+    puts e
+    puts '==========='
+    puts
+  end
+  if errors.nil?
+  elsif errors.empty?
     puts file.colorize(:green)
     passed += 1
   else
