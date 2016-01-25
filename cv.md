@@ -85,31 +85,10 @@ malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Sym
 
 ## Industry Experience
 + Data Scientist Intern, Adobe Research, May 2014-Aug 2014
-  <!--
-    + **Research Area**: Distributed Systems
-    + Built and released *Spindle* as an open source web analytics processing engine using **Scala**, **Spark**, **Spray**, and **Parquet** on **HDFS**. Spindle is available on GitHub at [http://github.com/adobe-research/spindle](http://github.com/adobe-research/spindle).
-  -->
 + Software Engineer Intern, Snowplow Analytics, Dec 2013-Jan 2014
-  <!--
-    + Open-source **Scala** development with a startup on the Snowplow analytics platform. My contributions are available at [https://github.com/snowplow/snowplow/commits?author=bamos](https://github.com/snowplow/snowplow/commits?author=bamos).
-    + Developed a new server using **Spray** and **Actors** to store **Apache Thrift** events on **Amazon Kinesis**.
-    + Completed project ahead of schedule, and also helped port Snowplow's Scala enrichment process to Kinesis.
-  -->
 + Software Engineer Intern, Qualcomm, May 2013-Aug 2013
-  <!--
-    + Developed an XML modification **web application** for fuzz vector generation. Implemented with client-side **HTML** and **js**, using **D3** for graphics and **Handlebars** for templating.
-    + Developed an XML-based grammar translator in **C++** with the **Xerces** XML parser in **Linux**. Reimplemented in **Python** using the **ElementTree** XML API for sophisticated analysis and tree transformations.
-  -->
 + Software Engineer Intern, Phoenix Integration, May 2012-Aug 2012
-  <!--
-    + Developed industry software in **VC++**, **VC\#**, **Java**, and **Tomcat**.
-    + Improved the testing (**JUnit** and **NUnit**) and installation (**Ant**, **InstallShield**, and **Make**) frameworks.
-    + Integrated a new licensing mode into CenterLink, a grid computing application, using **FLEXlm** and **Java**.
-  -->
 + Network Administrator Intern, Sunapsys, Jan 2011-Aug 2011
-  <!--
-    + Internship in high school to replace Windows domain, mail, DHCP, and DNS servers with virtual **Linux** servers using **KVM** and **virsh**.
-  -->
 
 
 ## CMU Graduate Coursework
