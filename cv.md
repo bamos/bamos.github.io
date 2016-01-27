@@ -10,7 +10,7 @@ title: 'Brandon Amos: CV'
 <section class="byline">
   [PDF](/data/cv.pdf) &bull;
   [source](https://github.com/bamos/cv) &bull;
-  Generated on January 25, 2016
+  Generated on January 27, 2016
 </section>
 
 
@@ -67,13 +67,16 @@ stochastic optimization,"</a> in <em>2014 Spring Simulation Multiconference, 22n
 malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Symposium</em>, 2013.
 
 
-### Journal Articles
-+ [J1] **B. Amos**, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset, <a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf'>"QNSTOP-QuasiNewton Algorithm for Stochastic Optimization,"</a> submitted, pre-print available as a tech report.
-
-
 ### Magazine Articles
-+ [M1] M. Satyanarayanan, P. Simoens, Y. Xiao, P. Pillai, Z. Chen, K. Ha, W. Hu, and **B. Amos**, <a href='http://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf'>"Edge Analytics in the Internet of Things,"</a> <em>IEEE Pervasive Computing</em>, to appear.
-+ [M2] H. Turner, J. White, J. Camelio, C. Williams, **B. Amos**, and R. Parker, <a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094'>"Bad Parts: Are Our Manufacturing Systems at Risk of Silent Cyberattacks?"</a> <em>Security & Privacy, IEEE</em>, 2015.
++ [M1] K. Ha, Y. Abe, Z. Chen, W. Hu, **B. Amos**, P. Pillai, and M. Satyanarayanan, "Adaptive vm handoff across cloudlets," 2015.
++ [M2] M. Satyanarayanan, P. Simoens, Y. Xiao, P. Pillai, Z. Chen, K. Ha, W. Hu, and **B. Amos**, "Edge Analytics in the Internet of Things," <em>IEEE Pervasive Computing</em>, 2015.
++ [M3] H. Turner, J. White, J. Camelio, C. Williams, **B. Amos**, and R. Parker, <a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094'>"Bad Parts: Are Our Manufacturing Systems at Risk of Silent Cyberattacks?"</a> <em>Security & Privacy, IEEE</em>, 2015.
+
+
+### Tech Reports
++ [T1] Y. Gao, W. Hu, K. Ha, **B. Amos**, P. Pillai, and M. Satyanarayanan, "Are Cloudlets Necessary?" 2015.
++ [T2] K. Ha, Y. Abe, Z. Chen, W. Hu, **B. Amos**, P. Pillai, and M. Satyanarayanan, "Adaptive vm handoff across cloudlets," 2015.
++ [T3] **B. Amos**, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset, <a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf'>"QNSTOP-QuasiNewton Algorithm for Stochastic Optimization,"</a> 2014.
 
 
 ## Teaching Experience
