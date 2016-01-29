@@ -105,7 +105,7 @@ malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Sym
 
 
 ## Skills
-+ Languages: Bash, C/C++, Haskell, HTML/CSS/JavaScript, Java, LaTeX, Lua, Make, *Mathematica*, Python, R, Scala
++ Languages: Bash, C, C++, Haskell, HTML/CSS/JavaScript, Java, LaTeX, Lua, Make, *Mathematica*, Python, R, Scala
 + Frameworks: Akka, Android SDK/NDK, Caffe, Node.js, NumPy, Torch7, Pandas, SciPy, scikit-learn, Spark, Spray
 + Systems: Linux, OSX
 
