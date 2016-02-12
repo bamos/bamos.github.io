@@ -4,10 +4,10 @@ destination: ./_site
 twitter: brandondamos
 lsi: false
 port: 4000
-highlighter: pygments
 markdown: kramdown
 kramdown:
   parse_block_html: true
+  syntax_highlighter: rouge
 permalink: pretty
 #paginate: 5
 gems:
