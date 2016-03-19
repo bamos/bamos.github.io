@@ -10,7 +10,7 @@ title: 'Brandon Amos: CV'
 <section class="byline">
   [PDF](/data/cv.pdf) &bull;
   [source](https://github.com/bamos/cv) &bull;
-  Generated on January 29, 2016
+  Generated on March 06, 2016
 </section>
 
 
@@ -91,17 +91,6 @@ malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Sym
 + Software Engineer Intern, Qualcomm, May 2013-Aug 2013
 + Software Engineer Intern, Phoenix Integration, May 2012-Aug 2012
 + Network Administrator Intern, Sunapsys, Jan 2011-Aug 2011
-
-
-## CMU Graduate Coursework
-+ Intro to Machine Learning (10-701), T. Mitchell, S2016 (Au)
-+ Computer Vision (16-720), D. Ramanan, S2016 (Au)
-+ Convex Optimization (10-725), R. J. Tibshirani, F2015
-+ Algorithms in the Real World (15-853), G. Blelloch and A. Gupta, F2015
-+ Semantics of Programming Languages (15-812), A. Platzer, S2015
-+ Optimizing Compilers for Modern Architecture (15-745), T. Mowry, S2015
-+ Advanced Operating Systems and Distributed Systems (15-712), D. Andersen, F2014
-+ Mobile and Pervasive Computing (15-812), M. Satyanarayanan and D. Siewiorek, F2014
 
 
 ## Skills
