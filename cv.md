@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: base
 title: 'Brandon Amos: CV'
 ---
 

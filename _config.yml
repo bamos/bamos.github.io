@@ -19,4 +19,5 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
-  - vendor/
+  - bower_components
+  - update-vendor-deps.sh

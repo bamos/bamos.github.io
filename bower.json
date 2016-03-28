@@ -1,0 +1,20 @@
+{
+  "name": "bamos.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/bamos/bamos.github.io",
+  "authors": [
+    "Brandon Amos <bamos@cs.cmu.edu>"
+  ],
+  "license": "Apache",
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.3.0",
+    "MathJax": "~2.6.0",
+    "jquery": "~2.2.2",
+    "pygments": "~2.1.1"
+  }
+}

@@ -1,24 +1,10 @@
 ---
-layout: layout
+layout: singlePage
 ---
 
-<div class="content">
-  <h1>
-    {{ page.title }}
-  </h1>
+<h1>{{ page.title }}</h1>
+<em>{{ page.date | date: "%B %e, %Y" }}</em>
 
-  <div class="byline">
-    {{ page.date | date: "%B %e, %Y" }}
-  </div>
+<hr>
 
-  {{ content }}
-
-  {% comment %}
-  <div class="meta">
-    <h3>Discussion, links, and tweets</h3>
-      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}">Tweet</a>
-      <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
-      <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-  </div>
-  {% endcomment %}
-</div>
+{{ content }}

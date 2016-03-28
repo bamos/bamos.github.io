@@ -1,23 +1,6 @@
 ---
-layout: layout
-title:  Brandon Amos
+layout: index
 ---
-
-<div class="content">
-<div class="pull-right">
-<a href="/images/me-large.png">
-  <img src="/images/me.png" class="rounded-img" alt="Me"/>
-</a>
-</div>
-
-# Brandon Amos
-
-Hi! I'm a Computer Science Ph.D. student at Carnegie Mellon University, where
-I work on machine learning, computer vision, and mobile computing with
-my advisor [Satya](https://www.cs.cmu.edu/~satya/).
-I strive to make all of my work free, open source, and reproducible.
-
-You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
 
 # Research Projects
 
@@ -81,4 +64,3 @@ You can contact me at [bamos@cs.cmu.edu](mailto:bamos@cs.cmu.edu).
   Personal collection and previewing of LaTeX and Beamer snippets.
   Admittedly, I now use Keynote for presentations.
 
-</div>

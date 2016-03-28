@@ -1,0 +1,21 @@
+body {
+	padding-top: 70px;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.2em 0;
+}
+
+.vcenter {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+
+img {
+  margin: 3px;
+  padding: 3px;
+  border: 2px solid #eeeeee;
+  max-width: 100%;
+}
