@@ -6,3 +6,5 @@ _posts/ideas
 /images/latex/
 
 bower_components
+
+.jekyll-metadata
