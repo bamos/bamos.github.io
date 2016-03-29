@@ -1,23 +1,3 @@
----
-layout: base
-title: 'Brandon Amos: CV'
----
-
-<section class="content">
-
-# Brandon Amos: CV
-
-<section class="byline">
-  [PDF](/data/cv.pdf) &bull;
-  [source](https://github.com/bamos/cv) &bull;
-  Generated on March 06, 2016
-</section>
-
-
-## Research Interests
-Machine learning, computer vision, and mobile computing.
-
-
 ## Education
 + Ph.D. Student, Computer Science,
   Carnegie Mellon University,
@@ -93,13 +73,8 @@ malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Sym
 + Network Administrator Intern, Sunapsys, Jan 2011-Aug 2011
 
 
-## Skills
-+ Languages: Bash, C, C++, Haskell, HTML/CSS/JavaScript, Java, LaTeX, Lua, Make, *Mathematica*, Python, R, Scala
-+ Frameworks: Akka, Android SDK/NDK, Caffe, Node.js, NumPy, Torch7, Pandas, SciPy, scikit-learn, Spark, Spray
-+ Systems: Linux, OSX
-
-
 ## Honors & Awards
++ NSF Graduate Research Fellowship: \$138,000, 2016-2019
 + 1st Place Undergraduate Senior Capstone Award, Virginia Tech Computer Science, 2014
 + David Heilman Research Award, Virginia Tech Computer Science, 2014
   + Given to the Computer Science student with the most outstanding research experience.
@@ -109,6 +84,7 @@ malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Sym
 + Awarded eight undergraduate merit scholarships, 2011-2014
 
 
-
-
-</section>
+## Skills
++ Languages: Bash, C, C++, Haskell, HTML/CSS/JavaScript, Java, LaTeX, Lua, Make, *Mathematica*, Python, R, Scala
++ Frameworks: Akka, Android SDK/NDK, Caffe, Node.js, NumPy, Torch7, Pandas, SciPy, scikit-learn, Spark, Spray
++ Systems: Linux, OSX

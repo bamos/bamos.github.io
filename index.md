@@ -2,32 +2,22 @@
 layout: index
 ---
 
-# Research Projects
+I am a second-year Computer Science Ph.D. student
+at Carnegie Mellon University, where I am supported
+by an NSF graduate research fellowship.
 
-+ At CMU, I am the project lead of
-  [OpenFace](http://cmusatyalab.github.io/openface/)
-  which provides free and open-source face recognition
-  technology with deep neural networks.
-+ As a summer intern at Adobe Research,
-  I created a web analytics engine with Scala, Spark,
-  and Parquet.
-  The code is openly available
-  [on GitHub](https://github.com/adobe-research/spindle).
-+ As an undergraduate at Virginia Tech,
-  I researched dynamic Android malware detection,
-  which resulted in
-  [this publication](http://bamos.github.io/data/papers/amos-iwcmc2013.pdf).
-  The code is openly available
-  [on GitHub](https://github.com/VT-Magnum-Research/antimalware).
-+ As an undergraduate at Virginia Tech,
-  I also helped develop parallel versions of quasi-Newton
-  stochastic optimization algorithms.
-  A preprint of our early results are available as a tech
-  report
-  [here](https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf).
-  I helped apply QNSTOP and other optimization algorithms to a systems
-  biology problem in
-  [this publication](http://dl.acm.org/citation.cfm?id=2685662).
+{% include cv.md %}
+
+# Recent Blog Posts
+
+<ul>
+  {% for post in site.posts limit:5 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> &mdash; <span>{{ post.date | date_to_string }}</span>
+    </li>
+  {% endfor %}
+</ul>
+<h4><a href="/blog">View all</a></h4>
 
 # Fun Side Projects
 + [CS conference tracker](https://github.com/bamos/conference-tracker).
@@ -64,3 +54,6 @@ layout: index
   Personal collection and previewing of LaTeX and Beamer snippets.
   Admittedly, I now use Keynote for presentations.
 
+---
+
+Last updated on {% include last-updated.txt %}
