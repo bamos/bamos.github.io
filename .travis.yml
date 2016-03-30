@@ -4,6 +4,5 @@ rvm:
 
 cache: bundler
 script:
-  - ls vendor
   - bundle exec jekyll build
   - bundle exec ./validate.rb
