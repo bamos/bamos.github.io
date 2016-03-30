@@ -19,3 +19,14 @@ img {
   border: 2px solid #eeeeee;
   max-width: 100%;
 }
+
+.idxHdr {
+    text-align: center;
+    line-height: 1;
+}
+
+@media (max-width: 767px) {
+    .idxHdr {
+        width: 100%;
+    }
+}
