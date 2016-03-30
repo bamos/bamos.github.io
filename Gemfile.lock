@@ -15,6 +15,7 @@ GEM
     coffee-script-source (1.10.0)
     colorator (0.1)
     colored (1.2)
+    colorize (0.7.7)
     diff-lcs (1.2.5)
     domain_name (0.5.20160128)
       unf (>= 0.0.5, < 1.0.0)
@@ -167,6 +168,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  colorize (= 0.7.7)
   github-pages (= 45)
   html-proofer (~> 2.6)
   html5_validator (~> 1.0)
