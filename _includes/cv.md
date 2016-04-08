@@ -34,6 +34,11 @@
 
 ## Publications
 
+<a href="https://scholar.google.com/citations?user=CZwrwHAAAAAJ" class="btn btn-primary" style="padding: 0.3em;">
+  <i class="ai ai-google-scholar"></i> Google Scholar
+</a>
+
+
 ### Conference Proceedings
 + [C1] Z. Chen, L. Jiang, W. Hu, K. Ha, **B. Amos**, P. Pillai, A. Hauptmann, and M. Satyanarayanan, <a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf'>"Early Implementation Experience with Wearable Cognitive Assistance Applications,"</a> in <em>WearSys 2015</em>, 2015.
 + [C2] W. Hu, **B. Amos**, Z. Chen, K. Ha, W. Richter, P. Pillai, B. Gilbert, J. Harkes, and M. Satyanarayanan, <a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf'>"The Case for Offload Shaping,"</a> in <em>HotMobile 2015</em>, 2015.
@@ -77,9 +82,9 @@ malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Sym
 + NSF Graduate Research Fellowship: \$138,000, 2016-2019
 + 1st Place Undergraduate Senior Capstone Award, Virginia Tech Computer Science, 2014
 + David Heilman Research Award, Virginia Tech Computer Science, 2014
-  + Given to the Computer Science student with the most outstanding research experience.
+  + Awarded to the Computer Science student with the most outstanding research experience.
 + Senior Scholar Award, Virginia Tech Computer Science, 2014
-  + Given to the senior in Computer Science with the most outstanding academic record.
+  + Awarded to the senior in Computer Science with the most outstanding academic record.
 + Honorable Mention, CRA Outstanding Undergraduate Researcher Award, 2014
 + Awarded eight undergraduate merit scholarships, 2011-2014
 
