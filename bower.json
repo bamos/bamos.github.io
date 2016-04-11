@@ -12,6 +12,7 @@
   ],
   "dependencies": {
     "bootstrap": "~3.3.6",
+    "academicons": "~1.6.0",
     "font-awesome": "~4.3.0",
     "MathJax": "~2.6.0",
     "jquery": "~2.2.2",
