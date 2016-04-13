@@ -11,7 +11,10 @@
 
 
 ## Research Experience
-+ Research Assistant, Carnegie Mellon University, Aug 2014-Present
++ Research Assistant, Carnegie Mellon University, Apr 2016-Present
+    + **Advisor**: Prof. Zico Kolter
+    + **Area**: Machine learning and optimization
++ Research Assistant, Carnegie Mellon University, Aug 2014-Apr 2016
     + **Advisor**: Prof. Mahadev Satyanarayanan
     + **Area**: Machine learning, computer vision, and mobile computing.
     + Project lead of OpenFace, which provides face recognition with deep neural networks and is available on GitHub at [http://github.com/cmusatyalab/openface](http://github.com/cmusatyalab/openface).
