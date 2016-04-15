@@ -17,11 +17,13 @@
 + Research Assistant, Carnegie Mellon University, Aug 2014-Apr 2016
     + **Advisor**: Prof. Mahadev Satyanarayanan
     + **Area**: Machine learning, computer vision, and mobile computing.
-    + Project lead of OpenFace, which provides face recognition with deep neural networks and is available on GitHub at [http://github.com/cmusatyalab/openface](http://github.com/cmusatyalab/openface).
+    + Face recognition with deep neural networks:
+[http://github.com/cmusatyalab/openface](http://github.com/cmusatyalab/openface)
+
 + Undergraduate Research Assistant, Magnum Research Group, May 2012-May 2014
     + **Advisor**: Prof. Jules White
     + **Area**: Mobile computing, cyber-physical systems, and security.
-    + Android malware detection research implemented with a distributed **Actor-based Scala** system.
+    + Android malware detection research using a distributed **Actor-based Scala** system.
     + Manufacturing cyber-physical security research implemented with **VC\#** and **Python**.
 + Undergraduate Research Assistant, Virginia Tech, Jan 2013-May 2014
     + **Advisor**: Prof. Layne Watson
@@ -43,27 +45,46 @@
 
 
 ### Conference Proceedings
-+ [C1] Z. Chen, L. Jiang, W. Hu, K. Ha, **B. Amos**, P. Pillai, A. Hauptmann, and M. Satyanarayanan, <a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf'>"Early Implementation Experience with Wearable Cognitive Assistance Applications,"</a> in <em>WearSys 2015</em>, 2015.
-+ [C2] W. Hu, **B. Amos**, Z. Chen, K. Ha, W. Richter, P. Pillai, B. Gilbert, J. Harkes, and M. Satyanarayanan, <a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf'>"The Case for Offload Shaping,"</a> in <em>HotMobile 2015</em>, 2015.
-+ [C3] **B. Amos**, and D. Tompkins, "Performance study of Spindle, a web analytics query engine
-implemented in Spark," in <em>(Short Paper) Proceedings of the 2014 IEEE International Conference on Cloud Computing Technology and Science (CloudCom)</em>, 2014.
-+ [C4] T. Andrew, **B. Amos**, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson, <a href='http://dl.acm.org/citation.cfm?id=2685662'>"Global Parameter Estimation for a Eukaryotic Cell Cycle Model
-in Systems Biology,"</a> in <em>2014 Summer Simulation Multiconference, Society for Modeling and Simulation International</em>, 2014.
-+ [C5] **B. Amos**, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker, <a href='http://dl.acm.org/citation.cfm?id=2663525'>"Fortran 95 implementation of QNSTOP for global and
-stochastic optimization,"</a> in <em>2014 Spring Simulation Multiconference, 22nd High Performance Computer Symposium, Society for Modeling and Simulation International</em>, 2014.
-+ [C6] **B. Amos**, H. Turner, and J. White, <a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf'>"Applying machine learning classifiers to dynamic Android
-malware detection at scale,"</a> in <em>IWCMC'13 Security, Trust and Privacy Symposium</em>, 2013.
+
+{:.table}
+| | Title | Authors | Location |
+|---|---|---|---|
+| [C1] | <a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf'>Applying machine learning classifiers to dynamic Android malware detection at scale</a> | **B. Amos**, H. Turner, and J. White | IWCMC 2013 |
+
+
+
+### Workshop, Symposium, and Short Papers
+
+{:.table}
+| | Title | Authors | Location |
+|---|---|---|---|
+| [WS1] | <a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf'>Privacy mediators: helping IoT cross the chasm</a> | N. Davies, N. Taft, M. Satyanarayanan, S. Clinch, and **B. Amos** | HotMobile 2016 |
+| [WS2] | <a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf'>Early Implementation Experience with Wearable Cognitive Assistance Applications</a> | Z. Chen, L. Jiang, W. Hu, K. Ha, **B. Amos**, P. Pillai, A. Hauptmann, and M. Satyanarayanan | WearSys 2015 |
+| [WS3] | <a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf'>The Case for Offload Shaping</a> | W. Hu, **B. Amos**, Z. Chen, K. Ha, W. Richter, P. Pillai, B. Gilbert, J. Harkes, and M. Satyanarayanan | HotMobile 2015 |
+| [WS4] | <a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7037709'>Performance study of Spindle, a web analytics query engine implemented in Spark</a> | **B. Amos**, and D. Tompkins | CloudCom 2014 |
+| [WS5] | <a href='http://dl.acm.org/citation.cfm?id=2685662'>Global Parameter Estimation for a Eukaryotic Cell Cycle Model in Systems Biology</a> | T. Andrew, **B. Amos**, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson | SummerSim 2014 |
+| [WS6] | <a href='http://dl.acm.org/citation.cfm?id=2663525'>Fortran 95 implementation of QNSTOP for global and stochastic optimization</a> | **B. Amos**, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker | SpringSim (HPC) 2014 |
+
 
 
 ### Magazine Articles
-+ [M1] M. Satyanarayanan, P. Simoens, Y. Xiao, P. Pillai, Z. Chen, K. Ha, W. Hu, and **B. Amos**, "Edge Analytics in the Internet of Things," <em>IEEE Pervasive Computing</em>, 2015.
-+ [M2] H. Turner, J. White, J. Camelio, C. Williams, **B. Amos**, and R. Parker, <a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094'>"Bad Parts: Are Our Manufacturing Systems at Risk of Silent Cyberattacks?"</a> <em>Security & Privacy, IEEE</em>, 2015.
+
+{:.table}
+| | Title | Authors | Location |
+|---|---|---|---|
+| [M1] | <a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf'>Edge Analytics in the Internet of Things</a> | M. Satyanarayanan, P. Simoens, Y. Xiao, P. Pillai, Z. Chen, K. Ha, W. Hu, and **B. Amos** | IEEE Pervasive Computing 2015 |
+| [M2] | <a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094'>Bad Parts: Are Our Manufacturing Systems at Risk of Silent Cyberattacks?</a> | H. Turner, J. White, J. Camelio, C. Williams, **B. Amos**, and R. Parker | IEEE Security & Privacy 2015 |
+
 
 
 ### Tech Reports
-+ [T1] Y. Gao, W. Hu, K. Ha, **B. Amos**, P. Pillai, and M. Satyanarayanan, "Are Cloudlets Necessary?" 2015.
-+ [T2] K. Ha, Y. Abe, Z. Chen, W. Hu, **B. Amos**, P. Pillai, and M. Satyanarayanan, "Adaptive vm handoff across cloudlets," 2015.
-+ [T3] **B. Amos**, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset, <a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf'>"QNSTOP-QuasiNewton Algorithm for Stochastic Optimization,"</a> 2014.
+
+{:.table}
+| | Title | Authors | Location |
+|---|---|---|---|
+| [T1] | <a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf'>Are Cloudlets Necessary?</a> | Y. Gao, W. Hu, K. Ha, **B. Amos**, P. Pillai, and M. Satyanarayanan | CMU 2015 |
+| [T2] | <a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf'>Adaptive VM handoff across cloudlets</a> | K. Ha, Y. Abe, Z. Chen, W. Hu, **B. Amos**, P. Pillai, and M. Satyanarayanan | CMU 2015 |
+| [T3] | <a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf'>QNSTOP-QuasiNewton Algorithm for Stochastic Optimization</a> | **B. Amos**, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset | VT 2014 |
 
 
 ## Teaching Experience
