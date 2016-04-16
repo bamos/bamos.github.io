@@ -29,4 +29,9 @@ img {
     .idxHdr {
         width: 100%;
     }
+    .idxIcons {
+        width: 7em;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
