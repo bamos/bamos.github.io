@@ -86,6 +86,7 @@ end
 Dir.glob("_site/**/*") do |file|
   next if File.directory?(file)
   next if IGNORED_FILES.include? file
+  next if file.include? "vendor"
 
   validator = case File.extname(file)
               when '.html'
