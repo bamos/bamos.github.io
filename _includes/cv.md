@@ -61,7 +61,7 @@
 | [W1] | <a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf'>Privacy mediators: helping IoT cross the chasm</a> | N. Davies, N. Taft, M. Satyanarayanan, S. Clinch, and **B. Amos** | HotMobile 2016 |
 | [W2] | <a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf'>Early Implementation Experience with Wearable Cognitive Assistance Applications</a> | Z. Chen, L. Jiang, W. Hu, K. Ha, **B. Amos**, P. Pillai, A. Hauptmann, and M. Satyanarayanan | WearSys 2015 |
 | [W3] | <a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf'>The Case for Offload Shaping</a> | W. Hu, **B. Amos**, Z. Chen, K. Ha, W. Richter, P. Pillai, B. Gilbert, J. Harkes, and M. Satyanarayanan | HotMobile 2015 |
-| [W4] | <a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7037709'>Performance study of Spindle, a web analytics query engine implemented in Spark</a> | **B. Amos**, and D. Tompkins | CloudCom 2014 |
+| [W4] | <a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7037709'>Performance study of Spindle, a web analytics query engine implemented in Spark</a> | **B. Amos** and D. Tompkins | CloudCom 2014 |
 | [W5] | <a href='http://dl.acm.org/citation.cfm?id=2685662'>Global Parameter Estimation for a Eukaryotic Cell Cycle Model in Systems Biology</a> | T. Andrew, **B. Amos**, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson | SummerSim 2014 |
 | [W6] | <a href='http://dl.acm.org/citation.cfm?id=2663525'>Fortran 95 implementation of QNSTOP for global and stochastic optimization</a> | **B. Amos**, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker | SpringSim (HPC) 2014 |
 
