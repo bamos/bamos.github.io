@@ -5,9 +5,8 @@ layout: index
 I am a second-year Computer Science Ph.D. student
 at Carnegie Mellon University.
 I work with [Zico Kolter](http://zicokolter.com)
-and am supported by an NSF graduate research fellowship.
-Our work is at the intersection of machine learning
-and optimization.
+on machine learning and optimization and am supported
+by an NSF graduate research fellowship.
 
 {% include cv.md %}
 
