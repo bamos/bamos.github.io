@@ -44,7 +44,7 @@
 </a>
 
 
-### Conference Proceedings
+### Conference Proceedings <a href="https://github.com/bamos/cv/blob/master/publications/conference.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
 {:.table}
 | | Title | Authors | Location |
@@ -53,7 +53,7 @@
 
 
 
-### Workshop, Symposium, and Short Papers
+### Workshop, Symposium, and Short Papers <a href="https://github.com/bamos/cv/blob/master/publications/short.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
 {:.table}
 | | Title | Authors | Location |
@@ -67,7 +67,7 @@
 
 
 
-### Magazine Articles
+### Magazine Articles <a href="https://github.com/bamos/cv/blob/master/publications/magazine.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
 {:.table}
 | | Title | Authors | Location |
@@ -77,7 +77,7 @@
 
 
 
-### Tech Reports
+### Tech Reports <a href="https://github.com/bamos/cv/blob/master/publications/tech-reports.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
 {:.table}
 | | Title | Authors | Location |
