@@ -49,7 +49,8 @@
 {:.table}
 | | Title | Authors | Location |
 |---|---|---|---|
-| [C1] | <a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf'>Applying machine learning classifiers to dynamic Android malware detection at scale</a> | **B. Amos**, H. Turner, and J. White | IWCMC 2013 |
+| [C1] | Collapsed Variational Inference for Sum-Product Networks | H. Zhao, T. Adel, G. Gordon, and **B. Amos** | ICML 2016 |
+| [C2] | <a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf'>Applying machine learning classifiers to dynamic Android malware detection at scale</a> | **B. Amos**, H. Turner, and J. White | IWCMC 2013 |
 
 
 
