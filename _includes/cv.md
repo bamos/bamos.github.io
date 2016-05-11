@@ -2,6 +2,9 @@
 + Ph.D. Student, Computer Science,
   Carnegie Mellon University,
   Aug 2014-Present
++ M.S., Computer Science,
+  Carnegie Mellon University,
+  Aug 2014-May 2016
 + B.S., Computer Science,
   Virginia Tech,
   Aug 2011-May 2014
