@@ -49,7 +49,7 @@
 
 ### Conference Proceedings <a href="https://github.com/bamos/cv/blob/master/publications/conference.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
-{:.table}
+{:.table .table-hover}
 | | Title | Authors | Location |
 |---|---|---|---|
 | [C1] | Collapsed Variational Inference for Sum-Product Networks | H. Zhao, T. Adel, G. Gordon, and **B. Amos** | ICML 2016 |
@@ -59,7 +59,7 @@
 
 ### Workshop, Symposium, and Short Papers <a href="https://github.com/bamos/cv/blob/master/publications/short.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
-{:.table}
+{:.table .table-hover}
 | | Title | Authors | Location |
 |---|---|---|---|
 | [W1] | <a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf'>Privacy mediators: helping IoT cross the chasm</a> | N. Davies, N. Taft, M. Satyanarayanan, S. Clinch, and **B. Amos** | HotMobile 2016 |
@@ -73,7 +73,7 @@
 
 ### Magazine Articles <a href="https://github.com/bamos/cv/blob/master/publications/magazine.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
-{:.table}
+{:.table .table-hover}
 | | Title | Authors | Location |
 |---|---|---|---|
 | [M1] | <a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf'>Edge Analytics in the Internet of Things</a> | M. Satyanarayanan, P. Simoens, Y. Xiao, P. Pillai, Z. Chen, K. Ha, W. Hu, and **B. Amos** | IEEE Pervasive Computing 2015 |
@@ -83,7 +83,7 @@
 
 ### Tech Reports <a href="https://github.com/bamos/cv/blob/master/publications/tech-reports.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
-{:.table}
+{:.table .table-hover}
 | | Title | Authors | Location |
 |---|---|---|---|
 | [T1] | <a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf'>Are Cloudlets Necessary?</a> | Y. Gao, W. Hu, K. Ha, **B. Amos**, P. Pillai, and M. Satyanarayanan | CMU 2015 |
@@ -94,7 +94,7 @@
 
 ### Posters <a href="https://github.com/bamos/cv/blob/master/publications/posters.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
-{:.table}
+{:.table .table-hover}
 | | Title | Authors | Location |
 |---|---|---|---|
 | [P1] | <a href='http://bamos.github.io/data/posters/2016-iclr-icnn.pdf'>Input-Convex Deep Networks</a> | **B. Amos** and J. Kolter | ICLR Workshop 2016 |
