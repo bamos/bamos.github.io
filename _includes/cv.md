@@ -1,46 +1,81 @@
-## Education
-+ Ph.D. Student, Computer Science,
-  Carnegie Mellon University,
-  Aug 2014-Present
-+ M.S., Computer Science,
-  Carnegie Mellon University,
-  Aug 2014-May 2016
-+ B.S., Computer Science,
-  Virginia Tech,
-  Aug 2011-May 2014
-    (3.99/4.00)
-+   Northside High School (Roanoke, Virginia),
-  May 2011
+## <i class="fa fa-chevron-right"></i> Education
+
+<table class="table table-hover">
+  <tr>
+    <td class="col-md-3">Aug 2014 - Present</td>
+    <td>
+        <strong>Ph.D. in Computer Science</strong>
+        <br>
+      Carnegie Mellon University
+    </td>
+  </tr>
+  <tr>
+    <td class="col-md-3">Aug 2014 - May 2016</td>
+    <td>
+        <strong>M.S. in Computer Science</strong>
+        <br>
+      Carnegie Mellon University
+    </td>
+  </tr>
+  <tr>
+    <td class="col-md-3">Aug 2011 - May 2014</td>
+    <td>
+        <strong>B.S. in Computer Science</strong>
+          (3.99/4.00)
+        <br>
+      Virginia Tech
+    </td>
+  </tr>
+  <tr>
+    <td class="col-md-3">May 2011</td>
+    <td>
+      Northside High School (Roanoke, Virginia)
+    </td>
+  </tr>
+</table>
 
 
-## Research Experience
-+ Research Assistant, Carnegie Mellon University, Apr 2016-Present
-    + **Advisor**: Prof. Zico Kolter
-    + **Area**: Machine learning and optimization
-+ Research Assistant, Carnegie Mellon University, Aug 2014-Apr 2016
-    + **Advisor**: Prof. Mahadev Satyanarayanan
-    + **Area**: Machine learning, computer vision, and mobile computing.
-    + Face recognition with deep neural networks:
-[http://github.com/cmusatyalab/openface](http://github.com/cmusatyalab/openface)
+## <i class="fa fa-chevron-right"></i> Research Experience
+<table class="table table-hover">
+<tr>
+  <td class='col-md-3'>Apr 2016 - Present</td>
+  <td>
+    <strong>Carnegie Mellon University</strong>, Prof. Zico Kolter <br>
+    Machine learning and optimization
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'>Aug 2014 - Apr 2016</td>
+  <td>
+    <strong>Carnegie Mellon University</strong>, Prof. Mahadev Satyanarayanan <br>
+    Machine learning, computer vision, and mobile computing
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'>May 2012 - May 2014</td>
+  <td>
+    <strong>Virginia Tech</strong>, Prof. Jules White <br>
+    Mobile computing, cyber-physical systems, and security
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'>Jan 2013 - May 2014</td>
+  <td>
+    <strong>Virginia Tech</strong>, Prof. Layne Watson <br>
+    Scientific computing, global/stochastic optimization, and bioinformatics
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'>Nov 2012 - Mar 2014</td>
+  <td>
+    <strong>Virginia Tech</strong>, Prof. Binoy Ravindran <br>
+    Heterogeneous compilers
+  </td>
+</tr>
+</table>
 
-+ Undergraduate Research Assistant, Magnum Research Group, May 2012-May 2014
-    + **Advisor**: Prof. Jules White
-    + **Area**: Mobile computing, cyber-physical systems, and security.
-    + Android malware detection research using a distributed **Actor-based Scala** system.
-    + Manufacturing cyber-physical security research implemented with **VC\#** and **Python**.
-+ Undergraduate Research Assistant, Virginia Tech, Jan 2013-May 2014
-    + **Advisor**: Prof. Layne Watson
-    + **Area**: Scientific computing, global/stochastic optimization, and bioinformatics.
-    + Algorithm development for global and stochastic optimization using quasi-Newton methods for **parameter estimation** in **Fortran 95** and **OpenMP**.
-    + Bioinformatics research on yeast cell modeling using **Fortran 95**, **C++**, and **Matlab**.
-+ Undergraduate Research Assistant, Systems Software Research Group, Nov 2012-Mar 2014
-    + **Advisor**: Prof. Binoy Ravindran
-    + **Area**: Heterogeneous compilers.
-    + Compiler research on a heterogeneous system on automatic **OpenMP** to **CUDA** translation using **C++** and the **ROSE** compiler framework.
-    + Polyhedral loop optimization research to restructure **OpenCL** kernels for locality using **LLVM** and **Polly**.
 
-
-## Publications
+## <i class="fa fa-chevron-right"></i> Publications
 
 <a href="https://scholar.google.com/citations?user=CZwrwHAAAAAJ" class="btn btn-primary" style="padding: 0.3em;">
   <i class="ai ai-google-scholar"></i> Google Scholar
@@ -49,85 +84,525 @@
 
 ### Conference Proceedings <a href="https://github.com/bamos/cv/blob/master/publications/conference.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
-{:.table .table-hover}
-| | Title | Authors | Location |
-|---|---|---|---|
-| [C1] | Collapsed Variational Inference for Sum-Product Networks | H. Zhao, T. Adel, G. Gordon, and **B. Amos** | ICML 2016 |
-| [C2] | <a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf'>Applying machine learning classifiers to dynamic Android malware detection at scale</a> | **B. Amos**, H. Turner, and J. White | IWCMC 2013 |
+<table class="table table-hover">
 
+    <tr>
+    <td class="col-md-3"><a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'><img src="images/publications/zhao2016collapsed.png"/></a> </td>
+    <td>
+        <strong>Collapsed Variational Inference for Sum-Product Networks</strong><br>
+        H. Zhao, T. Adel, G. Gordon, and <strong>B. Amos</strong><br>
+        ICML 2016<br>
+        [C1] 
+[<a href='javascript: none'
+    onclick='$("#abs_zhao2016collapsed").toggle()'>abs</a>]
+ [<a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'>pdf</a>] <br>
+        
+<div id="abs_zhao2016collapsed" style="text-align: justify; display: none">
+  Sum-Product Networks (SPNs) are probabilistic inference machines that admit
+exact inference in linear time in the size of the network. Existing
+parameter learning approaches for SPNs are largely based on the maximum
+likelihood principle and hence are subject to overfitting compared to
+more Bayesian approaches. Exact Bayesian posterior inference for SPNs is
+computationally intractable. Both standard variational inference and
+posterior sampling for SPNs are computationally infeasible even for
+networks of moderate size due to the large number of local latent
+variables per instance. In this work, we propose a novel deterministic
+collapsed variational inference algorithm for SPNs that is
+computationally efficient, easy to implement and at the same time allows
+us to incorporate prior information into the optimization formulation.
+Extensive experiments show a significant improvement in accuracy compared
+with a maximum likelihood based approach.
+</div>
+
+    </td>
+    </tr>
+    
+
+    <tr>
+    <td class="col-md-3"><a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'><img src="images/publications/amos2013applying.png"/></a> </td>
+    <td>
+        <strong>Applying machine learning classifiers to dynamic Android malware detection at scale</strong><br>
+        <strong>B. Amos</strong>, H. Turner, and J. White<br>
+        IWCMC 2013<br>
+        [C2] 
+[<a href='javascript: none'
+    onclick='$("#abs_amos2013applying").toggle()'>abs</a>]
+ [<a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/VT-Magnum-Research/antimalware' target='_blank'>code</a>] <br>
+        
+<div id="abs_amos2013applying" style="text-align: justify; display: none">
+  The widespread adoption and contextually sensitive
+nature of smartphone devices has increased concerns over smartphone
+malware. Machine learning classifiers are a current method
+for detecting malicious applications on smartphone systems. This
+paper presents the evaluation of a number of existing classifiers, using a dataset containing thousands of real (i.e. not synthetic)
+applications. We also present our STREAM framework, which
+was developed to enable rapid large-scale validation of mobile
+malware machine learning classifiers.
+</div>
+
+    </td>
+    </tr>
+    
+
+</table>
 
 
 ### Workshop, Symposium, and Short Papers <a href="https://github.com/bamos/cv/blob/master/publications/short.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
-{:.table .table-hover}
-| | Title | Authors | Location |
-|---|---|---|---|
-| [W1] | <a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf'>Privacy mediators: helping IoT cross the chasm</a> | N. Davies, N. Taft, M. Satyanarayanan, S. Clinch, and **B. Amos** | HotMobile 2016 |
-| [W2] | <a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf'>Early Implementation Experience with Wearable Cognitive Assistance Applications</a> | Z. Chen, L. Jiang, W. Hu, K. Ha, **B. Amos**, P. Pillai, A. Hauptmann, and M. Satyanarayanan | WearSys 2015 |
-| [W3] | <a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf'>The Case for Offload Shaping</a> | W. Hu, **B. Amos**, Z. Chen, K. Ha, W. Richter, P. Pillai, B. Gilbert, J. Harkes, and M. Satyanarayanan | HotMobile 2015 |
-| [W4] | <a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7037709'>Performance study of Spindle, a web analytics query engine implemented in Spark</a> | **B. Amos** and D. Tompkins | CloudCom 2014 |
-| [W5] | <a href='http://dl.acm.org/citation.cfm?id=2685662'>Global Parameter Estimation for a Eukaryotic Cell Cycle Model in Systems Biology</a> | T. Andrew, **B. Amos**, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson | SummerSim 2014 |
-| [W6] | <a href='http://dl.acm.org/citation.cfm?id=2663525'>Fortran 95 implementation of QNSTOP for global and stochastic optimization</a> | **B. Amos**, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker | SpringSim (HPC) 2014 |
+<table class="table table-hover">
 
+    <tr>
+    <td class="col-md-3"><a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf' target='_blank'><img src="images/publications/davies2016privacy.png"/></a> </td>
+    <td>
+        <strong>Privacy mediators: helping IoT cross the chasm</strong><br>
+        N. Davies, N. Taft, M. Satyanarayanan, S. Clinch, and <strong>B. Amos</strong><br>
+        HotMobile 2016<br>
+        [W1] 
+[<a href='javascript: none'
+    onclick='$("#abs_davies2016privacy").toggle()'>abs</a>]
+ [<a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf' target='_blank'>pdf</a>] <br>
+        
+<div id="abs_davies2016privacy" style="text-align: justify; display: none">
+  Unease over data privacy will retard consumer acceptance of IoT
+deployments. The primary source of discomfort is a lack of user
+control over raw data that is streamed directly from sensors to the
+cloud. This is a direct consequence of the over-centralization of
+today’s cloud-based IoT hub designs. We propose a solution that
+interposes a locally-controlled software component called a privacy
+mediator on every raw sensor stream. Each mediator is in the same
+administrative domain as the sensors whose data is being collected, and dynamically enforces the current privacy policies of the owners
+of the sensors or mobile users within the domain. This solution necessitates
+a logical point of presence for mediators within the administrative
+boundaries of each organization. Such points of presence
+are provided by cloudlets, which are small locally-administered data
+centers at the edge of the Internet that can support code mobility.
+The use of cloudlet-based mediators aligns well with natural personal
+and organizational boundaries of trust and responsibility.
+</div>
+
+    </td>
+    </tr>
+    
+
+    <tr>
+    <td class="col-md-3"><a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'><img src="images/publications/chen2015early.png"/></a> </td>
+    <td>
+        <strong>Early Implementation Experience with Wearable Cognitive Assistance Applications</strong><br>
+        Z. Chen, L. Jiang, W. Hu, K. Ha, <strong>B. Amos</strong>, P. Pillai, A. Hauptmann, and M. Satyanarayanan<br>
+        WearSys 2015<br>
+        [W2] 
+[<a href='javascript: none'
+    onclick='$("#abs_chen2015early").toggle()'>abs</a>]
+ [<a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'>pdf</a>] <br>
+        
+<div id="abs_chen2015early" style="text-align: justify; display: none">
+  A cognitive assistance application combines a wearable device such
+as Google Glass with cloudlet processing to provide step-by-step
+guidance on a complex task. In this paper, we focus on user assistance
+for narrow and well-defined tasks that require specialized
+knowledge and/or skills. We describe proof-of-concept implementations
+for four different tasks: assembling 2D Lego models, freehand
+sketching, playing ping-pong, and recommending context-relevant
+YouTube tutorials. We then reflect on the difficulties we faced in
+building these applications, and suggest future research that could
+simplify the creation of similar applications.
+</div>
+
+    </td>
+    </tr>
+    
+
+    <tr>
+    <td class="col-md-3"><a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'><img src="images/publications/hu2014case.png"/></a> </td>
+    <td>
+        <strong>The Case for Offload Shaping</strong><br>
+        W. Hu, <strong>B. Amos</strong>, Z. Chen, K. Ha, W. Richter, P. Pillai, B. Gilbert, J. Harkes, and M. Satyanarayanan<br>
+        HotMobile 2015<br>
+        [W3] 
+[<a href='javascript: none'
+    onclick='$("#abs_hu2014case").toggle()'>abs</a>]
+ [<a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'>pdf</a>] <br>
+        
+<div id="abs_hu2014case" style="text-align: justify; display: none">
+  When offloading computation from a mobile device, we show
+that it can pay to perform additional on-device work in order
+to reduce the offloading workload. We call this offload shaping, and demonstrate its application at many different levels
+of abstraction using a variety of techniques. We show that
+offload shaping can produce significant reduction in resource
+demand, with little loss of application-level fidelity
+</div>
+
+    </td>
+    </tr>
+    
+
+    <tr>
+    <td class="col-md-3"><a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7037709' target='_blank'><img src="images/publications/amos2014performance.png"/></a> </td>
+    <td>
+        <strong>Performance study of Spindle, a web analytics query engine implemented in Spark</strong><br>
+        <strong>B. Amos</strong> and D. Tompkins<br>
+        CloudCom 2014<br>
+        [W4] 
+[<a href='javascript: none'
+    onclick='$("#abs_amos2014performance").toggle()'>abs</a>]
+ [<a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7037709' target='_blank'>pdf</a>]  [<a href='https://github.com/adobe-research/spindle' target='_blank'>code</a>] <br>
+        
+<div id="abs_amos2014performance" style="text-align: justify; display: none">
+  This paper shares our experiences building and benchmarking Spindle as an open
+source Spark-based web analytics platform. Spindle's design has been
+motivated by real-world queries and data requiring concurrent, low latency
+query execution. We identify a search space of Spark tuning options and study
+their impact on Spark's performance. Results from a self-hosted six node
+cluster with one week of analytics data (13.1GB) indicate tuning options such
+as proper partitioning can cause a 5x performance improvement.
+</div>
+
+    </td>
+    </tr>
+    
+
+    <tr>
+    <td class="col-md-3"><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'><img src="images/publications/andrew2014global.png"/></a> </td>
+    <td>
+        <strong>Global Parameter Estimation for a Eukaryotic Cell Cycle Model in Systems Biology</strong><br>
+        T. Andrew, <strong>B. Amos</strong>, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson<br>
+        SummerSim 2014<br>
+        [W5] 
+[<a href='javascript: none'
+    onclick='$("#abs_andrew2014global").toggle()'>abs</a>]
+ [<a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>pdf</a>] <br>
+        
+<div id="abs_andrew2014global" style="text-align: justify; display: none">
+  The complicated process by which a yeast cell divides, known as the cell
+cycle, has been modeled by a system of 26 nonlinear ordinary differential
+equations (ODEs) with 149 parameters. This model captures the chemical
+kinetics of the regulatory networks controlling the cell division process
+in budding yeast cells. Empirical data is discrete and matched against
+discrete inferences (e.g., whether a particular mutant cell lives or dies)
+computed from the ODE solution trajectories. The problem of
+estimating the ODE parameters to best fit the model to the data is a
+149-dimensional global optimization problem attacked by the deterministic
+algorithm VTDIRECT95 and by the nondeterministic algorithms differential
+evolution, QNSTOP, and simulated annealing, whose performances are
+compared.
+</div>
+
+    </td>
+    </tr>
+    
+
+    <tr>
+    <td class="col-md-3"><a href='http://dl.acm.org/citation.cfm?id=2663525' target='_blank'><img src="images/publications/amos2014fortran.png"/></a> </td>
+    <td>
+        <strong>Fortran 95 implementation of QNSTOP for global and stochastic optimization</strong><br>
+        <strong>B. Amos</strong>, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker<br>
+        SpringSim (HPC) 2014<br>
+        [W6] 
+[<a href='javascript: none'
+    onclick='$("#abs_amos2014fortran").toggle()'>abs</a>]
+ [<a href='http://dl.acm.org/citation.cfm?id=2663525' target='_blank'>pdf</a>] <br>
+        
+<div id="abs_amos2014fortran" style="text-align: justify; display: none">
+  A serial Fortran 95 implementation of the QNSTOP algorithm is presented.
+QNSTOP is a class of quasi-Newton methods for stochastic optimization with
+variations for deterministic global optimization. This discussion provides
+results from testing on various deterministic and stochastic optimization
+functions.
+</div>
+
+    </td>
+    </tr>
+    
+
+</table>
 
 
 ### Magazine Articles <a href="https://github.com/bamos/cv/blob/master/publications/magazine.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
-{:.table .table-hover}
-| | Title | Authors | Location |
-|---|---|---|---|
-| [M1] | <a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf'>Edge Analytics in the Internet of Things</a> | M. Satyanarayanan, P. Simoens, Y. Xiao, P. Pillai, Z. Chen, K. Ha, W. Hu, and **B. Amos** | IEEE Pervasive Computing 2015 |
-| [M2] | <a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094'>Bad Parts: Are Our Manufacturing Systems at Risk of Silent Cyberattacks?</a> | H. Turner, J. White, J. Camelio, C. Williams, **B. Amos**, and R. Parker | IEEE Security & Privacy 2015 |
+<table class="table table-hover">
 
+    <tr>
+    <td class="col-md-3"><a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'><img src="images/publications/satyanarayanan2015edge.png"/></a> </td>
+    <td>
+        <strong>Edge Analytics in the Internet of Things</strong><br>
+        M. Satyanarayanan, P. Simoens, Y. Xiao, P. Pillai, Z. Chen, K. Ha, W. Hu, and <strong>B. Amos</strong><br>
+        IEEE Pervasive Computing 2015<br>
+        [M1] 
+[<a href='javascript: none'
+    onclick='$("#abs_satyanarayanan2015edge").toggle()'>abs</a>]
+ [<a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'>pdf</a>] <br>
+        
+<div id="abs_satyanarayanan2015edge" style="text-align: justify; display: none">
+  High-data-rate sensors, such as video cameras, are becoming ubiquitous in the
+Internet of Things. This article describes GigaSight, an Internet-scale
+repository of crowd-sourced video content, with strong enforcement of privacy
+preferences and access controls. The GigaSight architecture is a federated
+system of VM-based cloudlets that perform video analytics at the edge of the
+Internet, thus reducing the demand for ingress bandwidth into the cloud.
+Denaturing, which is an owner-specific reduction in fidelity of video content
+to preserve privacy, is one form of analytics on cloudlets. Content-based
+indexing for search is another form of cloudlet-based analytics. This article
+is part of a special issue on smart spaces.
+</div>
+
+    </td>
+    </tr>
+    
+
+    <tr>
+    <td class="col-md-3"><a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094' target='_blank'><img src="images/publications/turner2015bad.png"/></a> </td>
+    <td>
+        <strong>Bad Parts: Are Our Manufacturing Systems at Risk of Silent Cyberattacks?</strong><br>
+        H. Turner, J. White, J. Camelio, C. Williams, <strong>B. Amos</strong>, and R. Parker<br>
+        IEEE Security & Privacy 2015<br>
+        [M2] 
+[<a href='javascript: none'
+    onclick='$("#abs_turner2015bad").toggle()'>abs</a>]
+ [<a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094' target='_blank'>pdf</a>] <br>
+        
+<div id="abs_turner2015bad" style="text-align: justify; display: none">
+  Recent cyberattacks have highlighted the risk of physical equipment operating
+outside designed tolerances to produce catastrophic failures. A related
+threat is cyberattacks that change the design and manufacturing of a
+machine's part, such as an automobile brake component, so it no longer
+functions properly. These risks stem from the lack of cyber-physical models
+to identify ongoing attacks as well as the lack of rigorous application of
+known cybersecurity best practices. To protect manufacturing processes in the
+future, research will be needed on a number of critical cyber-physical
+manufacturing security topics.
+</div>
+
+    </td>
+    </tr>
+    
+
+</table>
 
 
 ### Tech Reports <a href="https://github.com/bamos/cv/blob/master/publications/tech-reports.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
-{:.table .table-hover}
-| | Title | Authors | Location |
-|---|---|---|---|
-| [T1] | <a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf'>Are Cloudlets Necessary?</a> | Y. Gao, W. Hu, K. Ha, **B. Amos**, P. Pillai, and M. Satyanarayanan | CMU 2015 |
-| [T2] | <a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf'>Adaptive VM handoff across cloudlets</a> | K. Ha, Y. Abe, Z. Chen, W. Hu, **B. Amos**, P. Pillai, and M. Satyanarayanan | CMU 2015 |
-| [T3] | <a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf'>QNSTOP-QuasiNewton Algorithm for Stochastic Optimization</a> | **B. Amos**, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset | VT 2014 |
+<table class="table table-hover">
 
+    <tr>
+    <td class="col-md-3"><a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'><img src="images/publications/gao2015cloudlets.png"/></a> </td>
+    <td>
+        <strong>Are Cloudlets Necessary?</strong><br>
+        Y. Gao, W. Hu, K. Ha, <strong>B. Amos</strong>, P. Pillai, and M. Satyanarayanan<br>
+        CMU 2015<br>
+        [T1] 
+[<a href='javascript: none'
+    onclick='$("#abs_gao2015cloudlets").toggle()'>abs</a>]
+ [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'>pdf</a>] <br>
+        
+<div id="abs_gao2015cloudlets" style="text-align: justify; display: none">
+  We present experimental results from Wi-Fi and 4G LTE networks to validate the
+intuition that low end-to-end latency of cloud services improves application
+response time and reduces energy consumption on mobile devices. We focus
+specifically on computational offloading as a cloud service. Using a wide
+range of applications, and exploring both pre-partitioned and dynamically
+partitioned approaches, we demonstrate the importance of low latency for
+cloud offload services. We show the best performance is achieved by
+offloading to cloudlets, which are small-scale edge-located data centers. Our
+results show that cloudlets can improve response times 51% and reduce energy
+consumption in a mobile device by up to 42% compared to cloud offload.
+</div>
+
+    </td>
+    </tr>
+    
+
+    <tr>
+    <td class="col-md-3"><a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'><img src="images/publications/ha2015adaptive.png"/></a> </td>
+    <td>
+        <strong>Adaptive VM handoff across cloudlets</strong><br>
+        K. Ha, Y. Abe, Z. Chen, W. Hu, <strong>B. Amos</strong>, P. Pillai, and M. Satyanarayanan<br>
+        CMU 2015<br>
+        [T2] 
+[<a href='javascript: none'
+    onclick='$("#abs_ha2015adaptive").toggle()'>abs</a>]
+ [<a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'>pdf</a>] <br>
+        
+<div id="abs_ha2015adaptive" style="text-align: justify; display: none">
+  Cloudlet offload is a valuable technique for ensuring low end-to-end latency of
+resource-intensive cloud processing for many emerging mobile applications.
+This paper examines the impact of user mobility on cloudlet offload, and
+shows that even modest user mobility can result in significant network
+degradation. We propose VM handoff as a technique for seamlessly transferring
+VMencapsulated execution to a more optimal offload site as users move. Our
+approach can perform handoff in roughly a minute even over limited WANs by
+adaptively reducing data transferred. We present experimental results to
+validate our implementation and to demonstrate effectiveness of adaptation to
+changing network conditions and processing capacity
+</div>
+
+    </td>
+    </tr>
+    
+
+    <tr>
+    <td class="col-md-3"><a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'><img src="images/publications/amos2014QNSTOP.png"/></a> </td>
+    <td>
+        <strong>QNSTOP-QuasiNewton Algorithm for Stochastic Optimization</strong><br>
+        <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
+        VT 2014<br>
+        [T3] 
+[<a href='javascript: none'
+    onclick='$("#abs_amos2014QNSTOP").toggle()'>abs</a>]
+ [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
+        
+<div id="abs_amos2014QNSTOP" style="text-align: justify; display: none">
+  QNSTOP consists of serial and parallel (OpenMP) Fortran 2003 codes for the
+quasi-Newton stochastic optimization method of Castle and Trosset. For
+stochastic problems, convergence theory exists for the particular
+algorithmic choices and parameter values used in QNSTOP. Both the parallel
+driver subroutine, which offers several parallel decomposition strategies, and the serial driver subroutine can be used for stochastic optimization or
+deterministic global optimization, based on an input switch. QNSTOP is
+particularly effective for “noisy” deterministic problems, using only
+objective function values. Some performance data for computational systems
+biology problems is given.
+</div>
+
+    </td>
+    </tr>
+    
+
+</table>
 
 
 ### Posters <a href="https://github.com/bamos/cv/blob/master/publications/posters.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
-{:.table .table-hover}
-| | Title | Authors | Location |
-|---|---|---|---|
-| [P1] | <a href='http://bamos.github.io/data/posters/2016-iclr-icnn.pdf'>Input-Convex Deep Networks</a> | **B. Amos** and J. Kolter | ICLR Workshop 2016 |
-| [P2] | <a href='http://bamos.github.io/data/posters/2016-hotmobile-facerec.pdf'>Face Recognition for Context Sensitive IoT Systems</a> | **B. Amos** and M. Satyanarayanan | HotMobile 2016 |
+<table class="table table-hover">
+
+    <tr>
+    <td class="col-md-3"><a href='http://bamos.github.io/data/posters/2016-iclr-icnn.pdf' target='_blank'><img src="images/publications/amos2016input.png"/></a> </td>
+    <td>
+        <strong>Input-Convex Deep Networks</strong><br>
+        <strong>B. Amos</strong> and J. Kolter<br>
+        ICLR Workshop 2016<br>
+        [P1] [<a href='http://bamos.github.io/data/posters/2016-iclr-icnn.pdf' target='_blank'>pdf</a>] <br>
+        
+    </td>
+    </tr>
+    
+
+    <tr>
+    <td class="col-md-3"><a href='http://bamos.github.io/data/posters/2016-hotmobile-facerec.pdf' target='_blank'><img src="images/publications/amos2016face.png"/></a> </td>
+    <td>
+        <strong>Face Recognition for Context Sensitive IoT Systems</strong><br>
+        <strong>B. Amos</strong> and M. Satyanarayanan<br>
+        HotMobile 2016<br>
+        [P2] [<a href='http://bamos.github.io/data/posters/2016-hotmobile-facerec.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
+        
+    </td>
+    </tr>
+    
+
+</table>
 
 
-## Teaching Experience
-+ Distributed Systems (CMU 15-440/640), Graduate TA,
-  S2016
-+ Software Design and Data Structures (VT CS 2114), Undergraduate TA,
-  S2013
+## <i class="fa fa-chevron-right"></i> Teaching Experience
+<table class="table table-hover">
+<tr>
+  <td class='col-md-1'>S2016</td>
+  <td><strong>Distributed Systems</strong> (CMU 15-440/640), TA</td>
+</tr>
+<tr>
+  <td class='col-md-1'>S2013</td>
+  <td><strong>Software Design and Data Structures</strong> (VT CS 2114), TA</td>
+</tr>
+</table>
 
 
-## Industry Experience
-+ Data Scientist Intern, Adobe Research, May 2014-Aug 2014
-+ Software Engineer Intern, Snowplow Analytics, Dec 2013-Jan 2014
-+ Software Engineer Intern, Qualcomm, May 2013-Aug 2013
-+ Software Engineer Intern, Phoenix Integration, May 2012-Aug 2012
-+ Network Administrator Intern, Sunapsys, Jan 2011-Aug 2011
+## <i class="fa fa-chevron-right"></i> Industry Experience
+<table class="table table-hover">
+<tr>
+  <td class='col-md-3'>May 2014 - Aug 2014</td>
+  <td><strong>Adobe Research</strong>, Data Scientist Intern</td>
+</tr>
+<tr>
+  <td class='col-md-3'>Dec 2013 - Jan 2014</td>
+  <td><strong>Snowplow Analytics</strong>, Software Engineer Intern</td>
+</tr>
+<tr>
+  <td class='col-md-3'>May 2013 - Aug 2013</td>
+  <td><strong>Qualcomm</strong>, Software Engineer Intern</td>
+</tr>
+<tr>
+  <td class='col-md-3'>May 2012 - Aug 2012</td>
+  <td><strong>Phoenix Integration</strong>, Software Engineer Intern</td>
+</tr>
+<tr>
+  <td class='col-md-3'>Jan 2011 - Aug 2011</td>
+  <td><strong>Sunapsys</strong>, Network Administrator Intern</td>
+</tr>
+</table>
 
 
-## Honors & Awards
-+ NSF Graduate Research Fellowship: \$138,000, 2016-2019
-+ 1st Place Undergraduate Senior Capstone Award, Virginia Tech Computer Science, 2014
-+ David Heilman Research Award, Virginia Tech Computer Science, 2014
-  + Awarded to the Computer Science student with the most outstanding research experience.
-+ Senior Scholar Award, Virginia Tech Computer Science, 2014
-  + Awarded to the senior in Computer Science with the most outstanding academic record.
-+ Honorable Mention, CRA Outstanding Undergraduate Researcher Award, 2014
-+ Awarded eight undergraduate merit scholarships, 2011-2014
+## <i class="fa fa-chevron-right"></i> Honors & Awards
+<table class="table table-hover">
+<tr>
+  <td class='col-md-2'>2016 - 2019</td>
+  <td>
+    NSF Graduate Research Fellowship
+    <!--  -->
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>2014</td>
+  <td>
+    1st Place Undergraduate Senior Capstone Award, Virginia Tech Computer Science
+    <!--  -->
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>2014</td>
+  <td>
+    David Heilman Research Award, Virginia Tech Computer Science
+    <!--  -->
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>2014</td>
+  <td>
+    Senior Scholar Award, Virginia Tech Computer Science
+    <!--  -->
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>2014</td>
+  <td>
+    Honorable Mention, CRA Outstanding Undergraduate Researcher Award
+    <!--  -->
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>2011 - 2014</td>
+  <td>
+    Awarded eight undergraduate merit scholarships
+    <!--  -->
+  </td>
+</tr>
+</table>
 
 
-## Skills
-+ Languages: Bash, C, C++, Haskell, HTML/CSS/JavaScript, Java, LaTeX, Lua, Make, *Mathematica*, Python, R, Scala
-+ Frameworks: Akka, Android SDK/NDK, Caffe, Node.js, NumPy, Torch7, Pandas, SciPy, scikit-learn, Spark, Spray
-+ Systems: Linux, OSX
+## <i class="fa fa-chevron-right"></i> Skills
+<table class="table table-hover">
+<tr>
+  <td class='col-md-2'>Languages</td>
+  <td markdown="1">
+Bash, C, C++, CSS, Fortran, Haskell, HTML, Java, JavaScript, LaTeX, Lua, Make, *Mathematica*, Python, R, Scala
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Frameworks</td>
+  <td markdown="1">
+Akka, Android SDK/NDK, Caffe, Node.js, NumPy, Torch7, Pandas, SciPy, scikit-learn, Spark, Spray
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Systems</td>
+  <td markdown="1">
+Linux, OSX
+  </td>
+</tr>
+</table>
