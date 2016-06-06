@@ -1,5 +1,6 @@
 ---
 layout: index
+title: Brandon Amos
 ---
 
 I am a second-year Computer Science Ph.D. student
