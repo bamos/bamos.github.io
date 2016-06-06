@@ -10,7 +10,7 @@ by an NSF graduate research fellowship.
 
 {% include cv.md %}
 
-# Recent Blog Posts
+## <i class="fa fa-chevron-right"></i> Recent Blog Posts
 
 <ul>
   {% for post in site.posts limit:5 %}
@@ -21,7 +21,7 @@ by an NSF graduate research fellowship.
 </ul>
 <h4><a href="/blog">View all</a></h4>
 
-# Fun Side Projects
+## <i class="fa fa-chevron-right"></i> Fun Side Projects
 + [CS conference tracker](https://github.com/bamos/conference-tracker).
 + [SnowGlobe](https://github.com/bamos/snowglobe):
   Haskell-driven, small-scale web analytics with minimal configuration.
