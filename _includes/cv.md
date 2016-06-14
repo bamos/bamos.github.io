@@ -97,8 +97,8 @@
     onclick='$("#abs_zhao2016collapsed").toggle()'>abs</a>]
  [<a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'>pdf</a>] <br>
         
-<div id="abs_zhao2016collapsed" style="text-align: justify; display: none">
-  Sum-Product Networks (SPNs) are probabilistic inference machines that admit
+<div id="abs_zhao2016collapsed" style="text-align: justify; display: none" markdown="1">
+Sum-Product Networks (SPNs) are probabilistic inference machines that admit
 exact inference in linear time in the size of the network. Existing
 parameter learning approaches for SPNs are largely based on the maximum
 likelihood principle and hence are subject to overfitting compared to
@@ -129,8 +129,8 @@ with a maximum likelihood based approach.
     onclick='$("#abs_amos2013applying").toggle()'>abs</a>]
  [<a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/VT-Magnum-Research/antimalware' target='_blank'>code</a>] <br>
         
-<div id="abs_amos2013applying" style="text-align: justify; display: none">
-  The widespread adoption and contextually sensitive
+<div id="abs_amos2013applying" style="text-align: justify; display: none" markdown="1">
+The widespread adoption and contextually sensitive
 nature of smartphone devices has increased concerns over smartphone
 malware. Machine learning classifiers are a current method
 for detecting malicious applications on smartphone systems. This
@@ -162,8 +162,8 @@ malware machine learning classifiers.
     onclick='$("#abs_davies2016privacy").toggle()'>abs</a>]
  [<a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf' target='_blank'>pdf</a>] <br>
         
-<div id="abs_davies2016privacy" style="text-align: justify; display: none">
-  Unease over data privacy will retard consumer acceptance of IoT
+<div id="abs_davies2016privacy" style="text-align: justify; display: none" markdown="1">
+Unease over data privacy will retard consumer acceptance of IoT
 deployments. The primary source of discomfort is a lack of user
 control over raw data that is streamed directly from sensors to the
 cloud. This is a direct consequence of the over-centralization of
@@ -195,8 +195,8 @@ and organizational boundaries of trust and responsibility.
     onclick='$("#abs_chen2015early").toggle()'>abs</a>]
  [<a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'>pdf</a>] <br>
         
-<div id="abs_chen2015early" style="text-align: justify; display: none">
-  A cognitive assistance application combines a wearable device such
+<div id="abs_chen2015early" style="text-align: justify; display: none" markdown="1">
+A cognitive assistance application combines a wearable device such
 as Google Glass with cloudlet processing to provide step-by-step
 guidance on a complex task. In this paper, we focus on user assistance
 for narrow and well-defined tasks that require specialized
@@ -223,8 +223,8 @@ simplify the creation of similar applications.
     onclick='$("#abs_hu2014case").toggle()'>abs</a>]
  [<a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'>pdf</a>] <br>
         
-<div id="abs_hu2014case" style="text-align: justify; display: none">
-  When offloading computation from a mobile device, we show
+<div id="abs_hu2014case" style="text-align: justify; display: none" markdown="1">
+When offloading computation from a mobile device, we show
 that it can pay to perform additional on-device work in order
 to reduce the offloading workload. We call this offload shaping, and demonstrate its application at many different levels
 of abstraction using a variety of techniques. We show that
@@ -247,8 +247,8 @@ demand, with little loss of application-level fidelity
     onclick='$("#abs_amos2014performance").toggle()'>abs</a>]
  [<a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7037709' target='_blank'>pdf</a>]  [<a href='https://github.com/adobe-research/spindle' target='_blank'>code</a>] <br>
         
-<div id="abs_amos2014performance" style="text-align: justify; display: none">
-  This paper shares our experiences building and benchmarking Spindle as an open
+<div id="abs_amos2014performance" style="text-align: justify; display: none" markdown="1">
+This paper shares our experiences building and benchmarking Spindle as an open
 source Spark-based web analytics platform. Spindle's design has been
 motivated by real-world queries and data requiring concurrent, low latency
 query execution. We identify a search space of Spark tuning options and study
@@ -272,8 +272,8 @@ as proper partitioning can cause a 5x performance improvement.
     onclick='$("#abs_andrew2014global").toggle()'>abs</a>]
  [<a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>pdf</a>] <br>
         
-<div id="abs_andrew2014global" style="text-align: justify; display: none">
-  The complicated process by which a yeast cell divides, known as the cell
+<div id="abs_andrew2014global" style="text-align: justify; display: none" markdown="1">
+The complicated process by which a yeast cell divides, known as the cell
 cycle, has been modeled by a system of 26 nonlinear ordinary differential
 equations (ODEs) with 149 parameters. This model captures the chemical
 kinetics of the regulatory networks controlling the cell division process
@@ -302,8 +302,8 @@ compared.
     onclick='$("#abs_amos2014fortran").toggle()'>abs</a>]
  [<a href='http://dl.acm.org/citation.cfm?id=2663525' target='_blank'>pdf</a>] <br>
         
-<div id="abs_amos2014fortran" style="text-align: justify; display: none">
-  A serial Fortran 95 implementation of the QNSTOP algorithm is presented.
+<div id="abs_amos2014fortran" style="text-align: justify; display: none" markdown="1">
+A serial Fortran 95 implementation of the QNSTOP algorithm is presented.
 QNSTOP is a class of quasi-Newton methods for stochastic optimization with
 variations for deterministic global optimization. This discussion provides
 results from testing on various deterministic and stochastic optimization
@@ -332,8 +332,8 @@ functions.
     onclick='$("#abs_satyanarayanan2015edge").toggle()'>abs</a>]
  [<a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'>pdf</a>] <br>
         
-<div id="abs_satyanarayanan2015edge" style="text-align: justify; display: none">
-  High-data-rate sensors, such as video cameras, are becoming ubiquitous in the
+<div id="abs_satyanarayanan2015edge" style="text-align: justify; display: none" markdown="1">
+High-data-rate sensors, such as video cameras, are becoming ubiquitous in the
 Internet of Things. This article describes GigaSight, an Internet-scale
 repository of crowd-sourced video content, with strong enforcement of privacy
 preferences and access controls. The GigaSight architecture is a federated
@@ -360,8 +360,8 @@ is part of a special issue on smart spaces.
     onclick='$("#abs_turner2015bad").toggle()'>abs</a>]
  [<a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094' target='_blank'>pdf</a>] <br>
         
-<div id="abs_turner2015bad" style="text-align: justify; display: none">
-  Recent cyberattacks have highlighted the risk of physical equipment operating
+<div id="abs_turner2015bad" style="text-align: justify; display: none" markdown="1">
+Recent cyberattacks have highlighted the risk of physical equipment operating
 outside designed tolerances to produce catastrophic failures. A related
 threat is cyberattacks that change the design and manufacturing of a
 machine's part, such as an automobile brake component, so it no longer
@@ -384,18 +384,50 @@ manufacturing security topics.
 <table class="table table-hover">
 
     <tr>
+    <td class="col-md-3"><a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'><img src="images/publications/amos2016openface.png"/></a> </td>
+    <td>
+        <strong>OpenFace: A general-purpose face recognition library with mobile applications</strong><br>
+        <strong>B. Amos</strong>, B. Ludwiczuk, and M. Satyanarayanan<br>
+        CMU 2016<br>
+        [T1] 
+[<a href='javascript: none'
+    onclick='$("#abs_amos2016openface").toggle()'>abs</a>]
+ [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>] <br>
+        
+<div id="abs_amos2016openface" style="text-align: justify; display: none" markdown="1">
+Cameras are becoming ubiquitous in the Internet of Things (IoT) and
+can use face recognition technology to improve context. There is a
+large accuracy gap between today's publicly available face recognition
+systems and the state-of-the-art private face recognition
+systems. This paper presents our OpenFace face recognition library
+that bridges this accuracy gap. We show that OpenFace provides
+near-human accuracy on the LFW benchmark and present a new
+classification benchmark for mobile scenarios. This paper is intended
+for non-experts interested in using OpenFace and provides a light
+introduction to the deep neural network techniques we use.
+
+We released OpenFace in October 2015 as an open source library under
+the Apache 2.0 license. It is available at:
+<http://cmusatyalab.github.io/openface/>
+</div>
+
+    </td>
+    </tr>
+    
+
+    <tr>
     <td class="col-md-3"><a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'><img src="images/publications/gao2015cloudlets.png"/></a> </td>
     <td>
         <strong>Are Cloudlets Necessary?</strong><br>
         Y. Gao, W. Hu, K. Ha, <strong>B. Amos</strong>, P. Pillai, and M. Satyanarayanan<br>
         CMU 2015<br>
-        [T1] 
+        [T2] 
 [<a href='javascript: none'
     onclick='$("#abs_gao2015cloudlets").toggle()'>abs</a>]
  [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'>pdf</a>] <br>
         
-<div id="abs_gao2015cloudlets" style="text-align: justify; display: none">
-  We present experimental results from Wi-Fi and 4G LTE networks to validate the
+<div id="abs_gao2015cloudlets" style="text-align: justify; display: none" markdown="1">
+We present experimental results from Wi-Fi and 4G LTE networks to validate the
 intuition that low end-to-end latency of cloud services improves application
 response time and reduces energy consumption on mobile devices. We focus
 specifically on computational offloading as a cloud service. Using a wide
@@ -417,13 +449,13 @@ consumption in a mobile device by up to 42% compared to cloud offload.
         <strong>Adaptive VM handoff across cloudlets</strong><br>
         K. Ha, Y. Abe, Z. Chen, W. Hu, <strong>B. Amos</strong>, P. Pillai, and M. Satyanarayanan<br>
         CMU 2015<br>
-        [T2] 
+        [T3] 
 [<a href='javascript: none'
     onclick='$("#abs_ha2015adaptive").toggle()'>abs</a>]
  [<a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'>pdf</a>] <br>
         
-<div id="abs_ha2015adaptive" style="text-align: justify; display: none">
-  Cloudlet offload is a valuable technique for ensuring low end-to-end latency of
+<div id="abs_ha2015adaptive" style="text-align: justify; display: none" markdown="1">
+Cloudlet offload is a valuable technique for ensuring low end-to-end latency of
 resource-intensive cloud processing for many emerging mobile applications.
 This paper examines the impact of user mobility on cloudlet offload, and
 shows that even modest user mobility can result in significant network
@@ -445,13 +477,13 @@ changing network conditions and processing capacity
         <strong>QNSTOP-QuasiNewton Algorithm for Stochastic Optimization</strong><br>
         <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
         VT 2014<br>
-        [T3] 
+        [T4] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2014QNSTOP").toggle()'>abs</a>]
  [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
         
-<div id="abs_amos2014QNSTOP" style="text-align: justify; display: none">
-  QNSTOP consists of serial and parallel (OpenMP) Fortran 2003 codes for the
+<div id="abs_amos2014QNSTOP" style="text-align: justify; display: none" markdown="1">
+QNSTOP consists of serial and parallel (OpenMP) Fortran 2003 codes for the
 quasi-Newton stochastic optimization method of Castle and Trosset. For
 stochastic problems, convergence theory exists for the particular
 algorithmic choices and parameter values used in QNSTOP. Both the parallel
