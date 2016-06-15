@@ -392,7 +392,7 @@ manufacturing security topics.
         [T1] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2016openface").toggle()'>abs</a>]
- [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>] <br>
+ [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
         
 <div id="abs_amos2016openface" style="text-align: justify; display: none" markdown="1">
 Cameras are becoming ubiquitous in the Internet of Things (IoT) and
