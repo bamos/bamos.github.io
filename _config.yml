@@ -5,6 +5,7 @@ twitter: brandondamos
 lsi: false
 port: 4000
 markdown: kramdown
+future: true
 kramdown:
   parse_block_html: true
   syntax_highlighter: rouge

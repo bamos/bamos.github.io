@@ -13,13 +13,16 @@ by an NSF graduate research fellowship.
 
 ## <i class="fa fa-chevron-right"></i> Recent Blog Posts
 
-<ul>
-  {% for post in site.posts limit:5 %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> &mdash; <span>{{ post.date | date_to_string }}</span>
-    </li>
+<table class="table table-hover">
+  {% for post in site.posts limit: 5 %}
+    {% unless post.draft %}
+    <tr>
+      <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+      <td class="col-md-3" style="text-align: right;">{{ post.date | date: "%B %e, %Y" }}</td>
+    </tr>
+    {% endunless %}
   {% endfor %}
-</ul>
+</table>
 <h4><a href="/blog">View all</a></h4>
 
 ## <i class="fa fa-chevron-right"></i> Fun Side Projects
