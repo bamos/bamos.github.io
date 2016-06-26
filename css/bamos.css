@@ -25,6 +25,17 @@ img {
     line-height: 1;
 }
 
+.navbar-brand div {
+    height: 100%;
+}
+
+.navbar-brand img {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    border: none;
+}
+
 @media (max-width: 767px) {
     .idxHdr {
         width: 100%;
