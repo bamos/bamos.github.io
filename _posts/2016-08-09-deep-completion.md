@@ -253,15 +253,15 @@ conference in 2014.
 The idea is that we define a simple, well-known distribution
 and represent it as $p\_z$.
 For the rest of this post, we'll use $p\_z$ as a uniform distribution
-between 0 and 1 (inclusively).
+between -1 and 1 (inclusively).
 We represent sampling a number from this distribution as
 $z\sim p\_z$.
 If $p\_z$ is 5-dimensional, we can sample it with one
 line of Python with [numpy](http://www.numpy.org/):
 
 {% highlight python %}
-z = np.random.uniform(0, 1, 5)
-array([[ 0.5878488 ,  0.53804885,  0.60947486,  0.61363101,  0.67626936]])
+z = np.random.uniform(-1, 1, 5)
+array([ 0.77356483,  0.95258473, -0.18345086,  0.69224724, -0.34718733])
 {% endhighlight %}
 
 Now this we have a simple distribution we can easily sample from,
@@ -273,7 +273,7 @@ def G(z):
    ...
    return imageSample
 
-z = np.random.uniform(0, 1, 5)
+z = np.random.uniform(-1, 1, 5)
 imageSample = G(z)
 {% endhighlight %}
 
