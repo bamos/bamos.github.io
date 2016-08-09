@@ -75,12 +75,19 @@
   <script src="/js/sp.js"></script>
   <script src="/vendor/js/jquery.min.js"></script>
   <script src="/vendor/js/bootstrap.min.js"></script>
+  <script src="/vendor/js/anchor.min.js"></script>
+  <script src="/vendor/js/jquery.toc.js"></script>
   <script type="text/javascript">
-try {
-  var snowplowTracker = Snowplow.getTrackerUrl('joule.isr.cs.cmu.edu:8081');
-  snowplowTracker.enableLinkTracking();
-  snowplowTracker.trackPageView();
-} catch (err) {}
+   try {
+       var snowplowTracker = Snowplow.getTrackerUrl('joule.isr.cs.cmu.edu:8081');
+       snowplowTracker.enableLinkTracking();
+       snowplowTracker.trackPageView();
+   } catch (err) {}
+
+   $("#toc").toc({
+       'headings': 'h2,h3'
+   });
+   anchors.add('h2,h3');
   </script>
 
 </body>
