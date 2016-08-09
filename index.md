@@ -3,11 +3,16 @@ layout: index
 title: Brandon Amos
 ---
 
-I am a second-year Computer Science Ph.D. student
+**I am looking for a machine learning research internship
+for sometime in 2017.**
+
+I am a third-year Computer Science Ph.D. student
 at Carnegie Mellon University.
 I work with [Zico Kolter](http://zicokolter.com)
 on machine learning and optimization and am supported
 by an NSF graduate research fellowship.
+My research interests include applying theory and statistics
+to empirical problems in machine learning and computer vision.
 
 {% include cv.md %}
 
