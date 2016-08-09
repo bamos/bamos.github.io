@@ -930,7 +930,7 @@ if config.maskType == 'center':
 
 For gradient descent, we'll use
 [projected gradient descent](http://www.stats.ox.ac.uk/~lienart/blog_opti_pgd.html)
-with minibatches and momentum to project $z$ to be in $[0,1]$.
+with minibatches and momentum to project $z$ to be in $[-1,1]$.
 
 {% highlight python %}
 for idx in xrange(0, batch_idxs):
