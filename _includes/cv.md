@@ -628,7 +628,7 @@ Bash, C, C++, CSS, Fortran, Haskell, HTML, Java, JavaScript, LaTeX, Lua, Make, *
 <tr>
   <td class='col-md-2'>Frameworks</td>
   <td markdown="1">
-Akka, Android SDK/NDK, Caffe, Node.js, NumPy, Torch7, Pandas, SciPy, scikit-learn, Spark, Spray
+Akka, Android SDK/NDK, Caffe, Node.js, NumPy, TensorFlow, Torch7, Pandas, SciPy, scikit-learn, Spark, Spray
   </td>
 </tr>
 <tr>
