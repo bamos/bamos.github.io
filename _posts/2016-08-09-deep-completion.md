@@ -121,7 +121,7 @@ Here's the [probability density function](https://en.wikipedia.org/wiki/Probabil
 You can interpret the PDF as going over the *input* space horizontally
 with the vertical axis showing the probability that some input occurs.
 (If you're interested, the code to create these plots is available at
-[bamos/dcgan-completion.tensorflow:simple-distributions.py](https://github.com/bamos/dcgan-completion-tensorflow/blob/master/simple-distributions.py).)
+[bamos/dcgan-completion.tensorflow:simple-distributions.py](https://github.com/bamos/dcgan-completion.tensorflow/blob/master/simple-distributions.py).)
 
 {% include image.html
    img="/data/2016-08-09/normal-pdf.png"
@@ -494,7 +494,7 @@ Moving forward, we will build on
 ### [ML-Heavy] DCGANs in TensorFlow
 
 The implementation for this portion is in my
-[bamos/dcgan-completion-tensorflow](https://github.com/bamos/dcgan-completion-tensorflow)
+[bamos/dcgan-completion.tensorflow](https://github.com/bamos/dcgan-completion.tensorflow)
 GitHub repository.
 I strongly emphasize that the code in this portion is from
 Taehoon Kim's
@@ -504,14 +504,14 @@ We'll use my repository here so that we can easily use the
 image completion portions in the next section.
 
 The implementation is mostly in a Python class called `DCGAN` in
-[model.py](https://github.com/bamos/dcgan-completion-tensorflow/blob/master/model.py).
+[model.py](https://github.com/bamos/dcgan-completion.tensorflow/blob/master/model.py).
 It's helpful to have everything in a class like this so that
 intermediate states can be saved after training and then
 loaded for later use.
 
 First let's define the generator and discriminator architectures.
 The `linear`, `conv2d_transpose`, `conv2d`, and `lrelu` functions are defined in
-[ops.py](https://github.com/bamos/dcgan-completion-tensorflow/blob/master/ops.py).
+[ops.py](https://github.com/bamos/dcgan-completion.tensorflow/blob/master/ops.py).
 
 {% highlight Python %}
 def generator(self, z, y=None):
@@ -654,12 +654,12 @@ for epoch in xrange(config.epoch):
 
 That's it! Of course the full code has a little more book-keeping
 that you can check out in
-[model.py](https://github.com/bamos/dcgan-completion-tensorflow/blob/master/model.py).
+[model.py](https://github.com/bamos/dcgan-completion.tensorflow/blob/master/model.py).
 
 ### Running DCGAN on your images
 If you skipped the last section, but are interested in running some code:
 The implementation for this portion is in my
-[bamos/dcgan-completion-tensorflow](https://github.com/bamos/dcgan-completion-tensorflow)
+[bamos/dcgan-completion.tensorflow](https://github.com/bamos/dcgan-completion.tensorflow)
 GitHub repository.
 I strongly emphasize that the code in this portion is from
 Taehoon Kim's
@@ -673,7 +673,7 @@ network in this portion may be prohibitively slow.
 **Please message me if the following doesn't work for you!**
 
 First let's clone my
-[bamos/dcgan-completion-tensorflow](https://github.com/bamos/dcgan-completion-tensorflow)
+[bamos/dcgan-completion.tensorflow](https://github.com/bamos/dcgan-completion.tensorflow)
 and
 [OpenFace](http://cmusatayalab.github.io/openface)
 repositories.
@@ -683,7 +683,7 @@ Create a new working directory for this and clone the repositories:
 
 {% highlight bash %}
 git clone https://github.com/cmusatyalab/openface.git
-git clone https://github.com/bamos/dcgan-completion-tensorflow.git
+git clone https://github.com/bamos/dcgan-completion.tensorflow.git
 {% endhighlight %}
 
 Next, install OpenFace's Python library so we can preprocess images.
@@ -710,20 +710,20 @@ A non-exhaustive list of options are:
 [LFW](http://vis-www.cs.umass.edu/lfw/),
 and
 [MegaFace](http://megaface.cs.washington.edu/).
-Place the dataset in `dcgan-completion-tensorflow/data/your-dataset/raw`
+Place the dataset in `dcgan-completion.tensorflow/data/your-dataset/raw`
 to indicate it's the dataset's raw images.
 
 Now we'll use OpenFace's alignment tool to pre-process the images to be 64x64.
 
 {% highlight bash %}
-./openface/util/align-dlib.py data/dcgan-completion-tensorflow/data/your-dataset/raw align innerEyesAndBottomLip data/dcgan-completion-tensorflow/data/your-dataset/aligned --size 64
+./openface/util/align-dlib.py data/dcgan-completion.tensorflow/data/your-dataset/raw align innerEyesAndBottomLip data/dcgan-completion.tensorflow/data/your-dataset/aligned --size 64
 {% endhighlight %}
 
 And finally we'll flatten the aligned images directory so that
 it just contains images and no sub-directories.
 
 {% highlight bash %}
-cd dcgan-completion-tensorflow/data/your-dataset/aligned
+cd dcgan-completion.tensorflow/data/your-dataset/aligned
 find . -name '*.png' -exec mv {} . \;
 find . -type d -empty -delete
 cd ../../..
