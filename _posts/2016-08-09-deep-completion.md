@@ -1000,9 +1000,10 @@ In this blog post, we covered one method of completing images that:
 My examples were on faces, but DCGANs can be trained on other
 types of images too.
 In general, GANs are difficult to train and we don't yet
-know how to train them on certain classes of objects.
-However they're a promising model I'm excited to see
-where GAN research takes us!
+know how to train them on certain classes of objects,
+[nor on large images](https://www.quora.com/Do-generative-adversarial-networks-always-converge).
+However they're a promising model and I'm excited to
+see where GAN research takes us!
 
 Feel free to ping me on Twitter
 [@brandondamos](https://twitter.com/brandondamos),
