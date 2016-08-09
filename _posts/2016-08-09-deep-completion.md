@@ -322,7 +322,7 @@ Next, suppose that you have a 3x3 input.
 Our goal is to upsample so that the output is larger.
 You can interpret a fractionally-strided convolution as expanding
 the pixels so that there are zeros in-between the pixels.
-Then when the convolution over this expanded space will
+Then the convolution over this expanded space will
 result in a larger output space.
 Here, it's 5x5.
 
@@ -1172,9 +1172,13 @@ frameworks, it's easy to not have references to everything.
   the same, but a little more involved.
   [Loading Torch models on ARM is possible, but tricky](https://github.com/cmusatyalab/openface/issues/42).
   I don't have experience loading TensorFlow models on ARM.
-+ When using multiple GPUs, setting `cutorch.setDevice` in Torch is
-  much easier than exporting `CUDA_VISIBLE_DEVICES` in TensorFlow.
-+ In Python, I like overriding the process name for long-running experimentns
++ When using multiple GPUs, setting `cutorch.setDevice` programmatically in Torch is
+  slightly easier than exporting the `CUDA_VISIBLE_DEVICES` environment
+  variable in TensorFlow.
++ TensorFlow's long startup time is a slightly annoyance if I want to
+  quickly debug my code on small examples. In Torch, the startup time
+  is negligible.
++ In Python, I like overriding the process name for long-running experiments
   with [setproctitle](https://pypi.python.org/pypi/setproctitle) so that
   I can remember what's running when I look at the running processes
   on my GPUs or CPUs.
