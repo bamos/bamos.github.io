@@ -675,7 +675,7 @@ network in this portion may be prohibitively slow.
 First let's clone my
 [bamos/dcgan-completion.tensorflow](https://github.com/bamos/dcgan-completion.tensorflow)
 and
-[OpenFace](http://cmusatayalab.github.io/openface)
+[OpenFace](http://cmusatyalab.github.io/openface)
 repositories.
 We'll use OpenFace's Python-only portions to pre-process images.
 Don't worry, you won't have to install OpenFace's Torch dependency.
