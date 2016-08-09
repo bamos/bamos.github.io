@@ -564,11 +564,11 @@ self.D, self.D_logits = self.discriminator(self.images)
 self.D_, self.D_logits_ = self.discriminator(self.G, reuse=True)
 {% endhighlight %}
 
-Next, we'll define the loss functions. Instead of using
-the expectation, we'll use the
+Next, we'll define the loss functions. Instead of using the sums,
+we'll use the
 [cross entropy](https://en.wikipedia.org/wiki/Cross_entropy)
 between $D$'s predictions and what we want them to be
-because it works better in practice.
+because it works better.
 The discriminator wants the predictions on the "real" data
 to be all ones and the predictions on the "fake" data from
 the generator to be all zeros.
