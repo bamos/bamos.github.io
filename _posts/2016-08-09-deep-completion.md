@@ -1056,17 +1056,20 @@ If I am misunderstanding something here, please message me and I'll
 add a correction. Due to the fast-paced nature of these
 frameworks, it's easy to not have references to everything.
 
-+ There are many great references to tutorials, pre-trained models,
-  and technologies in lists like
++ There are many great collections of tutorials, pre-trained models,
+  and technologies for both Torch and TensorFlow in projects like
   [awesome-torch](https://github.com/carpedm20/awesome-torch) and
   [awesome-tensorflow](https://github.com/jtoy/awesome-tensorflow).
 + I haven't used [torchnet](https://github.com/torchnet/torchnet),
   but it seems promising.
 + Torch's REPL is very nice and I always have it open when I'm
   developing in Torch to quickly try out operations.
-  TensorFlow's `InteractiveSession` is nice, but I again find
+  TensorFlow's `InteractiveSession` is nice, but I find
   that trying things out interactively is a little slower
-  since everything has to be defined symbolically.
+  since everything has to be defined symbolically
+  and initialized in the session.
+  I much prefer trying quick numpy operations in Python's REPL
+  over TensorFlow operations.
 + As with a lot of other programming, error messages in TensorFlow
   and Torch have their own learning curves.
   Debugging TensorFlow usually involves reasoning about the symbolic
@@ -1084,6 +1087,14 @@ frameworks, it's easy to not have references to everything.
   I can easily convert TensorFlow arrays to numpy format and use
   them with other Python code, but I have to work hard to do
   this with Torch.
+  When I tried using [npy4th](https://github.com/htwaijry/npy4th),
+  I found a bug (that I haven't reported, sorry) that
+  caused incorrect data to be saved.
+  [Torch's hdf5 bindings](https://github.com/deepmind/torch-hdf5)
+  seem to work well and can easily be loaded in Python.
+  And for smaller things, I just manually write out
+  logs to a CSV file.
+
   Torch has some equivalents to Python, like
   [gnuplot wrappers](https://github.com/torch/gnuplot)
   for some plotting, but I prefer the Python alternatives.
@@ -1098,11 +1109,12 @@ frameworks, it's easy to not have references to everything.
   With TensorFlow, GPU operations need to be implemented symbolically.
   In Torch, it's easy to drop into native C or CUDA
   if I need to add calls to a C or CUDA library.
-  For example, I've created Torch wrappers around
+  For example, I've created (CPU-only) Torch wrappers
+  around the
   [gurobi](https://github.com/bamos/gurobi.torch)
   and
   [ecos](https://github.com/bamos/ecos.torch)
-  (CPU-only) optimization routines.
+  C optimization libraries.
 
   In TensorFlow, dropping into C or CUDA is definitely
   possible (and easy) on the CPU through numpy conversions,
@@ -1139,7 +1151,7 @@ frameworks, it's easy to not have references to everything.
   [Torch's autograd](https://github.com/twitter/torch-autograd) package.
 + The Torch and TensorFlow communities are great at keeping up with the
   latest deep learning techniques. If a popular idea is released,
-  somebody usually always implements it in Torch or TensorFlow.
+  unofficial Torch and TensorFlow implementations are quickly released.
 + Batch normalization is easier to use with Torch and in general
   it's nice to not worry about explicitly defining all of my
   trainable variables.
