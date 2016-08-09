@@ -391,14 +391,15 @@ This is where using adversarial network idea comes in.
 First let's define some notation.
 Let the (unknown) probability distribution of our data be $p\_{\rm data}$.
 Also we can interpret $G(z)$ (where $z\sim p\_z$) as drawing samples
-from a probability distribution, let's call it $p\_g$.
+from a probability distribution, let's call it the generative
+probability distribution, $p\_g$.
 
 {: .table .table-striped}
 | Probability Distribution Notation | Meaning |
 |---|---|
 | $p\_z$ | The (known, simple) distribution $z$ goes over |
 | $p\_{\rm data}$ | The (unknown) distribution over our images. This is where our images are sampled from. |
-| $p\_g$ | The distribution that the generator $G$ samples from. We would like for $p\_g=p\_{\rm data}$ |
+| $p\_g$ | The generative distribution that the generator $G$ samples from. We would like for $p\_g=p\_{\rm data}$ |
 
 The discriminator network $D(x)$ takes some image $x$ on input
 and returns the probability that the image $x$ was sampled
