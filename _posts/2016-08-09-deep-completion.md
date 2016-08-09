@@ -1172,3 +1172,13 @@ frameworks, it's easy to not have references to everything.
   the same, but a little more involved.
   [Loading Torch models on ARM is possible, but tricky](https://github.com/cmusatyalab/openface/issues/42).
   I don't have experience loading TensorFlow models on ARM.
++ When using multiple GPUs, setting `cutorch.setDevice` in Torch is
+  much easier than exporting `CUDA_VISIBLE_DEVICES` in TensorFlow.
++ In Python, I like overriding the process name for long-running experimentns
+  with [setproctitle](https://pypi.python.org/pypi/setproctitle) so that
+  I can remember what's running when I look at the running processes
+  on my GPUs or CPUs.
+  However in Torch/Lua, [nobody on the mailing list was able
+  to help me do this](https://groups.google.com/forum/#!topic/torch7/nxzcYinc-i8).
+  I also asked on a Lua IRC channel and somebody tried to help me,
+  but we weren't able to figure it out.
