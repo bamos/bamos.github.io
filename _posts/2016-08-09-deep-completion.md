@@ -1120,7 +1120,7 @@ frameworks, it's easy to not have references to everything.
   In TensorFlow, dropping into C or CUDA is definitely
   possible (and easy) on the CPU through numpy conversions,
   but I'm not sure how I would make a native CUDA call.
-  It's probably possible, but there is no documentation or
+  It's probably possible, but there are no documentation or
   examples on this.
 + TensorFlow (built-in) and
   Torch's [nngraph](https://github.com/torch/nngraph) package
