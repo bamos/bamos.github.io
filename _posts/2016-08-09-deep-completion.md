@@ -702,7 +702,7 @@ cd ..
 {% endhighlight %}
 
 Next download a dataset of face images. It doesn't matter if they
-have labels or not, we'll get rid of them for this.
+have labels or not, we'll get rid of them.
 A non-exhaustive list of options are:
 [MS-Celeb-1M](https://www.microsoft.com/en-us/research/project/msr-image-recognition-challenge-irc/),
 [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html),
@@ -1100,7 +1100,7 @@ frameworks, it's easy to not have references to everything.
   [gnuplot wrappers](https://github.com/torch/gnuplot)
   for some plotting, but I prefer the Python alternatives.
   There are some Python Torch wrappers like
-  [pytorch](https://github.com/hughperkins/pytorch)
+  [pytorch](https://github.com/hughperkins/pytorch) or
   [lutorpy](https://github.com/imodpasteur/lutorpy)
   that might make this easier, but I haven't tried them and
   my impression is that they're not able to cover *every*
@@ -1139,7 +1139,7 @@ frameworks, it's easy to not have references to everything.
   very limited.
   For example, it's (currently) impossible to add a rolling average.
   The TensorBoard data is stored in a protobuf format and
-  [there's currently no documentation or examples on loading the data](http://stackoverflow.com/questions/36700404/tensorflow-opening-log-data-written-by-summarywriter).
+  [there's currently no documentation or examples on loading the data in my own script](http://stackoverflow.com/questions/36700404/tensorflow-opening-log-data-written-by-summarywriter).
   My current solution is to just write out logs to CSV files
   and load and plot them with another script.
 + I am not surprised to find bugs or missing features in Torch/Lua code.
