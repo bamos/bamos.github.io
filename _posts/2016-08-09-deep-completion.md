@@ -1146,6 +1146,8 @@ frameworks, it's easy to not have references to everything.
 + I am not surprised to find bugs or missing features in Torch/Lua code.
   [Here's my commit removing an incorrect rank check to the LAPACK potrs call](https://github.com/torch/torch7/commit/0103713cec7b57a1796398e1b4eab003049066f6).
   [I also had to add a potrs wrapper for CUDA](https://github.com/torch/cutorch/pull/364).
+  [Sometimes I find minor bugs when using TensorFlow/tflearn](https://github.com/tflearn/tflearn/pull/221),
+  but not as frequently and they're usually minor.
 + Automatic differentiation in TensorFlow is nice.
   I can define my loss with one line of code and then get the gradients with
   one more line.
