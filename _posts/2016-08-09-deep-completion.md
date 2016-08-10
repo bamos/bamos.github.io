@@ -29,7 +29,7 @@ In this blog post, I present Raymond Yeh and Chen Chen et al.'s paper
 which was just posted on arXiv on July 26, 2016.
 This paper shows how to use deep learning for image completion with
 a [DCGAN](https://arxiv.org/abs/1511.06434).
-This post is meant for a general technical audience with some deeper
+This blog post is meant for a general technical audience with some deeper
 portions for people with a machine learning background.
 I've added `[ML-Heavy]` tags to sections to indicate that the section
 can be skipped if you don't want too many details.
@@ -151,21 +151,20 @@ We can do the same thing in two dimensions.
 The key relationship between images and statistics is that
 **we can interpret images as samples
 from a high-dimensional probability distribution.**
+The probability distribution goes over the pixels of images.
 Imagine you're taking a picture with your camera.
 This picture will have some finite number of pixels.
-You can interpret the probability distribution as
-being the probability of the pixels in the image you
-just took.
 When you take an image with your camera, you are
 sampling from this complex probability distribution.
 This distribution is what we'll use to define what
 makes an image normal or not.
+With images, unlike with the normal distributions, we **don't** know
+the true probability distribution and we can **only** collect samples.
+
 In this post, we'll use color images represented by the
 [RGB color model](https://en.wikipedia.org/wiki/RGB_color_model).
 Our images will be 64 pixels wide and 64 pixels high,
 so our probability distribution has $64\cdot 64\cdot 3 \approx 12k$ dimensions.
-With images, unlike with the normal distributions, we **don't** know
-the true probability distribution and we can **only** collect samples.
 
 {% comment %}
 {% include image.html
@@ -208,7 +207,7 @@ The complexity partly comes from intricate
 [conditional dependencies](https://en.wikipedia.org/wiki/Conditional_dependence):
 the value of one pixel depends on the values of other pixels in the image.
 Also, maximizing over a general PDF is an extremely difficult
-and nearly intractable non-convex optimization problem.
+and often intractable non-convex optimization problem.
 
 ## Step 2: Quickly generating fake images
 
@@ -386,7 +385,7 @@ how do we train it?
 We have a lot of [latent variables](https://en.wikipedia.org/wiki/Latent_variable)
 (or parameters)
 that we need to find.
-This is where using adversarial network idea comes in.
+This is where using adversarial networks comes in.
 
 First let's define some notation.
 Let the (unknown) probability distribution of our data be $p\_{\rm data}$.
@@ -444,13 +443,14 @@ $$\min_G \max_D {\mathbb E}_{x\sim p_{\rm data}} \log D(x) +
 We will train $D$ and $G$ by taking the gradients of
 this expression with respect to their parameters.
 We know how to quickly compute every part of this expression.
-The expectations are computed in minibatches of size $m,$
+The expectations are approximated in minibatches of size $m,$
 and the inner maximization can be approximated with $k$
 gradient steps. It turns out $k=1$ works well for training.
 
 Let $\theta\_d$ be the parameters of the discriminator
 and $\theta\_g$ be the parameters the generator.
-The gradients of $\theta\_d$ and $\theta\_g$ can be computed with
+The gradients of the loss with respect to
+$\theta\_d$ and $\theta\_g$ can be computed with
 [backpropagation](https://en.wikipedia.org/wiki/Backpropagation)
 because $D$ and $G$ are defined by well-understood neural network components.
 Here's the training algorithm from the
@@ -821,7 +821,7 @@ the original pixels to create the reconstructed image:
 
 $$x_{\rm reconstructed} = M\odot y + (1-M)\odot G(\hat z)$$
 
-Now all we need to do is find some $\hat z$ that does a good
+Now all we need to do is find some $G(\hat z)$ that does a good
 job at completing the image.
 To find $\hat z$, let's revisit our goals of recovering **contextual**
 and **perceptual** information from the beginning of this post
@@ -901,7 +901,7 @@ self.mask = tf.placeholder(tf.float32, [None] + self.image_shape, name='mask')
 We'll solve ${\rm arg} \min\_z {\mathcal L}(z)$ iteratively with
 gradient descent with the gradients $\nabla\_z {\mathcal L}(z)$.
 TensorFlow's [automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation)
-can compute this for us automatically once we've defined the loss functions!
+can compute this for us once we've defined the loss functions!
 So the entire idea of completion with DCGANs can be implemented by just
 adding four lines of TensorFlow code to an existing DCGAN implementation.
 (Of course implementing this also involves some non-TensorFlow code.)
@@ -924,7 +924,6 @@ if config.maskType == 'center':
     scale = 0.25
     assert(scale <= 0.5)
     mask = np.ones(self.image_shape)
-    sz = self.image_size
     l = int(self.image_size*scale)
     u = int(self.image_size*(1.0-scale))
     mask[l:u, l:u, :] = 0.0
@@ -1147,17 +1146,17 @@ frameworks, it's easy to not have references to everything.
 + I am not surprised to find bugs or missing features in Torch/Lua code.
   [Here's my commit removing an incorrect rank check to the LAPACK potrs call](https://github.com/torch/torch7/commit/0103713cec7b57a1796398e1b4eab003049066f6).
   [I also had to add a potrs wrapper for CUDA](https://github.com/torch/cutorch/pull/364).
-+ Automatic differentiation TensorFlow is nice.
++ Automatic differentiation in TensorFlow is nice.
   I can define my loss with one line of code and then get the gradients with
   one more line.
   I haven't used
   [Torch's autograd](https://github.com/twitter/torch-autograd) package.
 + The Torch and TensorFlow communities are great at keeping up with the
   latest deep learning techniques. If a popular idea is released,
-  unofficial Torch and TensorFlow implementations are quickly released.
-+ Batch normalization is easier to use with Torch and in general
+  Torch and TensorFlow implementations are quickly released.
++ Batch normalization is easier to use in Torch and in general
   it's nice to not worry about explicitly defining all of my
-  trainable variables.
+  trainable variables like in TensorFlow.
   [tflearn](http://tflearn.org/) makes this a little easier in
   TensorFlow, but I still prefer Torch's way.
 + I am not surprised to learn about useful under-documented features
