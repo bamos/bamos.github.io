@@ -1021,19 +1021,21 @@ or suggestions on this post. Thanks!
 %}
 
 ## Partial bibliography for further reading
-+ Tim Salimans et al.
-  "[Improved Techniques for Training GANs](https://arxiv.org/abs/1606.03498)"
 + Raymond Yeh and Chen Chen et al.
-  "[Semantic Image Inpainting with Perceptual and Contextual Losses](https://arxiv.org/abs/1607.07539),"
+  "[Semantic Image Inpainting with Perceptual and Contextual Losses](https://arxiv.org/abs/1607.07539):"
+  Paper this post was based on.
 + Ian Goodfellow et al.
   "[Generative Adversarial Nets](http://papers.nips.cc/paper/5423-generative-adversarial)"
 + Vincent Dumoulin and Francesco Visin.
   "[A guide to convolution arithmetic for deep learning](https://arxiv.org/abs/1603.07285)"
 + Alec Radford, Luke Metz, and Soumith Chintala.
-  "[Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434)" by
-+ [The Eyescream Project](http://soumith.ch/eyescream/) and
-  Emily Denton et al.
-  "[Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks](http://arxiv.org/abs/1506.05751)"
+  "[Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434)"
++ Emily Denton et al.
+  "[Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks](http://arxiv.org/abs/1506.05751):"
+  Paper behind [the EyeScream Project](http://soumith.ch/eyescream/).
++ Tim Salimans et al.
+  "[Improved Techniques for Training GANs](https://arxiv.org/abs/1606.03498):"
+  OpenAI's first paper. (Not discussed here.)
 
 ## Bonus: Incomplete Thoughts on TensorFlow and Torch
 As a machine learning researcher, I mostly use numpy, Torch,
