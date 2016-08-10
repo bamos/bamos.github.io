@@ -1188,3 +1188,8 @@ frameworks, it's easy to not have references to everything.
   to help me do this](https://groups.google.com/forum/#!topic/torch7/nxzcYinc-i8).
   I also asked on a Lua IRC channel and somebody tried to help me,
   but we weren't able to figure it out.
++ Torch's [argcheck](https://github.com/torch/argcheck) has a
+  [serious limitation when functions have more than 9 optional arguments](https://github.com/torch/argcheck/issues/3).
+  In Python, I'd like to start using [mypy](http://www.mypy-lang.org/)
+  for simple argument checking, but I'm not sure how well it
+  works in practice with scientific Python.
