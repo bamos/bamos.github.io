@@ -879,7 +879,8 @@ values of $y$ with $G(\hat z)$:
 $$x_{\rm reconstructed} = M\odot y + (1-M)\odot G(\hat z)$$
 
 The inpainting paper also uses
-[poisson blending](https://www.cs.jhu.edu/~misha/Fall07/Papers/Perez03.pdf)
+[poisson blending](http://dl.acm.org/citation.cfm?id=882269)
+([see Chris Traile's post for an introduction to it](http://www.ctralie.com/Teaching/PoissonImageEditing/))
 to smooth the reconstructed image.
 
 ### [ML-Heavy] TensorFlow implementation of image completion with DCGANs
