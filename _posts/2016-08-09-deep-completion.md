@@ -975,7 +975,7 @@ You can create create a gif from these with ImageMagick:
 
 {% highlight bash %}
 cd outputImages
-convert -delay 10 -loop 0 before.png completed/*.png completion.gif
+convert -delay 10 -loop 0 completed/*.png completion.gif
 {% endhighlight %}
 
 {% include image.html
