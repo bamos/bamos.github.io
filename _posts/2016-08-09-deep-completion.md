@@ -200,6 +200,7 @@ only samples. Just pick your favorite
 [statistical model](https://en.wikipedia.org/wiki/Statistical_model)
 and fit it to the data.
 
+We don't use this method in practice.
 While the PDF is easy to recover for simple distributions,
 it's difficult and often intractable for more complex
 distributions like images.
