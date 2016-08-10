@@ -1195,3 +1195,10 @@ frameworks, it's easy to not have references to everything.
   In Python, I'd like to start using [mypy](http://www.mypy-lang.org/)
   for simple argument checking, but I'm not sure how well it
   works in practice with scientific Python.
++ I wrote
+  [gurobi](https://github.com/bamos/gurobi.torch)
+  and
+  [ecos](https://github.com/bamos/ecos.torch)
+  wrappers because there weren't any
+  LP or QP solvers in Torch.
+  To my knowledge there still aren't any other options.
