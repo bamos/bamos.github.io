@@ -1175,7 +1175,7 @@ frameworks, it's easy to not have references to everything.
 + When using multiple GPUs, setting `cutorch.setDevice` programmatically in Torch is
   slightly easier than exporting the `CUDA_VISIBLE_DEVICES` environment
   variable in TensorFlow.
-+ TensorFlow's long startup time is a slightly annoyance if I want to
++ TensorFlow's long startup time is a slight annoyance if I want to
   quickly debug my code on small examples. In Torch, the startup time
   is negligible.
 + In Python, I like overriding the process name for long-running experiments
