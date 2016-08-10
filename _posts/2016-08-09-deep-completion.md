@@ -119,7 +119,7 @@ that is well-understood and can be represented concisely in closed form:
 a [normal distribution](https://en.wikipedia.org/wiki/Normal_distribution).
 Here's the [probability density function](https://en.wikipedia.org/wiki/Probability_density_function) (PDF) for a normal distribution.
 You can interpret the PDF as going over the *input* space horizontally
-with the vertical axis showing the probability that some input occurs.
+with the vertical axis showing the probability that some value occurs.
 (If you're interested, the code to create these plots is available at
 [bamos/dcgan-completion.tensorflow:simple-distributions.py](https://github.com/bamos/dcgan-completion.tensorflow/blob/master/simple-distributions.py).)
 
@@ -515,7 +515,7 @@ The `linear`, `conv2d_transpose`, `conv2d`, and `lrelu` functions are defined in
 [ops.py](https://github.com/bamos/dcgan-completion.tensorflow/blob/master/ops.py).
 
 {% highlight Python %}
-def generator(self, z, y=None):
+def generator(self, z):
     self.z_, self.h0_w, self.h0_b = linear(z, self.gf_dim*8*4*4,
                                            'g_h0_lin', with_w=True)
 
@@ -539,7 +539,7 @@ def generator(self, z, y=None):
 
     return tf.nn.tanh(h4)
 
-def discriminator(self, image, reuse=False, y=None):
+def discriminator(self, image, reuse=False):
     if reuse:
         tf.get_variable_scope().reuse_variables()
 
