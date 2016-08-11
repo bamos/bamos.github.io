@@ -1144,7 +1144,7 @@ frameworks, it's easy to not have references to everything.
   For example, it's (currently) impossible to add a rolling average.
   The TensorBoard data is stored in a protobuf format and
   [there's currently no documentation or examples on loading the data in my own script](http://stackoverflow.com/questions/36700404/tensorflow-opening-log-data-written-by-summarywriter).
-  My current solution is to just write out logs to CSV files
+  My current solution is to just write out data to CSV files
   and load and plot them with another script.
 + I am not surprised to find bugs or missing features in Torch/Lua code.
   [Here's my PR removing an incorrect rank check to the LAPACK potrs call](https://github.com/torch/torch7/pull/591).
