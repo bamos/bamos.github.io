@@ -14,7 +14,7 @@ by an NSF graduate research fellowship.
 My research interests include applying theory and statistics
 to empirical problems in machine learning and computer vision,
 particularly in deep learning.
-I am the author [OpenFace](https://cmusatyalab.github.io/openface/),
+I am the author of [OpenFace](https://cmusatyalab.github.io/openface/),
 which is an open source face recognition project that uses
 deep neural networks.
 
