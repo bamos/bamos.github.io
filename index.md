@@ -16,7 +16,7 @@ to empirical problems in machine learning and computer vision,
 particularly in deep learning.
 I created [OpenFace](https://cmusatyalab.github.io/openface/),
 which is an open source face recognition project that uses
-deep neural networks.
+deep learning.
 
 {% include cv.md %}
 
