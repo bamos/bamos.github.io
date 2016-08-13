@@ -1053,10 +1053,6 @@ Over the past few months, I've been using TensorFlow
 more seriously and have a few thoughts comparing Torch and TensorFlow.
 These are non-exhaustive and from my personal experiences as a user.
 
-This is an incomplete list and I'm just including my immediate
-thoughts here rather than in a separate post.
-(If anybody's interested in a longer post, let me know!)
-
 If I am misunderstanding something here, please message me and I'll
 add a correction. Due to the fast-paced nature of these
 frameworks, it's easy to not have references to everything.
