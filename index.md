@@ -4,7 +4,7 @@ title: Brandon Amos
 ---
 
 **I am looking for a machine learning research internship
-for sometime in 2017.**
+for the summer of 2017.**
 
 I am a third-year Computer Science Ph.D. student
 at Carnegie Mellon University.
