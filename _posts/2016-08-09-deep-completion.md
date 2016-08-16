@@ -41,11 +41,9 @@ source code behind this post on GitHub at
 
 We'll approach image completion in three steps.
 
-1. We'll first [interpret images as being samples from a probability distribution](#step-1-interpreting-images-as-samples-from-a-probability-distribution).
-2. This interpretation lets us
-   [learn how to generate fake images](#step-2-quickly-generating-fake-images).
-3. Then we'll [find the best fake image](#step-3-using-fake-image-generation-for-image-completion)
-   for completion.
+1. [We'll first interpret images as being samples from a probability distribution](#step-1-interpreting-images-as-samples-from-a-probability-distribution).
+2. [This interpretation lets us learn how to generate fake images](#step-2-quickly-generating-fake-images).
+3. [Then we'll find the best fake image for completion](#step-3-using-fake-image-generation-for-image-completion).
 
 {% include image.html
    img="/data/2016-08-09/content-aware-1.jpg"
@@ -200,10 +198,10 @@ only samples. Just pick your favorite
 [statistical model](https://en.wikipedia.org/wiki/Statistical_model)
 and fit it to the data.
 
-We don't use this method in practice.
+However we don't use this method in practice.
 While the PDF is easy to recover for simple distributions,
 it's difficult and often intractable for more complex
-distributions like images.
+distributions over images.
 The complexity partly comes from intricate
 [conditional dependencies](https://en.wikipedia.org/wiki/Conditional_dependence):
 the value of one pixel depends on the values of other pixels in the image.
@@ -222,7 +220,7 @@ Generative models can often be difficult to train or intractable,
 but lately the deep learning community has made some
 amazing progress in this space.
 [Yann LeCun](http://yann.lecun.com/) gives a great introduction to
-how generative models are trained in
+one way of training generative models (adversarial training) in
 [this Quora post](https://www.quora.com/What-are-some-recent-and-potentially-upcoming-breakthroughs-in-deep-learning/answer/Yann-LeCun?srid=nZuy),
 describing the idea as the most interesting idea in the last
 10 years in machine learning:
@@ -242,6 +240,10 @@ describing the idea as the most interesting idea in the last
    like two humans playing against each other in a game.
    [Image source](https://en.wikipedia.org/wiki/Street_Fighter#/media/File:Street_Fighter_II_(arcade)_screenshot.png)."
 %}
+
+There are other ways to train generative models with deep learning,
+like [Variational Autoencoders](http://arxiv.org/abs/1312.6114) (VAEs).
+In this post we'll only focus on Generative Adversarial Nets (GANs).
 
 ### [ML-Heavy] Generative Adversarial Net (GAN) building blocks
 
