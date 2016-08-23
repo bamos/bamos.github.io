@@ -12,11 +12,12 @@ I work with [Zico Kolter](http://zicokolter.com)
 on machine learning and optimization and am supported
 by an NSF graduate research fellowship.
 My research interests include applying theory and statistics
-to empirical problems in machine learning and computer vision,
-particularly in deep learning.
-I created [OpenFace](https://cmusatyalab.github.io/openface/),
-which is an open source face recognition project that uses
-deep learning.
+to empirical modeling problems in machine learning and
+computer vision, particularly in deep learning.
+I am the author of
+[OpenFace](https://cmusatyalab.github.io/openface/),
+which is an open source face recognition project that
+uses deep learning.
 
 {% include cv.md %}
 
