@@ -690,12 +690,20 @@ git clone https://github.com/cmusatyalab/openface.git
 git clone https://github.com/bamos/dcgan-completion.tensorflow.git
 {% endhighlight %}
 
-Next, install OpenFace's Python library so we can preprocess images.
-OpenFace currently uses Python 2, but if you're interested,
+Next, install [OpenCV](http://opencv.org/) and [dlib](http://dlib.net/)
+for Python 2.
+(OpenFace currently uses Python 2, but if you're interested,
 I'd be happy if you make it Python 3 compatible and
-[send in a PR mentioning this issue](https://github.com/cmusatyalab/openface/issues/172).
+[send in a PR mentioning this issue](https://github.com/cmusatyalab/openface/issues/172).)
+These can a little tricky to get set up and I've
+included a few notes on what versions I use and how I install
+in the [OpenFace setup guide](http://cmusatyalab.github.io/openface/setup/).
+Next, install OpenFace's Python library so we can preprocess images.
 If you're not using a virtual environment, you should use `sudo`
 when running `setup.py` to globally install OpenFace.
+(If you have trouble setting up this portion, you can also use
+our OpenFace docker build as described
+in the [OpenFace setup guide](http://cmusatyalab.github.io/openface/setup/).)
 
 {% highlight bash %}
 cd openface
