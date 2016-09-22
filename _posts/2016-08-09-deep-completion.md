@@ -963,7 +963,7 @@ for idx in xrange(0, batch_idxs):
         v_prev = np.copy(v)
         v = config.momentum*v - config.lr*g[0]
         zhats += -config.momentum * v_prev + (1+config.momentum)*v
-        np.clip(zhats, -1, 1)
+        zhats = np.clip(zhats, -1, 1)
 {% endhighlight %}
 
 ### Completing your images
