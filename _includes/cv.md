@@ -94,7 +94,7 @@
         [1] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2016input").toggle()'>abs</a>]
- [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>] <br>
+ [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
         
 <div id="abs_amos2016input" style="text-align: justify; display: none" markdown="1">
 This paper presents the input convex neural network
