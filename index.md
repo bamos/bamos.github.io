@@ -16,7 +16,10 @@ important modeling problems in computer vision, language,
 and reinforcement learning through the use of
 deep learning, optimization (sometimes convex),
 theory, and statistics.
-I am the author of
+
+I strongly believe in open science and reproducible research
+and publish all of my code to [my Github profile](https://github.com/bamos).
+I am also the author of
 [OpenFace](https://cmusatyalab.github.io/openface/),
 which is an open source face recognition project that
 uses deep learning.
