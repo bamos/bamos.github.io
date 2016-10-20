@@ -1,7 +1,3 @@
-## <i class="fa fa-chevron-right"></i> About
-I am a third-year Computer Science Ph.D. student at Carnegie Mellon University. I work with Zico Kolter on machine learning and optimization and am supported by an NSF graduate research fellowship. I am particularly interested in improving our understanding of important modeling problems in computer vision, language, and reinforcement learning through the use of deep learning, optimization (sometimes convex), theory, and statistics.
-
-
 ## <i class="fa fa-chevron-right"></i> Education
 
 <table class="table table-hover">
