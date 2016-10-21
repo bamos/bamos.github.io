@@ -6,24 +6,6 @@ title: Brandon Amos
 **I am looking for a machine learning research internship
 for the summer of 2017.**
 
-I am a third-year Computer Science Ph.D. student
-at Carnegie Mellon University.
-I work with [Zico Kolter](http://zicokolter.com)
-on machine learning and optimization
-and am supported by an NSF graduate research fellowship.
-I am particularly interested in improving our understanding of
-important modeling problems in computer vision, language,
-and reinforcement learning through the use of
-deep learning, optimization (sometimes convex),
-theory, and statistics.
-
-I strongly believe in open science and reproducible research
-and publish all of my code to [my Github profile](https://github.com/bamos).
-I am also the author of
-[OpenFace](https://cmusatyalab.github.io/openface/),
-which is an open source face recognition project that
-uses deep learning.
-
 {% include cv.md %}
 
 ## <i class="fa fa-chevron-right"></i> Recent Blog Posts
