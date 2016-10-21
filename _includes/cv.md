@@ -1,4 +1,4 @@
-I am a third-year Computer Science Ph.D. student at Carnegie Mellon University and am supported by an NSF graduate research fellowship. I spent the first two years of my Ph.D. working between mobile computing and machine learning and I now work with [Zico Kolter](http://zicokolter.com/) on machine learning and optimization. I am particularly interested in improving our understanding of important modeling problems in computer vision, language, and reinforcement learning through the use of deep learning, optimization (sometimes convex), theory, and statistics. 
+I am a third-year Computer Science Ph.D. student at Carnegie Mellon University and am supported by an NSF graduate research fellowship. I spent the first two years of my Ph.D. working between mobile computing and applied machine learning and I now work with [Zico Kolter](http://zicokolter.com/) on machine learning and optimization. I am particularly interested in improving our understanding of important modeling problems in computer vision, language, and reinforcement learning through the use of deep learning, optimization (sometimes convex), theory, and statistics. 
 
 I strongly believe in open science and reproducible research and actively publish code on [my Github profile](https://github.com/bamos). I am also the author of [OpenFace](https://cmusatyalab.github.io/openface/), which is an open source face recognition project that uses deep learning.
 
@@ -53,7 +53,7 @@ I strongly believe in open science and reproducible research and actively publis
   <td class='col-md-3'>Aug 2014 - Apr 2016</td>
   <td>
     <strong>Carnegie Mellon University</strong>, Prof. Mahadev Satyanarayanan <br>
-    Machine learning and mobile computing
+    Applied machine learning and mobile computing
   </td>
 </tr>
 <tr>
