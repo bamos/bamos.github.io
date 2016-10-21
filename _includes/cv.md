@@ -1,3 +1,8 @@
+I am a third-year Computer Science Ph.D. student at Carnegie Mellon University. I work with [Zico Kolter](http://zicokolter.com/) on machine learning and optimization and am supported by an NSF graduate research fellowship. I am particularly interested in improving our understanding of important modeling problems in computer vision, language, and reinforcement learning through the use of deep learning, optimization (sometimes convex), theory, and statistics. 
+
+I strongly believe in open science and reproducible research and actively publish code on [my Github profile](https://github.com/bamos). I am also the author of [OpenFace](https://cmusatyalab.github.io/openface/), which is an open source face recognition project that uses deep learning.
+
+
 ## <i class="fa fa-chevron-right"></i> Education
 
 <table class="table table-hover">
@@ -48,7 +53,7 @@
   <td class='col-md-3'>Aug 2014 - Apr 2016</td>
   <td>
     <strong>Carnegie Mellon University</strong>, Prof. Mahadev Satyanarayanan <br>
-    Machine learning, computer vision, and mobile computing
+    Machine learning and mobile computing
   </td>
 </tr>
 <tr>
@@ -245,6 +250,20 @@ biology problems is given.
   <td><strong>Sunapsys</strong>, Network Administrator Intern</td>
 </tr>
 </table>
+
+
+## <i class="fa fa-chevron-right"></i> CMU Graduate Coursework
++ Advanced Machine Learning (10-715, Au), B. Poczos, F2016
++ Intermediate Statistics (10-705, Au), L. Wasserman, F2016
++ Topics in Deep Learning (10-807), R. Salakhutdinov, F2016
++ Machine Learning (10-701, Au), T. Mitchell, S2016
++ Computer Vision (16-720, Au), D. Ramanan, S2016
++ Convex Optimization (10-725), R. J. Tibshirani, F2015
++ Algorithms in the Real World (15-853), G. Blelloch and A. Gupta, F2015
++ Semantics of Programming Languages (15-812), A. Platzer, S2015
++ Optimizing Compilers for Modern Architecture (15-745), T. Mowry, S2015
++ Advanced Operating and Distributed Systems (15-712), D. Andersen, F2014
++ Mobile and Pervasive Computing (15-812), M. Satyanarayanan and D. Siewiorek, F2014
 
 
 ## <i class="fa fa-chevron-right"></i> Honors & Awards
