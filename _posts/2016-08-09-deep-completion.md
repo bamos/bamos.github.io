@@ -1035,6 +1035,15 @@ or suggestions on this post. Thanks!
 + Raymond Yeh and Chen Chen et al.
   "[Semantic Image Inpainting with Perceptual and Contextual Losses](https://arxiv.org/abs/1607.07539):"
   Paper this post was based on.
++ D. Pathak et al.
+  [Context Encoders: Feature Learning by Inpainting](https://people.eecs.berkeley.edu/~pathak/context_encoder/) at CVPR 2016:
+  Another recent method for inpainting that use similar loss functions
+  and have released code
+  on GitHub at [pathak22/context-encoder](https://github.com/pathak22/context-encoder).
+  This method is less computationally expensive than Yeh and Chen et al.
+  because they use a single forward network pass instead of
+  solving an optimization problem that involves many
+  forward and backward passes.
 + Ian Goodfellow et al.
   "[Generative Adversarial Nets](http://papers.nips.cc/paper/5423-generative-adversarial)"
 + Vincent Dumoulin and Francesco Visin.
