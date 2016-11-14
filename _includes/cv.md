@@ -258,8 +258,6 @@ biology problems is given.
 + Advanced Machine Learning (10-715, Au), B. Poczos, F2016
 + Intermediate Statistics (10-705, Au), L. Wasserman, F2016
 + Topics in Deep Learning (10-807), R. Salakhutdinov, F2016
-+ Machine Learning (10-701, Au), T. Mitchell, S2016
-+ Computer Vision (16-720, Au), D. Ramanan, S2016
 + Convex Optimization (10-725), R. J. Tibshirani, F2015
 + Algorithms in the Real World (15-853), G. Blelloch and A. Gupta, F2015
 + Semantics of Programming Languages (15-812), A. Platzer, S2015
