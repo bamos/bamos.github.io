@@ -3,8 +3,12 @@ layout: index
 title: Brandon Amos
 ---
 
-**I am looking for a machine learning research internship
-for the summer of 2017.**
+---
++ **I am looking for a machine learning research internship
+  for the summer of 2017.**
++ I will be attending NIPS 2016, come say hi!
+
+---
 
 {% include cv.md %}
 
