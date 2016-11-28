@@ -6,7 +6,9 @@ title: Brandon Amos
 ---
 + **I am looking for a machine learning research internship
   for the summer of 2017.**
-+ I will be attending NIPS 2016, come say hi!
++ I will be attending NIPS 2016 and have
+  [a poster on ICNNs](https://arxiv.org/abs/1609.07152)
+  in the deep reinforcement learning workshop on Friday.
 
 ---
 
