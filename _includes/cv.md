@@ -1,4 +1,4 @@
- I am a third-year Computer Science Ph.D. student at Carnegie Mellon University and am supported by an NSF graduate research fellowship. I spent the first two years of my Ph.D. working between mobile computing and applied machine learning and I now work with [Zico Kolter](http://zicokolter.com/) on machine learning and optimization. I am particularly interested in improving our understanding of important modeling problems in computer vision, language, and reinforcement learning through the use of deep learning, optimization (sometimes convex), theory, and statistics. 
+ I am a third-year Computer Science Ph.D. student at Carnegie Mellon University and am supported by an NSF graduate research fellowship. I spent the first two years of my Ph.D. working between mobile systems and applied machine learning and I now work with [Zico Kolter](http://zicokolter.com/) on machine learning and optimization. I am particularly interested in improving our understanding of important modeling problems in computer vision, language, and reinforcement learning through the use of deep learning, optimization (sometimes convex), theory, and statistics. 
 
 As an example, we've recently been exploring the intersection of deep learning and convex optimization with input convex neural networks (ICNNs): neural networks that are convex with respect to some of the inputs. Our preprint is available at [arXiv:1609.07152](https://arxiv.org/abs/1609.07152) and shows applications to multi-label classification, image completion, and continuous-action reinforcement learning. 
 
@@ -55,14 +55,14 @@ I strongly believe in open science and reproducible research and actively publis
   <td class='col-md-3'>Aug 2014 - Apr 2016</td>
   <td>
     <strong>Carnegie Mellon University</strong>, Prof. Mahadev Satyanarayanan <br>
-    Applied machine learning and mobile computing
+    Applied machine learning and mobile systems
   </td>
 </tr>
 <tr>
   <td class='col-md-3'>May 2012 - May 2014</td>
   <td>
     <strong>Virginia Tech</strong>, Prof. Jules White <br>
-    Mobile computing, cyber-physical systems, and security
+    Mobile systems, cyber-physical systems, and security
   </td>
 </tr>
 <tr>
@@ -219,6 +219,10 @@ biology problems is given.
 ## <i class="fa fa-chevron-right"></i> Teaching Experience
 <table class="table table-hover">
 <tr>
+  <td class='col-md-1'>S2017</td>
+  <td><strong>Graduate AI</strong> (CMU 15-780), TA</td>
+</tr>
+<tr>
   <td class='col-md-1'>S2016</td>
   <td><strong>Distributed Systems</strong> (CMU 15-440/640), TA</td>
 </tr>
@@ -255,7 +259,8 @@ biology problems is given.
 
 
 ## <i class="fa fa-chevron-right"></i> CMU Graduate Coursework
-+ Advanced Machine Learning (10-715, Au), B. Poczos, F2016
++ Statistical Machine Learning (10-702, Au), L. Wasserman, S2017
++ Deep Reinforcement Learning (10-703), R. Salakhutdinov and A. Fragkiadaki, S2017
 + Intermediate Statistics (10-705, Au), L. Wasserman, F2016
 + Topics in Deep Learning (10-807), R. Salakhutdinov, F2016
 + Convex Optimization (10-725), R. J. Tibshirani, F2015
