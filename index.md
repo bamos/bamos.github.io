@@ -3,15 +3,6 @@ layout: index
 title: Brandon Amos
 ---
 
----
-+ **I am looking for a machine learning research internship
-  for the summer of 2017.**
-+ I will be attending NIPS 2016 and have
-  a poster on [ICNNs](https://arxiv.org/abs/1609.07152)
-  in the deep RL workshop on Friday.
-
----
-
 {% include cv.md %}
 
 ## <i class="fa fa-chevron-right"></i> Recent Blog Posts
