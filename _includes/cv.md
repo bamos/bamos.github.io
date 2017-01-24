@@ -91,17 +91,16 @@ I strongly believe in open science and reproducible research and actively publis
 <table class="table table-hover">
 
 <tr>
-<td class="col-md-3"><a href='http://arxiv.org/abs/1609.07152' target='_blank'><img src="images/publications/sel_amos2016input.png"/></a> </td>
+<td class="col-md-3"><a href='http://arxiv.org/abs/1609.07152' target='_blank'><img src="images/publications/amos2016input.png"/></a> </td>
 <td>
     <strong>Input Convex Neural Networks</strong><br>
     <strong>B. Amos</strong>, L. Xu, and J. Kolter<br>
     arXiv 2016<br>
     [1] 
 [<a href='javascript: none'
-    onclick='$("#abs_sel_amos2016input").toggle()'>abs</a>]
- [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
+    onclick='$("#abs_amos2016input").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
     
-<div id="abs_sel_amos2016input" style="text-align: justify; display: none" markdown="1">
+<div id="abs_amos2016input" style="text-align: justify; display: none" markdown="1">
 This paper presents the input convex neural network
 architecture. These are scalar-valued (potentially deep) neural
 networks with constraints on the network parameters such that the
@@ -121,17 +120,16 @@ improvement over the existing state of the art in many cases.
 
 
 <tr>
-<td class="col-md-3"><a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'><img src="images/publications/sel_zhao2016collapsed.png"/></a> </td>
+<td class="col-md-3"><a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'><img src="images/publications/zhao2016collapsed.png"/></a> </td>
 <td>
     <strong>Collapsed Variational Inference for Sum-Product Networks</strong><br>
     H. Zhao, T. Adel, G. Gordon, and <strong>B. Amos</strong><br>
     ICML 2016<br>
     [2] 
 [<a href='javascript: none'
-    onclick='$("#abs_sel_zhao2016collapsed").toggle()'>abs</a>]
- [<a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_zhao2016collapsed").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'>pdf</a>] <br>
     
-<div id="abs_sel_zhao2016collapsed" style="text-align: justify; display: none" markdown="1">
+<div id="abs_zhao2016collapsed" style="text-align: justify; display: none" markdown="1">
 Sum-Product Networks (SPNs) are probabilistic inference machines that admit
 exact inference in linear time in the size of the network. Existing
 parameter learning approaches for SPNs are largely based on the maximum
@@ -153,17 +151,16 @@ with a maximum likelihood based approach.
 
 
 <tr>
-<td class="col-md-3"><a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'><img src="images/publications/sel_amos2016openface.png"/></a> </td>
+<td class="col-md-3"><a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'><img src="images/publications/amos2016openface.png"/></a> </td>
 <td>
     <strong>OpenFace: A general-purpose face recognition library with mobile applications</strong><br>
     <strong>B. Amos</strong>, B. Ludwiczuk, and M. Satyanarayanan<br>
     CMU 2016<br>
     [3] 
 [<a href='javascript: none'
-    onclick='$("#abs_sel_amos2016openface").toggle()'>abs</a>]
- [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
+    onclick='$("#abs_amos2016openface").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
     
-<div id="abs_sel_amos2016openface" style="text-align: justify; display: none" markdown="1">
+<div id="abs_amos2016openface" style="text-align: justify; display: none" markdown="1">
 Cameras are becoming ubiquitous in the Internet of Things (IoT) and
 can use face recognition technology to improve context. There is a
 large accuracy gap between today's publicly available face recognition
@@ -185,17 +182,16 @@ the Apache 2.0 license. It is available at:
 
 
 <tr>
-<td class="col-md-3"><a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'><img src="images/publications/sel_amos2014QNSTOP.png"/></a> </td>
+<td class="col-md-3"><a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'><img src="images/publications/amos2014QNSTOP.png"/></a> </td>
 <td>
     <strong>QNSTOP-QuasiNewton Algorithm for Stochastic Optimization</strong><br>
     <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
     VT 2014<br>
     [4] 
 [<a href='javascript: none'
-    onclick='$("#abs_sel_amos2014QNSTOP").toggle()'>abs</a>]
- [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_amos2014QNSTOP").toggle()'>abs</a>] [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
     
-<div id="abs_sel_amos2014QNSTOP" style="text-align: justify; display: none" markdown="1">
+<div id="abs_amos2014QNSTOP" style="text-align: justify; display: none" markdown="1">
 QNSTOP consists of serial and parallel (OpenMP) Fortran 2003 codes for the
 quasi-Newton stochastic optimization method of Castle and Trosset. For
 stochastic problems, convergence theory exists for the particular
@@ -357,10 +353,9 @@ Linux, OSX
     ICML 2016<br>
     [C1] 
 [<a href='javascript: none'
-    onclick='$("#abs_zhao2016collapsed").toggle()'>abs</a>]
- [<a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_zhao2016collapsedC").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'>pdf</a>] <br>
     
-<div id="abs_zhao2016collapsed" style="text-align: justify; display: none" markdown="1">
+<div id="abs_zhao2016collapsedC" style="text-align: justify; display: none" markdown="1">
 Sum-Product Networks (SPNs) are probabilistic inference machines that admit
 exact inference in linear time in the size of the network. Existing
 parameter learning approaches for SPNs are largely based on the maximum
@@ -388,10 +383,9 @@ with a maximum likelihood based approach.
     IWCMC 2013<br>
     [C2] 
 [<a href='javascript: none'
-    onclick='$("#abs_amos2013applying").toggle()'>abs</a>]
- [<a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/VT-Magnum-Research/antimalware' target='_blank'>code</a>] <br>
+    onclick='$("#abs_amos2013applyingC").toggle()'>abs</a>] [<a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/VT-Magnum-Research/antimalware' target='_blank'>code</a>] <br>
     
-<div id="abs_amos2013applying" style="text-align: justify; display: none" markdown="1">
+<div id="abs_amos2013applyingC" style="text-align: justify; display: none" markdown="1">
 The widespread adoption and contextually sensitive
 nature of smartphone devices has increased concerns over smartphone
 malware. Machine learning classifiers are a current method
@@ -419,10 +413,9 @@ malware machine learning classifiers.
     HotMobile 2016<br>
     [W1] 
 [<a href='javascript: none'
-    onclick='$("#abs_davies2016privacy").toggle()'>abs</a>]
- [<a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_davies2016privacyW").toggle()'>abs</a>] [<a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf' target='_blank'>pdf</a>] <br>
     
-<div id="abs_davies2016privacy" style="text-align: justify; display: none" markdown="1">
+<div id="abs_davies2016privacyW" style="text-align: justify; display: none" markdown="1">
 Unease over data privacy will retard consumer acceptance of IoT
 deployments. The primary source of discomfort is a lack of user
 control over raw data that is streamed directly from sensors to the
@@ -451,10 +444,9 @@ and organizational boundaries of trust and responsibility.
     WearSys 2015<br>
     [W2] 
 [<a href='javascript: none'
-    onclick='$("#abs_chen2015early").toggle()'>abs</a>]
- [<a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_chen2015earlyW").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'>pdf</a>] <br>
     
-<div id="abs_chen2015early" style="text-align: justify; display: none" markdown="1">
+<div id="abs_chen2015earlyW" style="text-align: justify; display: none" markdown="1">
 A cognitive assistance application combines a wearable device such
 as Google Glass with cloudlet processing to provide step-by-step
 guidance on a complex task. In this paper, we focus on user assistance
@@ -478,10 +470,9 @@ simplify the creation of similar applications.
     HotMobile 2015<br>
     [W3] 
 [<a href='javascript: none'
-    onclick='$("#abs_hu2014case").toggle()'>abs</a>]
- [<a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_hu2014caseW").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'>pdf</a>] <br>
     
-<div id="abs_hu2014case" style="text-align: justify; display: none" markdown="1">
+<div id="abs_hu2014caseW" style="text-align: justify; display: none" markdown="1">
 When offloading computation from a mobile device, we show
 that it can pay to perform additional on-device work in order
 to reduce the offloading workload. We call this offload shaping, and demonstrate its application at many different levels
@@ -501,10 +492,9 @@ demand, with little loss of application-level fidelity
     CloudCom 2014<br>
     [W4] 
 [<a href='javascript: none'
-    onclick='$("#abs_amos2014performance").toggle()'>abs</a>]
- [<a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7037709' target='_blank'>pdf</a>]  [<a href='https://github.com/adobe-research/spindle' target='_blank'>code</a>] <br>
+    onclick='$("#abs_amos2014performanceW").toggle()'>abs</a>] [<a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7037709' target='_blank'>pdf</a>]  [<a href='https://github.com/adobe-research/spindle' target='_blank'>code</a>] <br>
     
-<div id="abs_amos2014performance" style="text-align: justify; display: none" markdown="1">
+<div id="abs_amos2014performanceW" style="text-align: justify; display: none" markdown="1">
 This paper shares our experiences building and benchmarking Spindle as an open
 source Spark-based web analytics platform. Spindle's design has been
 motivated by real-world queries and data requiring concurrent, low latency
@@ -525,10 +515,9 @@ as proper partitioning can cause a 5x performance improvement.
     SummerSim 2014<br>
     [W5] 
 [<a href='javascript: none'
-    onclick='$("#abs_andrew2014global").toggle()'>abs</a>]
- [<a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_andrew2014globalW").toggle()'>abs</a>] [<a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>pdf</a>] <br>
     
-<div id="abs_andrew2014global" style="text-align: justify; display: none" markdown="1">
+<div id="abs_andrew2014globalW" style="text-align: justify; display: none" markdown="1">
 The complicated process by which a yeast cell divides, known as the cell
 cycle, has been modeled by a system of 26 nonlinear ordinary differential
 equations (ODEs) with 149 parameters. This model captures the chemical
@@ -554,10 +543,9 @@ compared.
     SpringSim (HPC) 2014<br>
     [W6] 
 [<a href='javascript: none'
-    onclick='$("#abs_amos2014fortran").toggle()'>abs</a>]
- [<a href='http://dl.acm.org/citation.cfm?id=2663525' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_amos2014fortranW").toggle()'>abs</a>] [<a href='http://dl.acm.org/citation.cfm?id=2663525' target='_blank'>pdf</a>] <br>
     
-<div id="abs_amos2014fortran" style="text-align: justify; display: none" markdown="1">
+<div id="abs_amos2014fortranW" style="text-align: justify; display: none" markdown="1">
 A serial Fortran 95 implementation of the QNSTOP algorithm is presented.
 QNSTOP is a class of quasi-Newton methods for stochastic optimization with
 variations for deterministic global optimization. This discussion provides
@@ -582,10 +570,9 @@ functions.
     IEEE Pervasive Computing 2015<br>
     [M1] 
 [<a href='javascript: none'
-    onclick='$("#abs_satyanarayanan2015edge").toggle()'>abs</a>]
- [<a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_satyanarayanan2015edgeM").toggle()'>abs</a>] [<a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'>pdf</a>] <br>
     
-<div id="abs_satyanarayanan2015edge" style="text-align: justify; display: none" markdown="1">
+<div id="abs_satyanarayanan2015edgeM" style="text-align: justify; display: none" markdown="1">
 High-data-rate sensors, such as video cameras, are becoming ubiquitous in the
 Internet of Things. This article describes GigaSight, an Internet-scale
 repository of crowd-sourced video content, with strong enforcement of privacy
@@ -609,10 +596,9 @@ is part of a special issue on smart spaces.
     IEEE Security & Privacy 2015<br>
     [M2] 
 [<a href='javascript: none'
-    onclick='$("#abs_turner2015bad").toggle()'>abs</a>]
- [<a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_turner2015badM").toggle()'>abs</a>] [<a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094' target='_blank'>pdf</a>] <br>
     
-<div id="abs_turner2015bad" style="text-align: justify; display: none" markdown="1">
+<div id="abs_turner2015badM" style="text-align: justify; display: none" markdown="1">
 Recent cyberattacks have highlighted the risk of physical equipment operating
 outside designed tolerances to produce catastrophic failures. A related
 threat is cyberattacks that change the design and manufacturing of a
@@ -641,10 +627,9 @@ manufacturing security topics.
     CMU 2016<br>
     [T1] 
 [<a href='javascript: none'
-    onclick='$("#abs_amos2016openface").toggle()'>abs</a>]
- [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
+    onclick='$("#abs_amos2016openfaceT").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
     
-<div id="abs_amos2016openface" style="text-align: justify; display: none" markdown="1">
+<div id="abs_amos2016openfaceT" style="text-align: justify; display: none" markdown="1">
 Cameras are becoming ubiquitous in the Internet of Things (IoT) and
 can use face recognition technology to improve context. There is a
 large accuracy gap between today's publicly available face recognition
@@ -672,10 +657,9 @@ the Apache 2.0 license. It is available at:
     CMU 2015<br>
     [T2] 
 [<a href='javascript: none'
-    onclick='$("#abs_gao2015cloudlets").toggle()'>abs</a>]
- [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_gao2015cloudletsT").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'>pdf</a>] <br>
     
-<div id="abs_gao2015cloudlets" style="text-align: justify; display: none" markdown="1">
+<div id="abs_gao2015cloudletsT" style="text-align: justify; display: none" markdown="1">
 We present experimental results from Wi-Fi and 4G LTE networks to validate the
 intuition that low end-to-end latency of cloud services improves application
 response time and reduces energy consumption on mobile devices. We focus
@@ -699,10 +683,9 @@ consumption in a mobile device by up to 42% compared to cloud offload.
     CMU 2015<br>
     [T3] 
 [<a href='javascript: none'
-    onclick='$("#abs_ha2015adaptive").toggle()'>abs</a>]
- [<a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_ha2015adaptiveT").toggle()'>abs</a>] [<a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'>pdf</a>] <br>
     
-<div id="abs_ha2015adaptive" style="text-align: justify; display: none" markdown="1">
+<div id="abs_ha2015adaptiveT" style="text-align: justify; display: none" markdown="1">
 Cloudlet offload is a valuable technique for ensuring low end-to-end latency of
 resource-intensive cloud processing for many emerging mobile applications.
 This paper examines the impact of user mobility on cloudlet offload, and
@@ -726,10 +709,9 @@ changing network conditions and processing capacity
     VT 2014<br>
     [T4] 
 [<a href='javascript: none'
-    onclick='$("#abs_amos2014QNSTOP").toggle()'>abs</a>]
- [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_amos2014QNSTOPT").toggle()'>abs</a>] [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
     
-<div id="abs_amos2014QNSTOP" style="text-align: justify; display: none" markdown="1">
+<div id="abs_amos2014QNSTOPT" style="text-align: justify; display: none" markdown="1">
 QNSTOP consists of serial and parallel (OpenMP) Fortran 2003 codes for the
 quasi-Newton stochastic optimization method of Castle and Trosset. For
 stochastic problems, convergence theory exists for the particular
