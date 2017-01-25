@@ -234,20 +234,68 @@ biology problems is given.
   <td><strong>Adobe Research</strong>, Data Scientist Intern</td>
 </tr>
 <tr>
+<td colspan="100%">
+<ul>
+<li markdown="1">
+I built a web analytics processing engine using **Scala**, **Spark**, **Spray**, **Parquet**, and **HDFS**.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
   <td class='col-md-3'>Dec 2013 - Jan 2014</td>
   <td><strong>Snowplow Analytics</strong>, Software Engineer Intern</td>
+</tr>
+<tr>
+<td colspan="100%">
+<ul>
+<li markdown="1">
+Open-source **Scala** development with a startup on the Snowplow analytics platform. My commits are online at [https://github.com/snowplow/snowplow/commits?author=bamos](https://github.com/snowplow/snowplow/commits?author=bamos).
+</li>
+<li markdown="1">
+Developed a new server using **Spray** and **Actors** to store **Thrift** events on **Amazon Kinesis**.
+</li>
+</ul>
+</td>
 </tr>
 <tr>
   <td class='col-md-3'>May 2013 - Aug 2013</td>
   <td><strong>Qualcomm</strong>, Software Engineer Intern</td>
 </tr>
 <tr>
+<td colspan="100%">
+<ul>
+<li markdown="1">
+I created a specification format language translator for fuzz testing with Python.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
   <td class='col-md-3'>May 2012 - Aug 2012</td>
   <td><strong>Phoenix Integration</strong>, Software Engineer Intern</td>
 </tr>
 <tr>
+<td colspan="100%">
+<ul>
+<li markdown="1">
+I developed industry software for software integration and design process optimization in **VC++**, **VC\#**, and **Java**.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
   <td class='col-md-3'>Jan 2011 - Aug 2011</td>
   <td><strong>Sunapsys</strong>, Network Administrator Intern</td>
+</tr>
+<tr>
+<td colspan="100%">
+<ul>
+<li markdown="1">
+Internship in high school to replace Windows domain, mail, DHCP, and DNS servers with virtual **Linux** servers using **KVM** and **virsh**.
+</li>
+</ul>
+</td>
 </tr>
 </table>
 
