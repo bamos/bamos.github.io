@@ -709,7 +709,7 @@ in the [OpenFace setup guide](http://cmusatyalab.github.io/openface/setup/).)
 cd openface
 pip2 install -r requirements.txt
 python2 setup.py install
-models/get_models.sh
+models/get-models.sh
 cd ..
 {% endhighlight %}
 
