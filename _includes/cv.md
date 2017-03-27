@@ -92,7 +92,7 @@ I strongly believe in open science and reproducible research and actively publis
 <td class="col-md-3"><a href='http://arxiv.org/abs/1703.00443' target='_blank'><img src="images/publications/amos2017optnet.png"/></a> </td>
 <td>
     <strong>OptNet: Differentiable Optimization as a Layer in Neural Networks</strong><br>
-    B. Kolter<br>
+    <strong>B. Amos</strong> and J. Kolter<br>
     arXiv 2017<br>
     [1] 
 [<a href='javascript: none'
@@ -461,7 +461,7 @@ Linux, OSX
 <tr>
 <td>
     <strong>OptNet: Differentiable Optimization as a Layer in Neural Networks</strong><br>
-    B. Kolter<br>
+    <strong>B. Amos</strong> and J. Kolter<br>
     arXiv 2017<br>
     [P1] 
 [<a href='javascript: none'
@@ -940,7 +940,7 @@ manufacturing security topics.
 <tr>
 <td>
     <strong>OptNet: Differentiable Optimization as a Layer in Neural Networks</strong><br>
-    B. Kolter<br>
+    <strong>B. Amos</strong> and J. Kolter<br>
     arXiv 2017<br>
     [T1] 
 [<a href='javascript: none'
