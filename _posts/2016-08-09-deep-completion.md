@@ -9,7 +9,9 @@ MathJax.Hub.Config({
   tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
 });
 </script>
-<script src="/vendor/MathJax/MathJax.js?config=TeX-AMS_HTML"></script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML">
+</script>
 
 <ul id="toc"></ul>
 
@@ -1040,6 +1042,7 @@ The following is a [BibTeX](http://www.bibtex.org/)
 and plaintext reference.
 The BibTeX entry requires the `url` LaTeX package.
 
+{% raw %}
 ```
 @misc{amos2016image,
     title        = {{Image Completion with Deep Learning in TensorFlow}},
@@ -1052,6 +1055,7 @@ Brandon Amos. Image Completion with Deep Learning in TensorFlow.
 http://bamos.github.io/2016/08/09/deep-completion.
 Accessed: [Insert date here]
 ```
+{% endraw %}
 
 ## Partial bibliography for further reading
 + Raymond Yeh and Chen Chen et al.
