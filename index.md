@@ -3,6 +3,12 @@ layout: index
 title: Brandon Amos
 ---
 
+<hr>
+
+<b>I am interning at Google DeepMind in London this summer!</b>
+
+<hr>
+
 {% include cv.md %}
 
 ## <i class="fa fa-chevron-right"></i> Recent Blog Posts
