@@ -3,6 +3,19 @@
 I strongly believe in open science and reproducible research and actively publish code on [my Github profile](https://github.com/bamos). I am also the author of [OpenFace](https://cmusatyalab.github.io/openface/), which is an open source face recognition project that uses deep learning.
 
 
+## <i class="fa fa-chevron-right"></i> News
+<table class="table table-hover">
+<tr>
+  <td class='col-md-3'>June 2017</td>
+  <td>Our ICNN and OptNet papers have been accepted to ICML and the camera-ready versions are available on arXiv.</td>
+</tr>
+<tr>
+  <td class='col-md-3'>May 2017</td>
+  <td>I am interning at Google DeepMind in London this summer with Nando de Freitas.</td>
+</tr>
+</table>
+
+
 ## <i class="fa fa-chevron-right"></i> Education
 
 <table class="table table-hover">
