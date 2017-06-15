@@ -50,6 +50,13 @@ I strongly believe in open science and reproducible research and actively publis
   </td>
 </tr>
 <tr>
+  <td class='col-md-3'>May 2017 - Sept 2017</td>
+  <td>
+    <strong>Google DeepMind</strong>, Prof. Nando de Freitas <br>
+    Machine and reinforcement learning
+  </td>
+</tr>
+<tr>
   <td class='col-md-3'>Aug 2014 - Apr 2016</td>
   <td>
     <strong>Carnegie Mellon University</strong>, Prof. Mahadev Satyanarayanan <br>
@@ -89,48 +96,12 @@ I strongly believe in open science and reproducible research and actively publis
 <table class="table table-hover">
 
 <tr>
-<td class="col-md-3"><a href='http://arxiv.org/abs/1703.00443' target='_blank'><img src="images/publications/amos2017optnet.png"/></a> </td>
-<td>
-    <strong>OptNet: Differentiable Optimization as a Layer in Neural Networks</strong><br>
-    <strong>B. Amos</strong> and J. Kolter<br>
-    arXiv 2017<br>
-    [1] 
-[<a href='javascript: none'
-    onclick='$("#abs_amos2017optnet").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.00443' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>] <br>
-    
-<div id="abs_amos2017optnet" style="text-align: justify; display: none" markdown="1">
-This paper presents OptNet, a network architecture that integrates
-optimization problems (here, specifically in the form of quadratic
-programs) as individual layers in larger end-to-end trainable deep
-networks. These layers allow complex dependencies between the hidden
-states to be captured that traditional convolutional and
-fully-connected layers are not able to capture. In this paper, we
-develop the foundations for such an architecture: we derive the
-equations to perform exact differentiation through these layers and
-with respect to layer parameters; we develop a highly efficient solver
-for these layers that exploits fast GPU-based batch solves within a
-primal-dual interior point method, and which provides backpropagation
-gradients with virtually no additional cost on top of the solve; and
-we highlight the application of these approaches in several
-problems. In one particularly standout example, we show that the
-method is capable of learning to play Sudoku given just input and
-output games, with no a priori information about the rules of the
-game; this task is virtually impossible for other neural network
-architectures that we have experimented with, and highlights the
-representation capabilities of our approach.
-</div>
-
-</td>
-</tr>
-
-
-<tr>
 <td class="col-md-3"><a href='http://arxiv.org/abs/1703.04529' target='_blank'><img src="images/publications/donti2017task.png"/></a> </td>
 <td>
     <strong>Task-based End-to-end Model Learning</strong><br>
     P. Donti, <strong>B. Amos</strong>, and J. Kolter<br>
     arXiv 2017<br>
-    [2] 
+    [1] 
 [<a href='javascript: none'
     onclick='$("#abs_donti2017task").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.04529' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
     
@@ -155,27 +126,68 @@ approach and a purely black-box policy optimization approach.
 
 
 <tr>
-<td class="col-md-3"><a href='http://arxiv.org/abs/1609.07152' target='_blank'><img src="images/publications/amos2016input.png"/></a> </td>
+<td class="col-md-3"><a href='http://arxiv.org/abs/1703.00443' target='_blank'><img src="images/publications/amos2017optnet.png"/></a> </td>
+<td>
+    <strong>OptNet: Differentiable Optimization as a Layer in Neural Networks</strong><br>
+    <strong>B. Amos</strong> and J. Kolter<br>
+    ICML 2017<br>
+    [2] 
+[<a href='javascript: none'
+    onclick='$("#abs_amos2017optnet").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.00443' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>] <br>
+    
+<div id="abs_amos2017optnet" style="text-align: justify; display: none" markdown="1">
+This paper presents OptNet, a network architecture that integrates
+optimization problems (here, specifically in the form of quadratic programs)
+as individual layers in larger end-to-end trainable deep networks.
+These layers encode constraints and complex dependencies
+between the hidden states that traditional convolutional and
+fully-connected layers often cannot capture.
+In this paper, we explore the foundations for such an architecture:
+we show how techniques from sensitivity analysis, bilevel
+optimization, and implicit differentiation can be used to
+exactly differentiate through these layers and with respect
+to layer parameters;
+we develop a highly efficient solver for these layers that exploits fast
+GPU-based batch solves within a primal-dual interior point method, and which
+provides backpropagation gradients with virtually no additional cost on top of
+the solve;
+and we highlight the application of these approaches in several problems.
+In one notable example, we show that the method is
+capable of learning to play mini-Sudoku (4x4) given just input and output games, with no a priori information about the rules of the game;
+this highlights the ability of our architecture to learn hard
+constraints better than other neural architectures.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='http://arxiv.org/abs/1609.07152' target='_blank'><img src="images/publications/amos2017input.png"/></a> </td>
 <td>
     <strong>Input Convex Neural Networks</strong><br>
     <strong>B. Amos</strong>, L. Xu, and J. Kolter<br>
-    arXiv 2016<br>
+    ICML 2017<br>
     [3] 
 [<a href='javascript: none'
-    onclick='$("#abs_amos2016input").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
+    onclick='$("#abs_amos2017input").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
     
-<div id="abs_amos2016input" style="text-align: justify; display: none" markdown="1">
+<div id="abs_amos2017input" style="text-align: justify; display: none" markdown="1">
 This paper presents the input convex neural network
 architecture. These are scalar-valued (potentially deep) neural
 networks with constraints on the network parameters such that the
-output of the network is a convex function of (some of) the
-inputs. The networks allow for efficient inference via optimization
-over some inputs to the network given others, and can be applied to
-settings including structured prediction, data imputation, reinforcement learning, and others. In this paper we lay the basic
-groundwork for these models, proposing methods for inference, optimization and learning, and analyze their representational
-power. We show that many existing neural network architectures can be
-made input-convex with only minor modification, and develop
-specialized optimization algorithms tailored to this setting. Finally, we highlight the performance of the methods on multi-label prediction, image completion, and reinforcement learning problems, where we show
+output of the network is a convex function of (some of) the inputs.
+The networks allow for efficient inference via optimization over some
+inputs to the network given others, and can be applied to settings
+including structured prediction, data imputation, reinforcement
+learning, and others. In this paper we lay the basic groundwork for
+these models, proposing methods for inference, optimization and
+learning, and analyze their representational power. We show that many
+existing neural network architectures can be made input-convex with
+a minor modification, and develop specialized optimization
+algorithms tailored to this setting. Finally, we highlight the
+performance of the methods on multi-label prediction, image
+completion, and reinforcement learning problems, where we show
 improvement over the existing state of the art in many cases.
 </div>
 
@@ -298,75 +310,37 @@ biology problems is given.
   <td><strong>Adobe Research</strong>, Data Scientist Intern</td>
 </tr>
 <tr>
-<td colspan="100%">
-<ul>
-<li markdown="1">
-I built a web analytics processing engine using **Scala**, **Spark**, **Spray**, **Parquet**, and **HDFS**.
-</li>
-</ul>
-</td>
 </tr>
 <tr>
   <td class='col-md-3'>Dec 2013 - Jan 2014</td>
   <td><strong>Snowplow Analytics</strong>, Software Engineer Intern</td>
 </tr>
 <tr>
-<td colspan="100%">
-<ul>
-<li markdown="1">
-Open-source **Scala** development with a startup on the Snowplow analytics platform. My commits are online at [https://github.com/snowplow/snowplow/commits?author=bamos](https://github.com/snowplow/snowplow/commits?author=bamos).
-</li>
-<li markdown="1">
-Developed a new server using **Spray** and **Actors** to store **Thrift** events on **Amazon Kinesis**.
-</li>
-</ul>
-</td>
 </tr>
 <tr>
   <td class='col-md-3'>May 2013 - Aug 2013</td>
   <td><strong>Qualcomm</strong>, Software Engineer Intern</td>
 </tr>
 <tr>
-<td colspan="100%">
-<ul>
-<li markdown="1">
-I created a specification format language translator for fuzz testing with Python.
-</li>
-</ul>
-</td>
 </tr>
 <tr>
   <td class='col-md-3'>May 2012 - Aug 2012</td>
   <td><strong>Phoenix Integration</strong>, Software Engineer Intern</td>
 </tr>
 <tr>
-<td colspan="100%">
-<ul>
-<li markdown="1">
-I developed industry software for software integration and design process optimization in **VC++**, **VC\#**, and **Java**.
-</li>
-</ul>
-</td>
 </tr>
 <tr>
   <td class='col-md-3'>Jan 2011 - Aug 2011</td>
   <td><strong>Sunapsys</strong>, Network Administrator Intern</td>
 </tr>
 <tr>
-<td colspan="100%">
-<ul>
-<li markdown="1">
-Internship in high school to replace Windows domain, mail, DHCP, and DNS servers with virtual **Linux** servers using **KVM** and **virsh**.
-</li>
-</ul>
-</td>
 </tr>
 </table>
 
 
 ## <i class="fa fa-chevron-right"></i> CMU Graduate Coursework
 + Statistical Machine Learning (10-702, Au), L. Wasserman, S2017
-+ Deep Reinforcement Learning (10-703), R. Salakhutdinov and A. Fragkiadaki, S2017
++ Deep Reinforcement Learning (10-703, Au), R. Salakhutdinov and A. Fragkiadaki, S2017
 + Intermediate Statistics (10-705, Au), L. Wasserman, F2016
 + Topics in Deep Learning (10-807), R. Salakhutdinov, F2016
 + Convex Optimization (10-725), R. J. Tibshirani, F2015
@@ -460,45 +434,10 @@ Linux, OSX
 
 <tr>
 <td>
-    <strong>OptNet: Differentiable Optimization as a Layer in Neural Networks</strong><br>
-    <strong>B. Amos</strong> and J. Kolter<br>
-    arXiv 2017<br>
-    [P1] 
-[<a href='javascript: none'
-    onclick='$("#abs_amos2017optnetP").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.00443' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>] <br>
-    
-<div id="abs_amos2017optnetP" style="text-align: justify; display: none" markdown="1">
-This paper presents OptNet, a network architecture that integrates
-optimization problems (here, specifically in the form of quadratic
-programs) as individual layers in larger end-to-end trainable deep
-networks. These layers allow complex dependencies between the hidden
-states to be captured that traditional convolutional and
-fully-connected layers are not able to capture. In this paper, we
-develop the foundations for such an architecture: we derive the
-equations to perform exact differentiation through these layers and
-with respect to layer parameters; we develop a highly efficient solver
-for these layers that exploits fast GPU-based batch solves within a
-primal-dual interior point method, and which provides backpropagation
-gradients with virtually no additional cost on top of the solve; and
-we highlight the application of these approaches in several
-problems. In one particularly standout example, we show that the
-method is capable of learning to play Sudoku given just input and
-output games, with no a priori information about the rules of the
-game; this task is virtually impossible for other neural network
-architectures that we have experimented with, and highlights the
-representation capabilities of our approach.
-</div>
-
-</td>
-</tr>
-
-
-<tr>
-<td>
     <strong>Task-based End-to-end Model Learning</strong><br>
     P. Donti, <strong>B. Amos</strong>, and J. Kolter<br>
     arXiv 2017<br>
-    [P2] 
+    [P1] 
 [<a href='javascript: none'
     onclick='$("#abs_donti2017taskP").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.04529' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
     
@@ -524,38 +463,10 @@ approach and a purely black-box policy optimization approach.
 
 <tr>
 <td>
-    <strong>Input Convex Neural Networks</strong><br>
-    <strong>B. Amos</strong>, L. Xu, and J. Kolter<br>
-    arXiv 2016<br>
-    [P3] 
-[<a href='javascript: none'
-    onclick='$("#abs_amos2016inputP").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
-    
-<div id="abs_amos2016inputP" style="text-align: justify; display: none" markdown="1">
-This paper presents the input convex neural network
-architecture. These are scalar-valued (potentially deep) neural
-networks with constraints on the network parameters such that the
-output of the network is a convex function of (some of) the
-inputs. The networks allow for efficient inference via optimization
-over some inputs to the network given others, and can be applied to
-settings including structured prediction, data imputation, reinforcement learning, and others. In this paper we lay the basic
-groundwork for these models, proposing methods for inference, optimization and learning, and analyze their representational
-power. We show that many existing neural network architectures can be
-made input-convex with only minor modification, and develop
-specialized optimization algorithms tailored to this setting. Finally, we highlight the performance of the methods on multi-label prediction, image completion, and reinforcement learning problems, where we show
-improvement over the existing state of the art in many cases.
-</div>
-
-</td>
-</tr>
-
-
-<tr>
-<td>
     <strong>OpenFace: A general-purpose face recognition library with mobile applications</strong><br>
     <strong>B. Amos</strong>, B. Ludwiczuk, and M. Satyanarayanan<br>
     CMU 2016<br>
-    [P4] 
+    [P2] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2016openfaceP").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
     
@@ -585,7 +496,7 @@ the Apache 2.0 license. It is available at:
     <strong>Are Cloudlets Necessary?</strong><br>
     Y. Gao, W. Hu, K. Ha, <strong>B. Amos</strong>, P. Pillai, and M. Satyanarayanan<br>
     CMU 2015<br>
-    [P5] 
+    [P3] 
 [<a href='javascript: none'
     onclick='$("#abs_gao2015cloudletsP").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'>pdf</a>] <br>
     
@@ -611,7 +522,7 @@ consumption in a mobile device by up to 42% compared to cloud offload.
     <strong>Adaptive VM handoff across cloudlets</strong><br>
     K. Ha, Y. Abe, Z. Chen, W. Hu, <strong>B. Amos</strong>, P. Pillai, and M. Satyanarayanan<br>
     CMU 2015<br>
-    [P6] 
+    [P4] 
 [<a href='javascript: none'
     onclick='$("#abs_ha2015adaptiveP").toggle()'>abs</a>] [<a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'>pdf</a>] <br>
     
@@ -637,7 +548,7 @@ changing network conditions and processing capacity
     <strong>QNSTOP-QuasiNewton Algorithm for Stochastic Optimization</strong><br>
     <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
     VT 2014<br>
-    [P7] 
+    [P5] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2014QNSTOPP").toggle()'>abs</a>] [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
     
@@ -665,10 +576,78 @@ biology problems is given.
 
 <tr>
 <td>
+    <strong>OptNet: Differentiable Optimization as a Layer in Neural Networks</strong><br>
+    <strong>B. Amos</strong> and J. Kolter<br>
+    ICML 2017<br>
+    [C1] 
+[<a href='javascript: none'
+    onclick='$("#abs_amos2017optnetC").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.00443' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>] <br>
+    
+<div id="abs_amos2017optnetC" style="text-align: justify; display: none" markdown="1">
+This paper presents OptNet, a network architecture that integrates
+optimization problems (here, specifically in the form of quadratic programs)
+as individual layers in larger end-to-end trainable deep networks.
+These layers encode constraints and complex dependencies
+between the hidden states that traditional convolutional and
+fully-connected layers often cannot capture.
+In this paper, we explore the foundations for such an architecture:
+we show how techniques from sensitivity analysis, bilevel
+optimization, and implicit differentiation can be used to
+exactly differentiate through these layers and with respect
+to layer parameters;
+we develop a highly efficient solver for these layers that exploits fast
+GPU-based batch solves within a primal-dual interior point method, and which
+provides backpropagation gradients with virtually no additional cost on top of
+the solve;
+and we highlight the application of these approaches in several problems.
+In one notable example, we show that the method is
+capable of learning to play mini-Sudoku (4x4) given just input and output games, with no a priori information about the rules of the game;
+this highlights the ability of our architecture to learn hard
+constraints better than other neural architectures.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td>
+    <strong>Input Convex Neural Networks</strong><br>
+    <strong>B. Amos</strong>, L. Xu, and J. Kolter<br>
+    ICML 2017<br>
+    [C2] 
+[<a href='javascript: none'
+    onclick='$("#abs_amos2017inputC").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
+    
+<div id="abs_amos2017inputC" style="text-align: justify; display: none" markdown="1">
+This paper presents the input convex neural network
+architecture. These are scalar-valued (potentially deep) neural
+networks with constraints on the network parameters such that the
+output of the network is a convex function of (some of) the inputs.
+The networks allow for efficient inference via optimization over some
+inputs to the network given others, and can be applied to settings
+including structured prediction, data imputation, reinforcement
+learning, and others. In this paper we lay the basic groundwork for
+these models, proposing methods for inference, optimization and
+learning, and analyze their representational power. We show that many
+existing neural network architectures can be made input-convex with
+a minor modification, and develop specialized optimization
+algorithms tailored to this setting. Finally, we highlight the
+performance of the methods on multi-label prediction, image
+completion, and reinforcement learning problems, where we show
+improvement over the existing state of the art in many cases.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td>
     <strong>Collapsed Variational Inference for Sum-Product Networks</strong><br>
     H. Zhao, T. Adel, G. Gordon, and <strong>B. Amos</strong><br>
     ICML 2016<br>
-    [C1] 
+    [C3] 
 [<a href='javascript: none'
     onclick='$("#abs_zhao2016collapsedC").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'>pdf</a>] <br>
     
@@ -698,7 +677,7 @@ with a maximum likelihood based approach.
     <strong>Applying machine learning classifiers to dynamic Android malware detection at scale</strong><br>
     <strong>B. Amos</strong>, H. Turner, and J. White<br>
     IWCMC 2013<br>
-    [C2] 
+    [C4] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2013applyingC").toggle()'>abs</a>] [<a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/VT-Magnum-Research/antimalware' target='_blank'>code</a>] <br>
     
