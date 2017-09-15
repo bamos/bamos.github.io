@@ -113,7 +113,7 @@ I strongly believe in open science and reproducible research and actively publis
 <td>
     <strong>Task-based End-to-end Model Learning</strong><br>
     P. Donti, <strong>B. Amos</strong>, and J. Kolter<br>
-    arXiv 2017<br>
+    NIPS 2017<br>
     [1] 
 [<a href='javascript: none'
     onclick='$("#abs_donti2017task").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.04529' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
@@ -447,39 +447,10 @@ Linux, OSX
 
 <tr>
 <td>
-    <strong>Task-based End-to-end Model Learning</strong><br>
-    P. Donti, <strong>B. Amos</strong>, and J. Kolter<br>
-    arXiv 2017<br>
-    [P1] 
-[<a href='javascript: none'
-    onclick='$("#abs_donti2017taskP").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.04529' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
-    
-<div id="abs_donti2017taskP" style="text-align: justify; display: none" markdown="1">
-As machine learning techniques have become more ubiquitous, it has
-become common to see machine learning prediction algorithms operating
-within some larger process. However, the criteria by which we train
-machine learning algorithms often differ from the ultimate criteria on
-which we evaluate them. This paper proposes an end-to-end approach for
-learning probabilistic machine learning models within the context of
-stochastic programming, in a manner that directly captures the
-ultimate task-based objective for which they will be used. We then
-present two experimental evaluations of the proposed approach, one as
-applied to a generic inventory stock problem and the second to a
-real-world electrical grid scheduling task. In both cases, we show
-that the proposed approach can outperform both a traditional modeling
-approach and a purely black-box policy optimization approach.
-</div>
-
-</td>
-</tr>
-
-
-<tr>
-<td>
     <strong>OpenFace: A general-purpose face recognition library with mobile applications</strong><br>
     <strong>B. Amos</strong>, B. Ludwiczuk, and M. Satyanarayanan<br>
     CMU 2016<br>
-    [P2] 
+    [P1] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2016openfaceP").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
     
@@ -509,7 +480,7 @@ the Apache 2.0 license. It is available at:
     <strong>Are Cloudlets Necessary?</strong><br>
     Y. Gao, W. Hu, K. Ha, <strong>B. Amos</strong>, P. Pillai, and M. Satyanarayanan<br>
     CMU 2015<br>
-    [P3] 
+    [P2] 
 [<a href='javascript: none'
     onclick='$("#abs_gao2015cloudletsP").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'>pdf</a>] <br>
     
@@ -535,7 +506,7 @@ consumption in a mobile device by up to 42% compared to cloud offload.
     <strong>Adaptive VM handoff across cloudlets</strong><br>
     K. Ha, Y. Abe, Z. Chen, W. Hu, <strong>B. Amos</strong>, P. Pillai, and M. Satyanarayanan<br>
     CMU 2015<br>
-    [P4] 
+    [P3] 
 [<a href='javascript: none'
     onclick='$("#abs_ha2015adaptiveP").toggle()'>abs</a>] [<a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'>pdf</a>] <br>
     
@@ -561,7 +532,7 @@ changing network conditions and processing capacity
     <strong>QNSTOP-QuasiNewton Algorithm for Stochastic Optimization</strong><br>
     <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
     VT 2014<br>
-    [P5] 
+    [P4] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2014QNSTOPP").toggle()'>abs</a>] [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
     
@@ -589,10 +560,39 @@ biology problems is given.
 
 <tr>
 <td>
+    <strong>Task-based End-to-end Model Learning</strong><br>
+    P. Donti, <strong>B. Amos</strong>, and J. Kolter<br>
+    NIPS 2017<br>
+    [C1] 
+[<a href='javascript: none'
+    onclick='$("#abs_donti2017taskC").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.04529' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
+    
+<div id="abs_donti2017taskC" style="text-align: justify; display: none" markdown="1">
+As machine learning techniques have become more ubiquitous, it has
+become common to see machine learning prediction algorithms operating
+within some larger process. However, the criteria by which we train
+machine learning algorithms often differ from the ultimate criteria on
+which we evaluate them. This paper proposes an end-to-end approach for
+learning probabilistic machine learning models within the context of
+stochastic programming, in a manner that directly captures the
+ultimate task-based objective for which they will be used. We then
+present two experimental evaluations of the proposed approach, one as
+applied to a generic inventory stock problem and the second to a
+real-world electrical grid scheduling task. In both cases, we show
+that the proposed approach can outperform both a traditional modeling
+approach and a purely black-box policy optimization approach.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td>
     <strong>OptNet: Differentiable Optimization as a Layer in Neural Networks</strong><br>
     <strong>B. Amos</strong> and J. Kolter<br>
     ICML 2017<br>
-    [C1] 
+    [C2] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017optnetC").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.00443' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>] <br>
     
@@ -628,7 +628,7 @@ constraints better than other neural architectures.
     <strong>Input Convex Neural Networks</strong><br>
     <strong>B. Amos</strong>, L. Xu, and J. Kolter<br>
     ICML 2017<br>
-    [C2] 
+    [C3] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017inputC").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
     
@@ -660,7 +660,7 @@ improvement over the existing state of the art in many cases.
     <strong>Collapsed Variational Inference for Sum-Product Networks</strong><br>
     H. Zhao, T. Adel, G. Gordon, and <strong>B. Amos</strong><br>
     ICML 2016<br>
-    [C3] 
+    [C4] 
 [<a href='javascript: none'
     onclick='$("#abs_zhao2016collapsedC").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'>pdf</a>] <br>
     
@@ -690,7 +690,7 @@ with a maximum likelihood based approach.
     <strong>Applying machine learning classifiers to dynamic Android malware detection at scale</strong><br>
     <strong>B. Amos</strong>, H. Turner, and J. White<br>
     IWCMC 2013<br>
-    [C4] 
+    [C5] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2013applyingC").toggle()'>abs</a>] [<a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/VT-Magnum-Research/antimalware' target='_blank'>code</a>] <br>
     
