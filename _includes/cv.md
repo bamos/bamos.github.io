@@ -1,4 +1,4 @@
- I am a Computer Science Ph.D. student at Carnegie Mellon University and am supported by an NSF graduate research fellowship. I spent the first two years of my Ph.D. working between mobile systems and applied machine learning and I now work with [Zico Kolter](http://zicokolter.com/) on machine learning and optimization. I am particularly interested in improving our understanding of important modeling problems in computer vision, language, and reinforcement learning through the use of deep learning, optimization (sometimes convex), theory, and statistics. As examples, see our [input-convex neural network](https://arxiv.org/abs/1609.07152) and [OptNet](https://arxiv.org/abs/1703.00443) papers. 
+ I am a Computer Science Ph.D. student at Carnegie Mellon University and am supported by an NSF graduate research fellowship. I work with [Zico Kolter](http://zicokolter.com/) on machine learning and optimization. I am particularly interested in improving our understanding of important modeling problems in computer vision, language, and reinforcement learning through the use of deep learning, optimization (sometimes convex), theory, and statistics. As examples, see our [input-convex neural network](https://arxiv.org/abs/1609.07152) and [OptNet](https://arxiv.org/abs/1703.00443) papers. 
 
 I strongly believe in open science and reproducible research and actively publish code on [my Github profile](https://github.com/bamos). I am also the author of [OpenFace](https://cmusatyalab.github.io/openface/), which is an open source face recognition project that uses deep learning.
 
@@ -63,7 +63,7 @@ I strongly believe in open science and reproducible research and actively publis
   </td>
 </tr>
 <tr>
-  <td class='col-md-3'>May 2017 - Sept 2017</td>
+  <td class='col-md-3'>May 2017 - Oct 2017</td>
   <td>
     <strong>Google DeepMind</strong>, Prof. Nando de Freitas <br>
     Machine and reinforcement learning
