@@ -1,10 +1,14 @@
- I am a Computer Science Ph.D. student at Carnegie Mellon University and am supported by an NSF graduate research fellowship. I work with [Zico Kolter](http://zicokolter.com/) on machine learning and optimization. I am particularly interested in improving our understanding of important modeling problems in computer vision, language, and reinforcement learning through the use of deep learning, optimization (sometimes convex), theory, and statistics. As examples, see our [input-convex neural network](https://arxiv.org/abs/1609.07152) and [OptNet](https://arxiv.org/abs/1703.00443) papers. 
+ I am a fourth-year Computer Science Ph.D. student at Carnegie Mellon University and am supported by an NSF graduate research fellowship. I work with [Zico Kolter](http://zicokolter.com/) on machine learning and optimization. I am particularly interested in improving our understanding of important modeling problems in computer vision, language, and reinforcement learning through the use of deep learning, optimization (sometimes convex), theory, and statistics. As examples, see our [input-convex neural network](https://arxiv.org/abs/1609.07152) and [OptNet](https://arxiv.org/abs/1703.00443) papers. 
 
-I strongly believe in open science and reproducible research and actively publish code on [my Github profile](https://github.com/bamos). I am also the author of [OpenFace](https://cmusatyalab.github.io/openface/), which is an open source face recognition project that uses deep learning.
+I strongly believe in open science and reproducible research and actively publish code on [my Github profile](https://github.com/bamos). I am also the author of [OpenFace](https://cmusatyalab.github.io/openface/), which is an open source face recognition project that uses deep learning.<br><br>
 
 
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
+<tr>
+  <td class='col-md-3'>Nov 2017</td>
+  <td>I will be at NIPS 2017 this year. Come see our <a href='https://papers.nips.cc/paper/7132-task-based-end-to-end-model-learning-in-stochastic-optimization'>Task-based End-to-end Model Learning in Stochastic Optimization</a> work at the main conference and our (unpublished) End-to-end Model Predictive Control work at the deep reinforcement learning symposium. </td>
+</tr>
 <tr>
   <td class='col-md-3'>June 2017</td>
   <td>Our ICNN and OptNet papers have been accepted to ICML and the camera-ready versions are available on arXiv.</td>
