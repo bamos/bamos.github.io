@@ -3,6 +3,13 @@ layout: index
 title: Brandon Amos
 ---
 
+---
+
+**I am looking for a machine learning research internship
+  for the summer of 2018.**
+
+---
+
 {% include cv.md %}
 
 ## <i class="fa fa-chevron-right"></i> Recent Blog Posts
