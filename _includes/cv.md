@@ -420,13 +420,13 @@ biology problems is given.
 <tr>
   <td class='col-md-2'>Languages</td>
   <td markdown="1">
-Bash, C, C++, CSS, Fortran, Haskell, HTML, Java, JavaScript, LaTeX, Lua, Make, *Mathematica*, Python, R, Scala
+C, C++, Fortran, Haskell, Java, Lua, Make, *Mathematica*, Python, R, Scala
   </td>
 </tr>
 <tr>
   <td class='col-md-2'>Frameworks</td>
   <td markdown="1">
-Akka, Android SDK/NDK, Caffe, Node.js, NumPy, TensorFlow, Torch7, Pandas, SciPy, scikit-learn, Spark, Spray
+Akka, NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
   </td>
 </tr>
 <tr>
