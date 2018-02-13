@@ -6,6 +6,10 @@ I strongly believe in open science and reproducible research and actively publis
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
 <tr>
+  <td class='col-md-3'>Feb 2018</td>
+  <td>I am interning at Intel Labs in Santa Clara this summer with <a href='http://vladlen.info/'>Vladlen Koltun</a>.</td>
+</tr>
+<tr>
   <td class='col-md-3'>Nov 2017</td>
   <td>I will be at NIPS 2017 this year. Come see our <a href='https://papers.nips.cc/paper/7132-task-based-end-to-end-model-learning-in-stochastic-optimization'>Task-based End-to-end Model Learning in Stochastic Optimization</a> work at the main conference and our (unpublished) End-to-end Model Predictive Control work at the deep reinforcement learning symposium. </td>
 </tr>
@@ -15,7 +19,7 @@ I strongly believe in open science and reproducible research and actively publis
 </tr>
 <tr>
   <td class='col-md-3'>May 2017</td>
-  <td>I am interning at Google DeepMind in London this summer with Nando de Freitas.</td>
+  <td>I am interning at <a href='https://deepmind.com/'>Google DeepMind</a> in London this summer with <a href='http://www.cs.ox.ac.uk/people/nando.defreitas/'>Nando de Freitas</a>.</td>
 </tr>
 </table>
 
@@ -62,42 +66,49 @@ I strongly believe in open science and reproducible research and actively publis
 <tr>
   <td class='col-md-3'>Apr 2016 - Present</td>
   <td>
-    <strong>Carnegie Mellon University</strong>, Prof. Zico Kolter <br>
+    <strong>Carnegie Mellon University</strong>, Zico Kolter <br>
     Machine learning and optimization
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'>June 2018 - Sept 2018</td>
+  <td>
+    <strong>Intel Labs</strong>, Vladlen Koltun <br>
+    Machine learning
   </td>
 </tr>
 <tr>
   <td class='col-md-3'>May 2017 - Oct 2017</td>
   <td>
-    <strong>Google DeepMind</strong>, Prof. Nando de Freitas <br>
+    <strong>Google DeepMind</strong>, Nando de Freitas <br>
     Machine and reinforcement learning
   </td>
 </tr>
 <tr>
   <td class='col-md-3'>Aug 2014 - Apr 2016</td>
   <td>
-    <strong>Carnegie Mellon University</strong>, Prof. Mahadev Satyanarayanan <br>
+    <strong>Carnegie Mellon University</strong>, Mahadev Satyanarayanan <br>
     Applied machine learning and mobile systems
   </td>
 </tr>
 <tr>
   <td class='col-md-3'>May 2012 - May 2014</td>
   <td>
-    <strong>Virginia Tech</strong>, Prof. Jules White <br>
+    <strong>Virginia Tech</strong>, Jules White <br>
     Mobile systems, cyber-physical systems, and security
   </td>
 </tr>
 <tr>
   <td class='col-md-3'>Jan 2013 - May 2014</td>
   <td>
-    <strong>Virginia Tech</strong>, Prof. Layne Watson <br>
+    <strong>Virginia Tech</strong>, Layne Watson <br>
     Scientific computing, global/stochastic optimization, and bioinformatics
   </td>
 </tr>
 <tr>
   <td class='col-md-3'>Nov 2012 - Mar 2014</td>
   <td>
-    <strong>Virginia Tech</strong>, Prof. Binoy Ravindran <br>
+    <strong>Virginia Tech</strong>, Binoy Ravindran <br>
     Heterogeneous compilers
   </td>
 </tr>
