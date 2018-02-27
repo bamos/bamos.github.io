@@ -6,6 +6,10 @@ I strongly believe in open science and reproducible research and actively publis
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
 <tr>
+  <td class='col-md-3'>Mar 2018</td>
+  <td>I will be at ICLR this year presenting my DeepMind internship paper <a href='https://openreview.net/forum?id=r1HhRfWRZ'> Learning Awareness Models </a>.</td>
+</tr>
+<tr>
   <td class='col-md-3'>Feb 2018</td>
   <td>I am interning at Intel Labs in Santa Clara this summer with <a href='http://vladlen.info/'>Vladlen Koltun</a>.</td>
 </tr>
@@ -124,12 +128,54 @@ I strongly believe in open science and reproducible research and actively publis
 <table class="table table-hover">
 
 <tr>
+<td class="col-md-3"><a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'><img src="images/publications/amos2018learning.png"/></a> </td>
+<td>
+    <strong>Learning Awareness Models</strong><br>
+    <strong>B. Amos</strong>, L. Dinh, S. Cabi, T. Roth&ouml;rl, S. Colmenarejo, A. Muldal, T. Erez, Y. Tassa, N. de Freitas, and M. Denil<br>
+    ICLR 2018<br>
+    
+    [1] 
+[<a href='javascript: none'
+    onclick='$("#abs_amos2018learning").toggle()'>abs</a>] [<a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_amos2018learning" style="text-align: justify; display: none" markdown="1">
+We consider the setting of an agent with a fixed body interacting with an
+unknown and uncertain external world. We show that models
+trained to predict proprioceptive information about the
+agent's body come to represent objects in the external world.
+In spite of being trained with only internally available
+signals, these dynamic body models come to represent external
+objects through the necessity of predicting their effects on
+the agent's own body. That is, the model learns holistic
+persistent representations of objects in the world, even
+though the only training signals are body signals. Our
+dynamics model is able to successfully predict distributions
+over 132 sensor readings over 100 steps into the future and we
+demonstrate that even when the body is no longer in contact
+with an object, the latent variables of the dynamics model
+continue to represent its shape. We show that active data
+collection by maximizing the entropy of predictions about the
+body-touch sensors, proprioception and vestibular
+information-leads to learning of dynamic models that show
+superior performance when used for control. We also collect
+data from a real robotic hand and show that the same models
+can be used to answer questions about properties of objects in
+the real world. Videos with qualitative results of our models
+are available <a href="https://goo.gl/mZuqAV">here</a>.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
 <td class="col-md-3"><a href='http://arxiv.org/abs/1703.04529' target='_blank'><img src="images/publications/donti2017task.png"/></a> </td>
 <td>
     <strong>Task-based End-to-end Model Learning</strong><br>
     P. Donti, <strong>B. Amos</strong>, and J. Kolter<br>
     NIPS 2017<br>
-    [1] 
+    
+    [2] 
 [<a href='javascript: none'
     onclick='$("#abs_donti2017task").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.04529' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
     
@@ -159,7 +205,8 @@ approach and a purely black-box policy optimization approach.
     <strong>OptNet: Differentiable Optimization as a Layer in Neural Networks</strong><br>
     <strong>B. Amos</strong> and J. Kolter<br>
     ICML 2017<br>
-    [2] 
+    
+    [3] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017optnet").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.00443' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>] <br>
     
@@ -196,7 +243,8 @@ constraints better than other neural architectures.
     <strong>Input Convex Neural Networks</strong><br>
     <strong>B. Amos</strong>, L. Xu, and J. Kolter<br>
     ICML 2017<br>
-    [3] 
+    
+    [4] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017input").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
     
@@ -229,7 +277,8 @@ improvement over the existing state of the art in many cases.
     <strong>Collapsed Variational Inference for Sum-Product Networks</strong><br>
     H. Zhao, T. Adel, G. Gordon, and <strong>B. Amos</strong><br>
     ICML 2016<br>
-    [4] 
+    
+    [5] 
 [<a href='javascript: none'
     onclick='$("#abs_zhao2016collapsed").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'>pdf</a>] <br>
     
@@ -260,7 +309,8 @@ with a maximum likelihood based approach.
     <strong>OpenFace: A general-purpose face recognition library with mobile applications</strong><br>
     <strong>B. Amos</strong>, B. Ludwiczuk, and M. Satyanarayanan<br>
     CMU 2016<br>
-    [5] 
+    
+    [6] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2016openface").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
     
@@ -291,7 +341,8 @@ the Apache 2.0 license. It is available at:
     <strong>QNSTOP-QuasiNewton Algorithm for Stochastic Optimization</strong><br>
     <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
     VT 2014<br>
-    [6] 
+    
+    [7] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2014QNSTOP").toggle()'>abs</a>] [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
     
@@ -465,6 +516,7 @@ Linux, OSX
     <strong>OpenFace: A general-purpose face recognition library with mobile applications</strong><br>
     <strong>B. Amos</strong>, B. Ludwiczuk, and M. Satyanarayanan<br>
     CMU 2016<br>
+    
     [P1] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2016openfaceP").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
@@ -495,6 +547,7 @@ the Apache 2.0 license. It is available at:
     <strong>Are Cloudlets Necessary?</strong><br>
     Y. Gao, W. Hu, K. Ha, <strong>B. Amos</strong>, P. Pillai, and M. Satyanarayanan<br>
     CMU 2015<br>
+    
     [P2] 
 [<a href='javascript: none'
     onclick='$("#abs_gao2015cloudletsP").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'>pdf</a>] <br>
@@ -521,6 +574,7 @@ consumption in a mobile device by up to 42% compared to cloud offload.
     <strong>Adaptive VM handoff across cloudlets</strong><br>
     K. Ha, Y. Abe, Z. Chen, W. Hu, <strong>B. Amos</strong>, P. Pillai, and M. Satyanarayanan<br>
     CMU 2015<br>
+    
     [P3] 
 [<a href='javascript: none'
     onclick='$("#abs_ha2015adaptiveP").toggle()'>abs</a>] [<a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'>pdf</a>] <br>
@@ -547,6 +601,7 @@ changing network conditions and processing capacity
     <strong>QNSTOP-QuasiNewton Algorithm for Stochastic Optimization</strong><br>
     <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
     VT 2014<br>
+    
     [P4] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2014QNSTOPP").toggle()'>abs</a>] [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
@@ -575,10 +630,63 @@ biology problems is given.
 
 <tr>
 <td>
+    <strong>Learning Awareness Models</strong><br>
+    <strong>B. Amos</strong>, L. Dinh, S. Cabi, T. Roth&ouml;rl, S. Colmenarejo, A. Muldal, T. Erez, Y. Tassa, N. de Freitas, and M. Denil<br>
+    ICLR 2018<br>
+    
+    [C1] 
+[<a href='javascript: none'
+    onclick='$("#abs_amos2018learningC").toggle()'>abs</a>] [<a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_amos2018learningC" style="text-align: justify; display: none" markdown="1">
+We consider the setting of an agent with a fixed body interacting with an
+unknown and uncertain external world. We show that models
+trained to predict proprioceptive information about the
+agent's body come to represent objects in the external world.
+In spite of being trained with only internally available
+signals, these dynamic body models come to represent external
+objects through the necessity of predicting their effects on
+the agent's own body. That is, the model learns holistic
+persistent representations of objects in the world, even
+though the only training signals are body signals. Our
+dynamics model is able to successfully predict distributions
+over 132 sensor readings over 100 steps into the future and we
+demonstrate that even when the body is no longer in contact
+with an object, the latent variables of the dynamics model
+continue to represent its shape. We show that active data
+collection by maximizing the entropy of predictions about the
+body-touch sensors, proprioception and vestibular
+information-leads to learning of dynamic models that show
+superior performance when used for control. We also collect
+data from a real robotic hand and show that the same models
+can be used to answer questions about properties of objects in
+the real world. Videos with qualitative results of our models
+are available <a href="https://goo.gl/mZuqAV">here</a>.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td>
+    <strong>A Scalable and Privacy-Aware IoT Service for Live Video Analytics</strong><br>
+    J. Wang, <strong>B. Amos</strong>, A. Das, P. Pillai, N. Sadeh, and M. Satyanarayanan<br>
+    ACM MMSys 2017<br>
+    <strong>Best Paper Award</strong><br>
+    [C2]<br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td>
     <strong>Task-based End-to-end Model Learning</strong><br>
     P. Donti, <strong>B. Amos</strong>, and J. Kolter<br>
     NIPS 2017<br>
-    [C1] 
+    
+    [C3] 
 [<a href='javascript: none'
     onclick='$("#abs_donti2017taskC").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.04529' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
     
@@ -607,7 +715,8 @@ approach and a purely black-box policy optimization approach.
     <strong>OptNet: Differentiable Optimization as a Layer in Neural Networks</strong><br>
     <strong>B. Amos</strong> and J. Kolter<br>
     ICML 2017<br>
-    [C2] 
+    
+    [C4] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017optnetC").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.00443' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>] <br>
     
@@ -643,7 +752,8 @@ constraints better than other neural architectures.
     <strong>Input Convex Neural Networks</strong><br>
     <strong>B. Amos</strong>, L. Xu, and J. Kolter<br>
     ICML 2017<br>
-    [C3] 
+    
+    [C5] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017inputC").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
     
@@ -675,7 +785,8 @@ improvement over the existing state of the art in many cases.
     <strong>Collapsed Variational Inference for Sum-Product Networks</strong><br>
     H. Zhao, T. Adel, G. Gordon, and <strong>B. Amos</strong><br>
     ICML 2016<br>
-    [C4] 
+    
+    [C6] 
 [<a href='javascript: none'
     onclick='$("#abs_zhao2016collapsedC").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'>pdf</a>] <br>
     
@@ -705,7 +816,8 @@ with a maximum likelihood based approach.
     <strong>Applying machine learning classifiers to dynamic Android malware detection at scale</strong><br>
     <strong>B. Amos</strong>, H. Turner, and J. White<br>
     IWCMC 2013<br>
-    [C5] 
+    
+    [C7] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2013applyingC").toggle()'>abs</a>] [<a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/VT-Magnum-Research/antimalware' target='_blank'>code</a>] <br>
     
@@ -726,16 +838,71 @@ malware machine learning classifiers.
 
 </table>
 
+### Journal Articles <a href="https://github.com/bamos/cv/blob/master/publications/journal.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+
+<table class="table table-hover">
+
+<tr>
+<td>
+    <strong>Quasi-Newton Stochastic Optimization Algorithm for Parameter Estimation of a Stochastic Model of the Budding Yeast Cell Cycle</strong><br>
+    M. Chen, <strong>B. Amos</strong>, L. Watson, J. Tyson, Y. Cao, C. Shaffer, M. Trosset, C. Oguz, and G. Kakoti<br>
+    IEEE/ACM TCBB 2017<br>
+    
+    [J1]<br>
+    
+</td>
+</tr>
+
+
+</table>
+
 ### Workshop, Symposium, and Short Papers <a href="https://github.com/bamos/cv/blob/master/publications/short.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
 <table class="table table-hover">
 
 <tr>
 <td>
+    <strong>You can teach elephants to dance: agile VM handoff for edge computing</strong><br>
+    K. Ha, Y. Abe, T. Eiszler, Z. Chen, W. Hu, <strong>B. Amos</strong>, R. Upadhyaya, P. Pillai, and M. Satyanarayanan<br>
+    SEC 2017<br>
+    
+    [W1]<br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td>
+    <strong>An Empirical Study of Latency in an Emerging Class of Edge Computing Applications for Wearable Cognitive Assistance</strong><br>
+    Z. Chen, W. Hu, J. Wang, S. Zhao, <strong>B. Amos</strong>, G. Wu, K. Ha, K. Elgazzar, P. Pillai, R. Klatzky, D. Siewiorek, and M. Satyanarayanan<br>
+    SEC 2017<br>
+    
+    [W2]<br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td>
+    <strong>Quantifying the impact of edge computing on mobile applications</strong><br>
+    W. Hu, Y. Gao, K. Ha, J. Wang, <strong>B. Amos</strong>, Z. Chen, P. Pillai, and M. Satyanarayanan<br>
+    ACM SIGOPS 2016<br>
+    
+    [W3]<br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td>
     <strong>Privacy mediators: helping IoT cross the chasm</strong><br>
     N. Davies, N. Taft, M. Satyanarayanan, S. Clinch, and <strong>B. Amos</strong><br>
     HotMobile 2016<br>
-    [W1] 
+    
+    [W4] 
 [<a href='javascript: none'
     onclick='$("#abs_davies2016privacyW").toggle()'>abs</a>] [<a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf' target='_blank'>pdf</a>] <br>
     
@@ -766,7 +933,8 @@ and organizational boundaries of trust and responsibility.
     <strong>Early Implementation Experience with Wearable Cognitive Assistance Applications</strong><br>
     Z. Chen, L. Jiang, W. Hu, K. Ha, <strong>B. Amos</strong>, P. Pillai, A. Hauptmann, and M. Satyanarayanan<br>
     WearSys 2015<br>
-    [W2] 
+    
+    [W5] 
 [<a href='javascript: none'
     onclick='$("#abs_chen2015earlyW").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'>pdf</a>] <br>
     
@@ -792,7 +960,8 @@ simplify the creation of similar applications.
     <strong>The Case for Offload Shaping</strong><br>
     W. Hu, <strong>B. Amos</strong>, Z. Chen, K. Ha, W. Richter, P. Pillai, B. Gilbert, J. Harkes, and M. Satyanarayanan<br>
     HotMobile 2015<br>
-    [W3] 
+    
+    [W6] 
 [<a href='javascript: none'
     onclick='$("#abs_hu2014caseW").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'>pdf</a>] <br>
     
@@ -814,7 +983,8 @@ demand, with little loss of application-level fidelity
     <strong>Performance study of Spindle, a web analytics query engine implemented in Spark</strong><br>
     <strong>B. Amos</strong> and D. Tompkins<br>
     CloudCom 2014<br>
-    [W4] 
+    
+    [W7] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2014performanceW").toggle()'>abs</a>] [<a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7037709' target='_blank'>pdf</a>]  [<a href='https://github.com/adobe-research/spindle' target='_blank'>code</a>] <br>
     
@@ -837,7 +1007,8 @@ as proper partitioning can cause a 5x performance improvement.
     <strong>Global Parameter Estimation for a Eukaryotic Cell Cycle Model in Systems Biology</strong><br>
     T. Andrew, <strong>B. Amos</strong>, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson<br>
     SummerSim 2014<br>
-    [W5] 
+    
+    [W8] 
 [<a href='javascript: none'
     onclick='$("#abs_andrew2014globalW").toggle()'>abs</a>] [<a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>pdf</a>] <br>
     
@@ -865,7 +1036,8 @@ compared.
     <strong>Fortran 95 implementation of QNSTOP for global and stochastic optimization</strong><br>
     <strong>B. Amos</strong>, D. Easterling, L. Watson, B. Castle, M. Trosset, and W. Thacker<br>
     SpringSim (HPC) 2014<br>
-    [W6] 
+    
+    [W9] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2014fortranW").toggle()'>abs</a>] [<a href='http://dl.acm.org/citation.cfm?id=2663525' target='_blank'>pdf</a>] <br>
     
@@ -892,6 +1064,7 @@ functions.
     <strong>Edge Analytics in the Internet of Things</strong><br>
     M. Satyanarayanan, P. Simoens, Y. Xiao, P. Pillai, Z. Chen, K. Ha, W. Hu, and <strong>B. Amos</strong><br>
     IEEE Pervasive Computing 2015<br>
+    
     [M1] 
 [<a href='javascript: none'
     onclick='$("#abs_satyanarayanan2015edgeM").toggle()'>abs</a>] [<a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'>pdf</a>] <br>
@@ -918,6 +1091,7 @@ is part of a special issue on smart spaces.
     <strong>Bad Parts: Are Our Manufacturing Systems at Risk of Silent Cyberattacks?</strong><br>
     H. Turner, J. White, J. Camelio, C. Williams, <strong>B. Amos</strong>, and R. Parker<br>
     IEEE Security & Privacy 2015<br>
+    
     [M2] 
 [<a href='javascript: none'
     onclick='$("#abs_turner2015badM").toggle()'>abs</a>] [<a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094' target='_blank'>pdf</a>] <br>
@@ -949,7 +1123,8 @@ manufacturing security topics.
     <strong>Input-Convex Deep Networks</strong><br>
     <strong>B. Amos</strong> and J. Kolter<br>
     ICLR Workshop 2016<br>
-    [P1] [<a href='http://bamos.github.io/data/posters/2016-iclr-icnn.pdf' target='_blank'>pdf</a>] <br>
+    
+    [S1] [<a href='http://bamos.github.io/data/posters/2016-iclr-icnn.pdf' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -960,7 +1135,8 @@ manufacturing security topics.
     <strong>Face Recognition for Context Sensitive IoT Systems</strong><br>
     <strong>B. Amos</strong> and M. Satyanarayanan<br>
     HotMobile 2016<br>
-    [P2] [<a href='http://bamos.github.io/data/posters/2016-hotmobile-facerec.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
+    
+    [S2] [<a href='http://bamos.github.io/data/posters/2016-hotmobile-facerec.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
     
 </td>
 </tr>
