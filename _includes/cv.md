@@ -7,7 +7,7 @@ I strongly believe in open science and reproducible research and actively publis
 <table class="table table-hover">
 <tr>
   <td class='col-md-3'>Mar 2018</td>
-  <td>I will be at ICLR this year presenting my DeepMind internship paper <a href='https://openreview.net/forum?id=r1HhRfWRZ'> Learning Awareness Models </a>.</td>
+  <td>I will be at ICLR this year presenting my DeepMind internship paper <a href='https://openreview.net/forum?id=r1HhRfWRZ'> Learning Awareness Models</a>.</td>
 </tr>
 <tr>
   <td class='col-md-3'>Feb 2018</td>
