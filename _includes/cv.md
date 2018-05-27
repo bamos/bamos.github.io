@@ -128,13 +128,32 @@ I strongly believe in open science and reproducible research and actively publis
 <table class="table table-hover">
 
 <tr>
+<td class="col-md-3"><a href='http://arxiv.org/abs/1805.08195' target='_blank'><img src="images/publications/brown2018depth.png"/></a> </td>
+<td>
+    <strong>Depth-Limited Solving for Imperfect-Information Games</strong><br>
+    N. Brown, T. Sandholm, and <strong>B. Amos</strong><br>
+    arXiv 2018<br>
+    
+    [1] 
+[<a href='javascript: none'
+    onclick='$("#abs_brown2018depth").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1805.08195' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_brown2018depth" style="text-align: justify; display: none" markdown="1">
+A fundamental challenge in imperfect-information games is that states do not have well-defined values. As a result, depth-limited search algorithms used in single-agent settings and perfect-information games do not apply. This paper introduces a principled way to conduct depth-limited solving in imperfect-information games by allowing the opponent to choose among a number of strategies for the remainder of the game at the depth limit. Each one of these strategies results in a different set of values for leaf nodes. This forces an agent to be robust to the different strategies an opponent may employ. We demonstrate the effectiveness of this approach by building a master-level heads-up no-limit Texas hold'em poker AI that defeats two prior top agents using only a 4-core CPU and 16 GB of memory. Developing such a powerful agent would have previously required a supercomputer.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
 <td class="col-md-3"><a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'><img src="images/publications/amos2018learning.png"/></a> </td>
 <td>
     <strong>Learning Awareness Models</strong><br>
     <strong>B. Amos</strong>, L. Dinh, S. Cabi, T. Roth&ouml;rl, S. Colmenarejo, A. Muldal, T. Erez, Y. Tassa, N. de Freitas, and M. Denil<br>
     ICLR 2018<br>
     
-    [1] 
+    [2] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2018learning").toggle()'>abs</a>] [<a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'>pdf</a>] <br>
     
@@ -175,7 +194,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
     P. Donti, <strong>B. Amos</strong>, and J. Kolter<br>
     NIPS 2017<br>
     
-    [2] 
+    [3] 
 [<a href='javascript: none'
     onclick='$("#abs_donti2017task").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.04529' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
     
@@ -206,7 +225,7 @@ approach and a purely black-box policy optimization approach.
     <strong>B. Amos</strong> and J. Kolter<br>
     ICML 2017<br>
     
-    [3] 
+    [4] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017optnet").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.00443' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>] <br>
     
@@ -244,7 +263,7 @@ constraints better than other neural architectures.
     <strong>B. Amos</strong>, L. Xu, and J. Kolter<br>
     ICML 2017<br>
     
-    [4] 
+    [5] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017input").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
     
@@ -278,7 +297,7 @@ improvement over the existing state of the art in many cases.
     H. Zhao, T. Adel, G. Gordon, and <strong>B. Amos</strong><br>
     ICML 2016<br>
     
-    [5] 
+    [6] 
 [<a href='javascript: none'
     onclick='$("#abs_zhao2016collapsed").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'>pdf</a>] <br>
     
@@ -310,7 +329,7 @@ with a maximum likelihood based approach.
     <strong>B. Amos</strong>, B. Ludwiczuk, and M. Satyanarayanan<br>
     CMU 2016<br>
     
-    [6] 
+    [7] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2016openface").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
     
@@ -342,7 +361,7 @@ the Apache 2.0 license. It is available at:
     <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
     VT 2014<br>
     
-    [7] 
+    [8] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2014QNSTOP").toggle()'>abs</a>] [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
     
@@ -513,11 +532,29 @@ Linux, OSX
 
 <tr>
 <td>
+    <strong>Depth-Limited Solving for Imperfect-Information Games</strong><br>
+    N. Brown, T. Sandholm, and <strong>B. Amos</strong><br>
+    arXiv 2018<br>
+    
+    [P1] 
+[<a href='javascript: none'
+    onclick='$("#abs_brown2018depthP").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1805.08195' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_brown2018depthP" style="text-align: justify; display: none" markdown="1">
+A fundamental challenge in imperfect-information games is that states do not have well-defined values. As a result, depth-limited search algorithms used in single-agent settings and perfect-information games do not apply. This paper introduces a principled way to conduct depth-limited solving in imperfect-information games by allowing the opponent to choose among a number of strategies for the remainder of the game at the depth limit. Each one of these strategies results in a different set of values for leaf nodes. This forces an agent to be robust to the different strategies an opponent may employ. We demonstrate the effectiveness of this approach by building a master-level heads-up no-limit Texas hold'em poker AI that defeats two prior top agents using only a 4-core CPU and 16 GB of memory. Developing such a powerful agent would have previously required a supercomputer.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td>
     <strong>OpenFace: A general-purpose face recognition library with mobile applications</strong><br>
     <strong>B. Amos</strong>, B. Ludwiczuk, and M. Satyanarayanan<br>
     CMU 2016<br>
     
-    [P1] 
+    [P2] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2016openfaceP").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
     
@@ -548,7 +585,7 @@ the Apache 2.0 license. It is available at:
     Y. Gao, W. Hu, K. Ha, <strong>B. Amos</strong>, P. Pillai, and M. Satyanarayanan<br>
     CMU 2015<br>
     
-    [P2] 
+    [P3] 
 [<a href='javascript: none'
     onclick='$("#abs_gao2015cloudletsP").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'>pdf</a>] <br>
     
@@ -575,7 +612,7 @@ consumption in a mobile device by up to 42% compared to cloud offload.
     K. Ha, Y. Abe, Z. Chen, W. Hu, <strong>B. Amos</strong>, P. Pillai, and M. Satyanarayanan<br>
     CMU 2015<br>
     
-    [P3] 
+    [P4] 
 [<a href='javascript: none'
     onclick='$("#abs_ha2015adaptiveP").toggle()'>abs</a>] [<a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'>pdf</a>] <br>
     
@@ -602,7 +639,7 @@ changing network conditions and processing capacity
     <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
     VT 2014<br>
     
-    [P4] 
+    [P5] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2014QNSTOPP").toggle()'>abs</a>] [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
     
