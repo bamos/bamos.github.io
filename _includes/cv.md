@@ -1,4 +1,4 @@
- I am a fourth-year Computer Science Ph.D. student at Carnegie Mellon University and am supported by an NSF graduate research fellowship. I spent the first two years of my Ph.D. working on mobile systems and now work with [Zico Kolter](http://zicokolter.com/) on machine learning and optimization. I am particularly interested in improving our understanding of important modeling problems in computer vision, language, and reinforcement learning through the use of deep learning, optimization (sometimes convex), theory, and statistics. As examples, see our [input-convex neural network](https://arxiv.org/abs/1609.07152) and [OptNet](https://arxiv.org/abs/1703.00443) papers. 
+ I am a fifth- and final-year Computer Science Ph.D. student at Carnegie Mellon University and am supported by an NSF graduate research fellowship. I work with [Zico Kolter](http://zicokolter.com/) on machine learning and optimization and am particularly interested in improving our understanding of important modeling problems in computer vision, language, and reinforcement learning through the use of deep learning, optimization (sometimes convex), theory, and statistics. My most recent work is on [input-convex neural networks](https://arxiv.org/abs/1609.07152) and [OptNet layers](https://arxiv.org/abs/1703.00443). 
 
 I strongly believe in open science and reproducible research and actively publish code on [my Github profile](https://github.com/bamos). I am also the author of [OpenFace](https://cmusatyalab.github.io/openface/), which is an open source face recognition project that uses deep learning.<br><br>
 
@@ -32,7 +32,7 @@ I strongly believe in open science and reproducible research and actively publis
 
 <table class="table table-hover">
   <tr>
-    <td class="col-md-3">Aug 2014 - Present</td>
+    <td class="col-md-3">Aug 2014 - May 2019 (expected)</td>
     <td>
         <strong>Ph.D. in Computer Science</strong>
         <br>
