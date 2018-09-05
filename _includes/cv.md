@@ -6,6 +6,10 @@ I strongly believe in open science and reproducible research and actively publis
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
 <tr>
+  <td class='col-md-3'>Sept 2018</td>
+  <td>I will be attending NIPS 2018 this year. Come see our work on 1) differentiable model-predictive control and 2) depth-limited solving for imperfect-information games. </td>
+</tr>
+<tr>
   <td class='col-md-3'>Mar 2018</td>
   <td>I will be at ICLR this year presenting my DeepMind internship paper <a href='https://openreview.net/forum?id=r1HhRfWRZ'> Learning Awareness Models</a>.</td>
 </tr>
@@ -132,7 +136,7 @@ I strongly believe in open science and reproducible research and actively publis
 <td>
     <strong>Depth-Limited Solving for Imperfect-Information Games</strong><br>
     N. Brown, T. Sandholm, and <strong>B. Amos</strong><br>
-    arXiv 2018<br>
+    NIPS 2018<br>
     
     [1] 
 [<a href='javascript: none'
@@ -147,13 +151,32 @@ A fundamental challenge in imperfect-information games is that states do not hav
 
 
 <tr>
+<td class="col-md-3"><img src="images/publications/amos2018end.png"/></td>
+<td>
+    <strong>Differentiable MPC for End-to-end Planning and Control</strong><br>
+    <strong>B. Amos</strong>, J. Sacks, I. Rodriguez, B. Boots, and J. Kolter<br>
+    NIPS 2018<br>
+    
+    [2] 
+[<a href='javascript: none'
+    onclick='$("#abs_amos2018end").toggle()'>abs</a>]<br>
+    
+<div id="abs_amos2018end" style="text-align: justify; display: none" markdown="1">
+In this paper we present foundations for using model predictive control (MPC) as a differentiable policy class in reinforcement learning. Specifically, we differentiate through MPC by using the KKT conditions of the convex approximation at a fixed point of the solver. Using this strategy, we are able to learn the cost and dynamics of a controller via end-to-end learning in a larger system. We empirically show results in an imitation learning setting, demonstrating that we can recover the underlying dynamics and cost more efficiently and reliably than with a generic neural network policy class
+</div>
+
+</td>
+</tr>
+
+
+<tr>
 <td class="col-md-3"><a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'><img src="images/publications/amos2018learning.png"/></a> </td>
 <td>
     <strong>Learning Awareness Models</strong><br>
     <strong>B. Amos</strong>, L. Dinh, S. Cabi, T. Roth&ouml;rl, S. Colmenarejo, A. Muldal, T. Erez, Y. Tassa, N. de Freitas, and M. Denil<br>
     ICLR 2018<br>
     
-    [2] 
+    [3] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2018learning").toggle()'>abs</a>] [<a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'>pdf</a>] <br>
     
@@ -194,7 +217,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
     P. Donti, <strong>B. Amos</strong>, and J. Kolter<br>
     NIPS 2017<br>
     
-    [3] 
+    [4] 
 [<a href='javascript: none'
     onclick='$("#abs_donti2017task").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.04529' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
     
@@ -225,7 +248,7 @@ approach and a purely black-box policy optimization approach.
     <strong>B. Amos</strong> and J. Kolter<br>
     ICML 2017<br>
     
-    [4] 
+    [5] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017optnet").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.00443' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>] <br>
     
@@ -263,7 +286,7 @@ constraints better than other neural architectures.
     <strong>B. Amos</strong>, L. Xu, and J. Kolter<br>
     ICML 2017<br>
     
-    [5] 
+    [6] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017input").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
     
@@ -297,7 +320,7 @@ improvement over the existing state of the art in many cases.
     H. Zhao, T. Adel, G. Gordon, and <strong>B. Amos</strong><br>
     ICML 2016<br>
     
-    [6] 
+    [7] 
 [<a href='javascript: none'
     onclick='$("#abs_zhao2016collapsed").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'>pdf</a>] <br>
     
@@ -329,7 +352,7 @@ with a maximum likelihood based approach.
     <strong>B. Amos</strong>, B. Ludwiczuk, and M. Satyanarayanan<br>
     CMU 2016<br>
     
-    [7] 
+    [8] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2016openface").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
     
@@ -361,7 +384,7 @@ the Apache 2.0 license. It is available at:
     <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
     VT 2014<br>
     
-    [8] 
+    [9] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2014QNSTOP").toggle()'>abs</a>] [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
     
@@ -667,11 +690,47 @@ biology problems is given.
 
 <tr>
 <td>
+    <strong>Depth-Limited Solving for Imperfect-Information Games</strong><br>
+    N. Brown, T. Sandholm, and <strong>B. Amos</strong><br>
+    NIPS 2018<br>
+    
+    [C1] 
+[<a href='javascript: none'
+    onclick='$("#abs_brown2018depthC").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1805.08195' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_brown2018depthC" style="text-align: justify; display: none" markdown="1">
+A fundamental challenge in imperfect-information games is that states do not have well-defined values. As a result, depth-limited search algorithms used in single-agent settings and perfect-information games do not apply. This paper introduces a principled way to conduct depth-limited solving in imperfect-information games by allowing the opponent to choose among a number of strategies for the remainder of the game at the depth limit. Each one of these strategies results in a different set of values for leaf nodes. This forces an agent to be robust to the different strategies an opponent may employ. We demonstrate the effectiveness of this approach by building a master-level heads-up no-limit Texas hold'em poker AI that defeats two prior top agents using only a 4-core CPU and 16 GB of memory. Developing such a powerful agent would have previously required a supercomputer.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td>
+    <strong>Differentiable MPC for End-to-end Planning and Control</strong><br>
+    <strong>B. Amos</strong>, J. Sacks, I. Rodriguez, B. Boots, and J. Kolter<br>
+    NIPS 2018<br>
+    
+    [C2] 
+[<a href='javascript: none'
+    onclick='$("#abs_amos2018endC").toggle()'>abs</a>]<br>
+    
+<div id="abs_amos2018endC" style="text-align: justify; display: none" markdown="1">
+In this paper we present foundations for using model predictive control (MPC) as a differentiable policy class in reinforcement learning. Specifically, we differentiate through MPC by using the KKT conditions of the convex approximation at a fixed point of the solver. Using this strategy, we are able to learn the cost and dynamics of a controller via end-to-end learning in a larger system. We empirically show results in an imitation learning setting, demonstrating that we can recover the underlying dynamics and cost more efficiently and reliably than with a generic neural network policy class
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td>
     <strong>Learning Awareness Models</strong><br>
     <strong>B. Amos</strong>, L. Dinh, S. Cabi, T. Roth&ouml;rl, S. Colmenarejo, A. Muldal, T. Erez, Y. Tassa, N. de Freitas, and M. Denil<br>
     ICLR 2018<br>
     
-    [C1] 
+    [C3] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2018learningC").toggle()'>abs</a>] [<a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'>pdf</a>] <br>
     
@@ -711,7 +770,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
     J. Wang, <strong>B. Amos</strong>, A. Das, P. Pillai, N. Sadeh, and M. Satyanarayanan<br>
     ACM MMSys 2017<br>
     <strong>Best Paper Award</strong><br>
-    [C2]<br>
+    [C4]<br>
     
 </td>
 </tr>
@@ -723,7 +782,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
     P. Donti, <strong>B. Amos</strong>, and J. Kolter<br>
     NIPS 2017<br>
     
-    [C3] 
+    [C5] 
 [<a href='javascript: none'
     onclick='$("#abs_donti2017taskC").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.04529' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
     
@@ -753,7 +812,7 @@ approach and a purely black-box policy optimization approach.
     <strong>B. Amos</strong> and J. Kolter<br>
     ICML 2017<br>
     
-    [C4] 
+    [C6] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017optnetC").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.00443' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>] <br>
     
@@ -790,7 +849,7 @@ constraints better than other neural architectures.
     <strong>B. Amos</strong>, L. Xu, and J. Kolter<br>
     ICML 2017<br>
     
-    [C5] 
+    [C7] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017inputC").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
     
@@ -823,7 +882,7 @@ improvement over the existing state of the art in many cases.
     H. Zhao, T. Adel, G. Gordon, and <strong>B. Amos</strong><br>
     ICML 2016<br>
     
-    [C6] 
+    [C8] 
 [<a href='javascript: none'
     onclick='$("#abs_zhao2016collapsedC").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'>pdf</a>] <br>
     
@@ -854,7 +913,7 @@ with a maximum likelihood based approach.
     <strong>B. Amos</strong>, H. Turner, and J. White<br>
     IWCMC 2013<br>
     
-    [C7] 
+    [C9] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2013applyingC").toggle()'>abs</a>] [<a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/VT-Magnum-Research/antimalware' target='_blank'>code</a>] <br>
     
