@@ -7,7 +7,7 @@ I strongly believe in open science and reproducible research and actively publis
 <table class="table table-hover">
 <tr>
   <td class='col-md-3'>Sept 2018</td>
-  <td>I will be attending NIPS 2018 this year. Come see our work on 1) differentiable model-predictive control and 2) depth-limited solving for imperfect-information games. </td>
+  <td>I will be attending NIPS 2018 this year. Come see our work on 1) differentiable model predictive control and 2) depth-limited solving for imperfect-information games. </td>
 </tr>
 <tr>
   <td class='col-md-3'>Mar 2018</td>
