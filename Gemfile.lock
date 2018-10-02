@@ -172,6 +172,3 @@ DEPENDENCIES
   html-proofer (~> 3.0.6)
   html5_validator (~> 1.0)
   w3c_validators (~> 1.2)
-
-BUNDLED WITH
-   1.12.5
