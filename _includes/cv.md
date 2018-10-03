@@ -1,4 +1,4 @@
- I am a researcher and broadly study foundational topics and applications in <b>machine learning</b> (sometimes deep) and <b>optimization</b> (sometimes convex), including reinforcement learning, computer vision, language, statistics, and theory. I am finishing a Ph.D. at <b>Carnegie Mellon University</b> advised by [Zico Kolter](http://zicokolter.com/) and am supported by an <b>NSF graduate research fellowship.</b> My dissertation is entitled "Differentiable Optimization-Based Inference for Machine Learning" and my <b>thesis proposal</b> is available [here](https://goo.gl/MTiDrb). My publications are available below and on my [Google Scholar](https://scholar.google.com/citations?user=d8gdZR4AAAAJ) page. <br><br> My Ph.D. has straddled <b>applied and theoretical contributions</b>. I value important <b>societal applications</b> of my work and spent the first two years of my Ph.D. (from 2014-2016) working on the machine learning and computer vision technologies underlying <b>mobile and wearable cognitive assistance systems,</b> publishing papers at <b>systems- and mobile-oriented</b> venues during this time. Over the past three years (since 2016) I have gone deeper into foundational contributions to the <b>NIPS, ICML, and ICLR communities</b>. The core pillars of my dissertation are my ICML 2017 papers on [input-convex neural networks](https://arxiv.org/abs/1609.07152) and [OptNet layers](https://arxiv.org/abs/1703.00443). <br><br> I have worked on <b>reinforcement learning</b> during an internship with [Nando de Freitas](https://www.cs.ubc.ca/~nando/) at <b>DeepMind</b> in 2017 (publishing an ICLR paper), and on <b>combinatorial and discrete learning problems</b> with [Vladlen Koltun](http://vladlen.info) at <b>Intel Labs</b> in 2018. <br><br> I strongly believe in <b>open science, reproducible research, and well-engineered projects</b> and actively publish code on [my Github profile](https://github.com/bamos). This led me to create [OpenFace](https://cmusatyalab.github.io/openface/) in 2014, which was the first open-source face recognition project that used deep learning. <br><br> <b>I am on the job market.</b> For at least the next decade of my career I want to stay in the machine learning research community. I am looking for a position that lets me continue to <b>straddle foundational and applied contributions</b> to the field. Please [get in touch](http://bamos.github.io/data/cv.pdf) if you have an opening. <br><br>
+ I am a researcher and broadly study foundational topics and applications in <b>machine learning</b> (sometimes deep) and <b>optimization</b> (sometimes convex), including reinforcement learning, computer vision, language, statistics, and theory. I am finishing a Ph.D. at <b>Carnegie Mellon University</b> advised by [Zico Kolter](http://zicokolter.com/) and am supported by an <b>NSF graduate research fellowship.</b> My dissertation is entitled "Differentiable Optimization-Based Inference for Machine Learning" and my <b>thesis proposal</b> is available [here](https://goo.gl/MTiDrb). My publications are available below and on my [Google Scholar](https://scholar.google.com/citations?user=d8gdZR4AAAAJ) page. <br><br> My research straddles <b>applied and theoretical contributions</b>. As an undergraduate I studied [Quasi-Newton Methods for Stochastic Optimization](https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf). I value important <b>societal applications</b> of my work and spent the first two years of my Ph.D. (from 2014-2016) working on the machine learning and computer vision technologies underlying <b>mobile and wearable cognitive assistance systems,</b> publishing papers at <b>systems- and mobile-oriented</b> venues during this time. Over the past three years (since 2016) I have gone deeper into foundational contributions to the <b>NIPS, ICML, and ICLR communities</b>. The core pillars of my dissertation are my ICML 2017 papers on [input-convex neural networks](https://arxiv.org/abs/1609.07152) and [OptNet layers](https://arxiv.org/abs/1703.00443). <br><br> I have worked on <b>reinforcement learning</b> during an internship with [Nando de Freitas](https://www.cs.ubc.ca/~nando/) at <b>DeepMind</b> in 2017, publishing an ICLR 2018 paper [Learning Awareness Models](https://arxiv.org/abs/1804.06318), and on <b>combinatorial and discrete learning problems</b> with [Vladlen Koltun](http://vladlen.info) at <b>Intel Labs</b> in 2018. <br><br> I strongly believe in <b>open science, reproducible research, and well-engineered projects</b> and actively publish code on [my Github profile](https://github.com/bamos). This led me to create [OpenFace](https://cmusatyalab.github.io/openface/) in 2014, which was the first open-source deep-learning-based face recognition project. <br><br> <b>I am on the job market.</b> For at least the next decade of my career I want to stay in the machine learning research community. I am looking for a position that lets me continue to <b>straddle foundational and applied contributions</b> to the field. Please [get in touch](http://bamos.github.io/data/cv.pdf) if you have an opening. <br><br>
 
 
 ## <i class="fa fa-chevron-right"></i> News
@@ -6,26 +6,6 @@
 <tr>
   <td class='col-md-3'>Sept 2018</td>
   <td>I will be attending NIPS 2018 this year. Come see our work on 1) differentiable model predictive control and 2) depth-limited solving for imperfect-information games. </td>
-</tr>
-<tr>
-  <td class='col-md-3'>Mar 2018</td>
-  <td>I will be at ICLR this year presenting my DeepMind internship paper <a href='https://openreview.net/forum?id=r1HhRfWRZ'> Learning Awareness Models</a>.</td>
-</tr>
-<tr>
-  <td class='col-md-3'>Feb 2018</td>
-  <td>I am interning at Intel Labs in Santa Clara this summer with <a href='http://vladlen.info/'>Vladlen Koltun</a>.</td>
-</tr>
-<tr>
-  <td class='col-md-3'>Nov 2017</td>
-  <td>I will be at NIPS 2017 this year. Come see our <a href='https://papers.nips.cc/paper/7132-task-based-end-to-end-model-learning-in-stochastic-optimization'>Task-based End-to-end Model Learning in Stochastic Optimization</a> work at the main conference and our (unpublished) End-to-end Model Predictive Control work at the deep reinforcement learning symposium. </td>
-</tr>
-<tr>
-  <td class='col-md-3'>June 2017</td>
-  <td>Our ICNN and OptNet papers have been accepted to ICML and the camera-ready versions are available on arXiv.</td>
-</tr>
-<tr>
-  <td class='col-md-3'>May 2017</td>
-  <td>I am interning at <a href='https://deepmind.com/'>Google DeepMind</a> in London this summer with <a href='http://www.cs.ox.ac.uk/people/nando.defreitas/'>Nando de Freitas</a>.</td>
 </tr>
 </table>
 
@@ -133,7 +113,7 @@
 <td class="col-md-3"><img src="images/publications/amos2018end.png"/></td>
 <td>
     <strong>Differentiable MPC for End-to-end Planning and Control</strong><br>
-    <strong>B. Amos</strong>, J. Sacks, I. Rodriguez, B. Boots, and J. Kolter<br>
+    <strong>B. Amos</strong>, I. Rodriguez, J. Sacks, B. Boots, and J. Kolter<br>
     NIPS 2018<br>
     
     [1] 
@@ -161,25 +141,6 @@ In this paper we present foundations for using model predictive control (MPC) as
     
 <div id="abs_brown2018depth" style="text-align: justify; display: none" markdown="1">
 A fundamental challenge in imperfect-information games is that states do not have well-defined values. As a result, depth-limited search algorithms used in single-agent settings and perfect-information games do not apply. This paper introduces a principled way to conduct depth-limited solving in imperfect-information games by allowing the opponent to choose among a number of strategies for the remainder of the game at the depth limit. Each one of these strategies results in a different set of values for leaf nodes. This forces an agent to be robust to the different strategies an opponent may employ. We demonstrate the effectiveness of this approach by building a master-level heads-up no-limit Texas hold'em poker AI that defeats two prior top agents using only a 4-core CPU and 16 GB of memory. Developing such a powerful agent would have previously required a supercomputer.
-</div>
-
-</td>
-</tr>
-
-
-<tr>
-<td class="col-md-3"><img src="images/publications/amos2018end.png"/></td>
-<td>
-    <strong>Differentiable MPC for End-to-end Planning and Control</strong><br>
-    <strong>B. Amos</strong>, J. Sacks, I. Rodriguez, B. Boots, and J. Kolter<br>
-    NIPS 2018<br>
-    
-    [2] 
-[<a href='javascript: none'
-    onclick='$("#abs_amos2018end").toggle()'>abs</a>]<br>
-    
-<div id="abs_amos2018end" style="text-align: justify; display: none" markdown="1">
-In this paper we present foundations for using model predictive control (MPC) as a differentiable policy class in reinforcement learning. Specifically, we differentiate through MPC by using the KKT conditions of the convex approximation at a fixed point of the solver. Using this strategy, we are able to learn the cost and dynamics of a controller via end-to-end learning in a larger system. We empirically show results in an imitation learning setting, demonstrating that we can recover the underlying dynamics and cost more efficiently and reliably than with a generic neural network policy class
 </div>
 
 </td>
@@ -689,28 +650,16 @@ biology problems is given.
 
 <tr>
 <td>
-<<<<<<< HEAD
-    <strong>Depth-Limited Solving for Imperfect-Information Games</strong><br>
-    N. Brown, T. Sandholm, and <strong>B. Amos</strong><br>
-=======
     <strong>Differentiable MPC for End-to-end Planning and Control</strong><br>
-    <strong>B. Amos</strong>, J. Sacks, I. Rodriguez, B. Boots, and J. Kolter<br>
->>>>>>> Update cv.
+    <strong>B. Amos</strong>, I. Rodriguez, J. Sacks, B. Boots, and J. Kolter<br>
     NIPS 2018<br>
     
     [C1] 
 [<a href='javascript: none'
-<<<<<<< HEAD
-    onclick='$("#abs_brown2018depthC").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1805.08195' target='_blank'>pdf</a>] <br>
-    
-<div id="abs_brown2018depthC" style="text-align: justify; display: none" markdown="1">
-A fundamental challenge in imperfect-information games is that states do not have well-defined values. As a result, depth-limited search algorithms used in single-agent settings and perfect-information games do not apply. This paper introduces a principled way to conduct depth-limited solving in imperfect-information games by allowing the opponent to choose among a number of strategies for the remainder of the game at the depth limit. Each one of these strategies results in a different set of values for leaf nodes. This forces an agent to be robust to the different strategies an opponent may employ. We demonstrate the effectiveness of this approach by building a master-level heads-up no-limit Texas hold'em poker AI that defeats two prior top agents using only a 4-core CPU and 16 GB of memory. Developing such a powerful agent would have previously required a supercomputer.
-=======
     onclick='$("#abs_amos2018endC").toggle()'>abs</a>]<br>
     
 <div id="abs_amos2018endC" style="text-align: justify; display: none" markdown="1">
 In this paper we present foundations for using model predictive control (MPC) as a differentiable policy class in reinforcement learning. Specifically, we differentiate through MPC by using the KKT conditions of the convex approximation at a fixed point of the solver. Using this strategy, we are able to learn the cost and dynamics of a controller via end-to-end learning in a larger system. We empirically show results in an imitation learning setting, demonstrating that we can recover the underlying dynamics and cost more efficiently and reliably than with a generic neural network policy class
->>>>>>> Update cv.
 </div>
 
 </td>
@@ -719,28 +668,16 @@ In this paper we present foundations for using model predictive control (MPC) as
 
 <tr>
 <td>
-<<<<<<< HEAD
-    <strong>Differentiable MPC for End-to-end Planning and Control</strong><br>
-    <strong>B. Amos</strong>, J. Sacks, I. Rodriguez, B. Boots, and J. Kolter<br>
-=======
     <strong>Depth-Limited Solving for Imperfect-Information Games</strong><br>
     N. Brown, T. Sandholm, and <strong>B. Amos</strong><br>
->>>>>>> Update cv.
     NIPS 2018<br>
     
     [C2] 
 [<a href='javascript: none'
-<<<<<<< HEAD
-    onclick='$("#abs_amos2018endC").toggle()'>abs</a>]<br>
-    
-<div id="abs_amos2018endC" style="text-align: justify; display: none" markdown="1">
-In this paper we present foundations for using model predictive control (MPC) as a differentiable policy class in reinforcement learning. Specifically, we differentiate through MPC by using the KKT conditions of the convex approximation at a fixed point of the solver. Using this strategy, we are able to learn the cost and dynamics of a controller via end-to-end learning in a larger system. We empirically show results in an imitation learning setting, demonstrating that we can recover the underlying dynamics and cost more efficiently and reliably than with a generic neural network policy class
-=======
     onclick='$("#abs_brown2018depthC").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1805.08195' target='_blank'>pdf</a>] <br>
     
 <div id="abs_brown2018depthC" style="text-align: justify; display: none" markdown="1">
 A fundamental challenge in imperfect-information games is that states do not have well-defined values. As a result, depth-limited search algorithms used in single-agent settings and perfect-information games do not apply. This paper introduces a principled way to conduct depth-limited solving in imperfect-information games by allowing the opponent to choose among a number of strategies for the remainder of the game at the depth limit. Each one of these strategies results in a different set of values for leaf nodes. This forces an agent to be robust to the different strategies an opponent may employ. We demonstrate the effectiveness of this approach by building a master-level heads-up no-limit Texas hold'em poker AI that defeats two prior top agents using only a 4-core CPU and 16 GB of memory. Developing such a powerful agent would have previously required a supercomputer.
->>>>>>> Update cv.
 </div>
 
 </td>
