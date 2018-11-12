@@ -520,6 +520,23 @@ Linux, OSX
 </table>
 
 
+## <i class="fa fa-chevron-right"></i> Service
+<table class="table table-hover">
+<tr>
+  <td class='col-md-2'>Reviewer</td>
+  <td markdown="1">
+ICML 2018, NIPS 2018, ICLR 2019, NIPS Deep RL Workshop 2018
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Admissions</td>
+  <td markdown="1">
+CMU CSD MS 2014-2015
+  </td>
+</tr>
+</table>
+
+
 ## <i class="fa fa-chevron-right"></i> All Publications <a href="https://github.com/bamos/cv/blob/master/publications/"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
 <a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" class="btn btn-primary" style="padding: 0.3em;">
