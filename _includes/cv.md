@@ -1,13 +1,4 @@
- I am a researcher and broadly study foundational topics and applications in <b>machine learning</b> (sometimes deep) and <b>optimization</b> (sometimes convex), including reinforcement learning, computer vision, language, statistics, and theory. I am finishing a Ph.D. at <b>Carnegie Mellon University</b> advised by [Zico Kolter](http://zicokolter.com/) and am supported by an <b>NSF graduate research fellowship.</b> My dissertation is entitled "Differentiable Optimization-Based Inference for Machine Learning" and my <b>thesis proposal</b> is available [here](https://goo.gl/MTiDrb). My publications are available below and on my [Google Scholar](https://scholar.google.com/citations?user=d8gdZR4AAAAJ) page. <br><br> My research straddles <b>applied and theoretical contributions</b>. Over the past three years (since 2016) I have focused on foundational contributions to the <b>NIPS, ICML, and ICLR communities</b>. The core pillars of my dissertation are my <b>ICML 2017</b> papers on [input-convex neural networks](https://arxiv.org/abs/1609.07152) and [OptNet layers](https://arxiv.org/abs/1703.00443). My <b>NIPS 2018</b> paper uses OptNet as a foundation to <b>combine model-free and model-based</b> reinforcement learning. I have also worked on <b>reinforcement learning</b> during an internship with [Nando de Freitas](https://www.cs.ubc.ca/~nando/) and [Misha Denil](http://mdenil.com/) at <b>DeepMind</b> in 2017, publishing an <b>ICLR 2018</b> paper [Learning Awareness Models](https://arxiv.org/abs/1804.06318), and on <b>combinatorial and discrete learning problems</b> with [Vladlen Koltun](http://vladlen.info) at <b>Intel Labs</b> in 2018. <br><br> Before this, as an undergraduate (from 2011-2014) I focused on compilers, distributed systems, mobile computing, and [Quasi-Newton Methods for Stochastic Optimization](https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf). I value important <b>societal applications</b> of my work and spent the first two years of my Ph.D. (from 2014-2016) working on applied machine learning and computer vision technologies underlying <b>mobile and wearable cognitive assistance systems</b> with [Mahadev Satyanarayanan](https://www.cs.cmu.edu/~satya/), publishing papers at <b>systems- and mobile-oriented</b> venues during this time. <br><br> I strongly believe in <b>open science, reproducible research, and well-engineered projects</b> and actively publish code on [my Github profile](https://github.com/bamos). This led me to create [OpenFace](https://cmusatyalab.github.io/openface/) in 2016, which was the first open-source deep-learning-based face recognition project. I <b>deeply value collaboration</b> and believe it catalyzes scientific progress and have been involved as a non-primary co-author on <b>~15 papers</b> over the past few years. I enjoy <b>writing and teaching introductory material</b> if I see an opportunity, like [this blog post on image completion with GANs.](http://bamos.github.io/2016/08/09/deep-completion/) <br><br> <b>I am on the job market.</b> For at least the next decade of my career I want to stay in the machine learning research community. I am looking for a position that lets me continue to <b>straddle foundational and applied contributions</b> to the field. Please [get in touch](http://bamos.github.io/data/cv.pdf) if you have an opening. <br><br>
-
-
-## <i class="fa fa-chevron-right"></i> News
-<table class="table table-hover">
-<tr>
-  <td class='col-md-3'>Sept 2018</td>
-  <td>I will be attending NIPS 2018 this year. Come see our work on 1) differentiable model predictive control and 2) depth-limited solving for imperfect-information games. </td>
-</tr>
-</table>
+ I am a researcher and broadly study foundational topics and applications in <b>machine learning</b> (sometimes deep) and <b>optimization</b> (sometimes convex), including reinforcement learning, computer vision, language, statistics, and theory. I am finishing a Ph.D. at <b>Carnegie Mellon University</b> advised by [Zico Kolter](http://zicokolter.com/) and am supported by an <b>NSF graduate research fellowship.</b> My dissertation is entitled "Differentiable Optimization-Based Inference for Machine Learning" and my <b>thesis proposal</b> is available [here](https://goo.gl/MTiDrb). My publications are available below and on my [Google Scholar](https://scholar.google.com/citations?user=d8gdZR4AAAAJ) page. <br><br> My research straddles <b>applied and theoretical contributions</b>. Over the past three years (since 2016) I have focused on foundational contributions to the <b>NeurIPS, ICML, and ICLR communities</b>. The core pillars of my dissertation are my <b>ICML 2017</b> papers on [input-convex neural networks](https://arxiv.org/abs/1609.07152) and [OptNet layers](https://arxiv.org/abs/1703.00443). My <b>NeurIPS 2018</b> paper uses OptNet as a foundation to <b>combine model-free and model-based</b> reinforcement learning. I have also worked on <b>reinforcement learning</b> during an internship with [Nando de Freitas](https://www.cs.ubc.ca/~nando/) and [Misha Denil](http://mdenil.com/) at <b>DeepMind</b> in 2017, publishing an <b>ICLR 2018</b> paper [Learning Awareness Models](https://arxiv.org/abs/1804.06318), and on <b>combinatorial and discrete learning problems</b> with [Vladlen Koltun](http://vladlen.info) at <b>Intel Labs</b> in 2018. <br><br> Before this, as an undergraduate (from 2011-2014) I focused on compilers, distributed systems, mobile computing, and [Quasi-Newton Methods for Stochastic Optimization](https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf). I value important <b>societal applications</b> of my work and spent the first two years of my Ph.D. (from 2014-2016) working on applied machine learning and computer vision technologies underlying <b>mobile and wearable cognitive assistance systems</b> with [Mahadev Satyanarayanan](https://www.cs.cmu.edu/~satya/), publishing papers at <b>systems- and mobile-oriented</b> venues during this time. <br><br> I strongly believe in <b>open science, reproducible research, and well-engineered projects</b> and actively publish code on [my Github profile](https://github.com/bamos). This led me to create [OpenFace](https://cmusatyalab.github.io/openface/) in 2016. <br><br>
 
 
 ## <i class="fa fa-chevron-right"></i> Education
@@ -114,7 +105,7 @@
 <td>
     <strong>Differentiable MPC for End-to-end Planning and Control</strong><br>
     <strong>B. Amos</strong>, I. Rodriguez, J. Sacks, B. Boots, and J. Kolter<br>
-    NIPS 2018<br>
+    NeurIPS 2018<br>
     
     [1] 
 [<a href='javascript: none'
@@ -133,7 +124,7 @@ We present foundations for using Model Predictive Control (MPC) as a differentia
 <td>
     <strong>Depth-Limited Solving for Imperfect-Information Games</strong><br>
     N. Brown, T. Sandholm, and <strong>B. Amos</strong><br>
-    NIPS 2018<br>
+    NeurIPS 2018<br>
     
     [2] 
 [<a href='javascript: none'
@@ -193,7 +184,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
 <td>
     <strong>Task-based End-to-end Model Learning</strong><br>
     P. Donti, <strong>B. Amos</strong>, and J. Kolter<br>
-    NIPS 2017<br>
+    NeurIPS 2017<br>
     
     [4] 
 [<a href='javascript: none'
@@ -460,37 +451,9 @@ biology problems is given.
   </td>
 </tr>
 <tr>
-  <td class='col-md-2'>2014</td>
-  <td>
-    1st Place Undergraduate Senior Capstone Award, Virginia Tech Computer Science
-    <!--  -->
-  </td>
-</tr>
-<tr>
-  <td class='col-md-2'>2014</td>
-  <td>
-    David Heilman Research Award, Virginia Tech Computer Science
-    <!--  -->
-  </td>
-</tr>
-<tr>
-  <td class='col-md-2'>2014</td>
-  <td>
-    Senior Scholar Award, Virginia Tech Computer Science
-    <!--  -->
-  </td>
-</tr>
-<tr>
-  <td class='col-md-2'>2014</td>
-  <td>
-    Honorable Mention, CRA Outstanding Undergraduate Researcher Award
-    <!--  -->
-  </td>
-</tr>
-<tr>
   <td class='col-md-2'>2011 - 2014</td>
   <td>
-    Awarded eight undergraduate merit scholarships
+    Eight undergraduate scholarships
     <!--  -->
   </td>
 </tr>
@@ -508,7 +471,7 @@ C, C++, Fortran, Haskell, Java, Lua, Make, *Mathematica*, Python, R, Scala
 <tr>
   <td class='col-md-2'>Frameworks</td>
   <td markdown="1">
-Akka, NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
+NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
   </td>
 </tr>
 <tr>
@@ -525,7 +488,7 @@ Linux, OSX
 <tr>
   <td class='col-md-2'>Reviewer</td>
   <td markdown="1">
-ICML 2018, NIPS 2018, ICLR 2019, NIPS Deep RL Workshop 2018
+ICML 2018, NeurIPS 2018, ICLR 2019, NeurIPS Deep RL Workshop 2018
   </td>
 </tr>
 <tr>
@@ -669,7 +632,7 @@ biology problems is given.
 <td>
     <strong>Differentiable MPC for End-to-end Planning and Control</strong><br>
     <strong>B. Amos</strong>, I. Rodriguez, J. Sacks, B. Boots, and J. Kolter<br>
-    NIPS 2018<br>
+    NeurIPS 2018<br>
     
     [C1] 
 [<a href='javascript: none'
@@ -687,7 +650,7 @@ In this paper we present foundations for using model predictive control (MPC) as
 <td>
     <strong>Depth-Limited Solving for Imperfect-Information Games</strong><br>
     N. Brown, T. Sandholm, and <strong>B. Amos</strong><br>
-    NIPS 2018<br>
+    NeurIPS 2018<br>
     
     [C2] 
 [<a href='javascript: none'
@@ -757,7 +720,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
 <td>
     <strong>Task-based End-to-end Model Learning</strong><br>
     P. Donti, <strong>B. Amos</strong>, and J. Kolter<br>
-    NIPS 2017<br>
+    NeurIPS 2017<br>
     
     [C5] 
 [<a href='javascript: none'
