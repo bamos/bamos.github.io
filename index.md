@@ -7,6 +7,7 @@ title: Brandon Amos
 
 {% include cv.md %}
 
+<!--
 ## <i class="fa fa-chevron-right"></i> Recent Blog Posts
 
 <table class="table table-hover">
@@ -55,6 +56,7 @@ title: Brandon Amos
   and [beamer-snippets](https://github.com/bamos/beamer-snippets):
   Personal collection and previewing of LaTeX and Beamer snippets.
   Admittedly, I now use Keynote for presentations.
+-->
 
 ---
 
