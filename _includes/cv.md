@@ -5,7 +5,7 @@
 
 <table class="table table-hover">
   <tr>
-    <td class="col-md-3">Aug 2014 - May 2019 (expected)</td>
+    <td class="col-md-3">Aug 2014 - May 2019</td>
     <td>
         <strong>Ph.D. in Computer Science</strong>
           (0.00/0.00)
