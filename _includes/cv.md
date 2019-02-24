@@ -8,6 +8,7 @@
     <td class="col-md-3">Aug 2014 - May 2019 (expected)</td>
     <td>
         <strong>Ph.D. in Computer Science</strong>
+          (0.00/0.00)
         <br>
       Carnegie Mellon University
     </td>
@@ -16,6 +17,7 @@
     <td class="col-md-3">Aug 2014 - May 2016</td>
     <td>
         <strong>M.S. in Computer Science</strong>
+          (0.00/0.00)
         <br>
       Carnegie Mellon University
     </td>
@@ -396,6 +398,18 @@ biology problems is given.
 ## <i class="fa fa-chevron-right"></i> Industry Experience
 <table class="table table-hover">
 <tr>
+  <td class='col-md-3'>June 2018 - Sept 2018</td>
+  <td><strong>Intel Labs</strong>, Research Intern</td>
+</tr>
+<tr>
+</tr>
+<tr>
+  <td class='col-md-3'>May 2017 - Oct 2017</td>
+  <td><strong>Google DeepMind</strong>, Research Intern</td>
+</tr>
+<tr>
+</tr>
+<tr>
   <td class='col-md-3'>May 2014 - Aug 2014</td>
   <td><strong>Adobe Research</strong>, Data Scientist Intern</td>
 </tr>
@@ -488,7 +502,7 @@ Linux, OSX
 <tr>
   <td class='col-md-2'>Reviewer</td>
   <td markdown="1">
-ICML 2018, NeurIPS 2018, ICLR 2019, NeurIPS Deep RL Workshop 2018
+ICML 2018, NeurIPS 2018, NeurIPS Deep RL Workshop 2018, ICLR 2019 (outstanding reviewer), ICCV 2019
   </td>
 </tr>
 <tr>
