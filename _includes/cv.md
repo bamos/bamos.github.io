@@ -479,11 +479,40 @@ Linux, OSX
 
 <tr>
 <td>
+    <strong>The Limited Multi-Label Projection Layer</strong><br>
+    <strong>B. Amos</strong>, V. Koltun, and J. Kolter<br>
+    arXiv 2019<br>
+    
+    [P1] 
+[<a href='javascript: none'
+    onclick='$("#abs_amos2019limitedP").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1906.08707' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/lml' target='_blank'>code</a>] <br>
+    
+<div id="abs_amos2019limitedP" style="text-align: justify; display: none" markdown="1">
+We propose the Limited Multi-Label (LML) projection layer as a new
+primitive operation for end-to-end learning systems. The LML layer
+provides a probabilistic way of modeling multi-label predictions
+limited to having exactly k labels. We derive efficient forward and
+backward passes for this layer and show how the layer can be used to
+optimize the top-k recall for multi-label tasks with incomplete label
+information. We evaluate LML layers on top-k CIFAR-100 classification
+and scene graph generation. We show that LML layers add a negligible
+amount of computational overhead, strictly improve the model's
+representational capacity, and improve accuracy. We also revisit the
+truncated top-k entropy method as a competitive baseline for top-k
+classification.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td>
     <strong>Differentiable Optimization-Based Modeling for Machine Learning</strong><br>
     <strong>B. Amos</strong><br>
     Ph.D. Thesis 2019<br>
     
-    [P1] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
+    [P2] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
     
 </td>
 </tr>
@@ -495,7 +524,7 @@ Linux, OSX
     <strong>B. Amos</strong>, B. Ludwiczuk, and M. Satyanarayanan<br>
     CMU 2016<br>
     
-    [P2] 
+    [P3] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2016openfaceP").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
     
@@ -526,7 +555,7 @@ the Apache 2.0 license. It is available at:
     Y. Gao, W. Hu, K. Ha, <strong>B. Amos</strong>, P. Pillai, and M. Satyanarayanan<br>
     CMU 2015<br>
     
-    [P3] 
+    [P4] 
 [<a href='javascript: none'
     onclick='$("#abs_gao2015cloudletsP").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'>pdf</a>] <br>
     
@@ -553,7 +582,7 @@ consumption in a mobile device by up to 42% compared to cloud offload.
     K. Ha, Y. Abe, Z. Chen, W. Hu, <strong>B. Amos</strong>, P. Pillai, and M. Satyanarayanan<br>
     CMU 2015<br>
     
-    [P4] 
+    [P5] 
 [<a href='javascript: none'
     onclick='$("#abs_ha2015adaptiveP").toggle()'>abs</a>] [<a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'>pdf</a>] <br>
     
@@ -580,7 +609,7 @@ changing network conditions and processing capacity
     <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
     VT 2014<br>
     
-    [P5] 
+    [P6] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2014QNSTOPP").toggle()'>abs</a>] [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
     
