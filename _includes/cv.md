@@ -102,13 +102,43 @@
 <table class="table table-hover">
 
 <tr>
+<td class="col-md-3"><a href='https://arxiv.org/abs/1906.08707' target='_blank'><img src="images/publications/amos2019limited.png"/></a> </td>
+<td>
+    <strong>The Limited Multi-Label Projection Layer</strong><br>
+    <strong>B. Amos</strong>, V. Koltun, and J. Kolter<br>
+    arXiv 2019<br>
+    
+    [1] 
+[<a href='javascript: none'
+    onclick='$("#abs_amos2019limited").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1906.08707' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/lml' target='_blank'>code</a>] <br>
+    
+<div id="abs_amos2019limited" style="text-align: justify; display: none" markdown="1">
+We propose the Limited Multi-Label (LML) projection layer as a new
+primitive operation for end-to-end learning systems. The LML layer
+provides a probabilistic way of modeling multi-label predictions
+limited to having exactly k labels. We derive efficient forward and
+backward passes for this layer and show how the layer can be used to
+optimize the top-k recall for multi-label tasks with incomplete label
+information. We evaluate LML layers on top-k CIFAR-100 classification
+and scene graph generation. We show that LML layers add a negligible
+amount of computational overhead, strictly improve the model's
+representational capacity, and improve accuracy. We also revisit the
+truncated top-k entropy method as a competitive baseline for top-k
+classification.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
 <td class="col-md-3"><a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'><img src="images/publications/amos2019differentiable.png"/></a> </td>
 <td>
     <strong>Differentiable Optimization-Based Modeling for Machine Learning</strong><br>
     <strong>B. Amos</strong><br>
     Ph.D. Thesis 2019<br>
     
-    [1] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
+    [2] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
     
 </td>
 </tr>
@@ -121,7 +151,7 @@
     <strong>B. Amos</strong>, I. Rodriguez, J. Sacks, B. Boots, and J. Kolter<br>
     NeurIPS 2018<br>
     
-    [2] 
+    [3] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2018end").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1810.13400' target='_blank'>pdf</a>]  [<a href='https://locuslab.github.io/mpc.pytorch/' target='_blank'>code</a>] <br>
     
@@ -140,7 +170,7 @@ We present foundations for using Model Predictive Control (MPC) as a differentia
     N. Brown, T. Sandholm, and <strong>B. Amos</strong><br>
     NeurIPS 2018<br>
     
-    [3] 
+    [4] 
 [<a href='javascript: none'
     onclick='$("#abs_brown2018depth").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1805.08195' target='_blank'>pdf</a>] <br>
     
@@ -159,7 +189,7 @@ A fundamental challenge in imperfect-information games is that states do not hav
     <strong>B. Amos</strong>, L. Dinh, S. Cabi, T. Roth&ouml;rl, S. Colmenarejo, A. Muldal, T. Erez, Y. Tassa, N. de Freitas, and M. Denil<br>
     ICLR 2018<br>
     
-    [4] 
+    [5] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2018learning").toggle()'>abs</a>] [<a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'>pdf</a>] <br>
     
@@ -200,7 +230,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
     P. Donti, <strong>B. Amos</strong>, and J. Kolter<br>
     NeurIPS 2017<br>
     
-    [5] 
+    [6] 
 [<a href='javascript: none'
     onclick='$("#abs_donti2017task").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.04529' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
     
@@ -231,7 +261,7 @@ approach and a purely black-box policy optimization approach.
     <strong>B. Amos</strong> and J. Kolter<br>
     ICML 2017<br>
     
-    [6] 
+    [7] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017optnet").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.00443' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>] <br>
     
@@ -269,7 +299,7 @@ constraints better than other neural architectures.
     <strong>B. Amos</strong>, L. Xu, and J. Kolter<br>
     ICML 2017<br>
     
-    [7] 
+    [8] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017input").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
     
@@ -303,7 +333,7 @@ improvement over the existing state of the art in many cases.
     H. Zhao, T. Adel, G. Gordon, and <strong>B. Amos</strong><br>
     ICML 2016<br>
     
-    [8] 
+    [9] 
 [<a href='javascript: none'
     onclick='$("#abs_zhao2016collapsed").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'>pdf</a>] <br>
     
@@ -335,7 +365,7 @@ with a maximum likelihood based approach.
     <strong>B. Amos</strong>, B. Ludwiczuk, and M. Satyanarayanan<br>
     CMU 2016<br>
     
-    [9] 
+    [10] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2016openface").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
     
@@ -367,7 +397,7 @@ the Apache 2.0 license. It is available at:
     <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
     VT 2014<br>
     
-    [10] 
+    [11] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2014QNSTOP").toggle()'>abs</a>] [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
     
