@@ -102,13 +102,47 @@
 <table class="table table-hover">
 
 <tr>
+<td class="col-md-3"><a href='https://arxiv.org/abs/1909.12830' target='_blank'><img src="images/publications/amos2019differentiable2.png"/></a> </td>
+<td>
+    <strong>The Differentiable Cross-Entropy Method</strong><br>
+    <strong>B. Amos</strong> and D. Yarats<br>
+    arXiv 2019<br>
+    
+    [1] 
+[<a href='javascript: none'
+    onclick='$("#abs_amos2019differentiable2").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1909.12830' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_amos2019differentiable2" style="text-align: justify; display: none" markdown="1">
+We study the Cross-Entropy Method (CEM) for the non-convex
+optimization of a continuous and parameterized
+objective function and introduce a differentiable
+variant (DCEM) that enables us to differentiate the
+output of CEM with respect to the objective
+function's parameters. In the machine learning
+setting this brings CEM inside of the end-to-end
+learning pipeline where this has otherwise been
+impossible. We show applications in a synthetic
+energy-based structured prediction task and in
+non-convex continuous control. In the control
+setting we show on the simulated cheetah and walker
+tasks that we can embed their optimal action
+sequences with DCEM and then use policy optimization
+to fine-tune components of the controller as a step
+towards combining model-based and model-free RL.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
 <td class="col-md-3"><a href='https://arxiv.org/abs/1906.08707' target='_blank'><img src="images/publications/amos2019limited.png"/></a> </td>
 <td>
     <strong>The Limited Multi-Label Projection Layer</strong><br>
     <strong>B. Amos</strong>, V. Koltun, and J. Kolter<br>
     arXiv 2019<br>
     
-    [1] 
+    [2] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2019limited").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1906.08707' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/lml' target='_blank'>code</a>] <br>
     
@@ -138,7 +172,7 @@ classification.
     <strong>B. Amos</strong><br>
     Ph.D. Thesis 2019<br>
     
-    [2] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
+    [3] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
     
 </td>
 </tr>
@@ -151,7 +185,7 @@ classification.
     <strong>B. Amos</strong>, I. Rodriguez, J. Sacks, B. Boots, and J. Kolter<br>
     NeurIPS 2018<br>
     
-    [3] 
+    [4] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2018end").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1810.13400' target='_blank'>pdf</a>]  [<a href='https://locuslab.github.io/mpc.pytorch/' target='_blank'>code</a>] <br>
     
@@ -170,7 +204,7 @@ We present foundations for using Model Predictive Control (MPC) as a differentia
     N. Brown, T. Sandholm, and <strong>B. Amos</strong><br>
     NeurIPS 2018<br>
     
-    [4] 
+    [5] 
 [<a href='javascript: none'
     onclick='$("#abs_brown2018depth").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1805.08195' target='_blank'>pdf</a>] <br>
     
@@ -189,7 +223,7 @@ A fundamental challenge in imperfect-information games is that states do not hav
     <strong>B. Amos</strong>, L. Dinh, S. Cabi, T. Roth&ouml;rl, S. Colmenarejo, A. Muldal, T. Erez, Y. Tassa, N. de Freitas, and M. Denil<br>
     ICLR 2018<br>
     
-    [5] 
+    [6] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2018learning").toggle()'>abs</a>] [<a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'>pdf</a>] <br>
     
@@ -230,7 +264,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
     P. Donti, <strong>B. Amos</strong>, and J. Kolter<br>
     NeurIPS 2017<br>
     
-    [6] 
+    [7] 
 [<a href='javascript: none'
     onclick='$("#abs_donti2017task").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.04529' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
     
@@ -261,7 +295,7 @@ approach and a purely black-box policy optimization approach.
     <strong>B. Amos</strong> and J. Kolter<br>
     ICML 2017<br>
     
-    [7] 
+    [8] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017optnet").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.00443' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>] <br>
     
@@ -299,7 +333,7 @@ constraints better than other neural architectures.
     <strong>B. Amos</strong>, L. Xu, and J. Kolter<br>
     ICML 2017<br>
     
-    [8] 
+    [9] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017input").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
     
@@ -333,7 +367,7 @@ improvement over the existing state of the art in many cases.
     H. Zhao, T. Adel, G. Gordon, and <strong>B. Amos</strong><br>
     ICML 2016<br>
     
-    [9] 
+    [10] 
 [<a href='javascript: none'
     onclick='$("#abs_zhao2016collapsed").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'>pdf</a>] <br>
     
@@ -365,7 +399,7 @@ with a maximum likelihood based approach.
     <strong>B. Amos</strong>, B. Ludwiczuk, and M. Satyanarayanan<br>
     CMU 2016<br>
     
-    [10] 
+    [11] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2016openface").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
     
@@ -397,7 +431,7 @@ the Apache 2.0 license. It is available at:
     <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
     VT 2014<br>
     
-    [11] 
+    [12] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2014QNSTOP").toggle()'>abs</a>] [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
     
@@ -509,11 +543,115 @@ Linux, OSX
 
 <tr>
 <td>
+    <strong>The Differentiable Cross-Entropy Method</strong><br>
+    <strong>B. Amos</strong> and D. Yarats<br>
+    arXiv 2019<br>
+    
+    [P1] 
+[<a href='javascript: none'
+    onclick='$("#abs_amos2019differentiableP").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1909.12830' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_amos2019differentiableP" style="text-align: justify; display: none" markdown="1">
+We study the Cross-Entropy Method (CEM) for the non-convex
+optimization of a continuous and parameterized
+objective function and introduce a differentiable
+variant (DCEM) that enables us to differentiate the
+output of CEM with respect to the objective
+function's parameters. In the machine learning
+setting this brings CEM inside of the end-to-end
+learning pipeline where this has otherwise been
+impossible. We show applications in a synthetic
+energy-based structured prediction task and in
+non-convex continuous control. In the control
+setting we show on the simulated cheetah and walker
+tasks that we can embed their optimal action
+sequences with DCEM and then use policy optimization
+to fine-tune components of the controller as a step
+towards combining model-based and model-free RL.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td>
+    <strong>Generalized Inner Loop Meta-Learning</strong><br>
+    E. Grefenstette, <strong>B. Amos</strong>, D. Yarats, P. Htut, A. Molchanov, F. Meier, D. Kiela, K. Cho, and S. Chintala<br>
+    arXiv 2019<br>
+    
+    [P2] 
+[<a href='javascript: none'
+    onclick='$("#abs_grefenstette2019generalizedP").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1910.01727' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_grefenstette2019generalizedP" style="text-align: justify; display: none" markdown="1">
+Many (but not all) approaches self-qualifying as "meta-learning" in
+deep learning and reinforcement learning fit a
+common pattern of approximating the solution to a
+nested optimization problem. In this paper, we give
+a formalization of this shared pattern, which we
+call GIMLI, prove its general requirements, and
+derive a general-purpose algorithm for implementing
+similar approaches. Based on this analysis and
+algorithm, we describe a library of our design, higher, which we share with the community to assist
+and enable future research into these kinds of
+meta-learning approaches. We end the paper by
+showcasing the practical applications of this
+framework and library through illustrative
+experiments and ablation studies which they
+facilitate.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td>
+    <strong>Improving Sample Efficiency in Model-Free Reinforcement Learning from Images</strong><br>
+    D. Yarats, A. Zhang, I. Kostrikov, <strong>B. Amos</strong>, J. Pineau, and R. Fergus<br>
+    arXiv 2019<br>
+    
+    [P3] 
+[<a href='javascript: none'
+    onclick='$("#abs_yarats2019improvingP").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1910.01741' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_yarats2019improvingP" style="text-align: justify; display: none" markdown="1">
+Training an agent to solve control tasks directly from
+high-dimensional images with model-free
+reinforcement learning (RL) has proven
+difficult. The agent needs to learn a latent
+representation together with a control policy to
+perform the task. Fitting a high-capacity encoder
+using a scarce reward signal is not only sample
+inefficient, but also prone to suboptimal
+convergence. Two ways to improve sample efficiency
+are to extract relevant features for the task and
+use off-policy algorithms. We dissect various
+approaches of learning good latent features, and
+conclude that the image reconstruction loss is the
+essential ingredient that enables efficient and
+stable representation learning in image-based
+RL. Following these findings, we devise an
+off-policy actor-critic algorithm with an auxiliary
+decoder that trains end-to-end and matches
+state-of-the-art performance across both model-free
+and model-based algorithms on many challenging
+control tasks. We release our code to encourage
+future research on image-based RL.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td>
     <strong>The Limited Multi-Label Projection Layer</strong><br>
     <strong>B. Amos</strong>, V. Koltun, and J. Kolter<br>
     arXiv 2019<br>
     
-    [P1] 
+    [P4] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2019limitedP").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1906.08707' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/lml' target='_blank'>code</a>] <br>
     
@@ -542,7 +680,7 @@ classification.
     <strong>B. Amos</strong><br>
     Ph.D. Thesis 2019<br>
     
-    [P2] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
+    [P5] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
     
 </td>
 </tr>
@@ -554,7 +692,7 @@ classification.
     <strong>B. Amos</strong>, B. Ludwiczuk, and M. Satyanarayanan<br>
     CMU 2016<br>
     
-    [P3] 
+    [P6] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2016openfaceP").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
     
@@ -585,7 +723,7 @@ the Apache 2.0 license. It is available at:
     Y. Gao, W. Hu, K. Ha, <strong>B. Amos</strong>, P. Pillai, and M. Satyanarayanan<br>
     CMU 2015<br>
     
-    [P4] 
+    [P7] 
 [<a href='javascript: none'
     onclick='$("#abs_gao2015cloudletsP").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'>pdf</a>] <br>
     
@@ -612,7 +750,7 @@ consumption in a mobile device by up to 42% compared to cloud offload.
     K. Ha, Y. Abe, Z. Chen, W. Hu, <strong>B. Amos</strong>, P. Pillai, and M. Satyanarayanan<br>
     CMU 2015<br>
     
-    [P5] 
+    [P8] 
 [<a href='javascript: none'
     onclick='$("#abs_ha2015adaptiveP").toggle()'>abs</a>] [<a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'>pdf</a>] <br>
     
@@ -639,7 +777,7 @@ changing network conditions and processing capacity
     <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
     VT 2014<br>
     
-    [P6] 
+    [P9] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2014QNSTOPP").toggle()'>abs</a>] [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
     
