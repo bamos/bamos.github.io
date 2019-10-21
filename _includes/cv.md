@@ -102,13 +102,32 @@
 <table class="table table-hover">
 
 <tr>
+<td class="col-md-3"><img src="images/publications/amos2019differentiable3.png"/></td>
+<td>
+    <strong>Differentiable Convex Optimization Layers</strong><br>
+    A. Agrawal, <strong>B. Amos</strong>, S. Barratt, S. Boyd, S. Diamond, and J. Kolter<br>
+    NeurIPS 2019<br>
+    
+    [1] 
+[<a href='javascript: none'
+    onclick='$("#abs_amos2019differentiable3").toggle()'>abs</a>]<br>
+    
+<div id="abs_amos2019differentiable3" style="text-align: justify; display: none" markdown="1">
+Recent work has shown how to embed differentiable optimization problems (that is, optimization problems whose solutions can be backpropagated through) as layers within deep learning architectures. This method provides a useful inductive bias for certain problems, but existing software for differentiable optimization layers is rigid and difficult to apply to new settings. In this paper, we propose an approach to differentiating through disciplined convex programs, a subclass of convex optimization problems used by domain-specific languages (DSLs) for convex optimization. We represent a disciplined convex program as the composition of an affine map from parameters to problem data, a solver, and an affine map from the solver’s solution to a solution of the original problem (a new form we refer to as affine-solver-affine form). We then demonstrate how to efficiently differentiate through each of these components, allowing for end-to-end analytical differentiation through the convex program. We implement our methodology in version 1.1 of CVXPY, a popular Python-embedded DSL for convex optimization, and additionally implement differentiable layers for disciplined convex programs in PyTorch and TensorFlow 2.0. Our implementation significantly lowers the barrier to using convex optimization problems in differentiable programs. We present applications in linear machine learning models and in stochastic control, and we show that our layer is competitive (in execution time) with specialized differentiable solvers from past work.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
 <td class="col-md-3"><a href='https://arxiv.org/abs/1909.12830' target='_blank'><img src="images/publications/amos2019differentiable2.png"/></a> </td>
 <td>
     <strong>The Differentiable Cross-Entropy Method</strong><br>
     <strong>B. Amos</strong> and D. Yarats<br>
     arXiv 2019<br>
     
-    [1] 
+    [2] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2019differentiable2").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1909.12830' target='_blank'>pdf</a>] <br>
     
@@ -142,7 +161,7 @@ towards combining model-based and model-free RL.
     <strong>B. Amos</strong>, V. Koltun, and J. Kolter<br>
     arXiv 2019<br>
     
-    [2] 
+    [3] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2019limited").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1906.08707' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/lml' target='_blank'>code</a>] <br>
     
@@ -172,7 +191,7 @@ classification.
     <strong>B. Amos</strong><br>
     Ph.D. Thesis 2019<br>
     
-    [3] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
+    [4] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
     
 </td>
 </tr>
@@ -185,7 +204,7 @@ classification.
     <strong>B. Amos</strong>, I. Rodriguez, J. Sacks, B. Boots, and J. Kolter<br>
     NeurIPS 2018<br>
     
-    [4] 
+    [5] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2018end").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1810.13400' target='_blank'>pdf</a>]  [<a href='https://locuslab.github.io/mpc.pytorch/' target='_blank'>code</a>] <br>
     
@@ -204,7 +223,7 @@ We present foundations for using Model Predictive Control (MPC) as a differentia
     N. Brown, T. Sandholm, and <strong>B. Amos</strong><br>
     NeurIPS 2018<br>
     
-    [5] 
+    [6] 
 [<a href='javascript: none'
     onclick='$("#abs_brown2018depth").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1805.08195' target='_blank'>pdf</a>] <br>
     
@@ -223,7 +242,7 @@ A fundamental challenge in imperfect-information games is that states do not hav
     <strong>B. Amos</strong>, L. Dinh, S. Cabi, T. Roth&ouml;rl, S. Colmenarejo, A. Muldal, T. Erez, Y. Tassa, N. de Freitas, and M. Denil<br>
     ICLR 2018<br>
     
-    [6] 
+    [7] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2018learning").toggle()'>abs</a>] [<a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'>pdf</a>] <br>
     
@@ -264,7 +283,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
     P. Donti, <strong>B. Amos</strong>, and J. Kolter<br>
     NeurIPS 2017<br>
     
-    [7] 
+    [8] 
 [<a href='javascript: none'
     onclick='$("#abs_donti2017task").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.04529' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
     
@@ -295,7 +314,7 @@ approach and a purely black-box policy optimization approach.
     <strong>B. Amos</strong> and J. Kolter<br>
     ICML 2017<br>
     
-    [8] 
+    [9] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017optnet").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.00443' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>] <br>
     
@@ -333,7 +352,7 @@ constraints better than other neural architectures.
     <strong>B. Amos</strong>, L. Xu, and J. Kolter<br>
     ICML 2017<br>
     
-    [9] 
+    [10] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017input").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
     
@@ -367,7 +386,7 @@ improvement over the existing state of the art in many cases.
     H. Zhao, T. Adel, G. Gordon, and <strong>B. Amos</strong><br>
     ICML 2016<br>
     
-    [10] 
+    [11] 
 [<a href='javascript: none'
     onclick='$("#abs_zhao2016collapsed").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'>pdf</a>] <br>
     
@@ -399,7 +418,7 @@ with a maximum likelihood based approach.
     <strong>B. Amos</strong>, B. Ludwiczuk, and M. Satyanarayanan<br>
     CMU 2016<br>
     
-    [11] 
+    [12] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2016openface").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
     
@@ -431,7 +450,7 @@ the Apache 2.0 license. It is available at:
     <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
     VT 2014<br>
     
-    [12] 
+    [13] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2014QNSTOP").toggle()'>abs</a>] [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
     
@@ -805,11 +824,29 @@ biology problems is given.
 
 <tr>
 <td>
+    <strong>Differentiable Convex Optimization Layers</strong><br>
+    A. Agrawal, <strong>B. Amos</strong>, S. Barratt, S. Boyd, S. Diamond, and J. Kolter<br>
+    NeurIPS 2019<br>
+    
+    [C1] 
+[<a href='javascript: none'
+    onclick='$("#abs_amos2019differentiable3C").toggle()'>abs</a>]<br>
+    
+<div id="abs_amos2019differentiable3C" style="text-align: justify; display: none" markdown="1">
+Recent work has shown how to embed differentiable optimization problems (that is, optimization problems whose solutions can be backpropagated through) as layers within deep learning architectures. This method provides a useful inductive bias for certain problems, but existing software for differentiable optimization layers is rigid and difficult to apply to new settings. In this paper, we propose an approach to differentiating through disciplined convex programs, a subclass of convex optimization problems used by domain-specific languages (DSLs) for convex optimization. We represent a disciplined convex program as the composition of an affine map from parameters to problem data, a solver, and an affine map from the solver’s solution to a solution of the original problem (a new form we refer to as affine-solver-affine form). We then demonstrate how to efficiently differentiate through each of these components, allowing for end-to-end analytical differentiation through the convex program. We implement our methodology in version 1.1 of CVXPY, a popular Python-embedded DSL for convex optimization, and additionally implement differentiable layers for disciplined convex programs in PyTorch and TensorFlow 2.0. Our implementation significantly lowers the barrier to using convex optimization problems in differentiable programs. We present applications in linear machine learning models and in stochastic control, and we show that our layer is competitive (in execution time) with specialized differentiable solvers from past work.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td>
     <strong>Differentiable MPC for End-to-end Planning and Control</strong><br>
     <strong>B. Amos</strong>, I. Rodriguez, J. Sacks, B. Boots, and J. Kolter<br>
     NeurIPS 2018<br>
     
-    [C1] 
+    [C2] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2018endC").toggle()'>abs</a>]<br>
     
@@ -827,7 +864,7 @@ In this paper we present foundations for using model predictive control (MPC) as
     N. Brown, T. Sandholm, and <strong>B. Amos</strong><br>
     NeurIPS 2018<br>
     
-    [C2] 
+    [C3] 
 [<a href='javascript: none'
     onclick='$("#abs_brown2018depthC").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1805.08195' target='_blank'>pdf</a>] <br>
     
@@ -845,7 +882,7 @@ A fundamental challenge in imperfect-information games is that states do not hav
     <strong>B. Amos</strong>, L. Dinh, S. Cabi, T. Roth&ouml;rl, S. Colmenarejo, A. Muldal, T. Erez, Y. Tassa, N. de Freitas, and M. Denil<br>
     ICLR 2018<br>
     
-    [C3] 
+    [C4] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2018learningC").toggle()'>abs</a>] [<a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'>pdf</a>] <br>
     
@@ -885,7 +922,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
     J. Wang, <strong>B. Amos</strong>, A. Das, P. Pillai, N. Sadeh, and M. Satyanarayanan<br>
     ACM MMSys 2017<br>
     <strong>Best Paper Award</strong><br>
-    [C4]<br>
+    [C5]<br>
     
 </td>
 </tr>
@@ -897,7 +934,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
     P. Donti, <strong>B. Amos</strong>, and J. Kolter<br>
     NeurIPS 2017<br>
     
-    [C5] 
+    [C6] 
 [<a href='javascript: none'
     onclick='$("#abs_donti2017taskC").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.04529' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
     
@@ -927,7 +964,7 @@ approach and a purely black-box policy optimization approach.
     <strong>B. Amos</strong> and J. Kolter<br>
     ICML 2017<br>
     
-    [C6] 
+    [C7] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017optnetC").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.00443' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>] <br>
     
@@ -964,7 +1001,7 @@ constraints better than other neural architectures.
     <strong>B. Amos</strong>, L. Xu, and J. Kolter<br>
     ICML 2017<br>
     
-    [C7] 
+    [C8] 
 [<a href='javascript: none'
     onclick='$("#abs_amos2017inputC").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
     
@@ -997,7 +1034,7 @@ improvement over the existing state of the art in many cases.
     H. Zhao, T. Adel, G. Gordon, and <strong>B. Amos</strong><br>
     ICML 2016<br>
     
-    [C8] 
+    [C9] 
 [<a href='javascript: none'
     onclick='$("#abs_zhao2016collapsedC").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'>pdf</a>] <br>
     
