@@ -102,15 +102,15 @@
 <table class="table table-hover">
 
 <tr>
-<td class="col-md-3"><img src="images/publications/amos2019differentiable3.png"/></td>
+<td class="col-md-3"><a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'><img src="images/publications/amos2019differentiable3.png"/></a> </td>
 <td>
     <strong>Differentiable Convex Optimization Layers</strong><br>
-    A. Agrawal, <strong>B. Amos</strong>, S. Barratt, S. Boyd, S. Diamond, and J. Kolter<br>
+    A. Agrawal*, <strong>B. Amos*</strong>, S. Barratt*, S. Boyd*, S. Diamond*, and J. Z. Kolter<br>
     NeurIPS 2019<br>
     
     [1] 
 [<a href='javascript: none'
-    onclick='$("#abs_amos2019differentiable3").toggle()'>abs</a>]<br>
+    onclick='$("#abs_amos2019differentiable3").toggle()'>abs</a>] [<a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/cvxgrp/cvxpylayers' target='_blank'>code</a>] <br>
     
 <div id="abs_amos2019differentiable3" style="text-align: justify; display: none" markdown="1">
 Recent work has shown how to embed differentiable optimization problems (that is, optimization problems whose solutions can be backpropagated through) as layers within deep learning architectures. This method provides a useful inductive bias for certain problems, but existing software for differentiable optimization layers is rigid and difficult to apply to new settings. In this paper, we propose an approach to differentiating through disciplined convex programs, a subclass of convex optimization problems used by domain-specific languages (DSLs) for convex optimization. We represent a disciplined convex program as the composition of an affine map from parameters to problem data, a solver, and an affine map from the solver’s solution to a solution of the original problem (a new form we refer to as affine-solver-affine form). We then demonstrate how to efficiently differentiate through each of these components, allowing for end-to-end analytical differentiation through the convex program. We implement our methodology in version 1.1 of CVXPY, a popular Python-embedded DSL for convex optimization, and additionally implement differentiable layers for disciplined convex programs in PyTorch and TensorFlow 2.0. Our implementation significantly lowers the barrier to using convex optimization problems in differentiable programs. We present applications in linear machine learning models and in stochastic control, and we show that our layer is competitive (in execution time) with specialized differentiable solvers from past work.
@@ -158,7 +158,7 @@ towards combining model-based and model-free RL.
 <td class="col-md-3"><a href='https://arxiv.org/abs/1906.08707' target='_blank'><img src="images/publications/amos2019limited.png"/></a> </td>
 <td>
     <strong>The Limited Multi-Label Projection Layer</strong><br>
-    <strong>B. Amos</strong>, V. Koltun, and J. Kolter<br>
+    <strong>B. Amos</strong>, V. Koltun, and J. Z. Kolter<br>
     arXiv 2019<br>
     
     [3] 
@@ -201,7 +201,7 @@ classification.
 <td class="col-md-3"><a href='https://arxiv.org/abs/1810.13400' target='_blank'><img src="images/publications/amos2018end.png"/></a> </td>
 <td>
     <strong>Differentiable MPC for End-to-end Planning and Control</strong><br>
-    <strong>B. Amos</strong>, I. Rodriguez, J. Sacks, B. Boots, and J. Kolter<br>
+    <strong>B. Amos</strong>, I. Rodriguez, J. Sacks, B. Boots, and J. Z. Kolter<br>
     NeurIPS 2018<br>
     
     [5] 
@@ -280,7 +280,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
 <td class="col-md-3"><a href='http://arxiv.org/abs/1703.04529' target='_blank'><img src="images/publications/donti2017task.png"/></a> </td>
 <td>
     <strong>Task-based End-to-end Model Learning</strong><br>
-    P. Donti, <strong>B. Amos</strong>, and J. Kolter<br>
+    P. Donti, <strong>B. Amos</strong>, and J. Z. Kolter<br>
     NeurIPS 2017<br>
     
     [8] 
@@ -311,7 +311,7 @@ approach and a purely black-box policy optimization approach.
 <td class="col-md-3"><a href='http://arxiv.org/abs/1703.00443' target='_blank'><img src="images/publications/amos2017optnet.png"/></a> </td>
 <td>
     <strong>OptNet: Differentiable Optimization as a Layer in Neural Networks</strong><br>
-    <strong>B. Amos</strong> and J. Kolter<br>
+    <strong>B. Amos</strong> and J. Z. Kolter<br>
     ICML 2017<br>
     
     [9] 
@@ -349,7 +349,7 @@ constraints better than other neural architectures.
 <td class="col-md-3"><a href='http://arxiv.org/abs/1609.07152' target='_blank'><img src="images/publications/amos2017input.png"/></a> </td>
 <td>
     <strong>Input Convex Neural Networks</strong><br>
-    <strong>B. Amos</strong>, L. Xu, and J. Kolter<br>
+    <strong>B. Amos</strong>, L. Xu, and J. Z. Kolter<br>
     ICML 2017<br>
     
     [10] 
@@ -667,7 +667,7 @@ future research on image-based RL.
 <tr>
 <td>
     <strong>The Limited Multi-Label Projection Layer</strong><br>
-    <strong>B. Amos</strong>, V. Koltun, and J. Kolter<br>
+    <strong>B. Amos</strong>, V. Koltun, and J. Z. Kolter<br>
     arXiv 2019<br>
     
     [P4] 
@@ -825,7 +825,7 @@ biology problems is given.
 <tr>
 <td>
     <strong>Differentiable Convex Optimization Layers</strong><br>
-    A. Agrawal, <strong>B. Amos</strong>, S. Barratt, S. Boyd, S. Diamond, and J. Kolter<br>
+    A. Agrawal, <strong>B. Amos</strong>, S. Barratt, S. Boyd, S. Diamond, and J. Z. Kolter<br>
     NeurIPS 2019<br>
     
     [C1] 
@@ -843,7 +843,7 @@ Recent work has shown how to embed differentiable optimization problems (that is
 <tr>
 <td>
     <strong>Differentiable MPC for End-to-end Planning and Control</strong><br>
-    <strong>B. Amos</strong>, I. Rodriguez, J. Sacks, B. Boots, and J. Kolter<br>
+    <strong>B. Amos</strong>, I. Rodriguez, J. Sacks, B. Boots, and J. Z. Kolter<br>
     NeurIPS 2018<br>
     
     [C2] 
@@ -931,7 +931,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
 <tr>
 <td>
     <strong>Task-based End-to-end Model Learning</strong><br>
-    P. Donti, <strong>B. Amos</strong>, and J. Kolter<br>
+    P. Donti, <strong>B. Amos</strong>, and J. Z. Kolter<br>
     NeurIPS 2017<br>
     
     [C6] 
@@ -961,7 +961,7 @@ approach and a purely black-box policy optimization approach.
 <tr>
 <td>
     <strong>OptNet: Differentiable Optimization as a Layer in Neural Networks</strong><br>
-    <strong>B. Amos</strong> and J. Kolter<br>
+    <strong>B. Amos</strong> and J. Z. Kolter<br>
     ICML 2017<br>
     
     [C7] 
@@ -998,7 +998,7 @@ constraints better than other neural architectures.
 <tr>
 <td>
     <strong>Input Convex Neural Networks</strong><br>
-    <strong>B. Amos</strong>, L. Xu, and J. Kolter<br>
+    <strong>B. Amos</strong>, L. Xu, and J. Z. Kolter<br>
     ICML 2017<br>
     
     [C8] 
