@@ -299,7 +299,7 @@ One of the most recent ideas was presented in the paper
 "[Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434)" by
 Alec Radford, Luke Metz, and Soumith Chintala at the
 [International Conference on Learning Representations](http://www.iclr.cc/)
-(ICLR, pronounced "eye-clear") in 2016.
+in 2016.
 This paper presents deep convolutional GANs (called DCGANs)
 that use *fractionally-strided* convolutions to *upsample* images.
 
