@@ -101,36 +101,17 @@
 
 <table class="table table-hover">
 <tr>
-<td class="col-md-3"><a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'><img src="images/publications/amos2019differentiable3.png"/></a> </td>
-<td>
-    <strong>Differentiable Convex Optimization Layers</strong><br>
-    A. Agrawal*, <strong>B. Amos*</strong>, S. Barratt*, S. Boyd*, S. Diamond*, and J. Z. Kolter*<br>
-    NeurIPS 2019<br>
-    
-    [1] 
-[<a href='javascript:;'
-    onclick='$("#abs_amos2019differentiable3").toggle()'>abs</a>] [<a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/cvxgrp/cvxpylayers' target='_blank'>code</a>] <br>
-    
-<div id="abs_amos2019differentiable3" style="text-align: justify; display: none" markdown="1">
-Recent work has shown how to embed differentiable optimization problems (that is, problems whose solutions can be backpropagated through) as layers within deep learning architectures. This method provides a useful inductive bias for certain problems, but existing software for differentiable optimization layers is rigid and difficult to apply to new settings. In this paper, we propose an approach to differentiating through disciplined convex programs, a subclass of convex optimization problems used by domain-specific languages (DSLs) for convex optimization. We introduce disciplined parametrized programming, a subset of disciplined convex programming, and we show that every disciplined parametrized program can be represented as the composition of an affine map from parameters to problem data, a solver, and an affine map from the solver’s solution to a solution of the original problem (a new form we refer to as affine-solver-affine form). We then demonstrate how to efficiently differentiate through each of these components, allowing for end-to-end analytical differentiation through the entire convex program. We implement our methodology in version 1.1 of CVXPY, a popular Python-embedded DSL for convex optimization, and additionally implement differentiable layers for disciplined convex programs in PyTorch and TensorFlow 2.0. Our implementation significantly lowers the barrier to using convex optimization problems in differentiable programs. We present applications in linear machine learning models and in stochastic control, and we show that our layer is competitive (in execution time) compared to specialized differentiable solvers from past work.
-</div>
-
-</td>
-</tr>
-
-
-<tr>
-<td class="col-md-3"><a href='https://arxiv.org/abs/1909.12830' target='_blank'><img src="images/publications/amos2019differentiable2.png"/></a> </td>
+<td class="col-md-3"><a href='https://arxiv.org/abs/1909.12830' target='_blank'><img src="images/publications/amos2020differentiable.png"/></a> </td>
 <td>
     <strong>The Differentiable Cross-Entropy Method</strong><br>
     <strong>B. Amos</strong> and D. Yarats<br>
-    arXiv 2019<br>
+    ICML 2020<br>
     
-    [2] 
+    [1] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2019differentiable2").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1909.12830' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_amos2020differentiable").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1909.12830' target='_blank'>pdf</a>] <br>
     
-<div id="abs_amos2019differentiable2" style="text-align: justify; display: none" markdown="1">
+<div id="abs_amos2020differentiable" style="text-align: justify; display: none" markdown="1">
 We study the Cross-Entropy Method (CEM) for the non-convex
 optimization of a continuous and parameterized
 objective function and introduce a differentiable
@@ -154,13 +135,84 @@ towards combining model-based and model-free RL.
 
 
 <tr>
+<td class="col-md-3"><a href='https://arxiv.org/abs/2002.04523' target='_blank'><img src="images/publications/lambert2020objective.png"/></a> </td>
+<td>
+    <strong>Objective Mismatch in Model-based Reinforcement Learning</strong><br>
+    N. Lambert, <strong>B. Amos</strong>, O. Yadan, and R. Calandra<br>
+    L4DC 2020<br>
+    
+    [2] 
+[<a href='javascript:;'
+    onclick='$("#abs_lambert2020objective").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/2002.04523' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_lambert2020objective" style="text-align: justify; display: none" markdown="1">
+Model-based reinforcement learning (MBRL) has been shown to be a powerful framework for data-efficiently learning control of continuous tasks. Recent work in MBRL has mostly focused on using more advanced function approximators and planning schemes, with little development of the general framework. In this paper, we identify a fundamental issue of the standard MBRL framework-what we call the objective mismatch issue. Objective mismatch arises when one objective is optimized in the hope that a second, often uncorrelated, metric will also be optimized. In the context of MBRL, we characterize the objective mismatch between training the forward dynamics model wrt the likelihood of the one-step ahead prediction, and the overall goal of improving performance on a downstream control task. For example, this issue can emerge with the realization that dynamics models effective for a specific task do not necessarily need to be globally accurate, and vice versa globally accurate models might not be sufficiently accurate locally to obtain good control performance on a specific task. In our experiments, we study this objective mismatch issue and demonstrate that the likelihood of one-step ahead predictions is not always correlated with control performance. This observation highlights a critical limitation in the MBRL framework which will require further research to be fully understood and addressed. We propose an initial method to mitigate the mismatch issue by re-weighting dynamics model training. Building on it, we conclude with a discussion about other potential directions of research for addressing this issue.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'><img src="images/publications/amos2019differentiable3.png"/></a> </td>
+<td>
+    <strong>Differentiable Convex Optimization Layers</strong><br>
+    A. Agrawal*, <strong>B. Amos*</strong>, S. Barratt*, S. Boyd*, S. Diamond*, and J. Z. Kolter*<br>
+    NeurIPS 2019<br>
+    
+    [3] 
+[<a href='javascript:;'
+    onclick='$("#abs_amos2019differentiable3").toggle()'>abs</a>] [<a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/cvxgrp/cvxpylayers' target='_blank'>code</a>] <br>
+    
+<div id="abs_amos2019differentiable3" style="text-align: justify; display: none" markdown="1">
+Recent work has shown how to embed differentiable optimization problems (that is, problems whose solutions can be backpropagated through) as layers within deep learning architectures. This method provides a useful inductive bias for certain problems, but existing software for differentiable optimization layers is rigid and difficult to apply to new settings. In this paper, we propose an approach to differentiating through disciplined convex programs, a subclass of convex optimization problems used by domain-specific languages (DSLs) for convex optimization. We introduce disciplined parametrized programming, a subset of disciplined convex programming, and we show that every disciplined parametrized program can be represented as the composition of an affine map from parameters to problem data, a solver, and an affine map from the solver’s solution to a solution of the original problem (a new form we refer to as affine-solver-affine form). We then demonstrate how to efficiently differentiate through each of these components, allowing for end-to-end analytical differentiation through the entire convex program. We implement our methodology in version 1.1 of CVXPY, a popular Python-embedded DSL for convex optimization, and additionally implement differentiable layers for disciplined convex programs in PyTorch and TensorFlow 2.0. Our implementation significantly lowers the barrier to using convex optimization problems in differentiable programs. We present applications in linear machine learning models and in stochastic control, and we show that our layer is competitive (in execution time) compared to specialized differentiable solvers from past work.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='https://arxiv.org/abs/1910.01727' target='_blank'><img src="images/publications/grefenstette2019generalized.png"/></a> </td>
+<td>
+    <strong>Generalized Inner Loop Meta-Learning</strong><br>
+    E. Grefenstette, <strong>B. Amos</strong>, D. Yarats, P. Htut, A. Molchanov, F. Meier, D. Kiela, K. Cho, and S. Chintala<br>
+    arXiv 2019<br>
+    
+    [4] 
+[<a href='javascript:;'
+    onclick='$("#abs_grefenstette2019generalized").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1910.01727' target='_blank'>pdf</a>]  [<a href='https://github.com/facebookresearch/higher' target='_blank'>code</a>] <br>
+    
+<div id="abs_grefenstette2019generalized" style="text-align: justify; display: none" markdown="1">
+Many (but not all) approaches self-qualifying as "meta-learning" in
+deep learning and reinforcement learning fit a
+common pattern of approximating the solution to a
+nested optimization problem. In this paper, we give
+a formalization of this shared pattern, which we
+call GIMLI, prove its general requirements, and
+derive a general-purpose algorithm for implementing
+similar approaches. Based on this analysis and
+algorithm, we describe a library of our design, higher, which we share with the community to assist
+and enable future research into these kinds of
+meta-learning approaches. We end the paper by
+showcasing the practical applications of this
+framework and library through illustrative
+experiments and ablation studies which they
+facilitate.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
 <td class="col-md-3"><a href='https://arxiv.org/abs/1906.08707' target='_blank'><img src="images/publications/amos2019limited.png"/></a> </td>
 <td>
     <strong>The Limited Multi-Label Projection Layer</strong><br>
     <strong>B. Amos</strong>, V. Koltun, and J. Z. Kolter<br>
     arXiv 2019<br>
     
-    [3] 
+    [5] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2019limited").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1906.08707' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/lml' target='_blank'>code</a>] <br>
     
@@ -190,7 +242,7 @@ classification.
     <strong>B. Amos</strong><br>
     Ph.D. Thesis 2019<br>
     
-    [4] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
+    [6] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
     
 </td>
 </tr>
@@ -203,7 +255,7 @@ classification.
     <strong>B. Amos</strong>, I. Rodriguez, J. Sacks, B. Boots, and J. Z. Kolter<br>
     NeurIPS 2018<br>
     
-    [5] 
+    [7] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2018end").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1810.13400' target='_blank'>pdf</a>]  [<a href='https://locuslab.github.io/mpc.pytorch/' target='_blank'>code</a>] <br>
     
@@ -222,7 +274,7 @@ We present foundations for using Model Predictive Control (MPC) as a differentia
     N. Brown, T. Sandholm, and <strong>B. Amos</strong><br>
     NeurIPS 2018<br>
     
-    [6] 
+    [8] 
 [<a href='javascript:;'
     onclick='$("#abs_brown2018depth").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1805.08195' target='_blank'>pdf</a>] <br>
     
@@ -241,7 +293,7 @@ A fundamental challenge in imperfect-information games is that states do not hav
     <strong>B. Amos</strong>, L. Dinh, S. Cabi, T. Roth&ouml;rl, S. Colmenarejo, A. Muldal, T. Erez, Y. Tassa, N. de Freitas, and M. Denil<br>
     ICLR 2018<br>
     
-    [7] 
+    [9] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2018learning").toggle()'>abs</a>] [<a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'>pdf</a>] <br>
     
@@ -282,7 +334,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
     P. Donti, <strong>B. Amos</strong>, and J. Z. Kolter<br>
     NeurIPS 2017<br>
     
-    [8] 
+    [10] 
 [<a href='javascript:;'
     onclick='$("#abs_donti2017task").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.04529' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
     
@@ -313,7 +365,7 @@ approach and a purely black-box policy optimization approach.
     <strong>B. Amos</strong> and J. Z. Kolter<br>
     ICML 2017<br>
     
-    [9] 
+    [11] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2017optnet").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.00443' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>] <br>
     
@@ -351,7 +403,7 @@ constraints better than other neural architectures.
     <strong>B. Amos</strong>, L. Xu, and J. Z. Kolter<br>
     ICML 2017<br>
     
-    [10] 
+    [12] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2017input").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
     
@@ -379,15 +431,15 @@ improvement over the existing state of the art in many cases.
 
 
 <tr>
-<td class="col-md-3"><a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'><img src="images/publications/zhao2016collapsed.png"/></a> </td>
+<td class="col-md-3"><a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'><img src="images/publications/zhao2016collapsed.png"/></a> </td>
 <td>
     <strong>Collapsed Variational Inference for Sum-Product Networks</strong><br>
     H. Zhao, T. Adel, G. Gordon, and <strong>B. Amos</strong><br>
     ICML 2016<br>
     
-    [11] 
+    [13] 
 [<a href='javascript:;'
-    onclick='$("#abs_zhao2016collapsed").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_zhao2016collapsed").toggle()'>abs</a>] [<a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'>pdf</a>] <br>
     
 <div id="abs_zhao2016collapsed" style="text-align: justify; display: none" markdown="1">
 Sum-Product Networks (SPNs) are probabilistic inference machines that admit
@@ -417,7 +469,7 @@ with a maximum likelihood based approach.
     <strong>B. Amos</strong>, B. Ludwiczuk, and M. Satyanarayanan<br>
     CMU 2016<br>
     
-    [12] 
+    [14] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2016openface").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
     
@@ -443,15 +495,15 @@ the Apache 2.0 license. It is available at:
 
 
 <tr>
-<td class="col-md-3"><a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'><img src="images/publications/amos2014QNSTOP.png"/></a> </td>
+<td class="col-md-3"><a href='https://dl.acm.org/doi/10.1145/3374219' target='_blank'><img src="images/publications/amos2014QNSTOP.png"/></a> </td>
 <td>
-    <strong>QNSTOP-QuasiNewton Algorithm for Stochastic Optimization</strong><br>
+    <strong>QNSTOP: Quasi-Newton Algorithm for Stochastic Optimization</strong><br>
     <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
-    VT 2014<br>
+    ACM TOMS 2014<br>
     
-    [13] 
+    [15] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2014QNSTOP").toggle()'>abs</a>] [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_amos2014QNSTOP").toggle()'>abs</a>] [<a href='https://dl.acm.org/doi/10.1145/3374219' target='_blank'>pdf</a>] <br>
     
 <div id="abs_amos2014QNSTOP" style="text-align: justify; display: none" markdown="1">
 QNSTOP consists of serial and parallel (OpenMP) Fortran 2003 codes for the
@@ -553,6 +605,60 @@ Linux, OSX
   <i class="ai ai-google-scholar"></i> Google Scholar
 </a>
 
+<h2>2020</h2>
+<table class="table table-hover">
+
+<tr>
+<td>
+    <strong>Objective Mismatch in Model-based Reinforcement Learning</strong><br>
+    N. Lambert, <strong>B. Amos</strong>, O. Yadan, and R. Calandra<br>
+    L4DC 2020<br>
+    
+    [1] 
+[<a href='javascript:;'
+    onclick='$("#abs_lambert2020objective_all_bib").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/2002.04523' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_lambert2020objective_all_bib" style="text-align: justify; display: none" markdown="1">
+Model-based reinforcement learning (MBRL) has been shown to be a powerful framework for data-efficiently learning control of continuous tasks. Recent work in MBRL has mostly focused on using more advanced function approximators and planning schemes, with little development of the general framework. In this paper, we identify a fundamental issue of the standard MBRL framework-what we call the objective mismatch issue. Objective mismatch arises when one objective is optimized in the hope that a second, often uncorrelated, metric will also be optimized. In the context of MBRL, we characterize the objective mismatch between training the forward dynamics model wrt the likelihood of the one-step ahead prediction, and the overall goal of improving performance on a downstream control task. For example, this issue can emerge with the realization that dynamics models effective for a specific task do not necessarily need to be globally accurate, and vice versa globally accurate models might not be sufficiently accurate locally to obtain good control performance on a specific task. In our experiments, we study this objective mismatch issue and demonstrate that the likelihood of one-step ahead predictions is not always correlated with control performance. This observation highlights a critical limitation in the MBRL framework which will require further research to be fully understood and addressed. We propose an initial method to mitigate the mismatch issue by re-weighting dynamics model training. Building on it, we conclude with a discussion about other potential directions of research for addressing this issue.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td>
+    <strong>The Differentiable Cross-Entropy Method</strong><br>
+    <strong>B. Amos</strong> and D. Yarats<br>
+    ICML 2020<br>
+    
+    [2] 
+[<a href='javascript:;'
+    onclick='$("#abs_amos2020differentiable_all_bib").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1909.12830' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_amos2020differentiable_all_bib" style="text-align: justify; display: none" markdown="1">
+We study the Cross-Entropy Method (CEM) for the non-convex
+optimization of a continuous and parameterized
+objective function and introduce a differentiable
+variant (DCEM) that enables us to differentiate the
+output of CEM with respect to the objective
+function's parameters. In the machine learning
+setting this brings CEM inside of the end-to-end
+learning pipeline where this has otherwise been
+impossible. We show applications in a synthetic
+energy-based structured prediction task and in
+non-convex continuous control. In the control
+setting we show on the simulated cheetah and walker
+tasks that we can embed their optimal action
+sequences with DCEM and then use policy optimization
+to fine-tune components of the controller as a step
+towards combining model-based and model-free RL.
+</div>
+
+</td>
+</tr>
+
+</table>
 <h2>2019</h2>
 <table class="table table-hover">
 
@@ -576,44 +682,11 @@ Recent work has shown how to embed differentiable optimization problems (that is
 
 <tr>
 <td>
-    <strong>The Differentiable Cross-Entropy Method</strong><br>
-    <strong>B. Amos</strong> and D. Yarats<br>
-    arXiv 2019<br>
-    
-    [2] 
-[<a href='javascript:;'
-    onclick='$("#abs_amos2019differentiable_all_bib").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1909.12830' target='_blank'>pdf</a>] <br>
-    
-<div id="abs_amos2019differentiable_all_bib" style="text-align: justify; display: none" markdown="1">
-We study the Cross-Entropy Method (CEM) for the non-convex
-optimization of a continuous and parameterized
-objective function and introduce a differentiable
-variant (DCEM) that enables us to differentiate the
-output of CEM with respect to the objective
-function's parameters. In the machine learning
-setting this brings CEM inside of the end-to-end
-learning pipeline where this has otherwise been
-impossible. We show applications in a synthetic
-energy-based structured prediction task and in
-non-convex continuous control. In the control
-setting we show on the simulated cheetah and walker
-tasks that we can embed their optimal action
-sequences with DCEM and then use policy optimization
-to fine-tune components of the controller as a step
-towards combining model-based and model-free RL.
-</div>
-
-</td>
-</tr>
-
-
-<tr>
-<td>
     <strong>Generalized Inner Loop Meta-Learning</strong><br>
     E. Grefenstette, <strong>B. Amos</strong>, D. Yarats, P. Htut, A. Molchanov, F. Meier, D. Kiela, K. Cho, and S. Chintala<br>
     arXiv 2019<br>
     
-    [3] 
+    [2] 
 [<a href='javascript:;'
     onclick='$("#abs_grefenstette2019generalized_all_bib").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1910.01727' target='_blank'>pdf</a>] <br>
     
@@ -645,7 +718,7 @@ facilitate.
     D. Yarats, A. Zhang, I. Kostrikov, <strong>B. Amos</strong>, J. Pineau, and R. Fergus<br>
     arXiv 2019<br>
     
-    [4] 
+    [3] 
 [<a href='javascript:;'
     onclick='$("#abs_yarats2019improving_all_bib").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1910.01741' target='_blank'>pdf</a>] <br>
     
@@ -684,7 +757,7 @@ future research on image-based RL.
     <strong>B. Amos</strong>, V. Koltun, and J. Z. Kolter<br>
     arXiv 2019<br>
     
-    [5] 
+    [4] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2019limited_all_bib").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1906.08707' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/lml' target='_blank'>code</a>] <br>
     
@@ -713,7 +786,7 @@ classification.
     <strong>B. Amos</strong><br>
     Ph.D. Thesis 2019<br>
     
-    [6] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
+    [5] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
     
 </td>
 </tr>
@@ -992,7 +1065,7 @@ improvement over the existing state of the art in many cases.
     
     [1] 
 [<a href='javascript:;'
-    onclick='$("#abs_zhao2016collapsed_all_bib").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_zhao2016collapsed_all_bib").toggle()'>abs</a>] [<a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'>pdf</a>] <br>
     
 <div id="abs_zhao2016collapsed_all_bib" style="text-align: justify; display: none" markdown="1">
 Sum-Product Networks (SPNs) are probabilistic inference machines that admit
@@ -1330,13 +1403,13 @@ functions.
 
 <tr>
 <td>
-    <strong>QNSTOP-QuasiNewton Algorithm for Stochastic Optimization</strong><br>
+    <strong>QNSTOP: Quasi-Newton Algorithm for Stochastic Optimization</strong><br>
     <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
-    VT 2014<br>
+    ACM TOMS 2014<br>
     
     [4] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2014QNSTOP_all_bib").toggle()'>abs</a>] [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_amos2014QNSTOP_all_bib").toggle()'>abs</a>] [<a href='https://dl.acm.org/doi/10.1145/3374219' target='_blank'>pdf</a>] <br>
     
 <div id="abs_amos2014QNSTOP_all_bib" style="text-align: justify; display: none" markdown="1">
 QNSTOP consists of serial and parallel (OpenMP) Fortran 2003 codes for the
