@@ -736,7 +736,7 @@ jax, NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
   </td>
 </tr>
 <tr>
-  <td class='col-md-2'>Systems</td>
+  <td class='col-md-2'>OS</td>
   <td>
 Linux
   </td>
