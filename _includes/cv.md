@@ -10,7 +10,7 @@
         <strong>Ph.D. in Computer Science</strong>
           (0.00/0.00)
         <br>
-      Carnegie Mellon University
+      Carnegie Mellon University | Pittsburgh, Pennsylvania
     </td>
   </tr>
   <tr>
@@ -19,7 +19,7 @@
         <strong>M.S. in Computer Science</strong>
           (0.00/0.00)
         <br>
-      Carnegie Mellon University
+      Carnegie Mellon University | Pittsburgh, Pennsylvania
     </td>
   </tr>
   <tr>
@@ -28,13 +28,13 @@
         <strong>B.S. in Computer Science</strong>
           (3.99/4.00)
         <br>
-      Virginia Tech
+      Virginia Tech | Blacksburg, Virginia
     </td>
   </tr>
   <tr>
     <td class="col-md-3">Aug 2007 - May 2011</td>
     <td>
-      Northside High School (Roanoke, Virginia)
+      Northside High School | Roanoke, Virginia
     </td>
   </tr>
 </table>
@@ -44,49 +44,49 @@
 <table class="table table-hover">
 <tr>
   <td class='col-md-3'>May 2019 - Present</td>
-  <td><strong>Facebook AI</strong>, Research Scientist</td>
+  <td><strong>Facebook AI</strong> | Research Scientist | New York, New York</td>
 </tr>
 <tr>
 </tr>
 <tr>
   <td class='col-md-3'>June 2018 - Sept 2018</td>
-  <td><strong>Intel Labs</strong>, Research Intern</td>
+  <td><strong>Intel Labs</strong> | Research Intern | Santa Clara, California</td>
 </tr>
 <tr>
 </tr>
 <tr>
   <td class='col-md-3'>May 2017 - Oct 2017</td>
-  <td><strong>Google DeepMind</strong>, Research Intern</td>
+  <td><strong>Google DeepMind</strong> | Research Intern | London, UK</td>
 </tr>
 <tr>
 </tr>
 <tr>
   <td class='col-md-3'>May 2014 - Aug 2014</td>
-  <td><strong>Adobe Research</strong>, Data Scientist Intern</td>
+  <td><strong>Adobe Research</strong> | Data Scientist Intern | San Jose, California</td>
 </tr>
 <tr>
 </tr>
 <tr>
   <td class='col-md-3'>Dec 2013 - Jan 2014</td>
-  <td><strong>Snowplow Analytics</strong>, Software Engineer Intern</td>
+  <td><strong>Snowplow Analytics</strong> | Software Engineer Intern | London, UK (Remote)</td>
 </tr>
 <tr>
 </tr>
 <tr>
   <td class='col-md-3'>May 2013 - Aug 2013</td>
-  <td><strong>Qualcomm</strong>, Software Engineer Intern</td>
+  <td><strong>Qualcomm</strong> | Software Engineer Intern | San Diego, California</td>
 </tr>
 <tr>
 </tr>
 <tr>
   <td class='col-md-3'>May 2012 - Aug 2012</td>
-  <td><strong>Phoenix Integration</strong>, Software Engineer Intern</td>
+  <td><strong>Phoenix Integration</strong> | Software Engineer Intern | Blacksburg, Virginia</td>
 </tr>
 <tr>
 </tr>
 <tr>
   <td class='col-md-3'>Jan 2011 - Aug 2011</td>
-  <td><strong>Sunapsys</strong>, Network Administrator Intern</td>
+  <td><strong>Sunapsys</strong> | Network Administrator Intern | Vinton, Virginia</td>
 </tr>
 <tr>
 </tr>
@@ -101,13 +101,158 @@
 
 <table class="table table-hover">
 <tr>
+<td class="col-md-3"><a href='https://arxiv.org/abs/2011.03902' target='_blank'><img src="images/publications/chen2021learning.png"/></a> </td>
+<td>
+    <strong>Learning Neural Event Functions for Ordinary Differential Equations</strong><br>
+    R. Chen, <strong>B. Amos</strong>, and M. Nickel<br>
+    ICLR 2021<br>
+    
+    [1] 
+[<a href='javascript:;'
+    onclick='$("#abs_chen2021learning").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/2011.03902' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_chen2021learning" style="text-align: justify; display: none" markdown="1">
+The existing Neural ODE formulation relies on an explicit
+knowledge of the termination time. We extend Neural
+ODEs to implicitly defined termination criteria
+modeled by neural event functions, which can be
+chained together and differentiated through. Neural
+Event ODEs are capable of modeling discrete
+(instantaneous) changes in a continuous-time system, without prior knowledge of when these changes should
+occur or how many such changes should exist. We test
+our approach in modeling hybrid discrete- and
+continuous- systems such as switching dynamical
+systems and collision in multi-body systems, and we
+propose simulation-based training of point processes
+with applications in discrete control.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='https://arxiv.org/abs/2011.04583' target='_blank'><img src="images/publications/chen2021neural.png"/></a> </td>
+<td>
+    <strong>Neural Spatio-Temporal Point Processes</strong><br>
+    R. Chen, <strong>B. Amos</strong>, and M. Nickel<br>
+    ICLR 2021<br>
+    
+    [2] 
+[<a href='javascript:;'
+    onclick='$("#abs_chen2021neural").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/2011.04583' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_chen2021neural" style="text-align: justify; display: none" markdown="1">
+We propose a new class of parameterizations for spatio-temporal
+point processes which leverage Neural ODEs as a
+computational method and enable flexible, high-fidelity models of discrete events that are
+localized in continuous time and space. Central to
+our approach is a combination of recurrent
+continuous-time neural networks with two novel
+neural architectures, i.e., Jump and Attentive
+Continuous-time Normalizing Flows. This approach
+allows us to learn complex distributions for both
+the spatial and temporal domain and to condition
+non-trivially on the observed event history. We
+validate our models on data sets from a wide variety
+of contexts such as seismology, epidemiology, urban
+mobility, and neuroscience.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='https://arxiv.org/abs/2006.12648' target='_blank'><img src="images/publications/cohen2020aligning.png"/></a> </td>
+<td>
+    <strong>Aligning Time Series on Incomparable Spaces</strong><br>
+    S. Cohen, G. Luise, A. Terenin, <strong>B. Amos</strong>, and M. Deisenroth<br>
+    arXiv 2020<br>
+    
+    [3] 
+[<a href='javascript:;'
+    onclick='$("#abs_cohen2020aligning").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/2006.12648' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_cohen2020aligning" style="text-align: justify; display: none" markdown="1">
+Dynamic time warping (DTW) is a useful method for aligning, comparing
+and combining time series, but it requires them to
+live in comparable spaces. In this work, we consider
+a setting in which time series live on different
+spaces without a sensible ground metric, causing DTW
+to become ill-defined. To alleviate this, we propose
+Gromov dynamic time warping (GDTW), a distance
+between time series on potentially incomparable
+spaces that avoids the comparability requirement by
+instead considering intra-relational geometry. We
+derive a Frank-Wolfe algorithm for computing it and
+demonstrate its effectiveness at aligning, combining
+and comparing time series living on incomparable
+spaces. We further propose a smoothed version of
+GDTW as a differentiable loss and assess its
+properties in a variety of settings, including
+barycentric averaging, generative modeling and
+imitation learning.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='https://arxiv.org/abs/2008.12775' target='_blank'><img src="images/publications/amos2020modelbased.png"/></a> </td>
+<td>
+    <strong>On the model-based stochastic value gradient for continuous reinforcement learning</strong><br>
+    <strong>B. Amos</strong>, S. Stanton, D. Yarats, and A. Wilson<br>
+    arXiv 2020<br>
+    
+    [4] 
+[<a href='javascript:;'
+    onclick='$("#abs_amos2020modelbased").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/2008.12775' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_amos2020modelbased" style="text-align: justify; display: none" markdown="1">
+Model-based reinforcement learning approaches add explicit domain
+knowledge to agents in hopes of improving the
+sample-efficiency in comparison to model-free
+agents. However, in practice model-based methods are
+unable to achieve the same asymptotic performance on
+challenging continuous control tasks due to the
+complexity of learning and controlling an explicit
+world model. In this paper we investigate the
+stochastic value gradient (SVG), which is a
+well-known family of methods for controlling
+continuous systems which includes model-based
+approaches that distill a model-based value
+expansion into a model-free policy. We consider a
+variant of the model-based SVG that scales to larger
+systems and uses 1) an entropy regularization to
+help with exploration, 2) a learned deterministic
+world model to improve the short-horizon value
+estimate, and 3) a learned model-free value estimate
+after the model's rollout. This SVG variation
+captures the model-free soft actor-critic method as
+an instance when the model rollout horizon is zero, and otherwise uses short-horizon model rollouts to
+improve the value estimate for the policy update. We
+surpass the asymptotic performance of other
+model-based methods on the proprioceptive MuJoCo
+locomotion tasks from the OpenAI gym, including a
+humanoid. We notably achieve these results with a
+simple deterministic world model without requiring
+an ensemble.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
 <td class="col-md-3"><a href='https://arxiv.org/abs/1909.12830' target='_blank'><img src="images/publications/amos2020differentiable.png"/></a> </td>
 <td>
     <strong>The Differentiable Cross-Entropy Method</strong><br>
     <strong>B. Amos</strong> and D. Yarats<br>
     ICML 2020<br>
     
-    [1] 
+    [5] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2020differentiable").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1909.12830' target='_blank'>pdf</a>] <br>
     
@@ -141,12 +286,39 @@ towards combining model-based and model-free RL.
     N. Lambert, <strong>B. Amos</strong>, O. Yadan, and R. Calandra<br>
     L4DC 2020<br>
     
-    [2] 
+    [6] 
 [<a href='javascript:;'
     onclick='$("#abs_lambert2020objective").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/2002.04523' target='_blank'>pdf</a>] <br>
     
 <div id="abs_lambert2020objective" style="text-align: justify; display: none" markdown="1">
 Model-based reinforcement learning (MBRL) has been shown to be a powerful framework for data-efficiently learning control of continuous tasks. Recent work in MBRL has mostly focused on using more advanced function approximators and planning schemes, with little development of the general framework. In this paper, we identify a fundamental issue of the standard MBRL framework-what we call the objective mismatch issue. Objective mismatch arises when one objective is optimized in the hope that a second, often uncorrelated, metric will also be optimized. In the context of MBRL, we characterize the objective mismatch between training the forward dynamics model wrt the likelihood of the one-step ahead prediction, and the overall goal of improving performance on a downstream control task. For example, this issue can emerge with the realization that dynamics models effective for a specific task do not necessarily need to be globally accurate, and vice versa globally accurate models might not be sufficiently accurate locally to obtain good control performance on a specific task. In our experiments, we study this objective mismatch issue and demonstrate that the likelihood of one-step ahead predictions is not always correlated with control performance. This observation highlights a critical limitation in the MBRL framework which will require further research to be fully understood and addressed. We propose an initial method to mitigate the mismatch issue by re-weighting dynamics model training. Building on it, we conclude with a discussion about other potential directions of research for addressing this issue.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td class="col-md-3"><a href='https://dl.acm.org/doi/10.1145/3374219' target='_blank'><img src="images/publications/amos2020QNSTOP.png"/></a> </td>
+<td>
+    <strong>QNSTOP: Quasi-Newton Algorithm for Stochastic Optimization</strong><br>
+    <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
+    ACM TOMS 2020<br>
+    
+    [7] 
+[<a href='javascript:;'
+    onclick='$("#abs_amos2020QNSTOP").toggle()'>abs</a>] [<a href='https://dl.acm.org/doi/10.1145/3374219' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_amos2020QNSTOP" style="text-align: justify; display: none" markdown="1">
+QNSTOP consists of serial and parallel (OpenMP) Fortran 2003 codes for the
+quasi-Newton stochastic optimization method of Castle and Trosset. For
+stochastic problems, convergence theory exists for the particular
+algorithmic choices and parameter values used in QNSTOP. Both the parallel
+driver subroutine, which offers several parallel decomposition strategies, and the serial driver subroutine can be used for stochastic optimization or
+deterministic global optimization, based on an input switch. QNSTOP is
+particularly effective for “noisy” deterministic problems, using only
+objective function values. Some performance data for computational systems
+biology problems is given.
 </div>
 
 </td>
@@ -160,7 +332,7 @@ Model-based reinforcement learning (MBRL) has been shown to be a powerful framew
     A. Agrawal*, <strong>B. Amos*</strong>, S. Barratt*, S. Boyd*, S. Diamond*, and J. Z. Kolter*<br>
     NeurIPS 2019<br>
     
-    [3] 
+    [8] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2019differentiable3").toggle()'>abs</a>] [<a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/cvxgrp/cvxpylayers' target='_blank'>code</a>] <br>
     
@@ -179,7 +351,7 @@ Recent work has shown how to embed differentiable optimization problems (that is
     E. Grefenstette, <strong>B. Amos</strong>, D. Yarats, P. Htut, A. Molchanov, F. Meier, D. Kiela, K. Cho, and S. Chintala<br>
     arXiv 2019<br>
     
-    [4] 
+    [9] 
 [<a href='javascript:;'
     onclick='$("#abs_grefenstette2019generalized").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1910.01727' target='_blank'>pdf</a>]  [<a href='https://github.com/facebookresearch/higher' target='_blank'>code</a>] <br>
     
@@ -212,7 +384,7 @@ facilitate.
     <strong>B. Amos</strong>, V. Koltun, and J. Z. Kolter<br>
     arXiv 2019<br>
     
-    [5] 
+    [10] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2019limited").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1906.08707' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/lml' target='_blank'>code</a>] <br>
     
@@ -242,7 +414,7 @@ classification.
     <strong>B. Amos</strong><br>
     Ph.D. Thesis 2019<br>
     
-    [6] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
+    [11] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
     
 </td>
 </tr>
@@ -255,7 +427,7 @@ classification.
     <strong>B. Amos</strong>, I. Rodriguez, J. Sacks, B. Boots, and J. Z. Kolter<br>
     NeurIPS 2018<br>
     
-    [7] 
+    [12] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2018end").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1810.13400' target='_blank'>pdf</a>]  [<a href='https://locuslab.github.io/mpc.pytorch/' target='_blank'>code</a>] <br>
     
@@ -274,7 +446,7 @@ We present foundations for using Model Predictive Control (MPC) as a differentia
     N. Brown, T. Sandholm, and <strong>B. Amos</strong><br>
     NeurIPS 2018<br>
     
-    [8] 
+    [13] 
 [<a href='javascript:;'
     onclick='$("#abs_brown2018depth").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1805.08195' target='_blank'>pdf</a>] <br>
     
@@ -293,7 +465,7 @@ A fundamental challenge in imperfect-information games is that states do not hav
     <strong>B. Amos</strong>, L. Dinh, S. Cabi, T. Roth&ouml;rl, S. Colmenarejo, A. Muldal, T. Erez, Y. Tassa, N. de Freitas, and M. Denil<br>
     ICLR 2018<br>
     
-    [9] 
+    [14] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2018learning").toggle()'>abs</a>] [<a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'>pdf</a>] <br>
     
@@ -334,7 +506,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
     P. Donti, <strong>B. Amos</strong>, and J. Z. Kolter<br>
     NeurIPS 2017<br>
     
-    [10] 
+    [15] 
 [<a href='javascript:;'
     onclick='$("#abs_donti2017task").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.04529' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
     
@@ -365,7 +537,7 @@ approach and a purely black-box policy optimization approach.
     <strong>B. Amos</strong> and J. Z. Kolter<br>
     ICML 2017<br>
     
-    [11] 
+    [16] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2017optnet").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.00443' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>] <br>
     
@@ -403,7 +575,7 @@ constraints better than other neural architectures.
     <strong>B. Amos</strong>, L. Xu, and J. Z. Kolter<br>
     ICML 2017<br>
     
-    [12] 
+    [17] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2017input").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
     
@@ -437,7 +609,7 @@ improvement over the existing state of the art in many cases.
     H. Zhao, T. Adel, G. Gordon, and <strong>B. Amos</strong><br>
     ICML 2016<br>
     
-    [13] 
+    [18] 
 [<a href='javascript:;'
     onclick='$("#abs_zhao2016collapsed").toggle()'>abs</a>] [<a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'>pdf</a>] <br>
     
@@ -469,7 +641,7 @@ with a maximum likelihood based approach.
     <strong>B. Amos</strong>, B. Ludwiczuk, and M. Satyanarayanan<br>
     CMU 2016<br>
     
-    [14] 
+    [19] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2016openface").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
     
@@ -493,33 +665,6 @@ the Apache 2.0 license. It is available at:
 </td>
 </tr>
 
-
-<tr>
-<td class="col-md-3"><a href='https://dl.acm.org/doi/10.1145/3374219' target='_blank'><img src="images/publications/amos2014QNSTOP.png"/></a> </td>
-<td>
-    <strong>QNSTOP: Quasi-Newton Algorithm for Stochastic Optimization</strong><br>
-    <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
-    ACM TOMS 2014<br>
-    
-    [15] 
-[<a href='javascript:;'
-    onclick='$("#abs_amos2014QNSTOP").toggle()'>abs</a>] [<a href='https://dl.acm.org/doi/10.1145/3374219' target='_blank'>pdf</a>] <br>
-    
-<div id="abs_amos2014QNSTOP" style="text-align: justify; display: none" markdown="1">
-QNSTOP consists of serial and parallel (OpenMP) Fortran 2003 codes for the
-quasi-Newton stochastic optimization method of Castle and Trosset. For
-stochastic problems, convergence theory exists for the particular
-algorithmic choices and parameter values used in QNSTOP. Both the parallel
-driver subroutine, which offers several parallel decomposition strategies, and the serial driver subroutine can be used for stochastic optimization or
-deterministic global optimization, based on an input switch. QNSTOP is
-particularly effective for “noisy” deterministic problems, using only
-objective function values. Some performance data for computational systems
-biology problems is given.
-</div>
-
-</td>
-</tr>
-
 </table>
 
 
@@ -535,7 +680,7 @@ biology problems is given.
 </tr>
 <tr>
   <td class='col-md-1'>S2013</td>
-  <td><strong>Software Design and Data Structures</strong> (VT CS 2114), TA</td>
+  <td><strong>Software Design and Data Structures</strong> (VT CS2114), TA</td>
 </tr>
 </table>
 
@@ -546,14 +691,13 @@ biology problems is given.
   <td class='col-md-2'>2016 - 2019</td>
   <td>
     NSF Graduate Research Fellowship
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td class='col-md-2'>2011 - 2014</td>
   <td>
     Eight undergraduate scholarships
-    <!--  -->
+    <br><p style="color:grey;font-size:1.2rem">Benjamin F. Bock, Intelligence Community Center of Academic Excellence, Roanoke County Public Schools Engineering, Papa John's, Gay B. Shober Memorial, Pamplin Leader, I. Luck Gravett Memorial, Scottish Rite of Freemasonry, Salem-Roanoke County Chamber of Commerce</p>
   </td>
 </tr>
 </table>
@@ -562,14 +706,15 @@ biology problems is given.
 ## <i class="fa fa-chevron-right"></i> Service
 <table class="table table-hover">
 <tr>
-  <td class='col-md-2'>Reviewer</td>
-  <td markdown="1">
-ICML 2018, NeurIPS 2018, NeurIPS Deep RL Workshop 2018, ICLR 2019 (outstanding reviewer), ICML 2019, ICCV 2019
+  <td class='col-md-2'>Reviewing</td>
+  <td>
+AAAI, ICML, NeurIPS, ICLR*, ICCV, CVPR, ICRA
+<br><p style="color:grey;font-size:1.2rem">*Outstanding reviewer</p>
   </td>
 </tr>
 <tr>
   <td class='col-md-2'>Admissions</td>
-  <td markdown="1">
+  <td>
 CMU CSD MS 2014-2015
   </td>
 </tr>
@@ -580,20 +725,20 @@ CMU CSD MS 2014-2015
 <table class="table table-hover">
 <tr>
   <td class='col-md-2'>Languages</td>
-  <td markdown="1">
-C, C++, Fortran, Haskell, Java, Lua, Make, *Mathematica*, Python, R, Scala
+  <td>
+C, C++, Fortran, Haskell, Java, Lua, Make, Mathematica, Python, R, Scala
   </td>
 </tr>
 <tr>
   <td class='col-md-2'>Frameworks</td>
-  <td markdown="1">
-NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
+  <td>
+jax, NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
   </td>
 </tr>
 <tr>
   <td class='col-md-2'>Systems</td>
-  <td markdown="1">
-Linux, OSX
+  <td>
+Linux
   </td>
 </tr>
 </table>
@@ -605,8 +750,152 @@ Linux, OSX
   <i class="ai ai-google-scholar"></i> Google Scholar
 </a>
 
+<h2>2021</h2>
+<table class="table table-hover">
+
+<tr>
+<td>
+    <strong>Learning Neural Event Functions for Ordinary Differential Equations</strong><br>
+    R. Chen, <strong>B. Amos</strong>, and M. Nickel<br>
+    ICLR 2021<br>
+    
+    [1] 
+[<a href='javascript:;'
+    onclick='$("#abs_chen2021learning_all_bib").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/2011.03902' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_chen2021learning_all_bib" style="text-align: justify; display: none" markdown="1">
+The existing Neural ODE formulation relies on an explicit
+knowledge of the termination time. We extend Neural
+ODEs to implicitly defined termination criteria
+modeled by neural event functions, which can be
+chained together and differentiated through. Neural
+Event ODEs are capable of modeling discrete
+(instantaneous) changes in a continuous-time system, without prior knowledge of when these changes should
+occur or how many such changes should exist. We test
+our approach in modeling hybrid discrete- and
+continuous- systems such as switching dynamical
+systems and collision in multi-body systems, and we
+propose simulation-based training of point processes
+with applications in discrete control.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td>
+    <strong>Neural Spatio-Temporal Point Processes</strong><br>
+    R. Chen, <strong>B. Amos</strong>, and M. Nickel<br>
+    ICLR 2021<br>
+    
+    [2] 
+[<a href='javascript:;'
+    onclick='$("#abs_chen2021neural_all_bib").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/2011.04583' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_chen2021neural_all_bib" style="text-align: justify; display: none" markdown="1">
+We propose a new class of parameterizations for spatio-temporal
+point processes which leverage Neural ODEs as a
+computational method and enable flexible, high-fidelity models of discrete events that are
+localized in continuous time and space. Central to
+our approach is a combination of recurrent
+continuous-time neural networks with two novel
+neural architectures, i.e., Jump and Attentive
+Continuous-time Normalizing Flows. This approach
+allows us to learn complex distributions for both
+the spatial and temporal domain and to condition
+non-trivially on the observed event history. We
+validate our models on data sets from a wide variety
+of contexts such as seismology, epidemiology, urban
+mobility, and neuroscience.
+</div>
+
+</td>
+</tr>
+
+</table>
 <h2>2020</h2>
 <table class="table table-hover">
+
+<tr>
+<td>
+    <strong>Aligning Time Series on Incomparable Spaces</strong><br>
+    S. Cohen, G. Luise, A. Terenin, <strong>B. Amos</strong>, and M. Deisenroth<br>
+    arXiv 2020<br>
+    
+    [1] 
+[<a href='javascript:;'
+    onclick='$("#abs_cohen2020aligning_all_bib").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/2006.12648' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_cohen2020aligning_all_bib" style="text-align: justify; display: none" markdown="1">
+Dynamic time warping (DTW) is a useful method for aligning, comparing
+and combining time series, but it requires them to
+live in comparable spaces. In this work, we consider
+a setting in which time series live on different
+spaces without a sensible ground metric, causing DTW
+to become ill-defined. To alleviate this, we propose
+Gromov dynamic time warping (GDTW), a distance
+between time series on potentially incomparable
+spaces that avoids the comparability requirement by
+instead considering intra-relational geometry. We
+derive a Frank-Wolfe algorithm for computing it and
+demonstrate its effectiveness at aligning, combining
+and comparing time series living on incomparable
+spaces. We further propose a smoothed version of
+GDTW as a differentiable loss and assess its
+properties in a variety of settings, including
+barycentric averaging, generative modeling and
+imitation learning.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td>
+    <strong>On the model-based stochastic value gradient for continuous reinforcement learning</strong><br>
+    <strong>B. Amos</strong>, S. Stanton, D. Yarats, and A. Wilson<br>
+    arXiv 2020<br>
+    
+    [2] 
+[<a href='javascript:;'
+    onclick='$("#abs_amos2020modelbased_all_bib").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/2008.12775' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_amos2020modelbased_all_bib" style="text-align: justify; display: none" markdown="1">
+Model-based reinforcement learning approaches add explicit domain
+knowledge to agents in hopes of improving the
+sample-efficiency in comparison to model-free
+agents. However, in practice model-based methods are
+unable to achieve the same asymptotic performance on
+challenging continuous control tasks due to the
+complexity of learning and controlling an explicit
+world model. In this paper we investigate the
+stochastic value gradient (SVG), which is a
+well-known family of methods for controlling
+continuous systems which includes model-based
+approaches that distill a model-based value
+expansion into a model-free policy. We consider a
+variant of the model-based SVG that scales to larger
+systems and uses 1) an entropy regularization to
+help with exploration, 2) a learned deterministic
+world model to improve the short-horizon value
+estimate, and 3) a learned model-free value estimate
+after the model's rollout. This SVG variation
+captures the model-free soft actor-critic method as
+an instance when the model rollout horizon is zero, and otherwise uses short-horizon model rollouts to
+improve the value estimate for the policy update. We
+surpass the asymptotic performance of other
+model-based methods on the proprioceptive MuJoCo
+locomotion tasks from the OpenAI gym, including a
+humanoid. We notably achieve these results with a
+simple deterministic world model without requiring
+an ensemble.
+</div>
+
+</td>
+</tr>
+
 
 <tr>
 <td>
@@ -614,7 +903,7 @@ Linux, OSX
     N. Lambert, <strong>B. Amos</strong>, O. Yadan, and R. Calandra<br>
     L4DC 2020<br>
     
-    [1] 
+    [3] 
 [<a href='javascript:;'
     onclick='$("#abs_lambert2020objective_all_bib").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/2002.04523' target='_blank'>pdf</a>] <br>
     
@@ -628,11 +917,37 @@ Model-based reinforcement learning (MBRL) has been shown to be a powerful framew
 
 <tr>
 <td>
+    <strong>QNSTOP: Quasi-Newton Algorithm for Stochastic Optimization</strong><br>
+    <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
+    ACM TOMS 2020<br>
+    
+    [4] 
+[<a href='javascript:;'
+    onclick='$("#abs_amos2020QNSTOP_all_bib").toggle()'>abs</a>] [<a href='https://dl.acm.org/doi/10.1145/3374219' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_amos2020QNSTOP_all_bib" style="text-align: justify; display: none" markdown="1">
+QNSTOP consists of serial and parallel (OpenMP) Fortran 2003 codes for the
+quasi-Newton stochastic optimization method of Castle and Trosset. For
+stochastic problems, convergence theory exists for the particular
+algorithmic choices and parameter values used in QNSTOP. Both the parallel
+driver subroutine, which offers several parallel decomposition strategies, and the serial driver subroutine can be used for stochastic optimization or
+deterministic global optimization, based on an input switch. QNSTOP is
+particularly effective for “noisy” deterministic problems, using only
+objective function values. Some performance data for computational systems
+biology problems is given.
+</div>
+
+</td>
+</tr>
+
+
+<tr>
+<td>
     <strong>The Differentiable Cross-Entropy Method</strong><br>
     <strong>B. Amos</strong> and D. Yarats<br>
     ICML 2020<br>
     
-    [2] 
+    [5] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2020differentiable_all_bib").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1909.12830' target='_blank'>pdf</a>] <br>
     
@@ -1395,32 +1710,6 @@ QNSTOP is a class of quasi-Newton methods for stochastic optimization with
 variations for deterministic global optimization. This discussion provides
 results from testing on various deterministic and stochastic optimization
 functions.
-</div>
-
-</td>
-</tr>
-
-
-<tr>
-<td>
-    <strong>QNSTOP: Quasi-Newton Algorithm for Stochastic Optimization</strong><br>
-    <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
-    ACM TOMS 2014<br>
-    
-    [4] 
-[<a href='javascript:;'
-    onclick='$("#abs_amos2014QNSTOP_all_bib").toggle()'>abs</a>] [<a href='https://dl.acm.org/doi/10.1145/3374219' target='_blank'>pdf</a>] <br>
-    
-<div id="abs_amos2014QNSTOP_all_bib" style="text-align: justify; display: none" markdown="1">
-QNSTOP consists of serial and parallel (OpenMP) Fortran 2003 codes for the
-quasi-Newton stochastic optimization method of Castle and Trosset. For
-stochastic problems, convergence theory exists for the particular
-algorithmic choices and parameter values used in QNSTOP. Both the parallel
-driver subroutine, which offers several parallel decomposition strategies, and the serial driver subroutine can be used for stochastic optimization or
-deterministic global optimization, based on an input switch. QNSTOP is
-particularly effective for “noisy” deterministic problems, using only
-objective function values. Some performance data for computational systems
-biology problems is given.
 </div>
 
 </td>
