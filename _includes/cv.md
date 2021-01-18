@@ -732,7 +732,7 @@ C, C++, Fortran, Haskell, Java, Lua, Make, Mathematica, Python, R, Scala
 <tr>
   <td class='col-md-2'>Frameworks</td>
   <td>
-jax, NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
+JAX, NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
   </td>
 </tr>
 <tr>
