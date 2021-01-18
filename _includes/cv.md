@@ -736,9 +736,9 @@ jax, NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
   </td>
 </tr>
 <tr>
-  <td class='col-md-2'>OS</td>
+  <td class='col-md-2'>Tools</td>
   <td>
-Linux
+Linux, emacs, vim, evil, org, mu4e, xmonad, i3, git, tmux
   </td>
 </tr>
 </table>
