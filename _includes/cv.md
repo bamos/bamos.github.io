@@ -813,6 +813,45 @@ mobility, and neuroscience.
 </td>
 </tr>
 
+
+<tr>
+<td>
+    <strong>Improving Sample Efficiency in Model-Free Reinforcement Learning from Images</strong><br>
+    D. Yarats, A. Zhang, I. Kostrikov, <strong>B. Amos</strong>, J. Pineau, and R. Fergus<br>
+    AAAI 2021<br>
+    
+    [3] 
+[<a href='javascript:;'
+    onclick='$("#abs_yarats2021improving_all_bib").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1910.01741' target='_blank'>pdf</a>] <br>
+    
+<div id="abs_yarats2021improving_all_bib" style="text-align: justify; display: none" markdown="1">
+Training an agent to solve control tasks directly from
+high-dimensional images with model-free
+reinforcement learning (RL) has proven
+difficult. The agent needs to learn a latent
+representation together with a control policy to
+perform the task. Fitting a high-capacity encoder
+using a scarce reward signal is not only sample
+inefficient, but also prone to suboptimal
+convergence. Two ways to improve sample efficiency
+are to extract relevant features for the task and
+use off-policy algorithms. We dissect various
+approaches of learning good latent features, and
+conclude that the image reconstruction loss is the
+essential ingredient that enables efficient and
+stable representation learning in image-based
+RL. Following these findings, we devise an
+off-policy actor-critic algorithm with an auxiliary
+decoder that trains end-to-end and matches
+state-of-the-art performance across both model-free
+and model-based algorithms on many challenging
+control tasks. We release our code to encourage
+future research on image-based RL.
+</div>
+
+</td>
+</tr>
+
 </table>
 <h2>2020</h2>
 <table class="table table-hover">
@@ -1029,50 +1068,11 @@ facilitate.
 
 <tr>
 <td>
-    <strong>Improving Sample Efficiency in Model-Free Reinforcement Learning from Images</strong><br>
-    D. Yarats, A. Zhang, I. Kostrikov, <strong>B. Amos</strong>, J. Pineau, and R. Fergus<br>
-    arXiv 2019<br>
-    
-    [3] 
-[<a href='javascript:;'
-    onclick='$("#abs_yarats2019improving_all_bib").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1910.01741' target='_blank'>pdf</a>] <br>
-    
-<div id="abs_yarats2019improving_all_bib" style="text-align: justify; display: none" markdown="1">
-Training an agent to solve control tasks directly from
-high-dimensional images with model-free
-reinforcement learning (RL) has proven
-difficult. The agent needs to learn a latent
-representation together with a control policy to
-perform the task. Fitting a high-capacity encoder
-using a scarce reward signal is not only sample
-inefficient, but also prone to suboptimal
-convergence. Two ways to improve sample efficiency
-are to extract relevant features for the task and
-use off-policy algorithms. We dissect various
-approaches of learning good latent features, and
-conclude that the image reconstruction loss is the
-essential ingredient that enables efficient and
-stable representation learning in image-based
-RL. Following these findings, we devise an
-off-policy actor-critic algorithm with an auxiliary
-decoder that trains end-to-end and matches
-state-of-the-art performance across both model-free
-and model-based algorithms on many challenging
-control tasks. We release our code to encourage
-future research on image-based RL.
-</div>
-
-</td>
-</tr>
-
-
-<tr>
-<td>
     <strong>The Limited Multi-Label Projection Layer</strong><br>
     <strong>B. Amos</strong>, V. Koltun, and J. Z. Kolter<br>
     arXiv 2019<br>
     
-    [4] 
+    [3] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2019limited_all_bib").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1906.08707' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/lml' target='_blank'>code</a>] <br>
     
@@ -1101,7 +1101,7 @@ classification.
     <strong>B. Amos</strong><br>
     Ph.D. Thesis 2019<br>
     
-    [5] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
+    [4] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
     
 </td>
 </tr>
