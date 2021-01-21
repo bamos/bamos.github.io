@@ -14,15 +14,6 @@
     </td>
   </tr>
   <tr>
-    <td class="col-md-3">Aug 2014 - May 2016</td>
-    <td>
-        <strong>M.S. in Computer Science</strong>
-          (0.00/0.00)
-        <br>
-      Carnegie Mellon University | Pittsburgh, Pennsylvania
-    </td>
-  </tr>
-  <tr>
     <td class="col-md-3">Aug 2011 - May 2014</td>
     <td>
         <strong>B.S. in Computer Science</strong>
@@ -44,49 +35,65 @@
 <table class="table table-hover">
 <tr>
   <td class='col-md-3'>May 2019 - Present</td>
-  <td><strong>Facebook AI</strong> | Research Scientist | New York, New York</td>
+  <td>
+    <strong>Research Scientist</strong> | Facebook AI | New York, New York
+  </td>
 </tr>
 <tr>
 </tr>
 <tr>
   <td class='col-md-3'>June 2018 - Sept 2018</td>
-  <td><strong>Intel Labs</strong> | Research Intern | Santa Clara, California</td>
+  <td>
+    <strong>Research Intern</strong> | Intel Labs | Santa Clara, California
+  </td>
 </tr>
 <tr>
 </tr>
 <tr>
   <td class='col-md-3'>May 2017 - Oct 2017</td>
-  <td><strong>Google DeepMind</strong> | Research Intern | London, UK</td>
+  <td>
+    <strong>Research Intern</strong> | Google DeepMind | London, UK
+  </td>
 </tr>
 <tr>
 </tr>
 <tr>
   <td class='col-md-3'>May 2014 - Aug 2014</td>
-  <td><strong>Adobe Research</strong> | Data Scientist Intern | San Jose, California</td>
+  <td>
+    <strong>Data Scientist Intern</strong> | Adobe Research | San Jose, California
+  </td>
 </tr>
 <tr>
 </tr>
 <tr>
   <td class='col-md-3'>Dec 2013 - Jan 2014</td>
-  <td><strong>Snowplow Analytics</strong> | Software Engineer Intern | London, UK (Remote)</td>
+  <td>
+    <strong>Software Engineer Intern</strong> | Snowplow Analytics | London, UK (Remote)
+  </td>
 </tr>
 <tr>
 </tr>
 <tr>
   <td class='col-md-3'>May 2013 - Aug 2013</td>
-  <td><strong>Qualcomm</strong> | Software Engineer Intern | San Diego, California</td>
+  <td>
+    <strong>Software Engineer Intern</strong> | Qualcomm | San Diego, California
+  </td>
 </tr>
 <tr>
 </tr>
 <tr>
   <td class='col-md-3'>May 2012 - Aug 2012</td>
-  <td><strong>Phoenix Integration</strong> | Software Engineer Intern | Blacksburg, Virginia</td>
+  <td>
+    <strong>Software Engineer Intern</strong> | Phoenix Integration | Blacksburg, Virginia
+  </td>
 </tr>
 <tr>
 </tr>
 <tr>
   <td class='col-md-3'>Jan 2011 - Aug 2011</td>
-  <td><strong>Sunapsys</strong> | Network Administrator Intern | Vinton, Virginia</td>
+  <td>
+    <strong>Network Administrator Intern</strong> | Sunapsys | Vinton, Virginia
+  </td>
 </tr>
 <tr>
 </tr>
