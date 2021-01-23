@@ -10,8 +10,8 @@
         <strong>Ph.D. in Computer Science</strong>
           (0.00/0.00)
         <br>
-      Carnegie Mellon University | Pittsburgh, Pennsylvania
-        <p style='margin-top:-0.5em' markdown='1'>
+      <strong>Carnegie Mellon University</strong> | Pittsburgh, Pennsylvania
+        <p style='margin-top:-0.5em;margin-bottom:0em' markdown='1'>
         <br> Thesis: [Differentiable Optimization-Based Modeling for Machine Learning](https://github.com/bamos/thesis)
         <br> Advisors: [J. Zico Kolter](http://zicokolter.com) (2016 - 2019),  [Mahadev Satyanarayanan](https://www.cs.cmu.edu/~satya/) (2014 - 2016)
         </p>
@@ -23,8 +23,8 @@
         <strong>B.S. in Computer Science, Honors</strong>
           (3.99/4.00)
         <br>
-      Virginia Tech | Blacksburg, Virginia
-        <p style='margin-top:-0.5em' markdown='1'>
+      <strong>Virginia Tech</strong> | Blacksburg, Virginia
+        <p style='margin-top:-0.5em;margin-bottom:0em' markdown='1'>
         <br> Advisors: [Layne Watson](https://people.cs.vt.edu/~ltw/shortvita.html), [Jules White](https://www.magnum.io/people/jules.html), [Binoy Ravindran](https://www.ssrg.ece.vt.edu/)
         </p>
     </td>
@@ -32,7 +32,7 @@
   <tr>
     <td class="col-md-3">Aug 2007 - May 2011</td>
     <td>
-      Northside High School | Roanoke, Virginia
+      <strong>Northside High School</strong> | Roanoke, Virginia
     </td>
   </tr>
 </table>
