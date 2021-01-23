@@ -159,7 +159,7 @@ Linux, emacs, vim, evil, org, mu4e, xmonad, i3, git, tmux, zsh
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Teaching Experience
+## <i class="fa fa-chevron-right"></i> Teaching
 <table class="table table-hover">
 <tr>
   <td class='col-md-1'>S2017</td>
