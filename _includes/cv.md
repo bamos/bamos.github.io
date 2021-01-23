@@ -1,4 +1,4 @@
- I am a research scientist at <b>Facebook AI (FAIR)</b> in NYC and broadly study foundational topics and applications in <b>machine learning</b> (sometimes deep) and <b>optimization</b> (sometimes convex), including reinforcement learning, computer vision, language, statistics, and theory. I have a Ph.D. from <b>Carnegie Mellon University</b> and was advised by [Zico Kolter](http://zicokolter.com/) and supported by an <b>NSF graduate research fellowship.</b> My thesis is on [Differentiable Optimization-Based Modeling for Machine Learning](https://github.com/bamos/thesis). My publications are available below and on [my Google Scholar page](https://scholar.google.com/citations?user=d8gdZR4AAAAJ) and my open source contributions can be found on [my Github profile](https://github.com/bamos). I have also worked on <b>reinforcement learning</b> during an internship with [Nando de Freitas](https://www.cs.ubc.ca/~nando/) and [Misha Denil](http://mdenil.com/) at <b>DeepMind</b> in 2017 and on vision with [Vladlen Koltun](http://vladlen.info) at <b>Intel Labs</b> in 2018. <br><br>
+ I am a research scientist at <b>Facebook AI (FAIR)</b> in NYC and study foundational topics and applications in <b>machine learning</b> (sometimes deep) and <b>optimization</b> (sometimes convex), including reinforcement learning, geometry, computer vision, language, statistics, and theory. In my research I seek to uncover new modeling principles that enable us to express new operations and pieces of domain knowledge. I focus on optimization as non-trivial reasoning operations can be expressed in the language of optimization, and the lens of optimization offers insights into established paradigms. I actively publish code to [GitHub](https://github.com/bamos) as I believe that science should be open and accessible, and that well-engineered code enables new frontiers. <br><br> I am always interested in learning more about music, philosophy, and cute mathematics. Please get in touch if you have any to share. <br><br>
 
 
 ## <i class="fa fa-chevron-right"></i> Education
@@ -11,15 +11,22 @@
           (0.00/0.00)
         <br>
       Carnegie Mellon University | Pittsburgh, Pennsylvania
+        <p style='margin-top:-0.5em' markdown='1'>
+        <br> Thesis: [Differentiable Optimization-Based Modeling for Machine Learning](https://github.com/bamos/thesis)
+        <br> Advisors: [J. Zico Kolter](http://zicokolter.com) (2016 - 2019),  [Mahadev Satyanarayanan](https://www.cs.cmu.edu/~satya/) (2014 - 2016)
+        </p>
     </td>
   </tr>
   <tr>
     <td class="col-md-3">Aug 2011 - May 2014</td>
     <td>
-        <strong>B.S. in Computer Science</strong>
+        <strong>B.S. in Computer Science, Honors</strong>
           (3.99/4.00)
         <br>
       Virginia Tech | Blacksburg, Virginia
+        <p style='margin-top:-0.5em' markdown='1'>
+        <br> Advisors: [Layne Watson](https://people.cs.vt.edu/~ltw/shortvita.html), [Jules White](https://www.magnum.io/people/jules.html), [Binoy Ravindran](https://www.ssrg.ece.vt.edu/)
+        </p>
     </td>
   </tr>
   <tr>
@@ -40,22 +47,22 @@
   </td>
 </tr>
 <tr>
-</tr>
-<tr>
   <td class='col-md-3'>June 2018 - Sept 2018</td>
   <td>
     <strong>Research Intern</strong> | Intel Labs | Santa Clara, California
+        <p style='display:inline' markdown='1'>
+            <br> Host: [Vladlen Koltun](http://vladlen.info/)
+        </p>
   </td>
-</tr>
-<tr>
 </tr>
 <tr>
   <td class='col-md-3'>May 2017 - Oct 2017</td>
   <td>
     <strong>Research Intern</strong> | Google DeepMind | London, UK
+        <p style='display:inline' markdown='1'>
+            <br> Hosts: [Misha Denil](http://mdenil.com/) and [Nando de Freitas](https://scholar.google.com/citations?user=nzEluBwAAAAJ)
+        </p>
   </td>
-</tr>
-<tr>
 </tr>
 <tr>
   <td class='col-md-3'>May 2014 - Aug 2014</td>
@@ -64,14 +71,10 @@
   </td>
 </tr>
 <tr>
-</tr>
-<tr>
   <td class='col-md-3'>Dec 2013 - Jan 2014</td>
   <td>
     <strong>Software Intern</strong> | Snowplow | London, UK (Remote)
   </td>
-</tr>
-<tr>
 </tr>
 <tr>
   <td class='col-md-3'>May 2013 - Aug 2013</td>
@@ -80,22 +83,16 @@
   </td>
 </tr>
 <tr>
-</tr>
-<tr>
   <td class='col-md-3'>May 2012 - Aug 2012</td>
   <td>
     <strong>Software Intern</strong> | Phoenix Integration | Blacksburg, Virginia
   </td>
 </tr>
 <tr>
-</tr>
-<tr>
   <td class='col-md-3'>Jan 2011 - Aug 2011</td>
   <td>
     <strong>Network Administrator Intern</strong> | Sunapsys | Vinton, Virginia
   </td>
-</tr>
-<tr>
 </tr>
 </table>
 
@@ -428,7 +425,7 @@ biology problems is given.
     
     [4] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2020differentiable").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1909.12830' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_amos2020differentiable").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1909.12830' target='_blank'>pdf</a>]  [<a href='https://github.com/facebookresearch/dcem' target='_blank'>code</a>] <br>
     
 <div id="abs_amos2020differentiable" style="text-align: justify; display: none" markdown="1">
 We study the Cross-Entropy Method (CEM) for the non-convex
