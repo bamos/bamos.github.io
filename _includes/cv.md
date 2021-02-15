@@ -1169,7 +1169,7 @@ malware machine learning classifiers.
 <tr>
   <td class='col-md-1'>2020</td>
   <td>
-        Max Planck Institute for Intelligent Systems, Tübingen, Seminar
+        Max Planck Institute for Intelligent Systems (Tübingen) Seminar
   </td>
 </tr>
 <tr>
@@ -1199,7 +1199,7 @@ malware machine learning classifiers.
 <tr>
   <td class='col-md-1'>2019</td>
   <td>
-        New York University
+        New York University CILVR Seminar
   </td>
 </tr>
 <tr>
