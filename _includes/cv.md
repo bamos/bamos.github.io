@@ -1271,30 +1271,36 @@ malware machine learning classifiers.
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Advising
+## <i class="fa fa-chevron-right"></i> Students & Advising
 <table class="table table-hover">
 <tr>
   <td class='col-md-1'>2020</td>
   <td>
-        <a href="https://www.aaronlou.com/">Aaron Lou</a> (Cornell), FAIR Intern
+        <a href="https://www.aaronlou.com/">Aaron Lou</a> (Cornell), FAIR Intern (with Max Nickel)
   </td>
 </tr>
 <tr>
   <td class='col-md-1'>2020</td>
   <td>
-        <a href="http://www.cs.toronto.edu/~rtqichen/">Ricky Chen</a> (Toronto), FAIR Intern
+        <a href="http://www.cs.toronto.edu/~rtqichen/">Ricky Chen</a> (Toronto), FAIR Intern (with Max Nickel)
   </td>
 </tr>
 <tr>
   <td class='col-md-1'>2020</td>
   <td>
-        <a href="http://www.cs.cmu.edu/~pliang/">Paul Liang</a> (CMU), FAIR Intern
+        <a href="http://www.cs.cmu.edu/~pliang/">Paul Liang</a> (CMU), FAIR Intern (with Ed Grefenstette and Tim Rocktäschel)
   </td>
 </tr>
 <tr>
   <td class='col-md-1'>2018</td>
   <td>
-        <a href="https://phillipkwang.com/">Phillip Wang</a> (CMU)
+        <a href="https://phillipkwang.com/">Phillip Wang</a> (CMU), Undergraduate Researcher
+  </td>
+</tr>
+<tr>
+  <td class='col-md-1'>2016</td>
+  <td>
+        <a href="https://phillipkwang.com/">Lei Xu</a> (Tsinghua), CMU Intern (with J. Zico Kolter)
   </td>
 </tr>
 </table>
