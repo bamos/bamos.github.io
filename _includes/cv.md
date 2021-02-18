@@ -13,7 +13,7 @@
       Carnegie Mellon University | Pittsburgh, Pennsylvania
         <p style='margin-top:-1em;margin-bottom:0em' markdown='1'>
         <br> *[Differentiable Optimization-Based Modeling for Machine Learning](https://github.com/bamos/thesis)*
-        <br> Advisors: [J. Zico Kolter](http://zicokolter.com) (2016 - 2019),  [Mahadev Satyanarayanan](https://www.cs.cmu.edu/~satya/) (2014 - 2016)
+        <br> Advisors: [J. Zico Kolter](http://zicokolter.com) (2016 - 2019),  [Mahadev Satyanarayanan](https://www.cs.cmu.edu/ satya/) (2014 - 2016)
         </p>
     </td>
   </tr>
@@ -25,7 +25,7 @@
         <br>
       Virginia Tech | Blacksburg, Virginia
         <p style='margin-top:-1em;margin-bottom:0em' markdown='1'>
-        <br> Advisors: [Layne Watson](https://people.cs.vt.edu/~ltw/shortvita.html), [Jules White](https://www.magnum.io/people/jules.html), [Binoy Ravindran](https://www.ssrg.ece.vt.edu/)
+        <br> Advisors: [Layne Watson](https://people.cs.vt.edu/ ltw/shortvita.html), [Jules White](https://www.magnum.io/people/jules.html), [Binoy Ravindran](https://www.ssrg.ece.vt.edu/)
         </p>
     </td>
   </tr>
@@ -109,7 +109,7 @@
   <td class='col-md-2'>2011 - 2014</td>
   <td>
     Nine undergraduate scholarships
-    <br><p style="color:grey;font-size:1.2rem">Benjamin F.~Bock, Gay B.~Shober, I.~Luck Gravett, VT IC CAE, Roanoke County Public Schools Engineering, Papa John's, Pamplin Leader, Scottish Rite of Freemasonry, Salem-Roanoke County Chamber of Commerce</p>
+    <br><p style="color:grey;font-size:1.2rem">Benjamin F. Bock, Gay B. Shober, I. Luck Gravett, VT IC CAE, Roanoke County Public Schools Engineering, Papa John's, Pamplin Leader, Scottish Rite of Freemasonry, Salem-Roanoke County Chamber of Commerce</p>
   </td>
 </tr>
 </table>
@@ -454,7 +454,7 @@ towards combining model-based and model-free RL.
 <table class="table table-hover">
 
 <tr id="tr-amos2019differentiable3">
-<td class="col-md-3"><a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'><img src="images/publications/amos2019differentiable3.png" onerror="this.style.display='none'" onload="$('#tr-amos2019differentiable3').css('background-color', '#ffffd0')" style='border: none;' /></a> </td>
+<td class="col-md-3"><a href='http://web.stanford.edu/ boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'><img src="images/publications/amos2019differentiable3.png" onerror="this.style.display='none'" onload="$('#tr-amos2019differentiable3').css('background-color', '#ffffd0')" style='border: none;' /></a> </td>
 <td>
     <strong>Differentiable Convex Optimization Layers</strong><br>
     A. Agrawal*, <strong>B. Amos*</strong>, S. Barratt*, S. Boyd*, S. Diamond*, and J. Z. Kolter*<br>
@@ -462,7 +462,7 @@ towards combining model-based and model-free RL.
     
     [1] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2019differentiable3").toggle()'>abs</a>] [<a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/cvxgrp/cvxpylayers' target='_blank'>code</a>] <br>
+    onclick='$("#abs_amos2019differentiable3").toggle()'>abs</a>] [<a href='http://web.stanford.edu/ boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/cvxgrp/cvxpylayers' target='_blank'>code</a>] <br>
     
 <div id="abs_amos2019differentiable3" style="text-align: justify; display: none" markdown="1">
 Recent work has shown how to embed differentiable optimization problems (that is, problems whose solutions can be backpropagated through) as layers within deep learning architectures. This method provides a useful inductive bias for certain problems, but existing software for differentiable optimization layers is rigid and difficult to apply to new settings. In this paper, we propose an approach to differentiating through disciplined convex programs, a subclass of convex optimization problems used by domain-specific languages (DSLs) for convex optimization. We introduce disciplined parametrized programming, a subset of disciplined convex programming, and we show that every disciplined parametrized program can be represented as the composition of an affine map from parameters to problem data, a solver, and an affine map from the solver’s solution to a solution of the original problem (a new form we refer to as affine-solver-affine form). We then demonstrate how to efficiently differentiate through each of these components, allowing for end-to-end analytical differentiation through the entire convex program. We implement our methodology in version 1.1 of CVXPY, a popular Python-embedded DSL for convex optimization, and additionally implement differentiable layers for disciplined convex programs in PyTorch and TensorFlow 2.0. Our implementation significantly lowers the barrier to using convex optimization problems in differentiable programs. We present applications in linear machine learning models and in stochastic control, and we show that our layer is competitive (in execution time) compared to specialized differentiable solvers from past work.
@@ -796,26 +796,26 @@ improvement over the existing state of the art in many cases.
 
 
 <tr id="tr-ha2017you">
-<td class="col-md-3"><a href='https://www.cs.cmu.edu/~15-821/READINGS/PAPERS/ha2017.pdf' target='_blank'><img src="images/publications/ha2017you.png" onerror="this.style.display='none'" onload="$('#tr-ha2017you').css('background-color', '#ffffd0')" style='border: none;' /></a> </td>
+<td class="col-md-3"><a href='https://www.cs.cmu.edu/ 15-821/READINGS/PAPERS/ha2017.pdf' target='_blank'><img src="images/publications/ha2017you.png" onerror="this.style.display='none'" onload="$('#tr-ha2017you').css('background-color', '#ffffd0')" style='border: none;' /></a> </td>
 <td>
     <strong>You can teach elephants to dance: agile VM handoff for edge computing</strong><br>
     K. Ha, Y. Abe, T. Eiszler, Z. Chen, W. Hu, <strong>B. Amos</strong>, R. Upadhyaya, P. Pillai, and M. Satyanarayanan<br>
     SEC 2017<br>
     
-    [6] [<a href='https://www.cs.cmu.edu/~15-821/READINGS/PAPERS/ha2017.pdf' target='_blank'>pdf</a>] <br>
+    [6] [<a href='https://www.cs.cmu.edu/ 15-821/READINGS/PAPERS/ha2017.pdf' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
 
 
 <tr id="tr-chen2017empirical">
-<td class="col-md-3"><a href='https://www.cs.cmu.edu/~zhuoc/papers/latency2017.pdf' target='_blank'><img src="images/publications/chen2017empirical.png" onerror="this.style.display='none'" onload="$('#tr-chen2017empirical').css('background-color', '#ffffd0')" style='border: none;' /></a> </td>
+<td class="col-md-3"><a href='https://www.cs.cmu.edu/ zhuoc/papers/latency2017.pdf' target='_blank'><img src="images/publications/chen2017empirical.png" onerror="this.style.display='none'" onload="$('#tr-chen2017empirical').css('background-color', '#ffffd0')" style='border: none;' /></a> </td>
 <td>
     <strong>An Empirical Study of Latency in an Emerging Class of Edge Computing Applications for Wearable Cognitive Assistance</strong><br>
     Z. Chen, W. Hu, J. Wang, S. Zhao, <strong>B. Amos</strong>, G. Wu, K. Ha, K. Elgazzar, P. Pillai, R. Klatzky, D. Siewiorek, and M. Satyanarayanan<br>
     SEC 2017<br>
     
-    [7] [<a href='https://www.cs.cmu.edu/~zhuoc/papers/latency2017.pdf' target='_blank'>pdf</a>] <br>
+    [7] [<a href='https://www.cs.cmu.edu/ zhuoc/papers/latency2017.pdf' target='_blank'>pdf</a>] <br>
     
 </td>
 </tr>
@@ -938,7 +938,7 @@ the Apache 2.0 license. It is available at:
 <table class="table table-hover">
 
 <tr id="tr-satyanarayanan2015edge">
-<td class="col-md-3"><a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'><img src="images/publications/satyanarayanan2015edge.png" onerror="this.style.display='none'" onload="$('#tr-satyanarayanan2015edge').css('background-color', '#ffffd0')" style='border: none;' /></a> </td>
+<td class="col-md-3"><a href='https://www.cs.cmu.edu/ satya/docdir/satya-edge2015.pdf' target='_blank'><img src="images/publications/satyanarayanan2015edge.png" onerror="this.style.display='none'" onload="$('#tr-satyanarayanan2015edge').css('background-color', '#ffffd0')" style='border: none;' /></a> </td>
 <td>
     <strong>Edge Analytics in the Internet of Things</strong><br>
     M. Satyanarayanan, P. Simoens, Y. Xiao, P. Pillai, Z. Chen, K. Ha, W. Hu, and <strong>B. Amos</strong><br>
@@ -946,7 +946,7 @@ the Apache 2.0 license. It is available at:
     
     [1] 
 [<a href='javascript:;'
-    onclick='$("#abs_satyanarayanan2015edge").toggle()'>abs</a>] [<a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_satyanarayanan2015edge").toggle()'>abs</a>] [<a href='https://www.cs.cmu.edu/ satya/docdir/satya-edge2015.pdf' target='_blank'>pdf</a>] <br>
     
 <div id="abs_satyanarayanan2015edge" style="text-align: justify; display: none" markdown="1">
 High-data-rate sensors, such as video cameras, are becoming ubiquitous in the
@@ -993,7 +993,7 @@ manufacturing security topics.
 
 
 <tr id="tr-chen2015early">
-<td class="col-md-3"><a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'><img src="images/publications/chen2015early.png" onerror="this.style.display='none'" onload="$('#tr-chen2015early').css('background-color', '#ffffd0')" style='border: none;' /></a> </td>
+<td class="col-md-3"><a href='http://www.cs.cmu.edu/ satya/docdir/chen-wearsys2015.pdf' target='_blank'><img src="images/publications/chen2015early.png" onerror="this.style.display='none'" onload="$('#tr-chen2015early').css('background-color', '#ffffd0')" style='border: none;' /></a> </td>
 <td>
     <strong>Early Implementation Experience with Wearable Cognitive Assistance Applications</strong><br>
     Z. Chen, L. Jiang, W. Hu, K. Ha, <strong>B. Amos</strong>, P. Pillai, A. Hauptmann, and M. Satyanarayanan<br>
@@ -1001,7 +1001,7 @@ manufacturing security topics.
     
     [3] 
 [<a href='javascript:;'
-    onclick='$("#abs_chen2015early").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_chen2015early").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/ satya/docdir/chen-wearsys2015.pdf' target='_blank'>pdf</a>] <br>
     
 <div id="abs_chen2015early" style="text-align: justify; display: none" markdown="1">
 A cognitive assistance application combines a wearable device such
@@ -1021,7 +1021,7 @@ simplify the creation of similar applications.
 
 
 <tr id="tr-hu2014case">
-<td class="col-md-3"><a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'><img src="images/publications/hu2014case.png" onerror="this.style.display='none'" onload="$('#tr-hu2014case').css('background-color', '#ffffd0')" style='border: none;' /></a> </td>
+<td class="col-md-3"><a href='http://www.cs.cmu.edu/ satya/docdir/hu-hotmobile2015.pdf' target='_blank'><img src="images/publications/hu2014case.png" onerror="this.style.display='none'" onload="$('#tr-hu2014case').css('background-color', '#ffffd0')" style='border: none;' /></a> </td>
 <td>
     <strong>The Case for Offload Shaping</strong><br>
     W. Hu, <strong>B. Amos</strong>, Z. Chen, K. Ha, W. Richter, P. Pillai, B. Gilbert, J. Harkes, and M. Satyanarayanan<br>
@@ -1029,7 +1029,7 @@ simplify the creation of similar applications.
     
     [4] 
 [<a href='javascript:;'
-    onclick='$("#abs_hu2014case").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_hu2014case").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/ satya/docdir/hu-hotmobile2015.pdf' target='_blank'>pdf</a>] <br>
     
 <div id="abs_hu2014case" style="text-align: justify; display: none" markdown="1">
 When offloading computation from a mobile device, we show
@@ -1288,13 +1288,13 @@ malware machine learning classifiers.
 <tr>
   <td class='col-md-1'>2020</td>
   <td>
-        <a href="http://www.cs.toronto.edu/~rtqichen/">Ricky Chen</a> (Toronto), FAIR Intern (with Max Nickel)
+        <a href="http://www.cs.toronto.edu/ rtqichen/">Ricky Chen</a> (Toronto), FAIR Intern (with Max Nickel)
   </td>
 </tr>
 <tr>
   <td class='col-md-1'>2020</td>
   <td>
-        <a href="http://www.cs.cmu.edu/~pliang/">Paul Liang</a> (CMU), FAIR Intern (with Ed Grefenstette and Tim Rocktäschel)
+        <a href="http://www.cs.cmu.edu/ pliang/">Paul Liang</a> (CMU), FAIR Intern (with Ed Grefenstette and Tim Rocktäschel)
   </td>
 </tr>
 <tr>
