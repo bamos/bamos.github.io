@@ -1215,15 +1215,15 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td class='col-md-1'>2018</td>
-  <td>
-        ISMP Session on Machine Learning and Optimization
-  </td>
-</tr>
-<tr>
   <td class='col-md-1'>2019</td>
   <td>
         Facebook AI Research
+  </td>
+</tr>
+<tr>
+  <td class='col-md-1'>2018</td>
+  <td>
+        ISMP Session on Machine Learning and Optimization
   </td>
 </tr>
 <tr>
