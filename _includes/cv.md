@@ -109,7 +109,7 @@
   <td class='col-md-2'>2011 - 2014</td>
   <td>
     Nine undergraduate scholarships
-    <br><p style="color:grey;font-size:1.2rem">Benjamin F. Bock, Intelligence Community Center of Academic Excellence, Roanoke County Public Schools Engineering, Papa John's, Gay B. Shober Memorial, Pamplin Leader, I. Luck Gravett Memorial, Scottish Rite of Freemasonry, Salem-Roanoke County Chamber of Commerce</p>
+    <br><p style="color:grey;font-size:1.2rem">Benjamin F.~Bock, Gay B.~Shober, I.~Luck Gravett, VT IC CAE, Roanoke County Public Schools Engineering, Papa John's, Pamplin Leader, Scottish Rite of Freemasonry, Salem-Roanoke County Chamber of Commerce</p>
   </td>
 </tr>
 </table>
