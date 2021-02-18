@@ -5,7 +5,7 @@
 
 <table class="table table-hover">
   <tr>
-    <td class="col-md-3">Aug 2014 - May 2019</td>
+    <td class="col-md-3">2019</td>
     <td>
         <strong>Ph.D. in Computer Science</strong>
           (0.00/0.00)
@@ -18,7 +18,7 @@
     </td>
   </tr>
   <tr>
-    <td class="col-md-3">Aug 2011 - May 2014</td>
+    <td class="col-md-3">2014</td>
     <td>
         <strong>B.S. in Computer Science, Honors</strong>
           (3.99/4.00)
@@ -30,7 +30,7 @@
     </td>
   </tr>
   <tr>
-    <td class="col-md-3">Aug 2007 - May 2011</td>
+    <td class="col-md-3">2011</td>
     <td>
       Northside High School | Roanoke, Virginia
     </td>
@@ -41,13 +41,13 @@
 ## <i class="fa fa-chevron-right"></i> Experience
 <table class="table table-hover">
 <tr>
-  <td class='col-md-3'>May 2019 - Present</td>
+  <td class='col-md-3'>2019 - Present</td>
   <td>
     <strong>Research Scientist</strong> | Facebook AI | New York, New York
   </td>
 </tr>
 <tr>
-  <td class='col-md-3'>June 2018 - Sept 2018</td>
+  <td class='col-md-3'>2018</td>
   <td>
     <strong>Research Intern</strong> | Intel Labs | Santa Clara, California
         <p style='display:inline' markdown='1'>
@@ -56,7 +56,7 @@
   </td>
 </tr>
 <tr>
-  <td class='col-md-3'>May 2017 - Oct 2017</td>
+  <td class='col-md-3'>2017</td>
   <td>
     <strong>Research Intern</strong> | Google DeepMind | London, UK
         <p style='display:inline' markdown='1'>
@@ -65,31 +65,31 @@
   </td>
 </tr>
 <tr>
-  <td class='col-md-3'>May 2014 - Aug 2014</td>
+  <td class='col-md-3'>2014</td>
   <td>
     <strong>Data Scientist Intern</strong> | Adobe Research | San Jose, California
   </td>
 </tr>
 <tr>
-  <td class='col-md-3'>Dec 2013 - Jan 2014</td>
+  <td class='col-md-3'>2013</td>
   <td>
     <strong>Software Intern</strong> | Snowplow | London, UK (Remote)
   </td>
 </tr>
 <tr>
-  <td class='col-md-3'>May 2013 - Aug 2013</td>
+  <td class='col-md-3'>2013</td>
   <td>
     <strong>Software Intern</strong> | Qualcomm | San Diego, California
   </td>
 </tr>
 <tr>
-  <td class='col-md-3'>May 2012 - Aug 2012</td>
+  <td class='col-md-3'>2012</td>
   <td>
     <strong>Software Intern</strong> | Phoenix Integration | Blacksburg, Virginia
   </td>
 </tr>
 <tr>
-  <td class='col-md-3'>Jan 2011 - Aug 2011</td>
+  <td class='col-md-3'>2011</td>
   <td>
     <strong>Network Administrator Intern</strong> | Sunapsys | Vinton, Virginia
   </td>
