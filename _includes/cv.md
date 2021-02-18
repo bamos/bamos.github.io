@@ -1197,6 +1197,12 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
+  <td class='col-md-1'>2020</td>
+  <td>
+        SIAM MDS Minisymposium on Learning Parameterized Energy Minimization Models
+  </td>
+</tr>
+<tr>
   <td class='col-md-1'>2019</td>
   <td>
         New York University CILVR Seminar
@@ -1215,7 +1221,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td class='col-md-1'>2018</td>
+  <td class='col-md-1'>2019</td>
   <td>
         Facebook AI Research
   </td>
