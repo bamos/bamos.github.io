@@ -5,7 +5,6 @@
 
 <table class="table table-hover">
   <tr>
-    <td class="col-md-3">2019</td>
     <td>
         <strong>Ph.D. in Computer Science</strong>
           (0.00/0.00)
@@ -16,9 +15,9 @@
         <br> Advisors: [J. Zico Kolter](http://zicokolter.com) (2016 - 2019),  [Mahadev Satyanarayanan](https://www.cs.cmu.edu/ satya/) (2014 - 2016)
         </p>
     </td>
+    <td class="col-md-1" style='text-align:right;'>2019</td>
   </tr>
   <tr>
-    <td class="col-md-3">2014</td>
     <td>
         <strong>B.S. in Computer Science, Honors</strong>
           (3.99/4.00)
@@ -28,12 +27,13 @@
         <br> Advisors: [Layne Watson](https://people.cs.vt.edu/ ltw/shortvita.html), [Jules White](https://www.magnum.io/people/jules.html), [Binoy Ravindran](https://www.ssrg.ece.vt.edu/)
         </p>
     </td>
+    <td class="col-md-1" style='text-align:right;'>2014</td>
   </tr>
   <tr>
-    <td class="col-md-3">2011</td>
     <td>
       Northside High School | Roanoke, Virginia
     </td>
+    <td class="col-md-1" style='text-align:right;'>2011</td>
   </tr>
 </table>
 
@@ -41,58 +41,58 @@
 ## <i class="fa fa-chevron-right"></i> Experience
 <table class="table table-hover">
 <tr>
-  <td class='col-md-3'>2019 - Present</td>
   <td>
     <strong>Research Scientist</strong> | Facebook AI | New York, New York
   </td>
+  <td class='col-md-2' style='text-align:right;'>2019 - Present</td>
 </tr>
 <tr>
-  <td class='col-md-3'>2018</td>
   <td>
     <strong>Research Intern</strong> | Intel Labs | Santa Clara, California
         <p style='display:inline' markdown='1'>
             <br> Host: [Vladlen Koltun](http://vladlen.info/)
         </p>
   </td>
+  <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
-  <td class='col-md-3'>2017</td>
   <td>
     <strong>Research Intern</strong> | Google DeepMind | London, UK
         <p style='display:inline' markdown='1'>
             <br> Hosts: [Misha Denil](http://mdenil.com/) and [Nando de Freitas](https://scholar.google.com/citations?user=nzEluBwAAAAJ)
         </p>
   </td>
+  <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
-  <td class='col-md-3'>2014</td>
   <td>
     <strong>Data Scientist Intern</strong> | Adobe Research | San Jose, California
   </td>
+  <td class='col-md-2' style='text-align:right;'>2014</td>
 </tr>
 <tr>
-  <td class='col-md-3'>2013</td>
   <td>
     <strong>Software Intern</strong> | Snowplow | London, UK (Remote)
   </td>
+  <td class='col-md-2' style='text-align:right;'>2013</td>
 </tr>
 <tr>
-  <td class='col-md-3'>2013</td>
   <td>
     <strong>Software Intern</strong> | Qualcomm | San Diego, California
   </td>
+  <td class='col-md-2' style='text-align:right;'>2013</td>
 </tr>
 <tr>
-  <td class='col-md-3'>2012</td>
   <td>
     <strong>Software Intern</strong> | Phoenix Integration | Blacksburg, Virginia
   </td>
+  <td class='col-md-2' style='text-align:right;'>2012</td>
 </tr>
 <tr>
-  <td class='col-md-3'>2011</td>
   <td>
     <strong>Network Administrator Intern</strong> | Sunapsys | Vinton, Virginia
   </td>
+  <td class='col-md-2' style='text-align:right;'>2011</td>
 </tr>
 </table>
 
@@ -100,17 +100,17 @@
 ## <i class="fa fa-chevron-right"></i> Honors & Awards
 <table class="table table-hover">
 <tr>
-  <td class='col-md-2'>2016 - 2019</td>
   <td>
     NSF Graduate Research Fellowship
   </td>
+  <td class='col-md-2' style='text-align:right;'>2016 - 2019</td>
 </tr>
 <tr>
-  <td class='col-md-2'>2011 - 2014</td>
   <td>
     Nine undergraduate scholarships
     <br><p style="color:grey;font-size:1.2rem">Benjamin F. Bock, Gay B. Shober, I. Luck Gravett, VT IC CAE, Roanoke County Public Schools Engineering, Papa John's, Pamplin Leader, Scottish Rite of Freemasonry, Salem-Roanoke County Chamber of Commerce</p>
   </td>
+  <td class='col-md-2' style='text-align:right;'>2011 - 2014</td>
 </tr>
 </table>
 
@@ -159,16 +159,16 @@ Linux, emacs, vim, evil, org, mu4e, xmonad, i3, git, tmux, zsh
 ## <i class="fa fa-chevron-right"></i> Teaching
 <table class="table table-hover">
 <tr>
-  <td class='col-md-1'>S2017</td>
   <td><strong>Graduate AI</strong> (CMU 15-780), TA</td>
+  <td class='col-md-1' style='text-align:right;'>S2017</td>
 </tr>
 <tr>
-  <td class='col-md-1'>S2016</td>
   <td><strong>Distributed Systems</strong> (CMU 15-440/640), TA</td>
+  <td class='col-md-1' style='text-align:right;'>S2016</td>
 </tr>
 <tr>
-  <td class='col-md-1'>S2013</td>
   <td><strong>Software Design and Data Structures</strong> (VT CS2114), TA</td>
+  <td class='col-md-1' style='text-align:right;'>S2013</td>
 </tr>
 </table>
 
@@ -1167,112 +1167,112 @@ malware machine learning classifiers.
 ## <i class="fa fa-chevron-right"></i> Invited Talks
 <table class="table table-hover">
 <tr>
-  <td class='col-md-1'>2020</td>
   <td>
         Max Planck Institute for Intelligent Systems (Tübingen) Seminar
   </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2020</td>
   <td>
         Montreal Institute for Learning Algorithms Seminar
   </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2020</td>
   <td>
         <a href="https://anucvml.github.io/ddn-eccvt2020/">ECCV Deep Declarative Networks Tutorial</a>
   </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2020</td>
   <td>
         <a href="https://anucvml.github.io/ddn-cvprw2020/">CVPR Deep Declarative Networks Workshop</a>
   </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2020</td>
   <td>
         <a href="https://sites.google.com/view/cs-159-spring-2020/lectures">Caltech CS 159, Guest Lecture</a>
   </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2020</td>
   <td>
         SIAM MDS Minisymposium on Learning Parameterized Energy Minimization Models
   </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2019</td>
   <td>
         New York University CILVR Seminar
   </td>
+  <td class='col-md-1' style='text-align:right;'>2019</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2019</td>
   <td>
         INFORMS Session on Prediction and Optimization
   </td>
+  <td class='col-md-1' style='text-align:right;'>2019</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2019</td>
   <td>
         Facebook AI Research
   </td>
+  <td class='col-md-1' style='text-align:right;'>2019</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2018</td>
   <td>
         ISMP Session on Machine Learning and Optimization
   </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2018</td>
   <td>
         Google Brain
   </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2018</td>
   <td>
         Bosch Center for AI
   </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2018</td>
   <td>
         Waymo Research
   </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2018</td>
   <td>
         Tesla AI
   </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2018</td>
   <td>
         NVIDIA Robotics
   </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2018</td>
   <td>
         Salesforce Research
   </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2018</td>
   <td>
         OpenAI
   </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2018</td>
   <td>
         NNAISENSE
   </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
 </tr>
 </table>
 
@@ -1280,33 +1280,33 @@ malware machine learning classifiers.
 ## <i class="fa fa-chevron-right"></i> Students & Advising
 <table class="table table-hover">
 <tr>
-  <td class='col-md-1'>2020</td>
   <td>
         <a href="https://www.aaronlou.com/">Aaron Lou</a> (Cornell), FAIR Intern (with Max Nickel)
   </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2020</td>
   <td>
         <a href="http://www.cs.toronto.edu/ rtqichen/">Ricky Chen</a> (Toronto), FAIR Intern (with Max Nickel)
   </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2020</td>
   <td>
         <a href="http://www.cs.cmu.edu/ pliang/">Paul Liang</a> (CMU), FAIR Intern (with Ed Grefenstette and Tim Rocktäschel)
   </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2018</td>
   <td>
         <a href="https://phillipkwang.com/">Phillip Wang</a> (CMU), Undergraduate Researcher
   </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
 </tr>
 <tr>
-  <td class='col-md-1'>2016</td>
   <td>
         <a href="https://phillipkwang.com/">Lei Xu</a> (Tsinghua), CMU Intern (with J. Zico Kolter)
   </td>
+  <td class='col-md-1' style='text-align:right;'>2016</td>
 </tr>
 </table>
