@@ -1316,17 +1316,6 @@ malware machine learning classifiers.
 <table class="table table-hover">
 <tr>
   <td>
-    <a href="https://github.com/facebookresearch/higher">facebookresearch/higher</a> |
-    <i class="fa fas fa-star"></i> 1.1k |
-    <em>PyTorch higher-order gradients</em>
-    <!--  -->
-    <!--     facebookresearch/higher  -->
-    <!--  -->
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
-</tr>
-<tr>
-  <td>
     <a href="https://github.com/facebookresearch/dcem">facebookresearch/dcem</a> |
     <i class="fa fas fa-star"></i> 77 |
     <em>The Differentiable Cross-Entropy Method</em>
@@ -1335,6 +1324,17 @@ malware machine learning classifiers.
     <!--  -->
   </td>
   <td class='col-md-1' style='text-align:right;'>2020</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/facebookresearch/higher">facebookresearch/higher</a> |
+    <i class="fa fas fa-star"></i> 1.1k |
+    <em>PyTorch higher-order gradients</em>
+    <!--  -->
+    <!--     facebookresearch/higher  -->
+    <!--  -->
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2019</td>
 </tr>
 <tr>
   <td>
@@ -1455,7 +1455,7 @@ malware machine learning classifiers.
     <!--     cmusatyalab/openface  -->
     <!--  -->
   </td>
-  <td class='col-md-1' style='text-align:right;'>2016</td>
+  <td class='col-md-1' style='text-align:right;'>2015</td>
 </tr>
 <tr>
   <td>
