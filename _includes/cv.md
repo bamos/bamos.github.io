@@ -1310,3 +1310,184 @@ malware machine learning classifiers.
   <td class='col-md-1' style='text-align:right;'>2016</td>
 </tr>
 </table>
+
+
+## <i class="fa fa-chevron-right"></i> Open Source
+<table class="table table-hover">
+<tr>
+  <td>
+    <a href="https://github.com/facebookresearch/higher">facebookresearch/higher</a> |
+    <i class="fa fas fa-star"></i> 1.1k |
+    <em>PyTorch higher-order gradients</em>
+    <!--  -->
+    <!--     facebookresearch/higher  -->
+    <!--  -->
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/facebookresearch/dcem">facebookresearch/dcem</a> |
+    <i class="fa fas fa-star"></i> 77 |
+    <em>The Differentiable Cross-Entropy Method</em>
+    <!--  -->
+    <!--     facebookresearch/dcem  -->
+    <!--  -->
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/bamos/thesis">bamos/thesis</a> |
+    <i class="fa fas fa-star"></i> 238 |
+    <em>Thesis source cdoe</em>
+    <!--  -->
+    <!--     bamos/thesis  -->
+    <!--  -->
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2019</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/cvxgrp/cvxpylayers">cvxgrp/cvxpylayers</a> |
+    <i class="fa fas fa-star"></i> 862 |
+    <em>Differentiable convex optimization layers</em>
+    <!--  -->
+    <!--     cvxgrp/cvxpylayers  -->
+    <!--  -->
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2019</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
+    <i class="fa fas fa-star"></i> 436 |
+    <em>PyTorch differentiable model-predictive control</em>
+    <!--  -->
+    <!--     locuslab/mpc.pytorch  -->
+    <!--  -->
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/locuslab/icnn">locuslab/icnn</a> |
+    <i class="fa fas fa-star"></i> 212 |
+    <em>Input Convex Neural Network Experiments</em>
+    <!--  -->
+    <!--     locuslab/icnn  -->
+    <!--  -->
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2017</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/locuslab/optnet">locuslab/optnet</a> |
+    <i class="fa fas fa-star"></i> 360 |
+    <em>OptNet Experiments</em>
+    <!--  -->
+    <!--     locuslab/optnet  -->
+    <!--  -->
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2017</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
+    <i class="fa fas fa-star"></i> 461 |
+    <em>A fast and differentiable QP solver for PyTorch</em>
+    <!--  -->
+    <!--     locuslab/qpth  -->
+    <!--  -->
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2017</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a> |
+    <i class="fa fas fa-star"></i> 681 |
+    <em>PyTorch DenseNet implementation</em>
+    <!--  -->
+    <!--     bamos/densenet.pytorch  -->
+    <!--  -->
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2017</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/bamos/block">bamos/block</a> |
+    <i class="fa fas fa-star"></i> 253 |
+    <em>An intelligent block matrix library</em>
+    <!--  -->
+    <!--     bamos/block  -->
+    <!--  -->
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2017</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/bamos/setGPU">bamos/setGPU</a> |
+    <i class="fa fas fa-star"></i> 92 |
+    <em>Automatically use the least-loaded GPU</em>
+    <!--  -->
+    <!--     bamos/setGPU  -->
+    <!--  -->
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2017</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/bamos/dcgan-completion.tensorflow">bamos/dcgan-completion.tensorflow</a> |
+    <i class="fa fas fa-star"></i> 1.3k |
+    <em>Image completion in TensorFlow</em>
+    <!--  -->
+    <!--     bamos/dcgan-completion.tensorflow  -->
+    <!--  -->
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2016</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/cmusatyalab/openface">cmusatyalab/openface</a> |
+    <i class="fa fas fa-star"></i> 13.9k |
+    <em>Face recognition with deep neural networks</em>
+    <!--  -->
+    <!--     cmusatyalab/openface  -->
+    <!--  -->
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2016</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a> |
+    <i class="fa fas fa-star"></i> 160 |
+    <em>Analyze and plot your zsh history</em>
+    <!--  -->
+    <!--     bamos/zsh-history-analysis  -->
+    <!--  -->
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2014</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/bamos/cv">bamos/cv</a> |
+    <i class="fa fas fa-star"></i> 307 |
+    <em>My YAML/LaTeX/Markdown cv</em>
+    <!--  -->
+    <!--     bamos/cv  -->
+    <!--  -->
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2013</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/bamos/dotfiles">bamos/dotfiles</a> |
+    <i class="fa fas fa-star"></i> 222 |
+    <em>Linux, mutt, xmonad, i3, vim, emacs, zsh</em>
+    <!--  -->
+    <!--     bamos/dotfiles  -->
+    <!--  -->
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2012</td>
+</tr>
+</table>
