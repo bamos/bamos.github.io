@@ -118,16 +118,34 @@
 ## <i class="fa fa-chevron-right"></i> Service
 <table class="table table-hover">
 <tr>
-  <td class='col-md-2'>Reviewing</td>
   <td>
-AAAI, ICML, NeurIPS, ICLR*, ICCV, CVPR, ICRA
-<br><p style="color:grey;font-size:1.2rem">*Outstanding reviewer</p>
+      Reviewing: AAAI, ICML, NeurIPS, ICLR*, ICCV, CVPR, ICRA
+  <br><p style="color:grey;font-size:1.2rem">*Outstanding reviewer</p>
+  <td class='col-md-2' style='text-align:right;'></td>
   </td>
 </tr>
 <tr>
-  <td class='col-md-2'>Admissions</td>
   <td>
-CMU CSD MS 2014-2015
+     <a href="https://sites.google.com/view/lmca2020/home">NeurIPS Learning Meets Combinatorial Optimization Workshop Organizer</a>
+  <td class='col-md-2' style='text-align:right;'>2020</td>
+  </td>
+</tr>
+<tr>
+  <td>
+     <a href="https://anucvml.github.io/ddn-cvprw2020/">CVPR Deep Declarative Workshop Organizer</a>
+  <td class='col-md-2' style='text-align:right;'>2020</td>
+  </td>
+</tr>
+<tr>
+  <td>
+     <a href="https://anucvml.github.io/ddn-eccvt2020/">ECCV Deep Declarative Tutorial Organizer</a>
+  <td class='col-md-2' style='text-align:right;'>2020</td>
+  </td>
+</tr>
+<tr>
+  <td>
+      CMU CSD MS Admissions
+  <td class='col-md-2' style='text-align:right;'>2014 - 2015</td>
   </td>
 </tr>
 </table>
