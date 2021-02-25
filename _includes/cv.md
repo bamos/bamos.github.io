@@ -115,82 +115,6 @@
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Service
-<table class="table table-hover">
-<tr>
-  <td>
-      Reviewing: AAAI, ICML, NeurIPS, ICLR*, ICCV, CVPR, ICRA
-  <br><p style="color:grey;font-size:1.2rem">*Outstanding reviewer</p>
-  <td class='col-md-2' style='text-align:right;'></td>
-  </td>
-</tr>
-<tr>
-  <td>
-     <a href="https://sites.google.com/view/lmca2020/home">NeurIPS Learning Meets Combinatorial Optimization Workshop Organizer</a>
-  <td class='col-md-2' style='text-align:right;'>2020</td>
-  </td>
-</tr>
-<tr>
-  <td>
-     <a href="https://anucvml.github.io/ddn-cvprw2020/">CVPR Deep Declarative Workshop Organizer</a>
-  <td class='col-md-2' style='text-align:right;'>2020</td>
-  </td>
-</tr>
-<tr>
-  <td>
-     <a href="https://anucvml.github.io/ddn-eccvt2020/">ECCV Deep Declarative Tutorial Organizer</a>
-  <td class='col-md-2' style='text-align:right;'>2020</td>
-  </td>
-</tr>
-<tr>
-  <td>
-      CMU CSD MS Admissions
-  <td class='col-md-2' style='text-align:right;'>2014 - 2015</td>
-  </td>
-</tr>
-</table>
-
-
-## <i class="fa fa-chevron-right"></i> Skills
-<table class="table table-hover">
-<tr>
-  <td class='col-md-2'>Languages</td>
-  <td>
-C, C++, Fortran, Haskell, Java, Lua, Make, Mathematica, Python, R, Scala
-  </td>
-</tr>
-<tr>
-  <td class='col-md-2'>Frameworks</td>
-  <td>
-JAX, NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
-  </td>
-</tr>
-<tr>
-  <td class='col-md-2'>Tools</td>
-  <td>
-Linux, emacs, vim, evil, org, mu4e, xmonad, i3, git, tmux, zsh
-  </td>
-</tr>
-</table>
-
-
-## <i class="fa fa-chevron-right"></i> Teaching
-<table class="table table-hover">
-<tr>
-  <td><strong>Graduate AI</strong> (CMU 15-780), TA</td>
-  <td class='col-md-1' style='text-align:right;'>S2017</td>
-</tr>
-<tr>
-  <td><strong>Distributed Systems</strong> (CMU 15-440/640), TA</td>
-  <td class='col-md-1' style='text-align:right;'>S2016</td>
-</tr>
-<tr>
-  <td><strong>Software Design and Data Structures</strong> (VT CS2114), TA</td>
-  <td class='col-md-1' style='text-align:right;'>S2013</td>
-</tr>
-</table>
-
-
 ## <i class="fa fa-chevron-right"></i> Publications <a href="https://github.com/bamos/cv/blob/master/publications/all.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
 <a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" class="btn btn-primary" style="padding: 0.3em;">
@@ -1182,154 +1106,6 @@ malware machine learning classifiers.
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Invited Talks
-<table class="table table-hover">
-<tr>
-  <td>
-        Max Planck Institute for Intelligent Systems (Tübingen) Seminar
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
-</tr>
-<tr>
-  <td>
-        Montreal Institute for Learning Algorithms Seminar
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
-</tr>
-<tr>
-  <td>
-        <a href="https://anucvml.github.io/ddn-eccvt2020/">ECCV Deep Declarative Networks Tutorial</a>
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
-</tr>
-<tr>
-  <td>
-        <a href="https://anucvml.github.io/ddn-cvprw2020/">CVPR Deep Declarative Networks Workshop</a>
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
-</tr>
-<tr>
-  <td>
-        <a href="https://sites.google.com/view/cs-159-spring-2020/lectures">Caltech CS 159, Guest Lecture</a>
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
-</tr>
-<tr>
-  <td>
-        SIAM MDS Minisymposium on Learning Parameterized Energy Minimization Models
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
-</tr>
-<tr>
-  <td>
-        New York University CILVR Seminar
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2019</td>
-</tr>
-<tr>
-  <td>
-        INFORMS Session on Prediction and Optimization
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2019</td>
-</tr>
-<tr>
-  <td>
-        Facebook AI Research
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2019</td>
-</tr>
-<tr>
-  <td>
-        ISMP Session on Machine Learning and Optimization
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
-</tr>
-<tr>
-  <td>
-        Google Brain
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
-</tr>
-<tr>
-  <td>
-        Bosch Center for AI
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
-</tr>
-<tr>
-  <td>
-        Waymo Research
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
-</tr>
-<tr>
-  <td>
-        Tesla AI
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
-</tr>
-<tr>
-  <td>
-        NVIDIA Robotics
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
-</tr>
-<tr>
-  <td>
-        Salesforce Research
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
-</tr>
-<tr>
-  <td>
-        OpenAI
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
-</tr>
-<tr>
-  <td>
-        NNAISENSE
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
-</tr>
-</table>
-
-
-## <i class="fa fa-chevron-right"></i> Students & Advising
-<table class="table table-hover">
-<tr>
-  <td>
-        <a href="https://www.aaronlou.com/">Aaron Lou</a> (Cornell), FAIR Intern (with Max Nickel)
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
-</tr>
-<tr>
-  <td>
-        <a href="http://www.cs.toronto.edu/ rtqichen/">Ricky Chen</a> (Toronto), FAIR Intern (with Max Nickel)
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
-</tr>
-<tr>
-  <td>
-        <a href="http://www.cs.cmu.edu/ pliang/">Paul Liang</a> (CMU), FAIR Intern (with Ed Grefenstette and Tim Rocktäschel)
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
-</tr>
-<tr>
-  <td>
-        <a href="https://phillipkwang.com/">Phillip Wang</a> (CMU), Undergraduate Researcher
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
-</tr>
-<tr>
-  <td>
-        <a href="https://phillipkwang.com/">Lei Xu</a> (Tsinghua), CMU Intern (with J. Zico Kolter)
-  </td>
-  <td class='col-md-1' style='text-align:right;'>2016</td>
-</tr>
-</table>
-
-
 ## <i class="fa fa-chevron-right"></i> Open Source
 <table class="table table-hover">
 <tr>
@@ -1507,5 +1283,229 @@ malware machine learning classifiers.
     <!--  -->
   </td>
   <td class='col-md-1' style='text-align:right;'>2012</td>
+</tr>
+</table>
+
+
+## <i class="fa fa-chevron-right"></i> Invited Talks
+<table class="table table-hover">
+<tr>
+  <td>
+        Max Planck Institute for Intelligent Systems (Tübingen) Seminar
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
+</tr>
+<tr>
+  <td>
+        Montreal Institute for Learning Algorithms Seminar
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
+</tr>
+<tr>
+  <td>
+        <a href="https://anucvml.github.io/ddn-eccvt2020/">ECCV Deep Declarative Networks Tutorial</a>
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
+</tr>
+<tr>
+  <td>
+        <a href="https://anucvml.github.io/ddn-cvprw2020/">CVPR Deep Declarative Networks Workshop</a>
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
+</tr>
+<tr>
+  <td>
+        <a href="https://sites.google.com/view/cs-159-spring-2020/lectures">Caltech CS 159, Guest Lecture</a>
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
+</tr>
+<tr>
+  <td>
+        SIAM MDS Minisymposium on Learning Parameterized Energy Minimization Models
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
+</tr>
+<tr>
+  <td>
+        New York University CILVR Seminar
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2019</td>
+</tr>
+<tr>
+  <td>
+        INFORMS Session on Prediction and Optimization
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2019</td>
+</tr>
+<tr>
+  <td>
+        Facebook AI Research
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2019</td>
+</tr>
+<tr>
+  <td>
+        ISMP Session on Machine Learning and Optimization
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
+</tr>
+<tr>
+  <td>
+        Google Brain
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
+</tr>
+<tr>
+  <td>
+        Bosch Center for AI
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
+</tr>
+<tr>
+  <td>
+        Waymo Research
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
+</tr>
+<tr>
+  <td>
+        Tesla AI
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
+</tr>
+<tr>
+  <td>
+        NVIDIA Robotics
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
+</tr>
+<tr>
+  <td>
+        Salesforce Research
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
+</tr>
+<tr>
+  <td>
+        OpenAI
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
+</tr>
+<tr>
+  <td>
+        NNAISENSE
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
+</tr>
+</table>
+
+
+## <i class="fa fa-chevron-right"></i> Students & Advising
+<table class="table table-hover">
+<tr>
+  <td>
+        <a href="https://www.aaronlou.com/">Aaron Lou</a> (Cornell), FAIR Intern (with Max Nickel)
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
+</tr>
+<tr>
+  <td>
+        <a href="http://www.cs.toronto.edu/ rtqichen/">Ricky Chen</a> (Toronto), FAIR Intern (with Max Nickel)
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
+</tr>
+<tr>
+  <td>
+        <a href="http://www.cs.cmu.edu/ pliang/">Paul Liang</a> (CMU), FAIR Intern (with Ed Grefenstette and Tim Rocktäschel)
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2020</td>
+</tr>
+<tr>
+  <td>
+        <a href="https://phillipkwang.com/">Phillip Wang</a> (CMU), Undergraduate Researcher
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
+</tr>
+<tr>
+  <td>
+        <a href="https://phillipkwang.com/">Lei Xu</a> (Tsinghua), CMU Intern (with J. Zico Kolter)
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2016</td>
+</tr>
+</table>
+
+
+## <i class="fa fa-chevron-right"></i> Service
+<table class="table table-hover">
+<tr>
+  <td>
+      Reviewing: AAAI, ICML, NeurIPS, ICLR*, ICCV, CVPR, ICRA
+  <br><p style="color:grey;font-size:1.2rem">*Outstanding reviewer</p>
+  <td class='col-md-2' style='text-align:right;'></td>
+  </td>
+</tr>
+<tr>
+  <td>
+     <a href="https://sites.google.com/view/lmca2020/home">NeurIPS Learning Meets Combinatorial Optimization Workshop Organizer</a>
+  <td class='col-md-2' style='text-align:right;'>2020</td>
+  </td>
+</tr>
+<tr>
+  <td>
+     <a href="https://anucvml.github.io/ddn-cvprw2020/">CVPR Deep Declarative Workshop Organizer</a>
+  <td class='col-md-2' style='text-align:right;'>2020</td>
+  </td>
+</tr>
+<tr>
+  <td>
+     <a href="https://anucvml.github.io/ddn-eccvt2020/">ECCV Deep Declarative Tutorial Organizer</a>
+  <td class='col-md-2' style='text-align:right;'>2020</td>
+  </td>
+</tr>
+<tr>
+  <td>
+      CMU CSD MS Admissions
+  <td class='col-md-2' style='text-align:right;'>2014 - 2015</td>
+  </td>
+</tr>
+</table>
+
+
+## <i class="fa fa-chevron-right"></i> Teaching
+<table class="table table-hover">
+<tr>
+  <td><strong>Graduate AI</strong> (CMU 15-780), TA</td>
+  <td class='col-md-1' style='text-align:right;'>S2017</td>
+</tr>
+<tr>
+  <td><strong>Distributed Systems</strong> (CMU 15-440/640), TA</td>
+  <td class='col-md-1' style='text-align:right;'>S2016</td>
+</tr>
+<tr>
+  <td><strong>Software Design and Data Structures</strong> (VT CS2114), TA</td>
+  <td class='col-md-1' style='text-align:right;'>S2013</td>
+</tr>
+</table>
+
+
+## <i class="fa fa-chevron-right"></i> Skills
+<table class="table table-hover">
+<tr>
+  <td class='col-md-2'>Languages</td>
+  <td>
+C, C++, Fortran, Haskell, Java, Lua, Make, Mathematica, Python, R, Scala
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Frameworks</td>
+  <td>
+JAX, NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>Tools</td>
+  <td>
+Linux, emacs, vim, evil, org, mu4e, xmonad, i3, git, tmux, zsh
+  </td>
 </tr>
 </table>
