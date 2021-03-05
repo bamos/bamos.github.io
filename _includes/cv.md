@@ -7,7 +7,7 @@
   <td>
 <p markdown="1" style='margin: 0'>
 <strong>Research Scientist</strong> | Facebook AI
-| New York, New York
+| NYC
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2019 - Present</td>
@@ -23,7 +23,7 @@
         <strong>Ph.D. in Computer Science</strong>
           (0.00/0.00)
         <br>
-      Carnegie Mellon University | Pittsburgh, Pennsylvania
+      Carnegie Mellon University | Pittsburgh, PA
         <p style='margin-top:-1em;margin-bottom:0em' markdown='1'>
         <br> *[Differentiable Optimization-Based Modeling for Machine Learning](https://github.com/bamos/thesis)*
         <br> Advisors: [J. Zico Kolter](http://zicokolter.com) (2016 - 2019),  [Mahadev Satyanarayanan](https://www.cs.cmu.edu/ satya/) (2014 - 2016)
@@ -33,10 +33,10 @@
   </tr>
   <tr>
     <td>
-        <strong>B.S. in Computer Science, Honors</strong>
+        <strong>B.S. in Computer Science</strong>
           (3.99/4.00)
         <br>
-      Virginia Tech | Blacksburg, Virginia
+      Virginia Tech | Blacksburg, VA
         <p style='margin-top:-1em;margin-bottom:0em' markdown='1'>
         <br> Advisors: [Layne Watson](https://people.cs.vt.edu/ ltw/shortvita.html), [Jules White](https://www.magnum.io/people/jules.html), [Binoy Ravindran](https://www.ssrg.ece.vt.edu/)
         </p>
@@ -45,7 +45,7 @@
   </tr>
   <tr>
     <td>
-      Northside High School | Roanoke, Virginia
+      Northside High School | Roanoke, VA
     </td>
     <td class="col-md-1" style='text-align:right;'>2011</td>
   </tr>
@@ -58,7 +58,7 @@
   <td>
 <p markdown="1" style='margin: 0'>
 <strong>Intel Labs</strong>
-| Santa Clara, California
+| Santa Clara, CA
 | Host: [Vladlen Koltun](http://vladlen.info/)
 </p>
   </td>
@@ -78,7 +78,7 @@
   <td>
 <p markdown="1" style='margin: 0'>
 <strong>Adobe Research</strong>
-| San Jose, California
+| San Jose, CA
 | Host: [David Tompkins](https://research.adobe.com/person/david-tompkins/)
 </p>
   </td>
