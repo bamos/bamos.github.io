@@ -1157,7 +1157,7 @@ malware machine learning classifiers.
   <td>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a> |
     <i class="fa fas fa-star"></i> 212 |
-    <em>Input Convex Neural Networks</em>
+    <em>Input Convex Neural Network Experiments</em>
     <!--  -->
     <!--     locuslab/icnn  -->
     <!--  -->
@@ -1168,7 +1168,7 @@ malware machine learning classifiers.
   <td>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a> |
     <i class="fa fas fa-star"></i> 360 |
-    <em>OptNet</em>
+    <em>OptNet Experiments</em>
     <!--  -->
     <!--     locuslab/optnet  -->
     <!--  -->
@@ -1223,7 +1223,7 @@ malware machine learning classifiers.
   <td>
     <a href="https://github.com/bamos/dcgan-completion.tensorflow">bamos/dcgan-completion.tensorflow</a> |
     <i class="fa fas fa-star"></i> 1.3k |
-    <em>Image completion with GANs in TensorFlow</em>
+    <em>Image completion with GANs</em>
     <!--  -->
     <!--     bamos/dcgan-completion.tensorflow  -->
     <!--  -->
