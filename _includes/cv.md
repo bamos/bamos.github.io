@@ -1109,7 +1109,7 @@ malware machine learning classifiers.
   <td>
     <a href="https://github.com/facebookresearch/dcem">facebookresearch/dcem</a> |
     <i class="fa fas fa-star"></i> 77 |
-    <em>The Differentiable Cross-Entropy Method</em>
+    <em>Differentiable Cross-Entropy Method Experiments</em>
     <!--  -->
     <!--     facebookresearch/dcem  -->
     <!--  -->
@@ -1120,7 +1120,7 @@ malware machine learning classifiers.
   <td>
     <a href="https://github.com/facebookresearch/higher">facebookresearch/higher</a> |
     <i class="fa fas fa-star"></i> 1.1k |
-    <em>PyTorch higher-order gradients</em>
+    <em>PyTorch higher-order gradient and optimization library</em>
     <!--  -->
     <!--     facebookresearch/higher  -->
     <!--  -->
@@ -1131,7 +1131,7 @@ malware machine learning classifiers.
   <td>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a> |
     <i class="fa fas fa-star"></i> 238 |
-    <em>Thesis LaTeX source code</em>
+    <em>Ph.D. Thesis LaTeX source code</em>
     <!--  -->
     <!--     bamos/thesis  -->
     <!--  -->
