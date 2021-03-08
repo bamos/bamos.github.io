@@ -29,7 +29,7 @@
         <br> Advisors: [J. Zico Kolter](http://zicokolter.com) (2016 - 2019),  [Mahadev Satyanarayanan](https://www.cs.cmu.edu/ satya/) (2014 - 2016)
         </p>
     </td>
-    <td class="col-md-1" style='text-align:right;'>2019</td>
+    <td class="col-md-2" style='text-align:right;'>2014 - 2019</td>
   </tr>
   <tr>
     <td>
@@ -41,13 +41,7 @@
         <br> Advisors: [Layne Watson](https://people.cs.vt.edu/ ltw/shortvita.html), [Jules White](https://www.magnum.io/people/jules.html), [Binoy Ravindran](https://www.ssrg.ece.vt.edu/)
         </p>
     </td>
-    <td class="col-md-1" style='text-align:right;'>2014</td>
-  </tr>
-  <tr>
-    <td>
-      Northside High School | Roanoke, VA
-    </td>
-    <td class="col-md-1" style='text-align:right;'>2011</td>
+    <td class="col-md-2" style='text-align:right;'>2011 - 2014</td>
   </tr>
 </table>
 
