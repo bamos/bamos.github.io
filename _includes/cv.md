@@ -331,7 +331,7 @@ towards combining model-based and model-free RL.
 </tr>
 
 
-<tr id="tr-lambert2020objective" >
+<tr id="tr-lambert2020objective" style="background-color: #ffffd0">
 <td class="col-md-3"><a href='https://arxiv.org/abs/2002.04523' target='_blank'><img src="images/publications/lambert2020objective.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
     <em>Objective Mismatch in Model-based Reinforcement Learning</em><br>
