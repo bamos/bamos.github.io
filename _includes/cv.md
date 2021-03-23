@@ -1,4 +1,4 @@
- I am a research scientist at <b>Facebook AI (FAIR)</b> in NYC and study foundational topics and applications in <b>machine learning</b> (sometimes deep) and <b>optimization</b> (sometimes convex), including reinforcement learning, geometry, computer vision, language, statistics, and theory. In my research I seek to uncover new modeling principles that enable us to express new operations and pieces of domain knowledge. I focus on optimization as non-trivial reasoning operations can be expressed in the language of optimization, and the lens of optimization offers insights into established paradigms. I actively publish code to [GitHub](https://github.com/bamos) as I believe that science should be open and accessible, and that well-engineered code enables new frontiers. <br><br>
+ I am a research scientist at <b>Facebook AI (FAIR)</b> in NYC and study foundational topics in <b>machine learning</b> and <b>optimization</b>, recently involving reinforcement learning, control, optimal transport, and geometry. I am interested in developing new modeling principles that improve learning systems and agents that interact with and understand our world. My current focus is on optimization as non-trivial reasoning operations can be expressed in the language of optimization, and the lens of optimization brings insights into established paradigms. <br><br>
 
 
 ## <i class="fa fa-chevron-right"></i> Current Position
@@ -7,7 +7,7 @@
   <td>
 <p markdown="1" style='margin: 0'>
 <strong>Research Scientist</strong> | Facebook AI
-| NYC
+| New York, NY
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2019 - Present</td>
@@ -118,12 +118,12 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 <tr id="tr-amos2020modelbased" style="background-color: #ffffd0">
 <td class="col-md-3"><a href='https://arxiv.org/abs/2008.12775' target='_blank'><img src="images/publications/amos2020modelbased.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>On the model-based stochastic value gradient for continuous reinforcement learning</em><br>
+    <em><a href='https://arxiv.org/abs/2008.12775' target='_blank'>On the model-based stochastic value gradient for continuous reinforcement learning</a> </em><br>
     <strong>B. Amos</strong>, S. Stanton, D. Yarats, and A. Wilson<br>
     L4DC 2021 (Oral) <br>
     [1] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2020modelbased").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/2008.12775' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_amos2020modelbased").toggle()'>abs</a>]<br>
     
 <div id="abs_amos2020modelbased" style="text-align: justify; display: none" markdown="1">
 Model-based reinforcement learning approaches add explicit domain
@@ -163,12 +163,12 @@ an ensemble.
 <tr id="tr-cohen2020aligning" style="background-color: #ffffd0">
 <td class="col-md-3"><a href='https://arxiv.org/abs/2006.12648' target='_blank'><img src="images/publications/cohen2020aligning.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Aligning Time Series on Incomparable Spaces</em><br>
+    <em><a href='https://arxiv.org/abs/2006.12648' target='_blank'>Aligning Time Series on Incomparable Spaces</a> </em><br>
     S. Cohen, G. Luise, A. Terenin, <strong>B. Amos</strong>, and M. Deisenroth<br>
     AISTATS 2021  <br>
     [2] 
 [<a href='javascript:;'
-    onclick='$("#abs_cohen2020aligning").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/2006.12648' target='_blank'>pdf</a>]  [<a href='https://github.com/samcohen16/Aligning-Time-Series' target='_blank'>code</a>] <br>
+    onclick='$("#abs_cohen2020aligning").toggle()'>abs</a>] [<a href='https://github.com/samcohen16/Aligning-Time-Series' target='_blank'>code</a>] <br>
     
 <div id="abs_cohen2020aligning" style="text-align: justify; display: none" markdown="1">
 Dynamic time warping (DTW) is a useful method for aligning, comparing
@@ -198,12 +198,12 @@ imitation learning.
 <tr id="tr-chen2021learning" style="background-color: #ffffd0">
 <td class="col-md-3"><a href='https://arxiv.org/abs/2011.03902' target='_blank'><img src="images/publications/chen2021learning.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Learning Neural Event Functions for Ordinary Differential Equations</em><br>
+    <em><a href='https://arxiv.org/abs/2011.03902' target='_blank'>Learning Neural Event Functions for Ordinary Differential Equations</a> </em><br>
     R. Chen, <strong>B. Amos</strong>, and M. Nickel<br>
     ICLR 2021  <br>
     [3] 
 [<a href='javascript:;'
-    onclick='$("#abs_chen2021learning").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/2011.03902' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_chen2021learning").toggle()'>abs</a>]<br>
     
 <div id="abs_chen2021learning" style="text-align: justify; display: none" markdown="1">
 The existing Neural ODE formulation relies on an explicit
@@ -228,12 +228,12 @@ with applications in discrete control.
 <tr id="tr-chen2021neural" style="background-color: #ffffd0">
 <td class="col-md-3"><a href='https://arxiv.org/abs/2011.04583' target='_blank'><img src="images/publications/chen2021neural.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Neural Spatio-Temporal Point Processes</em><br>
+    <em><a href='https://arxiv.org/abs/2011.04583' target='_blank'>Neural Spatio-Temporal Point Processes</a> </em><br>
     R. Chen, <strong>B. Amos</strong>, and M. Nickel<br>
     ICLR 2021  <br>
     [4] 
 [<a href='javascript:;'
-    onclick='$("#abs_chen2021neural").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/2011.04583' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_chen2021neural").toggle()'>abs</a>]<br>
     
 <div id="abs_chen2021neural" style="text-align: justify; display: none" markdown="1">
 We propose a new class of parameterizations for spatio-temporal
@@ -259,12 +259,12 @@ mobility, and neuroscience.
 <tr id="tr-yarats2021improving" >
 <td class="col-md-3"><a href='https://arxiv.org/abs/1910.01741' target='_blank'><img src="images/publications/yarats2021improving.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Improving Sample Efficiency in Model-Free Reinforcement Learning from Images</em><br>
+    <em><a href='https://arxiv.org/abs/1910.01741' target='_blank'>Improving Sample Efficiency in Model-Free Reinforcement Learning from Images</a> </em><br>
     D. Yarats, A. Zhang, I. Kostrikov, <strong>B. Amos</strong>, J. Pineau, and R. Fergus<br>
     AAAI 2021  <br>
     [5] 
 [<a href='javascript:;'
-    onclick='$("#abs_yarats2021improving").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1910.01741' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_yarats2021improving").toggle()'>abs</a>]<br>
     
 <div id="abs_yarats2021improving" style="text-align: justify; display: none" markdown="1">
 Training an agent to solve control tasks directly from
@@ -301,12 +301,12 @@ future research on image-based RL.
 <tr id="tr-amos2020differentiable" style="background-color: #ffffd0">
 <td class="col-md-3"><a href='https://arxiv.org/abs/1909.12830' target='_blank'><img src="images/publications/amos2020differentiable.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>The Differentiable Cross-Entropy Method</em><br>
+    <em><a href='https://arxiv.org/abs/1909.12830' target='_blank'>The Differentiable Cross-Entropy Method</a> </em><br>
     <strong>B. Amos</strong> and D. Yarats<br>
     ICML 2020  <br>
     [6] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2020differentiable").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1909.12830' target='_blank'>pdf</a>]  [<a href='https://github.com/facebookresearch/dcem' target='_blank'>code</a>] <br>
+    onclick='$("#abs_amos2020differentiable").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/dcem' target='_blank'>code</a>] <br>
     
 <div id="abs_amos2020differentiable" style="text-align: justify; display: none" markdown="1">
 We study the Cross-Entropy Method (CEM) for the non-convex
@@ -334,12 +334,12 @@ towards combining model-based and model-free RL.
 <tr id="tr-lambert2020objective" style="background-color: #ffffd0">
 <td class="col-md-3"><a href='https://arxiv.org/abs/2002.04523' target='_blank'><img src="images/publications/lambert2020objective.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Objective Mismatch in Model-based Reinforcement Learning</em><br>
+    <em><a href='https://arxiv.org/abs/2002.04523' target='_blank'>Objective Mismatch in Model-based Reinforcement Learning</a> </em><br>
     N. Lambert, <strong>B. Amos</strong>, O. Yadan, and R. Calandra<br>
     L4DC 2020  <br>
     [7] 
 [<a href='javascript:;'
-    onclick='$("#abs_lambert2020objective").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/2002.04523' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_lambert2020objective").toggle()'>abs</a>]<br>
     
 <div id="abs_lambert2020objective" style="text-align: justify; display: none" markdown="1">
 Model-based reinforcement learning (MBRL) has been shown to be a powerful framework for data-efficiently learning control of continuous tasks. Recent work in MBRL has mostly focused on using more advanced function approximators and planning schemes, with little development of the general framework. In this paper, we identify a fundamental issue of the standard MBRL framework-what we call the objective mismatch issue. Objective mismatch arises when one objective is optimized in the hope that a second, often uncorrelated, metric will also be optimized. In the context of MBRL, we characterize the objective mismatch between training the forward dynamics model wrt the likelihood of the one-step ahead prediction, and the overall goal of improving performance on a downstream control task. For example, this issue can emerge with the realization that dynamics models effective for a specific task do not necessarily need to be globally accurate, and vice versa globally accurate models might not be sufficiently accurate locally to obtain good control performance on a specific task. In our experiments, we study this objective mismatch issue and demonstrate that the likelihood of one-step ahead predictions is not always correlated with control performance. This observation highlights a critical limitation in the MBRL framework which will require further research to be fully understood and addressed. We propose an initial method to mitigate the mismatch issue by re-weighting dynamics model training. Building on it, we conclude with a discussion about other potential directions of research for addressing this issue.
@@ -352,12 +352,12 @@ Model-based reinforcement learning (MBRL) has been shown to be a powerful framew
 <tr id="tr-amos2020QNSTOP" >
 <td class="col-md-3"><a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'><img src="images/publications/amos2020QNSTOP.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>QNSTOP: Quasi-Newton Algorithm for Stochastic Optimization</em><br>
+    <em><a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>QNSTOP: Quasi-Newton Algorithm for Stochastic Optimization</a> </em><br>
     <strong>B. Amos</strong>, D. Easterling, L. Watson, W. Thacker, B. Castle, and M. Trosset<br>
     ACM TOMS 2020  <br>
     [8] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2020QNSTOP").toggle()'>abs</a>] [<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/vtopt/qnstop' target='_blank'>code</a>] <br>
+    onclick='$("#abs_amos2020QNSTOP").toggle()'>abs</a>] [<a href='https://github.com/vtopt/qnstop' target='_blank'>code</a>] <br>
     
 <div id="abs_amos2020QNSTOP" style="text-align: justify; display: none" markdown="1">
 QNSTOP consists of serial and parallel (OpenMP) Fortran 2003 codes for the
@@ -381,10 +381,10 @@ biology problems is given.
 <tr id="tr-amos2019differentiable" style="background-color: #ffffd0">
 <td class="col-md-3"><a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'><img src="images/publications/amos2019differentiable.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Differentiable Optimization-Based Modeling for Machine Learning</em><br>
+    <em><a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>Differentiable Optimization-Based Modeling for Machine Learning</a> </em><br>
     <strong>B. Amos</strong><br>
     Ph.D. Thesis 2019  <br>
-    [9] [<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
+    [9] [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
     
 </td>
 </tr>
@@ -393,12 +393,12 @@ biology problems is given.
 <tr id="tr-amos2019differentiable3" style="background-color: #ffffd0">
 <td class="col-md-3"><a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'><img src="images/publications/amos2019differentiable3.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Differentiable Convex Optimization Layers</em><br>
+    <em><a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'>Differentiable Convex Optimization Layers</a> </em><br>
     A. Agrawal*, <strong>B. Amos*</strong>, S. Barratt*, S. Boyd*, S. Diamond*, and J. Z. Kolter*<br>
     NeurIPS 2019  <br>
     [10] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2019differentiable3").toggle()'>abs</a>] [<a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/cvxgrp/cvxpylayers' target='_blank'>code</a>] <br>
+    onclick='$("#abs_amos2019differentiable3").toggle()'>abs</a>] [<a href='https://github.com/cvxgrp/cvxpylayers' target='_blank'>code</a>] <br>
     
 <div id="abs_amos2019differentiable3" style="text-align: justify; display: none" markdown="1">
 Recent work has shown how to embed differentiable optimization problems (that is, problems whose solutions can be backpropagated through) as layers within deep learning architectures. This method provides a useful inductive bias for certain problems, but existing software for differentiable optimization layers is rigid and difficult to apply to new settings. In this paper, we propose an approach to differentiating through disciplined convex programs, a subclass of convex optimization problems used by domain-specific languages (DSLs) for convex optimization. We introduce disciplined parametrized programming, a subset of disciplined convex programming, and we show that every disciplined parametrized program can be represented as the composition of an affine map from parameters to problem data, a solver, and an affine map from the solver’s solution to a solution of the original problem (a new form we refer to as affine-solver-affine form). We then demonstrate how to efficiently differentiate through each of these components, allowing for end-to-end analytical differentiation through the entire convex program. We implement our methodology in version 1.1 of CVXPY, a popular Python-embedded DSL for convex optimization, and additionally implement differentiable layers for disciplined convex programs in PyTorch and TensorFlow 2.0. Our implementation significantly lowers the barrier to using convex optimization problems in differentiable programs. We present applications in linear machine learning models and in stochastic control, and we show that our layer is competitive (in execution time) compared to specialized differentiable solvers from past work.
@@ -411,12 +411,12 @@ Recent work has shown how to embed differentiable optimization problems (that is
 <tr id="tr-amos2019limited" style="background-color: #ffffd0">
 <td class="col-md-3"><a href='https://arxiv.org/abs/1906.08707' target='_blank'><img src="images/publications/amos2019limited.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>The Limited Multi-Label Projection Layer</em><br>
+    <em><a href='https://arxiv.org/abs/1906.08707' target='_blank'>The Limited Multi-Label Projection Layer</a> </em><br>
     <strong>B. Amos</strong>, V. Koltun, and J. Z. Kolter<br>
     arXiv 2019  <br>
     [11] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2019limited").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1906.08707' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/lml' target='_blank'>code</a>] <br>
+    onclick='$("#abs_amos2019limited").toggle()'>abs</a>] [<a href='https://github.com/locuslab/lml' target='_blank'>code</a>] <br>
     
 <div id="abs_amos2019limited" style="text-align: justify; display: none" markdown="1">
 We propose the Limited Multi-Label (LML) projection layer as a new
@@ -440,12 +440,12 @@ classification.
 <tr id="tr-grefenstette2019generalized" >
 <td class="col-md-3"><a href='https://arxiv.org/abs/1910.01727' target='_blank'><img src="images/publications/grefenstette2019generalized.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Generalized Inner Loop Meta-Learning</em><br>
+    <em><a href='https://arxiv.org/abs/1910.01727' target='_blank'>Generalized Inner Loop Meta-Learning</a> </em><br>
     E. Grefenstette, <strong>B. Amos</strong>, D. Yarats, P. Htut, A. Molchanov, F. Meier, D. Kiela, K. Cho, and S. Chintala<br>
     arXiv 2019  <br>
     [12] 
 [<a href='javascript:;'
-    onclick='$("#abs_grefenstette2019generalized").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1910.01727' target='_blank'>pdf</a>]  [<a href='https://github.com/facebookresearch/higher' target='_blank'>code</a>] <br>
+    onclick='$("#abs_grefenstette2019generalized").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/higher' target='_blank'>code</a>] <br>
     
 <div id="abs_grefenstette2019generalized" style="text-align: justify; display: none" markdown="1">
 Many (but not all) approaches self-qualifying as "meta-learning" in
@@ -475,12 +475,12 @@ facilitate.
 <tr id="tr-amos2018end" style="background-color: #ffffd0">
 <td class="col-md-3"><a href='https://arxiv.org/abs/1810.13400' target='_blank'><img src="images/publications/amos2018end.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Differentiable MPC for End-to-end Planning and Control</em><br>
+    <em><a href='https://arxiv.org/abs/1810.13400' target='_blank'>Differentiable MPC for End-to-end Planning and Control</a> </em><br>
     <strong>B. Amos</strong>, I. Rodriguez, J. Sacks, B. Boots, and J. Z. Kolter<br>
     NeurIPS 2018  <br>
     [13] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2018end").toggle()'>abs</a>] [<a href='https://arxiv.org/abs/1810.13400' target='_blank'>pdf</a>]  [<a href='https://locuslab.github.io/mpc.pytorch/' target='_blank'>code</a>] <br>
+    onclick='$("#abs_amos2018end").toggle()'>abs</a>] [<a href='https://locuslab.github.io/mpc.pytorch/' target='_blank'>code</a>] <br>
     
 <div id="abs_amos2018end" style="text-align: justify; display: none" markdown="1">
 In this paper we present foundations for using model predictive control (MPC) as a differentiable policy class in reinforcement learning. Specifically, we differentiate through MPC by using the KKT conditions of the convex approximation at a fixed point of the solver. Using this strategy, we are able to learn the cost and dynamics of a controller via end-to-end learning in a larger system. We empirically show results in an imitation learning setting, demonstrating that we can recover the underlying dynamics and cost more efficiently and reliably than with a generic neural network policy class
@@ -493,12 +493,12 @@ In this paper we present foundations for using model predictive control (MPC) as
 <tr id="tr-amos2018learning" style="background-color: #ffffd0">
 <td class="col-md-3"><a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'><img src="images/publications/amos2018learning.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Learning Awareness Models</em><br>
+    <em><a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'>Learning Awareness Models</a> </em><br>
     <strong>B. Amos</strong>, L. Dinh, S. Cabi, T. Roth&ouml;rl, S. Colmenarejo, A. Muldal, T. Erez, Y. Tassa, N. de Freitas, and M. Denil<br>
     ICLR 2018  <br>
     [14] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2018learning").toggle()'>abs</a>] [<a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_amos2018learning").toggle()'>abs</a>]<br>
     
 <div id="abs_amos2018learning" style="text-align: justify; display: none" markdown="1">
 We consider the setting of an agent with a fixed body interacting with an
@@ -533,12 +533,12 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
 <tr id="tr-brown2018depth" style="background-color: #ffffd0">
 <td class="col-md-3"><a href='http://arxiv.org/abs/1805.08195' target='_blank'><img src="images/publications/brown2018depth.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Depth-Limited Solving for Imperfect-Information Games</em><br>
+    <em><a href='http://arxiv.org/abs/1805.08195' target='_blank'>Depth-Limited Solving for Imperfect-Information Games</a> </em><br>
     N. Brown, T. Sandholm, and <strong>B. Amos</strong><br>
     NeurIPS 2018  <br>
     [15] 
 [<a href='javascript:;'
-    onclick='$("#abs_brown2018depth").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1805.08195' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_brown2018depth").toggle()'>abs</a>]<br>
     
 <div id="abs_brown2018depth" style="text-align: justify; display: none" markdown="1">
 A fundamental challenge in imperfect-information games is that states do not have well-defined values. As a result, depth-limited search algorithms used in single-agent settings and perfect-information games do not apply. This paper introduces a principled way to conduct depth-limited solving in imperfect-information games by allowing the opponent to choose among a number of strategies for the remainder of the game at the depth limit. Each one of these strategies results in a different set of values for leaf nodes. This forces an agent to be robust to the different strategies an opponent may employ. We demonstrate the effectiveness of this approach by building a master-level heads-up no-limit Texas hold'em poker AI that defeats two prior top agents using only a 4-core CPU and 16 GB of memory. Developing such a powerful agent would have previously required a supercomputer.
@@ -551,12 +551,12 @@ A fundamental challenge in imperfect-information games is that states do not hav
 <tr id="tr-wang2018enabling" >
 <td class="col-md-3"><a href='https://dl.acm.org/citation.cfm?id=3209659' target='_blank'><img src="images/publications/wang2018enabling.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Enabling Live Video Analytics with a Scalable and Privacy-Aware Framework</em><br>
+    <em><a href='https://dl.acm.org/citation.cfm?id=3209659' target='_blank'>Enabling Live Video Analytics with a Scalable and Privacy-Aware Framework</a> </em><br>
     J. Wang, <strong>B. Amos</strong>, A. Das, P. Pillai, N. Sadeh, and M. Satyanarayanan<br>
     ACM TOMM 2018  <br>
     [16] 
 [<a href='javascript:;'
-    onclick='$("#abs_wang2018enabling").toggle()'>abs</a>] [<a href='https://dl.acm.org/citation.cfm?id=3209659' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_wang2018enabling").toggle()'>abs</a>]<br>
     
 <div id="abs_wang2018enabling" style="text-align: justify; display: none" markdown="1">
 We show how to build the components of a privacy-aware, live video
@@ -586,12 +586,12 @@ video streams and analytics services.
 <tr id="tr-amos2017optnet" style="background-color: #ffffd0">
 <td class="col-md-3"><a href='http://arxiv.org/abs/1703.00443' target='_blank'><img src="images/publications/amos2017optnet.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>OptNet: Differentiable Optimization as a Layer in Neural Networks</em><br>
+    <em><a href='http://arxiv.org/abs/1703.00443' target='_blank'>OptNet: Differentiable Optimization as a Layer in Neural Networks</a> </em><br>
     <strong>B. Amos</strong> and J. Z. Kolter<br>
     ICML 2017  <br>
     [17] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2017optnet").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.00443' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>] <br>
+    onclick='$("#abs_amos2017optnet").toggle()'>abs</a>] [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>] <br>
     
 <div id="abs_amos2017optnet" style="text-align: justify; display: none" markdown="1">
 This paper presents OptNet, a network architecture that integrates
@@ -623,12 +623,12 @@ constraints better than other neural architectures.
 <tr id="tr-amos2017input" style="background-color: #ffffd0">
 <td class="col-md-3"><a href='http://arxiv.org/abs/1609.07152' target='_blank'><img src="images/publications/amos2017input.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Input Convex Neural Networks</em><br>
+    <em><a href='http://arxiv.org/abs/1609.07152' target='_blank'>Input Convex Neural Networks</a> </em><br>
     <strong>B. Amos</strong>, L. Xu, and J. Z. Kolter<br>
     ICML 2017  <br>
     [18] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2017input").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1609.07152' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
+    onclick='$("#abs_amos2017input").toggle()'>abs</a>] [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>] <br>
     
 <div id="abs_amos2017input" style="text-align: justify; display: none" markdown="1">
 This paper presents the input convex neural network
@@ -656,12 +656,12 @@ improvement over the existing state of the art in many cases.
 <tr id="tr-donti2017task" style="background-color: #ffffd0">
 <td class="col-md-3"><a href='http://arxiv.org/abs/1703.04529' target='_blank'><img src="images/publications/donti2017task.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Task-based End-to-end Model Learning</em><br>
+    <em><a href='http://arxiv.org/abs/1703.04529' target='_blank'>Task-based End-to-end Model Learning</a> </em><br>
     P. Donti, <strong>B. Amos</strong>, and J. Z. Kolter<br>
     NeurIPS 2017  <br>
     [19] 
 [<a href='javascript:;'
-    onclick='$("#abs_donti2017task").toggle()'>abs</a>] [<a href='http://arxiv.org/abs/1703.04529' target='_blank'>pdf</a>]  [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
+    onclick='$("#abs_donti2017task").toggle()'>abs</a>] [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
     
 <div id="abs_donti2017task" style="text-align: justify; display: none" markdown="1">
 As machine learning techniques have become more ubiquitous, it has
@@ -686,10 +686,10 @@ approach and a purely black-box policy optimization approach.
 <tr id="tr-chen2017quasi" >
 <td class="col-md-3"><a href='https://par.nsf.gov/servlets/purl/10111392' target='_blank'><img src="images/publications/chen2017quasi.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Quasi-Newton Stochastic Optimization Algorithm for Parameter Estimation of a Stochastic Model of the Budding Yeast Cell Cycle</em><br>
+    <em><a href='https://par.nsf.gov/servlets/purl/10111392' target='_blank'>Quasi-Newton Stochastic Optimization Algorithm for Parameter Estimation of a Stochastic Model of the Budding Yeast Cell Cycle</a> </em><br>
     M. Chen, <strong>B. Amos</strong>, L. Watson, J. Tyson, Y. Cao, C. Shaffer, M. Trosset, C. Oguz, and G. Kakoti<br>
     IEEE/ACM TCBB 2017  <br>
-    [20] [<a href='https://par.nsf.gov/servlets/purl/10111392' target='_blank'>pdf</a>] <br>
+    [20] <br>
     
 </td>
 </tr>
@@ -698,10 +698,10 @@ approach and a purely black-box policy optimization approach.
 <tr id="tr-ha2017you" >
 <td class="col-md-3"><a href='https://www.cs.cmu.edu/~15-821/READINGS/PAPERS/ha2017.pdf' target='_blank'><img src="images/publications/ha2017you.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>You can teach elephants to dance: agile VM handoff for edge computing</em><br>
+    <em><a href='https://www.cs.cmu.edu/~15-821/READINGS/PAPERS/ha2017.pdf' target='_blank'>You can teach elephants to dance: agile VM handoff for edge computing</a> </em><br>
     K. Ha, Y. Abe, T. Eiszler, Z. Chen, W. Hu, <strong>B. Amos</strong>, R. Upadhyaya, P. Pillai, and M. Satyanarayanan<br>
     SEC 2017  <br>
-    [21] [<a href='https://www.cs.cmu.edu/~15-821/READINGS/PAPERS/ha2017.pdf' target='_blank'>pdf</a>] <br>
+    [21] <br>
     
 </td>
 </tr>
@@ -710,10 +710,10 @@ approach and a purely black-box policy optimization approach.
 <tr id="tr-chen2017empirical" >
 <td class="col-md-3"><a href='https://www.cs.cmu.edu/~zhuoc/papers/latency2017.pdf' target='_blank'><img src="images/publications/chen2017empirical.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>An Empirical Study of Latency in an Emerging Class of Edge Computing Applications for Wearable Cognitive Assistance</em><br>
+    <em><a href='https://www.cs.cmu.edu/~zhuoc/papers/latency2017.pdf' target='_blank'>An Empirical Study of Latency in an Emerging Class of Edge Computing Applications for Wearable Cognitive Assistance</a> </em><br>
     Z. Chen, W. Hu, J. Wang, S. Zhao, <strong>B. Amos</strong>, G. Wu, K. Ha, K. Elgazzar, P. Pillai, R. Klatzky, D. Siewiorek, and M. Satyanarayanan<br>
     SEC 2017  <br>
-    [22] [<a href='https://www.cs.cmu.edu/~zhuoc/papers/latency2017.pdf' target='_blank'>pdf</a>] <br>
+    [22] <br>
     
 </td>
 </tr>
@@ -722,10 +722,10 @@ approach and a purely black-box policy optimization approach.
 <tr id="tr-wang2017scalable" >
 <td class="col-md-3"><a href='http://elijah.cs.cmu.edu/DOCS/wang-mmsys2017.pdf' target='_blank'><img src="images/publications/wang2017scalable.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>A Scalable and Privacy-Aware IoT Service for Live Video Analytics</em><br>
+    <em><a href='http://elijah.cs.cmu.edu/DOCS/wang-mmsys2017.pdf' target='_blank'>A Scalable and Privacy-Aware IoT Service for Live Video Analytics</a> </em><br>
     J. Wang, <strong>B. Amos</strong>, A. Das, P. Pillai, N. Sadeh, and M. Satyanarayanan<br>
     ACM MMSys 2017 (Best Paper) <br>
-    [23] [<a href='http://elijah.cs.cmu.edu/DOCS/wang-mmsys2017.pdf' target='_blank'>pdf</a>]  [<a href='http://cmusatyalab.github.io/openface/' target='_blank'>code</a>] <br>
+    [23] [<a href='http://cmusatyalab.github.io/openface/' target='_blank'>code</a>] <br>
     
 </td>
 </tr>
@@ -737,12 +737,12 @@ approach and a purely black-box policy optimization approach.
 <tr id="tr-amos2016openface" style="background-color: #ffffd0">
 <td class="col-md-3"><a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'><img src="images/publications/amos2016openface.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>OpenFace: A general-purpose face recognition library with mobile applications</em><br>
+    <em><a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>OpenFace: A general-purpose face recognition library with mobile applications</a> </em><br>
     <strong>B. Amos</strong>, B. Ludwiczuk, and M. Satyanarayanan<br>
     CMU 2016  <br>
     [24] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2016openface").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>pdf</a>]  [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
+    onclick='$("#abs_amos2016openface").toggle()'>abs</a>] [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
     
 <div id="abs_amos2016openface" style="text-align: justify; display: none" markdown="1">
 Cameras are becoming ubiquitous in the Internet of Things (IoT) and
@@ -768,12 +768,12 @@ the Apache 2.0 license. It is available at:
 <tr id="tr-zhao2016collapsed" style="background-color: #ffffd0">
 <td class="col-md-3"><a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'><img src="images/publications/zhao2016collapsed.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Collapsed Variational Inference for Sum-Product Networks</em><br>
+    <em><a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'>Collapsed Variational Inference for Sum-Product Networks</a> </em><br>
     H. Zhao, T. Adel, G. Gordon, and <strong>B. Amos</strong><br>
     ICML 2016  <br>
     [25] 
 [<a href='javascript:;'
-    onclick='$("#abs_zhao2016collapsed").toggle()'>abs</a>] [<a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_zhao2016collapsed").toggle()'>abs</a>]<br>
     
 <div id="abs_zhao2016collapsed" style="text-align: justify; display: none" markdown="1">
 Sum-Product Networks (SPNs) are probabilistic inference machines that admit
@@ -799,10 +799,10 @@ with a maximum likelihood based approach.
 <tr id="tr-hu2016quantifying" >
 <td class="col-md-3"><a href='https://dl.acm.org/doi/10.1145/2967360.2967369' target='_blank'><img src="images/publications/hu2016quantifying.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Quantifying the impact of edge computing on mobile applications</em><br>
+    <em><a href='https://dl.acm.org/doi/10.1145/2967360.2967369' target='_blank'>Quantifying the impact of edge computing on mobile applications</a> </em><br>
     W. Hu, Y. Gao, K. Ha, J. Wang, <strong>B. Amos</strong>, Z. Chen, P. Pillai, and M. Satyanarayanan<br>
     ACM SIGOPS 2016  <br>
-    [26] [<a href='https://dl.acm.org/doi/10.1145/2967360.2967369' target='_blank'>pdf</a>] <br>
+    [26] <br>
     
 </td>
 </tr>
@@ -811,12 +811,12 @@ with a maximum likelihood based approach.
 <tr id="tr-davies2016privacy" >
 <td class="col-md-3"><a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf' target='_blank'><img src="images/publications/davies2016privacy.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Privacy mediators: helping IoT cross the chasm</em><br>
+    <em><a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf' target='_blank'>Privacy mediators: helping IoT cross the chasm</a> </em><br>
     N. Davies, N. Taft, M. Satyanarayanan, S. Clinch, and <strong>B. Amos</strong><br>
     HotMobile 2016  <br>
     [27] 
 [<a href='javascript:;'
-    onclick='$("#abs_davies2016privacy").toggle()'>abs</a>] [<a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_davies2016privacy").toggle()'>abs</a>]<br>
     
 <div id="abs_davies2016privacy" style="text-align: justify; display: none" markdown="1">
 Unease over data privacy will retard consumer acceptance of IoT
@@ -846,12 +846,12 @@ and organizational boundaries of trust and responsibility.
 <tr id="tr-satyanarayanan2015edge" >
 <td class="col-md-3"><a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'><img src="images/publications/satyanarayanan2015edge.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Edge Analytics in the Internet of Things</em><br>
+    <em><a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'>Edge Analytics in the Internet of Things</a> </em><br>
     M. Satyanarayanan, P. Simoens, Y. Xiao, P. Pillai, Z. Chen, K. Ha, W. Hu, and <strong>B. Amos</strong><br>
     IEEE Pervasive Computing 2015  <br>
     [28] 
 [<a href='javascript:;'
-    onclick='$("#abs_satyanarayanan2015edge").toggle()'>abs</a>] [<a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_satyanarayanan2015edge").toggle()'>abs</a>]<br>
     
 <div id="abs_satyanarayanan2015edge" style="text-align: justify; display: none" markdown="1">
 High-data-rate sensors, such as video cameras, are becoming ubiquitous in the
@@ -873,12 +873,12 @@ is part of a special issue on smart spaces.
 <tr id="tr-turner2015bad" >
 <td class="col-md-3"><a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094' target='_blank'><img src="images/publications/turner2015bad.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Bad Parts: Are Our Manufacturing Systems at Risk of Silent Cyberattacks?</em><br>
+    <em><a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094' target='_blank'>Bad Parts: Are Our Manufacturing Systems at Risk of Silent Cyberattacks?</a> </em><br>
     H. Turner, J. White, J. Camelio, C. Williams, <strong>B. Amos</strong>, and R. Parker<br>
     IEEE Security & Privacy 2015  <br>
     [29] 
 [<a href='javascript:;'
-    onclick='$("#abs_turner2015bad").toggle()'>abs</a>] [<a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_turner2015bad").toggle()'>abs</a>]<br>
     
 <div id="abs_turner2015bad" style="text-align: justify; display: none" markdown="1">
 Recent cyberattacks have highlighted the risk of physical equipment operating
@@ -899,12 +899,12 @@ manufacturing security topics.
 <tr id="tr-chen2015early" >
 <td class="col-md-3"><a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'><img src="images/publications/chen2015early.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Early Implementation Experience with Wearable Cognitive Assistance Applications</em><br>
+    <em><a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'>Early Implementation Experience with Wearable Cognitive Assistance Applications</a> </em><br>
     Z. Chen, L. Jiang, W. Hu, K. Ha, <strong>B. Amos</strong>, P. Pillai, A. Hauptmann, and M. Satyanarayanan<br>
     WearSys 2015  <br>
     [30] 
 [<a href='javascript:;'
-    onclick='$("#abs_chen2015early").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_chen2015early").toggle()'>abs</a>]<br>
     
 <div id="abs_chen2015early" style="text-align: justify; display: none" markdown="1">
 A cognitive assistance application combines a wearable device such
@@ -926,12 +926,12 @@ simplify the creation of similar applications.
 <tr id="tr-hu2014case" >
 <td class="col-md-3"><a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'><img src="images/publications/hu2014case.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>The Case for Offload Shaping</em><br>
+    <em><a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'>The Case for Offload Shaping</a> </em><br>
     W. Hu, <strong>B. Amos</strong>, Z. Chen, K. Ha, W. Richter, P. Pillai, B. Gilbert, J. Harkes, and M. Satyanarayanan<br>
     HotMobile 2015  <br>
     [31] 
 [<a href='javascript:;'
-    onclick='$("#abs_hu2014case").toggle()'>abs</a>] [<a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_hu2014case").toggle()'>abs</a>]<br>
     
 <div id="abs_hu2014case" style="text-align: justify; display: none" markdown="1">
 When offloading computation from a mobile device, we show
@@ -949,12 +949,12 @@ demand, with little loss of application-level fidelity
 <tr id="tr-gao2015cloudlets" >
 <td class="col-md-3"><a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'><img src="images/publications/gao2015cloudlets.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Are Cloudlets Necessary?</em><br>
+    <em><a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'>Are Cloudlets Necessary?</a> </em><br>
     Y. Gao, W. Hu, K. Ha, <strong>B. Amos</strong>, P. Pillai, and M. Satyanarayanan<br>
     CMU 2015  <br>
     [32] 
 [<a href='javascript:;'
-    onclick='$("#abs_gao2015cloudlets").toggle()'>abs</a>] [<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_gao2015cloudlets").toggle()'>abs</a>]<br>
     
 <div id="abs_gao2015cloudlets" style="text-align: justify; display: none" markdown="1">
 We present experimental results from Wi-Fi and 4G LTE networks to validate the
@@ -976,12 +976,12 @@ consumption in a mobile device by up to 42% compared to cloud offload.
 <tr id="tr-ha2015adaptive" >
 <td class="col-md-3"><a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'><img src="images/publications/ha2015adaptive.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Adaptive VM handoff across cloudlets</em><br>
+    <em><a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'>Adaptive VM handoff across cloudlets</a> </em><br>
     K. Ha, Y. Abe, Z. Chen, W. Hu, <strong>B. Amos</strong>, P. Pillai, and M. Satyanarayanan<br>
     CMU 2015  <br>
     [33] 
 [<a href='javascript:;'
-    onclick='$("#abs_ha2015adaptive").toggle()'>abs</a>] [<a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_ha2015adaptive").toggle()'>abs</a>]<br>
     
 <div id="abs_ha2015adaptive" style="text-align: justify; display: none" markdown="1">
 Cloudlet offload is a valuable technique for ensuring low end-to-end latency of
@@ -1006,12 +1006,12 @@ changing network conditions and processing capacity
 <tr id="tr-andrew2014global" >
 <td class="col-md-3"><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'><img src="images/publications/andrew2014global.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Global Parameter Estimation for a Eukaryotic Cell Cycle Model in Systems Biology</em><br>
+    <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Global Parameter Estimation for a Eukaryotic Cell Cycle Model in Systems Biology</a> </em><br>
     T. Andrew, <strong>B. Amos</strong>, D. Easterling, C. Oguz, W. Baumann, J. Tyson, and L. Watson<br>
     SummerSim 2014  <br>
     [34] 
 [<a href='javascript:;'
-    onclick='$("#abs_andrew2014global").toggle()'>abs</a>] [<a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>pdf</a>] <br>
+    onclick='$("#abs_andrew2014global").toggle()'>abs</a>]<br>
     
 <div id="abs_andrew2014global" style="text-align: justify; display: none" markdown="1">
 The complicated process by which a yeast cell divides, known as the cell
@@ -1038,12 +1038,12 @@ compared.
 <tr id="tr-amos2013applying" >
 <td class="col-md-3"><a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'><img src="images/publications/amos2013applying.png" onerror="this.style.display='none'" style='border: none;' /></a> </td>
 <td>
-    <em>Applying machine learning classifiers to dynamic Android malware detection at scale</em><br>
+    <em><a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'>Applying machine learning classifiers to dynamic Android malware detection at scale</a> </em><br>
     <strong>B. Amos</strong>, H. Turner, and J. White<br>
     IWCMC 2013  <br>
     [35] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2013applying").toggle()'>abs</a>] [<a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'>pdf</a>]  [<a href='https://github.com/VT-Magnum-Research/antimalware' target='_blank'>code</a>] <br>
+    onclick='$("#abs_amos2013applying").toggle()'>abs</a>] [<a href='https://github.com/VT-Magnum-Research/antimalware' target='_blank'>code</a>] <br>
     
 <div id="abs_amos2013applying" style="text-align: justify; display: none" markdown="1">
 The widespread adoption and contextually sensitive
