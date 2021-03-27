@@ -1,18 +1,4 @@
- I am a research scientist at <b>Facebook AI (FAIR)</b> in NYC and study foundational topics in <b>machine learning</b> and <b>optimization</b>, recently involving reinforcement learning, control, optimal transport, and geometry. I am interested in developing new foundations and software that improve learning systems that understand and interact with our world. Optimization and geometry are powerful building blocks for intelligent systems as they are ubiquitous for non-trivial reasoning operations. I freely publish all of my research code to [GitHub](https://github.com/bamos) as I believe that well-crafted engineering enables new frontiers and that science should be open and reproducible. <br><br>
-
-
-## <i class="fa fa-chevron-right"></i> Current Position
-<table class="table table-hover">
-<tr>
-  <td>
-<p markdown="1" style='margin: 0'>
-<strong>Research Scientist</strong> | Facebook AI
-| New York, NY
-</p>
-  </td>
-  <td class='col-md-2' style='text-align:right;'>2019 - Present</td>
-</tr>
-</table>
+ I am a research scientist at <b>Facebook AI (FAIR)</b> in NYC and study <b>machine learning</b> and <b>optimization</b>, recently involving reinforcement learning, control, optimal transport, and geometry. I am interested in developing new modeling foundations to improve learning systems that understand and interact with our world. Optimization and geometry are powerful building blocks for intelligent systems as they are ubiquitous for non-trivial reasoning operations. I freely publish all of my research code to [GitHub](https://github.com/bamos) as I believe that well-crafted engineering enables new frontiers and that science should be open and reproducible. <br><br>
 
 
 ## <i class="fa fa-chevron-right"></i> Education
