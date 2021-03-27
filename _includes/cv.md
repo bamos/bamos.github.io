@@ -1,4 +1,4 @@
- I am a research scientist at <b>Facebook AI (FAIR)</b> in NYC and study foundational topics in <b>machine learning</b> and <b>optimization</b>, recently involving reinforcement learning, control, optimal transport, and geometry. I am interested in developing new modeling principles that improve learning systems and agents that interact with and understand our world. My current focus is on optimization as non-trivial reasoning operations can be expressed in the language of optimization, and the lens of optimization brings insights into established paradigms. <br><br>
+ I am a research scientist at <b>Facebook AI (FAIR)</b> in NYC and study foundational topics in <b>machine learning</b> and <b>optimization</b>, recently involving reinforcement learning, control, optimal transport, and geometry. I am interested in developing new modeling principles that improve learning systems and agents that interact with and understand our world. Optimization and geometry are powerful building blocks for intelligent systems as they are ubiquitous in the world for non-trivial reasoning operations. <br><br>
 
 
 ## <i class="fa fa-chevron-right"></i> Current Position
