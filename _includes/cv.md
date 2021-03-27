@@ -1,4 +1,4 @@
- I am a research scientist at <b>Facebook AI (FAIR)</b> in NYC and study <b>machine learning</b> and <b>optimization</b>, recently involving reinforcement learning, control, optimal transport, and geometry. I am interested in developing new modeling foundations to improve learning systems that understand and interact with our world. Optimization and geometry are powerful building blocks for intelligent systems as they are ubiquitous for non-trivial reasoning operations. I freely publish all of my research code to [GitHub](https://github.com/bamos) as I believe that well-crafted engineering enables new frontiers and that science should be open and reproducible. <br><br>
+ I am a research scientist at <b>Facebook AI (FAIR)</b> in NYC and study <b>machine learning</b> and <b>optimization</b>, recently involving reinforcement learning, control, optimal transport, and geometry. I am interested in developing new modeling foundations to improve learning systems that understand and interact with our world. Optimization and geometry are powerful building blocks for intelligent systems as they are ubiquitous for non-trivial reasoning operations. I freely publish all of my research code to <a href="https://github.com/bamos">GitHub</a> as I believe that well-crafted engineering enables new frontiers and that science should be open and reproducible. <br><br>
 
 
 ## <i class="fa fa-chevron-right"></i> Education
@@ -11,8 +11,8 @@
         <br>
       Carnegie Mellon University | Pittsburgh, PA
         <p style='margin-top:-1em;margin-bottom:0em' markdown='1'>
-        <br> *[Differentiable Optimization-Based Modeling for Machine Learning](https://github.com/bamos/thesis)*
-        <br> Advisors: [J. Zico Kolter](http://zicokolter.com) (2016 - 2019),  [Mahadev Satyanarayanan](https://www.cs.cmu.edu/ satya/) (2014 - 2016)
+        <br> *<a href="https://github.com/bamos/thesis">Differentiable Optimization-Based Modeling for Machine Learning</a>*
+        <br> Advisors: <a href="http://zicokolter.com">J. Zico Kolter</a> (2016 - 2019),  <a href="https://www.cs.cmu.edu/ satya/">Mahadev Satyanarayanan</a> (2014 - 2016)
         </p>
     </td>
     <td class="col-md-2" style='text-align:right;'>2014 - 2019</td>
@@ -24,7 +24,7 @@
         <br>
       Virginia Tech | Blacksburg, VA
         <p style='margin-top:-1em;margin-bottom:0em' markdown='1'>
-        <br> Advisors: [Layne Watson](https://people.cs.vt.edu/ ltw/shortvita.html), [Jules White](https://www.magnum.io/people/jules.html), [Binoy Ravindran](https://www.ssrg.ece.vt.edu/)
+        <br> Advisors: <a href="https://people.cs.vt.edu/ ltw/shortvita.html">Layne Watson</a>, <a href="https://www.magnum.io/people/jules.html">Jules White</a>, <a href="https://www.ssrg.ece.vt.edu/">Binoy Ravindran</a>
         </p>
     </td>
     <td class="col-md-2" style='text-align:right;'>2011 - 2014</td>
@@ -39,7 +39,7 @@
 <p markdown="1" style='margin: 0'>
 <strong>Intel Labs</strong>
 | Santa Clara, CA
-| Host: [Vladlen Koltun](http://vladlen.info/)
+| Host: <a href="http://vladlen.info/">Vladlen Koltun</a>
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2018</td>
@@ -49,7 +49,7 @@
 <p markdown="1" style='margin: 0'>
 <strong>Google DeepMind</strong>
 | London, UK
-| Hosts: [Misha Denil](http://mdenil.com/) and [Nando de Freitas](https://scholar.google.com/citations?user=nzEluBwAAAAJ)
+| Hosts: <a href="http://mdenil.com/">Misha Denil</a> and <a href="https://scholar.google.com/citations?user=nzEluBwAAAAJ">Nando de Freitas</a>
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2017</td>
@@ -59,7 +59,7 @@
 <p markdown="1" style='margin: 0'>
 <strong>Adobe Research</strong>
 | San Jose, CA
-| Host: [David Tompkins](https://research.adobe.com/person/david-tompkins/)
+| Host: <a href="https://research.adobe.com/person/david-tompkins/">David Tompkins</a>
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2014</td>
@@ -1342,35 +1342,47 @@ malware machine learning classifiers.
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Students & Advising
+## <i class="fa fa-chevron-right"></i> Interns and Students
 <table class="table table-hover">
 <tr>
   <td>
-        <a href="https://www.aaronlou.com/">Aaron Lou</a> (Cornell), FAIR Intern (with Max Nickel)
+        <a href="https://samcohen16.github.io/">Samuel Cohen</a> (visiting FAIR from UCL)
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2021</td>
+</tr>
+<tr>
+  <td>
+        <a href="https://eugenevinitsky.github.io/">Eugene Vinitsky</a> (visiting FAIR from Berkeley)
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2021</td>
+</tr>
+<tr>
+  <td>
+        <a href="https://www.aaronlou.com/">Aaron Lou</a> (visiting FAIR from Cornell)
   </td>
   <td class='col-md-1' style='text-align:right;'>2020</td>
 </tr>
 <tr>
   <td>
-        <a href="http://www.cs.toronto.edu/~rtqichen/">Ricky Chen</a> (Toronto), FAIR Intern (with Max Nickel)
+        <a href="http://www.cs.toronto.edu/~rtqichen/">Ricky Chen</a> (visiting FAIR from Toronto)
   </td>
   <td class='col-md-1' style='text-align:right;'>2020</td>
 </tr>
 <tr>
   <td>
-        <a href="http://www.cs.cmu.edu/~pliang/">Paul Liang</a> (CMU), FAIR Intern (with Ed Grefenstette and Tim Rocktäschel)
+        <a href="http://www.cs.cmu.edu/~pliang/">Paul Liang</a> (visiting FAIR from CMU)
   </td>
   <td class='col-md-1' style='text-align:right;'>2020</td>
 </tr>
 <tr>
   <td>
-        <a href="https://phillipkwang.com/">Phillip Wang</a> (CMU), Undergraduate Researcher
+        <a href="https://phillipkwang.com/">Phillip Wang</a> (at CMU, now: CEO at <a href="https://gather.town/">Gather</a>)
   </td>
   <td class='col-md-1' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
-        <a href="https://leix28.github.io">Lei Xu</a> (Tsinghua), CMU Intern (with J. Zico Kolter)
+        <a href="https://leix28.github.io">Lei Xu</a> (visiting CMU from Tsinghua, now: Ph.D. student at MIT)
   </td>
   <td class='col-md-1' style='text-align:right;'>2016</td>
 </tr>
