@@ -8,3 +8,5 @@ _posts/ideas
 bower_components
 
 .jekyll-metadata
+.bundle
+vendor/bundle
