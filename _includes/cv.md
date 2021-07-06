@@ -1444,7 +1444,7 @@ malware machine learning classifiers.
 <table class="table table-hover">
 <tr>
   <td>
-        <a href="https://samcohen16.github.io/">Samuel Cohen</a> (visiting FAIR from UCL)
+        <a href="https://www.samcohen16.com/">Samuel Cohen</a> (visiting FAIR from UCL)
   </td>
   <td class='col-md-1' style='text-align:right;'>2021</td>
 </tr>
