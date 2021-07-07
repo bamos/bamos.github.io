@@ -568,29 +568,12 @@ facilitate.
 <h2>2018</h2>
 <table class="table table-hover">
 
-<tr id="tr-amos2018end" style="background-color: #ffffd0">
-<td>
-    <em><a href='https://arxiv.org/abs/1810.13400' target='_blank'>Differentiable MPC for End-to-end Planning and Control</a> </em><br>
-    <strong>B. Amos</strong>, I. Rodriguez, J. Sacks, B. Boots, and J. Z. Kolter<br>
-    NeurIPS 2018  <br>
-    [17] 
-[<a href='javascript:;'
-    onclick='$("#abs_amos2018end").toggle()'>abs</a>] [<a href='https://locuslab.github.io/mpc.pytorch/' target='_blank'>code</a>] <br>
-    
-<div id="abs_amos2018end" style="text-align: justify; display: none" markdown="1">
-In this paper we present foundations for using model predictive control (MPC) as a differentiable policy class in reinforcement learning. Specifically, we differentiate through MPC by using the KKT conditions of the convex approximation at a fixed point of the solver. Using this strategy, we are able to learn the cost and dynamics of a controller via end-to-end learning in a larger system. We empirically show results in an imitation learning setting, demonstrating that we can recover the underlying dynamics and cost more efficiently and reliably than with a generic neural network policy class
-</div>
-
-</td>
-</tr>
-
-
 <tr id="tr-amos2018learning" style="background-color: #ffffd0">
 <td>
     <em><a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'>Learning Awareness Models</a> </em><br>
     <strong>B. Amos</strong>, L. Dinh, S. Cabi, T. Roth&ouml;rl, S. Colmenarejo, A. Muldal, T. Erez, Y. Tassa, N. de Freitas, and M. Denil<br>
     ICLR 2018  <br>
-    [18] 
+    [17] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2018learning").toggle()'>abs</a>]<br>
     
@@ -618,6 +601,23 @@ data from a real robotic hand and show that the same models
 can be used to answer questions about properties of objects in
 the real world. Videos with qualitative results of our models
 are available <a href="https://goo.gl/mZuqAV">here</a>.
+</div>
+
+</td>
+</tr>
+
+
+<tr id="tr-amos2018end" style="background-color: #ffffd0">
+<td>
+    <em><a href='https://arxiv.org/abs/1810.13400' target='_blank'>Differentiable MPC for End-to-end Planning and Control</a> </em><br>
+    <strong>B. Amos</strong>, I. Rodriguez, J. Sacks, B. Boots, and J. Z. Kolter<br>
+    NeurIPS 2018  <br>
+    [18] 
+[<a href='javascript:;'
+    onclick='$("#abs_amos2018end").toggle()'>abs</a>] [<a href='https://locuslab.github.io/mpc.pytorch/' target='_blank'>code</a>] <br>
+    
+<div id="abs_amos2018end" style="text-align: justify; display: none" markdown="1">
+In this paper we present foundations for using model predictive control (MPC) as a differentiable policy class in reinforcement learning. Specifically, we differentiate through MPC by using the KKT conditions of the convex approximation at a fixed point of the solver. Using this strategy, we are able to learn the cost and dynamics of a controller via end-to-end learning in a larger system. We empirically show results in an imitation learning setting, demonstrating that we can recover the underlying dynamics and cost more efficiently and reliably than with a generic neural network policy class
 </div>
 
 </td>
