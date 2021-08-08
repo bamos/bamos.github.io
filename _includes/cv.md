@@ -371,7 +371,7 @@ deploying state-of-the-art algorithms.
 <td>
     <em><a href='https://arxiv.org/abs/2107.10254' target='_blank'>Neural Fixed-Point Acceleration for Convex Optimization</a> </em><br>
     S. Venkataraman* and <strong>B. Amos*</strong><br>
-    arXiv 2021  <br>
+    ICML AutoML 2021  <br>
     [9] 
 [<a href='javascript:;'
     onclick='$("#abs_venkataraman2021neural").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/neural-opt' target='_blank'>code</a>] <br>
