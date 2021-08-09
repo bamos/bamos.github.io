@@ -12,7 +12,7 @@
       Carnegie Mellon University | Pittsburgh, PA
         <p style='margin-top:-1em;margin-bottom:0em' markdown='1'>
         <br> *<a href="https://github.com/bamos/thesis">Differentiable Optimization-Based Modeling for Machine Learning</a>*
-        <br> Advisors: <a href="http://zicokolter.com">J. Zico Kolter</a> (2016 - 2019),  <a href="https://www.cs.cmu.edu/~satya/">Mahadev Satyanarayanan</a> (2014 - 2016)
+        <br> Advisors: <a href="http://zicokolter.com">J. Zico Kolter</a> (2016 - 2019),  <a href="https://www.cs.cmu.edu/ satya/">Mahadev Satyanarayanan</a> (2014 - 2016)
         </p>
     </td>
     <td class="col-md-2" style='text-align:right;'>2014 - 2019</td>
@@ -24,7 +24,7 @@
         <br>
       Virginia Tech | Blacksburg, VA
         <p style='margin-top:-1em;margin-bottom:0em' markdown='1'>
-        <br> Advisors: <a href="https://people.cs.vt.edu/~ltw/shortvita.html">Layne Watson</a>, <a href="https://www.magnum.io/people/jules.html">Jules White</a>, <a href="https://www.ssrg.ece.vt.edu/">Binoy Ravindran</a>
+        <br> Advisors: <a href="https://people.cs.vt.edu/ ltw/shortvita.html">Layne Watson</a>, <a href="https://www.magnum.io/people/jules.html">Jules White</a>, <a href="https://www.ssrg.ece.vt.edu/">Binoy Ravindran</a>
         </p>
     </td>
     <td class="col-md-2" style='text-align:right;'>2011 - 2014</td>
@@ -84,7 +84,7 @@ Papa John's,
 Scottish Rite of Freemasonry,
 VT Intelligence Community Conter for Academic Excellence,
 VT Pamplin Leader,
-VT Benjamin F.~Bock, VT Gay B.~Shober, VT I.~Luck Gravett
+VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2011 - 2014</td>
@@ -1228,7 +1228,7 @@ malware machine learning classifiers.
   <td>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a> |
     <i class="fa fas fa-star"></i> 256 |
-    <em>Ph.D.~Thesis LaTeX source code</em>
+    <em>Ph.D. Thesis LaTeX source code</em>
     <!--  -->
     <!--     bamos/thesis  -->
     <!--  -->
