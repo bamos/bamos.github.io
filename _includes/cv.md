@@ -108,7 +108,7 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
     L4DC 2021 (Oral) <br>
     [1] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2021modelbased").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/svg' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2021.svg.pdf' target='_blank'>slides</a>]  [<a href='https://youtu.be/ABS40GW7Ekk?t=5393' target='_blank'>talk</a>] <br>
+    onclick='$("#abs_amos2021modelbased").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/svg' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2021.svg.pdf' target='_blank'>slides</a>] <br>
     
 <div id="abs_amos2021modelbased" style="text-align: justify; display: none" markdown="1">
 Model-based reinforcement learning approaches add explicit domain
@@ -736,7 +736,7 @@ video streams and analytics services.
     ICML 2017  <br>
     [23] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2017optnet").toggle()'>abs</a>] [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2017.optnet.pdf' target='_blank'>slides</a>]  [<a href='https://vimeo.com/238242080' target='_blank'>talk</a>] <br>
+    onclick='$("#abs_amos2017optnet").toggle()'>abs</a>] [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2017.optnet.pdf' target='_blank'>slides</a>] <br>
     
 <div id="abs_amos2017optnet" style="text-align: justify; display: none" markdown="1">
 This paper presents OptNet, a network architecture that integrates
@@ -772,7 +772,7 @@ constraints better than other neural architectures.
     ICML 2017  <br>
     [24] 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2017input").toggle()'>abs</a>] [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2017.icnn.pdf' target='_blank'>slides</a>]  [<a href='https://vimeo.com/238242121' target='_blank'>talk</a>] <br>
+    onclick='$("#abs_amos2017input").toggle()'>abs</a>] [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2017.icnn.pdf' target='_blank'>slides</a>] <br>
     
 <div id="abs_amos2017input" style="text-align: justify; display: none" markdown="1">
 This paper presents the input convex neural network
