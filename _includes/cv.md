@@ -975,7 +975,7 @@ and organizational boundaries of trust and responsibility.
 </tr>
 
 </table>
-<h2>2015</h2>
+<h2>2015 and earlier</h2>
 <table class="table table-hover">
 
 <tr id="tr-satyanarayanan2015edge" >
@@ -1128,9 +1128,6 @@ changing network conditions and processing capacity
 </td>
 </tr>
 
-</table>
-<h2>2014</h2>
-<table class="table table-hover">
 
 <tr id="tr-andrew2014global" >
 <td>
@@ -1159,9 +1156,6 @@ compared.
 </td>
 </tr>
 
-</table>
-<h2>2013</h2>
-<table class="table table-hover">
 
 <tr id="tr-amos2013applying" >
 <td>
@@ -1194,7 +1188,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
-    <i class="fa fas fa-star"></i> 444 |
+    <i class="fa fas fa-star"></i> 453 |
     <em>Model-based reinforcement learning library</em>
     <!--  -->
     <!--     facebookresearch/mbrl-lib  -->
@@ -1205,7 +1199,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/facebookresearch/dcem">facebookresearch/dcem</a> |
-    <i class="fa fas fa-star"></i> 91 |
+    <i class="fa fas fa-star"></i> 92 |
     <em>The Differentiable Cross-Entropy Method</em>
     <!--  -->
     <!--     facebookresearch/dcem  -->
@@ -1227,7 +1221,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a> |
-    <i class="fa fas fa-star"></i> 256 |
+    <i class="fa fas fa-star"></i> 255 |
     <em>Ph.D. Thesis LaTeX source code</em>
     <!--  -->
     <!--     bamos/thesis  -->
@@ -1238,7 +1232,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/cvxgrp/cvxpylayers">cvxgrp/cvxpylayers</a> |
-    <i class="fa fas fa-star"></i> 1k |
+    <i class="fa fas fa-star"></i> 1.1k |
     <em>Differentiable Convex Optimization Layers</em>
     <!--  -->
     <!--     cvxgrp/cvxpylayers  -->
@@ -1249,7 +1243,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
-    <i class="fa fas fa-star"></i> 470 |
+    <i class="fa fas fa-star"></i> 475 |
     <em>Differentiable Model-Predictive Control</em>
     <!--  -->
     <!--     locuslab/mpc.pytorch  -->
@@ -1260,7 +1254,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a> |
-    <i class="fa fas fa-star"></i> 226 |
+    <i class="fa fas fa-star"></i> 228 |
     <em>Input Convex Neural Networks</em>
     <!--  -->
     <!--     locuslab/icnn  -->
@@ -1282,7 +1276,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
-    <i class="fa fas fa-star"></i> 488 |
+    <i class="fa fas fa-star"></i> 490 |
     <em>Differentiable PyTorch QP solver</em>
     <!--  -->
     <!--     locuslab/qpth  -->
@@ -1293,7 +1287,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a> |
-    <i class="fa fas fa-star"></i> 703 |
+    <i class="fa fas fa-star"></i> 706 |
     <em>PyTorch DenseNet implementation</em>
     <!--  -->
     <!--     bamos/densenet.pytorch  -->
@@ -1304,7 +1298,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/block">bamos/block</a> |
-    <i class="fa fas fa-star"></i> 256 |
+    <i class="fa fas fa-star"></i> 258 |
     <em>Intelligent block matrix constructions</em>
     <!--  -->
     <!--     bamos/block  -->
@@ -1359,8 +1353,8 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
-    <i class="fa fas fa-star"></i> 320 |
-    <em>My YAML/LaTeX/Markdown cv</em>
+    <i class="fa fas fa-star"></i> 323 |
+    <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
     <!--  -->
     <!--     bamos/cv  -->
     <!--  -->
@@ -1383,6 +1377,18 @@ malware machine learning classifiers.
 
 ## <i class="fa fa-chevron-right"></i> Invited Talks
 <table class="table table-hover">
+<tr>
+  <td>
+        Columbia University
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2021</td>
+</tr>
+<tr>
+  <td>
+        IBM Research
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2021</td>
+</tr>
 <tr>
   <td>
         Max Planck Institute for Intelligent Systems (Tübingen) Seminar
@@ -1488,6 +1494,12 @@ malware machine learning classifiers.
 <tr>
   <td>
         NNAISENSE
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2018</td>
+</tr>
+<tr>
+  <td>
+        UC Berkeley
   </td>
   <td class='col-md-1' style='text-align:right;'>2018</td>
 </tr>
