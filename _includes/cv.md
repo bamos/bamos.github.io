@@ -1615,7 +1615,7 @@ malware machine learning classifiers.
 ## <i class="fa fa-chevron-right"></i> Skills
 <table class="table table-hover">
 <tr>
-  <td class='col-md-2'>Languages</td>
+  <td class='col-md-2'>Programming</td>
   <td>
 C, C++, Fortran, Haskell, Java, Lua, Make, Mathematica, Python, R, Scala
   </td>
