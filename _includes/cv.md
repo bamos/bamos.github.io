@@ -1027,7 +1027,7 @@ manufacturing security topics.
 <tr id="tr-chen2015early" >
 <td>
     <em><a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'>Early Implementation Experience with Wearable Cognitive Assistance Applications</a> </em><br>
-    <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, Lu&nbsp;Jiang, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, Alex&nbsp;Hauptmann, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
+    <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, Lu&nbsp;Jiang, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='http://www.cs.cmu.edu/~alex/' target='_blank'>Alex&nbsp;Hauptmann</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     WearSys 2015  <br>
     [36] 
 [<a href='javascript:;'
@@ -1053,7 +1053,7 @@ simplify the creation of similar applications.
 <tr id="tr-hu2014case" >
 <td>
     <em><a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'>The Case for Offload Shaping</a> </em><br>
-    <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://scholar.google.com/citations?user=vU6bKxEAAAAJ' target='_blank'>Wolfgang&nbsp;Richter</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, Benjamin&nbsp;Gilbert, Jan&nbsp;Harkes, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
+    <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://scholar.google.com/citations?user=vU6bKxEAAAAJ' target='_blank'>Wolfgang&nbsp;Richter</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://github.com/bgilbert' target='_blank'>Benjamin&nbsp;Gilbert</a>, <a href='https://scholar.google.com/citations?user=jj5tN8sAAAAJ' target='_blank'>Jan&nbsp;Harkes</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     HotMobile 2015  <br>
     [37] 
 [<a href='javascript:;'
@@ -1127,7 +1127,7 @@ changing network conditions and processing capacity
 <tr id="tr-andrew2014global" >
 <td>
     <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Global Parameter Estimation for a Eukaryotic Cell Cycle Model in Systems Biology</a> </em><br>
-    Tricity&nbsp;Andrew, <strong>Brandon&nbsp;Amos</strong>, David&nbsp;Easterling, <a href='https://scholar.google.com/citations?user=Z4534DUAAAAJ' target='_blank'>Cihan&nbsp;Oguz</a>, William&nbsp;Baumann, <a href='https://scholar.google.com/citations?user=syETjMMAAAAJ' target='_blank'>John&nbsp;Tyson</a>, and <a href='https://people.cs.vt.edu/~ltw/shortvita.html' target='_blank'>Layne&nbsp;T.&nbsp;Watson</a><br>
+    <a href='https://scholar.google.com/citations?user=qpRt_KYAAAAJ' target='_blank'>Tricity&nbsp;Andrew</a>, <strong>Brandon&nbsp;Amos</strong>, David&nbsp;Easterling, <a href='https://scholar.google.com/citations?user=Z4534DUAAAAJ' target='_blank'>Cihan&nbsp;Oguz</a>, William&nbsp;Baumann, <a href='https://scholar.google.com/citations?user=syETjMMAAAAJ' target='_blank'>John&nbsp;Tyson</a>, and <a href='https://people.cs.vt.edu/~ltw/shortvita.html' target='_blank'>Layne&nbsp;T.&nbsp;Watson</a><br>
     SummerSim 2014  <br>
     [40] 
 [<a href='javascript:;'
