@@ -6,10 +6,9 @@
 <table class="table table-hover">
   <tr>
     <td>
-        <strong>Ph.D. in Computer Science</strong>
-          (0.00/0.00)
-        <br>
-      Carnegie Mellon University | Pittsburgh, PA
+      <strong>Ph.D. in Computer Science</strong>, Carnegie Mellon University
+        (0.00/0.00)
+      <br>
         <p style='margin-top:-1em;margin-bottom:0em' markdown='1'>
         <br> *<a href="https://github.com/bamos/thesis" target="_blank">Differentiable Optimization-Based Modeling for Machine Learning</a>*
         <br> Advisors: <a href="http://zicokolter.com" target="_blank">J. Zico Kolter</a> (2016 - 2019),  <a href="https://www.cs.cmu.edu/ satya/" target="_blank">Mahadev Satyanarayanan</a> (2014 - 2016)
@@ -19,13 +18,9 @@
   </tr>
   <tr>
     <td>
-        <strong>B.S. in Computer Science</strong>
-          (3.99/4.00)
-        <br>
-      Virginia Tech | Blacksburg, VA
-        <p style='margin-top:-1em;margin-bottom:0em' markdown='1'>
-        <br> Advisors: <a href="https://people.cs.vt.edu/ ltw/shortvita.html" target="_blank">Layne Watson</a>, <a href="https://www.magnum.io/people/jules.html" target="_blank">Jules White</a>, <a href="https://www.ssrg.ece.vt.edu/" target="_blank">Binoy Ravindran</a>
-        </p>
+      <strong>B.S. in Computer Science</strong>, Virginia Tech
+        (3.99/4.00)
+      <br>
     </td>
     <td class="col-md-2" style='text-align:right;'>2011 - 2014</td>
   </tr>
@@ -37,9 +32,9 @@
 <tr>
   <td>
 <p markdown="1" style='margin: 0'>
-<strong>Intel Labs</strong>
-| Santa Clara, CA
-| Host: <a href="http://vladlen.info/" target="_blank">Vladlen Koltun</a>
+<strong>Intel Labs</strong>,
+Santa Clara
+(Host: <a href="http://vladlen.info/" target="_blank">Vladlen Koltun</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2018</td>
@@ -47,9 +42,9 @@
 <tr>
   <td>
 <p markdown="1" style='margin: 0'>
-<strong>Google DeepMind</strong>
-| London, UK
-| Hosts: <a href="http://mdenil.com/" target="_blank">Misha Denil</a> and <a href="https://scholar.google.com/citations?user=nzEluBwAAAAJ" target="_blank">Nando de Freitas</a>
+<strong>Google DeepMind</strong>,
+London
+(Hosts: <a href="http://mdenil.com/" target="_blank">Misha Denil</a> and <a href="https://scholar.google.com/citations?user=nzEluBwAAAAJ" target="_blank">Nando de Freitas</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2017</td>
@@ -57,9 +52,9 @@
 <tr>
   <td>
 <p markdown="1" style='margin: 0'>
-<strong>Adobe Research</strong>
-| San Jose, CA
-| Host: <a href="https://research.adobe.com/person/david-tompkins/" target="_blank">David Tompkins</a>
+<strong>Adobe Research</strong>,
+San Jose
+(Host: <a href="https://research.adobe.com/person/david-tompkins/" target="_blank">David Tompkins</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2014</td>
