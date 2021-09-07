@@ -447,7 +447,7 @@ Model-based reinforcement learning (MBRL) has been shown to be a powerful framew
 <tr id="tr-amos2020QNSTOP" >
 <td>
     <em><a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>QNSTOP: Quasi-Newton Algorithm for Stochastic Optimization</a> </em><br>
-    <strong>Brandon&nbsp;Amos</strong>, David&nbsp;Easterling, <a href='https://people.cs.vt.edu/~ltw/shortvita.html' target='_blank'>Layne&nbsp;T.&nbsp;Watson</a>, <a href='https://scholar.google.com/citations?user=2I6IgikAAAAJ' target='_blank'>William&nbsp;Thacker</a>, Brent&nbsp;Castle, and <a href='https://mtrosset.pages.iu.edu/' target='_blank'>Michael&nbsp;Trosset</a><br>
+    <strong>Brandon&nbsp;Amos</strong>, <a href='https://dblp.org/pid/75/8682.html' target='_blank'>David&nbsp;Easterling</a>, <a href='https://people.cs.vt.edu/~ltw/shortvita.html' target='_blank'>Layne&nbsp;T.&nbsp;Watson</a>, <a href='https://scholar.google.com/citations?user=2I6IgikAAAAJ' target='_blank'>William&nbsp;Thacker</a>, <a href='https://dblp.org/pid/142/1258.html' target='_blank'>Brent&nbsp;Castle</a>, and <a href='https://mtrosset.pages.iu.edu/' target='_blank'>Michael&nbsp;Trosset</a><br>
     ACM TOMS 2020  <br>
     [12] 
 [<a href='javascript:;'
@@ -472,7 +472,7 @@ biology problems is given.
 <tr id="tr-sercu2020neural" >
 <td>
     <em><a href='https://www.biorxiv.org/content/10.1101/2021.04.08.439084v1.abstract' target='_blank'>Neural Potts Model</a> </em><br>
-    <a href='https://tom.sercu.me/' target='_blank'>Tom&nbsp;Sercu</a>, Robert&nbsp;Verkuil, <a href='https://scholar.google.com/citations?user=2M0OltAAAAAJ' target='_blank'>Joshua&nbsp;Meier</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=ZDjmMuwAAAAJ' target='_blank'>Zeming&nbsp;Lin</a>, Caroline&nbsp;Chen, Jason&nbsp;Liu, <a href='http://yann.lecun.com/' target='_blank'>Yann&nbsp;LeCun</a>, and <a href='https://scholar.google.com/citations?user=vqb78-gAAAAJ' target='_blank'>Alexander&nbsp;Rives</a><br>
+    <a href='https://tom.sercu.me/' target='_blank'>Tom&nbsp;Sercu</a>, <a href='https://dblp.org/pid/296/8930.html' target='_blank'>Robert&nbsp;Verkuil</a>, <a href='https://scholar.google.com/citations?user=2M0OltAAAAAJ' target='_blank'>Joshua&nbsp;Meier</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=ZDjmMuwAAAAJ' target='_blank'>Zeming&nbsp;Lin</a>, <a href='https://www.linkedin.com/in/caroline-chen/' target='_blank'>Caroline&nbsp;Chen</a>, <a href='https://www.linkedin.com/in/jasonliu6/' target='_blank'>Jason&nbsp;Liu</a>, <a href='http://yann.lecun.com/' target='_blank'>Yann&nbsp;LeCun</a>, and <a href='https://scholar.google.com/citations?user=vqb78-gAAAAJ' target='_blank'>Alexander&nbsp;Rives</a><br>
     MLCB 2020  <br>
     [13] 
 [<a href='javascript:;'
@@ -620,7 +620,7 @@ facilitate.
 <tr id="tr-amos2018learning" style="background-color: #ffffd0">
 <td>
     <em><a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'>Learning Awareness Models</a> </em><br>
-    <strong>Brandon&nbsp;Amos</strong>, <a href='https://laurent-dinh.github.io/' target='_blank'>Laurent&nbsp;Dinh</a>, <a href='https://scholar.google.com/citations?user=l-HhJaUAAAAJ' target='_blank'>Serkan&nbsp;Cabi</a>, Thomas&nbsp;Roth&ouml;rl, <a href='https://scholar.google.com/citations?user=0Dkf68EAAAAJ' target='_blank'>Sergio&nbsp;G&oacute;mez&nbsp;Colmenarejo</a>, <a href='https://scholar.google.com/citations?user=YfgdfyYAAAAJ' target='_blank'>Alistair&nbsp;Muldal</a>, <a href='https://scholar.google.com/citations?user=gVFnjOcAAAAJ' target='_blank'>Tom&nbsp;Erez</a>, <a href='https://scholar.google.com/citations?user=CjOTm_4AAAAJ' target='_blank'>Yuval&nbsp;Tassa</a>, <a href='https://scholar.google.com/citations?user=nzEluBwAAAAJ' target='_blank'>Nando&nbsp;de&nbsp;Freitas</a>, and <a href='https://mdenil.com/' target='_blank'>Misha&nbsp;Denil</a><br>
+    <strong>Brandon&nbsp;Amos</strong>, <a href='https://laurent-dinh.github.io/' target='_blank'>Laurent&nbsp;Dinh</a>, <a href='https://scholar.google.com/citations?user=l-HhJaUAAAAJ' target='_blank'>Serkan&nbsp;Cabi</a>, <a href='https://dblp.org/pid/188/6045.html' target='_blank'>Thomas&nbsp;Roth&ouml;rl</a>, <a href='https://scholar.google.com/citations?user=0Dkf68EAAAAJ' target='_blank'>Sergio&nbsp;G&oacute;mez&nbsp;Colmenarejo</a>, <a href='https://scholar.google.com/citations?user=YfgdfyYAAAAJ' target='_blank'>Alistair&nbsp;Muldal</a>, <a href='https://scholar.google.com/citations?user=gVFnjOcAAAAJ' target='_blank'>Tom&nbsp;Erez</a>, <a href='https://scholar.google.com/citations?user=CjOTm_4AAAAJ' target='_blank'>Yuval&nbsp;Tassa</a>, <a href='https://scholar.google.com/citations?user=nzEluBwAAAAJ' target='_blank'>Nando&nbsp;de&nbsp;Freitas</a>, and <a href='https://mdenil.com/' target='_blank'>Misha&nbsp;Denil</a><br>
     ICLR 2018  <br>
     [19] 
 [<a href='javascript:;'
@@ -824,7 +824,7 @@ approach and a purely black-box policy optimization approach.
 <tr id="tr-chen2017quasi" >
 <td>
     <em><a href='https://par.nsf.gov/servlets/purl/10111392' target='_blank'>Quasi-Newton Stochastic Optimization Algorithm for Parameter Estimation of a Stochastic Model of the Budding Yeast Cell Cycle</a> </em><br>
-    <a href='https://chenm.sites.wfu.edu/publications/' target='_blank'>Minghan&nbsp;Chen</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://people.cs.vt.edu/~ltw/shortvita.html' target='_blank'>Layne&nbsp;T.&nbsp;Watson</a>, <a href='https://scholar.google.com/citations?user=syETjMMAAAAJ' target='_blank'>John&nbsp;Tyson</a>, <a href='https://people.cs.vt.edu/~ycao/' target='_blank'>Yang&nbsp;Cao</a>, <a href='https://people.cs.vt.edu/shaffer/' target='_blank'>Cliff&nbsp;Shaffer</a>, <a href='https://mtrosset.pages.iu.edu/' target='_blank'>Michael&nbsp;Trosset</a>, <a href='https://scholar.google.com/citations?user=Z4534DUAAAAJ' target='_blank'>Cihan&nbsp;Oguz</a>, and Gisella&nbsp;Kakoti<br>
+    <a href='https://chenm.sites.wfu.edu/publications/' target='_blank'>Minghan&nbsp;Chen</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://people.cs.vt.edu/~ltw/shortvita.html' target='_blank'>Layne&nbsp;T.&nbsp;Watson</a>, <a href='https://scholar.google.com/citations?user=syETjMMAAAAJ' target='_blank'>John&nbsp;Tyson</a>, <a href='https://people.cs.vt.edu/~ycao/' target='_blank'>Yang&nbsp;Cao</a>, <a href='https://people.cs.vt.edu/shaffer/' target='_blank'>Cliff&nbsp;Shaffer</a>, <a href='https://mtrosset.pages.iu.edu/' target='_blank'>Michael&nbsp;Trosset</a>, <a href='https://scholar.google.com/citations?user=Z4534DUAAAAJ' target='_blank'>Cihan&nbsp;Oguz</a>, and <a href='https://dblp.org/pid/235/5473.html' target='_blank'>Gisella&nbsp;Kakoti</a><br>
     IEEE/ACM TCBB 2017  <br>
     [26] <br>
     
@@ -835,7 +835,7 @@ approach and a purely black-box policy optimization approach.
 <tr id="tr-ha2017you" >
 <td>
     <em><a href='https://www.cs.cmu.edu/~15-821/READINGS/PAPERS/ha2017.pdf' target='_blank'>You can teach elephants to dance: agile VM handoff for edge computing</a> </em><br>
-    <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, Yoshihisa&nbsp;Abe, Thomas&nbsp;Eiszler, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, Rohit&nbsp;Upadhyaya, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
+    <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://dblp.org/pid/18/1620.html' target='_blank'>Yoshihisa&nbsp;Abe</a>, <a href='https://dblp.org/pid/207/9122.html' target='_blank'>Thomas&nbsp;Eiszler</a>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://dblp.org/pid/207/9123.html' target='_blank'>Rohit&nbsp;Upadhyaya</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     SEC 2017  <br>
     [27] <br>
     
@@ -931,7 +931,7 @@ with a maximum likelihood based approach.
 <tr id="tr-hu2016quantifying" >
 <td>
     <em><a href='https://dl.acm.org/doi/10.1145/2967360.2967369' target='_blank'>Quantifying the impact of edge computing on mobile applications</a> </em><br>
-    <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, Ying&nbsp;Gao, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://junjuew.github.io/' target='_blank'>Junjue&nbsp;Wang</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
+    <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='https://www.linkedin.com/in/joelyinggao/' target='_blank'>Ying&nbsp;Gao</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://junjuew.github.io/' target='_blank'>Junjue&nbsp;Wang</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     ACM SIGOPS 2016  <br>
     [32] <br>
     
@@ -976,7 +976,7 @@ and organizational boundaries of trust and responsibility.
 <tr id="tr-satyanarayanan2015edge" >
 <td>
     <em><a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'>Edge Analytics in the Internet of Things</a> </em><br>
-    <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a>, <a href='https://www.ugent.be/ea/idlab/en/members/pieter-simoens.htm' target='_blank'>Pieter&nbsp;Simoens</a>, Yu&nbsp;Xiao, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, and <strong>Brandon&nbsp;Amos</strong><br>
+    <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a>, <a href='https://www.ugent.be/ea/idlab/en/members/pieter-simoens.htm' target='_blank'>Pieter&nbsp;Simoens</a>, <a href='https://scholar.google.com/citations?user=ZeRhyWsAAAAJ' target='_blank'>Yu&nbsp;Xiao</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, and <strong>Brandon&nbsp;Amos</strong><br>
     IEEE Pervasive Computing 2015  <br>
     [34] 
 [<a href='javascript:;'
@@ -1002,7 +1002,7 @@ is part of a special issue on smart spaces.
 <tr id="tr-turner2015bad" >
 <td>
     <em><a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094' target='_blank'>Bad Parts: Are Our Manufacturing Systems at Risk of Silent Cyberattacks?</a> </em><br>
-    <a href='https://scholar.google.com/citations?user=MRKab9cAAAAJ' target='_blank'>Hamilton&nbsp;Turner</a>, <a href='https://scholar.google.com/citations?user=10HSX90AAAAJ' target='_blank'>Jules&nbsp;White</a>, <a href='https://scholar.google.com/citations?user=tWmVBNwAAAAJ' target='_blank'>Jaime&nbsp;A.&nbsp;Camelio</a>, <a href='https://scholar.google.com/citations?user=AW81mosAAAAJ' target='_blank'>Christopher&nbsp;Williams</a>, <strong>Brandon&nbsp;Amos</strong>, and Robert&nbsp;Parker<br>
+    <a href='https://scholar.google.com/citations?user=MRKab9cAAAAJ' target='_blank'>Hamilton&nbsp;Turner</a>, <a href='https://scholar.google.com/citations?user=10HSX90AAAAJ' target='_blank'>Jules&nbsp;White</a>, <a href='https://scholar.google.com/citations?user=tWmVBNwAAAAJ' target='_blank'>Jaime&nbsp;A.&nbsp;Camelio</a>, <a href='https://scholar.google.com/citations?user=AW81mosAAAAJ' target='_blank'>Christopher&nbsp;Williams</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://ieeexplore.ieee.org/author/37085729541' target='_blank'>Robert&nbsp;Parker</a><br>
     IEEE Security & Privacy 2015  <br>
     [35] 
 [<a href='javascript:;'
@@ -1027,7 +1027,7 @@ manufacturing security topics.
 <tr id="tr-chen2015early" >
 <td>
     <em><a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'>Early Implementation Experience with Wearable Cognitive Assistance Applications</a> </em><br>
-    <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, Lu&nbsp;Jiang, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='http://www.cs.cmu.edu/~alex/' target='_blank'>Alex&nbsp;Hauptmann</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
+    <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://www.lujiang.info/' target='_blank'>Lu&nbsp;Jiang</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='http://www.cs.cmu.edu/~alex/' target='_blank'>Alex&nbsp;Hauptmann</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     WearSys 2015  <br>
     [36] 
 [<a href='javascript:;'
@@ -1075,7 +1075,7 @@ demand, with little loss of application-level fidelity
 <tr id="tr-gao2015cloudlets" >
 <td>
     <em><a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'>Are Cloudlets Necessary?</a> </em><br>
-    Ying&nbsp;Gao, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
+    <a href='https://www.linkedin.com/in/joelyinggao/' target='_blank'>Ying&nbsp;Gao</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     CMU 2015  <br>
     [38] 
 [<a href='javascript:;'
@@ -1101,7 +1101,7 @@ consumption in a mobile device by up to 42% compared to cloud offload.
 <tr id="tr-ha2015adaptive" >
 <td>
     <em><a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'>Adaptive VM handoff across cloudlets</a> </em><br>
-    <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, Yoshihisa&nbsp;Abe, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
+    <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://dblp.org/pid/18/1620.html' target='_blank'>Yoshihisa&nbsp;Abe</a>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     CMU 2015  <br>
     [39] 
 [<a href='javascript:;'
@@ -1127,7 +1127,7 @@ changing network conditions and processing capacity
 <tr id="tr-andrew2014global" >
 <td>
     <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Global Parameter Estimation for a Eukaryotic Cell Cycle Model in Systems Biology</a> </em><br>
-    <a href='https://scholar.google.com/citations?user=qpRt_KYAAAAJ' target='_blank'>Tricity&nbsp;Andrew</a>, <strong>Brandon&nbsp;Amos</strong>, David&nbsp;Easterling, <a href='https://scholar.google.com/citations?user=Z4534DUAAAAJ' target='_blank'>Cihan&nbsp;Oguz</a>, William&nbsp;Baumann, <a href='https://scholar.google.com/citations?user=syETjMMAAAAJ' target='_blank'>John&nbsp;Tyson</a>, and <a href='https://people.cs.vt.edu/~ltw/shortvita.html' target='_blank'>Layne&nbsp;T.&nbsp;Watson</a><br>
+    <a href='https://scholar.google.com/citations?user=qpRt_KYAAAAJ' target='_blank'>Tricity&nbsp;Andrew</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://dblp.org/pid/75/8682.html' target='_blank'>David&nbsp;Easterling</a>, <a href='https://scholar.google.com/citations?user=Z4534DUAAAAJ' target='_blank'>Cihan&nbsp;Oguz</a>, <a href='https://scholar.google.com/citations?user=fAmU38gAAAAJ' target='_blank'>William&nbsp;Baumann</a>, <a href='https://scholar.google.com/citations?user=syETjMMAAAAJ' target='_blank'>John&nbsp;Tyson</a>, and <a href='https://people.cs.vt.edu/~ltw/shortvita.html' target='_blank'>Layne&nbsp;T.&nbsp;Watson</a><br>
     SummerSim 2014  <br>
     [40] 
 [<a href='javascript:;'
