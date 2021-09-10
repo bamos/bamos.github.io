@@ -532,8 +532,27 @@ in graph embedding tasks.
     <em><a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>Differentiable Optimization-Based Modeling for Machine Learning</a> </em><br>
     <strong>Brandon&nbsp;Amos</strong><br>
     Ph.D. Thesis 2019  <br>
-    [15] [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
+    [15] 
+[<a href='javascript:;'
+    onclick='$("#abs_amos2019differentiable").toggle()'>abs</a>] [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
     
+<div id="abs_amos2019differentiable" style="text-align: justify; display: none" markdown="1">
+Domain-specific modeling priors and specialized components are becoming
+increasingly important to the machine learning field. These components integrate specialized knowledge that we have as humans into model. We argue in
+this thesis that optimization methods provide an expressive set of operations
+that should be part of the machine learning practitioner’s modeling toolbox.
+We present two foundational approaches for optimization-based modeling:
+1) the OptNet architecture that integrates optimization problems as individual
+layers in larger end-to-end trainable deep networks, and 2) the input-convex
+neural network (ICNN) architecture that helps make inference and learning in
+deep energy-based models and structured prediction more tractable.
+We then show how to use the OptNet approach 1) as a way of combining
+model-free and model-based reinforcement learning and 2) for top-k learning
+problems. We conclude by showing how to differentiate cone programs and turn
+the cvxpy domain specific language into a differentiable optimization layer that
+enables rapid prototyping of the approaches in this thesis.
+</div>
+
 </td>
 </tr>
 
@@ -826,19 +845,64 @@ approach and a purely black-box policy optimization approach.
     <em><a href='https://par.nsf.gov/servlets/purl/10111392' target='_blank'>Quasi-Newton Stochastic Optimization Algorithm for Parameter Estimation of a Stochastic Model of the Budding Yeast Cell Cycle</a> </em><br>
     <a href='https://chenm.sites.wfu.edu/publications/' target='_blank'>Minghan&nbsp;Chen</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://people.cs.vt.edu/~ltw/shortvita.html' target='_blank'>Layne&nbsp;T.&nbsp;Watson</a>, <a href='https://scholar.google.com/citations?user=syETjMMAAAAJ' target='_blank'>John&nbsp;Tyson</a>, <a href='https://people.cs.vt.edu/~ycao/' target='_blank'>Yang&nbsp;Cao</a>, <a href='https://people.cs.vt.edu/shaffer/' target='_blank'>Cliff&nbsp;Shaffer</a>, <a href='https://mtrosset.pages.iu.edu/' target='_blank'>Michael&nbsp;Trosset</a>, <a href='https://scholar.google.com/citations?user=Z4534DUAAAAJ' target='_blank'>Cihan&nbsp;Oguz</a>, and <a href='https://dblp.org/pid/235/5473.html' target='_blank'>Gisella&nbsp;Kakoti</a><br>
     IEEE/ACM TCBB 2017  <br>
-    [26] <br>
+    [26] 
+[<a href='javascript:;'
+    onclick='$("#abs_chen2017quasi").toggle()'>abs</a>]<br>
     
+<div id="abs_chen2017quasi" style="text-align: justify; display: none" markdown="1">
+Parameter estimation in discrete or continuous deterministic cell
+cycle models is challenging for several reasons, including the nature of what can be observed, and
+the accuracy and quantity of those observations. The
+challenge is even greater for stochastic models, where the number of simulations and amount of
+empirical data must be even larger to obtain
+statistically valid parameter estimates. The two
+main contributions of this work are (1) stochastic
+model parameter estimation based on directly
+matching multivariate probability distributions, and
+(2) a new quasi-Newton algorithm class QNSTOP for
+stochastic optimization problems. QNSTOP directly
+uses the random objective function value samples
+rather than creating ensemble statistics. QNSTOP is
+used here to directly match empirical and simulated
+joint probability distributions rather than matching
+summary statistics. Results are given for a current
+state-of-the-art stochastic cell cycle model of
+budding yeast, whose predictions match well some
+summary statistics and one-dimensional distributions
+from empirical data, but do not match well the
+empirical joint distributions. The nature of the
+mismatch provides insight into the weakness in the
+stochastic model.
+</div>
+
 </td>
 </tr>
 
 
 <tr id="tr-ha2017you" >
 <td>
-    <em><a href='https://www.cs.cmu.edu/~15-821/READINGS/PAPERS/ha2017.pdf' target='_blank'>You can teach elephants to dance: agile VM handoff for edge computing</a> </em><br>
+    <em><a href='https://dl.acm.org/doi/10.1145/3132211.3134453' target='_blank'>You can teach elephants to dance: agile VM handoff for edge computing</a> </em><br>
     <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://dblp.org/pid/18/1620.html' target='_blank'>Yoshihisa&nbsp;Abe</a>, <a href='https://dblp.org/pid/207/9122.html' target='_blank'>Thomas&nbsp;Eiszler</a>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://dblp.org/pid/207/9123.html' target='_blank'>Rohit&nbsp;Upadhyaya</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     SEC 2017  <br>
-    [27] <br>
+    [27] 
+[<a href='javascript:;'
+    onclick='$("#abs_ha2017you").toggle()'>abs</a>]<br>
     
+<div id="abs_ha2017you" style="text-align: justify; display: none" markdown="1">
+VM handoff enables rapid and transparent placement changes to
+executing code in edge computing use cases where the
+safety and management attributes of VM encapsulation
+are important. This versatile primitive offers the
+functionality of classic live migration but is
+highly optimized for the edge. Over WAN bandwidths
+ranging from 5 to 25 Mbps, VM handoff migrates a
+running 8 GB VM in about a minute, with a downtime
+of a few tens of seconds. By dynamically adapting to
+varying network bandwidth and processing load, VM
+handoff is more than an order of magnitude faster
+than live migration at those bandwidths.
+</div>
+
 </td>
 </tr>
 
@@ -848,8 +912,25 @@ approach and a purely black-box policy optimization approach.
     <em><a href='https://www.cs.cmu.edu/~zhuoc/papers/latency2017.pdf' target='_blank'>An Empirical Study of Latency in an Emerging Class of Edge Computing Applications for Wearable Cognitive Assistance</a> </em><br>
     <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='https://junjuew.github.io/' target='_blank'>Junjue&nbsp;Wang</a>, <a href='https://www.siyanz.com/' target='_blank'>Siyan&nbsp;Zhao</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=0pF6i38AAAAJ' target='_blank'>Guanhang&nbsp;Wu</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://scholar.google.com/citations?user=R9r5_GIAAAAJ' target='_blank'>Khalid&nbsp;Elgazzar</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://www.cmu.edu/dietrich/psychology/people/core-training-faculty/klatzky-roberta.html' target='_blank'>Roberta&nbsp;Klatzky</a>, <a href='http://www.cs.cmu.edu/~dps/' target='_blank'>Daniel&nbsp;Siewiorek</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     SEC 2017  <br>
-    [28] <br>
+    [28] 
+[<a href='javascript:;'
+    onclick='$("#abs_chen2017empirical").toggle()'>abs</a>]<br>
     
+<div id="abs_chen2017empirical" style="text-align: justify; display: none" markdown="1">
+An emerging class of interactive wearable cognitive assistance
+applications is poised to become one of the key
+demonstrators of edge computing infrastructure. In
+this paper, we design seven such applications and
+evaluate their performance in terms of latency
+across a range of edge computing configurations, mobile hardware, and wireless networks, including 4G
+LTE. We also devise a novel multi-algorithm approach
+that leverages temporal locality to reduce
+end-to-end latency by 60% to 70%, without
+sacrificing accuracy. Finally, we derive target
+latencies for our applications, and show that edge
+computing is crucial to meeting these targets.
+</div>
+
 </td>
 </tr>
 
@@ -933,8 +1014,21 @@ with a maximum likelihood based approach.
     <em><a href='https://dl.acm.org/doi/10.1145/2967360.2967369' target='_blank'>Quantifying the impact of edge computing on mobile applications</a> </em><br>
     <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='https://www.linkedin.com/in/joelyinggao/' target='_blank'>Ying&nbsp;Gao</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://junjuew.github.io/' target='_blank'>Junjue&nbsp;Wang</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     ACM SIGOPS 2016  <br>
-    [32] <br>
+    [32] 
+[<a href='javascript:;'
+    onclick='$("#abs_hu2016quantifying").toggle()'>abs</a>]<br>
     
+<div id="abs_hu2016quantifying" style="text-align: justify; display: none" markdown="1">
+Computational offloading services at the edge of the Internet for
+mobile devices are becoming a reality. Using a wide
+range of mobile applications, we explore how such
+infrastructure improves latency and energy
+consumption relative to the cloud. We present
+experimental results from WiFi and 4G LTE networks
+that confirm substantial wins from edge computing
+for highly interactive mobile applications.
+</div>
+
 </td>
 </tr>
 
