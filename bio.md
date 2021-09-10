@@ -1,3 +1,1 @@
-Brandon D. Amos is a Computer Science Ph.D. student at Carnegie Mellon University
-with research interests in machine learning, computer vision, and mobile computing.
-He obtained a B.S. in Computer Science from Virginia Tech in May 2014.
+Brandon Amos (http://bamos.github.io/) is a research scientist at Facebook AI Research in New York City with research interests in machine learning and optimization, recently with a focus on reinforcement learning, control, optimal transport, and geometry.
