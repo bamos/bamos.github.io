@@ -11,7 +11,7 @@
       <br>
         <p style='margin-top:-1em;margin-bottom:0em' markdown='1'>
         <br> *<a href="https://github.com/bamos/thesis" target="_blank">Differentiable Optimization-Based Modeling for Machine Learning</a>*
-        <br> Advisors: <a href="http://zicokolter.com" target="_blank">J. Zico Kolter</a> (2016 - 2019),  <a href="https://www.cs.cmu.edu/ satya/" target="_blank">Mahadev Satyanarayanan</a> (2014 - 2016)
+        <br> Advisors: <a href="http://zicokolter.com" target="_blank">J. Zico Kolter</a> (2016 - 2019),  <a href="https://www.cs.cmu.edu/~satya/" target="_blank">Mahadev Satyanarayanan</a> (2014 - 2016)
         </p>
     </td>
     <td class="col-md-2" style='text-align:right;'>2014 - 2019</td>
@@ -202,30 +202,31 @@ vision keypoint matching benchmark.
 </tr>
 
 
-<tr id="tr-venkataraman2021neural" >
+<tr id="tr-fickinger2021scalable" >
 <td>
-    <em><a href='https://arxiv.org/abs/2107.10254' target='_blank'>Neural Fixed-Point Acceleration for Convex Optimization</a> </em><br>
-    <a href='https://scholar.google.com/citations?user=BFWurDEAAAAJ' target='_blank'>Shobha&nbsp;Venkataraman*</a> and <strong>Brandon&nbsp;Amos*</strong><br>
-    ICML AutoML 2021  <br>
+    <em><a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'>Scalable Online Planning via Reinforcement Learning Fine-Tuning</a> </em><br>
+    <a href='https://scholar.google.com/citations?user=bBFN_qwAAAAJ' target='_blank'>Arnaud&nbsp;Fickinger</a>, <a href='https://scholar.google.com/citations?user=sJwwn54AAAAJ' target='_blank'>Hengyuan&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='http://people.eecs.berkeley.edu/~russell/' target='_blank'>Stuart&nbsp;Russell</a>, and <a href='http://www.noambrown.com/' target='_blank'>Noam&nbsp;Brown</a><br>
+    NeurIPS 2021  <br>
     [4] 
 [<a href='javascript:;'
-    onclick='$("#abs_venkataraman2021neural").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/neural-opt' target='_blank'>code</a>] <br>
+    onclick='$("#abs_fickinger2021scalable").toggle()'>abs</a>]<br>
     
-<div id="abs_venkataraman2021neural" style="text-align: justify; display: none" markdown="1">
-Fixed-point iterations are at the heart of numerical computing and
-are often a computational bottleneck in real-time
-applications that typically need a fast solution of
-moderate accuracy. We present neural fixed-point
-acceleration which combines ideas from meta-learning
-and classical acceleration methods to automatically
-learn to accelerate fixed-point problems that are
-drawn from a distribution. We apply our framework to
-SCS, the state-of-the-art solver for convex cone
-programming, and design models and loss functions to
-overcome the challenges of learning over unrolled
-optimization and acceleration instabilities. Our
-work brings neural acceleration into any
-optimization problem expressible with CVXPY.
+<div id="abs_fickinger2021scalable" style="text-align: justify; display: none" markdown="1">
+Lookahead search has been a critical component of recent AI successes, such as in the games of chess, go, and
+poker. However, the search methods used in these
+games, and in many other settings, are
+tabular. Tabular search methods do not scale well
+with the size of the search space, and this problem
+is exacerbated by stochasticity and partial
+observability. In this work we replace tabular
+search with online model-based fine-tuning of a
+policy neural network via reinforcement learning, and show that this approach outperforms
+state-of-the-art search algorithms in benchmark
+settings. In particular, we use our search algorithm
+to achieve a new state-of-the-art result in
+self-play Hanabi, and show the generality of our
+algorithm by also showing that it outperforms
+tabular search in the Atari game Ms. Pacman.
 </div>
 
 </td>
@@ -363,12 +364,42 @@ future research on image-based RL.
 </tr>
 
 
+<tr id="tr-venkataraman2021neural" >
+<td>
+    <em><a href='https://arxiv.org/abs/2107.10254' target='_blank'>Neural Fixed-Point Acceleration for Convex Optimization</a> </em><br>
+    <a href='https://scholar.google.com/citations?user=BFWurDEAAAAJ' target='_blank'>Shobha&nbsp;Venkataraman*</a> and <strong>Brandon&nbsp;Amos*</strong><br>
+    ICML AutoML 2021  <br>
+    [9] 
+[<a href='javascript:;'
+    onclick='$("#abs_venkataraman2021neural").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/neural-opt' target='_blank'>code</a>] <br>
+    
+<div id="abs_venkataraman2021neural" style="text-align: justify; display: none" markdown="1">
+Fixed-point iterations are at the heart of numerical computing and
+are often a computational bottleneck in real-time
+applications that typically need a fast solution of
+moderate accuracy. We present neural fixed-point
+acceleration which combines ideas from meta-learning
+and classical acceleration methods to automatically
+learn to accelerate fixed-point problems that are
+drawn from a distribution. We apply our framework to
+SCS, the state-of-the-art solver for convex cone
+programming, and design models and loss functions to
+overcome the challenges of learning over unrolled
+optimization and acceleration instabilities. Our
+work brings neural acceleration into any
+optimization problem expressible with CVXPY.
+</div>
+
+</td>
+</tr>
+
+
 <tr id="tr-pineda2021mbrl" >
 <td>
     <em><a href='https://arxiv.org/abs/2104.10159' target='_blank'>MBRL-Lib: A Modular Library for Model-based Reinforcement Learning</a> </em><br>
     <a href='https://scholar.google.com/citations?user=rebEn8oAAAAJ' target='_blank'>Luis&nbsp;Pineda</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://amyzhang.github.io/' target='_blank'>Amy&nbsp;Zhang</a>, <a href='https://www.natolambert.com/' target='_blank'>Nathan&nbsp;Lambert</a>, and <a href='https://www.robertocalandra.com/about/' target='_blank'>Roberto&nbsp;Calandra</a><br>
     arXiv 2021  <br>
-    [9] 
+    [10] 
 [<a href='javascript:;'
     onclick='$("#abs_pineda2021mbrl").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/mbrl-lib' target='_blank'>code</a>] <br>
     
@@ -400,7 +431,7 @@ deploying state-of-the-art algorithms.
     <em><a href='https://arxiv.org/abs/1909.12830' target='_blank'>The Differentiable Cross-Entropy Method</a> </em><br>
     <strong>Brandon&nbsp;Amos</strong> and <a href='https://cs.nyu.edu/~dy1042/' target='_blank'>Denis&nbsp;Yarats</a><br>
     ICML 2020  <br>
-    [10] 
+    [11] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2020differentiable").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/dcem' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2020.dcem.pdf' target='_blank'>slides</a>] <br>
     
@@ -432,7 +463,7 @@ towards combining model-based and model-free RL.
     <em><a href='https://arxiv.org/abs/2002.04523' target='_blank'>Objective Mismatch in Model-based Reinforcement Learning</a> </em><br>
     <a href='https://www.natolambert.com/' target='_blank'>Nathan&nbsp;Lambert</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=zSsW478AAAAJ' target='_blank'>Omry&nbsp;Yadan</a>, and <a href='https://www.robertocalandra.com/about/' target='_blank'>Roberto&nbsp;Calandra</a><br>
     L4DC 2020  <br>
-    [11] 
+    [12] 
 [<a href='javascript:;'
     onclick='$("#abs_lambert2020objective").toggle()'>abs</a>]<br>
     
@@ -449,7 +480,7 @@ Model-based reinforcement learning (MBRL) has been shown to be a powerful framew
     <em><a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>QNSTOP: Quasi-Newton Algorithm for Stochastic Optimization</a> </em><br>
     <strong>Brandon&nbsp;Amos</strong>, <a href='https://dblp.org/pid/75/8682.html' target='_blank'>David&nbsp;Easterling</a>, <a href='https://people.cs.vt.edu/~ltw/shortvita.html' target='_blank'>Layne&nbsp;T.&nbsp;Watson</a>, <a href='https://scholar.google.com/citations?user=2I6IgikAAAAJ' target='_blank'>William&nbsp;Thacker</a>, <a href='https://dblp.org/pid/142/1258.html' target='_blank'>Brent&nbsp;Castle</a>, and <a href='https://mtrosset.pages.iu.edu/' target='_blank'>Michael&nbsp;Trosset</a><br>
     ACM TOMS 2020  <br>
-    [12] 
+    [13] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2020QNSTOP").toggle()'>abs</a>] [<a href='https://github.com/vtopt/qnstop' target='_blank'>code</a>] <br>
     
@@ -474,7 +505,7 @@ biology problems is given.
     <em><a href='https://www.biorxiv.org/content/10.1101/2021.04.08.439084v1.abstract' target='_blank'>Neural Potts Model</a> </em><br>
     <a href='https://tom.sercu.me/' target='_blank'>Tom&nbsp;Sercu</a>, <a href='https://dblp.org/pid/296/8930.html' target='_blank'>Robert&nbsp;Verkuil</a>, <a href='https://scholar.google.com/citations?user=2M0OltAAAAAJ' target='_blank'>Joshua&nbsp;Meier</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=ZDjmMuwAAAAJ' target='_blank'>Zeming&nbsp;Lin</a>, <a href='https://www.linkedin.com/in/caroline-chen/' target='_blank'>Caroline&nbsp;Chen</a>, <a href='https://www.linkedin.com/in/jasonliu6/' target='_blank'>Jason&nbsp;Liu</a>, <a href='http://yann.lecun.com/' target='_blank'>Yann&nbsp;LeCun</a>, and <a href='https://scholar.google.com/citations?user=vqb78-gAAAAJ' target='_blank'>Alexander&nbsp;Rives</a><br>
     MLCB 2020  <br>
-    [13] 
+    [14] 
 [<a href='javascript:;'
     onclick='$("#abs_sercu2020neural").toggle()'>abs</a>]<br>
     
@@ -505,7 +536,7 @@ database with broad coverage of protein sequences.
     <em><a href='https://drive.google.com/file/d/1Ewro0Ne1tvK15nHyYopY4wZ59QTVB-1c/view' target='_blank'>Deep Riemannian Manifold Learning</a> </em><br>
     <a href='https://www.aaronlou.com/' target='_blank'>Aaron&nbsp;Lou</a>, <a href='https://mnick.github.io/' target='_blank'>Maximilian&nbsp;Nickel</a>, and <strong>Brandon&nbsp;Amos</strong><br>
     NeurIPS Geo4dl 2020  <br>
-    [14] 
+    [15] 
 [<a href='javascript:;'
     onclick='$("#abs_lou2020riemannian").toggle()'>abs</a>]<br>
     
@@ -532,7 +563,7 @@ in graph embedding tasks.
     <em><a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>Differentiable Optimization-Based Modeling for Machine Learning</a> </em><br>
     <strong>Brandon&nbsp;Amos</strong><br>
     Ph.D. Thesis 2019  <br>
-    [15] 
+    [16] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2019differentiable").toggle()'>abs</a>] [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
     
@@ -562,7 +593,7 @@ enables rapid prototyping of the approaches in this thesis.
     <em><a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'>Differentiable Convex Optimization Layers</a> </em><br>
     <a href='https://www.akshayagrawal.com/' target='_blank'>Akshay&nbsp;Agrawal*</a>, <strong>Brandon&nbsp;Amos*</strong>, <a href='https://web.stanford.edu/~sbarratt/' target='_blank'>Shane&nbsp;Barratt*</a>, <a href='https://web.stanford.edu/~boyd/' target='_blank'>Stephen&nbsp;Boyd*</a>, <a href='https://stevendiamond.me/' target='_blank'>Steven&nbsp;Diamond*</a>, and <a href='http://zicokolter.com/' target='_blank'>J.&nbsp;Zico&nbsp;Kolter*</a><br>
     NeurIPS 2019  <br>
-    [16] 
+    [17] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2019differentiable3").toggle()'>abs</a>] [<a href='https://github.com/cvxgrp/cvxpylayers' target='_blank'>code</a>] <br>
     
@@ -579,7 +610,7 @@ Recent work has shown how to embed differentiable optimization problems (that is
     <em><a href='https://arxiv.org/abs/1906.08707' target='_blank'>The Limited Multi-Label Projection Layer</a> </em><br>
     <strong>Brandon&nbsp;Amos</strong>, <a href='http://vladlen.info/' target='_blank'>Vladlen&nbsp;Koltun</a>, and <a href='http://zicokolter.com/' target='_blank'>J.&nbsp;Zico&nbsp;Kolter</a><br>
     arXiv 2019  <br>
-    [17] 
+    [18] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2019limited").toggle()'>abs</a>] [<a href='https://github.com/locuslab/lml' target='_blank'>code</a>] <br>
     
@@ -607,7 +638,7 @@ classification.
     <em><a href='https://arxiv.org/abs/1910.01727' target='_blank'>Generalized Inner Loop Meta-Learning</a> </em><br>
     <a href='https://www.egrefen.com/' target='_blank'>Edward&nbsp;Grefenstette</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://cs.nyu.edu/~dy1042/' target='_blank'>Denis&nbsp;Yarats</a>, <a href='https://phumonhtut.me/' target='_blank'>Phu&nbsp;Mon&nbsp;Htut</a>, <a href='https://amolchanov86.github.io/' target='_blank'>Artem&nbsp;Molchanov</a>, <a href='https://fmeier.github.io/' target='_blank'>Franziska&nbsp;Meier</a>, <a href='https://douwekiela.github.io/' target='_blank'>Douwe&nbsp;Kiela</a>, <a href='https://kyunghyuncho.me/' target='_blank'>Kyunghyun&nbsp;Cho</a>, and <a href='https://soumith.ch/' target='_blank'>Soumith&nbsp;Chintala</a><br>
     arXiv 2019  <br>
-    [18] 
+    [19] 
 [<a href='javascript:;'
     onclick='$("#abs_grefenstette2019generalized").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/higher' target='_blank'>code</a>] <br>
     
@@ -641,7 +672,7 @@ facilitate.
     <em><a href='https://openreview.net/forum?id=r1HhRfWRZ' target='_blank'>Learning Awareness Models</a> </em><br>
     <strong>Brandon&nbsp;Amos</strong>, <a href='https://laurent-dinh.github.io/' target='_blank'>Laurent&nbsp;Dinh</a>, <a href='https://scholar.google.com/citations?user=l-HhJaUAAAAJ' target='_blank'>Serkan&nbsp;Cabi</a>, <a href='https://dblp.org/pid/188/6045.html' target='_blank'>Thomas&nbsp;Roth&ouml;rl</a>, <a href='https://scholar.google.com/citations?user=0Dkf68EAAAAJ' target='_blank'>Sergio&nbsp;G&oacute;mez&nbsp;Colmenarejo</a>, <a href='https://scholar.google.com/citations?user=YfgdfyYAAAAJ' target='_blank'>Alistair&nbsp;Muldal</a>, <a href='https://scholar.google.com/citations?user=gVFnjOcAAAAJ' target='_blank'>Tom&nbsp;Erez</a>, <a href='https://scholar.google.com/citations?user=CjOTm_4AAAAJ' target='_blank'>Yuval&nbsp;Tassa</a>, <a href='https://scholar.google.com/citations?user=nzEluBwAAAAJ' target='_blank'>Nando&nbsp;de&nbsp;Freitas</a>, and <a href='https://mdenil.com/' target='_blank'>Misha&nbsp;Denil</a><br>
     ICLR 2018  <br>
-    [19] 
+    [20] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2018learning").toggle()'>abs</a>]<br>
     
@@ -680,7 +711,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
     <em><a href='https://arxiv.org/abs/1810.13400' target='_blank'>Differentiable MPC for End-to-end Planning and Control</a> </em><br>
     <strong>Brandon&nbsp;Amos</strong>, <a href='https://ivandariojr.io/' target='_blank'>Ivan&nbsp;Dario&nbsp;Jimenez&nbsp;Rodriguez</a>, <a href='https://scholar.google.com/citations?user=Th4PuGkAAAAJ' target='_blank'>Jacob&nbsp;Sacks</a>, <a href='https://homes.cs.washington.edu/~bboots/' target='_blank'>Byron&nbsp;Boots</a>, and <a href='http://zicokolter.com/' target='_blank'>J.&nbsp;Zico&nbsp;Kolter</a><br>
     NeurIPS 2018  <br>
-    [20] 
+    [21] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2018end").toggle()'>abs</a>] [<a href='https://locuslab.github.io/mpc.pytorch/' target='_blank'>code</a>] <br>
     
@@ -697,7 +728,7 @@ In this paper we present foundations for using model predictive control (MPC) as
     <em><a href='http://arxiv.org/abs/1805.08195' target='_blank'>Depth-Limited Solving for Imperfect-Information Games</a> </em><br>
     <a href='http://www.noambrown.com/' target='_blank'>Noam&nbsp;Brown</a>, <a href='http://www.cs.cmu.edu/~sandholm/' target='_blank'>Tuomas&nbsp;Sandholm</a>, and <strong>Brandon&nbsp;Amos</strong><br>
     NeurIPS 2018  <br>
-    [21] 
+    [22] 
 [<a href='javascript:;'
     onclick='$("#abs_brown2018depth").toggle()'>abs</a>]<br>
     
@@ -714,7 +745,7 @@ A fundamental challenge in imperfect-information games is that states do not hav
     <em><a href='https://dl.acm.org/citation.cfm?id=3209659' target='_blank'>Enabling Live Video Analytics with a Scalable and Privacy-Aware Framework</a> </em><br>
     <a href='https://junjuew.github.io/' target='_blank'>Junjue&nbsp;Wang</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://anupamdas.org/' target='_blank'>Anupam&nbsp;Das</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://www.normsadeh.org/' target='_blank'>Norman&nbsp;Sadeh</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     ACM TOMM 2018  <br>
-    [22] 
+    [23] 
 [<a href='javascript:;'
     onclick='$("#abs_wang2018enabling").toggle()'>abs</a>]<br>
     
@@ -748,7 +779,7 @@ video streams and analytics services.
     <em><a href='http://arxiv.org/abs/1703.00443' target='_blank'>OptNet: Differentiable Optimization as a Layer in Neural Networks</a> </em><br>
     <strong>Brandon&nbsp;Amos</strong> and <a href='http://zicokolter.com/' target='_blank'>J.&nbsp;Zico&nbsp;Kolter</a><br>
     ICML 2017  <br>
-    [23] 
+    [24] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2017optnet").toggle()'>abs</a>] [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2017.optnet.pdf' target='_blank'>slides</a>] <br>
     
@@ -784,7 +815,7 @@ constraints better than other neural architectures.
     <em><a href='http://arxiv.org/abs/1609.07152' target='_blank'>Input Convex Neural Networks</a> </em><br>
     <strong>Brandon&nbsp;Amos</strong>, <a href='https://leix28.github.io/' target='_blank'>Lei&nbsp;Xu</a>, and <a href='http://zicokolter.com/' target='_blank'>J.&nbsp;Zico&nbsp;Kolter</a><br>
     ICML 2017  <br>
-    [24] 
+    [25] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2017input").toggle()'>abs</a>] [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2017.icnn.pdf' target='_blank'>slides</a>] <br>
     
@@ -816,7 +847,7 @@ improvement over the existing state of the art in many cases.
     <em><a href='http://arxiv.org/abs/1703.04529' target='_blank'>Task-based End-to-end Model Learning</a> </em><br>
     <a href='https://priyadonti.com/' target='_blank'>Priya&nbsp;L.&nbsp;Donti</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='http://zicokolter.com/' target='_blank'>J.&nbsp;Zico&nbsp;Kolter</a><br>
     NeurIPS 2017  <br>
-    [25] 
+    [26] 
 [<a href='javascript:;'
     onclick='$("#abs_donti2017task").toggle()'>abs</a>] [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
     
@@ -845,7 +876,7 @@ approach and a purely black-box policy optimization approach.
     <em><a href='https://par.nsf.gov/servlets/purl/10111392' target='_blank'>Quasi-Newton Stochastic Optimization Algorithm for Parameter Estimation of a Stochastic Model of the Budding Yeast Cell Cycle</a> </em><br>
     <a href='https://chenm.sites.wfu.edu/publications/' target='_blank'>Minghan&nbsp;Chen</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://people.cs.vt.edu/~ltw/shortvita.html' target='_blank'>Layne&nbsp;T.&nbsp;Watson</a>, <a href='https://scholar.google.com/citations?user=syETjMMAAAAJ' target='_blank'>John&nbsp;Tyson</a>, <a href='https://people.cs.vt.edu/~ycao/' target='_blank'>Yang&nbsp;Cao</a>, <a href='https://people.cs.vt.edu/shaffer/' target='_blank'>Cliff&nbsp;Shaffer</a>, <a href='https://mtrosset.pages.iu.edu/' target='_blank'>Michael&nbsp;Trosset</a>, <a href='https://scholar.google.com/citations?user=Z4534DUAAAAJ' target='_blank'>Cihan&nbsp;Oguz</a>, and <a href='https://dblp.org/pid/235/5473.html' target='_blank'>Gisella&nbsp;Kakoti</a><br>
     IEEE/ACM TCBB 2017  <br>
-    [26] 
+    [27] 
 [<a href='javascript:;'
     onclick='$("#abs_chen2017quasi").toggle()'>abs</a>]<br>
     
@@ -884,7 +915,7 @@ stochastic model.
     <em><a href='https://dl.acm.org/doi/10.1145/3132211.3134453' target='_blank'>You can teach elephants to dance: agile VM handoff for edge computing</a> </em><br>
     <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://dblp.org/pid/18/1620.html' target='_blank'>Yoshihisa&nbsp;Abe</a>, <a href='https://dblp.org/pid/207/9122.html' target='_blank'>Thomas&nbsp;Eiszler</a>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://dblp.org/pid/207/9123.html' target='_blank'>Rohit&nbsp;Upadhyaya</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     SEC 2017  <br>
-    [27] 
+    [28] 
 [<a href='javascript:;'
     onclick='$("#abs_ha2017you").toggle()'>abs</a>]<br>
     
@@ -912,7 +943,7 @@ than live migration at those bandwidths.
     <em><a href='https://www.cs.cmu.edu/~zhuoc/papers/latency2017.pdf' target='_blank'>An Empirical Study of Latency in an Emerging Class of Edge Computing Applications for Wearable Cognitive Assistance</a> </em><br>
     <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='https://junjuew.github.io/' target='_blank'>Junjue&nbsp;Wang</a>, <a href='https://www.siyanz.com/' target='_blank'>Siyan&nbsp;Zhao</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=0pF6i38AAAAJ' target='_blank'>Guanhang&nbsp;Wu</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://scholar.google.com/citations?user=R9r5_GIAAAAJ' target='_blank'>Khalid&nbsp;Elgazzar</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://www.cmu.edu/dietrich/psychology/people/core-training-faculty/klatzky-roberta.html' target='_blank'>Roberta&nbsp;Klatzky</a>, <a href='http://www.cs.cmu.edu/~dps/' target='_blank'>Daniel&nbsp;Siewiorek</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     SEC 2017  <br>
-    [28] 
+    [29] 
 [<a href='javascript:;'
     onclick='$("#abs_chen2017empirical").toggle()'>abs</a>]<br>
     
@@ -940,7 +971,7 @@ computing is crucial to meeting these targets.
     <em><a href='http://elijah.cs.cmu.edu/DOCS/wang-mmsys2017.pdf' target='_blank'>A Scalable and Privacy-Aware IoT Service for Live Video Analytics</a> </em><br>
     <a href='https://junjuew.github.io/' target='_blank'>Junjue&nbsp;Wang</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://anupamdas.org/' target='_blank'>Anupam&nbsp;Das</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://www.normsadeh.org/' target='_blank'>Norman&nbsp;Sadeh</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     ACM MMSys 2017 (Best Paper) <br>
-    [29] [<a href='http://cmusatyalab.github.io/openface/' target='_blank'>code</a>] <br>
+    [30] [<a href='http://cmusatyalab.github.io/openface/' target='_blank'>code</a>] <br>
     
 </td>
 </tr>
@@ -954,7 +985,7 @@ computing is crucial to meeting these targets.
     <em><a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>OpenFace: A general-purpose face recognition library with mobile applications</a> </em><br>
     <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.linkedin.com/in/bartosz-ludwiczuk-a677a760' target='_blank'>Bartosz&nbsp;Ludwiczuk</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     CMU 2016  <br>
-    [30] 
+    [31] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2016openface").toggle()'>abs</a>] [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
     
@@ -984,7 +1015,7 @@ the Apache 2.0 license. It is available at:
     <em><a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'>Collapsed Variational Inference for Sum-Product Networks</a> </em><br>
     <a href='https://hanzhaoml.github.io/' target='_blank'>Han&nbsp;Zhao</a>, <a href='https://tameemadel.wordpress.com/' target='_blank'>Tameem&nbsp;Adel</a>, <a href='http://www.cs.cmu.edu/~ggordon/' target='_blank'>Geoff&nbsp;Gordon</a>, and <strong>Brandon&nbsp;Amos</strong><br>
     ICML 2016  <br>
-    [31] 
+    [32] 
 [<a href='javascript:;'
     onclick='$("#abs_zhao2016collapsed").toggle()'>abs</a>]<br>
     
@@ -1014,7 +1045,7 @@ with a maximum likelihood based approach.
     <em><a href='https://dl.acm.org/doi/10.1145/2967360.2967369' target='_blank'>Quantifying the impact of edge computing on mobile applications</a> </em><br>
     <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='https://www.linkedin.com/in/joelyinggao/' target='_blank'>Ying&nbsp;Gao</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://junjuew.github.io/' target='_blank'>Junjue&nbsp;Wang</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     ACM SIGOPS 2016  <br>
-    [32] 
+    [33] 
 [<a href='javascript:;'
     onclick='$("#abs_hu2016quantifying").toggle()'>abs</a>]<br>
     
@@ -1038,7 +1069,7 @@ for highly interactive mobile applications.
     <em><a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf' target='_blank'>Privacy mediators: helping IoT cross the chasm</a> </em><br>
     <a href='https://www.lancaster.ac.uk/sci-tech/about-us/people/nigel-davies' target='_blank'>Nigel&nbsp;Davies</a>, <a href='https://scholar.google.com/citations?user=BItCgjYAAAAJ' target='_blank'>Nina&nbsp;Taft</a>, <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a>, <a href='http://www.sclinch.com/' target='_blank'>Sarah&nbsp;Clinch</a>, and <strong>Brandon&nbsp;Amos</strong><br>
     HotMobile 2016  <br>
-    [33] 
+    [34] 
 [<a href='javascript:;'
     onclick='$("#abs_davies2016privacy").toggle()'>abs</a>]<br>
     
@@ -1072,7 +1103,7 @@ and organizational boundaries of trust and responsibility.
     <em><a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'>Edge Analytics in the Internet of Things</a> </em><br>
     <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a>, <a href='https://www.ugent.be/ea/idlab/en/members/pieter-simoens.htm' target='_blank'>Pieter&nbsp;Simoens</a>, <a href='https://scholar.google.com/citations?user=ZeRhyWsAAAAJ' target='_blank'>Yu&nbsp;Xiao</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, and <strong>Brandon&nbsp;Amos</strong><br>
     IEEE Pervasive Computing 2015  <br>
-    [34] 
+    [35] 
 [<a href='javascript:;'
     onclick='$("#abs_satyanarayanan2015edge").toggle()'>abs</a>]<br>
     
@@ -1098,7 +1129,7 @@ is part of a special issue on smart spaces.
     <em><a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094' target='_blank'>Bad Parts: Are Our Manufacturing Systems at Risk of Silent Cyberattacks?</a> </em><br>
     <a href='https://scholar.google.com/citations?user=MRKab9cAAAAJ' target='_blank'>Hamilton&nbsp;Turner</a>, <a href='https://scholar.google.com/citations?user=10HSX90AAAAJ' target='_blank'>Jules&nbsp;White</a>, <a href='https://scholar.google.com/citations?user=tWmVBNwAAAAJ' target='_blank'>Jaime&nbsp;A.&nbsp;Camelio</a>, <a href='https://scholar.google.com/citations?user=AW81mosAAAAJ' target='_blank'>Christopher&nbsp;Williams</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://ieeexplore.ieee.org/author/37085729541' target='_blank'>Robert&nbsp;Parker</a><br>
     IEEE Security & Privacy 2015  <br>
-    [35] 
+    [36] 
 [<a href='javascript:;'
     onclick='$("#abs_turner2015bad").toggle()'>abs</a>]<br>
     
@@ -1123,7 +1154,7 @@ manufacturing security topics.
     <em><a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'>Early Implementation Experience with Wearable Cognitive Assistance Applications</a> </em><br>
     <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://www.lujiang.info/' target='_blank'>Lu&nbsp;Jiang</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='http://www.cs.cmu.edu/~alex/' target='_blank'>Alex&nbsp;Hauptmann</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     WearSys 2015  <br>
-    [36] 
+    [37] 
 [<a href='javascript:;'
     onclick='$("#abs_chen2015early").toggle()'>abs</a>]<br>
     
@@ -1149,7 +1180,7 @@ simplify the creation of similar applications.
     <em><a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'>The Case for Offload Shaping</a> </em><br>
     <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://scholar.google.com/citations?user=vU6bKxEAAAAJ' target='_blank'>Wolfgang&nbsp;Richter</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://github.com/bgilbert' target='_blank'>Benjamin&nbsp;Gilbert</a>, <a href='https://scholar.google.com/citations?user=jj5tN8sAAAAJ' target='_blank'>Jan&nbsp;Harkes</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     HotMobile 2015  <br>
-    [37] 
+    [38] 
 [<a href='javascript:;'
     onclick='$("#abs_hu2014case").toggle()'>abs</a>]<br>
     
@@ -1171,7 +1202,7 @@ demand, with little loss of application-level fidelity
     <em><a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'>Are Cloudlets Necessary?</a> </em><br>
     <a href='https://www.linkedin.com/in/joelyinggao/' target='_blank'>Ying&nbsp;Gao</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     CMU 2015  <br>
-    [38] 
+    [39] 
 [<a href='javascript:;'
     onclick='$("#abs_gao2015cloudlets").toggle()'>abs</a>]<br>
     
@@ -1197,7 +1228,7 @@ consumption in a mobile device by up to 42% compared to cloud offload.
     <em><a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'>Adaptive VM handoff across cloudlets</a> </em><br>
     <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://dblp.org/pid/18/1620.html' target='_blank'>Yoshihisa&nbsp;Abe</a>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
     CMU 2015  <br>
-    [39] 
+    [40] 
 [<a href='javascript:;'
     onclick='$("#abs_ha2015adaptive").toggle()'>abs</a>]<br>
     
@@ -1223,7 +1254,7 @@ changing network conditions and processing capacity
     <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Global Parameter Estimation for a Eukaryotic Cell Cycle Model in Systems Biology</a> </em><br>
     <a href='https://scholar.google.com/citations?user=qpRt_KYAAAAJ' target='_blank'>Tricity&nbsp;Andrew</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://dblp.org/pid/75/8682.html' target='_blank'>David&nbsp;Easterling</a>, <a href='https://scholar.google.com/citations?user=Z4534DUAAAAJ' target='_blank'>Cihan&nbsp;Oguz</a>, <a href='https://scholar.google.com/citations?user=fAmU38gAAAAJ' target='_blank'>William&nbsp;Baumann</a>, <a href='https://scholar.google.com/citations?user=syETjMMAAAAJ' target='_blank'>John&nbsp;Tyson</a>, and <a href='https://people.cs.vt.edu/~ltw/shortvita.html' target='_blank'>Layne&nbsp;T.&nbsp;Watson</a><br>
     SummerSim 2014  <br>
-    [40] 
+    [41] 
 [<a href='javascript:;'
     onclick='$("#abs_andrew2014global").toggle()'>abs</a>]<br>
     
@@ -1251,7 +1282,7 @@ compared.
     <em><a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'>Applying machine learning classifiers to dynamic Android malware detection at scale</a> </em><br>
     <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=MRKab9cAAAAJ' target='_blank'>Hamilton&nbsp;Turner</a>, and <a href='https://scholar.google.com/citations?user=10HSX90AAAAJ' target='_blank'>Jules&nbsp;White</a><br>
     IWCMC 2013  <br>
-    [41] 
+    [42] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2013applying").toggle()'>abs</a>] [<a href='https://github.com/VT-Magnum-Research/antimalware' target='_blank'>code</a>] <br>
     
@@ -1277,7 +1308,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
-    <i class="fa fas fa-star"></i> 453 |
+    <i class="fa fas fa-star"></i> 478 |
     <em>Model-based reinforcement learning library</em>
     <!--  -->
     <!--     facebookresearch/mbrl-lib  -->
@@ -1310,7 +1341,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a> |
-    <i class="fa fas fa-star"></i> 255 |
+    <i class="fa fas fa-star"></i> 257 |
     <em>Ph.D. Thesis LaTeX source code</em>
     <!--  -->
     <!--     bamos/thesis  -->
@@ -1332,7 +1363,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
-    <i class="fa fas fa-star"></i> 475 |
+    <i class="fa fas fa-star"></i> 483 |
     <em>Differentiable Model-Predictive Control</em>
     <!--  -->
     <!--     locuslab/mpc.pytorch  -->
@@ -1343,7 +1374,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a> |
-    <i class="fa fas fa-star"></i> 228 |
+    <i class="fa fas fa-star"></i> 229 |
     <em>Input Convex Neural Networks</em>
     <!--  -->
     <!--     locuslab/icnn  -->
@@ -1354,7 +1385,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a> |
-    <i class="fa fas fa-star"></i> 369 |
+    <i class="fa fas fa-star"></i> 371 |
     <em>OptNet experiments</em>
     <!--  -->
     <!--     locuslab/optnet  -->
@@ -1365,7 +1396,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
-    <i class="fa fas fa-star"></i> 490 |
+    <i class="fa fas fa-star"></i> 493 |
     <em>Differentiable PyTorch QP solver</em>
     <!--  -->
     <!--     locuslab/qpth  -->
@@ -1376,7 +1407,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a> |
-    <i class="fa fas fa-star"></i> 706 |
+    <i class="fa fas fa-star"></i> 713 |
     <em>PyTorch DenseNet implementation</em>
     <!--  -->
     <!--     bamos/densenet.pytorch  -->
@@ -1420,7 +1451,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/cmusatyalab/openface">cmusatyalab/openface</a> |
-    <i class="fa fas fa-star"></i> 14.1k |
+    <i class="fa fas fa-star"></i> 14.2k |
     <em>Face recognition with deep neural networks</em>
     <!--  -->
     <!--     cmusatyalab/openface  -->
@@ -1431,7 +1462,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a> |
-    <i class="fa fas fa-star"></i> 161 |
+    <i class="fa fas fa-star"></i> 162 |
     <em>Analyze and plot your zsh history</em>
     <!--  -->
     <!--     bamos/zsh-history-analysis  -->
@@ -1442,7 +1473,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
-    <i class="fa fas fa-star"></i> 323 |
+    <i class="fa fas fa-star"></i> 324 |
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
     <!--  -->
     <!--     bamos/cv  -->
