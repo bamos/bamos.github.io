@@ -10,3 +10,4 @@ bower_components
 .jekyll-metadata
 .bundle
 vendor/bundle
+Gemfile.lock
