@@ -1486,7 +1486,7 @@ malware machine learning classifiers.
   <td>
     <a href="https://github.com/bamos/dotfiles">bamos/dotfiles</a> |
     <i class="fa fas fa-star"></i> 229 |
-    <em>Linux, mutt, xmonad, i3, vim, emacs, zsh</em>
+    <em>Linux, mutt, xmonad, vim, emacs, zsh</em>
     <!--  -->
     <!--     bamos/dotfiles  -->
     <!--  -->
@@ -1744,7 +1744,7 @@ JAX, NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
 <tr>
   <td class='col-md-2'>Tools</td>
   <td>
-Linux, emacs, vim, evil, org, mu4e, xmonad, i3, git, tmux, zsh
+Linux, emacs, vim, evil, org, mu4e, xmonad, git, tmux, zsh
   </td>
 </tr>
 </table>
