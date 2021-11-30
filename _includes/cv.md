@@ -500,7 +500,7 @@ deploying state-of-the-art algorithms.
 <td>
     <em><a href='https://arxiv.org/abs/2110.03684' target='_blank'>Cross-Domain Imitation Learning via Optimal Transport</a> </em><br>
     <a href='https://scholar.google.com/citations?user=bBFN_qwAAAAJ' target='_blank'>Arnaud&nbsp;Fickinger</a>, <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <a href='http://people.eecs.berkeley.edu/~russell/' target='_blank'>Stuart&nbsp;Russell</a>, and <strong>Brandon&nbsp;Amos</strong><br>
-    arXiv 2021  <br>
+    NeurIPS DeepRL 2021  <br>
     [13] 
 [<a href='javascript:;'
     onclick='$("#abs_fickinger2021crossdomain").toggle()'>abs</a>]<br>
