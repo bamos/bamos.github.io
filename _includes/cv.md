@@ -467,41 +467,12 @@ from Riemannian geometry.
 </tr>
 
 
-<tr id="tr-pineda2021mbrl" >
-<td>
-    <em><a href='https://arxiv.org/abs/2104.10159' target='_blank'>MBRL-Lib: A Modular Library for Model-based Reinforcement Learning</a> </em><br>
-    <a href='https://scholar.google.com/citations?user=rebEn8oAAAAJ' target='_blank'>Luis&nbsp;Pineda</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://amyzhang.github.io/' target='_blank'>Amy&nbsp;Zhang</a>, <a href='https://www.natolambert.com/' target='_blank'>Nathan&nbsp;Lambert</a>, and <a href='https://www.robertocalandra.com/about/' target='_blank'>Roberto&nbsp;Calandra</a><br>
-    arXiv 2021  <br>
-    [12] 
-[<a href='javascript:;'
-    onclick='$("#abs_pineda2021mbrl").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/mbrl-lib' target='_blank'>code</a>] <br>
-    
-<div id="abs_pineda2021mbrl" style="text-align: justify; display: none" markdown="1">
-Model-based reinforcement learning is a compelling framework for
-data-efficient learning of agents that interact with
-the world. This family of algorithms has many
-subcomponents that need to be carefully selected and
-tuned. As a result the entry-bar for researchers to
-approach the field and to deploy it in real-world
-tasks can be daunting. In this paper, we present
-MBRL-Lib - a machine learning library for
-model-based reinforcement learning in continuous
-state-action spaces based on PyTorch. MBRL-Lib is
-designed as a platform for both researchers, to
-easily develop, debug and compare new algorithms, and non-expert user, to lower the entry-bar of
-deploying state-of-the-art algorithms.
-</div>
-
-</td>
-</tr>
-
-
 <tr id="tr-fickinger2021crossdomain" >
 <td>
     <em><a href='https://arxiv.org/abs/2110.03684' target='_blank'>Cross-Domain Imitation Learning via Optimal Transport</a> </em><br>
     <a href='https://scholar.google.com/citations?user=bBFN_qwAAAAJ' target='_blank'>Arnaud&nbsp;Fickinger</a>, <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <a href='http://people.eecs.berkeley.edu/~russell/' target='_blank'>Stuart&nbsp;Russell</a>, and <strong>Brandon&nbsp;Amos</strong><br>
     NeurIPS DeepRL 2021  <br>
-    [13] 
+    [12] 
 [<a href='javascript:;'
     onclick='$("#abs_fickinger2021crossdomain").toggle()'>abs</a>]<br>
     
@@ -525,6 +496,35 @@ GWIL in non-trivial continuous control domains
 ranging from simple rigid transformation of the
 expert domain to arbitrary transformation of the
 state-action space.
+</div>
+
+</td>
+</tr>
+
+
+<tr id="tr-pineda2021mbrl" >
+<td>
+    <em><a href='https://arxiv.org/abs/2104.10159' target='_blank'>MBRL-Lib: A Modular Library for Model-based Reinforcement Learning</a> </em><br>
+    <a href='https://scholar.google.com/citations?user=rebEn8oAAAAJ' target='_blank'>Luis&nbsp;Pineda</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://amyzhang.github.io/' target='_blank'>Amy&nbsp;Zhang</a>, <a href='https://www.natolambert.com/' target='_blank'>Nathan&nbsp;Lambert</a>, and <a href='https://www.robertocalandra.com/about/' target='_blank'>Roberto&nbsp;Calandra</a><br>
+    arXiv 2021  <br>
+    [13] 
+[<a href='javascript:;'
+    onclick='$("#abs_pineda2021mbrl").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/mbrl-lib' target='_blank'>code</a>] <br>
+    
+<div id="abs_pineda2021mbrl" style="text-align: justify; display: none" markdown="1">
+Model-based reinforcement learning is a compelling framework for
+data-efficient learning of agents that interact with
+the world. This family of algorithms has many
+subcomponents that need to be carefully selected and
+tuned. As a result the entry-bar for researchers to
+approach the field and to deploy it in real-world
+tasks can be daunting. In this paper, we present
+MBRL-Lib - a machine learning library for
+model-based reinforcement learning in continuous
+state-action spaces based on PyTorch. MBRL-Lib is
+designed as a platform for both researchers, to
+easily develop, debug and compare new algorithms, and non-expert user, to lower the entry-bar of
+deploying state-of-the-art algorithms.
 </div>
 
 </td>
