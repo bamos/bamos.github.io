@@ -1,4 +1,4 @@
- I am a research scientist at <b>Facebook AI (FAIR)</b> in NYC and study foundational topics in <b>machine learning</b> and <b>optimization</b>, recently involving reinforcement learning, control, optimal transport, and geometry. My research is on learning systems that understand and interact with our world and focuses on integrating structural information and domain knowledge into these systems to represent non-trivial reasoning operations. A key theme of my work in this space involves the use of optimization as a differentiable building block in larger architectures that are end-to-end learned. I freely publish my research code to <a href="https://github.com/bamos" target="_blank">GitHub</a> as science should be open and reproducible and well-crafted software enables new frontiers. <br><br>
+ I am a research scientist at <b>Facebook AI (FAIR)</b> in NYC and study foundational topics in <b>machine learning</b> and <b>optimization</b>, recently involving reinforcement learning, control, optimal transport, and geometry. My research is on learning systems that understand and interact with our world and focuses on integrating structural information and domain knowledge into these systems to represent non-trivial reasoning operations. A key theme of my work in this space involves the use of optimization as a differentiable building block in larger architectures that are end-to-end learned. I freely publish my research code to <a href="https://github.com/bamos" target="_blank">GitHub</a> as science should be open and reproducible. <br><br>
 
 
 ## <i class="fa fa-chevron-right"></i> Education
@@ -1415,8 +1415,19 @@ malware machine learning classifiers.
 <table class="table table-hover">
 <tr>
   <td>
+    <a href="https://github.com/facebookresearch/theseus">facebookresearch/theseus</a> |
+    <i class="fa fas fa-star"></i> 168 |
+    <em>Differentiable non-linear optimization library</em>
+    <!--  -->
+    <!--     facebookresearch/theseus  -->
+    <!--  -->
+  </td>
+  <td class='col-md-1' style='text-align:right;'>2021</td>
+</tr>
+<tr>
+  <td>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
-    <i class="fa fas fa-star"></i> 478 |
+    <i class="fa fas fa-star"></i> 522 |
     <em>Model-based reinforcement learning library</em>
     <!--  -->
     <!--     facebookresearch/mbrl-lib  -->
@@ -1427,7 +1438,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/facebookresearch/dcem">facebookresearch/dcem</a> |
-    <i class="fa fas fa-star"></i> 92 |
+    <i class="fa fas fa-star"></i> 96 |
     <em>The Differentiable Cross-Entropy Method</em>
     <!--  -->
     <!--     facebookresearch/dcem  -->
@@ -1438,7 +1449,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/facebookresearch/higher">facebookresearch/higher</a> |
-    <i class="fa fas fa-star"></i> 1.2k |
+    <i class="fa fas fa-star"></i> 1.3k |
     <em>PyTorch higher-order gradient and optimization library</em>
     <!--  -->
     <!--     facebookresearch/higher  -->
@@ -1449,7 +1460,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a> |
-    <i class="fa fas fa-star"></i> 257 |
+    <i class="fa fas fa-star"></i> 259 |
     <em>Ph.D. Thesis LaTeX source code</em>
     <!--  -->
     <!--     bamos/thesis  -->
@@ -1460,7 +1471,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/cvxgrp/cvxpylayers">cvxgrp/cvxpylayers</a> |
-    <i class="fa fas fa-star"></i> 1.1k |
+    <i class="fa fas fa-star"></i> 1.2k |
     <em>Differentiable Convex Optimization Layers</em>
     <!--  -->
     <!--     cvxgrp/cvxpylayers  -->
@@ -1471,7 +1482,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
-    <i class="fa fas fa-star"></i> 483 |
+    <i class="fa fas fa-star"></i> 492 |
     <em>Differentiable Model-Predictive Control</em>
     <!--  -->
     <!--     locuslab/mpc.pytorch  -->
@@ -1482,7 +1493,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a> |
-    <i class="fa fas fa-star"></i> 229 |
+    <i class="fa fas fa-star"></i> 232 |
     <em>Input Convex Neural Networks</em>
     <!--  -->
     <!--     locuslab/icnn  -->
@@ -1493,7 +1504,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a> |
-    <i class="fa fas fa-star"></i> 371 |
+    <i class="fa fas fa-star"></i> 374 |
     <em>OptNet experiments</em>
     <!--  -->
     <!--     locuslab/optnet  -->
@@ -1504,7 +1515,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
-    <i class="fa fas fa-star"></i> 493 |
+    <i class="fa fas fa-star"></i> 510 |
     <em>Differentiable PyTorch QP solver</em>
     <!--  -->
     <!--     locuslab/qpth  -->
@@ -1515,7 +1526,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a> |
-    <i class="fa fas fa-star"></i> 713 |
+    <i class="fa fas fa-star"></i> 728 |
     <em>PyTorch DenseNet implementation</em>
     <!--  -->
     <!--     bamos/densenet.pytorch  -->
@@ -1526,7 +1537,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/block">bamos/block</a> |
-    <i class="fa fas fa-star"></i> 258 |
+    <i class="fa fas fa-star"></i> 259 |
     <em>Intelligent block matrix constructions</em>
     <!--  -->
     <!--     bamos/block  -->
@@ -1537,7 +1548,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/setGPU">bamos/setGPU</a> |
-    <i class="fa fas fa-star"></i> 97 |
+    <i class="fa fas fa-star"></i> 98 |
     <em>Automatically use the least-loaded GPU</em>
     <!--  -->
     <!--     bamos/setGPU  -->
@@ -1570,7 +1581,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a> |
-    <i class="fa fas fa-star"></i> 162 |
+    <i class="fa fas fa-star"></i> 166 |
     <em>Analyze and plot your zsh history</em>
     <!--  -->
     <!--     bamos/zsh-history-analysis  -->
@@ -1581,7 +1592,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
-    <i class="fa fas fa-star"></i> 324 |
+    <i class="fa fas fa-star"></i> 338 |
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
     <!--  -->
     <!--     bamos/cv  -->
@@ -1592,7 +1603,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/dotfiles">bamos/dotfiles</a> |
-    <i class="fa fas fa-star"></i> 229 |
+    <i class="fa fas fa-star"></i> 230 |
     <em>Linux, mutt, xmonad, vim, emacs, zsh</em>
     <!--  -->
     <!--     bamos/dotfiles  -->
@@ -1738,27 +1749,27 @@ malware machine learning classifiers.
 <table class="table table-hover">
 <tr>
   <td>
-        <a href="https://scholar.google.com/citations?user=CmdjfTsAAAAJ">Samuel Cohen</a> (visiting FAIR from UCL)
+        <a href="https://www.aaronlou.com/">Aaron Lou</a> (visiting FAIR from Cornell and Stanford)
   </td>
-  <td class='col-md-1' style='text-align:right;'>2021</td>
+  <td class='col-md-1' style='text-align:right;'>2020 - 2022</td>
 </tr>
 <tr>
   <td>
         <a href="https://eugenevinitsky.github.io/">Eugene Vinitsky</a> (visiting FAIR from Berkeley)
   </td>
-  <td class='col-md-1' style='text-align:right;'>2021</td>
+  <td class='col-md-1' style='text-align:right;'>2021 - 2022</td>
 </tr>
 <tr>
   <td>
         <a href="https://www.linkedin.com/in/arnaudfickinger/">Arnaud Fickinger</a> (visiting FAIR from Berkeley)
   </td>
-  <td class='col-md-1' style='text-align:right;'>2021</td>
+  <td class='col-md-1' style='text-align:right;'>2021 - 2022</td>
 </tr>
 <tr>
   <td>
-        <a href="https://www.aaronlou.com/">Aaron Lou</a> (visiting FAIR from Cornell, now: Ph.D. student at Stanford)
+        <a href="https://scholar.google.com/citations?user=CmdjfTsAAAAJ">Samuel Cohen</a> (visiting FAIR from UCL)
   </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
+  <td class='col-md-1' style='text-align:right;'>2021</td>
 </tr>
 <tr>
   <td>
