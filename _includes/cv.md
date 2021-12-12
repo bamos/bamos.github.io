@@ -1422,7 +1422,7 @@ malware machine learning classifiers.
     <!--     facebookresearch/theseus  -->
     <!--  -->
   </td>
-  <td class='col-md-1' style='text-align:right;'>2021</td>
+  <td class='col-md-2' style='text-align:right;'>2021</td>
 </tr>
 <tr>
   <td>
@@ -1433,7 +1433,7 @@ malware machine learning classifiers.
     <!--     facebookresearch/mbrl-lib  -->
     <!--  -->
   </td>
-  <td class='col-md-1' style='text-align:right;'>2021</td>
+  <td class='col-md-2' style='text-align:right;'>2021</td>
 </tr>
 <tr>
   <td>
@@ -1444,7 +1444,7 @@ malware machine learning classifiers.
     <!--     facebookresearch/dcem  -->
     <!--  -->
   </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
+  <td class='col-md-2' style='text-align:right;'>2020</td>
 </tr>
 <tr>
   <td>
@@ -1455,7 +1455,7 @@ malware machine learning classifiers.
     <!--     facebookresearch/higher  -->
     <!--  -->
   </td>
-  <td class='col-md-1' style='text-align:right;'>2019</td>
+  <td class='col-md-2' style='text-align:right;'>2019</td>
 </tr>
 <tr>
   <td>
@@ -1466,7 +1466,7 @@ malware machine learning classifiers.
     <!--     bamos/thesis  -->
     <!--  -->
   </td>
-  <td class='col-md-1' style='text-align:right;'>2019</td>
+  <td class='col-md-2' style='text-align:right;'>2019</td>
 </tr>
 <tr>
   <td>
@@ -1477,7 +1477,7 @@ malware machine learning classifiers.
     <!--     cvxgrp/cvxpylayers  -->
     <!--  -->
   </td>
-  <td class='col-md-1' style='text-align:right;'>2019</td>
+  <td class='col-md-2' style='text-align:right;'>2019</td>
 </tr>
 <tr>
   <td>
@@ -1488,7 +1488,7 @@ malware machine learning classifiers.
     <!--     locuslab/mpc.pytorch  -->
     <!--  -->
   </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
@@ -1499,7 +1499,7 @@ malware machine learning classifiers.
     <!--     locuslab/icnn  -->
     <!--  -->
   </td>
-  <td class='col-md-1' style='text-align:right;'>2017</td>
+  <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
   <td>
@@ -1510,7 +1510,7 @@ malware machine learning classifiers.
     <!--     locuslab/optnet  -->
     <!--  -->
   </td>
-  <td class='col-md-1' style='text-align:right;'>2017</td>
+  <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
   <td>
@@ -1521,7 +1521,7 @@ malware machine learning classifiers.
     <!--     locuslab/qpth  -->
     <!--  -->
   </td>
-  <td class='col-md-1' style='text-align:right;'>2017</td>
+  <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
   <td>
@@ -1532,7 +1532,7 @@ malware machine learning classifiers.
     <!--     bamos/densenet.pytorch  -->
     <!--  -->
   </td>
-  <td class='col-md-1' style='text-align:right;'>2017</td>
+  <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
   <td>
@@ -1543,7 +1543,7 @@ malware machine learning classifiers.
     <!--     bamos/block  -->
     <!--  -->
   </td>
-  <td class='col-md-1' style='text-align:right;'>2017</td>
+  <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
   <td>
@@ -1554,7 +1554,7 @@ malware machine learning classifiers.
     <!--     bamos/setGPU  -->
     <!--  -->
   </td>
-  <td class='col-md-1' style='text-align:right;'>2017</td>
+  <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
   <td>
@@ -1565,7 +1565,7 @@ malware machine learning classifiers.
     <!--     bamos/dcgan-completion.tensorflow  -->
     <!--  -->
   </td>
-  <td class='col-md-1' style='text-align:right;'>2016</td>
+  <td class='col-md-2' style='text-align:right;'>2016</td>
 </tr>
 <tr>
   <td>
@@ -1576,7 +1576,7 @@ malware machine learning classifiers.
     <!--     cmusatyalab/openface  -->
     <!--  -->
   </td>
-  <td class='col-md-1' style='text-align:right;'>2015</td>
+  <td class='col-md-2' style='text-align:right;'>2015</td>
 </tr>
 <tr>
   <td>
@@ -1587,7 +1587,7 @@ malware machine learning classifiers.
     <!--     bamos/zsh-history-analysis  -->
     <!--  -->
   </td>
-  <td class='col-md-1' style='text-align:right;'>2014</td>
+  <td class='col-md-2' style='text-align:right;'>2014</td>
 </tr>
 <tr>
   <td>
@@ -1598,7 +1598,7 @@ malware machine learning classifiers.
     <!--     bamos/cv  -->
     <!--  -->
   </td>
-  <td class='col-md-1' style='text-align:right;'>2013</td>
+  <td class='col-md-2' style='text-align:right;'>2013</td>
 </tr>
 <tr>
   <td>
@@ -1609,7 +1609,7 @@ malware machine learning classifiers.
     <!--     bamos/dotfiles  -->
     <!--  -->
   </td>
-  <td class='col-md-1' style='text-align:right;'>2012</td>
+  <td class='col-md-2' style='text-align:right;'>2012</td>
 </tr>
 </table>
 
@@ -1620,127 +1620,127 @@ malware machine learning classifiers.
   <td>
         Columbia University
   </td>
-  <td class='col-md-1' style='text-align:right;'>2021</td>
+  <td class='col-md-2' style='text-align:right;'>2021</td>
 </tr>
 <tr>
   <td>
         IBM Research
   </td>
-  <td class='col-md-1' style='text-align:right;'>2021</td>
+  <td class='col-md-2' style='text-align:right;'>2021</td>
 </tr>
 <tr>
   <td>
         Max Planck Institute for Intelligent Systems (Tübingen) Seminar
   </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
+  <td class='col-md-2' style='text-align:right;'>2020</td>
 </tr>
 <tr>
   <td>
         Montreal Institute for Learning Algorithms Seminar
   </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
+  <td class='col-md-2' style='text-align:right;'>2020</td>
 </tr>
 <tr>
   <td>
         <a href="https://anucvml.github.io/ddn-eccvt2020/">ECCV Deep Declarative Networks Tutorial</a>
   </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
+  <td class='col-md-2' style='text-align:right;'>2020</td>
 </tr>
 <tr>
   <td>
         <a href="https://anucvml.github.io/ddn-cvprw2020/">CVPR Deep Declarative Networks Workshop</a>
   </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
+  <td class='col-md-2' style='text-align:right;'>2020</td>
 </tr>
 <tr>
   <td>
         <a href="https://sites.google.com/view/cs-159-spring-2020/lectures">Caltech CS 159, Guest Lecture</a>
   </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
+  <td class='col-md-2' style='text-align:right;'>2020</td>
 </tr>
 <tr>
   <td>
         SIAM MDS Minisymposium on Learning Parameterized Energy Minimization Models
   </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
+  <td class='col-md-2' style='text-align:right;'>2020</td>
 </tr>
 <tr>
   <td>
         New York University CILVR Seminar
   </td>
-  <td class='col-md-1' style='text-align:right;'>2019</td>
+  <td class='col-md-2' style='text-align:right;'>2019</td>
 </tr>
 <tr>
   <td>
         INFORMS Session on Prediction and Optimization
   </td>
-  <td class='col-md-1' style='text-align:right;'>2019</td>
+  <td class='col-md-2' style='text-align:right;'>2019</td>
 </tr>
 <tr>
   <td>
         Facebook AI Research
   </td>
-  <td class='col-md-1' style='text-align:right;'>2019</td>
+  <td class='col-md-2' style='text-align:right;'>2019</td>
 </tr>
 <tr>
   <td>
         ISMP Session on Machine Learning and Optimization
   </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
         Google Brain
   </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
         Bosch Center for AI
   </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
         Waymo Research
   </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
         Tesla AI
   </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
         NVIDIA Robotics
   </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
         Salesforce Research
   </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
         OpenAI
   </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
         NNAISENSE
   </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
         UC Berkeley
   </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 </table>
 
@@ -1751,43 +1751,43 @@ malware machine learning classifiers.
   <td>
         <a href="https://www.aaronlou.com/">Aaron Lou</a> (visiting FAIR from Cornell and Stanford)
   </td>
-  <td class='col-md-1' style='text-align:right;'>2020 - 2022</td>
+  <td class='col-md-2' style='text-align:right;'>2020 - 2022</td>
 </tr>
 <tr>
   <td>
         <a href="https://eugenevinitsky.github.io/">Eugene Vinitsky</a> (visiting FAIR from Berkeley)
   </td>
-  <td class='col-md-1' style='text-align:right;'>2021 - 2022</td>
+  <td class='col-md-2' style='text-align:right;'>2021 - 2022</td>
 </tr>
 <tr>
   <td>
         <a href="https://www.linkedin.com/in/arnaudfickinger/">Arnaud Fickinger</a> (visiting FAIR from Berkeley)
   </td>
-  <td class='col-md-1' style='text-align:right;'>2021 - 2022</td>
+  <td class='col-md-2' style='text-align:right;'>2021 - 2022</td>
 </tr>
 <tr>
   <td>
         <a href="https://scholar.google.com/citations?user=CmdjfTsAAAAJ">Samuel Cohen</a> (visiting FAIR from UCL)
   </td>
-  <td class='col-md-1' style='text-align:right;'>2021</td>
+  <td class='col-md-2' style='text-align:right;'>2021</td>
 </tr>
 <tr>
   <td>
         <a href="http://www.cs.toronto.edu/~rtqichen/">Ricky Chen</a> (visiting FAIR from Toronto, now: scientist at FAIR)
   </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
+  <td class='col-md-2' style='text-align:right;'>2020</td>
 </tr>
 <tr>
   <td>
         <a href="http://www.cs.cmu.edu/~pliang/">Paul Liang</a> (visiting FAIR from CMU)
   </td>
-  <td class='col-md-1' style='text-align:right;'>2020</td>
+  <td class='col-md-2' style='text-align:right;'>2020</td>
 </tr>
 <tr>
   <td>
         <a href="https://phillipkwang.com/">Phillip Wang</a> (at CMU, now: CEO at <a href="https://gather.town/" target="_blank">Gather</a>)
   </td>
-  <td class='col-md-1' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 </table>
 
@@ -1832,15 +1832,15 @@ malware machine learning classifiers.
 <table class="table table-hover">
 <tr>
   <td><strong>Graduate AI</strong> (CMU 15-780), TA</td>
-  <td class='col-md-1' style='text-align:right;'>S2017</td>
+  <td class='col-md-2' style='text-align:right;'>S2017</td>
 </tr>
 <tr>
   <td><strong>Distributed Systems</strong> (CMU 15-440/640), TA</td>
-  <td class='col-md-1' style='text-align:right;'>S2016</td>
+  <td class='col-md-2' style='text-align:right;'>S2016</td>
 </tr>
 <tr>
   <td><strong>Software Design and Data Structures</strong> (VT CS2114), TA</td>
-  <td class='col-md-1' style='text-align:right;'>S2013</td>
+  <td class='col-md-2' style='text-align:right;'>S2013</td>
 </tr>
 </table>
 
