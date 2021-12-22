@@ -1749,12 +1749,6 @@ malware machine learning classifiers.
 <table class="table table-hover">
 <tr>
   <td>
-        <a href="https://www.aaronlou.com/">Aaron Lou</a> (visiting FAIR from Cornell and Stanford)
-  </td>
-  <td class='col-md-2' style='text-align:right;'>2020 - 2022</td>
-</tr>
-<tr>
-  <td>
         <a href="https://eugenevinitsky.github.io/">Eugene Vinitsky</a> (visiting FAIR from Berkeley)
   </td>
   <td class='col-md-2' style='text-align:right;'>2021 - 2022</td>
@@ -1769,7 +1763,13 @@ malware machine learning classifiers.
   <td>
         <a href="https://scholar.google.com/citations?user=CmdjfTsAAAAJ">Samuel Cohen</a> (visiting FAIR from UCL)
   </td>
-  <td class='col-md-2' style='text-align:right;'>2021</td>
+  <td class='col-md-2' style='text-align:right;'>2021 - 2022</td>
+</tr>
+<tr>
+  <td>
+        <a href="https://www.aaronlou.com/">Aaron Lou</a> (visiting FAIR from Cornell and Stanford)
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2020 - 2022</td>
 </tr>
 <tr>
   <td>
