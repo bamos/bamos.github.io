@@ -13,9 +13,9 @@ MathJax.Hub.Config({
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML">
 </script>
 
-<ul id="toc"></ul>
+<!-- <ul id="toc"></ul> -->
 
----
+<!-- --- -->
 
 ## Introduction
 

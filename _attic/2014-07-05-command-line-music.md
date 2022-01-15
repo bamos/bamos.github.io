@@ -4,16 +4,21 @@ title: "Command Line Music Setup with Python and mpv"
 tags: [Linux,Python,mpv]
 ---
 
-<ul id="toc"></ul>
+<!-- $("#toc").toc({ -->
+<!--     'headings': 'h2,h3' -->
+<!-- }); -->
+<!-- anchors.add('h2,h3'); -->
+<!-- </script> -->
 
----
+<!-- <ul id="toc"></ul> -->
+
+<!-- --- -->
 
 This article introduces how I manage my music on the
 command line with [cmus][cmus] and [mpv][mpv].
 mpv is a fork of [mplayer][mplayer] and adds
 bug patches, an improved command-line interface, and
 an experimental Lua scripting option.
-*I wrote this post in 2014 and still use most of the features in 2016.*
 
 ## Using Python to organize a music directory
 This portion introduces a Python script I use to organize my
