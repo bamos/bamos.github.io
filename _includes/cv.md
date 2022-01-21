@@ -95,6 +95,44 @@ Representative publications that I am a primary author on are
 <br>
 [<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>]
 
+<h2>2022</h2>
+<table class="table table-hover">
+
+<tr id="tr-fickinger2021crossdomain" style="background-color: #ffffd0">
+<td>
+    <em><a href='https://arxiv.org/abs/2110.03684' target='_blank'>Cross-Domain Imitation Learning via Optimal Transport</a> </em><br>
+    <a href='https://scholar.google.com/citations?user=bBFN_qwAAAAJ' target='_blank'>Arnaud&nbsp;Fickinger</a>, <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <a href='http://people.eecs.berkeley.edu/~russell/' target='_blank'>Stuart&nbsp;Russell</a>, and <strong>Brandon&nbsp;Amos</strong><br>
+    ICLR 2022  <br>
+    [1] 
+[<a href='javascript:;'
+    onclick='$("#abs_fickinger2021crossdomain").toggle()'>abs</a>]<br>
+    
+<div id="abs_fickinger2021crossdomain" style="text-align: justify; display: none" markdown="1">
+Cross-domain imitation learning studies how to leverage expert
+demonstrations of one agent to train an imitation
+agent with a different embodiment or
+morphology. Comparing trajectories and stationary
+distributions between the expert and imitation
+agents is challenging because they live on different
+systems that may not even have the same
+dimensionality. We propose Gromov-Wasserstein
+Imitation Learning (GWIL), a method for cross-domain
+imitation that uses the Gromov-Wasserstein distance
+to align and compare states between the different
+spaces of the agents. Our theory formally
+characterizes the scenarios where GWIL preserves
+optimality, revealing its possibilities and
+limitations. We demonstrate the effectiveness of
+GWIL in non-trivial continuous control domains
+ranging from simple rigid transformation of the
+expert domain to arbitrary transformation of the
+state-action space.
+</div>
+
+</td>
+</tr>
+
+</table>
 <h2>2021</h2>
 <table class="table table-hover">
 
@@ -103,7 +141,7 @@ Representative publications that I am a primary author on are
     <em><a href='https://arxiv.org/abs/2008.12775' target='_blank'>On the model-based stochastic value gradient for continuous reinforcement learning</a> </em><br>
     <strong>Brandon&nbsp;Amos</strong>, <a href='https://samuelstanton.github.io/' target='_blank'>Samuel&nbsp;Stanton</a>, <a href='https://cs.nyu.edu/~dy1042/' target='_blank'>Denis&nbsp;Yarats</a>, and <a href='https://people.orie.cornell.edu/andrew/' target='_blank'>Andrew&nbsp;Gordon&nbsp;Wilson</a><br>
     L4DC 2021 (Oral) <br>
-    [1] 
+    [2] 
 [<a href='javascript:;'
     onclick='$("#abs_amos2021modelbased").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/svg' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2021.svg.pdf' target='_blank'>slides</a>] <br>
     
@@ -147,7 +185,7 @@ an ensemble.
     <em><a href='https://arxiv.org/abs/2106.10272' target='_blank'>Riemannian Convex Potential Maps</a> </em><br>
     <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen*</a>, <strong>Brandon&nbsp;Amos*</strong>, and <a href='https://www.wisdom.weizmann.ac.il/~ylipman/' target='_blank'>Yaron&nbsp;Lipman</a><br>
     ICML 2021  <br>
-    [2] 
+    [3] 
 [<a href='javascript:;'
     onclick='$("#abs_cohen2021riemannian").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/rcpm' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2021.rcpm.pdf' target='_blank'>slides</a>] <br>
     
@@ -175,7 +213,7 @@ model standard distributions on spheres, and tori, on synthetic and geological d
     <em><a href='https://arxiv.org/abs/2105.02343' target='_blank'>CombOptNet: Fit the Right NP-Hard Problem by Learning Integer Programming Constraints</a> </em><br>
     <a href='https://scholar.google.com/citations?user=njZL5CQAAAAJ' target='_blank'>Anselm&nbsp;Paulus</a>, <a href='https://mrolinek.github.io/' target='_blank'>Michal&nbsp;Rol&iacute;nek</a>, <a href='https://scholar.google.com/citations?user=hA1rlU4AAAAJ' target='_blank'>V&iacute;t&nbsp;Musil</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='http://georg.playfulmachines.com/' target='_blank'>Georg&nbsp;Martius</a><br>
     ICML 2021  <br>
-    [3] 
+    [4] 
 [<a href='javascript:;'
     onclick='$("#abs_paulus2021comboptnet").toggle()'>abs</a>] [<a href='https://github.com/martius-lab/CombOptNet' target='_blank'>code</a>] <br>
     
@@ -209,7 +247,7 @@ vision keypoint matching benchmark.
     <em><a href='https://arxiv.org/abs/2109.15316' target='_blank'>Scalable Online Planning via Reinforcement Learning Fine-Tuning</a> </em><br>
     <a href='https://scholar.google.com/citations?user=bBFN_qwAAAAJ' target='_blank'>Arnaud&nbsp;Fickinger</a>, <a href='https://scholar.google.com/citations?user=sJwwn54AAAAJ' target='_blank'>Hengyuan&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='http://people.eecs.berkeley.edu/~russell/' target='_blank'>Stuart&nbsp;Russell</a>, and <a href='http://www.noambrown.com/' target='_blank'>Noam&nbsp;Brown</a><br>
     NeurIPS 2021  <br>
-    [4] 
+    [5] 
 [<a href='javascript:;'
     onclick='$("#abs_fickinger2021scalable").toggle()'>abs</a>]<br>
     
@@ -240,7 +278,7 @@ tabular search in the Atari game Ms. Pacman.
     <em><a href='https://arxiv.org/abs/2006.12648' target='_blank'>Aligning Time Series on Incomparable Spaces</a> </em><br>
     <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <a href='https://giulslu.github.io/' target='_blank'>Giulia&nbsp;Luise</a>, <a href='https://avt.im/' target='_blank'>Alexander&nbsp;Terenin</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://deisenroth.cc/' target='_blank'>Marc&nbsp;Peter&nbsp;Deisenroth</a><br>
     AISTATS 2021  <br>
-    [5] 
+    [6] 
 [<a href='javascript:;'
     onclick='$("#abs_cohen2020aligning").toggle()'>abs</a>] [<a href='https://github.com/samcohen16/Aligning-Time-Series' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2021.gdtw.pdf' target='_blank'>slides</a>] <br>
     
@@ -274,7 +312,7 @@ imitation learning.
     <em><a href='https://arxiv.org/abs/2011.03902' target='_blank'>Learning Neural Event Functions for Ordinary Differential Equations</a> </em><br>
     <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://mnick.github.io/' target='_blank'>Maximilian&nbsp;Nickel</a><br>
     ICLR 2021  <br>
-    [6] 
+    [7] 
 [<a href='javascript:;'
     onclick='$("#abs_chen2021learning").toggle()'>abs</a>] [<a href='https://github.com/rtqichen/torchdiffeq' target='_blank'>code</a>] <br>
     
@@ -303,7 +341,7 @@ with applications in discrete control.
     <em><a href='https://arxiv.org/abs/2011.04583' target='_blank'>Neural Spatio-Temporal Point Processes</a> </em><br>
     <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://mnick.github.io/' target='_blank'>Maximilian&nbsp;Nickel</a><br>
     ICLR 2021  <br>
-    [7] 
+    [8] 
 [<a href='javascript:;'
     onclick='$("#abs_chen2021neural").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/neural_stpp' target='_blank'>code</a>] <br>
     
@@ -333,7 +371,7 @@ mobility, and neuroscience.
     <em><a href='https://arxiv.org/abs/1910.01741' target='_blank'>Improving Sample Efficiency in Model-Free Reinforcement Learning from Images</a> </em><br>
     <a href='https://cs.nyu.edu/~dy1042/' target='_blank'>Denis&nbsp;Yarats</a>, <a href='https://amyzhang.github.io/' target='_blank'>Amy&nbsp;Zhang</a>, <a href='https://scholar.google.com/citations?user=PTS2AOgAAAAJ' target='_blank'>Ilya&nbsp;Kostrikov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.cs.mcgill.ca/~jpineau/' target='_blank'>Joelle&nbsp;Pineau</a>, and <a href='https://cs.nyu.edu/~fergus/pmwiki/pmwiki.php' target='_blank'>Rob&nbsp;Fergus</a><br>
     AAAI 2021  <br>
-    [8] 
+    [9] 
 [<a href='javascript:;'
     onclick='$("#abs_yarats2021improving").toggle()'>abs</a>] [<a href='https://sites.google.com/view/sac-ae' target='_blank'>code</a>] <br>
     
@@ -371,7 +409,7 @@ future research on image-based RL.
     <em><a href='https://arxiv.org/abs/2107.10254' target='_blank'>Neural Fixed-Point Acceleration for Convex Optimization</a> </em><br>
     <a href='https://scholar.google.com/citations?user=BFWurDEAAAAJ' target='_blank'>Shobha&nbsp;Venkataraman*</a> and <strong>Brandon&nbsp;Amos*</strong><br>
     ICML AutoML 2021  <br>
-    [9] 
+    [10] 
 [<a href='javascript:;'
     onclick='$("#abs_venkataraman2021neural").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/neural-scs' target='_blank'>code</a>] <br>
     
@@ -401,7 +439,7 @@ optimization problem expressible with CVXPY.
     <em><a href='https://arxiv.org/abs/2102.07115' target='_blank'>Sliced Multi-Marginal Optimal Transport</a> </em><br>
     <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <a href='https://avt.im/' target='_blank'>Alexander&nbsp;Terenin</a>, <a href='https://scholar.google.com/citations?user=jmM-JlIAAAAJ' target='_blank'>Yannik&nbsp;Pitcan</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://deisenroth.cc/' target='_blank'>Marc&nbsp;Peter&nbsp;Deisenroth</a>, and <a href='https://scholar.google.co.in/citations?user=FPVUA-YAAAAJ' target='_blank'>K&nbsp;S&nbsp;Sesh&nbsp;Kumar</a><br>
     NeurIPS OTML 2021  <br>
-    [10] 
+    [11] 
 [<a href='javascript:;'
     onclick='$("#abs_cohen2021sliced").toggle()'>abs</a>]<br>
     
@@ -440,7 +478,7 @@ multi-dynamics reinforcement learning problems.
     <em><a href='https://arxiv.org/abs/2111.12187' target='_blank'>Input Convex Gradient Networks</a> </em><br>
     <a href='https://scholar.google.com/citations?hl=es&user=L78pVMMAAAAJ' target='_blank'>Jack&nbsp;Richter-Powell</a>, <a href='https://scholar.google.com/citations?user=Hzf8bu0AAAAJ' target='_blank'>Jonathan&nbsp;Lorraine</a>, and <strong>Brandon&nbsp;Amos</strong><br>
     NeurIPS OTML 2021  <br>
-    [11] 
+    [12] 
 [<a href='javascript:;'
     onclick='$("#abs_richterpowell2021input").toggle()'>abs</a>]<br>
     
@@ -462,41 +500,6 @@ layer ICGN can fit a toy example better than a
 single layer ICNN. Lastly, we explore extensions to
 deeper networks and connections to constructions
 from Riemannian geometry.
-</div>
-
-</td>
-</tr>
-
-
-<tr id="tr-fickinger2021crossdomain" >
-<td>
-    <em><a href='https://arxiv.org/abs/2110.03684' target='_blank'>Cross-Domain Imitation Learning via Optimal Transport</a> </em><br>
-    <a href='https://scholar.google.com/citations?user=bBFN_qwAAAAJ' target='_blank'>Arnaud&nbsp;Fickinger</a>, <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <a href='http://people.eecs.berkeley.edu/~russell/' target='_blank'>Stuart&nbsp;Russell</a>, and <strong>Brandon&nbsp;Amos</strong><br>
-    NeurIPS DeepRL 2021  <br>
-    [12] 
-[<a href='javascript:;'
-    onclick='$("#abs_fickinger2021crossdomain").toggle()'>abs</a>]<br>
-    
-<div id="abs_fickinger2021crossdomain" style="text-align: justify; display: none" markdown="1">
-Cross-domain imitation learning studies how to leverage expert
-demonstrations of one agent to train an imitation
-agent with a different embodiment or
-morphology. Comparing trajectories and stationary
-distributions between the expert and imitation
-agents is challenging because they live on different
-systems that may not even have the same
-dimensionality. We propose Gromov-Wasserstein
-Imitation Learning (GWIL), a method for cross-domain
-imitation that uses the Gromov-Wasserstein distance
-to align and compare states between the different
-spaces of the agents. Our theory formally
-characterizes the scenarios where GWIL preserves
-optimality, revealing its possibilities and
-limitations. We demonstrate the effectiveness of
-GWIL in non-trivial continuous control domains
-ranging from simple rigid transformation of the
-expert domain to arbitrary transformation of the
-state-action space.
 </div>
 
 </td>
@@ -1457,7 +1460,7 @@ malware machine learning classifiers.
     <!--     facebookresearch/theseus  -->
     <!--  -->
   </td>
-  <td class='col-md-2' style='text-align:right;'>2021</td>
+  <td class='col-md-2' style='text-align:right;'>2022</td>
 </tr>
 <tr>
   <td>
