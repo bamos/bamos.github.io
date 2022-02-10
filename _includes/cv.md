@@ -10,8 +10,8 @@
         (0.00/0.00)
       <br>
         <p style='margin-top:-1em;margin-bottom:0em' markdown='1'>
-        <br> *<a href="https://github.com/bamos/thesis" target="_blank">Differentiable Optimization-Based Modeling for Machine Learning</a>*
-        <br> Advisors: <a href="http://zicokolter.com" target="_blank">J. Zico Kolter</a> (2016 - 2019),  <a href="https://www.cs.cmu.edu/~satya/" target="_blank">Mahadev Satyanarayanan</a> (2014 - 2016)
+        <br> Thesis: *<a href="https://github.com/bamos/thesis" target="_blank">Differentiable Optimization-Based Modeling for Machine Learning</a>*
+        <br> Advisor: <a href="http://zicokolter.com" target="_blank">J. Zico Kolter</a>
         </p>
     </td>
     <td class="col-md-2" style='text-align:right;'>2014 - 2019</td>
@@ -27,37 +27,95 @@
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Research Internships
+## <i class="fa fa-chevron-right"></i> Previous Positions
 <table class="table table-hover">
 <tr>
   <td>
-<p markdown="1" style='margin: 0'>
-<strong>Intel Labs</strong>,
-Santa Clara
-(Host: <a href="http://vladlen.info/" target="_blank">Vladlen Koltun</a>)
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Carnegie Mellon University (Advisor: <a href="http://zicokolter.com" target="_blank">J. Zico Kolter</a>)
+</p>
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2016 - 2019</td>
+</tr>
+<tr>
+  <td>
+<p markdown="1" style='margin: 0'><strong>Research Intern</strong>, Intel Labs, Santa Clara
+ (Host: <a href="http://vladlen.info/" target="_blank">Vladlen Koltun</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'>
-<strong>Google DeepMind</strong>,
-London
-(Hosts: <a href="http://mdenil.com/" target="_blank">Misha Denil</a> and <a href="https://scholar.google.com/citations?user=nzEluBwAAAAJ" target="_blank">Nando de Freitas</a>)
+<p markdown="1" style='margin: 0'><strong>Research Intern</strong>, Google DeepMind, London
+ (Hosts: <a href="http://mdenil.com/" target="_blank">Misha Denil</a> and <a href="https://scholar.google.com/citations?user=nzEluBwAAAAJ" target="_blank">Nando de Freitas</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'>
-<strong>Adobe Research</strong>,
-San Jose
-(Host: <a href="https://research.adobe.com/person/david-tompkins/" target="_blank">David Tompkins</a>)
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Carnegie Mellon University (Advisor: <a href="https://www.cs.cmu.edu/~satya/" target="_blank">Mahadev Satyanarayanan</a>)
+</p>
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2014 - 2016</td>
+</tr>
+<tr>
+  <td>
+<p markdown="1" style='margin: 0'><strong>Data Scientist Intern</strong>, Adobe Research, San Jose
+ (Host: <a href="https://research.adobe.com/person/david-tompkins/" target="_blank">David Tompkins</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2014</td>
+</tr>
+<tr>
+  <td>
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Virginia Tech (Advisor: <a href="https://people.cs.vt.edu/~ltw/shortvita.html" target="_blank">Layne Watson</a>)
+</p>
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2013 - 2014</td>
+</tr>
+<tr>
+  <td>
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Virginia Tech (Advisor: <a href="https://www.magnum.io/people/jules.html" target="_blank">Jules White</a>)
+</p>
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2012 - 2014</td>
+</tr>
+<tr>
+  <td>
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Virginia Tech (Advisor: <a href="https://www.ssrg.ece.vt.edu/" target="_blank">Binoy Ravindran</a>)
+</p>
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2012 - 2014</td>
+</tr>
+<tr>
+  <td>
+<p markdown="1" style='margin: 0'><strong>Software Intern</strong>, Snowplow, London
+ (Remote)
+</p>
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2013 - 2014</td>
+</tr>
+<tr>
+  <td>
+<p markdown="1" style='margin: 0'><strong>Software Intern</strong>, Qualcomm, San Diego
+</p>
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2013</td>
+</tr>
+<tr>
+  <td>
+<p markdown="1" style='margin: 0'><strong>Software Intern</strong>, Phoenix Integration, Virginia
+</p>
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2012</td>
+</tr>
+<tr>
+  <td>
+<p markdown="1" style='margin: 0'><strong>Network Administrator Intern</strong>, Sunapsys, Virginia
+</p>
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2011</td>
 </tr>
 </table>
 
@@ -1491,7 +1549,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/facebookresearch/theseus">facebookresearch/theseus</a> |
-    <i class="fa fas fa-star"></i> 203 |
+    <i class="fa fas fa-star"></i> 210 |
     <em>Differentiable non-linear optimization library</em>
     <!--  -->
     <!--     facebookresearch/theseus  -->
@@ -1502,7 +1560,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
-    <i class="fa fas fa-star"></i> 547 |
+    <i class="fa fas fa-star"></i> 567 |
     <em>Model-based reinforcement learning library</em>
     <!--  -->
     <!--     facebookresearch/mbrl-lib  -->
@@ -1513,7 +1571,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/facebookresearch/dcem">facebookresearch/dcem</a> |
-    <i class="fa fas fa-star"></i> 96 |
+    <i class="fa fas fa-star"></i> 95 |
     <em>The Differentiable Cross-Entropy Method</em>
     <!--  -->
     <!--     facebookresearch/dcem  -->
@@ -1535,7 +1593,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a> |
-    <i class="fa fas fa-star"></i> 259 |
+    <i class="fa fas fa-star"></i> 262 |
     <em>Ph.D. Thesis LaTeX source code</em>
     <!--  -->
     <!--     bamos/thesis  -->
@@ -1557,7 +1615,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
-    <i class="fa fas fa-star"></i> 512 |
+    <i class="fa fas fa-star"></i> 521 |
     <em>Differentiable Model-Predictive Control</em>
     <!--  -->
     <!--     locuslab/mpc.pytorch  -->
@@ -1568,7 +1626,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a> |
-    <i class="fa fas fa-star"></i> 233 |
+    <i class="fa fas fa-star"></i> 236 |
     <em>Input Convex Neural Networks</em>
     <!--  -->
     <!--     locuslab/icnn  -->
@@ -1579,7 +1637,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a> |
-    <i class="fa fas fa-star"></i> 377 |
+    <i class="fa fas fa-star"></i> 381 |
     <em>OptNet experiments</em>
     <!--  -->
     <!--     locuslab/optnet  -->
@@ -1590,7 +1648,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
-    <i class="fa fas fa-star"></i> 513 |
+    <i class="fa fas fa-star"></i> 517 |
     <em>Differentiable PyTorch QP solver</em>
     <!--  -->
     <!--     locuslab/qpth  -->
@@ -1601,7 +1659,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a> |
-    <i class="fa fas fa-star"></i> 735 |
+    <i class="fa fas fa-star"></i> 736 |
     <em>PyTorch DenseNet implementation</em>
     <!--  -->
     <!--     bamos/densenet.pytorch  -->
@@ -1612,7 +1670,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/block">bamos/block</a> |
-    <i class="fa fas fa-star"></i> 259 |
+    <i class="fa fas fa-star"></i> 261 |
     <em>Intelligent block matrix constructions</em>
     <!--  -->
     <!--     bamos/block  -->
@@ -1656,7 +1714,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a> |
-    <i class="fa fas fa-star"></i> 169 |
+    <i class="fa fas fa-star"></i> 172 |
     <em>Analyze and plot your zsh history</em>
     <!--  -->
     <!--     bamos/zsh-history-analysis  -->
@@ -1667,7 +1725,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
-    <i class="fa fas fa-star"></i> 339 |
+    <i class="fa fas fa-star"></i> 342 |
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
     <!--  -->
     <!--     bamos/cv  -->
@@ -1678,7 +1736,7 @@ malware machine learning classifiers.
 <tr>
   <td>
     <a href="https://github.com/bamos/dotfiles">bamos/dotfiles</a> |
-    <i class="fa fas fa-star"></i> 233 |
+    <i class="fa fas fa-star"></i> 234 |
     <em>Linux, mutt, xmonad, vim, emacs, zsh</em>
     <!--  -->
     <!--     bamos/dotfiles  -->
@@ -1824,6 +1882,12 @@ malware machine learning classifiers.
 <table class="table table-hover">
 <tr>
   <td>
+        <a href="https://www.aaronlou.com/">Aaron Lou</a> (visiting FAIR from Cornell and Stanford)
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2020 - 2022</td>
+</tr>
+<tr>
+  <td>
         <a href="https://eugenevinitsky.github.io/">Eugene Vinitsky</a> (visiting FAIR from Berkeley)
   </td>
   <td class='col-md-2' style='text-align:right;'>2021 - 2022</td>
@@ -1839,12 +1903,6 @@ malware machine learning classifiers.
         <a href="https://scholar.google.com/citations?user=CmdjfTsAAAAJ">Samuel Cohen</a> (visiting FAIR from UCL)
   </td>
   <td class='col-md-2' style='text-align:right;'>2021 - 2022</td>
-</tr>
-<tr>
-  <td>
-        <a href="https://www.aaronlou.com/">Aaron Lou</a> (visiting FAIR from Cornell and Stanford)
-  </td>
-  <td class='col-md-2' style='text-align:right;'>2020 - 2022</td>
 </tr>
 <tr>
   <td>
