@@ -69,21 +69,21 @@
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Virginia Tech (Advisor: <a href="https://people.cs.vt.edu/~ltw/shortvita.html" target="_blank">Layne Watson</a>)
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Virginia Tech (Advisors: <a href="https://people.cs.vt.edu/~ltw/shortvita.html" target="_blank">Layne Watson</a> and <a href="https://dblp.org/pid/75/8682.html" target="_blank">David Easterling</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2013 - 2014</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Virginia Tech (Advisor: <a href="https://www.magnum.io/people/jules.html" target="_blank">Jules White</a>)
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Virginia Tech (Advisors: <a href="https://www.magnum.io/people/jules.html" target="_blank">Jules White</a> and <a href="https://scholar.google.com/citations?user=MRKab9cAAAAJ" target="_blank">Hamilton Turner</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2012 - 2014</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Virginia Tech (Advisor: <a href="https://www.ssrg.ece.vt.edu/" target="_blank">Binoy Ravindran</a>)
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Virginia Tech (Advisors: <a href="https://www.ssrg.ece.vt.edu/" target="_blank">Binoy Ravindran</a> and <a href="http://www.alastairmurray.co.uk/" target="_blank">Alastair Murray</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2012 - 2014</td>
@@ -122,6 +122,12 @@
 
 ## <i class="fa fa-chevron-right"></i> Honors & Awards
 <table class="table table-hover">
+<tr>
+  <td>
+    ICLR Outstanding Reviewer
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2019</td>
+</tr>
 <tr>
   <td>
     NSF Graduate Research Fellowship
@@ -1929,8 +1935,7 @@ malware machine learning classifiers.
 <table class="table table-hover">
 <tr>
   <td>
-      Reviewing: AAAI, ICML, NeurIPS, ICLR*, ICCV, CVPR, ICRA
-  <br><p style="color:grey;font-size:1.2rem">*Outstanding reviewer</p>
+      Reviewing: AAAI, ICML, NeurIPS, ICLR, ICCV, CVPR, ICRA
   <td class='col-md-2' style='text-align:right;'></td>
   </td>
 </tr>
