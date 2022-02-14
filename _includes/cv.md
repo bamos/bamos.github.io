@@ -47,7 +47,7 @@
 <tr>
   <td>
 <p markdown="1" style='margin: 0'><strong>Research Intern</strong>, Google DeepMind, London
- (Hosts: <a href="http://mdenil.com/" target="_blank">Misha Denil</a> and <a href="https://scholar.google.com/citations?user=nzEluBwAAAAJ" target="_blank">Nando de Freitas</a>)
+ (Hosts: <a href="https://scholar.google.com/citations?user=nzEluBwAAAAJ" target="_blank">Nando de Freitas</a> and <a href="http://mdenil.com/" target="_blank">Misha Denil</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2017</td>
@@ -240,7 +240,7 @@ state-action space.
 <tr id="tr-amos2021modelbased" style="background-color: #ffffd0">
 <td>
     <em><a href='https://arxiv.org/abs/2008.12775' target='_blank'>On the model-based stochastic value gradient for continuous reinforcement learning</a> </em><br>
-    <strong>Brandon&nbsp;Amos</strong>, <a href='https://samuelstanton.github.io/' target='_blank'>Samuel&nbsp;Stanton</a>, <a href='https://cs.nyu.edu/~dy1042/' target='_blank'>Denis&nbsp;Yarats</a>, and <a href='https://people.orie.cornell.edu/andrew/' target='_blank'>Andrew&nbsp;Gordon&nbsp;Wilson</a><br>
+    <strong>Brandon&nbsp;Amos</strong>, <a href='https://samuelstanton.github.io/' target='_blank'>Samuel&nbsp;Stanton</a>, <a href='https://cs.nyu.edu/~dy1042/' target='_blank'>Denis&nbsp;Yarats</a>, and <a href='https://cims.nyu.edu/~andrewgw' target='_blank'>Andrew&nbsp;Gordon&nbsp;Wilson</a><br>
     L4DC 2021 (Oral) <br>
     [3] 
 [<a href='javascript:;'
