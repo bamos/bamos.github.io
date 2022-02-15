@@ -6,7 +6,7 @@
 <table class="table table-hover">
   <tr>
     <td>
-      <strong>Ph.D. in Computer Science</strong>, Carnegie Mellon University
+      <strong>Ph.D. in Computer Science</strong>, <em>Carnegie Mellon University</em>
         (0.00/0.00)
       <br>
         <p style='margin-top:-1em;margin-bottom:0em' markdown='1'>
@@ -18,7 +18,7 @@
   </tr>
   <tr>
     <td>
-      <strong>B.S. in Computer Science</strong>, Virginia Tech
+      <strong>B.S. in Computer Science</strong>, <em>Virginia Tech</em>
         (3.99/4.00)
       <br>
     </td>
@@ -31,14 +31,14 @@
 <table class="table table-hover">
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Carnegie Mellon University (with <a href="http://zicokolter.com" target="_blank">J. Zico Kolter</a>)
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Carnegie Mellon University</em> (with <a href="http://zicokolter.com" target="_blank">J. Zico Kolter</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2016 - 2019</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Intern</strong>, Intel Labs, Santa Clara
+<p markdown="1" style='margin: 0'><strong>Research Intern</strong>, <em>Intel Labs</em>, Santa Clara
  (with <a href="http://vladlen.info/" target="_blank">Vladlen Koltun</a>)
 </p>
   </td>
@@ -46,7 +46,7 @@
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Intern</strong>, Google DeepMind, London
+<p markdown="1" style='margin: 0'><strong>Research Intern</strong>, <em>Google DeepMind</em>, London
  (with <a href="https://scholar.google.com/citations?user=nzEluBwAAAAJ" target="_blank">Nando de Freitas</a> and <a href="http://mdenil.com/" target="_blank">Misha Denil</a>)
 </p>
   </td>
@@ -54,14 +54,14 @@
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Carnegie Mellon University (with <a href="https://www.cs.cmu.edu/~satya/" target="_blank">Mahadev Satyanarayanan</a>)
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Carnegie Mellon University</em> (with <a href="https://www.cs.cmu.edu/~satya/" target="_blank">Mahadev Satyanarayanan</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2014 - 2016</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Data Scientist Intern</strong>, Adobe Research, San Jose
+<p markdown="1" style='margin: 0'><strong>Data Scientist Intern</strong>, <em>Adobe Research</em>, San Jose
  (with <a href="https://research.adobe.com/person/david-tompkins/" target="_blank">David Tompkins</a>)
 </p>
   </td>
@@ -69,50 +69,49 @@
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Virginia Tech (with <a href="https://people.cs.vt.edu/~ltw/shortvita.html" target="_blank">Layne Watson</a> and <a href="https://dblp.org/pid/75/8682.html" target="_blank">David Easterling</a>)
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Virginia Tech</em> (with <a href="https://people.cs.vt.edu/~ltw/shortvita.html" target="_blank">Layne Watson</a> and <a href="https://dblp.org/pid/75/8682.html" target="_blank">David Easterling</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2013 - 2014</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Virginia Tech (with <a href="https://www.magnum.io/people/jules.html" target="_blank">Jules White</a> and <a href="https://scholar.google.com/citations?user=MRKab9cAAAAJ" target="_blank">Hamilton Turner</a>)
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Virginia Tech</em> (with <a href="https://www.magnum.io/people/jules.html" target="_blank">Jules White</a> and <a href="https://scholar.google.com/citations?user=MRKab9cAAAAJ" target="_blank">Hamilton Turner</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2012 - 2014</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Virginia Tech (with <a href="https://www.ssrg.ece.vt.edu/" target="_blank">Binoy Ravindran</a> and <a href="http://www.alastairmurray.co.uk/" target="_blank">Alastair Murray</a>)
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Virginia Tech</em> (with <a href="https://www.ssrg.ece.vt.edu/" target="_blank">Binoy Ravindran</a> and <a href="http://www.alastairmurray.co.uk/" target="_blank">Alastair Murray</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2012 - 2014</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Software Intern</strong>, Snowplow, London
- (Remote)
+<p markdown="1" style='margin: 0'><strong>Software Intern</strong>, <em>Snowplow</em>, Remote
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2013 - 2014</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Software Intern</strong>, Qualcomm, San Diego
+<p markdown="1" style='margin: 0'><strong>Software Intern</strong>, <em>Qualcomm</em>, San Diego
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2013</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Software Intern</strong>, Phoenix Integration, Virginia
+<p markdown="1" style='margin: 0'><strong>Software Intern</strong>, <em>Phoenix Integration</em>, Virginia
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2012</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Network Administrator Intern</strong>, Sunapsys, Virginia
+<p markdown="1" style='margin: 0'><strong>Network Administrator Intern</strong>, <em>Sunapsys</em>, Virginia
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2011</td>
