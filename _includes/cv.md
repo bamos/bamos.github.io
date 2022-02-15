@@ -31,7 +31,7 @@
 <table class="table table-hover">
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Carnegie Mellon University (Advisor: <a href="http://zicokolter.com" target="_blank">J. Zico Kolter</a>)
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Carnegie Mellon University (with <a href="http://zicokolter.com" target="_blank">J. Zico Kolter</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2016 - 2019</td>
@@ -39,7 +39,7 @@
 <tr>
   <td>
 <p markdown="1" style='margin: 0'><strong>Research Intern</strong>, Intel Labs, Santa Clara
- (Host: <a href="http://vladlen.info/" target="_blank">Vladlen Koltun</a>)
+ (with <a href="http://vladlen.info/" target="_blank">Vladlen Koltun</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2018</td>
@@ -47,14 +47,14 @@
 <tr>
   <td>
 <p markdown="1" style='margin: 0'><strong>Research Intern</strong>, Google DeepMind, London
- (Hosts: <a href="https://scholar.google.com/citations?user=nzEluBwAAAAJ" target="_blank">Nando de Freitas</a> and <a href="http://mdenil.com/" target="_blank">Misha Denil</a>)
+ (with <a href="https://scholar.google.com/citations?user=nzEluBwAAAAJ" target="_blank">Nando de Freitas</a> and <a href="http://mdenil.com/" target="_blank">Misha Denil</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Carnegie Mellon University (Advisor: <a href="https://www.cs.cmu.edu/~satya/" target="_blank">Mahadev Satyanarayanan</a>)
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Carnegie Mellon University (with <a href="https://www.cs.cmu.edu/~satya/" target="_blank">Mahadev Satyanarayanan</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2014 - 2016</td>
@@ -62,28 +62,28 @@
 <tr>
   <td>
 <p markdown="1" style='margin: 0'><strong>Data Scientist Intern</strong>, Adobe Research, San Jose
- (Host: <a href="https://research.adobe.com/person/david-tompkins/" target="_blank">David Tompkins</a>)
+ (with <a href="https://research.adobe.com/person/david-tompkins/" target="_blank">David Tompkins</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2014</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Virginia Tech (Advisors: <a href="https://people.cs.vt.edu/~ltw/shortvita.html" target="_blank">Layne Watson</a> and <a href="https://dblp.org/pid/75/8682.html" target="_blank">David Easterling</a>)
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Virginia Tech (with <a href="https://people.cs.vt.edu/~ltw/shortvita.html" target="_blank">Layne Watson</a> and <a href="https://dblp.org/pid/75/8682.html" target="_blank">David Easterling</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2013 - 2014</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Virginia Tech (Advisors: <a href="https://www.magnum.io/people/jules.html" target="_blank">Jules White</a> and <a href="https://scholar.google.com/citations?user=MRKab9cAAAAJ" target="_blank">Hamilton Turner</a>)
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Virginia Tech (with <a href="https://www.magnum.io/people/jules.html" target="_blank">Jules White</a> and <a href="https://scholar.google.com/citations?user=MRKab9cAAAAJ" target="_blank">Hamilton Turner</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2012 - 2014</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Virginia Tech (Advisors: <a href="https://www.ssrg.ece.vt.edu/" target="_blank">Binoy Ravindran</a> and <a href="http://www.alastairmurray.co.uk/" target="_blank">Alastair Murray</a>)
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, Virginia Tech (with <a href="https://www.ssrg.ece.vt.edu/" target="_blank">Binoy Ravindran</a> and <a href="http://www.alastairmurray.co.uk/" target="_blank">Alastair Murray</a>)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2012 - 2014</td>
