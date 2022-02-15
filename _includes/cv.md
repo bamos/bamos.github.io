@@ -1935,12 +1935,6 @@ malware machine learning classifiers.
 <table class="table table-hover">
 <tr>
   <td>
-      Reviewing: AAAI, ICML, NeurIPS, ICLR, ICCV, CVPR, ICRA
-  <td class='col-md-2' style='text-align:right;'></td>
-  </td>
-</tr>
-<tr>
-  <td>
      <a href="https://sites.google.com/view/lmca2020/home">NeurIPS Learning Meets Combinatorial Optimization Workshop Organizer</a>
   <td class='col-md-2' style='text-align:right;'>2020</td>
   </td>
@@ -1961,6 +1955,46 @@ malware machine learning classifiers.
   <td>
       CMU CSD MS Admissions
   <td class='col-md-2' style='text-align:right;'>2014 - 2015</td>
+  </td>
+</tr>
+</table>
+
+<!-- ### <i class="fa fa-chevron-right"></i> Professional Activities -->
+### Reviewing
+<table class="table table-hover">
+<tr>
+  <td>
+      Neural Information Processing Systems (NeurIPS)
+  </td>
+</tr>
+<tr>
+  <td>
+      International Conference on Machine Learning (ICML)
+  </td>
+</tr>
+<tr>
+  <td>
+      International Conference on Learning Representations (ICLR)
+  </td>
+</tr>
+<tr>
+  <td>
+      IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+  </td>
+</tr>
+<tr>
+  <td>
+      IEEE International Conference on Computer Vision (ICCV)
+  </td>
+</tr>
+<tr>
+  <td>
+      IEEE International Conference on Robotics and Automation (ICRA)
+  </td>
+</tr>
+<tr>
+  <td>
+      AAAI Conference on Artificial Intelligence (AAAI)
   </td>
 </tr>
 </table>
