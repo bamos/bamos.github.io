@@ -14,7 +14,7 @@
         <br> Advisor: <a href="http://zicokolter.com" target="_blank">J. Zico Kolter</a>
         </p>
     </td>
-    <td class="col-md-2" style='text-align:right;'>2014 - 2019</td>
+    <td class="col-md-2" style='text-align:right;'>2014&nbsp;-&nbsp;2019</td>
   </tr>
   <tr>
     <td>
@@ -22,7 +22,7 @@
         (3.99/4.00)
       <br>
     </td>
-    <td class="col-md-2" style='text-align:right;'>2011 - 2014</td>
+    <td class="col-md-2" style='text-align:right;'>2011&nbsp;-&nbsp;2014</td>
   </tr>
 </table>
 
@@ -34,7 +34,7 @@
 <p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Carnegie Mellon University</em> (with <a href="http://zicokolter.com" target="_blank">J. Zico Kolter</a>)
 </p>
   </td>
-  <td class='col-md-2' style='text-align:right;'>2016 - 2019</td>
+  <td class='col-md-2' style='text-align:right;'>2016&nbsp;-&nbsp;2019</td>
 </tr>
 <tr>
   <td>
@@ -57,7 +57,7 @@
 <p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Carnegie Mellon University</em> (with <a href="https://www.cs.cmu.edu/~satya/" target="_blank">Mahadev Satyanarayanan</a>)
 </p>
   </td>
-  <td class='col-md-2' style='text-align:right;'>2014 - 2016</td>
+  <td class='col-md-2' style='text-align:right;'>2014&nbsp;-&nbsp;2016</td>
 </tr>
 <tr>
   <td>
@@ -72,32 +72,34 @@
 <p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Virginia Tech</em> (with <a href="https://people.cs.vt.edu/~ltw/shortvita.html" target="_blank">Layne Watson</a> and <a href="https://dblp.org/pid/75/8682.html" target="_blank">David Easterling</a>)
 </p>
   </td>
-  <td class='col-md-2' style='text-align:right;'>2013 - 2014</td>
+  <td class='col-md-2' style='text-align:right;'>2013&nbsp;-&nbsp;2014</td>
 </tr>
 <tr>
   <td>
 <p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Virginia Tech</em> (with <a href="https://www.magnum.io/people/jules.html" target="_blank">Jules White</a> and <a href="https://scholar.google.com/citations?user=MRKab9cAAAAJ" target="_blank">Hamilton Turner</a>)
 </p>
   </td>
-  <td class='col-md-2' style='text-align:right;'>2012 - 2014</td>
+  <td class='col-md-2' style='text-align:right;'>2012&nbsp;-&nbsp;2014</td>
 </tr>
 <tr>
   <td>
 <p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Virginia Tech</em> (with <a href="https://www.ssrg.ece.vt.edu/" target="_blank">Binoy Ravindran</a> and <a href="http://www.alastairmurray.co.uk/" target="_blank">Alastair Murray</a>)
 </p>
   </td>
-  <td class='col-md-2' style='text-align:right;'>2012 - 2014</td>
+  <td class='col-md-2' style='text-align:right;'>2012&nbsp;-&nbsp;2014</td>
 </tr>
 <tr>
   <td>
 <p markdown="1" style='margin: 0'><strong>Software Intern</strong>, <em>Snowplow</em>, Remote
+ (Scala development)
 </p>
   </td>
-  <td class='col-md-2' style='text-align:right;'>2013 - 2014</td>
+  <td class='col-md-2' style='text-align:right;'>2013&nbsp;-&nbsp;2014</td>
 </tr>
 <tr>
   <td>
 <p markdown="1" style='margin: 0'><strong>Software Intern</strong>, <em>Qualcomm</em>, San Diego
+ (Python and C++ development)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2013</td>
@@ -105,6 +107,7 @@
 <tr>
   <td>
 <p markdown="1" style='margin: 0'><strong>Software Intern</strong>, <em>Phoenix Integration</em>, Virginia
+ (C++, C\#, and Java development)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2012</td>
@@ -112,6 +115,7 @@
 <tr>
   <td>
 <p markdown="1" style='margin: 0'><strong>Network Administrator Intern</strong>, <em>Sunapsys</em>, Virginia
+ (Bash development for Linux servers)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2011</td>
@@ -131,7 +135,7 @@
   <td>
     NSF Graduate Research Fellowship
   </td>
-  <td class='col-md-2' style='text-align:right;'>2016 - 2019</td>
+  <td class='col-md-2' style='text-align:right;'>2016&nbsp;-&nbsp;2019</td>
 </tr>
 <tr>
   <td>
@@ -145,7 +149,7 @@ VT Pamplin Leader,
 VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 </p>
   </td>
-  <td class='col-md-2' style='text-align:right;'>2011 - 2014</td>
+  <td class='col-md-2' style='text-align:right;'>2011&nbsp;-&nbsp;2014</td>
 </tr>
 </table>
 
@@ -657,7 +661,7 @@ subcomponents that need to be carefully selected and
 tuned. As a result the entry-bar for researchers to
 approach the field and to deploy it in real-world
 tasks can be daunting. In this paper, we present
-MBRL-Lib - a machine learning library for
+MBRL-Lib&nbsp;-&nbsp;a machine learning library for
 model-based reinforcement learning in continuous
 state-action spaces based on PyTorch. MBRL-Lib is
 designed as a platform for both researchers, to
@@ -1889,25 +1893,25 @@ malware machine learning classifiers.
   <td>
         <a href="https://www.aaronlou.com/">Aaron Lou</a> (visiting FAIR from Cornell and Stanford)
   </td>
-  <td class='col-md-2' style='text-align:right;'>2020 - 2022</td>
+  <td class='col-md-2' style='text-align:right;'>2020&nbsp;-&nbsp;2022</td>
 </tr>
 <tr>
   <td>
         <a href="https://eugenevinitsky.github.io/">Eugene Vinitsky</a> (visiting FAIR from Berkeley)
   </td>
-  <td class='col-md-2' style='text-align:right;'>2021 - 2022</td>
+  <td class='col-md-2' style='text-align:right;'>2021&nbsp;-&nbsp;2022</td>
 </tr>
 <tr>
   <td>
         <a href="https://www.linkedin.com/in/arnaudfickinger/">Arnaud Fickinger</a> (visiting FAIR from Berkeley)
   </td>
-  <td class='col-md-2' style='text-align:right;'>2021 - 2022</td>
+  <td class='col-md-2' style='text-align:right;'>2021&nbsp;-&nbsp;2022</td>
 </tr>
 <tr>
   <td>
         <a href="https://scholar.google.com/citations?user=CmdjfTsAAAAJ">Samuel Cohen</a> (visiting FAIR from UCL)
   </td>
-  <td class='col-md-2' style='text-align:right;'>2021 - 2022</td>
+  <td class='col-md-2' style='text-align:right;'>2021&nbsp;-&nbsp;2022</td>
 </tr>
 <tr>
   <td>
@@ -1953,7 +1957,7 @@ malware machine learning classifiers.
 <tr>
   <td>
       CMU CSD MS Admissions
-  <td class='col-md-2' style='text-align:right;'>2014 - 2015</td>
+  <td class='col-md-2' style='text-align:right;'>2014&nbsp;-&nbsp;2015</td>
   </td>
 </tr>
 </table>
