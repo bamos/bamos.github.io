@@ -1557,6 +1557,17 @@ malware machine learning classifiers.
 <table class="table table-hover">
 <tr>
   <td>
+    <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a> |
+    <i class="fa fas fa-star"></i> 100 |
+    <em>Tutorial on amortized optimization</em>
+    <!--  -->
+    <!--     facebookresearch/amortized-optimization-tutorial  -->
+    <!--  -->
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2022</td>
+</tr>
+<tr>
+  <td>
     <a href="https://github.com/facebookresearch/theseus">facebookresearch/theseus</a> |
     <i class="fa fas fa-star"></i> 210 |
     <em>Differentiable non-linear optimization library</em>
