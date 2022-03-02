@@ -61,7 +61,7 @@
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Data Scientist Intern</strong>, <em>Adobe Research</em>, San Jose
+<p markdown="1" style='margin: 0'><strong>Research Intern</strong>, <em>Adobe Research</em>, San Jose
  (with <a href="https://research.adobe.com/person/david-tompkins/" target="_blank">David Tompkins</a>)
 </p>
   </td>
@@ -115,7 +115,6 @@
 <tr>
   <td>
 <p markdown="1" style='margin: 0'><strong>Network Administrator Intern</strong>, <em>Sunapsys</em>, Virginia
- (Bash development for Linux servers)
 </p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2011</td>
