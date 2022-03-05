@@ -1743,6 +1743,17 @@ malware machine learning classifiers.
 </tr>
 <tr>
   <td>
+    <a href="https://github.com/cparse/cparse">cparse/cparse</a> |
+    <i class="fa fas fa-star"></i> 242 |
+    <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em>
+    <!--  -->
+    <!--     cparse/cparse  -->
+    <!--  -->
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2013</td>
+</tr>
+<tr>
+  <td>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
     <i class="fa fas fa-star"></i> 342 |
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
