@@ -126,18 +126,26 @@
 <table class="table table-hover">
 <tr>
   <td>
+  <div style='float: right'>2019</div>
+  <div>
     ICLR Outstanding Reviewer
+  </div>
   </td>
-  <td class='col-md-2' style='text-align:right;'>2019</td>
+  <!-- <td class='col-md-2' style='text-align:right;'>2019</td> -->
 </tr>
 <tr>
   <td>
+  <div style='float: right'>2016&nbsp;-&nbsp;2019</div>
+  <div>
     NSF Graduate Research Fellowship
+  </div>
   </td>
-  <td class='col-md-2' style='text-align:right;'>2016&nbsp;-&nbsp;2019</td>
+  <!-- <td class='col-md-2' style='text-align:right;'>2016&nbsp;-&nbsp;2019</td> -->
 </tr>
 <tr>
   <td>
+  <div style='float: right'>2011&nbsp;-&nbsp;2014</div>
+  <div>
     Nine undergraduate scholarships
     <br><p style="color:grey;font-size:1.2rem">Roanoke County Public Schools Engineering,
 Salem-Roanoke County Chamber of Commerce,
@@ -147,8 +155,9 @@ VT Intelligence Community Conter for Academic Excellence,
 VT Pamplin Leader,
 VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 </p>
+  </div>
   </td>
-  <td class='col-md-2' style='text-align:right;'>2011&nbsp;-&nbsp;2014</td>
+  <!-- <td class='col-md-2' style='text-align:right;'>2011&nbsp;-&nbsp;2014</td> -->
 </tr>
 </table>
 
