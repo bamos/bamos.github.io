@@ -250,13 +250,59 @@ state-action space.
 </td>
 </tr>
 
+
+<tr id="tr-chen2022semi" >
+<td align='right'>
+3.
+</td>
+<td>
+<a href='https://arxiv.org/abs/2203.06832' target='_blank'><img src="images/publications/chen2022semi.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<em><a href='https://arxiv.org/abs/2203.06832' target='_blank'>Semi-Discrete Normalizing Flows through Differentiable Tessellation</a> </em> 
+[<a href='javascript:;'
+    onclick='$("#abs_chen2022semi").toggle()'>abs</a>]<br>
+<a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://mnick.github.io/' target='_blank'>Maximilian&nbsp;Nickel</a><br>
+arXiv 2022  <br>
+
+<div id="abs_chen2022semi" style="text-align: justify; display: none" markdown="1">
+Mapping between discrete and continuous distributions is a difficult
+task and many have had to resort to approximate or
+heuristical approaches. We propose a
+tessellation-based approach that directly learns
+quantization boundaries on a continuous space, complete with exact likelihood evaluations. This is
+done through constructing normalizing flows on
+convex polytopes parameterized through a
+differentiable Voronoi tessellation. Using a simple
+homeomorphism with an efficient log determinant
+Jacobian, we can then cheaply parameterize
+distributions on convex polytopes.
+
+We explore this approach in two application settings, mapping from
+discrete to continuous and vice versa. Firstly, a
+Voronoi dequantization allows automatically learning
+quantization boundaries in a multidimensional
+space. The location of boundaries and distances
+between regions can encode useful structural
+relations between the quantized discrete
+values. Secondly, a Voronoi mixture model has
+constant computation cost for likelihood evaluation
+regardless of the number of mixture
+components. Empirically, we show improvements over
+existing methods across a range of structured data
+modalities, and find that we can achieve a
+significant gain from just adding Voronoi mixtures
+to a baseline model.
+</div>
+
+</td>
+</tr>
+
 </table>
 <h2>2021</h2>
 <table class="table table-hover">
 
 <tr id="tr-amos2021modelbased" style="background-color: #ffffd0">
 <td align='right'>
-3.
+4.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2008.12775' target='_blank'><img src="images/publications/amos2021modelbased.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -303,7 +349,7 @@ an ensemble.
 
 <tr id="tr-cohen2021riemannian" style="background-color: #ffffd0">
 <td align='right'>
-4.
+5.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2106.10272' target='_blank'><img src="images/publications/cohen2021riemannian.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -334,7 +380,7 @@ model standard distributions on spheres, and tori, on synthetic and geological d
 
 <tr id="tr-paulus2021comboptnet" >
 <td align='right'>
-5.
+6.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2105.02343' target='_blank'><img src="images/publications/paulus2021comboptnet.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -371,7 +417,7 @@ vision keypoint matching benchmark.
 
 <tr id="tr-fickinger2021scalable" >
 <td align='right'>
-6.
+7.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2109.15316' target='_blank'><img src="images/publications/fickinger2021scalable.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -405,7 +451,7 @@ tabular search in the Atari game Ms. Pacman.
 
 <tr id="tr-cohen2020aligning" >
 <td align='right'>
-7.
+8.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2006.12648' target='_blank'><img src="images/publications/cohen2020aligning.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -442,7 +488,7 @@ imitation learning.
 
 <tr id="tr-chen2021learning" >
 <td align='right'>
-8.
+9.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2011.03902' target='_blank'><img src="images/publications/chen2021learning.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -474,7 +520,7 @@ with applications in discrete control.
 
 <tr id="tr-chen2021neural" >
 <td align='right'>
-9.
+10.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2011.04583' target='_blank'><img src="images/publications/chen2021neural.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -507,7 +553,7 @@ mobility, and neuroscience.
 
 <tr id="tr-yarats2021improving" >
 <td align='right'>
-10.
+11.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1910.01741' target='_blank'><img src="images/publications/yarats2021improving.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -548,7 +594,7 @@ future research on image-based RL.
 
 <tr id="tr-venkataraman2021neural" >
 <td align='right'>
-11.
+12.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2107.10254' target='_blank'><img src="images/publications/venkataraman2021neural.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -581,7 +627,7 @@ optimization problem expressible with CVXPY.
 
 <tr id="tr-cohen2021sliced" >
 <td align='right'>
-12.
+13.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2102.07115' target='_blank'><img src="images/publications/cohen2021sliced.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -623,7 +669,7 @@ multi-dynamics reinforcement learning problems.
 
 <tr id="tr-richterpowell2021input" >
 <td align='right'>
-13.
+14.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2111.12187' target='_blank'><img src="images/publications/richterpowell2021input.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -659,7 +705,7 @@ from Riemannian geometry.
 
 <tr id="tr-cohen2021imitation" >
 <td align='right'>
-14.
+15.
 </td>
 <td>
 <a href='https://openreview.net/pdf?id=Xe5MFhFvYGX' target='_blank'><img src="images/publications/cohen2021imitation.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -696,7 +742,7 @@ our methods and expert demonstrations.
 
 <tr id="tr-pineda2021mbrl" >
 <td align='right'>
-15.
+16.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2104.10159' target='_blank'><img src="images/publications/pineda2021mbrl.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -731,7 +777,7 @@ deploying state-of-the-art algorithms.
 
 <tr id="tr-amos2020differentiable" style="background-color: #ffffd0">
 <td align='right'>
-16.
+17.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1909.12830' target='_blank'><img src="images/publications/amos2020differentiable.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -766,7 +812,7 @@ towards combining model-based and model-free RL.
 
 <tr id="tr-lambert2020objective" >
 <td align='right'>
-17.
+18.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2002.04523' target='_blank'><img src="images/publications/lambert2020objective.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -786,7 +832,7 @@ Model-based reinforcement learning (MBRL) has been shown to be a powerful framew
 
 <tr id="tr-amos2020QNSTOP" >
 <td align='right'>
-18.
+19.
 </td>
 <td>
 <a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'><img src="images/publications/amos2020QNSTOP.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -814,7 +860,7 @@ biology problems is given.
 
 <tr id="tr-sercu2020neural" >
 <td align='right'>
-19.
+20.
 </td>
 <td>
 <a href='https://www.biorxiv.org/content/10.1101/2021.04.08.439084v1.abstract' target='_blank'><img src="images/publications/sercu2020neural.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -848,7 +894,7 @@ database with broad coverage of protein sequences.
 
 <tr id="tr-lou2020riemannian" >
 <td align='right'>
-20.
+21.
 </td>
 <td>
 <a href='https://drive.google.com/file/d/1Ewro0Ne1tvK15nHyYopY4wZ59QTVB-1c/view' target='_blank'><img src="images/publications/lou2020riemannian.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -878,7 +924,7 @@ in graph embedding tasks.
 
 <tr id="tr-amos2019differentiable" style="background-color: #ffffd0">
 <td align='right'>
-21.
+22.
 </td>
 <td>
 <a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'><img src="images/publications/amos2019differentiable.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -911,7 +957,7 @@ enables rapid prototyping of the approaches in this thesis.
 
 <tr id="tr-amos2019differentiable3" style="background-color: #ffffd0">
 <td align='right'>
-22.
+23.
 </td>
 <td>
 <a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'><img src="images/publications/amos2019differentiable3.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -931,7 +977,7 @@ Recent work has shown how to embed differentiable optimization problems (that is
 
 <tr id="tr-amos2019limited" >
 <td align='right'>
-23.
+24.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1906.08707' target='_blank'><img src="images/publications/amos2019limited.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -962,7 +1008,7 @@ classification.
 
 <tr id="tr-grefenstette2019generalized" >
 <td align='right'>
-24.
+25.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1910.01727' target='_blank'><img src="images/publications/grefenstette2019generalized.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -999,7 +1045,7 @@ facilitate.
 
 <tr id="tr-amos2018learning" style="background-color: #ffffd0">
 <td align='right'>
-25.
+26.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1804.06318' target='_blank'><img src="images/publications/amos2018learning.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1041,7 +1087,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
 
 <tr id="tr-amos2018end" style="background-color: #ffffd0">
 <td align='right'>
-26.
+27.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1810.13400' target='_blank'><img src="images/publications/amos2018end.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1061,7 +1107,7 @@ In this paper we present foundations for using model predictive control (MPC) as
 
 <tr id="tr-brown2018depth" >
 <td align='right'>
-27.
+28.
 </td>
 <td>
 <a href='http://arxiv.org/abs/1805.08195' target='_blank'><img src="images/publications/brown2018depth.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1081,7 +1127,7 @@ A fundamental challenge in imperfect-information games is that states do not hav
 
 <tr id="tr-wang2018enabling" >
 <td align='right'>
-28.
+29.
 </td>
 <td>
 <a href='https://dl.acm.org/citation.cfm?id=3209659' target='_blank'><img src="images/publications/wang2018enabling.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1118,7 +1164,7 @@ video streams and analytics services.
 
 <tr id="tr-amos2017optnet" style="background-color: #ffffd0">
 <td align='right'>
-29.
+30.
 </td>
 <td>
 <a href='http://arxiv.org/abs/1703.00443' target='_blank'><img src="images/publications/amos2017optnet.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1157,7 +1203,7 @@ constraints better than other neural architectures.
 
 <tr id="tr-amos2017input" style="background-color: #ffffd0">
 <td align='right'>
-30.
+31.
 </td>
 <td>
 <a href='http://arxiv.org/abs/1609.07152' target='_blank'><img src="images/publications/amos2017input.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1192,7 +1238,7 @@ improvement over the existing state of the art in many cases.
 
 <tr id="tr-donti2017task" >
 <td align='right'>
-31.
+32.
 </td>
 <td>
 <a href='http://arxiv.org/abs/1703.04529' target='_blank'><img src="images/publications/donti2017task.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1224,7 +1270,7 @@ approach and a purely black-box policy optimization approach.
 
 <tr id="tr-chen2017quasi" >
 <td align='right'>
-32.
+33.
 </td>
 <td>
 <a href='https://par.nsf.gov/servlets/purl/10111392' target='_blank'><img src="images/publications/chen2017quasi.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1266,7 +1312,7 @@ stochastic model.
 
 <tr id="tr-ha2017you" >
 <td align='right'>
-33.
+34.
 </td>
 <td>
 <a href='https://dl.acm.org/doi/10.1145/3132211.3134453' target='_blank'><img src="images/publications/ha2017you.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1297,7 +1343,7 @@ than live migration at those bandwidths.
 
 <tr id="tr-chen2017empirical" >
 <td align='right'>
-34.
+35.
 </td>
 <td>
 <a href='https://www.cs.cmu.edu/~zhuoc/papers/latency2017.pdf' target='_blank'><img src="images/publications/chen2017empirical.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1328,7 +1374,7 @@ computing is crucial to meeting these targets.
 
 <tr id="tr-wang2017scalable" >
 <td align='right'>
-35.
+36.
 </td>
 <td>
 <a href='http://elijah.cs.cmu.edu/DOCS/wang-mmsys2017.pdf' target='_blank'><img src="images/publications/wang2017scalable.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1357,7 +1403,7 @@ retrospective policy exceptions. Finally, we present a scalable, privacy-aware a
 
 <tr id="tr-amos2016openface" style="background-color: #ffffd0">
 <td align='right'>
-36.
+37.
 </td>
 <td>
 <a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'><img src="images/publications/amos2016openface.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1390,7 +1436,7 @@ the Apache 2.0 license. It is available at:
 
 <tr id="tr-zhao2016collapsed" >
 <td align='right'>
-37.
+38.
 </td>
 <td>
 <a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'><img src="images/publications/zhao2016collapsed.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1423,7 +1469,7 @@ with a maximum likelihood based approach.
 
 <tr id="tr-hu2016quantifying" >
 <td align='right'>
-38.
+39.
 </td>
 <td>
 <a href='https://dl.acm.org/doi/10.1145/2967360.2967369' target='_blank'><img src="images/publications/hu2016quantifying.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1450,7 +1496,7 @@ for highly interactive mobile applications.
 
 <tr id="tr-davies2016privacy" >
 <td align='right'>
-39.
+40.
 </td>
 <td>
 <a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf' target='_blank'><img src="images/publications/davies2016privacy.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1487,7 +1533,7 @@ and organizational boundaries of trust and responsibility.
 
 <tr id="tr-satyanarayanan2015edge" >
 <td align='right'>
-40.
+41.
 </td>
 <td>
 <a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'><img src="images/publications/satyanarayanan2015edge.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1516,7 +1562,7 @@ is part of a special issue on smart spaces.
 
 <tr id="tr-turner2015bad" >
 <td align='right'>
-41.
+42.
 </td>
 <td>
 <a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094' target='_blank'><img src="images/publications/turner2015bad.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1544,7 +1590,7 @@ manufacturing security topics.
 
 <tr id="tr-chen2015early" >
 <td align='right'>
-42.
+43.
 </td>
 <td>
 <a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'><img src="images/publications/chen2015early.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1573,7 +1619,7 @@ simplify the creation of similar applications.
 
 <tr id="tr-hu2014case" >
 <td align='right'>
-43.
+44.
 </td>
 <td>
 <a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'><img src="images/publications/hu2014case.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1598,7 +1644,7 @@ demand, with little loss of application-level fidelity
 
 <tr id="tr-gao2015cloudlets" >
 <td align='right'>
-44.
+45.
 </td>
 <td>
 <a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'><img src="images/publications/gao2015cloudlets.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1627,7 +1673,7 @@ consumption in a mobile device by up to 42% compared to cloud offload.
 
 <tr id="tr-ha2015adaptive" >
 <td align='right'>
-45.
+46.
 </td>
 <td>
 <a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'><img src="images/publications/ha2015adaptive.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1656,7 +1702,7 @@ changing network conditions and processing capacity
 
 <tr id="tr-andrew2014global" >
 <td align='right'>
-46.
+47.
 </td>
 <td>
 <a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'><img src="images/publications/andrew2014global.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
@@ -1687,7 +1733,7 @@ compared.
 
 <tr id="tr-amos2013applying" >
 <td align='right'>
-47.
+48.
 </td>
 <td>
 <a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'><img src="images/publications/amos2013applying.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
