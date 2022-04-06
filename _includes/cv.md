@@ -178,7 +178,7 @@ Representative publications that I am a primary author on are
 1.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2202.00665' target='_blank'><img src="images/publications/amos2022tutorial.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/2202.00665' target='_blank'><img src="images/publications/amos2022tutorial.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2202.00665' target='_blank'>Tutorial on amortized optimization for learning to optimize over continuous domains</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_amos2022tutorial").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/amortized-optimization-tutorial' target='_blank'>code</a>] <br>
@@ -218,7 +218,7 @@ objective-based loss.
 2.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2110.03684' target='_blank'><img src="images/publications/fickinger2021crossdomain.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/2110.03684' target='_blank'><img src="images/publications/fickinger2021crossdomain.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2110.03684' target='_blank'>Cross-Domain Imitation Learning via Optimal Transport</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_fickinger2021crossdomain").toggle()'>abs</a>]<br>
@@ -256,7 +256,7 @@ state-action space.
 3.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2203.06832' target='_blank'><img src="images/publications/chen2022semi.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/2203.06832' target='_blank'><img src="images/publications/chen2022semi.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2203.06832' target='_blank'>Semi-Discrete Normalizing Flows through Differentiable Tessellation</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_chen2022semi").toggle()'>abs</a>]<br>
@@ -305,7 +305,7 @@ to a baseline model.
 4.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2008.12775' target='_blank'><img src="images/publications/amos2021modelbased.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/2008.12775' target='_blank'><img src="images/publications/amos2021modelbased.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2008.12775' target='_blank'>On the model-based stochastic value gradient for continuous reinforcement learning</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_amos2021modelbased").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/svg' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2021.svg.pdf' target='_blank'>slides</a>] <br>
@@ -352,7 +352,7 @@ an ensemble.
 5.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2106.10272' target='_blank'><img src="images/publications/cohen2021riemannian.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/2106.10272' target='_blank'><img src="images/publications/cohen2021riemannian.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2106.10272' target='_blank'>Riemannian Convex Potential Maps</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_cohen2021riemannian").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/rcpm' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2021.rcpm.pdf' target='_blank'>slides</a>] <br>
@@ -383,7 +383,7 @@ model standard distributions on spheres, and tori, on synthetic and geological d
 6.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2105.02343' target='_blank'><img src="images/publications/paulus2021comboptnet.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/2105.02343' target='_blank'><img src="images/publications/paulus2021comboptnet.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2105.02343' target='_blank'>CombOptNet: Fit the Right NP-Hard Problem by Learning Integer Programming Constraints</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_paulus2021comboptnet").toggle()'>abs</a>] [<a href='https://github.com/martius-lab/CombOptNet' target='_blank'>code</a>] <br>
@@ -420,7 +420,7 @@ vision keypoint matching benchmark.
 7.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2109.15316' target='_blank'><img src="images/publications/fickinger2021scalable.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/2109.15316' target='_blank'><img src="images/publications/fickinger2021scalable.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2109.15316' target='_blank'>Scalable Online Planning via Reinforcement Learning Fine-Tuning</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_fickinger2021scalable").toggle()'>abs</a>]<br>
@@ -454,7 +454,7 @@ tabular search in the Atari game Ms. Pacman.
 8.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2006.12648' target='_blank'><img src="images/publications/cohen2020aligning.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/2006.12648' target='_blank'><img src="images/publications/cohen2020aligning.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2006.12648' target='_blank'>Aligning Time Series on Incomparable Spaces</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_cohen2020aligning").toggle()'>abs</a>] [<a href='https://github.com/samcohen16/Aligning-Time-Series' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2021.gdtw.pdf' target='_blank'>slides</a>] <br>
@@ -491,7 +491,7 @@ imitation learning.
 9.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2011.03902' target='_blank'><img src="images/publications/chen2021learning.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/2011.03902' target='_blank'><img src="images/publications/chen2021learning.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2011.03902' target='_blank'>Learning Neural Event Functions for Ordinary Differential Equations</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_chen2021learning").toggle()'>abs</a>] [<a href='https://github.com/rtqichen/torchdiffeq' target='_blank'>code</a>] <br>
@@ -523,7 +523,7 @@ with applications in discrete control.
 10.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2011.04583' target='_blank'><img src="images/publications/chen2021neural.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/2011.04583' target='_blank'><img src="images/publications/chen2021neural.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2011.04583' target='_blank'>Neural Spatio-Temporal Point Processes</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_chen2021neural").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/neural_stpp' target='_blank'>code</a>] <br>
@@ -556,7 +556,7 @@ mobility, and neuroscience.
 11.
 </td>
 <td>
-<a href='https://arxiv.org/abs/1910.01741' target='_blank'><img src="images/publications/yarats2021improving.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/1910.01741' target='_blank'><img src="images/publications/yarats2021improving.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/1910.01741' target='_blank'>Improving Sample Efficiency in Model-Free Reinforcement Learning from Images</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_yarats2021improving").toggle()'>abs</a>] [<a href='https://sites.google.com/view/sac-ae' target='_blank'>code</a>] <br>
@@ -597,7 +597,7 @@ future research on image-based RL.
 12.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2107.10254' target='_blank'><img src="images/publications/venkataraman2021neural.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/2107.10254' target='_blank'><img src="images/publications/venkataraman2021neural.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2107.10254' target='_blank'>Neural Fixed-Point Acceleration for Convex Optimization</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_venkataraman2021neural").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/neural-scs' target='_blank'>code</a>] <br>
@@ -630,7 +630,7 @@ optimization problem expressible with CVXPY.
 13.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2102.07115' target='_blank'><img src="images/publications/cohen2021sliced.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/2102.07115' target='_blank'><img src="images/publications/cohen2021sliced.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2102.07115' target='_blank'>Sliced Multi-Marginal Optimal Transport</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_cohen2021sliced").toggle()'>abs</a>]<br>
@@ -672,7 +672,7 @@ multi-dynamics reinforcement learning problems.
 14.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2111.12187' target='_blank'><img src="images/publications/richterpowell2021input.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/2111.12187' target='_blank'><img src="images/publications/richterpowell2021input.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2111.12187' target='_blank'>Input Convex Gradient Networks</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_richterpowell2021input").toggle()'>abs</a>]<br>
@@ -708,7 +708,7 @@ from Riemannian geometry.
 15.
 </td>
 <td>
-<a href='https://openreview.net/pdf?id=Xe5MFhFvYGX' target='_blank'><img src="images/publications/cohen2021imitation.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://openreview.net/pdf?id=Xe5MFhFvYGX' target='_blank'><img src="images/publications/cohen2021imitation.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://openreview.net/pdf?id=Xe5MFhFvYGX' target='_blank'>Imitation Learning from Pixel Observations for Continuous Control</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_cohen2021imitation").toggle()'>abs</a>]<br>
@@ -745,7 +745,7 @@ our methods and expert demonstrations.
 16.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2104.10159' target='_blank'><img src="images/publications/pineda2021mbrl.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/2104.10159' target='_blank'><img src="images/publications/pineda2021mbrl.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2104.10159' target='_blank'>MBRL-Lib: A Modular Library for Model-based Reinforcement Learning</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_pineda2021mbrl").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/mbrl-lib' target='_blank'>code</a>] <br>
@@ -780,7 +780,7 @@ deploying state-of-the-art algorithms.
 17.
 </td>
 <td>
-<a href='https://arxiv.org/abs/1909.12830' target='_blank'><img src="images/publications/amos2020differentiable.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/1909.12830' target='_blank'><img src="images/publications/amos2020differentiable.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/1909.12830' target='_blank'>The Differentiable Cross-Entropy Method</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_amos2020differentiable").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/dcem' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2020.dcem.pdf' target='_blank'>slides</a>] <br>
@@ -815,7 +815,7 @@ towards combining model-based and model-free RL.
 18.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2002.04523' target='_blank'><img src="images/publications/lambert2020objective.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/2002.04523' target='_blank'><img src="images/publications/lambert2020objective.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2002.04523' target='_blank'>Objective Mismatch in Model-based Reinforcement Learning</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_lambert2020objective").toggle()'>abs</a>]<br>
@@ -835,7 +835,7 @@ Model-based reinforcement learning (MBRL) has been shown to be a powerful framew
 19.
 </td>
 <td>
-<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'><img src="images/publications/amos2020QNSTOP.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'><img src="images/publications/amos2020QNSTOP.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>QNSTOP: Quasi-Newton Algorithm for Stochastic Optimization</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_amos2020QNSTOP").toggle()'>abs</a>] [<a href='https://github.com/vtopt/qnstop' target='_blank'>code</a>] <br>
@@ -863,7 +863,7 @@ biology problems is given.
 20.
 </td>
 <td>
-<a href='https://www.biorxiv.org/content/10.1101/2021.04.08.439084v1.abstract' target='_blank'><img src="images/publications/sercu2020neural.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://www.biorxiv.org/content/10.1101/2021.04.08.439084v1.abstract' target='_blank'><img src="images/publications/sercu2020neural.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://www.biorxiv.org/content/10.1101/2021.04.08.439084v1.abstract' target='_blank'>Neural Potts Model</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_sercu2020neural").toggle()'>abs</a>]<br>
@@ -897,7 +897,7 @@ database with broad coverage of protein sequences.
 21.
 </td>
 <td>
-<a href='https://drive.google.com/file/d/1Ewro0Ne1tvK15nHyYopY4wZ59QTVB-1c/view' target='_blank'><img src="images/publications/lou2020riemannian.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://drive.google.com/file/d/1Ewro0Ne1tvK15nHyYopY4wZ59QTVB-1c/view' target='_blank'><img src="images/publications/lou2020riemannian.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://drive.google.com/file/d/1Ewro0Ne1tvK15nHyYopY4wZ59QTVB-1c/view' target='_blank'>Deep Riemannian Manifold Learning</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_lou2020riemannian").toggle()'>abs</a>]<br>
@@ -927,7 +927,7 @@ in graph embedding tasks.
 22.
 </td>
 <td>
-<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'><img src="images/publications/amos2019differentiable.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'><img src="images/publications/amos2019differentiable.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>Differentiable Optimization-Based Modeling for Machine Learning</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_amos2019differentiable").toggle()'>abs</a>] [<a href='https://github.com/bamos/thesis' target='_blank'>code</a>] <br>
@@ -960,7 +960,7 @@ enables rapid prototyping of the approaches in this thesis.
 23.
 </td>
 <td>
-<a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'><img src="images/publications/amos2019differentiable3.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'><img src="images/publications/amos2019differentiable3.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'>Differentiable Convex Optimization Layers</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_amos2019differentiable3").toggle()'>abs</a>] [<a href='https://github.com/cvxgrp/cvxpylayers' target='_blank'>code</a>] <br>
@@ -980,7 +980,7 @@ Recent work has shown how to embed differentiable optimization problems (that is
 24.
 </td>
 <td>
-<a href='https://arxiv.org/abs/1906.08707' target='_blank'><img src="images/publications/amos2019limited.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/1906.08707' target='_blank'><img src="images/publications/amos2019limited.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/1906.08707' target='_blank'>The Limited Multi-Label Projection Layer</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_amos2019limited").toggle()'>abs</a>] [<a href='https://github.com/locuslab/lml' target='_blank'>code</a>] <br>
@@ -1011,7 +1011,7 @@ classification.
 25.
 </td>
 <td>
-<a href='https://arxiv.org/abs/1910.01727' target='_blank'><img src="images/publications/grefenstette2019generalized.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/1910.01727' target='_blank'><img src="images/publications/grefenstette2019generalized.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/1910.01727' target='_blank'>Generalized Inner Loop Meta-Learning</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_grefenstette2019generalized").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/higher' target='_blank'>code</a>] <br>
@@ -1048,7 +1048,7 @@ facilitate.
 26.
 </td>
 <td>
-<a href='https://arxiv.org/abs/1804.06318' target='_blank'><img src="images/publications/amos2018learning.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/1804.06318' target='_blank'><img src="images/publications/amos2018learning.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/1804.06318' target='_blank'>Learning Awareness Models</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_amos2018learning").toggle()'>abs</a>]<br>
@@ -1090,7 +1090,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
 27.
 </td>
 <td>
-<a href='https://arxiv.org/abs/1810.13400' target='_blank'><img src="images/publications/amos2018end.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://arxiv.org/abs/1810.13400' target='_blank'><img src="images/publications/amos2018end.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/1810.13400' target='_blank'>Differentiable MPC for End-to-end Planning and Control</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_amos2018end").toggle()'>abs</a>] [<a href='https://locuslab.github.io/mpc.pytorch/' target='_blank'>code</a>] <br>
@@ -1110,7 +1110,7 @@ In this paper we present foundations for using model predictive control (MPC) as
 28.
 </td>
 <td>
-<a href='http://arxiv.org/abs/1805.08195' target='_blank'><img src="images/publications/brown2018depth.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='http://arxiv.org/abs/1805.08195' target='_blank'><img src="images/publications/brown2018depth.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='http://arxiv.org/abs/1805.08195' target='_blank'>Depth-Limited Solving for Imperfect-Information Games</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_brown2018depth").toggle()'>abs</a>]<br>
@@ -1130,7 +1130,7 @@ A fundamental challenge in imperfect-information games is that states do not hav
 29.
 </td>
 <td>
-<a href='https://dl.acm.org/citation.cfm?id=3209659' target='_blank'><img src="images/publications/wang2018enabling.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://dl.acm.org/citation.cfm?id=3209659' target='_blank'><img src="images/publications/wang2018enabling.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://dl.acm.org/citation.cfm?id=3209659' target='_blank'>Enabling Live Video Analytics with a Scalable and Privacy-Aware Framework</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_wang2018enabling").toggle()'>abs</a>]<br>
@@ -1167,7 +1167,7 @@ video streams and analytics services.
 30.
 </td>
 <td>
-<a href='http://arxiv.org/abs/1703.00443' target='_blank'><img src="images/publications/amos2017optnet.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='http://arxiv.org/abs/1703.00443' target='_blank'><img src="images/publications/amos2017optnet.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='http://arxiv.org/abs/1703.00443' target='_blank'>OptNet: Differentiable Optimization as a Layer in Neural Networks</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_amos2017optnet").toggle()'>abs</a>] [<a href='https://github.com/locuslab/optnet' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2017.optnet.pdf' target='_blank'>slides</a>] <br>
@@ -1206,7 +1206,7 @@ constraints better than other neural architectures.
 31.
 </td>
 <td>
-<a href='http://arxiv.org/abs/1609.07152' target='_blank'><img src="images/publications/amos2017input.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='http://arxiv.org/abs/1609.07152' target='_blank'><img src="images/publications/amos2017input.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='http://arxiv.org/abs/1609.07152' target='_blank'>Input Convex Neural Networks</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_amos2017input").toggle()'>abs</a>] [<a href='https://github.com/locuslab/icnn' target='_blank'>code</a>]  [<a href='http://bamos.github.io/data/slides/2017.icnn.pdf' target='_blank'>slides</a>] <br>
@@ -1241,7 +1241,7 @@ improvement over the existing state of the art in many cases.
 32.
 </td>
 <td>
-<a href='http://arxiv.org/abs/1703.04529' target='_blank'><img src="images/publications/donti2017task.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='http://arxiv.org/abs/1703.04529' target='_blank'><img src="images/publications/donti2017task.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='http://arxiv.org/abs/1703.04529' target='_blank'>Task-based End-to-end Model Learning</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_donti2017task").toggle()'>abs</a>] [<a href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a>] <br>
@@ -1273,7 +1273,7 @@ approach and a purely black-box policy optimization approach.
 33.
 </td>
 <td>
-<a href='https://par.nsf.gov/servlets/purl/10111392' target='_blank'><img src="images/publications/chen2017quasi.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://par.nsf.gov/servlets/purl/10111392' target='_blank'><img src="images/publications/chen2017quasi.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://par.nsf.gov/servlets/purl/10111392' target='_blank'>Quasi-Newton Stochastic Optimization Algorithm for Parameter Estimation of a Stochastic Model of the Budding Yeast Cell Cycle</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_chen2017quasi").toggle()'>abs</a>]<br>
@@ -1315,7 +1315,7 @@ stochastic model.
 34.
 </td>
 <td>
-<a href='https://dl.acm.org/doi/10.1145/3132211.3134453' target='_blank'><img src="images/publications/ha2017you.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://dl.acm.org/doi/10.1145/3132211.3134453' target='_blank'><img src="images/publications/ha2017you.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://dl.acm.org/doi/10.1145/3132211.3134453' target='_blank'>You can teach elephants to dance: agile VM handoff for edge computing</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_ha2017you").toggle()'>abs</a>]<br>
@@ -1346,7 +1346,7 @@ than live migration at those bandwidths.
 35.
 </td>
 <td>
-<a href='https://www.cs.cmu.edu/~zhuoc/papers/latency2017.pdf' target='_blank'><img src="images/publications/chen2017empirical.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://www.cs.cmu.edu/~zhuoc/papers/latency2017.pdf' target='_blank'><img src="images/publications/chen2017empirical.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://www.cs.cmu.edu/~zhuoc/papers/latency2017.pdf' target='_blank'>An Empirical Study of Latency in an Emerging Class of Edge Computing Applications for Wearable Cognitive Assistance</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_chen2017empirical").toggle()'>abs</a>]<br>
@@ -1377,7 +1377,7 @@ computing is crucial to meeting these targets.
 36.
 </td>
 <td>
-<a href='http://elijah.cs.cmu.edu/DOCS/wang-mmsys2017.pdf' target='_blank'><img src="images/publications/wang2017scalable.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='http://elijah.cs.cmu.edu/DOCS/wang-mmsys2017.pdf' target='_blank'><img src="images/publications/wang2017scalable.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='http://elijah.cs.cmu.edu/DOCS/wang-mmsys2017.pdf' target='_blank'>A Scalable and Privacy-Aware IoT Service for Live Video Analytics</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_wang2017scalable").toggle()'>abs</a>] [<a href='http://cmusatyalab.github.io/openface/' target='_blank'>code</a>] <br>
@@ -1406,7 +1406,7 @@ retrospective policy exceptions. Finally, we present a scalable, privacy-aware a
 37.
 </td>
 <td>
-<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'><img src="images/publications/amos2016openface.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'><img src="images/publications/amos2016openface.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'>OpenFace: A general-purpose face recognition library with mobile applications</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_amos2016openface").toggle()'>abs</a>] [<a href='https://cmusatyalab.github.io/openface' target='_blank'>code</a>] <br>
@@ -1439,7 +1439,7 @@ the Apache 2.0 license. It is available at:
 38.
 </td>
 <td>
-<a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'><img src="images/publications/zhao2016collapsed.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'><img src="images/publications/zhao2016collapsed.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'>Collapsed Variational Inference for Sum-Product Networks</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_zhao2016collapsed").toggle()'>abs</a>]<br>
@@ -1472,7 +1472,7 @@ with a maximum likelihood based approach.
 39.
 </td>
 <td>
-<a href='https://dl.acm.org/doi/10.1145/2967360.2967369' target='_blank'><img src="images/publications/hu2016quantifying.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://dl.acm.org/doi/10.1145/2967360.2967369' target='_blank'><img src="images/publications/hu2016quantifying.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://dl.acm.org/doi/10.1145/2967360.2967369' target='_blank'>Quantifying the impact of edge computing on mobile applications</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_hu2016quantifying").toggle()'>abs</a>]<br>
@@ -1499,7 +1499,7 @@ for highly interactive mobile applications.
 40.
 </td>
 <td>
-<a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf' target='_blank'><img src="images/publications/davies2016privacy.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf' target='_blank'><img src="images/publications/davies2016privacy.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf' target='_blank'>Privacy mediators: helping IoT cross the chasm</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_davies2016privacy").toggle()'>abs</a>]<br>
@@ -1536,7 +1536,7 @@ and organizational boundaries of trust and responsibility.
 41.
 </td>
 <td>
-<a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'><img src="images/publications/satyanarayanan2015edge.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'><img src="images/publications/satyanarayanan2015edge.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'>Edge Analytics in the Internet of Things</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_satyanarayanan2015edge").toggle()'>abs</a>]<br>
@@ -1565,7 +1565,7 @@ is part of a special issue on smart spaces.
 42.
 </td>
 <td>
-<a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094' target='_blank'><img src="images/publications/turner2015bad.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094' target='_blank'><img src="images/publications/turner2015bad.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094' target='_blank'>Bad Parts: Are Our Manufacturing Systems at Risk of Silent Cyberattacks?</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_turner2015bad").toggle()'>abs</a>]<br>
@@ -1593,7 +1593,7 @@ manufacturing security topics.
 43.
 </td>
 <td>
-<a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'><img src="images/publications/chen2015early.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'><img src="images/publications/chen2015early.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'>Early Implementation Experience with Wearable Cognitive Assistance Applications</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_chen2015early").toggle()'>abs</a>]<br>
@@ -1622,7 +1622,7 @@ simplify the creation of similar applications.
 44.
 </td>
 <td>
-<a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'><img src="images/publications/hu2014case.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'><img src="images/publications/hu2014case.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'>The Case for Offload Shaping</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_hu2014case").toggle()'>abs</a>]<br>
@@ -1647,7 +1647,7 @@ demand, with little loss of application-level fidelity
 45.
 </td>
 <td>
-<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'><img src="images/publications/gao2015cloudlets.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'><img src="images/publications/gao2015cloudlets.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'>Are Cloudlets Necessary?</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_gao2015cloudlets").toggle()'>abs</a>]<br>
@@ -1676,7 +1676,7 @@ consumption in a mobile device by up to 42% compared to cloud offload.
 46.
 </td>
 <td>
-<a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'><img src="images/publications/ha2015adaptive.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'><img src="images/publications/ha2015adaptive.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'>Adaptive VM handoff across cloudlets</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_ha2015adaptive").toggle()'>abs</a>]<br>
@@ -1705,7 +1705,7 @@ changing network conditions and processing capacity
 47.
 </td>
 <td>
-<a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'><img src="images/publications/andrew2014global.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'><img src="images/publications/andrew2014global.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Global Parameter Estimation for a Eukaryotic Cell Cycle Model in Systems Biology</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_andrew2014global").toggle()'>abs</a>]<br>
@@ -1736,7 +1736,7 @@ compared.
 48.
 </td>
 <td>
-<a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'><img src="images/publications/amos2013applying.png" onerror="this.style.display='none'" style='border: none; max-height: 125px; float: right; padding-top: 0; margin-top: 0; padding-bottom: 0; margin-bottom: 0; margin-left: 1em; '/></a> 
+<a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'><img src="images/publications/amos2013applying.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'>Applying machine learning classifiers to dynamic Android malware detection at scale</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_amos2013applying").toggle()'>abs</a>] [<a href='https://github.com/VT-Magnum-Research/antimalware' target='_blank'>code</a>] <br>
