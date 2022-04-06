@@ -72,3 +72,26 @@ img {
         margin-right: auto;
     }
 }
+
+.publicationImg {
+    border: none;
+    max-height: 125px;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    .publicationImg {
+        margin-left: 0em;
+        display: block;
+    }
+}
+
+@media (min-width: 767px) {
+    .publicationImg {
+        float: right;
+        margin-left: 1em;
+    }
+}
