@@ -602,7 +602,7 @@ future research on image-based RL.
 [<a href='javascript:;'
     onclick='$("#abs_venkataraman2021neural").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/neural-scs' target='_blank'>code</a>] <br>
 <a href='https://scholar.google.com/citations?user=BFWurDEAAAAJ' target='_blank'>Shobha&nbsp;Venkataraman*</a> and <strong>Brandon&nbsp;Amos*</strong><br>
-ICML AutoML 2021  <br>
+ICML AutoML Workshop 2021  <br>
 
 <div id="abs_venkataraman2021neural" style="text-align: justify; display: none" markdown="1">
 Fixed-point iterations are at the heart of numerical computing and
@@ -635,7 +635,7 @@ optimization problem expressible with CVXPY.
 [<a href='javascript:;'
     onclick='$("#abs_cohen2021sliced").toggle()'>abs</a>]<br>
 <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <a href='https://avt.im/' target='_blank'>Alexander&nbsp;Terenin</a>, <a href='https://scholar.google.com/citations?user=jmM-JlIAAAAJ' target='_blank'>Yannik&nbsp;Pitcan</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://deisenroth.cc/' target='_blank'>Marc&nbsp;Peter&nbsp;Deisenroth</a>, and <a href='https://scholar.google.co.in/citations?user=FPVUA-YAAAAJ' target='_blank'>K&nbsp;S&nbsp;Sesh&nbsp;Kumar</a><br>
-NeurIPS OTML 2021  <br>
+NeurIPS OTML Workshop 2021  <br>
 
 <div id="abs_cohen2021sliced" style="text-align: justify; display: none" markdown="1">
 Multi-marginal optimal transport enables one to compare multiple
@@ -677,7 +677,7 @@ multi-dynamics reinforcement learning problems.
 [<a href='javascript:;'
     onclick='$("#abs_richterpowell2021input").toggle()'>abs</a>]<br>
 <a href='https://scholar.google.com/citations?hl=es&user=L78pVMMAAAAJ' target='_blank'>Jack&nbsp;Richter-Powell</a>, <a href='https://scholar.google.com/citations?user=Hzf8bu0AAAAJ' target='_blank'>Jonathan&nbsp;Lorraine</a>, and <strong>Brandon&nbsp;Amos</strong><br>
-NeurIPS OTML 2021  <br>
+NeurIPS OTML Workshop 2021  <br>
 
 <div id="abs_richterpowell2021input" style="text-align: justify; display: none" markdown="1">
 The gradients of convex functions are expressive models of non-trivial
@@ -713,7 +713,7 @@ from Riemannian geometry.
 [<a href='javascript:;'
     onclick='$("#abs_cohen2021imitation").toggle()'>abs</a>]<br>
 <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://deisenroth.cc/' target='_blank'>Marc&nbsp;Peter&nbsp;Deisenroth</a>, <a href='http://www.mikaelhenaff.com/' target='_blank'>Mikael&nbsp;Henaff</a>, <a href='https://eugenevinitsky.github.io' target='_blank'>Eugene&nbsp;Vinitsky</a>, and <a href='https://cs.nyu.edu/~dy1042/' target='_blank'>Denis&nbsp;Yarats</a><br>
-NeurIPS DeepRL 2021  <br>
+NeurIPS DeepRL Workshop 2021  <br>
 
 <div id="abs_cohen2021imitation" style="text-align: justify; display: none" markdown="1">
 We study imitation learning from visual observations only for
@@ -902,7 +902,7 @@ database with broad coverage of protein sequences.
 [<a href='javascript:;'
     onclick='$("#abs_lou2020riemannian").toggle()'>abs</a>]<br>
 <a href='https://www.aaronlou.com/' target='_blank'>Aaron&nbsp;Lou</a>, <a href='https://mnick.github.io/' target='_blank'>Maximilian&nbsp;Nickel</a>, and <strong>Brandon&nbsp;Amos</strong><br>
-NeurIPS Geo4dl 2020  <br>
+NeurIPS Geo4dl Workshop 2020  <br>
 
 <div id="abs_lou2020riemannian" style="text-align: justify; display: none" markdown="1">
 We present a new class of learnable Riemannian manifolds with a metric
