@@ -1,4 +1,4 @@
- I am a research scientist at <b>Facebook AI (FAIR)</b> in NYC and study foundational topics in <b>machine learning</b> and <b>optimization</b>, recently involving reinforcement learning, control, optimal transport, and geometry. My research is on learning systems that understand and interact with our world and focuses on integrating structural information and domain knowledge into these systems to represent non-trivial reasoning operations. A key theme of my work in this space involves the use of optimization as a differentiable building block in larger architectures that are end-to-end learned. I believe that science should be open and reproducible and freely publish my research code to <a href="https://github.com/bamos" target="_blank">GitHub</a>. <br><br>
+ I am a research scientist at <b>Meta AI (FAIR)</b> in NYC and study foundational topics in <b>machine learning</b> and <b>optimization</b>, recently involving reinforcement learning, control, optimal transport, and geometry. My research is on learning systems that understand and interact with our world and focuses on integrating structural information and domain knowledge into these systems to represent non-trivial reasoning operations. A key theme of my work in this space involves the use of optimization as a differentiable building block in larger architectures that are end-to-end learned. I believe that science should be open and reproducible and freely publish my research code to <a href="https://github.com/bamos" target="_blank">GitHub</a>. <br><br>
 
 
 ## <i class="fa fa-chevron-right"></i> Education
@@ -221,7 +221,7 @@ objective-based loss.
 <a href='https://arxiv.org/abs/2110.03684' target='_blank'><img src="images/publications/fickinger2021crossdomain.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2110.03684' target='_blank'>Cross-Domain Imitation Learning via Optimal Transport</a> </em> 
 [<a href='javascript:;'
-    onclick='$("#abs_fickinger2021crossdomain").toggle()'>abs</a>]<br>
+    onclick='$("#abs_fickinger2021crossdomain").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/gwil' target='_blank'>code</a>] <br>
 <a href='https://scholar.google.com/citations?user=bBFN_qwAAAAJ' target='_blank'>Arnaud&nbsp;Fickinger</a>, <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <a href='http://people.eecs.berkeley.edu/~russell/' target='_blank'>Stuart&nbsp;Russell</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 ICLR 2022  <br>
 
