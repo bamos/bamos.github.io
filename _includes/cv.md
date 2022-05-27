@@ -1786,6 +1786,28 @@ malware machine learning classifiers.
 </tr>
 <tr>
   <td>
+    <a href="https://github.com/facebookresearch/rcpm">facebookresearch/rcpm</a> |
+    <i class="fa fas fa-star"></i> 56 |
+    <em>Riemannian Convex Potential Maps</em>
+    <!--  -->
+    <!--     facebookresearch/rcpm  -->
+    <!--  -->
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2021</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/facebookresearch/svg">facebookresearch/svg</a> |
+    <i class="fa fas fa-star"></i> 39 |
+    <em>Model-based stochastic value gradient</em>
+    <!--  -->
+    <!--     facebookresearch/svg  -->
+    <!--  -->
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2021</td>
+</tr>
+<tr>
+  <td>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
     <i class="fa fas fa-star"></i> 618 |
     <em>Model-based reinforcement learning library</em>
