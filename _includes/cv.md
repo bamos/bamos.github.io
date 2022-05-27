@@ -31,84 +31,95 @@
 <table class="table table-hover">
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Carnegie Mellon University</em> (with <a href="http://zicokolter.com" target="_blank">J. Zico Kolter</a>)
-</p>
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Carnegie Mellon University</em><span markdown="1" style="color:grey;font-size:1.4rem;margin: 0">
+(with <a href="http://zicokolter.com" target="_blank">J. Zico Kolter</a> on ML and optimization)
+</span></p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2016&nbsp;-&nbsp;2019</td>
 </tr>
 <tr>
   <td>
 <p markdown="1" style='margin: 0'><strong>Research Intern</strong>, <em>Intel Labs</em>, Santa Clara
- (with <a href="http://vladlen.info/" target="_blank">Vladlen Koltun</a>)
-</p>
+<span markdown="1" style="color:grey;font-size:1.4rem;margin: 0">
+(with <a href="http://vladlen.info/" target="_blank">Vladlen Koltun</a> on computer vision)
+</span></p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
 <p markdown="1" style='margin: 0'><strong>Research Intern</strong>, <em>Google DeepMind</em>, London
- (with <a href="https://scholar.google.com/citations?user=nzEluBwAAAAJ" target="_blank">Nando de Freitas</a> and <a href="http://mdenil.com/" target="_blank">Misha Denil</a>)
-</p>
+<span markdown="1" style="color:grey;font-size:1.4rem;margin: 0">
+(with <a href="https://scholar.google.com/citations?user=nzEluBwAAAAJ" target="_blank">Nando de Freitas</a> and <a href="http://mdenil.com/" target="_blank">Misha Denil</a> on RL)
+</span></p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Carnegie Mellon University</em> (with <a href="https://www.cs.cmu.edu/~satya/" target="_blank">Mahadev Satyanarayanan</a>)
-</p>
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Carnegie Mellon University</em><span markdown="1" style="color:grey;font-size:1.4rem;margin: 0">
+(with <a href="https://www.cs.cmu.edu/~satya/" target="_blank">Mahadev Satyanarayanan</a> on mobile systems)
+</span></p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2014&nbsp;-&nbsp;2016</td>
 </tr>
 <tr>
   <td>
 <p markdown="1" style='margin: 0'><strong>Research Intern</strong>, <em>Adobe Research</em>, San Jose
- (with <a href="https://research.adobe.com/person/david-tompkins/" target="_blank">David Tompkins</a>)
-</p>
+<span markdown="1" style="color:grey;font-size:1.4rem;margin: 0">
+(with <a href="https://research.adobe.com/person/david-tompkins/" target="_blank">David Tompkins</a> on distributed systems)
+</span></p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2014</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Virginia Tech</em> (with <a href="https://people.cs.vt.edu/~ltw/shortvita.html" target="_blank">Layne Watson</a> and <a href="https://dblp.org/pid/75/8682.html" target="_blank">David Easterling</a>)
-</p>
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Virginia Tech</em><span markdown="1" style="color:grey;font-size:1.4rem;margin: 0">
+(with <a href="https://people.cs.vt.edu/~ltw/shortvita.html" target="_blank">Layne Watson</a> and <a href="https://dblp.org/pid/75/8682.html" target="_blank">David Easterling</a> on optimization)
+</span></p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2013&nbsp;-&nbsp;2014</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Virginia Tech</em> (with <a href="https://www.magnum.io/people/jules.html" target="_blank">Jules White</a> and <a href="https://scholar.google.com/citations?user=MRKab9cAAAAJ" target="_blank">Hamilton Turner</a>)
-</p>
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Virginia Tech</em><span markdown="1" style="color:grey;font-size:1.4rem;margin: 0">
+(with <a href="https://www.magnum.io/people/jules.html" target="_blank">Jules White</a> and <a href="https://scholar.google.com/citations?user=MRKab9cAAAAJ" target="_blank">Hamilton Turner</a> on mobile systems)
+</span></p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2012&nbsp;-&nbsp;2014</td>
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Virginia Tech</em> (with <a href="https://www.ssrg.ece.vt.edu/" target="_blank">Binoy Ravindran</a> and <a href="http://www.alastairmurray.co.uk/" target="_blank">Alastair Murray</a>)
-</p>
+<p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Virginia Tech</em><span markdown="1" style="color:grey;font-size:1.4rem;margin: 0">
+(with <a href="https://www.ssrg.ece.vt.edu/" target="_blank">Binoy Ravindran</a> and <a href="http://www.alastairmurray.co.uk/" target="_blank">Alastair Murray</a> on compilers)
+</span></p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2012&nbsp;-&nbsp;2014</td>
 </tr>
 <tr>
   <td>
 <p markdown="1" style='margin: 0'><strong>Software Intern</strong>, <em>Snowplow</em>, Remote
- (Scala development)
-</p>
+<span markdown="1" style="color:grey;font-size:1.4rem;margin: 0">
+(Scala development)
+</span></p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2013&nbsp;-&nbsp;2014</td>
 </tr>
 <tr>
   <td>
 <p markdown="1" style='margin: 0'><strong>Software Intern</strong>, <em>Qualcomm</em>, San Diego
- (Python and C++ development)
-</p>
+<span markdown="1" style="color:grey;font-size:1.4rem;margin: 0">
+(Python and C++ development)
+</span></p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2013</td>
 </tr>
 <tr>
   <td>
 <p markdown="1" style='margin: 0'><strong>Software Intern</strong>, <em>Phoenix Integration</em>, Virginia
- (C++, C\#, and Java development)
-</p>
+<span markdown="1" style="color:grey;font-size:1.4rem;margin: 0">
+(C++, C\#, and Java development)
+</span></p>
   </td>
   <td class='col-md-2' style='text-align:right;'>2012</td>
 </tr>
