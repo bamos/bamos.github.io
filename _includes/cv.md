@@ -2011,126 +2011,175 @@ malware machine learning classifiers.
 <table class="table table-hover">
 <tr>
   <td>
+     <em>End-to-end model learning for control</em>,
+        <a href="https://darl-workshop.github.io/">ICML Workshop on Decision Awareness in RL</a>
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2022</td>
+</tr>
+<tr>
+  <td>
+     <em>Differentiable optimization-based modeling for machine learning</em>,
+        <a href="https://sites.google.com/usc.edu/cpaior-2022/master_class">CPAIOR Master Class</a>
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2022</td>
+</tr>
+<tr>
+  <td>
+     <em>Amortized optimization and learning to optimize</em>,
+        ICCOPT
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2022</td>
+</tr>
+<tr>
+  <td>
+     <em>Modeling and learning paradigms for learning to optimize</em>,
+        SIAM MDS Minisymposium
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2022</td>
+</tr>
+<tr>
+  <td>
+     <em>Learning for control with differentiable optimization and ODEs</em>,
         Columbia University
   </td>
   <td class='col-md-2' style='text-align:right;'>2021</td>
 </tr>
 <tr>
   <td>
+     <em>Differentiable optimization-based modeling for machine learning</em>,
         IBM Research
   </td>
   <td class='col-md-2' style='text-align:right;'>2021</td>
 </tr>
 <tr>
   <td>
-        Max Planck Institute for Intelligent Systems (Tübingen) Seminar
+     <em>Differentiable optimization for control</em>,
+        Max Planck Institute (Tübingen)
   </td>
   <td class='col-md-2' style='text-align:right;'>2020</td>
 </tr>
 <tr>
   <td>
-        Montreal Institute for Learning Algorithms Seminar
+     <em>Differentiable optimization-based modeling for machine learning</em>,
+        Mila Seminar
   </td>
   <td class='col-md-2' style='text-align:right;'>2020</td>
 </tr>
 <tr>
   <td>
-        <a href="https://anucvml.github.io/ddn-eccvt2020/">ECCV Deep Declarative Networks Tutorial</a>
+     <em>Deep Declarative Networks</em>,
+        <a href="https://anucvml.github.io/ddn-eccvt2020/">ECCV Tutorial</a>
   </td>
   <td class='col-md-2' style='text-align:right;'>2020</td>
 </tr>
 <tr>
   <td>
+     <em>On differentiable optimization for control and vision</em>,
         <a href="https://anucvml.github.io/ddn-cvprw2020/">CVPR Deep Declarative Networks Workshop</a>
   </td>
   <td class='col-md-2' style='text-align:right;'>2020</td>
 </tr>
 <tr>
   <td>
-        <a href="https://sites.google.com/view/cs-159-spring-2020/lectures">Caltech CS 159, Guest Lecture</a>
+     <em>Differentiable optimization-based modeling for machine learning</em>,
+        <a href="https://sites.google.com/view/cs-159-spring-2020/lectures">Caltech CS 159 (Guest Lecture)</a>
   </td>
   <td class='col-md-2' style='text-align:right;'>2020</td>
 </tr>
 <tr>
   <td>
-        SIAM MDS Minisymposium on Learning Parameterized Energy Minimization Models
+     <em>Unrolled optimization for learning deep energy models</em>,
+        <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=67922">SIAM MDS Minisymposium</a>
   </td>
   <td class='col-md-2' style='text-align:right;'>2020</td>
 </tr>
 <tr>
   <td>
-        New York University CILVR Seminar
+     <em>Differentiable optimization-based modeling for machine learning</em>,
+        NYU CILVR Seminar
   </td>
   <td class='col-md-2' style='text-align:right;'>2019</td>
 </tr>
 <tr>
   <td>
-        INFORMS Session on Prediction and Optimization
+     <em>Differentiable optimization-based modeling for machine learning</em>,
+        INFORMS
   </td>
   <td class='col-md-2' style='text-align:right;'>2019</td>
 </tr>
 <tr>
   <td>
+     <em>Differentiable optimization-based modeling for machine learning</em>,
         Facebook AI Research
   </td>
   <td class='col-md-2' style='text-align:right;'>2019</td>
 </tr>
 <tr>
   <td>
-        ISMP Session on Machine Learning and Optimization
+     <em>Differentiable optimization-based modeling for machine learning</em>,
+        ISMP
   </td>
   <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
+     <em>Differentiable optimization-based modeling for machine learning</em>,
         Google Brain
   </td>
   <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
+     <em>Differentiable optimization-based modeling for machine learning</em>,
         Bosch Center for AI
   </td>
   <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
+     <em>Differentiable optimization-based modeling for machine learning</em>,
         Waymo Research
   </td>
   <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
+     <em>Differentiable optimization-based modeling for machine learning</em>,
         Tesla AI
   </td>
   <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
+     <em>Differentiable optimization-based modeling for machine learning</em>,
         NVIDIA Robotics
   </td>
   <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
+     <em>Differentiable optimization-based modeling for machine learning</em>,
         Salesforce Research
   </td>
   <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
+     <em>Differentiable optimization-based modeling for machine learning</em>,
         OpenAI
   </td>
   <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
+     <em>Differentiable optimization-based modeling for machine learning</em>,
         NNAISENSE
   </td>
   <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
   <td>
+     <em>Differentiable optimization and control</em>,
         UC Berkeley
   </td>
   <td class='col-md-2' style='text-align:right;'>2018</td>
