@@ -98,8 +98,7 @@
 </tr>
 <tr>
   <td>
-<p markdown="1" style='margin: 0'><strong>Software Intern</strong>, <em>Snowplow</em>, Remote
-<span markdown="1" style="color:grey;font-size:1.4rem;margin: 0">
+<p markdown="1" style='margin: 0'><strong>Software Intern</strong>, <em>Snowplow</em><span markdown="1" style="color:grey;font-size:1.4rem;margin: 0">
 (Scala development)
 </span></p>
   </td>
@@ -1973,6 +1972,17 @@ malware machine learning classifiers.
 </tr>
 <tr>
   <td>
+    <a href="https://github.com/bamos/snowglobe">bamos/snowglobe</a> |
+    <i class="fa fas fa-star"></i> 27 |
+    <em>Haskell-driven, self-hosted web analytics with minimal configuration</em>
+    <!--  -->
+    <!--     bamos/snowglobe  -->
+    <!--  -->
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2014</td>
+</tr>
+<tr>
+  <td>
     <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a> |
     <i class="fa fas fa-star"></i> 182 |
     <em>Analyze and plot your zsh history</em>
@@ -1981,6 +1991,28 @@ malware machine learning classifiers.
     <!--  -->
   </td>
   <td class='col-md-2' style='text-align:right;'>2014</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/bamos/beamer-snippets">bamos/beamer-snippets</a> |
+    <i class="fa fas fa-star"></i> 106 |
+    <em>Beamer and TikZ snippets</em>
+    <!--  -->
+    <!--     bamos/beamer-snippets  -->
+    <!--  -->
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2014</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/bamos/latex-templates">bamos/latex-templates</a> |
+    <i class="fa fas fa-star"></i> 355 |
+    <em>LaTeX templates.</em>
+    <!--  -->
+    <!--     bamos/latex-templates  -->
+    <!--  -->
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2013</td>
 </tr>
 <tr>
   <td>
@@ -2006,9 +2038,31 @@ malware machine learning classifiers.
 </tr>
 <tr>
   <td>
+    <a href="https://github.com/bamos/python-scripts">bamos/python-scripts</a> |
+    <i class="fa fas fa-star"></i> 196 |
+    <em>Short and fun Python scripts</em>
+    <!--  -->
+    <!--     bamos/python-scripts  -->
+    <!--  -->
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2013</td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/bamos/reading-list">bamos/reading-list</a> |
+    <i class="fa fas fa-star"></i> 185 |
+    <em>YAML reading list and notes system</em>
+    <!--  -->
+    <!--     bamos/reading-list  -->
+    <!--  -->
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2013</td>
+</tr>
+<tr>
+  <td>
     <a href="https://github.com/bamos/dotfiles">bamos/dotfiles</a> |
     <i class="fa fas fa-star"></i> 240 |
-    <em>Linux, mutt, xmonad, vim, emacs, zsh</em>
+    <em><i class="fa fas fa-heart"></i> Linux, xmonad, emacs, vim, zsh, tmux</em>
     <!--  -->
     <!--     bamos/dotfiles  -->
     <!--  -->
@@ -2255,13 +2309,13 @@ malware machine learning classifiers.
 </tr>
 <tr>
   <td>
-     <a href="https://anucvml.github.io/ddn-cvprw2020/">CVPR Deep Declarative Workshop Organizer</a>
+     <a href="https://anucvml.github.io/ddn-cvprw2020/">CVPR Deep Declarative Networks Workshop Organizer</a>
   <td class='col-md-2' style='text-align:right;'>2020</td>
   </td>
 </tr>
 <tr>
   <td>
-     <a href="https://anucvml.github.io/ddn-eccvt2020/">ECCV Deep Declarative Tutorial Organizer</a>
+     <a href="https://anucvml.github.io/ddn-eccvt2020/">ECCV Deep Declarative Networks Tutorial Organizer</a>
   <td class='col-md-2' style='text-align:right;'>2020</td>
   </td>
 </tr>
@@ -2351,7 +2405,7 @@ JAX, NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
   </td>
 </tr>
 <tr>
-  <td class='col-md-2'>Tools</td>
+  <td class='col-md-2'>Toolbox</td>
   <td>
 Linux, emacs, vim, evil, org, mu4e, xmonad, git, tmux, zsh
   </td>
