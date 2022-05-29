@@ -184,7 +184,7 @@ Representative publications that I am a primary author on are
 <table class="table table-hover">
 
 <tr id="tr-amos2022tutorial" style="background-color: #ffffd0">
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 1.
 </td>
 <td>
@@ -224,7 +224,7 @@ objective-based loss.
 
 
 <tr id="tr-fickinger2021crossdomain" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 2.
 </td>
 <td>
@@ -262,7 +262,7 @@ state-action space.
 
 
 <tr id="tr-chen2022semi" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 3.
 </td>
 <td>
@@ -311,7 +311,7 @@ to a baseline model.
 <table class="table table-hover">
 
 <tr id="tr-amos2021modelbased" style="background-color: #ffffd0">
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 4.
 </td>
 <td>
@@ -358,7 +358,7 @@ an ensemble.
 
 
 <tr id="tr-cohen2021riemannian" style="background-color: #ffffd0">
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 5.
 </td>
 <td>
@@ -389,7 +389,7 @@ model standard distributions on spheres, and tori, on synthetic and geological d
 
 
 <tr id="tr-paulus2021comboptnet" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 6.
 </td>
 <td>
@@ -426,7 +426,7 @@ vision keypoint matching benchmark.
 
 
 <tr id="tr-fickinger2021scalable" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 7.
 </td>
 <td>
@@ -460,7 +460,7 @@ tabular search in the Atari game Ms. Pacman.
 
 
 <tr id="tr-cohen2020aligning" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 8.
 </td>
 <td>
@@ -497,7 +497,7 @@ imitation learning.
 
 
 <tr id="tr-chen2021learning" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 9.
 </td>
 <td>
@@ -529,7 +529,7 @@ with applications in discrete control.
 
 
 <tr id="tr-chen2021neural" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 10.
 </td>
 <td>
@@ -562,7 +562,7 @@ mobility, and neuroscience.
 
 
 <tr id="tr-yarats2021improving" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 11.
 </td>
 <td>
@@ -603,7 +603,7 @@ future research on image-based RL.
 
 
 <tr id="tr-venkataraman2021neural" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 12.
 </td>
 <td>
@@ -636,7 +636,7 @@ optimization problem expressible with CVXPY.
 
 
 <tr id="tr-cohen2021sliced" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 13.
 </td>
 <td>
@@ -678,7 +678,7 @@ multi-dynamics reinforcement learning problems.
 
 
 <tr id="tr-richterpowell2021input" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 14.
 </td>
 <td>
@@ -714,7 +714,7 @@ from Riemannian geometry.
 
 
 <tr id="tr-cohen2021imitation" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 15.
 </td>
 <td>
@@ -751,7 +751,7 @@ our methods and expert demonstrations.
 
 
 <tr id="tr-pineda2021mbrl" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 16.
 </td>
 <td>
@@ -786,7 +786,7 @@ deploying state-of-the-art algorithms.
 <table class="table table-hover">
 
 <tr id="tr-amos2020differentiable" style="background-color: #ffffd0">
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 17.
 </td>
 <td>
@@ -821,7 +821,7 @@ towards combining model-based and model-free RL.
 
 
 <tr id="tr-lambert2020objective" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 18.
 </td>
 <td>
@@ -841,7 +841,7 @@ Model-based reinforcement learning (MBRL) has been shown to be a powerful framew
 
 
 <tr id="tr-amos2020QNSTOP" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 19.
 </td>
 <td>
@@ -869,7 +869,7 @@ biology problems is given.
 
 
 <tr id="tr-sercu2020neural" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 20.
 </td>
 <td>
@@ -903,7 +903,7 @@ database with broad coverage of protein sequences.
 
 
 <tr id="tr-lou2020riemannian" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 21.
 </td>
 <td>
@@ -933,7 +933,7 @@ in graph embedding tasks.
 <table class="table table-hover">
 
 <tr id="tr-amos2019differentiable" style="background-color: #ffffd0">
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 22.
 </td>
 <td>
@@ -966,7 +966,7 @@ enables rapid prototyping of the approaches in this thesis.
 
 
 <tr id="tr-amos2019differentiable3" style="background-color: #ffffd0">
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 23.
 </td>
 <td>
@@ -986,7 +986,7 @@ Recent work has shown how to embed differentiable optimization problems (that is
 
 
 <tr id="tr-amos2019limited" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 24.
 </td>
 <td>
@@ -1017,7 +1017,7 @@ classification.
 
 
 <tr id="tr-grefenstette2019generalized" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 25.
 </td>
 <td>
@@ -1054,7 +1054,7 @@ facilitate.
 <table class="table table-hover">
 
 <tr id="tr-amos2018learning" style="background-color: #ffffd0">
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 26.
 </td>
 <td>
@@ -1096,7 +1096,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
 
 
 <tr id="tr-amos2018end" style="background-color: #ffffd0">
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 27.
 </td>
 <td>
@@ -1116,7 +1116,7 @@ In this paper we present foundations for using model predictive control (MPC) as
 
 
 <tr id="tr-brown2018depth" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 28.
 </td>
 <td>
@@ -1136,7 +1136,7 @@ A fundamental challenge in imperfect-information games is that states do not hav
 
 
 <tr id="tr-wang2018enabling" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 29.
 </td>
 <td>
@@ -1173,7 +1173,7 @@ video streams and analytics services.
 <table class="table table-hover">
 
 <tr id="tr-amos2017optnet" style="background-color: #ffffd0">
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 30.
 </td>
 <td>
@@ -1212,7 +1212,7 @@ constraints better than other neural architectures.
 
 
 <tr id="tr-amos2017input" style="background-color: #ffffd0">
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 31.
 </td>
 <td>
@@ -1247,7 +1247,7 @@ improvement over the existing state of the art in many cases.
 
 
 <tr id="tr-donti2017task" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 32.
 </td>
 <td>
@@ -1279,7 +1279,7 @@ approach and a purely black-box policy optimization approach.
 
 
 <tr id="tr-chen2017quasi" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 33.
 </td>
 <td>
@@ -1321,7 +1321,7 @@ stochastic model.
 
 
 <tr id="tr-ha2017you" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 34.
 </td>
 <td>
@@ -1352,7 +1352,7 @@ than live migration at those bandwidths.
 
 
 <tr id="tr-chen2017empirical" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 35.
 </td>
 <td>
@@ -1383,7 +1383,7 @@ computing is crucial to meeting these targets.
 
 
 <tr id="tr-wang2017scalable" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 36.
 </td>
 <td>
@@ -1412,7 +1412,7 @@ retrospective policy exceptions. Finally, we present a scalable, privacy-aware a
 <table class="table table-hover">
 
 <tr id="tr-amos2016openface" style="background-color: #ffffd0">
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 37.
 </td>
 <td>
@@ -1445,7 +1445,7 @@ the Apache 2.0 license. It is available at:
 
 
 <tr id="tr-zhao2016collapsed" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 38.
 </td>
 <td>
@@ -1478,7 +1478,7 @@ with a maximum likelihood based approach.
 
 
 <tr id="tr-hu2016quantifying" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 39.
 </td>
 <td>
@@ -1505,7 +1505,7 @@ for highly interactive mobile applications.
 
 
 <tr id="tr-davies2016privacy" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 40.
 </td>
 <td>
@@ -1542,7 +1542,7 @@ and organizational boundaries of trust and responsibility.
 <table class="table table-hover">
 
 <tr id="tr-satyanarayanan2015edge" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 41.
 </td>
 <td>
@@ -1571,7 +1571,7 @@ is part of a special issue on smart spaces.
 
 
 <tr id="tr-turner2015bad" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 42.
 </td>
 <td>
@@ -1599,7 +1599,7 @@ manufacturing security topics.
 
 
 <tr id="tr-chen2015early" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 43.
 </td>
 <td>
@@ -1628,7 +1628,7 @@ simplify the creation of similar applications.
 
 
 <tr id="tr-hu2014case" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 44.
 </td>
 <td>
@@ -1653,7 +1653,7 @@ demand, with little loss of application-level fidelity
 
 
 <tr id="tr-gao2015cloudlets" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 45.
 </td>
 <td>
@@ -1682,7 +1682,7 @@ consumption in a mobile device by up to 42% compared to cloud offload.
 
 
 <tr id="tr-ha2015adaptive" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 46.
 </td>
 <td>
@@ -1711,7 +1711,7 @@ changing network conditions and processing capacity
 
 
 <tr id="tr-andrew2014global" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 47.
 </td>
 <td>
@@ -1742,7 +1742,7 @@ compared.
 
 
 <tr id="tr-amos2013applying" >
-<td align='right'>
+<td align='right' style='padding-left:0;padding-right:0;'>
 48.
 </td>
 <td>
@@ -1773,6 +1773,7 @@ malware machine learning classifiers.
 ## <i class="fa fa-chevron-right"></i> Repositories
 <table class="table table-hover">
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>1.</td>
   <td>
     <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a> |
     <i class="fa fas fa-star"></i> 118 |
@@ -1784,6 +1785,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2022</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>2.</td>
   <td>
     <a href="https://github.com/facebookresearch/theseus">facebookresearch/theseus</a> |
     <i class="fa fas fa-star"></i> 252 |
@@ -1795,6 +1797,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2022</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>3.</td>
   <td>
     <a href="https://github.com/facebookresearch/rcpm">facebookresearch/rcpm</a> |
     <i class="fa fas fa-star"></i> 56 |
@@ -1806,6 +1809,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2021</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>4.</td>
   <td>
     <a href="https://github.com/facebookresearch/svg">facebookresearch/svg</a> |
     <i class="fa fas fa-star"></i> 39 |
@@ -1817,6 +1821,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2021</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>5.</td>
   <td>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
     <i class="fa fas fa-star"></i> 618 |
@@ -1828,6 +1833,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2021</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>6.</td>
   <td>
     <a href="https://github.com/facebookresearch/dcem">facebookresearch/dcem</a> |
     <i class="fa fas fa-star"></i> 104 |
@@ -1839,6 +1845,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2020</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>7.</td>
   <td>
     <a href="https://github.com/facebookresearch/higher">facebookresearch/higher</a> |
     <i class="fa fas fa-star"></i> 1.4k |
@@ -1850,6 +1857,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2019</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>8.</td>
   <td>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a> |
     <i class="fa fas fa-star"></i> 268 |
@@ -1861,6 +1869,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2019</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>9.</td>
   <td>
     <a href="https://github.com/cvxgrp/cvxpylayers">cvxgrp/cvxpylayers</a> |
     <i class="fa fas fa-star"></i> 1.3k |
@@ -1872,6 +1881,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2019</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>10.</td>
   <td>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
     <i class="fa fas fa-star"></i> 561 |
@@ -1883,6 +1893,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>11.</td>
   <td>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a> |
     <i class="fa fas fa-star"></i> 238 |
@@ -1894,6 +1905,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>12.</td>
   <td>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a> |
     <i class="fa fas fa-star"></i> 387 |
@@ -1905,6 +1917,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>13.</td>
   <td>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
     <i class="fa fas fa-star"></i> 526 |
@@ -1916,6 +1929,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>14.</td>
   <td>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a> |
     <i class="fa fas fa-star"></i> 753 |
@@ -1927,6 +1941,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>15.</td>
   <td>
     <a href="https://github.com/bamos/block">bamos/block</a> |
     <i class="fa fas fa-star"></i> 267 |
@@ -1938,6 +1953,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>16.</td>
   <td>
     <a href="https://github.com/bamos/setGPU">bamos/setGPU</a> |
     <i class="fa fas fa-star"></i> 101 |
@@ -1949,6 +1965,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>17.</td>
   <td>
     <a href="https://github.com/bamos/dcgan-completion.tensorflow">bamos/dcgan-completion.tensorflow</a> |
     <i class="fa fas fa-star"></i> 1.3k |
@@ -1960,6 +1977,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2016</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>18.</td>
   <td>
     <a href="https://github.com/cmusatyalab/openface">cmusatyalab/openface</a> |
     <i class="fa fas fa-star"></i> 14.4k |
@@ -1971,6 +1989,19 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2015</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>19.</td>
+  <td>
+    <a href="https://github.com/vtopt/qnstop">vtopt/qnstop</a> |
+    <i class="fa fas fa-star"></i> 10 |
+    <em>Fortran package for Quasi-newton stochastic optimization</em>
+    <!--  -->
+    <!--     vtopt/qnstop  -->
+    <!--  -->
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2014</td>
+</tr>
+<tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>20.</td>
   <td>
     <a href="https://github.com/bamos/snowglobe">bamos/snowglobe</a> |
     <i class="fa fas fa-star"></i> 27 |
@@ -1982,6 +2013,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2014</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>21.</td>
   <td>
     <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a> |
     <i class="fa fas fa-star"></i> 182 |
@@ -1993,6 +2025,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2014</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>22.</td>
   <td>
     <a href="https://github.com/bamos/beamer-snippets">bamos/beamer-snippets</a> |
     <i class="fa fas fa-star"></i> 106 |
@@ -2004,10 +2037,11 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2014</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>23.</td>
   <td>
     <a href="https://github.com/bamos/latex-templates">bamos/latex-templates</a> |
     <i class="fa fas fa-star"></i> 355 |
-    <em>LaTeX templates.</em>
+    <em>LaTeX templates</em>
     <!--  -->
     <!--     bamos/latex-templates  -->
     <!--  -->
@@ -2015,6 +2049,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2013</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>24.</td>
   <td>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a> |
     <i class="fa fas fa-star"></i> 248 |
@@ -2026,6 +2061,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2013</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>25.</td>
   <td>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
     <i class="fa fas fa-star"></i> 361 |
@@ -2037,6 +2073,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2013</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>26.</td>
   <td>
     <a href="https://github.com/bamos/python-scripts">bamos/python-scripts</a> |
     <i class="fa fas fa-star"></i> 196 |
@@ -2048,6 +2085,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2013</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>27.</td>
   <td>
     <a href="https://github.com/bamos/reading-list">bamos/reading-list</a> |
     <i class="fa fas fa-star"></i> 185 |
@@ -2059,6 +2097,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2013</td>
 </tr>
 <tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>28.</td>
   <td>
     <a href="https://github.com/bamos/dotfiles">bamos/dotfiles</a> |
     <i class="fa fas fa-star"></i> 240 |
@@ -2075,179 +2114,204 @@ malware machine learning classifiers.
 ## <i class="fa fa-chevron-right"></i> Invited Talks
 <table class="table table-hover">
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>1.</td>
+  <td style='padding-right:0;'>
      <em>End-to-end model learning for control</em>,
         <a href="https://darl-workshop.github.io/">ICML Workshop on Decision Awareness in RL</a>
   </td>
-  <td class='col-md-2' style='text-align:right;'>2022</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2022</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>2.</td>
+  <td style='padding-right:0;'>
      <em>Differentiable optimization-based modeling for machine learning</em>,
         <a href="https://sites.google.com/usc.edu/cpaior-2022/master_class">CPAIOR Master Class</a>
   </td>
-  <td class='col-md-2' style='text-align:right;'>2022</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2022</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>3.</td>
+  <td style='padding-right:0;'>
      <em>Amortized optimization and learning to optimize</em>,
         ICCOPT
   </td>
-  <td class='col-md-2' style='text-align:right;'>2022</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2022</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>4.</td>
+  <td style='padding-right:0;'>
      <em>Modeling and learning paradigms for learning to optimize</em>,
         SIAM MDS Minisymposium
   </td>
-  <td class='col-md-2' style='text-align:right;'>2022</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2022</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>5.</td>
+  <td style='padding-right:0;'>
      <em>Learning for control with differentiable optimization and ODEs</em>,
         Columbia University
   </td>
-  <td class='col-md-2' style='text-align:right;'>2021</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2021</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>6.</td>
+  <td style='padding-right:0;'>
      <em>Differentiable optimization-based modeling for machine learning</em>,
         IBM Research
   </td>
-  <td class='col-md-2' style='text-align:right;'>2021</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2021</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>7.</td>
+  <td style='padding-right:0;'>
      <em>Differentiable optimization for control</em>,
         Max Planck Institute (Tübingen)
   </td>
-  <td class='col-md-2' style='text-align:right;'>2020</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2020</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>8.</td>
+  <td style='padding-right:0;'>
      <em>Differentiable optimization-based modeling for machine learning</em>,
         Mila Seminar
   </td>
-  <td class='col-md-2' style='text-align:right;'>2020</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2020</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>9.</td>
+  <td style='padding-right:0;'>
      <em>Deep Declarative Networks</em>,
         <a href="https://anucvml.github.io/ddn-eccvt2020/">ECCV Tutorial</a>
   </td>
-  <td class='col-md-2' style='text-align:right;'>2020</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2020</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>10.</td>
+  <td style='padding-right:0;'>
      <em>On differentiable optimization for control and vision</em>,
         <a href="https://anucvml.github.io/ddn-cvprw2020/">CVPR Deep Declarative Networks Workshop</a>
   </td>
-  <td class='col-md-2' style='text-align:right;'>2020</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2020</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>11.</td>
+  <td style='padding-right:0;'>
      <em>Differentiable optimization-based modeling for machine learning</em>,
         <a href="https://sites.google.com/view/cs-159-spring-2020/lectures">Caltech CS 159 (Guest Lecture)</a>
   </td>
-  <td class='col-md-2' style='text-align:right;'>2020</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2020</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>12.</td>
+  <td style='padding-right:0;'>
      <em>Unrolled optimization for learning deep energy models</em>,
         <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=67922">SIAM MDS Minisymposium</a>
   </td>
-  <td class='col-md-2' style='text-align:right;'>2020</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2020</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>13.</td>
+  <td style='padding-right:0;'>
      <em>Differentiable optimization-based modeling for machine learning</em>,
         NYU CILVR Seminar
   </td>
-  <td class='col-md-2' style='text-align:right;'>2019</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2019</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>14.</td>
+  <td style='padding-right:0;'>
      <em>Differentiable optimization-based modeling for machine learning</em>,
         INFORMS
   </td>
-  <td class='col-md-2' style='text-align:right;'>2019</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2019</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>15.</td>
+  <td style='padding-right:0;'>
      <em>Differentiable optimization-based modeling for machine learning</em>,
         Facebook AI Research
   </td>
-  <td class='col-md-2' style='text-align:right;'>2019</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2019</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>16.</td>
+  <td style='padding-right:0;'>
      <em>Differentiable optimization-based modeling for machine learning</em>,
         ISMP
   </td>
-  <td class='col-md-2' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2018</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>17.</td>
+  <td style='padding-right:0;'>
      <em>Differentiable optimization-based modeling for machine learning</em>,
         Google Brain
   </td>
-  <td class='col-md-2' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2018</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>18.</td>
+  <td style='padding-right:0;'>
      <em>Differentiable optimization-based modeling for machine learning</em>,
         Bosch Center for AI
   </td>
-  <td class='col-md-2' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2018</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>19.</td>
+  <td style='padding-right:0;'>
      <em>Differentiable optimization-based modeling for machine learning</em>,
         Waymo Research
   </td>
-  <td class='col-md-2' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2018</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>20.</td>
+  <td style='padding-right:0;'>
      <em>Differentiable optimization-based modeling for machine learning</em>,
         Tesla AI
   </td>
-  <td class='col-md-2' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2018</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>21.</td>
+  <td style='padding-right:0;'>
      <em>Differentiable optimization-based modeling for machine learning</em>,
         NVIDIA Robotics
   </td>
-  <td class='col-md-2' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2018</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>22.</td>
+  <td style='padding-right:0;'>
      <em>Differentiable optimization-based modeling for machine learning</em>,
         Salesforce Research
   </td>
-  <td class='col-md-2' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2018</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>23.</td>
+  <td style='padding-right:0;'>
      <em>Differentiable optimization-based modeling for machine learning</em>,
         OpenAI
   </td>
-  <td class='col-md-2' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2018</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>24.</td>
+  <td style='padding-right:0;'>
      <em>Differentiable optimization-based modeling for machine learning</em>,
         NNAISENSE
   </td>
-  <td class='col-md-2' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2018</td>
 </tr>
 <tr>
-  <td>
+  <td align='right' style='padding-right:0;padding-left:0;'>25.</td>
+  <td style='padding-right:0;'>
      <em>Differentiable optimization and control</em>,
         UC Berkeley
   </td>
-  <td class='col-md-2' style='text-align:right;'>2018</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2018</td>
 </tr>
 </table>
 
