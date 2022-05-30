@@ -30,7 +30,6 @@
 ## <i class="fa fa-chevron-right"></i> Previous Positions
 <table class="table table-hover">
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>1.</td>
   <td style='padding-right:0;'>
 <p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Carnegie Mellon University</em><span markdown="1" style="color:grey;font-size:1.3rem;margin: 0">
 (with <a href="http://zicokolter.com" target="_blank">J. Zico Kolter</a> on ML and optimization)
@@ -39,7 +38,6 @@
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2016&nbsp;-&nbsp;2019</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>2.</td>
   <td style='padding-right:0;'>
 <p markdown="1" style='margin: 0'><strong>Research Intern</strong>, <em>Intel Labs</em>, Santa Clara
 <span markdown="1" style="color:grey;font-size:1.3rem;margin: 0">
@@ -49,7 +47,6 @@
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2018</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>3.</td>
   <td style='padding-right:0;'>
 <p markdown="1" style='margin: 0'><strong>Research Intern</strong>, <em>Google DeepMind</em>, London
 <span markdown="1" style="color:grey;font-size:1.3rem;margin: 0">
@@ -59,7 +56,6 @@
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2017</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>4.</td>
   <td style='padding-right:0;'>
 <p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Carnegie Mellon University</em><span markdown="1" style="color:grey;font-size:1.3rem;margin: 0">
 (with <a href="https://www.cs.cmu.edu/~satya/" target="_blank">Mahadev Satyanarayanan</a> on mobile systems)
@@ -68,7 +64,6 @@
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2014&nbsp;-&nbsp;2016</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>5.</td>
   <td style='padding-right:0;'>
 <p markdown="1" style='margin: 0'><strong>Research Intern</strong>, <em>Adobe Research</em>, San Jose
 <span markdown="1" style="color:grey;font-size:1.3rem;margin: 0">
@@ -78,7 +73,6 @@
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2014</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>6.</td>
   <td style='padding-right:0;'>
 <p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Virginia Tech</em><span markdown="1" style="color:grey;font-size:1.3rem;margin: 0">
 (with <a href="https://people.cs.vt.edu/~ltw/shortvita.html" target="_blank">Layne Watson</a> and <a href="https://dblp.org/pid/75/8682.html" target="_blank">David Easterling</a> on optimization)
@@ -87,7 +81,6 @@
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2013&nbsp;-&nbsp;2014</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>7.</td>
   <td style='padding-right:0;'>
 <p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Virginia Tech</em><span markdown="1" style="color:grey;font-size:1.3rem;margin: 0">
 (with <a href="https://www.magnum.io/people/jules.html" target="_blank">Jules White</a> and <a href="https://scholar.google.com/citations?user=MRKab9cAAAAJ" target="_blank">Hamilton Turner</a> on mobile systems)
@@ -96,7 +89,6 @@
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2012&nbsp;-&nbsp;2014</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>8.</td>
   <td style='padding-right:0;'>
 <p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Virginia Tech</em><span markdown="1" style="color:grey;font-size:1.3rem;margin: 0">
 (with <a href="https://www.ssrg.ece.vt.edu/" target="_blank">Binoy Ravindran</a> and <a href="http://www.alastairmurray.co.uk/" target="_blank">Alastair Murray</a> on compilers)
@@ -105,7 +97,6 @@
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2012&nbsp;-&nbsp;2014</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>9.</td>
   <td style='padding-right:0;'>
 <p markdown="1" style='margin: 0'><strong>Software Intern</strong>, <em>Snowplow</em><span markdown="1" style="color:grey;font-size:1.3rem;margin: 0">
 (Scala development)
@@ -114,7 +105,6 @@
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2013&nbsp;-&nbsp;2014</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>10.</td>
   <td style='padding-right:0;'>
 <p markdown="1" style='margin: 0'><strong>Software Intern</strong>, <em>Qualcomm</em>, San Diego
 <span markdown="1" style="color:grey;font-size:1.3rem;margin: 0">
@@ -124,7 +114,6 @@
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2013</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>11.</td>
   <td style='padding-right:0;'>
 <p markdown="1" style='margin: 0'><strong>Software Intern</strong>, <em>Phoenix Integration</em>, Virginia
 <span markdown="1" style="color:grey;font-size:1.3rem;margin: 0">
@@ -134,7 +123,6 @@
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2012</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>12.</td>
   <td style='padding-right:0;'>
 <p markdown="1" style='margin: 0'><strong>Network Administrator Intern</strong>, <em>Sunapsys</em>, Virginia
 </p>
@@ -2331,49 +2319,42 @@ malware machine learning classifiers.
 ## <i class="fa fa-chevron-right"></i> Interns and Students
 <table class="table table-hover">
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>1.</td>
   <td style='padding-right:0;'>
         <a href="https://www.aaronlou.com/">Aaron Lou</a> (visiting FAIR from Cornell and Stanford)
   </td>
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2020&nbsp;-&nbsp;2022</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>2.</td>
   <td style='padding-right:0;'>
         <a href="https://eugenevinitsky.github.io/">Eugene Vinitsky</a> (visiting FAIR from Berkeley)
   </td>
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2021&nbsp;-&nbsp;2022</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>3.</td>
   <td style='padding-right:0;'>
         <a href="https://www.linkedin.com/in/arnaudfickinger/">Arnaud Fickinger</a> (visiting FAIR from Berkeley)
   </td>
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2021&nbsp;-&nbsp;2022</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>4.</td>
   <td style='padding-right:0;'>
         <a href="https://scholar.google.com/citations?user=CmdjfTsAAAAJ">Samuel Cohen</a> (visiting FAIR from UCL)
   </td>
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2021&nbsp;-&nbsp;2022</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>5.</td>
   <td style='padding-right:0;'>
         <a href="http://www.cs.toronto.edu/~rtqichen/">Ricky Chen</a> (visiting FAIR from Toronto, now: scientist at FAIR)
   </td>
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2020</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>6.</td>
   <td style='padding-right:0;'>
         <a href="http://www.cs.cmu.edu/~pliang/">Paul Liang</a> (visiting FAIR from CMU)
   </td>
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2020</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>7.</td>
   <td style='padding-right:0;'>
         <a href="https://phillipkwang.com/">Phillip Wang</a> (at CMU, now: CEO at <a href="https://gather.town/" target="_blank">Gather</a>)
   </td>
@@ -2385,28 +2366,24 @@ malware machine learning classifiers.
 ## <i class="fa fa-chevron-right"></i> Professional Activities
 <table class="table table-hover">
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>1.</td>
   <td style='padding-right:0;'>
      <a href="https://sites.google.com/view/lmca2020/home">NeurIPS Learning Meets Combinatorial Optimization Workshop Organizer</a>
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2020</td>
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>2.</td>
   <td style='padding-right:0;'>
      <a href="https://anucvml.github.io/ddn-cvprw2020/">CVPR Deep Declarative Networks Workshop Organizer</a>
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2020</td>
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>3.</td>
   <td style='padding-right:0;'>
      <a href="https://anucvml.github.io/ddn-eccvt2020/">ECCV Deep Declarative Networks Tutorial Organizer</a>
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2020</td>
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>4.</td>
   <td style='padding-right:0;'>
       CMU CSD MS Admissions
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2014&nbsp;-&nbsp;2015</td>
@@ -2417,35 +2394,27 @@ malware machine learning classifiers.
 ### Reviewing
 <table class="table table-hover">
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>1.</td>
   <td style='padding-right:0;'>Neural Information Processing Systems (NeurIPS)</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>2.</td>
   <td style='padding-right:0;'>International Conference on Machine Learning (ICML)</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>3.</td>
   <td style='padding-right:0;'>International Conference on Learning Representations (ICLR)</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>4.</td>
   <td style='padding-right:0;'>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>5.</td>
   <td style='padding-right:0;'>IEEE International Conference on Computer Vision (ICCV)</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>6.</td>
   <td style='padding-right:0;'>IEEE International Conference on Robotics and Automation (ICRA)</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>7.</td>
   <td style='padding-right:0;'>AAAI Conference on Artificial Intelligence</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>8.</td>
   <td style='padding-right:0;'>Optimization Letters</td>
 </tr>
 </table>
@@ -2454,17 +2423,14 @@ malware machine learning classifiers.
 ## <i class="fa fa-chevron-right"></i> Teaching
 <table class="table table-hover">
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>1.</td>
   <td style='padding-right:0'><strong>Graduate AI</strong> (CMU 15-780), TA</td>
   <td class='col-md-2' style='text-align:right; padding-left:0;'>S2017</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>2.</td>
   <td style='padding-right:0'><strong>Distributed Systems</strong> (CMU 15-440/640), TA</td>
   <td class='col-md-2' style='text-align:right; padding-left:0;'>S2016</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>3.</td>
   <td style='padding-right:0'><strong>Software Design and Data Structures</strong> (VT CS2114), TA</td>
   <td class='col-md-2' style='text-align:right; padding-left:0;'>S2013</td>
 </tr>
