@@ -178,7 +178,7 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 Representative publications that I am a primary author on are
 <span style='background-color: #ffffd0'>highlighted.</span>
 <br>
-[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>; 4777 citations, h-index: 29]
+[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>; 4823+ citations, h-index: 29+]
 
 <h2>2022</h2>
 <table class="table table-hover">
@@ -1776,7 +1776,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>1.</td>
   <td>
     <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a> |
-    <i class="fa fas fa-star"></i> 118 |
+    <i class="fa fas fa-star"></i> 119 |
     <em>Tutorial on amortized optimization</em>
     <!--  -->
     <!--     facebookresearch/amortized-optimization-tutorial  -->
@@ -1788,7 +1788,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>2.</td>
   <td>
     <a href="https://github.com/facebookresearch/theseus">facebookresearch/theseus</a> |
-    <i class="fa fas fa-star"></i> 252 |
+    <i class="fa fas fa-star"></i> 260 |
     <em>Differentiable non-linear optimization library</em>
     <!--  -->
     <!--     facebookresearch/theseus  -->
@@ -1824,7 +1824,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>5.</td>
   <td>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
-    <i class="fa fas fa-star"></i> 618 |
+    <i class="fa fas fa-star"></i> 453 |
     <em>Model-based reinforcement learning library</em>
     <!--  -->
     <!--     facebookresearch/mbrl-lib  -->
@@ -1836,7 +1836,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>6.</td>
   <td>
     <a href="https://github.com/facebookresearch/dcem">facebookresearch/dcem</a> |
-    <i class="fa fas fa-star"></i> 104 |
+    <i class="fa fas fa-star"></i> 92 |
     <em>The Differentiable Cross-Entropy Method</em>
     <!--  -->
     <!--     facebookresearch/dcem  -->
@@ -1848,7 +1848,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>7.</td>
   <td>
     <a href="https://github.com/facebookresearch/higher">facebookresearch/higher</a> |
-    <i class="fa fas fa-star"></i> 1.4k |
+    <i class="fa fas fa-star"></i> 1.2k |
     <em>PyTorch higher-order gradient and optimization library</em>
     <!--  -->
     <!--     facebookresearch/higher  -->
@@ -1860,7 +1860,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>8.</td>
   <td>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a> |
-    <i class="fa fas fa-star"></i> 268 |
+    <i class="fa fas fa-star"></i> 255 |
     <em>Ph.D. Thesis LaTeX source code</em>
     <!--  -->
     <!--     bamos/thesis  -->
@@ -1872,7 +1872,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>9.</td>
   <td>
     <a href="https://github.com/cvxgrp/cvxpylayers">cvxgrp/cvxpylayers</a> |
-    <i class="fa fas fa-star"></i> 1.3k |
+    <i class="fa fas fa-star"></i> 1.1k |
     <em>Differentiable Convex Optimization Layers</em>
     <!--  -->
     <!--     cvxgrp/cvxpylayers  -->
@@ -1884,7 +1884,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>10.</td>
   <td>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
-    <i class="fa fas fa-star"></i> 561 |
+    <i class="fa fas fa-star"></i> 475 |
     <em>Differentiable Model-Predictive Control</em>
     <!--  -->
     <!--     locuslab/mpc.pytorch  -->
@@ -1896,7 +1896,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>11.</td>
   <td>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a> |
-    <i class="fa fas fa-star"></i> 238 |
+    <i class="fa fas fa-star"></i> 228 |
     <em>Input Convex Neural Networks</em>
     <!--  -->
     <!--     locuslab/icnn  -->
@@ -1908,7 +1908,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>12.</td>
   <td>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a> |
-    <i class="fa fas fa-star"></i> 387 |
+    <i class="fa fas fa-star"></i> 369 |
     <em>OptNet experiments</em>
     <!--  -->
     <!--     locuslab/optnet  -->
@@ -1920,7 +1920,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>13.</td>
   <td>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
-    <i class="fa fas fa-star"></i> 526 |
+    <i class="fa fas fa-star"></i> 490 |
     <em>Differentiable PyTorch QP solver</em>
     <!--  -->
     <!--     locuslab/qpth  -->
@@ -1932,7 +1932,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>14.</td>
   <td>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a> |
-    <i class="fa fas fa-star"></i> 753 |
+    <i class="fa fas fa-star"></i> 706 |
     <em>PyTorch DenseNet implementation</em>
     <!--  -->
     <!--     bamos/densenet.pytorch  -->
@@ -1944,7 +1944,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>15.</td>
   <td>
     <a href="https://github.com/bamos/block">bamos/block</a> |
-    <i class="fa fas fa-star"></i> 267 |
+    <i class="fa fas fa-star"></i> 258 |
     <em>Intelligent block matrix constructions</em>
     <!--  -->
     <!--     bamos/block  -->
@@ -1956,7 +1956,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>16.</td>
   <td>
     <a href="https://github.com/bamos/setGPU">bamos/setGPU</a> |
-    <i class="fa fas fa-star"></i> 101 |
+    <i class="fa fas fa-star"></i> 97 |
     <em>Automatically use the least-loaded GPU</em>
     <!--  -->
     <!--     bamos/setGPU  -->
@@ -1980,7 +1980,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>18.</td>
   <td>
     <a href="https://github.com/cmusatyalab/openface">cmusatyalab/openface</a> |
-    <i class="fa fas fa-star"></i> 14.4k |
+    <i class="fa fas fa-star"></i> 14.1k |
     <em>Face recognition with deep neural networks</em>
     <!--  -->
     <!--     cmusatyalab/openface  -->
@@ -2016,7 +2016,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>21.</td>
   <td>
     <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a> |
-    <i class="fa fas fa-star"></i> 182 |
+    <i class="fa fas fa-star"></i> 161 |
     <em>Analyze and plot your zsh history</em>
     <!--  -->
     <!--     bamos/zsh-history-analysis  -->
@@ -2052,7 +2052,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>24.</td>
   <td>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a> |
-    <i class="fa fas fa-star"></i> 248 |
+    <i class="fa fas fa-star"></i> 249 |
     <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em>
     <!--  -->
     <!--     cparse/cparse  -->
@@ -2064,7 +2064,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>25.</td>
   <td>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
-    <i class="fa fas fa-star"></i> 361 |
+    <i class="fa fas fa-star"></i> 323 |
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
     <!--  -->
     <!--     bamos/cv  -->
@@ -2100,7 +2100,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>28.</td>
   <td>
     <a href="https://github.com/bamos/dotfiles">bamos/dotfiles</a> |
-    <i class="fa fas fa-star"></i> 240 |
+    <i class="fa fas fa-star"></i> 229 |
     <em><i class="fa fas fa-heart"></i> Linux, xmonad, emacs, vim, zsh, tmux</em>
     <!--  -->
     <!--     bamos/dotfiles  -->
