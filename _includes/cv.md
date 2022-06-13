@@ -1833,6 +1833,18 @@ malware machine learning classifiers.
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>3.</td>
   <td>
+    <a href="https://github.com/facebookresearch/meta-ot">facebookresearch/meta-ot</a> |
+    <i class="fa fas fa-star"></i> 4 |
+    <em>Meta Optimal Transport</em>
+    <!--  -->
+    <!--     facebookresearch/meta-ot  -->
+    <!--  -->
+  </td>
+  <td class='col-md-2' style='text-align:right;'>2022</td>
+</tr>
+<tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>4.</td>
+  <td>
     <a href="https://github.com/facebookresearch/rcpm">facebookresearch/rcpm</a> |
     <i class="fa fas fa-star"></i> 56 |
     <em>Riemannian Convex Potential Maps</em>
@@ -1843,7 +1855,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2021</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>4.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>5.</td>
   <td>
     <a href="https://github.com/facebookresearch/svg">facebookresearch/svg</a> |
     <i class="fa fas fa-star"></i> 39 |
@@ -1855,7 +1867,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2021</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>5.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>6.</td>
   <td>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
     <i class="fa fas fa-star"></i> 618 |
@@ -1867,7 +1879,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2021</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>6.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>7.</td>
   <td>
     <a href="https://github.com/facebookresearch/dcem">facebookresearch/dcem</a> |
     <i class="fa fas fa-star"></i> 104 |
@@ -1879,7 +1891,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2020</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>7.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>8.</td>
   <td>
     <a href="https://github.com/facebookresearch/higher">facebookresearch/higher</a> |
     <i class="fa fas fa-star"></i> 1.4k |
@@ -1891,7 +1903,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2019</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>8.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>9.</td>
   <td>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a> |
     <i class="fa fas fa-star"></i> 268 |
@@ -1903,7 +1915,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2019</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>9.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>10.</td>
   <td>
     <a href="https://github.com/cvxgrp/cvxpylayers">cvxgrp/cvxpylayers</a> |
     <i class="fa fas fa-star"></i> 1.3k |
@@ -1915,7 +1927,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2019</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>10.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>11.</td>
   <td>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
     <i class="fa fas fa-star"></i> 561 |
@@ -1927,7 +1939,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2018</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>11.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>12.</td>
   <td>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a> |
     <i class="fa fas fa-star"></i> 238 |
@@ -1939,7 +1951,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>12.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>13.</td>
   <td>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a> |
     <i class="fa fas fa-star"></i> 387 |
@@ -1951,7 +1963,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>13.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>14.</td>
   <td>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
     <i class="fa fas fa-star"></i> 526 |
@@ -1963,7 +1975,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>14.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>15.</td>
   <td>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a> |
     <i class="fa fas fa-star"></i> 753 |
@@ -1975,7 +1987,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>15.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>16.</td>
   <td>
     <a href="https://github.com/bamos/block">bamos/block</a> |
     <i class="fa fas fa-star"></i> 267 |
@@ -1987,7 +1999,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>16.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>17.</td>
   <td>
     <a href="https://github.com/bamos/setGPU">bamos/setGPU</a> |
     <i class="fa fas fa-star"></i> 101 |
@@ -1999,7 +2011,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2017</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>17.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>18.</td>
   <td>
     <a href="https://github.com/bamos/dcgan-completion.tensorflow">bamos/dcgan-completion.tensorflow</a> |
     <i class="fa fas fa-star"></i> 1.3k |
@@ -2011,7 +2023,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2016</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>18.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>19.</td>
   <td>
     <a href="https://github.com/cmusatyalab/openface">cmusatyalab/openface</a> |
     <i class="fa fas fa-star"></i> 14.4k |
@@ -2023,7 +2035,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2015</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>19.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>20.</td>
   <td>
     <a href="https://github.com/vtopt/qnstop">vtopt/qnstop</a> |
     <i class="fa fas fa-star"></i> 10 |
@@ -2035,7 +2047,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2014</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>20.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>21.</td>
   <td>
     <a href="https://github.com/bamos/snowglobe">bamos/snowglobe</a> |
     <i class="fa fas fa-star"></i> 27 |
@@ -2047,7 +2059,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2014</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>21.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>22.</td>
   <td>
     <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a> |
     <i class="fa fas fa-star"></i> 182 |
@@ -2059,7 +2071,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2014</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>22.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>23.</td>
   <td>
     <a href="https://github.com/bamos/beamer-snippets">bamos/beamer-snippets</a> |
     <i class="fa fas fa-star"></i> 106 |
@@ -2071,7 +2083,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2014</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>23.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>24.</td>
   <td>
     <a href="https://github.com/bamos/latex-templates">bamos/latex-templates</a> |
     <i class="fa fas fa-star"></i> 355 |
@@ -2083,7 +2095,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2013</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>24.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>25.</td>
   <td>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a> |
     <i class="fa fas fa-star"></i> 248 |
@@ -2095,7 +2107,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2013</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>25.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>26.</td>
   <td>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
     <i class="fa fas fa-star"></i> 361 |
@@ -2107,7 +2119,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2013</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>26.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>27.</td>
   <td>
     <a href="https://github.com/bamos/python-scripts">bamos/python-scripts</a> |
     <i class="fa fas fa-star"></i> 196 |
@@ -2119,7 +2131,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2013</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>27.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>28.</td>
   <td>
     <a href="https://github.com/bamos/reading-list">bamos/reading-list</a> |
     <i class="fa fas fa-star"></i> 185 |
@@ -2131,7 +2143,7 @@ malware machine learning classifiers.
   <td class='col-md-2' style='text-align:right;'>2013</td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>28.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>29.</td>
   <td>
     <a href="https://github.com/bamos/dotfiles">bamos/dotfiles</a> |
     <i class="fa fas fa-star"></i> 240 |
