@@ -2183,7 +2183,7 @@ malware machine learning classifiers.
   <td align='right' style='padding-right:0;padding-left:0;'>2.</td>
   <td style='padding-right:0;'>
      <em>Differentiable optimization-based modeling for machine learning</em>,
-        <a href="https://sites.google.com/usc.edu/cpaior-2022/master_class">CPAIOR Master Class</a>
+        <a href="https://drive.google.com/file/d/1-ySG0Kzs5NMIUvkqZ7z32ZR0dDpN8ZCP/view?usp=sharing">CPAIOR Master Class</a>
   </td>
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2022</td>
 </tr>
