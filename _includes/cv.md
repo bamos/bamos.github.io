@@ -151,6 +151,15 @@ freely publish my research code to <a href="https://github.com/bamos" target="_b
 <table class="table table-hover">
 <tr>
   <td>
+  <div style='float: right'>2022</div>
+  <div>
+    ICML Outstanding Reviewer
+  </div>
+  </td>
+  <!-- <td class='col-md-2' style='text-align:right;'>2022</td> -->
+</tr>
+<tr>
+  <td>
   <div style='float: right'>2019</div>
   <div>
     ICLR Outstanding Reviewer
