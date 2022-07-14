@@ -2572,7 +2572,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
 <tr>
   <td style='padding-right:0;'>
       AAAI Senior Program Committee
-  <td class='col-md-2' style='text-align:right; padding-left:0;'>2022</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>2023</td>
   </td>
 </tr>
 <tr>
