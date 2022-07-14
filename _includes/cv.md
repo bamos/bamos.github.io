@@ -2320,7 +2320,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>2.</td>
   <td style='padding-right:0;'>
-     <em>Differentiable optimization for control and reinforcement learning</em>,
+     <em>Differentiable optimization for control and RL</em>,
         <a href="https://darl-workshop.github.io/">ICML Workshop on Decision Awareness in RL</a>
   </td>
   <td class='col-md-2' style='text-align:right; padding-left:0;'>2022</td>
