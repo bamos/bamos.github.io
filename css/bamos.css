@@ -95,3 +95,8 @@ img {
         margin-left: 1em;
     }
 }
+
+.cvdate {
+    float: right;
+    margin-left: .5em;
+}
