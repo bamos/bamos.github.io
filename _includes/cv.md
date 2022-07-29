@@ -202,7 +202,7 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 Representative publications that I am a primary author on are
 <span style='background-color: #ffffd0'>highlighted.</span>
 <br>
-[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>; 5009+ citations, h-index: 29+]
+[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>; 5041+ citations, h-index: 29+]
 
 <h2>2022</h2>
 <table class="table table-hover">
@@ -452,19 +452,23 @@ trajectories.
 </tr>
 
 
-<tr id="tr-https://doi.org/10.48550/arxiv.2207.09442" >
+<tr id="tr-pineda2022theseus
+url = {https://arxiv.org/abs/2207.09442" >
 <td align='right' style='padding-left:0;padding-right:0;'>
 7.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2207.09442' target='_blank'><img src="images/publications/https://doi.org/10.48550/arxiv.2207.09442.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2207.09442' target='_blank'>Theseus: A Library for Differentiable Nonlinear Optimization</a> </em> 
+<img src="images/publications/pineda2022theseus
+url = {https://arxiv.org/abs/2207.09442.png" onerror="this.style.display='none'" class="publicationImg" />
+<em>Theseus: A Library for Differentiable Nonlinear Optimization</em> 
 [<a href='javascript:;'
-    onclick='$("#abs_https://doi.org/10.48550/arxiv.2207.09442").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/theseus' target='_blank'>code</a>] <br>
+    onclick='$("#abs_pineda2022theseus
+url = {https://arxiv.org/abs/2207.09442").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/theseus' target='_blank'>code</a>] <br>
 <a href='https://scholar.google.com/citations?user=rebEn8oAAAAJ' target='_blank'>Luis&nbsp;Pineda</a>, <a href='https://scholar.google.com/citations?user=3PJeg1wAAAAJ' target='_blank'>Taosha&nbsp;Fan</a>, <a href='https://scholar.google.com/citations?user=gpgb4LgAAAAJ' target='_blank'>Maurizio&nbsp;Monge</a>, <a href='https://scholar.google.com/citations?user=BFWurDEAAAAJ' target='_blank'>Shobha&nbsp;Venkataraman</a>, <a href='https://psodhi.github.io/' target='_blank'>Paloma&nbsp;Sodhi</a>, <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;Chen</a>, <a href='https://joeaortiz.github.io/' target='_blank'>Joseph&nbsp;Ortiz</a>, <a href='https://danieldetone.com/' target='_blank'>Daniel&nbsp;DeTone</a>, <a href='https://scholar.google.com/citations?user=keDqjK0AAAAJ' target='_blank'>Austin&nbsp;Wang</a>, <a href='https://scholar.google.com/citations?user=8orqBsYAAAAJ' target='_blank'>Stuart&nbsp;Anderson</a>, <a href='https://www.linkedin.com/in/jing-dong-24b26ab3/' target='_blank'>Jing&nbsp;Dong</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://www.mustafamukadam.com/' target='_blank'>Mustafa&nbsp;Mukadam</a><br>
 arXiv 2022  <br>
 
-<div id="abs_https://doi.org/10.48550/arxiv.2207.09442" style="text-align: justify; display: none" markdown="1">
+<div id="abs_pineda2022theseus
+url = {https://arxiv.org/abs/2207.09442" style="text-align: justify; display: none" markdown="1">
 We present Theseus, an efficient application-agnostic open source
 library for differentiable nonlinear least squares
 (DNLS) optimization built on PyTorch, providing a
@@ -1960,7 +1964,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a> |
-    <i class="fa fas fa-star"></i> 122 |
+    <i class="fa fas fa-star"></i> 123 |
     <em>Tutorial on amortized optimization</em>
     <!--  -->
     <!--     facebookresearch/amortized-optimization-tutorial  -->
@@ -1972,7 +1976,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/theseus">facebookresearch/theseus</a> |
-    <i class="fa fas fa-star"></i> 272 |
+    <i class="fa fas fa-star"></i> 707 |
     <em>Differentiable non-linear optimization library</em>
     <!--  -->
     <!--     facebookresearch/theseus  -->
@@ -1984,7 +1988,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/meta-ot">facebookresearch/meta-ot</a> |
-    <i class="fa fas fa-star"></i> 65 |
+    <i class="fa fas fa-star"></i> 67 |
     <em>Meta Optimal Transport</em>
     <!--  -->
     <!--     facebookresearch/meta-ot  -->
@@ -2008,7 +2012,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/rcpm">facebookresearch/rcpm</a> |
-    <i class="fa fas fa-star"></i> 56 |
+    <i class="fa fas fa-star"></i> 57 |
     <em>Riemannian Convex Potential Maps</em>
     <!--  -->
     <!--     facebookresearch/rcpm  -->
@@ -2032,7 +2036,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
-    <i class="fa fas fa-star"></i> 652 |
+    <i class="fa fas fa-star"></i> 658 |
     <em>Model-based reinforcement learning library</em>
     <!--  -->
     <!--     facebookresearch/mbrl-lib  -->
@@ -2044,7 +2048,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2020</span>
     <a href="https://github.com/facebookresearch/dcem">facebookresearch/dcem</a> |
-    <i class="fa fas fa-star"></i> 105 |
+    <i class="fa fas fa-star"></i> 107 |
     <em>The Differentiable Cross-Entropy Method</em>
     <!--  -->
     <!--     facebookresearch/dcem  -->
@@ -2068,7 +2072,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2019</span>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a> |
-    <i class="fa fas fa-star"></i> 273 |
+    <i class="fa fas fa-star"></i> 275 |
     <em>Ph.D. Thesis LaTeX source code</em>
     <!--  -->
     <!--     bamos/thesis  -->
@@ -2092,7 +2096,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2019</span>
     <a href="https://github.com/locuslab/lml">locuslab/lml</a> |
-    <i class="fa fas fa-star"></i> 50 |
+    <i class="fa fas fa-star"></i> 51 |
     <em>The Limited Multi-Label Projection Layer</em>
     <!--  -->
     <!--     locuslab/lml  -->
@@ -2104,7 +2108,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
-    <i class="fa fas fa-star"></i> 575 |
+    <i class="fa fas fa-star"></i> 579 |
     <em>Differentiable PyTorch Model Predictive Control library</em>
     <!--  -->
     <!--     locuslab/mpc.pytorch  -->
@@ -2152,7 +2156,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
-    <i class="fa fas fa-star"></i> 533 |
+    <i class="fa fas fa-star"></i> 535 |
     <em>Differentiable PyTorch QP solver</em>
     <!--  -->
     <!--     locuslab/qpth  -->
@@ -2212,7 +2216,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2015</span>
     <a href="https://github.com/cmusatyalab/openface">cmusatyalab/openface</a> |
-    <i class="fa fas fa-star"></i> 14.4k |
+    <i class="fa fas fa-star"></i> 14.5k |
     <em>Face recognition with deep neural networks</em>
     <!--  -->
     <!--     cmusatyalab/openface  -->
@@ -2260,7 +2264,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2014</span>
     <a href="https://github.com/bamos/beamer-snippets">bamos/beamer-snippets</a> |
-    <i class="fa fas fa-star"></i> 106 |
+    <i class="fa fas fa-star"></i> 107 |
     <em>Beamer and TikZ snippets</em>
     <!--  -->
     <!--     bamos/beamer-snippets  -->
@@ -2284,7 +2288,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a> |
-    <i class="fa fas fa-star"></i> 250 |
+    <i class="fa fas fa-star"></i> 254 |
     <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em>
     <!--  -->
     <!--     cparse/cparse  -->
@@ -2296,7 +2300,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
-    <i class="fa fas fa-star"></i> 365 |
+    <i class="fa fas fa-star"></i> 364 |
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
     <!--  -->
     <!--     bamos/cv  -->
@@ -2308,7 +2312,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/python-scripts">bamos/python-scripts</a> |
-    <i class="fa fas fa-star"></i> 196 |
+    <i class="fa fas fa-star"></i> 195 |
     <em>Short and fun Python scripts</em>
     <!--  -->
     <!--     bamos/python-scripts  -->
@@ -2320,7 +2324,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/reading-list">bamos/reading-list</a> |
-    <i class="fa fas fa-star"></i> 186 |
+    <i class="fa fas fa-star"></i> 187 |
     <em>YAML reading list and notes system</em>
     <!--  -->
     <!--     bamos/reading-list  -->
@@ -2667,6 +2671,18 @@ Slides for my major presentations are open-sourced with a CC-BY license at
 </tr>
 <tr>
   <td style='padding-right:0;'>Neural Information Processing Systems (NeurIPS)</td>
+</tr>
+<tr>
+  <td style='padding-right:0;'>Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track</td>
+</tr>
+<tr>
+  <td style='padding-right:0;'>Neural Information Processing Systems (NeurIPS) OPT Workshop</td>
+</tr>
+<tr>
+  <td style='padding-right:0;'>Neural Information Processing Systems (NeurIPS) DiffCVGP Workshop</td>
+</tr>
+<tr>
+  <td style='padding-right:0;'>Neural Information Processing Systems (NeurIPS) Deep RL Workshop</td>
 </tr>
 <tr>
   <td style='padding-right:0;'>Optimization Letters</td>
