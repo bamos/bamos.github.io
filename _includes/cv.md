@@ -452,23 +452,19 @@ trajectories.
 </tr>
 
 
-<tr id="tr-pineda2022theseus
-url = {https://arxiv.org/abs/2207.09442" >
+<tr id="tr-pineda2022theseus" >
 <td align='right' style='padding-left:0;padding-right:0;'>
 7.
 </td>
 <td>
-<img src="images/publications/pineda2022theseus
-url = {https://arxiv.org/abs/2207.09442.png" onerror="this.style.display='none'" class="publicationImg" />
-<em>Theseus: A Library for Differentiable Nonlinear Optimization</em> 
+<a href='https://arxiv.org/abs/2207.09442' target='_blank'><img src="images/publications/pineda2022theseus.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://arxiv.org/abs/2207.09442' target='_blank'>Theseus: A Library for Differentiable Nonlinear Optimization</a> </em> 
 [<a href='javascript:;'
-    onclick='$("#abs_pineda2022theseus
-url = {https://arxiv.org/abs/2207.09442").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/theseus' target='_blank'>code</a>] <br>
+    onclick='$("#abs_pineda2022theseus").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/theseus' target='_blank'>code</a>] <br>
 <a href='https://scholar.google.com/citations?user=rebEn8oAAAAJ' target='_blank'>Luis&nbsp;Pineda</a>, <a href='https://scholar.google.com/citations?user=3PJeg1wAAAAJ' target='_blank'>Taosha&nbsp;Fan</a>, <a href='https://scholar.google.com/citations?user=gpgb4LgAAAAJ' target='_blank'>Maurizio&nbsp;Monge</a>, <a href='https://scholar.google.com/citations?user=BFWurDEAAAAJ' target='_blank'>Shobha&nbsp;Venkataraman</a>, <a href='https://psodhi.github.io/' target='_blank'>Paloma&nbsp;Sodhi</a>, <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;Chen</a>, <a href='https://joeaortiz.github.io/' target='_blank'>Joseph&nbsp;Ortiz</a>, <a href='https://danieldetone.com/' target='_blank'>Daniel&nbsp;DeTone</a>, <a href='https://scholar.google.com/citations?user=keDqjK0AAAAJ' target='_blank'>Austin&nbsp;Wang</a>, <a href='https://scholar.google.com/citations?user=8orqBsYAAAAJ' target='_blank'>Stuart&nbsp;Anderson</a>, <a href='https://www.linkedin.com/in/jing-dong-24b26ab3/' target='_blank'>Jing&nbsp;Dong</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://www.mustafamukadam.com/' target='_blank'>Mustafa&nbsp;Mukadam</a><br>
 arXiv 2022  <br>
 
-<div id="abs_pineda2022theseus
-url = {https://arxiv.org/abs/2207.09442" style="text-align: justify; display: none" markdown="1">
+<div id="abs_pineda2022theseus" style="text-align: justify; display: none" markdown="1">
 We present Theseus, an efficient application-agnostic open source
 library for differentiable nonlinear least squares
 (DNLS) optimization built on PyTorch, providing a
