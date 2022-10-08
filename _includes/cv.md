@@ -211,7 +211,7 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 Representative publications that I am a primary author on are
 <span style='background-color: #ffffd0'>highlighted.</span>
 <br>
-[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>; 5310+ citations, h-index: 29+]
+[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 5310+ citations, 29+ h-index]
 
 <h2>2022</h2>
 <table class="table table-hover">
