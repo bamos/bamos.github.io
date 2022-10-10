@@ -153,7 +153,7 @@ freely publish my research code to <a href="https://github.com/bamos" target="_b
   <td>
   <div style='float: right'>2022</div>
   <div>
-    NeurIPS Outstanding Reviewer
+        <a href="https://neurips.cc/Conferences/2022/ProgramCommittee">NeurIPS Top Reviewer</a>
   </div>
   </td>
   <!-- <td class='col-md-2' style='text-align:right;'>2022</td> -->
@@ -162,7 +162,7 @@ freely publish my research code to <a href="https://github.com/bamos" target="_b
   <td>
   <div style='float: right'>2022</div>
   <div>
-    ICML Outstanding Reviewer
+        <a href="https://icml.cc/Conferences/2022/Reviewers">ICML Outstanding Reviewer</a>
   </div>
   </td>
   <!-- <td class='col-md-2' style='text-align:right;'>2022</td> -->
@@ -171,7 +171,7 @@ freely publish my research code to <a href="https://github.com/bamos" target="_b
   <td>
   <div style='float: right'>2019</div>
   <div>
-    ICLR Outstanding Reviewer
+        <a href="https://iclr.cc/Conferences/2019/Awards">ICLR Outstanding Reviewer</a>
   </div>
   </td>
   <!-- <td class='col-md-2' style='text-align:right;'>2019</td> -->
@@ -180,7 +180,7 @@ freely publish my research code to <a href="https://github.com/bamos" target="_b
   <td>
   <div style='float: right'>2016&nbsp;-&nbsp;2019</div>
   <div>
-    NSF Graduate Research Fellowship
+        NSF Graduate Research Fellowship
   </div>
   </td>
   <!-- <td class='col-md-2' style='text-align:right;'>2016&nbsp;-&nbsp;2019</td> -->
@@ -189,7 +189,7 @@ freely publish my research code to <a href="https://github.com/bamos" target="_b
   <td>
   <div style='float: right'>2011&nbsp;-&nbsp;2014</div>
   <div>
-    Nine undergraduate scholarships
+        Nine undergraduate scholarships
     <br><p style="color:grey;font-size:1.2rem">Roanoke County Public Schools Engineering,
 Salem-Roanoke County Chamber of Commerce,
 Papa John's,
