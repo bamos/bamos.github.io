@@ -226,7 +226,7 @@ Representative publications that I am a primary author on are
 [<a href='javascript:;'
     onclick='$("#abs_amos2022tutorial").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/amortized-optimization-tutorial' target='_blank'>code</a>] <br>
 <strong>Brandon&nbsp;Amos</strong><br>
-arXiv 2022  <br>
+Foundations and Trends in Machine Learning (to appear) 2022  <br>
 
 <div id="abs_amos2022tutorial" style="text-align: justify; display: none" markdown="1">
 Optimization is a ubiquitous modeling tool that is often deployed in
