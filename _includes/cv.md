@@ -552,8 +552,8 @@ and continuous transport settings between images, spherical data, and color pale
 9.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2206.05262' target='_blank'><img src="images/publications/amos2022amortizing.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2206.05262' target='_blank'>On amortizing convex conjugates for optimal transport</a> </em> 
+<a href='https://arxiv.org/abs/2210.12153' target='_blank'><img src="images/publications/amos2022amortizing.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://arxiv.org/abs/2210.12153' target='_blank'>On amortizing convex conjugates for optimal transport</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_amos2022amortizing").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/w2ot' target='_blank'>code</a>] <br>
 <strong>Brandon&nbsp;Amos</strong><br>
