@@ -208,10 +208,13 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 ## <i class="fa fa-chevron-right"></i> Publications
 
 <!-- [<a href="https://github.com/bamos/cv/blob/master/publications/all.bib">BibTeX</a>] -->
-Representative publications that I am a primary author on are
-<span style='background-color: #ffffd0'>highlighted.</span>
+Representative publications are <span style='background-color: #ffffd0'>highlighted.</span>
 <br>
+<<<<<<< HEAD
 [<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 5.6k citations and an h-index of 31]
+=======
+[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 5.7k citations and an h-index of 31]
+>>>>>>> b6244b2b (Update cv.)
 
 <h2>2022</h2>
 <table class="table table-hover">
@@ -592,7 +595,11 @@ codeurl={https://github.com/stellatogrp/l2ws}' target='_blank'><img src="images/
 codeurl={https://github.com/stellatogrp/l2ws}' target='_blank'>End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_sambharya2022l2a").toggle()'>abs</a>]<br>
+<<<<<<< HEAD
 <a href='https://rajivsambharya.github.io/' target='_blank'>Rajiv&nbsp;Sambharya</a>, <a href='http://georg.playfulmachines.com/' target='_blank'>Georgina&nbsp;Hall</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://stellato.io/' target='_blank'>Bartolomeo&nbsp;Stellato</a><br>
+=======
+<a href='https://rajivsambharya.github.io/' target='_blank'>Rajiv&nbsp;Sambharya</a>, <a href='https://sites.google.com/view/georgina-hall' target='_blank'>Georgina&nbsp;Hall</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://stellato.io/' target='_blank'>Bartolomeo&nbsp;Stellato</a><br>
+>>>>>>> b6244b2b (Update cv.)
 arXiv 2022  <br>
 
 <div id="abs_sambharya2022l2a" style="text-align: justify; display: none" markdown="1">
@@ -717,7 +724,7 @@ model standard distributions on spheres, and tori, on synthetic and geological d
 <em><a href='https://arxiv.org/abs/2105.02343' target='_blank'>CombOptNet: Fit the Right NP-Hard Problem by Learning Integer Programming Constraints</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_paulus2021comboptnet").toggle()'>abs</a>] [<a href='https://github.com/martius-lab/CombOptNet' target='_blank'>code</a>] <br>
-<a href='https://scholar.google.com/citations?user=njZL5CQAAAAJ' target='_blank'>Anselm&nbsp;Paulus</a>, <a href='https://mrolinek.github.io/' target='_blank'>Michal&nbsp;Rol&iacute;nek</a>, <a href='https://scholar.google.com/citations?user=hA1rlU4AAAAJ' target='_blank'>V&iacute;t&nbsp;Musil</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='http://georg.playfulmachines.com/' target='_blank'>Georg&nbsp;Martius</a><br>
+<a href='https://scholar.google.com/citations?user=njZL5CQAAAAJ' target='_blank'>Anselm&nbsp;Paulus</a>, <a href='https://mrolinek.github.io/' target='_blank'>Michal&nbsp;Rol&iacute;nek</a>, <a href='https://scholar.google.com/citations?user=hA1rlU4AAAAJ' target='_blank'>V&iacute;t&nbsp;Musil</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://al.is.mpg.de/person/gmartius' target='_blank'>Georg&nbsp;Martius</a><br>
 ICML 2021  <br>
 
 <div id="abs_paulus2021comboptnet" style="text-align: justify; display: none" markdown="1">
@@ -2099,7 +2106,11 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a> |
+<<<<<<< HEAD
     <i class="fa fas fa-star"></i> 142 |
+=======
+    <i class="fa fas fa-star"></i> 145 |
+>>>>>>> b6244b2b (Update cv.)
     <em>Tutorial on amortized optimization</em>
     <!--  -->
     <!--     facebookresearch/amortized-optimization-tutorial  -->
@@ -2123,7 +2134,11 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/meta-ot">facebookresearch/meta-ot</a> |
+<<<<<<< HEAD
     <i class="fa fas fa-star"></i> 81 |
+=======
+    <i class="fa fas fa-star"></i> 83 |
+>>>>>>> b6244b2b (Update cv.)
     <em>Meta Optimal Transport</em>
     <!--  -->
     <!--     facebookresearch/meta-ot  -->
@@ -2135,7 +2150,11 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/w2ot">facebookresearch/w2ot</a> |
+<<<<<<< HEAD
     <i class="fa fas fa-star"></i> 31 |
+=======
+    <i class="fa fas fa-star"></i> 34 |
+>>>>>>> b6244b2b (Update cv.)
     <em>Wasserstein-2 optimal transport in JAX</em>
     <!--  -->
     <!--     facebookresearch/w2ot  -->
@@ -2183,7 +2202,11 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
+<<<<<<< HEAD
     <i class="fa fas fa-star"></i> 721 |
+=======
+    <i class="fa fas fa-star"></i> 725 |
+>>>>>>> b6244b2b (Update cv.)
     <em>Model-based reinforcement learning library</em>
     <!--  -->
     <!--     facebookresearch/mbrl-lib  -->
@@ -2219,7 +2242,11 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2019</span>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a> |
+<<<<<<< HEAD
     <i class="fa fas fa-star"></i> 292 |
+=======
+    <i class="fa fas fa-star"></i> 296 |
+>>>>>>> b6244b2b (Update cv.)
     <em>Ph.D. Thesis LaTeX source code</em>
     <!--  -->
     <!--     bamos/thesis  -->
@@ -2255,7 +2282,11 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
+<<<<<<< HEAD
     <i class="fa fas fa-star"></i> 628 |
+=======
+    <i class="fa fas fa-star"></i> 629 |
+>>>>>>> b6244b2b (Update cv.)
     <em>Differentiable PyTorch Model Predictive Control library</em>
     <!--  -->
     <!--     locuslab/mpc.pytorch  -->
@@ -2267,7 +2298,11 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a> |
+<<<<<<< HEAD
     <i class="fa fas fa-star"></i> 132 |
+=======
+    <i class="fa fas fa-star"></i> 134 |
+>>>>>>> b6244b2b (Update cv.)
     <em>Differentiable MPC experiments</em>
     <!--  -->
     <!--     locuslab/differentiable-mpc  -->
@@ -2291,7 +2326,11 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a> |
+<<<<<<< HEAD
     <i class="fa fas fa-star"></i> 427 |
+=======
+    <i class="fa fas fa-star"></i> 428 |
+>>>>>>> b6244b2b (Update cv.)
     <em>OptNet experiments</em>
     <!--  -->
     <!--     locuslab/optnet  -->
@@ -2303,7 +2342,11 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
+<<<<<<< HEAD
     <i class="fa fas fa-star"></i> 560 |
+=======
+    <i class="fa fas fa-star"></i> 561 |
+>>>>>>> b6244b2b (Update cv.)
     <em>Differentiable PyTorch QP solver</em>
     <!--  -->
     <!--     locuslab/qpth  -->
@@ -2435,7 +2478,11 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a> |
+<<<<<<< HEAD
     <i class="fa fas fa-star"></i> 295 |
+=======
+    <i class="fa fas fa-star"></i> 296 |
+>>>>>>> b6244b2b (Update cv.)
     <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em>
     <!--  -->
     <!--     cparse/cparse  -->
@@ -2761,14 +2808,14 @@ Slides for my major presentations are open-sourced with a CC-BY license at
 </tr>
 <tr>
   <td style='padding-right:0;'>
-    <span class='cvdate'>2020&nbsp;-&nbsp;present</span>
-        <a href="https://www.aaronlou.com/">Aaron Lou</a> (visiting FAIR from Cornell and Stanford)
+    <span class='cvdate'>2021&nbsp;-&nbsp;2022</span>
+        <a href="https://www.linkedin.com/in/arnaudfickinger/">Arnaud Fickinger</a> (visiting FAIR from Berkeley)
   </td>
 </tr>
 <tr>
   <td style='padding-right:0;'>
-    <span class='cvdate'>2021&nbsp;-&nbsp;present</span>
-        <a href="https://www.linkedin.com/in/arnaudfickinger/">Arnaud Fickinger</a> (visiting FAIR from Berkeley)
+    <span class='cvdate'>2020&nbsp;-&nbsp;2022</span>
+        <a href="https://www.aaronlou.com/">Aaron Lou</a> (visiting FAIR from Cornell and Stanford)
   </td>
 </tr>
 <tr>
