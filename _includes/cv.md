@@ -585,12 +585,10 @@ flows considered in the literature.
 10.
 </td>
 <td>
-<a href='{https://arxiv.org/abs/2212.08260}
-codeurl={https://github.com/stellatogrp/l2ws}' target='_blank'><img src="images/publications/sambharya2022l2a.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='{https://arxiv.org/abs/2212.08260}
-codeurl={https://github.com/stellatogrp/l2ws}' target='_blank'>End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization</a> </em> 
+<a href='https://arxiv.org/abs/2212.08260' target='_blank'><img src="images/publications/sambharya2022l2a.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://arxiv.org/abs/2212.08260' target='_blank'>End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization</a> </em> 
 [<a href='javascript:;'
-    onclick='$("#abs_sambharya2022l2a").toggle()'>abs</a>]<br>
+    onclick='$("#abs_sambharya2022l2a").toggle()'>abs</a>] [<a href='https://github.com/stellatogrp/l2ws' target='_blank'>code</a>] <br>
 <a href='https://rajivsambharya.github.io/' target='_blank'>Rajiv&nbsp;Sambharya</a>, <a href='https://sites.google.com/view/georgina-hall' target='_blank'>Georgina&nbsp;Hall</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://stellato.io/' target='_blank'>Bartolomeo&nbsp;Stellato</a><br>
 arXiv 2022  <br>
 
