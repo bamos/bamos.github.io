@@ -210,24 +210,24 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 <!-- [<a href="https://github.com/bamos/cv/blob/master/publications/all.bib">BibTeX</a>] -->
 Selected publications are <span style='background-color: #ffffd0'>highlighted.</span>
 <br>
-[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 5.7k citations and an h-index of 31]
+[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 5.8k citations and an h-index of 31]
 
-<h2>2022</h2>
+<h2>2023</h2>
 <table class="table table-hover">
 
-<tr id="tr-amos2022tutorial" style="background-color: #ffffd0">
+<tr id="tr-amos2023tutorial" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
 1.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2202.00665' target='_blank'><img src="images/publications/amos2022tutorial.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<a href='https://arxiv.org/abs/2202.00665' target='_blank'><img src="images/publications/amos2023tutorial.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2202.00665' target='_blank'>Tutorial on amortized optimization for learning to optimize over continuous domains</a> </em> 
 [<a href='javascript:;'
-    onclick='$("#abs_amos2022tutorial").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/amortized-optimization-tutorial' target='_blank'>code</a>] <br>
+    onclick='$("#abs_amos2023tutorial").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/amortized-optimization-tutorial' target='_blank'>code</a>] <br>
 <strong>Brandon&nbsp;Amos</strong><br>
-Foundations and Trends in Machine Learning (to appear) 2022  <br>
+Foundations and Trends in Machine Learning (to appear) 2023  <br>
 
-<div id="abs_amos2022tutorial" style="text-align: justify; display: none" markdown="1">
+<div id="abs_amos2023tutorial" style="text-align: justify; display: none" markdown="1">
 Optimization is a ubiquitous modeling tool that is often deployed in
 settings that repeatedly solve similar instances of
 the same problem. Amortized optimization methods use
@@ -255,9 +255,46 @@ objective-based loss.
 </tr>
 
 
-<tr id="tr-fickinger2021crossdomain" >
+<tr id="tr-amos2023amortizing" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
 2.
+</td>
+<td>
+<a href='https://arxiv.org/abs/2210.12153' target='_blank'><img src="images/publications/amos2023amortizing.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://arxiv.org/abs/2210.12153' target='_blank'>On amortizing convex conjugates for optimal transport</a> </em> 
+[<a href='javascript:;'
+    onclick='$("#abs_amos2023amortizing").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/w2ot' target='_blank'>code</a>] <br>
+<strong>Brandon&nbsp;Amos</strong><br>
+ICLR 2023  <br>
+
+<div id="abs_amos2023amortizing" style="text-align: justify; display: none" markdown="1">
+This paper focuses on computing the convex conjugate operation that
+arises when solving Euclidean Wasserstein-2 optimal
+transport problems. This conjugation, which is also
+referred to as the Legendre-Fenchel conjugate or
+c-transform, is considered difficult to compute and
+in practice, Wasserstein-2 methods are limited by
+not being able to exactly conjugate the dual
+potentials in continuous space. I show that
+combining amortized approximations to the conjugate
+with a solver for fine-tuning is computationally
+easy. This combination significantly improves the
+quality of transport maps learned for the
+Wasserstein-2 benchmark by Korotin et al. (2021) and
+is able to model many 2-dimensional couplings and
+flows considered in the literature.
+</div>
+
+</td>
+</tr>
+
+</table>
+<h2>2022</h2>
+<table class="table table-hover">
+
+<tr id="tr-fickinger2021crossdomain" >
+<td align='right' style='padding-left:0;padding-right:0;'>
+3.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2110.03684' target='_blank'><img src="images/publications/fickinger2021crossdomain.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -295,7 +332,7 @@ state-action space.
 
 <tr id="tr-benhamu2022matching" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-3.
+4.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2207.04711' target='_blank'><img src="images/publications/benhamu2022matching.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -339,7 +376,7 @@ manifolds.
 
 <tr id="tr-chen2022semi" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-4.
+5.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2203.06832' target='_blank'><img src="images/publications/chen2022semi.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -383,9 +420,9 @@ to a baseline model.
 </tr>
 
 
-<tr id="tr-pineda2022theseus" >
+<tr id="tr-pineda2022theseus" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-5.
+6.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2207.09442' target='_blank'><img src="images/publications/pineda2022theseus.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -423,7 +460,7 @@ incorporated.
 
 <tr id="tr-vinitsky2022nocturne" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-6.
+7.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2206.09889' target='_blank'><img src="images/publications/vinitsky2022nocturne.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -466,7 +503,7 @@ trajectories.
 
 <tr id="tr-zheng2022semi" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-7.
+8.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2210.06518' target='_blank'><img src="images/publications/zheng2022semi.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -514,7 +551,7 @@ datasets.
 
 <tr id="tr-amos2022meta" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-8.
+9.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2206.05262' target='_blank'><img src="images/publications/amos2022meta.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -540,40 +577,6 @@ convex potentials in the continuous setting. We
 improve the computational time of standard OT
 solvers by multiple orders of magnitude in discrete
 and continuous transport settings between images, spherical data, and color palettes.
-</div>
-
-</td>
-</tr>
-
-
-<tr id="tr-amos2022amortizing" >
-<td align='right' style='padding-left:0;padding-right:0;'>
-9.
-</td>
-<td>
-<a href='https://arxiv.org/abs/2210.12153' target='_blank'><img src="images/publications/amos2022amortizing.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2210.12153' target='_blank'>On amortizing convex conjugates for optimal transport</a> </em> 
-[<a href='javascript:;'
-    onclick='$("#abs_amos2022amortizing").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/w2ot' target='_blank'>code</a>] <br>
-<strong>Brandon&nbsp;Amos</strong><br>
-arXiv 2022  <br>
-
-<div id="abs_amos2022amortizing" style="text-align: justify; display: none" markdown="1">
-This paper focuses on computing the convex conjugate operation that
-arises when solving Euclidean Wasserstein-2 optimal
-transport problems. This conjugation, which is also
-referred to as the Legendre-Fenchel conjugate or
-c-transform, is considered difficult to compute and
-in practice, Wasserstein-2 methods are limited by
-not being able to exactly conjugate the dual
-potentials in continuous space. I show that
-combining amortized approximations to the conjugate
-with a solver for fine-tuning is computationally
-easy. This combination significantly improves the
-quality of transport maps learned for the
-Wasserstein-2 benchmark by Korotin et al. (2021) and
-is able to model many 2-dimensional couplings and
-flows considered in the literature.
 </div>
 
 </td>
@@ -2088,7 +2091,7 @@ malware machine learning classifiers.
 
 
 ## <i class="fa fa-chevron-right"></i> Open Source Repositories
-26.7k GitHub stars across all repositories.
+26.8k GitHub stars across all repositories.
 
 <table class="table table-hover">
 <tr>
@@ -2096,7 +2099,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a> |
-    <i class="fa fas fa-star"></i> 145 |
+    <i class="fa fas fa-star"></i> 146 |
     <em>Tutorial on amortized optimization</em>
     <!--  -->
     <!--     facebookresearch/amortized-optimization-tutorial  -->
@@ -2108,7 +2111,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/theseus">facebookresearch/theseus</a> |
-    <i class="fa fas fa-star"></i> 1.1k |
+    <i class="fa fas fa-star"></i> 1.2k |
     <em>Differentiable non-linear optimization library</em>
     <!--  -->
     <!--     facebookresearch/theseus  -->
@@ -2144,7 +2147,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/bamos/presentations">bamos/presentations</a> |
-    <i class="fa fas fa-star"></i> 107 |
+    <i class="fa fas fa-star"></i> 108 |
     <em>Source for my major presentations with a CC-BY license</em>
     <!--  -->
     <!--     bamos/presentations  -->
@@ -2156,7 +2159,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/rcpm">facebookresearch/rcpm</a> |
-    <i class="fa fas fa-star"></i> 61 |
+    <i class="fa fas fa-star"></i> 62 |
     <em>Riemannian Convex Potential Maps</em>
     <!--  -->
     <!--     facebookresearch/rcpm  -->
@@ -2168,7 +2171,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/svg">facebookresearch/svg</a> |
-    <i class="fa fas fa-star"></i> 46 |
+    <i class="fa fas fa-star"></i> 47 |
     <em>Model-based stochastic value gradient</em>
     <!--  -->
     <!--     facebookresearch/svg  -->
@@ -2180,7 +2183,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
-    <i class="fa fas fa-star"></i> 725 |
+    <i class="fa fas fa-star"></i> 728 |
     <em>Model-based reinforcement learning library</em>
     <!--  -->
     <!--     facebookresearch/mbrl-lib  -->
@@ -2216,7 +2219,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2019</span>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a> |
-    <i class="fa fas fa-star"></i> 296 |
+    <i class="fa fas fa-star"></i> 297 |
     <em>Ph.D. Thesis LaTeX source code</em>
     <!--  -->
     <!--     bamos/thesis  -->
@@ -2252,7 +2255,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
-    <i class="fa fas fa-star"></i> 629 |
+    <i class="fa fas fa-star"></i> 634 |
     <em>Differentiable PyTorch Model Predictive Control library</em>
     <!--  -->
     <!--     locuslab/mpc.pytorch  -->
@@ -2264,7 +2267,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a> |
-    <i class="fa fas fa-star"></i> 134 |
+    <i class="fa fas fa-star"></i> 137 |
     <em>Differentiable MPC experiments</em>
     <!--  -->
     <!--     locuslab/differentiable-mpc  -->
@@ -2288,7 +2291,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a> |
-    <i class="fa fas fa-star"></i> 428 |
+    <i class="fa fas fa-star"></i> 431 |
     <em>OptNet experiments</em>
     <!--  -->
     <!--     locuslab/optnet  -->
@@ -2300,7 +2303,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
-    <i class="fa fas fa-star"></i> 561 |
+    <i class="fa fas fa-star"></i> 566 |
     <em>Differentiable PyTorch QP solver</em>
     <!--  -->
     <!--     locuslab/qpth  -->
@@ -2312,7 +2315,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a> |
-    <i class="fa fas fa-star"></i> 771 |
+    <i class="fa fas fa-star"></i> 772 |
     <em>PyTorch DenseNet implementation</em>
     <!--  -->
     <!--     bamos/densenet.pytorch  -->
@@ -2396,7 +2399,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2014</span>
     <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a> |
-    <i class="fa fas fa-star"></i> 192 |
+    <i class="fa fas fa-star"></i> 193 |
     <em>Analyze and plot your zsh history</em>
     <!--  -->
     <!--     bamos/zsh-history-analysis  -->
@@ -2432,7 +2435,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a> |
-    <i class="fa fas fa-star"></i> 296 |
+    <i class="fa fas fa-star"></i> 298 |
     <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em>
     <!--  -->
     <!--     cparse/cparse  -->
@@ -2444,7 +2447,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
-    <i class="fa fas fa-star"></i> 374 |
+    <i class="fa fas fa-star"></i> 375 |
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
     <!--  -->
     <!--     bamos/cv  -->
@@ -2456,7 +2459,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/python-scripts">bamos/python-scripts</a> |
-    <i class="fa fas fa-star"></i> 197 |
+    <i class="fa fas fa-star"></i> 198 |
     <em>Short and fun Python scripts</em>
     <!--  -->
     <!--     bamos/python-scripts  -->
