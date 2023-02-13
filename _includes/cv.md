@@ -2091,7 +2091,7 @@ malware machine learning classifiers.
 
 
 ## <i class="fa fa-chevron-right"></i> Open Source Repositories
-26.8k GitHub stars across all repositories.
+26.7k GitHub stars across all repositories.
 
 <table class="table table-hover">
 <tr>
@@ -2099,7 +2099,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a> |
-    <i class="fa fas fa-star"></i> 146 |
+    <i class="fa fas fa-star"></i> 145 |
     <em>Tutorial on amortized optimization</em>
     <!--  -->
     <!--     facebookresearch/amortized-optimization-tutorial  -->
@@ -2111,7 +2111,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/theseus">facebookresearch/theseus</a> |
-    <i class="fa fas fa-star"></i> 1.2k |
+    <i class="fa fas fa-star"></i> 1.1k |
     <em>Differentiable non-linear optimization library</em>
     <!--  -->
     <!--     facebookresearch/theseus  -->
@@ -2147,8 +2147,8 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/bamos/presentations">bamos/presentations</a> |
-    <i class="fa fas fa-star"></i> 108 |
-    <em>Source for my major presentations with a CC-BY license</em>
+    <i class="fa fas fa-star"></i> 107 |
+    <em>Source for my major presentations</em>
     <!--  -->
     <!--     bamos/presentations  -->
     <!--  -->
@@ -2159,7 +2159,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/rcpm">facebookresearch/rcpm</a> |
-    <i class="fa fas fa-star"></i> 62 |
+    <i class="fa fas fa-star"></i> 61 |
     <em>Riemannian Convex Potential Maps</em>
     <!--  -->
     <!--     facebookresearch/rcpm  -->
@@ -2171,7 +2171,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/svg">facebookresearch/svg</a> |
-    <i class="fa fas fa-star"></i> 47 |
+    <i class="fa fas fa-star"></i> 46 |
     <em>Model-based stochastic value gradient</em>
     <!--  -->
     <!--     facebookresearch/svg  -->
@@ -2183,7 +2183,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
-    <i class="fa fas fa-star"></i> 728 |
+    <i class="fa fas fa-star"></i> 725 |
     <em>Model-based reinforcement learning library</em>
     <!--  -->
     <!--     facebookresearch/mbrl-lib  -->
@@ -2219,7 +2219,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2019</span>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a> |
-    <i class="fa fas fa-star"></i> 297 |
+    <i class="fa fas fa-star"></i> 296 |
     <em>Ph.D. Thesis LaTeX source code</em>
     <!--  -->
     <!--     bamos/thesis  -->
@@ -2255,7 +2255,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
-    <i class="fa fas fa-star"></i> 634 |
+    <i class="fa fas fa-star"></i> 629 |
     <em>Differentiable PyTorch Model Predictive Control library</em>
     <!--  -->
     <!--     locuslab/mpc.pytorch  -->
@@ -2267,7 +2267,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a> |
-    <i class="fa fas fa-star"></i> 137 |
+    <i class="fa fas fa-star"></i> 134 |
     <em>Differentiable MPC experiments</em>
     <!--  -->
     <!--     locuslab/differentiable-mpc  -->
@@ -2291,7 +2291,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a> |
-    <i class="fa fas fa-star"></i> 431 |
+    <i class="fa fas fa-star"></i> 428 |
     <em>OptNet experiments</em>
     <!--  -->
     <!--     locuslab/optnet  -->
@@ -2303,7 +2303,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
-    <i class="fa fas fa-star"></i> 566 |
+    <i class="fa fas fa-star"></i> 561 |
     <em>Differentiable PyTorch QP solver</em>
     <!--  -->
     <!--     locuslab/qpth  -->
@@ -2315,7 +2315,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a> |
-    <i class="fa fas fa-star"></i> 772 |
+    <i class="fa fas fa-star"></i> 771 |
     <em>PyTorch DenseNet implementation</em>
     <!--  -->
     <!--     bamos/densenet.pytorch  -->
@@ -2399,7 +2399,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2014</span>
     <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a> |
-    <i class="fa fas fa-star"></i> 193 |
+    <i class="fa fas fa-star"></i> 192 |
     <em>Analyze and plot your zsh history</em>
     <!--  -->
     <!--     bamos/zsh-history-analysis  -->
@@ -2435,7 +2435,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a> |
-    <i class="fa fas fa-star"></i> 298 |
+    <i class="fa fas fa-star"></i> 296 |
     <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em>
     <!--  -->
     <!--     cparse/cparse  -->
@@ -2447,7 +2447,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
-    <i class="fa fas fa-star"></i> 375 |
+    <i class="fa fas fa-star"></i> 374 |
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
     <!--  -->
     <!--     bamos/cv  -->
@@ -2459,7 +2459,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/python-scripts">bamos/python-scripts</a> |
-    <i class="fa fas fa-star"></i> 198 |
+    <i class="fa fas fa-star"></i> 197 |
     <em>Short and fun Python scripts</em>
     <!--  -->
     <!--     bamos/python-scripts  -->
@@ -2501,13 +2501,21 @@ Slides for my major presentations are open-sourced with a CC-BY license at
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>1.</td>
   <td style='padding-right:0;'>
+    <span class='cvdate'>2023</span>
+     <em>Learning with differentiable and amortized optimization</em>,
+        Vanderbilt ML Seminar
+  </td>
+</tr>
+<tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>2.</td>
+  <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <em>Learning with differentiable and amortized optimization</em>,
         Microsoft Research
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>2.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>3.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <em>Amortized optimization for computing optimal transport maps</em>,
@@ -2515,7 +2523,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>3.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>4.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <em>Learning with differentiable and amortized optimization</em>,
@@ -2523,7 +2531,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>4.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>5.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <em>Learning with differentiable and amortized optimization</em>,
@@ -2531,7 +2539,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>5.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>6.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <em>Learning with differentiable and amortized optimization</em>,
@@ -2539,7 +2547,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>6.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>7.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <em>Theseus: A library for differentiable nonlinear optimization</em>,
@@ -2547,7 +2555,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>7.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>8.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <em>Theseus: A library for differentiable nonlinear optimization</em>,
@@ -2555,7 +2563,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>8.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>9.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <em>Differentiable optimization-based modeling for machine learning</em>,
@@ -2563,7 +2571,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>9.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>10.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <em>Differentiable optimization</em>,
@@ -2571,7 +2579,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>10.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>11.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <em>Differentiable optimization for control and RL</em>,
@@ -2579,7 +2587,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>11.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>12.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <em>Differentiable optimization-based modeling for machine learning</em>,
@@ -2587,7 +2595,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>12.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>13.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <em>Tutorial on amortized optimization</em>,
@@ -2595,7 +2603,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>13.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>14.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <em>Differentiable optimization for control and RL</em>,
@@ -2603,7 +2611,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>14.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>15.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2021</span>
      <em>Learning for control with differentiable optimization and ODEs</em>,
@@ -2611,7 +2619,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>15.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>16.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2021</span>
      <em>Differentiable optimization-based modeling for machine learning</em>,
@@ -2619,7 +2627,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>16.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>17.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2020</span>
      <em>Differentiable optimization for control</em>,
@@ -2627,7 +2635,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>17.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>18.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2020</span>
      <em>Differentiable optimization-based modeling for machine learning</em>,
@@ -2635,7 +2643,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>18.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>19.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2020</span>
      <em>Deep Declarative Networks</em>,
@@ -2643,7 +2651,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>19.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>20.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2020</span>
      <em>On differentiable optimization for control and vision</em>,
@@ -2651,7 +2659,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>20.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>21.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2020</span>
      <em>Differentiable optimization-based modeling for machine learning</em>,
@@ -2659,7 +2667,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>21.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>22.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2020</span>
      <em>Unrolled optimization for learning deep energy models</em>,
@@ -2667,7 +2675,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>22.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>23.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2019</span>
      <em>Differentiable optimization-based modeling for machine learning</em>,
@@ -2675,7 +2683,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>23.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>24.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2019</span>
      <em>Differentiable optimization-based modeling for machine learning</em>,
@@ -2683,7 +2691,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>24.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>25.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2019</span>
      <em>Differentiable optimization-based modeling for machine learning</em>,
@@ -2691,7 +2699,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>25.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>26.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <em>Differentiable optimization-based modeling for machine learning</em>,
@@ -2699,7 +2707,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>26.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>27.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <em>Differentiable optimization-based modeling for machine learning</em>,
@@ -2707,7 +2715,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>27.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>28.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <em>Differentiable optimization-based modeling for machine learning</em>,
@@ -2715,7 +2723,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>28.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>29.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <em>Differentiable optimization-based modeling for machine learning</em>,
@@ -2723,7 +2731,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>29.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>30.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <em>Differentiable optimization-based modeling for machine learning</em>,
@@ -2731,7 +2739,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>30.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>31.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <em>Differentiable optimization-based modeling for machine learning</em>,
@@ -2739,7 +2747,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>31.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>32.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <em>Differentiable optimization-based modeling for machine learning</em>,
@@ -2747,7 +2755,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>32.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>33.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <em>Differentiable optimization-based modeling for machine learning</em>,
@@ -2755,7 +2763,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>33.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>34.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <em>Differentiable optimization-based modeling for machine learning</em>,
@@ -2763,7 +2771,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>34.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>35.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <em>Differentiable optimization and control</em>,
