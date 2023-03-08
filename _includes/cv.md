@@ -210,7 +210,7 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 <!-- [<a href="https://github.com/bamos/cv/blob/master/publications/all.bib">BibTeX</a>] -->
 Selected publications are <span style='background-color: #ffffd0'>highlighted.</span>
 <br>
-[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 6.0k+ citations and an h-index of 31]
+[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 6k+ citations and an h-index of 31]
 
 <h2>2023</h2>
 <table class="table table-hover">
@@ -2091,7 +2091,7 @@ malware machine learning classifiers.
 
 
 ## <i class="fa fa-chevron-right"></i> Open Source Repositories
-27.0k+ GitHub stars across all repositories.
+27k+ GitHub stars across all repositories.
 
 <table class="table table-hover">
 <tr>
@@ -2183,7 +2183,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
-    <i class="fa fas fa-star"></i> 761 |
+    <i class="fa fas fa-star"></i> 764 |
     <em>Model-based reinforcement learning library</em>
     <!--  -->
     <!--     facebookresearch/mbrl-lib  -->
