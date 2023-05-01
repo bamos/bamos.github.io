@@ -221,34 +221,29 @@ Selected publications are <span style='background-color: #ffffd0'>highlighted.</
 </td>
 <td>
 <a href='https://arxiv.org/abs/2202.00665' target='_blank'><img src="images/publications/amos2023tutorial.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2202.00665' target='_blank'>Tutorial on amortized optimization for learning to optimize over continuous domains</a> </em> 
+<em><a href='https://arxiv.org/abs/2202.00665' target='_blank'>Tutorial on amortized optimization</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_amos2023tutorial").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/amortized-optimization-tutorial' target='_blank'>code</a>] <br>
 <strong>Brandon&nbsp;Amos</strong><br>
 Foundations and Trends in Machine Learning 2023  <br>
 
 <div id="abs_amos2023tutorial" style="text-align: justify; display: none" markdown="1">
-Optimization is a ubiquitous modeling tool that is often deployed in
-settings that repeatedly solve similar instances of
-the same problem. Amortized optimization methods use
-learning to predict the solutions to problems in
-these settings. This leverages the shared structure
-between similar problem instances. In this tutorial, we will discuss the key design choices behind
-amortized optimization, roughly categorizing 1)
-models into fully-amortized and semi-amortized
-approaches, and 2) learning methods into
-regression-based and objective-based. We then view
-existing applications through these foundations to
-draw connections between them, including for
-manifold optimization, variational inference, sparse
-coding, meta-learning, control, reinforcement
-learning, convex optimization, and deep equilibrium
-networks. This framing enables us easily see, for
-example, that the amortized inference in variational
-autoencoders is conceptually identical to value
-gradients in control and reinforcement learning as
-they both use fully-amortized models with a
-objective-based loss.
+Optimization is a ubiquitous modeling tool and is often deployed
+in settings which repeatedly solve similar instances
+of the same problem. Amortized optimization methods
+use learning to predict the solutions to problems in
+these settings, exploiting the shared structure
+between similar problem instances. These methods
+have been crucial in variational inference and
+reinforcement learning and are capable of solving
+optimization problems many orders of magnitudes
+times faster than traditional optimization methods
+that do not use amortization. This tutorial presents
+an introduction to the amortized optimization
+foundations behind these advancements and overviews
+their applications in variational inference, sparse
+coding, gradient-based meta-learning, control, reinforcement learning, convex optimization, optimal
+transport, and deep equilibrium networks.
 </div>
 
 </td>
@@ -372,33 +367,32 @@ and continuous transport settings between images, spherical data, and color pale
 5.
 </td>
 <td>
-<img src="images/publications/pooladian2023multisample.png" onerror="this.style.display='none'" class="publicationImg" />
-<em>Multisample Flow Matching with Optimal Transport Couplings</em> 
+<a href='https://arxiv.org/abs/2304.14772' target='_blank'><img src="images/publications/pooladian2023multisample.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://arxiv.org/abs/2304.14772' target='_blank'>Multisample Flow Matching: Straightening Flows with Minibatch Couplings</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_pooladian2023multisample").toggle()'>abs</a>]<br>
 <a href='http://arampooladian.com/' target='_blank'>Aram-Alexandre&nbsp;Pooladian</a>, <a href='https://helibenhamu.github.io/' target='_blank'>Heli&nbsp;Ben-Hamu</a>, <a href='https://cims.nyu.edu/~cd2754/' target='_blank'>Carles&nbsp;Domingo-Enrich</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.wisdom.weizmann.ac.il/~ylipman/' target='_blank'>Yaron&nbsp;Lipman</a>, and <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a><br>
 ICML 2023  <br>
 
 <div id="abs_pooladian2023multisample" style="text-align: justify; display: none" markdown="1">
-Simulation-free methods for training continuous-time generative
-models construct probability paths that go between
-noise distributions and individual data
-samples. Recent works, such as Flow Matching, derived paths that are optimal for each data
-sample. However, these algorithms rely on
-independent data and noise samples, and do not
-exploit underlying structure in the data
-distribution for constructing probability paths. We
-propose Multisample Flow Matching, a more general
-framework that uses non-trivial couplings between
-data and noise samples while satisfying the correct
-marginal constraints. At small overhead costs, this
-generalization allows us to (i) reduce gradient
-variance during training, (ii) obtain straighter
-flows for the learned vector field, which allows us
-to generate high-quality samples using fewer
-function evaluations, and (iii) obtain transport
-maps with low cost in high dimensions, which has
-applications beyond generative
+Simulation-free methods for training continuous-time generative models
+construct probability paths that go between noise
+distributions and individual data samples. Recent
+works, such as Flow Matching, derived paths that are
+optimal for each data sample. However, these
+algorithms rely on independent data and noise
+samples, and do not exploit underlying structure in
+the data distribution for constructing probability
+paths. We propose Multisample Flow Matching, a more
+general framework that uses non-trivial couplings
+between data and noise samples while satisfying the
+correct marginal constraints. At very small overhead
+costs, this generalization allows us to (i) reduce
+gradient variance during training, (ii) obtain
+straighter flows for the learned vector field, which
+allows us to generate high-quality samples using
+fewer function evaluations, and (iii) obtain
+transport maps with lower cost in high dimensions, which has applications beyond generative
 modeling. Importantly, we do so in a completely
 simulation-free manner with a simple minimization
 objective. We show that our proposed methods improve
@@ -2154,7 +2148,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2023</span>
     <a href="https://github.com/facebookresearch/w2ot">facebookresearch/w2ot</a> |
-    <i class="fa fas fa-star"></i> 36 |
+    <i class="fa fas fa-star"></i> 37 |
     <em>Wasserstein-2 optimal transport in JAX</em>
     <!--  -->
     <!--     facebookresearch/w2ot  -->
@@ -2214,7 +2208,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/svg">facebookresearch/svg</a> |
-    <i class="fa fas fa-star"></i> 50 |
+    <i class="fa fas fa-star"></i> 51 |
     <em>Model-based stochastic value gradient</em>
     <!--  -->
     <!--     facebookresearch/svg  -->
@@ -2226,7 +2220,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
-    <i class="fa fas fa-star"></i> 797 |
+    <i class="fa fas fa-star"></i> 799 |
     <em>Model-based reinforcement learning library</em>
     <!--  -->
     <!--     facebookresearch/mbrl-lib  -->
@@ -2298,7 +2292,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
-    <i class="fa fas fa-star"></i> 677 |
+    <i class="fa fas fa-star"></i> 681 |
     <em>Differentiable PyTorch Model Predictive Control library</em>
     <!--  -->
     <!--     locuslab/mpc.pytorch  -->
@@ -2346,7 +2340,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
-    <i class="fa fas fa-star"></i> 585 |
+    <i class="fa fas fa-star"></i> 586 |
     <em>Differentiable PyTorch QP solver</em>
     <!--  -->
     <!--     locuslab/qpth  -->
@@ -2478,7 +2472,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a> |
-    <i class="fa fas fa-star"></i> 311 |
+    <i class="fa fas fa-star"></i> 312 |
     <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em>
     <!--  -->
     <!--     cparse/cparse  -->
