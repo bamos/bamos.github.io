@@ -529,8 +529,8 @@ after training.
 9.
 </td>
 <td>
-<a href='https://openreview.net/forum?id=qGzlOO27Cn' target='_blank'><img src="images/publications/zharmagambetov2023landscape.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://openreview.net/forum?id=qGzlOO27Cn' target='_blank'>Landscape Surrogate: Learning Decision Losses for Mathematical Optimization Under Partial Information</a> </em> 
+<a href='https://arxiv.org/abs/2307.08964' target='_blank'><img src="images/publications/zharmagambetov2023landscape.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://arxiv.org/abs/2307.08964' target='_blank'>Landscape Surrogate: Learning Decision Losses for Mathematical Optimization Under Partial Information</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_zharmagambetov2023landscape").toggle()'>abs</a>]<br>
 <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=TuVq07oAAAAJ' target='_blank'>Aaron&nbsp;Ferber</a>, <a href='https://taoanhuang.github.io/' target='_blank'>Taoan&nbsp;Huang</a>, <a href='https://scholar.google.com/citations?user=1jjyaBYAAAAJ' target='_blank'>Bistra&nbsp;Dilkina</a>, and <a href='https://yuandong-tian.com/' target='_blank'>Yuandong&nbsp;Tian</a><br>
@@ -2297,7 +2297,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2023</span>
     <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a> |
-    <i class="fa fas fa-star"></i> 166 |
+    <i class="fa fas fa-star"></i> 195 |
     <em>Tutorial on amortized optimization</em>
     <!--  -->
     <!--     facebookresearch/amortized-optimization-tutorial  -->
@@ -2381,7 +2381,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
-    <i class="fa fas fa-star"></i> 819 |
+    <i class="fa fas fa-star"></i> 820 |
     <em>Model-based reinforcement learning library</em>
     <!--  -->
     <!--     facebookresearch/mbrl-lib  -->
@@ -2417,7 +2417,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2019</span>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a> |
-    <i class="fa fas fa-star"></i> 303 |
+    <i class="fa fas fa-star"></i> 304 |
     <em>Ph.D. Thesis LaTeX source code</em>
     <!--  -->
     <!--     bamos/thesis  -->
@@ -2453,7 +2453,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
-    <i class="fa fas fa-star"></i> 703 |
+    <i class="fa fas fa-star"></i> 705 |
     <em>Differentiable PyTorch Model Predictive Control library</em>
     <!--  -->
     <!--     locuslab/mpc.pytorch  -->
@@ -2465,7 +2465,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a> |
-    <i class="fa fas fa-star"></i> 157 |
+    <i class="fa fas fa-star"></i> 159 |
     <em>Differentiable MPC experiments</em>
     <!--  -->
     <!--     locuslab/differentiable-mpc  -->
@@ -2489,7 +2489,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a> |
-    <i class="fa fas fa-star"></i> 456 |
+    <i class="fa fas fa-star"></i> 458 |
     <em>OptNet experiments</em>
     <!--  -->
     <!--     locuslab/optnet  -->
@@ -2501,7 +2501,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
-    <i class="fa fas fa-star"></i> 599 |
+    <i class="fa fas fa-star"></i> 601 |
     <em>Differentiable PyTorch QP solver</em>
     <!--  -->
     <!--     locuslab/qpth  -->
@@ -2537,7 +2537,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/setGPU">bamos/setGPU</a> |
-    <i class="fa fas fa-star"></i> 106 |
+    <i class="fa fas fa-star"></i> 105 |
     <em>Automatically use the least-loaded GPU</em>
     <!--  -->
     <!--     bamos/setGPU  -->
@@ -2621,7 +2621,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/latex-templates">bamos/latex-templates</a> |
-    <i class="fa fas fa-star"></i> 360 |
+    <i class="fa fas fa-star"></i> 363 |
     <em>LaTeX templates</em>
     <!--  -->
     <!--     bamos/latex-templates  -->
@@ -2645,7 +2645,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
-    <i class="fa fas fa-star"></i> 383 |
+    <i class="fa fas fa-star"></i> 384 |
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
     <!--  -->
     <!--     bamos/cv  -->
@@ -2669,7 +2669,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/reading-list">bamos/reading-list</a> |
-    <i class="fa fas fa-star"></i> 188 |
+    <i class="fa fas fa-star"></i> 189 |
     <em>YAML reading list and notes system</em>
     <!--  -->
     <!--     bamos/reading-list  -->
