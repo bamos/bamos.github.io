@@ -211,7 +211,7 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 Selected publications are <span style='background-color: #ffffd0'>highlighted.</span>
 <!-- I most frequently publish at ICML (10 papers), NeurIPS (7 papers), and ICLR (5 papers). -->
 <br>
-[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 6.7k+ citations and an h-index of 33.]
+[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 6.8k+ citations and an h-index of 33.]
 <br>
 
 <h2>2023</h2>
@@ -2297,7 +2297,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2023</span>
     <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a> |
-    <i class="fa fas fa-star"></i> 207 |
+    <i class="fa fas fa-star"></i> 208 |
     <em>Tutorial on amortized optimization</em>
     <!--  -->
     <!--     facebookresearch/amortized-optimization-tutorial  -->
@@ -2381,7 +2381,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
-    <i class="fa fas fa-star"></i> 825 |
+    <i class="fa fas fa-star"></i> 828 |
     <em>Model-based reinforcement learning library</em>
     <!--  -->
     <!--     facebookresearch/mbrl-lib  -->
@@ -2453,7 +2453,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
-    <i class="fa fas fa-star"></i> 712 |
+    <i class="fa fas fa-star"></i> 714 |
     <em>Differentiable PyTorch Model Predictive Control library</em>
     <!--  -->
     <!--     locuslab/mpc.pytorch  -->
@@ -2501,7 +2501,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
-    <i class="fa fas fa-star"></i> 602 |
+    <i class="fa fas fa-star"></i> 604 |
     <em>Differentiable PyTorch QP solver</em>
     <!--  -->
     <!--     locuslab/qpth  -->
@@ -2513,7 +2513,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a> |
-    <i class="fa fas fa-star"></i> 794 |
+    <i class="fa fas fa-star"></i> 796 |
     <em>PyTorch DenseNet implementation</em>
     <!--  -->
     <!--     bamos/densenet.pytorch  -->
@@ -2525,7 +2525,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/block">bamos/block</a> |
-    <i class="fa fas fa-star"></i> 285 |
+    <i class="fa fas fa-star"></i> 286 |
     <em>Intelligent block matrix constructions</em>
     <!--  -->
     <!--     bamos/block  -->
@@ -2597,7 +2597,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2014</span>
     <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a> |
-    <i class="fa fas fa-star"></i> 203 |
+    <i class="fa fas fa-star"></i> 202 |
     <em>Analyze and plot your zsh history</em>
     <!--  -->
     <!--     bamos/zsh-history-analysis  -->
@@ -2621,7 +2621,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/latex-templates">bamos/latex-templates</a> |
-    <i class="fa fas fa-star"></i> 365 |
+    <i class="fa fas fa-star"></i> 364 |
     <em>LaTeX templates</em>
     <!--  -->
     <!--     bamos/latex-templates  -->
@@ -2645,7 +2645,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
-    <i class="fa fas fa-star"></i> 388 |
+    <i class="fa fas fa-star"></i> 389 |
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
     <!--  -->
     <!--     bamos/cv  -->
@@ -3007,6 +3007,12 @@ Slides for my major presentations are open-sourced with a CC-BY license at
 <table class="table table-hover">
 <tr>
   <td style='padding-right:0;'>
+    <span class='cvdate'>2023&nbsp;-&nbsp;present</span>
+        <a href="https://scholar.google.com/citations?user=njZL5CQAAAAJ">Anselm Paulus</a> (visiting FAIR from MPI-IS)
+  </td>
+</tr>
+<tr>
+  <td style='padding-right:0;'>
     <span class='cvdate'>2022&nbsp;-&nbsp;present</span>
         <a href="http://arampooladian.com/">Aram-Alexandre Pooladian</a> (visiting FAIR from NYU)
   </td>
@@ -3019,13 +3025,13 @@ Slides for my major presentations are open-sourced with a CC-BY license at
 </tr>
 <tr>
   <td style='padding-right:0;'>
-    <span class='cvdate'>2022&nbsp;-&nbsp;present</span>
+    <span class='cvdate'>2022&nbsp;-&nbsp;2023</span>
         <a href="https://sanaelotfi.github.io/">Sanae Lotfi</a> (visiting FAIR from NYU)
   </td>
 </tr>
 <tr>
   <td style='padding-right:0;'>
-    <span class='cvdate'>2022&nbsp;-&nbsp;present</span>
+    <span class='cvdate'>2022&nbsp;-&nbsp;2023</span>
         <a href="https://dishank-b.github.io">Dishank Bansal</a> (AI resident at FAIR)
   </td>
 </tr>
