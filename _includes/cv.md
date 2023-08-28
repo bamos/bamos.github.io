@@ -500,7 +500,7 @@ distracting states.
 <em><a href='https://differentiable.xyz/papers/paper_45.pdf' target='_blank'>Koopman Constrained Policy Optimization: A Koopman operator theoretic method for differentiable optimal control in robotics</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_retchin2023koopman").toggle()'>abs</a>]<br>
-<a href='https://mhr.github.io/' target='_blank'>Matthew&nbsp;Retchin</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.eigensteve.com/' target='_blank'>Steven&nbsp;Brunton</a>, and <a href='https://shurans.github.io/' target='_blank'>Shuran&nbsp;Song</a><br>
+<a href='https://www.linkedin.com/in/matthew-retchin/' target='_blank'>Matthew&nbsp;Retchin</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.eigensteve.com/' target='_blank'>Steven&nbsp;Brunton</a>, and <a href='https://shurans.github.io/' target='_blank'>Shuran&nbsp;Song</a><br>
 ICML Differentiable Almost Everything Workshop 2023  <br>
 
 <div id="abs_retchin2023koopman" style="text-align: justify; display: none" markdown="1">
@@ -3008,7 +3008,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
 <tr>
   <td style='padding-right:0;'>
     <span class='cvdate'>2023&nbsp;-&nbsp;present</span>
-        <a href="https://scholar.google.com/citations?user=njZL5CQAAAAJ">Anselm Paulus</a> (visiting FAIR from MPI-IS)
+        <a href="https://scholar.google.com/citations?user=njZL5CQAAAAJ">Anselm Paulus</a> (visiting FAIR from Max Planck Institute, Tübingen)
   </td>
 </tr>
 <tr>
