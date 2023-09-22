@@ -209,7 +209,7 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 
 <!-- [<a href="https://github.com/bamos/cv/blob/master/publications/all.bib">BibTeX</a>] -->
 Selected publications are <span style='background-color: #ffffd0'>highlighted.</span>
-<!-- I most frequently publish at ICML (10 papers), NeurIPS (7 papers), and ICLR (5 papers). -->
+<!-- I most frequently publish at ICML (10 papers), NeurIPS (9 papers), and ICLR (5 papers). -->
 <br>
 [<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 6.8k+ citations and an h-index of 33.]
 <br>
@@ -454,7 +454,7 @@ datasets.
 </tr>
 
 
-<tr id="tr-bansal2023taskmet" >
+<tr id="tr-bansal2023taskmet" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
 7.
 </td>
@@ -464,7 +464,7 @@ datasets.
 [<a href='javascript:;'
     onclick='$("#abs_bansal2023taskmet").toggle()'>abs</a>]<br>
 <a href='https://dishank-b.github.io/' target='_blank'>Dishank&nbsp;Bansal</a>, <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a>, <a href='https://www.mustafamukadam.com/' target='_blank'>Mustafa&nbsp;Mukadam</a>, and <strong>Brandon&nbsp;Amos</strong><br>
-ICML Differentiable Almost Everything Workshop 2023  <br>
+NeurIPS 2023  <br>
 
 <div id="abs_bansal2023taskmet" style="text-align: justify; display: none" markdown="1">
 Deep learning models are often used with some downstream
@@ -491,42 +491,9 @@ distracting states.
 </tr>
 
 
-<tr id="tr-retchin2023koopman" >
-<td align='right' style='padding-left:0;padding-right:0;'>
-8.
-</td>
-<td>
-<a href='https://differentiable.xyz/papers/paper_45.pdf' target='_blank'><img src="images/publications/retchin2023koopman.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://differentiable.xyz/papers/paper_45.pdf' target='_blank'>Koopman Constrained Policy Optimization: A Koopman operator theoretic method for differentiable optimal control in robotics</a> </em> 
-[<a href='javascript:;'
-    onclick='$("#abs_retchin2023koopman").toggle()'>abs</a>]<br>
-<a href='https://www.linkedin.com/in/matthew-retchin/' target='_blank'>Matthew&nbsp;Retchin</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.eigensteve.com/' target='_blank'>Steven&nbsp;Brunton</a>, and <a href='https://shurans.github.io/' target='_blank'>Shuran&nbsp;Song</a><br>
-ICML Differentiable Almost Everything Workshop 2023  <br>
-
-<div id="abs_retchin2023koopman" style="text-align: justify; display: none" markdown="1">
-We introduce Koopman Constrained Policy Optimization (KCPO), combining implicitly differentiable model predictive
-control with a deep Koopman autoencoder for robot
-learning in unknown and nonlinear dynamical
-systems. KCPO is a new policy optimization algorithm
-that trains neural policies end-to-end with hard box
-constraints on controls. Guaranteed satisfaction of
-hard constraints helps ensure the performance and
-safety of robots. We perform imitation learning with
-KCPO to recover expert policies on the Simple
-Pendulum, Cartpole Swing-Up, Reacher, and
-Differential Drive environments, outperforming
-baseline methods in generalizing to
-out-of-distribution constraints in most environments
-after training.
-</div>
-
-</td>
-</tr>
-
-
 <tr id="tr-zharmagambetov2023landscape" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-9.
+8.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2307.08964' target='_blank'><img src="images/publications/zharmagambetov2023landscape.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -534,7 +501,7 @@ after training.
 [<a href='javascript:;'
     onclick='$("#abs_zharmagambetov2023landscape").toggle()'>abs</a>]<br>
 <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=TuVq07oAAAAJ' target='_blank'>Aaron&nbsp;Ferber</a>, <a href='https://taoanhuang.github.io/' target='_blank'>Taoan&nbsp;Huang</a>, <a href='https://scholar.google.com/citations?user=1jjyaBYAAAAJ' target='_blank'>Bistra&nbsp;Dilkina</a>, and <a href='https://yuandong-tian.com/' target='_blank'>Yuandong&nbsp;Tian</a><br>
-ICML Differentiable Almost Everything Workshop 2023  <br>
+NeurIPS 2023  <br>
 
 <div id="abs_zharmagambetov2023landscape" style="text-align: justify; display: none" markdown="1">
 Recent works in learning-integrated optimization have shown promise in
@@ -563,6 +530,39 @@ compared to state-of-the-art baselines while
 reducing the number of calls to g . Notably, our
 approach outperforms existing methods for
 computationally expensive high-dimensional problems.
+</div>
+
+</td>
+</tr>
+
+
+<tr id="tr-retchin2023koopman" >
+<td align='right' style='padding-left:0;padding-right:0;'>
+9.
+</td>
+<td>
+<a href='https://differentiable.xyz/papers/paper_45.pdf' target='_blank'><img src="images/publications/retchin2023koopman.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://differentiable.xyz/papers/paper_45.pdf' target='_blank'>Koopman Constrained Policy Optimization: A Koopman operator theoretic method for differentiable optimal control in robotics</a> </em> 
+[<a href='javascript:;'
+    onclick='$("#abs_retchin2023koopman").toggle()'>abs</a>]<br>
+<a href='https://www.linkedin.com/in/matthew-retchin/' target='_blank'>Matthew&nbsp;Retchin</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.eigensteve.com/' target='_blank'>Steven&nbsp;Brunton</a>, and <a href='https://shurans.github.io/' target='_blank'>Shuran&nbsp;Song</a><br>
+ICML Differentiable Almost Everything Workshop 2023  <br>
+
+<div id="abs_retchin2023koopman" style="text-align: justify; display: none" markdown="1">
+We introduce Koopman Constrained Policy Optimization (KCPO), combining implicitly differentiable model predictive
+control with a deep Koopman autoencoder for robot
+learning in unknown and nonlinear dynamical
+systems. KCPO is a new policy optimization algorithm
+that trains neural policies end-to-end with hard box
+constraints on controls. Guaranteed satisfaction of
+hard constraints helps ensure the performance and
+safety of robots. We perform imitation learning with
+KCPO to recover expert policies on the Simple
+Pendulum, Cartpole Swing-Up, Reacher, and
+Differential Drive environments, outperforming
+baseline methods in generalizing to
+out-of-distribution constraints in most environments
+after training.
 </div>
 
 </td>
