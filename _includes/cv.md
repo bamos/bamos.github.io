@@ -615,9 +615,15 @@ transport problems in the absence of regularization.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2312.02027' target='_blank'><img src="images/publications/domingoenrich2023stochastic.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2312.02027' target='_blank'>Stochastic Optimal Control Matching</a> </em> <br>
+<em><a href='https://arxiv.org/abs/2312.02027' target='_blank'>Stochastic Optimal Control Matching</a> </em> 
+[<a href='javascript:;'
+    onclick='$("#abs_domingoenrich2023stochastic").toggle()'>abs</a>]<br>
 <a href='https://cims.nyu.edu/~cd2754/' target='_blank'>Carles&nbsp;Domingo-Enrich</a>, <a href='https://scholar.google.com/citations?user=el5gT4AAAAAJ' target='_blank'>Jiequn&nbsp;Han</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://cims.nyu.edu/~bruna/' target='_blank'>Joan&nbsp;Bruna</a>, and <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a><br>
 arXiv 2023  <br>
+
+<div id="abs_domingoenrich2023stochastic" style="text-align: justify; display: none" markdown="1">
+Stochastic optimal control, which has the goal of driving the behavior of noisy systems, is broadly applicable in science, engineering and artificial intelligence. Our work introduces Stochastic Optimal Control Matching (SOCM), a novel Iterative Diffusion Optimization (IDO) technique for stochastic optimal control that stems from the same philosophy as the conditional score matching loss for diffusion models. That is, the control is learned via a least squares problem by trying to fit a matching vector field. The training loss, which is closely connected to the cross-entropy loss, is optimized with respect to both the control function and a family of reparameterization matrices which appear in the matching vector field. The optimization with respect to the reparameterization matrices aims at minimizing the variance of the matching vector field. Experimentally, our algorithm achieves lower error than all the existing IDO techniques for stochastic optimal control for four different control settings. The key idea underlying SOCM is the path-wise reparameterization trick, a novel technique that is of independent interest, e.g., for generative modeling.
+</div>
 
 </td>
 </tr>
@@ -2463,7 +2469,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
-    <i class="fa fas fa-star"></i> 749 |
+    <i class="fa fas fa-star"></i> 750 |
     <em>Differentiable PyTorch Model Predictive Control library</em>
     <!--  -->
     <!--     locuslab/mpc.pytorch  -->
