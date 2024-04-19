@@ -207,7 +207,7 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 Selected publications are <span style='background-color: #ffffd0'>highlighted.</span>
 <!-- I most frequently publish at ICML (10 papers), NeurIPS (9 papers), and ICLR (5 papers). -->
 <br>
-[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 8k+ citations and an h-index of 37.]
+[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 8.1k+ citations and an h-index of 37.]
 <br>
 
 <h2>2024</h2>
@@ -219,9 +219,15 @@ Selected publications are <span style='background-color: #ffffd0'>highlighted.</
 </td>
 <td>
 <a href='https://arxiv.org/abs/2309.07835' target='_blank'><img src="images/publications/sambharya2023learning.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2309.07835' target='_blank'>Learning to Warm-Start Fixed-Point Optimization Algorithms</a> </em> <br>
+<em><a href='https://arxiv.org/abs/2309.07835' target='_blank'>Learning to Warm-Start Fixed-Point Optimization Algorithms</a> </em> 
+[<a href='javascript:;'
+    onclick='$("#abs_sambharya2023learning").toggle()'>abs</a>]<br>
 <a href='https://rajivsambharya.github.io/' target='_blank'>Rajiv&nbsp;Sambharya</a>, <a href='https://sites.google.com/view/georgina-hall' target='_blank'>Georgina&nbsp;Hall</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://stellato.io/' target='_blank'>Bartolomeo&nbsp;Stellato</a><br>
 JMLR 2024  <br>
+
+<div id="abs_sambharya2023learning" style="text-align: justify; display: none" markdown="1">
+We introduce a machine-learning framework to warm-start fixed-point optimization algorithms. Our architecture consists of a neural network mapping problem parameters to warm starts, followed by a predefined number of fixed-point iterations. We propose two loss functions designed to either minimize the fixed-point residual or the distance to a ground truth solution. In this way, the neural network predicts warm starts with the end-to-end goal of minimizing the downstream loss. An important feature of our architecture is its flexibility, in that it can predict a warm start for fixed-point algorithms run for any number of steps, without being limited to the number of steps it has been trained on. We provide PAC-Bayes generalization bounds on unseen data for common classes of fixed-point operators: contractive, linearly convergent, and averaged. Applying this framework to well-known applications in control, statistics, and signal processing, we observe a significant reduction in the number of iterations and solution time required to solve these problems, through learned warm starts.
+</div>
 
 </td>
 </tr>
@@ -2426,7 +2432,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
-    <i class="fa fas fa-star"></i> 903 |
+    <i class="fa fas fa-star"></i> 904 |
     <em>Model-based reinforcement learning library</em>
     <!--  -->
     <!--     facebookresearch/mbrl-lib  -->
@@ -2510,7 +2516,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a> |
-    <i class="fa fas fa-star"></i> 191 |
+    <i class="fa fas fa-star"></i> 193 |
     <em>Differentiable MPC experiments</em>
     <!--  -->
     <!--     locuslab/differentiable-mpc  -->
@@ -2558,7 +2564,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a> |
-    <i class="fa fas fa-star"></i> 816 |
+    <i class="fa fas fa-star"></i> 815 |
     <em>PyTorch DenseNet implementation</em>
     <!--  -->
     <!--     bamos/densenet.pytorch  -->
@@ -2690,7 +2696,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
-    <i class="fa fas fa-star"></i> 394 |
+    <i class="fa fas fa-star"></i> 395 |
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
     <!--  -->
     <!--     bamos/cv  -->
