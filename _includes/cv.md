@@ -218,8 +218,8 @@ Selected publications are <span style='background-color: #ffffd0'>highlighted.</
 1.
 </td>
 <td>
-<a href='https://yuandong-tian.com/papers/co4prompt_llm.pdf' target='_blank'><img src="images/publications/paulus2024advprompter.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://yuandong-tian.com/papers/co4prompt_llm.pdf' target='_blank'>AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs</a> </em> 
+<a href='https://arxiv.org/abs/2404.16873' target='_blank'><img src="images/publications/paulus2024advprompter.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://arxiv.org/abs/2404.16873' target='_blank'>AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_paulus2024advprompter").toggle()'>abs</a>]<br>
 <a href='https://scholar.google.com/citations?user=njZL5CQAAAAJ' target='_blank'>Anselm&nbsp;Paulus*</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov*</a>, <a href='https://sites.google.com/view/chuanguo' target='_blank'>Chuan&nbsp;Guo</a>, <strong>Brandon&nbsp;Amos<sup>&dagger;</sup></strong>, and <a href='https://yuandong-tian.com/' target='_blank'>Yuandong&nbsp;Tian<sup>&dagger;</sup></a><br>
