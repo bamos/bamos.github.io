@@ -235,9 +235,53 @@ We train the AdvPrompter using a novel algorithm that does not require access to
 </tr>
 
 
-<tr id="tr-sambharya2024learning" >
+<tr id="tr-pooladian2023neural" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
 2.
+</td>
+<td>
+<a href='https://openreview.net/forum?id=myb0FKB8C9' target='_blank'><img src="images/publications/pooladian2023neural.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://openreview.net/forum?id=myb0FKB8C9' target='_blank'>Neural Optimal Transport with Lagrangian Costs</a> </em> 
+[<a href='javascript:;'
+    onclick='$("#abs_pooladian2023neural").toggle()'>abs</a>]<br>
+<a href='http://arampooladian.com/' target='_blank'>Aram-Alexandre&nbsp;Pooladian</a>, <a href='https://cims.nyu.edu/~cd2754/' target='_blank'>Carles&nbsp;Domingo-Enrich</a>, <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a>, and <strong>Brandon&nbsp;Amos</strong><br>
+UAI 2024  <br>
+
+<div id="abs_pooladian2023neural" style="text-align: justify; display: none" markdown="1">
+Computational efforts in optimal transport traditionally
+revolve around the squared-Euclidean cost. In this
+work, we choose to investigate the optimal transport
+problem between probability measures when the
+underlying metric space is non-Euclidean, or when
+the cost function is understood to satisfy a least
+action principle,also known as a Lagrangian
+cost. These two generalizations are useful when
+connecting observations from a physical system, where the transport dynamics are influenced by the
+geometry of the system, such as obstacles, and
+allows practitioners to incorporate a priori
+knowledge of the underlying system. Examples include
+barriers for transport, or enforcing a certain
+geometry, i.e., paths must be circular. We
+demonstrate the effectiveness of this formulation on
+existing synthetic examples in the literature, where
+we solve the optimal transport problems in the
+absence of regularization, which is novel in the
+literature. Our contributions are of computational
+interest, where we demonstrate the ability to
+efficiently compute geodesics and amortize
+spline-based paths. We demonstrate the effectiveness
+of this formulation on existing synthetic examples
+in the literature, where we solve the optimal
+transport problems in the absence of regularization.
+</div>
+
+</td>
+</tr>
+
+
+<tr id="tr-sambharya2024learning" >
+<td align='right' style='padding-left:0;padding-right:0;'>
+3.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2309.07835' target='_blank'><img src="images/publications/sambharya2024learning.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -260,7 +304,7 @@ We introduce a machine-learning framework to warm-start fixed-point optimization
 
 <tr id="tr-amos2023tutorial" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-3.
+4.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2202.00665' target='_blank'><img src="images/publications/amos2023tutorial.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -295,7 +339,7 @@ transport, and deep equilibrium networks.
 
 <tr id="tr-amos2023amortizing" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-4.
+5.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2210.12153' target='_blank'><img src="images/publications/amos2023amortizing.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -329,7 +373,7 @@ flows considered in the literature.
 
 <tr id="tr-sambharya2023l2a" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-5.
+6.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2212.08260' target='_blank'><img src="images/publications/sambharya2023l2a.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -373,7 +417,7 @@ high-quality solutions.
 
 <tr id="tr-amos2023meta" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-6.
+7.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2206.05262' target='_blank'><img src="images/publications/amos2023meta.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -407,7 +451,7 @@ and continuous transport settings between images, spherical data, and color pale
 
 <tr id="tr-pooladian2023multisample" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-7.
+8.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2304.14772' target='_blank'><img src="images/publications/pooladian2023multisample.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -449,7 +493,7 @@ sets, and lead to better low-cost sample generation.
 
 <tr id="tr-zheng2023semi" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-8.
+9.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2210.06518' target='_blank'><img src="images/publications/zheng2023semi.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -497,7 +541,7 @@ datasets.
 
 <tr id="tr-bansal2023taskmet" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-9.
+10.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2312.05250' target='_blank'><img src="images/publications/bansal2023taskmet.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -534,7 +578,7 @@ distracting states.
 
 <tr id="tr-zharmagambetov2023landscape" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-10.
+11.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2307.08964' target='_blank'><img src="images/publications/zharmagambetov2023landscape.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -579,7 +623,7 @@ computationally expensive high-dimensional problems.
 
 <tr id="tr-retchin2023koopman" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-11.
+12.
 </td>
 <td>
 <a href='https://differentiable.xyz/papers/paper_45.pdf' target='_blank'><img src="images/publications/retchin2023koopman.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -604,50 +648,6 @@ Differential Drive environments, outperforming
 baseline methods in generalizing to
 out-of-distribution constraints in most environments
 after training.
-</div>
-
-</td>
-</tr>
-
-
-<tr id="tr-pooladian2023neural" >
-<td align='right' style='padding-left:0;padding-right:0;'>
-12.
-</td>
-<td>
-<a href='https://openreview.net/forum?id=myb0FKB8C9' target='_blank'><img src="images/publications/pooladian2023neural.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://openreview.net/forum?id=myb0FKB8C9' target='_blank'>Neural Optimal Transport with Lagrangian Costs</a> </em> 
-[<a href='javascript:;'
-    onclick='$("#abs_pooladian2023neural").toggle()'>abs</a>]<br>
-<a href='http://arampooladian.com/' target='_blank'>Aram-Alexandre&nbsp;Pooladian</a>, <a href='https://cims.nyu.edu/~cd2754/' target='_blank'>Carles&nbsp;Domingo-Enrich</a>, <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a>, and <strong>Brandon&nbsp;Amos</strong><br>
-ICML New Frontiers in Learning, Control, and Dynamical Systems Workshop 2023  <br>
-
-<div id="abs_pooladian2023neural" style="text-align: justify; display: none" markdown="1">
-Computational efforts in optimal transport traditionally
-revolve around the squared-Euclidean cost. In this
-work, we choose to investigate the optimal transport
-problem between probability measures when the
-underlying metric space is non-Euclidean, or when
-the cost function is understood to satisfy a least
-action principle,also known as a Lagrangian
-cost. These two generalizations are useful when
-connecting observations from a physical system, where the transport dynamics are influenced by the
-geometry of the system, such as obstacles, and
-allows practitioners to incorporate a priori
-knowledge of the underlying system. Examples include
-barriers for transport, or enforcing a certain
-geometry, i.e., paths must be circular. We
-demonstrate the effectiveness of this formulation on
-existing synthetic examples in the literature, where
-we solve the optimal transport problems in the
-absence of regularization, which is novel in the
-literature. Our contributions are of computational
-interest, where we demonstrate the ability to
-efficiently compute geodesics and amortize
-spline-based paths. We demonstrate the effectiveness
-of this formulation on existing synthetic examples
-in the literature, where we solve the optimal
-transport problems in the absence of regularization.
 </div>
 
 </td>
