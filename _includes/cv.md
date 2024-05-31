@@ -3104,7 +3104,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
 <table class="table table-hover">
 <tr>
   <td style='padding-right:0;'>
-    <span class='cvdate'>2024</span>
+    <span class='cvdate'>2024&nbsp;-&nbsp;present</span>
         <a href="https://scholar.google.com/citations?user=HBAXF6YAAAAJ">Aaron Havens</a> (visiting FAIR from UIUC)
   </td>
 </tr>
