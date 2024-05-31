@@ -207,7 +207,7 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 Selected publications are <span style='background-color: #ffffd0'>highlighted.</span>
 <!-- I most frequently publish at ICML (10 papers), NeurIPS (9 papers), arXiv (5 papers), and ICLR (5 papers). -->
 <br>
-[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 8.1k+ citations and an h-index of 37.]
+[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 8.2k+ citations and an h-index of 37.]
 <br>
 
 <h2>2024</h2>
@@ -2326,7 +2326,7 @@ malware machine learning classifiers.
 
 
 ## <i class="fa fa-chevron-right"></i> Open Source Repositories
-28.9k+ GitHub stars across all repositories.
+29k+ GitHub stars across all repositories.
 
 <table class="table table-hover">
 <tr>
@@ -2334,7 +2334,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/advprompter">facebookresearch/advprompter</a> |
-    <i class="fa fas fa-star"></i> 39 |
+    <i class="fa fas fa-star"></i> 64 |
     <em>Fast Adaptive Adversarial Prompting for LLMs</em>
     <!--  -->
     <!--     facebookresearch/advprompter  -->
@@ -2358,7 +2358,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2023</span>
     <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a> |
-    <i class="fa fas fa-star"></i> 225 |
+    <i class="fa fas fa-star"></i> 229 |
     <em>Tutorial on amortized optimization</em>
     <!--  -->
     <!--     facebookresearch/amortized-optimization-tutorial  -->
@@ -2370,7 +2370,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2023</span>
     <a href="https://github.com/facebookresearch/taskmet">facebookresearch/taskmet</a> |
-    <i class="fa fas fa-star"></i> 15 |
+    <i class="fa fas fa-star"></i> 16 |
     <em>TaskMet: Task-Driven Metric Learning for Model Learning</em>
     <!--  -->
     <!--     facebookresearch/taskmet  -->
@@ -2406,7 +2406,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/meta-ot">facebookresearch/meta-ot</a> |
-    <i class="fa fas fa-star"></i> 92 |
+    <i class="fa fas fa-star"></i> 93 |
     <em>Meta Optimal Transport</em>
     <!--  -->
     <!--     facebookresearch/meta-ot  -->
@@ -2454,7 +2454,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
-    <i class="fa fas fa-star"></i> 913 |
+    <i class="fa fas fa-star"></i> 926 |
     <em>Model-based reinforcement learning library</em>
     <!--  -->
     <!--     facebookresearch/mbrl-lib  -->
@@ -2526,7 +2526,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
-    <i class="fa fas fa-star"></i> 795 |
+    <i class="fa fas fa-star"></i> 812 |
     <em>Differentiable PyTorch Model Predictive Control library</em>
     <!--  -->
     <!--     locuslab/mpc.pytorch  -->
@@ -2538,7 +2538,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a> |
-    <i class="fa fas fa-star"></i> 204 |
+    <i class="fa fas fa-star"></i> 210 |
     <em>Differentiable MPC experiments</em>
     <!--  -->
     <!--     locuslab/differentiable-mpc  -->
@@ -2550,7 +2550,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a> |
-    <i class="fa fas fa-star"></i> 268 |
+    <i class="fa fas fa-star"></i> 270 |
     <em>Input Convex Neural Network experiments</em>
     <!--  -->
     <!--     locuslab/icnn  -->
@@ -2562,7 +2562,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a> |
-    <i class="fa fas fa-star"></i> 483 |
+    <i class="fa fas fa-star"></i> 485 |
     <em>OptNet experiments</em>
     <!--  -->
     <!--     locuslab/optnet  -->
@@ -2574,7 +2574,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
-    <i class="fa fas fa-star"></i> 645 |
+    <i class="fa fas fa-star"></i> 647 |
     <em>Differentiable PyTorch QP solver</em>
     <!--  -->
     <!--     locuslab/qpth  -->
@@ -2586,7 +2586,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a> |
-    <i class="fa fas fa-star"></i> 816 |
+    <i class="fa fas fa-star"></i> 815 |
     <em>PyTorch DenseNet implementation</em>
     <!--  -->
     <!--     bamos/densenet.pytorch  -->
@@ -2706,7 +2706,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a> |
-    <i class="fa fas fa-star"></i> 329 |
+    <i class="fa fas fa-star"></i> 330 |
     <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em>
     <!--  -->
     <!--     cparse/cparse  -->
@@ -2718,7 +2718,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
-    <i class="fa fas fa-star"></i> 395 |
+    <i class="fa fas fa-star"></i> 396 |
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
     <!--  -->
     <!--     bamos/cv  -->
@@ -2754,7 +2754,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2012</span>
     <a href="https://github.com/bamos/dotfiles">bamos/dotfiles</a> |
-    <i class="fa fas fa-star"></i> 236 |
+    <i class="fa fas fa-star"></i> 237 |
     <em><i class="fa fas fa-heart"></i> Linux, xmonad, emacs, vim, zsh, tmux</em>
     <!--  -->
     <!--     bamos/dotfiles  -->
@@ -3102,6 +3102,12 @@ Slides for my major presentations are open-sourced with a CC-BY license at
 
 ## <i class="fa fa-chevron-right"></i> Interns and Students
 <table class="table table-hover">
+<tr>
+  <td style='padding-right:0;'>
+    <span class='cvdate'>2024</span>
+        <a href="https://scholar.google.com/citations?user=HBAXF6YAAAAJ">Aaron Havens</a> (visiting FAIR from UIUC)
+  </td>
+</tr>
 <tr>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022&nbsp;-&nbsp;present</span>
