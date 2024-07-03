@@ -203,11 +203,9 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 
 ## <i class="fa fa-chevron-right"></i> Publications
 
-<!-- [<a href="https://github.com/bamos/cv/blob/master/publications/all.bib">BibTeX</a>] -->
+[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 8.4k+ citations and an h-index of 37] <br>
 Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted.</span>
-<!-- I most frequently publish at ICML (10 papers), NeurIPS (9 papers), arXiv (6 papers), and ICLR (5 papers). -->
-<br>
-[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 8.4k+ citations and an h-index of 37.]
+
 <br>
 
 <h2>2024</h2>
