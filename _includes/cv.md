@@ -322,7 +322,7 @@ Numerous biological and physical processes can be modeled as systems of interact
 <em><a href='https://openreview.net/forum?id=cQWsTeTSkZ' target='_blank'>Unlocking Tokens as Data Points for Generalization Bounds on Larger Language Models</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_lotfi2024unlocking").toggle()'>abs</a>]<br>
-Sanae&nbsp;Lotfi, Yilun&nbsp;Kuang, Marc&nbsp;Anton&nbsp;Finzi, <strong>Brandon&nbsp;Amos</strong>, Micah&nbsp;Goldblum, and <a href='https://cims.nyu.edu/~andrewgw' target='_blank'>Andrew&nbsp;Gordon&nbsp;Wilson</a><br>
+<a href='https://sanaelotfi.github.io/' target='_blank'>Sanae&nbsp;Lotfi</a>, <a href='https://yilunkuang.github.io/' target='_blank'>Yilun&nbsp;Kuang</a>, <a href='https://mfinzi.github.io/' target='_blank'>Marc&nbsp;Anton&nbsp;Finzi</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://goldblum.github.io/' target='_blank'>Micah&nbsp;Goldblum</a>, and <a href='https://cims.nyu.edu/~andrewgw' target='_blank'>Andrew&nbsp;Gordon&nbsp;Wilson</a><br>
 ICML TF2M Workshop 2024  <br>
 
 <div id="abs_lotfi2024unlocking" style="text-align: justify; display: none" markdown="1">
@@ -2863,7 +2863,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
   <td align='right' style='padding-right:0;padding-left:0;'>2.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2024</span>
-     <em>Differentiable optimization for control and robotics</em>,
+     <em>Differentiable optimization for robotics</em>,
         <a href="https://sites.google.com/robotics.utias.utoronto.ca/frontiers-optimization-rss24/schedule">RSS Optimization for Robotics Workshop</a>
   </td>
 </tr>
