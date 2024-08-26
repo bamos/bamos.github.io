@@ -6,6 +6,7 @@ group at
 in NYC and study foundational topics in <b>machine learning</b> and
 <b>optimization</b>, recently involving
 reinforcement learning, control, optimal transport, and geometry.
+I also teach machine learning at <b>Cornell Tech</b>.
 My research is on learning systems that understand and interact with our world
 and focuses on integrating structural information and domain knowledge into
 these systems to represent non-trivial reasoning operations.
@@ -103,7 +104,7 @@ these systems to represent non-trivial reasoning operations.
   <td style='padding-right:0;'>
 <span class='cvdate'>2012&nbsp;-&nbsp;2014</span>
 <p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Virginia Tech</em><span markdown="1" style="color:grey;font-size:1.3rem;margin: 0">
-(with <a href="https://www.ssrg.ece.vt.edu/" target="_blank">Binoy Ravindran</a> and <a href="http://www.alastairmurray.co.uk/" target="_blank">Alastair Murray</a> on compilers)
+(with <a href="https://www.ssrg.ece.vt.edu/" target="_blank">Binoy Ravindran</a> and <a href="https://scholar.google.com/citations?user=UG5yHRIAAAAJ" target="_blank">Alastair Murray</a> on compilers)
 </span></p>
   </td>
 </tr>
@@ -3208,13 +3209,13 @@ Slides for my major presentations are open-sourced with a CC-BY license at
 </tr>
 <tr>
   <td style='padding-right:0;'>
-    <span class='cvdate'>2022&nbsp;-&nbsp;present</span>
+    <span class='cvdate'>2022&nbsp;-&nbsp;2024</span>
         <a href="http://arampooladian.com/">Aram-Alexandre Pooladian</a> (visiting FAIR from NYU)
   </td>
 </tr>
 <tr>
   <td style='padding-right:0;'>
-    <span class='cvdate'>2022&nbsp;-&nbsp;present</span>
+    <span class='cvdate'>2022&nbsp;-&nbsp;2024</span>
         <a href="https://cims.nyu.edu/~cd2754/">Carles Domingo-Enrich</a> (visiting FAIR from NYU)
   </td>
 </tr>
@@ -3251,7 +3252,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
 <tr>
   <td style='padding-right:0;'>
     <span class='cvdate'>2020&nbsp;-&nbsp;2022</span>
-        <a href="https://www.aaronlou.com/">Aaron Lou</a> (visiting FAIR from Cornell and Stanford)
+        <a href="https://www.aaronlou.com/">Aaron Lou</a> (visiting FAIR from Cornell and Stanford, now scientist at OpenAI)
   </td>
 </tr>
 <tr>
@@ -3424,6 +3425,10 @@ Slides for my major presentations are open-sourced with a CC-BY license at
 
 ## <i class="fa fa-chevron-right"></i> Teaching
 <table class="table table-hover">
+<tr>
+  <td style='padding-right:0'><strong>Applied Machine Learning</strong> (Cornell Tech CS5785), Co-instructor</td>
+  <td class='col-md-2' style='text-align:right; padding-left:0;'>F2024</td>
+</tr>
 <tr>
   <td style='padding-right:0'><strong>Graduate AI</strong> (CMU 15-780), TA</td>
   <td class='col-md-2' style='text-align:right; padding-left:0;'>S2017</td>
