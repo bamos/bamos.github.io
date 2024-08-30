@@ -234,19 +234,19 @@ We train the AdvPrompter using a novel algorithm that does not require access to
 </tr>
 
 
-<tr id="tr-pooladian2023neural" style="background-color: #ffffd0">
+<tr id="tr-pooladian2024neural" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
 2.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2406.00288' target='_blank'><img src="images/publications/pooladian2023neural.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<a href='https://arxiv.org/abs/2406.00288' target='_blank'><img src="images/publications/pooladian2024neural.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2406.00288' target='_blank'>Neural Optimal Transport with Lagrangian Costs</a> </em> 
 [<a href='javascript:;'
-    onclick='$("#abs_pooladian2023neural").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/lagrangian-ot' target='_blank'>code</a>] <br>
+    onclick='$("#abs_pooladian2024neural").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/lagrangian-ot' target='_blank'>code</a>] <br>
 <a href='http://arampooladian.com/' target='_blank'>Aram-Alexandre&nbsp;Pooladian</a>, <a href='https://cims.nyu.edu/~cd2754/' target='_blank'>Carles&nbsp;Domingo-Enrich</a>, <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 UAI 2024  <br>
 
-<div id="abs_pooladian2023neural" style="text-align: justify; display: none" markdown="1">
+<div id="abs_pooladian2024neural" style="text-align: justify; display: none" markdown="1">
 We investigate the optimal transport problem between probability measures when the underlying cost function is understood to satisfy a least action principle, also known as a Lagrangian cost. These generalizations are useful when connecting observations from a physical system, where the transport dynamics are influenced by the geometry of the system, such as obstacles, (e.g., incorporating barrier functions in the Lagrangian) and allows practitioners to incorporate a priori knowledge of the underlying system such as non-Euclidean geometries (e.g., paths must be circular). Our contributions are of computational interest, where we demonstrate the ability to efficiently compute geodesics and amortize spline-based paths, which has not been done before, even in low dimensional problems. Unlike prior work, we also output the resulting Lagrangian optimal transport map without requiring an ODE solver. We demonstrate the effectiveness of our formulation on low-dimensional examples taken from  prior work.
 </div>
 
@@ -299,15 +299,15 @@ Many real-world optimization problems contain parameters that are unknown before
 5.
 </td>
 <td>
-<a href='https://openreview.net/forum?id=f9GsKvLdzs' target='_blank'><img src="images/publications/atanackovic2024meta.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://openreview.net/forum?id=f9GsKvLdzs' target='_blank'>Meta Flow Matching:  Integrating Vector Fields on the Wasserstein Manifold</a> </em> 
+<a href='https://arxiv.org/abs/2408.14608' target='_blank'><img src="images/publications/atanackovic2024meta.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://arxiv.org/abs/2408.14608' target='_blank'>Meta Flow Matching:  Integrating Vector Fields on the Wasserstein Manifold</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_atanackovic2024meta").toggle()'>abs</a>]<br>
 <a href='https://lazaratan.github.io/' target='_blank'>Lazar&nbsp;Atanackovic</a>, <a href='https://scholar.google.com/citations?user=CblgXekAAAAJ' target='_blank'>Xi&nbsp;Zhang</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.cs.mcgill.ca/~blanchem/' target='_blank'>Mathieu&nbsp;Blanchette</a>, <a href='https://scholar.google.ca/citations?user=DN3LoTEAAAAJ' target='_blank'>Leo&nbsp;J&nbsp;Lee</a>, <a href='https://yoshuabengio.org/profile/' target='_blank'>Yoshua&nbsp;Bengio</a>, <a href='https://www.alextong.net/' target='_blank'>Alexander&nbsp;Tong</a>, and <a href='https://necludov.github.io/' target='_blank'>Kirill&nbsp;Neklyudov</a><br>
 ICML GRaM Workshop 2024  <br>
 
 <div id="abs_atanackovic2024meta" style="text-align: justify; display: none" markdown="1">
-Numerous biological and physical processes can be modeled as systems of interacting samples evolving continuously over time, e.g. the dynamics of communicating cells or physical particles. Flow-based models allow for learning these dynamics at the population level&nbsp;-&nbsp;they model the evolution of the entire distribution of samples. However, current flow-based models are limited to a single initial population and a set of predefined conditions which describe different dynamics. We propose (MFM), a practical approach to integrating along vector fields on the Wasserstein manifold by amortizing the flow model over the initial populations. We demonstrate empirically the ability of MFM to improve prediction of individual treatment responses on a large scale multi-patient single-cell drug screen dataset.
+Numerous biological and physical processes can be modeled as systems of interacting entities evolving continuously over time, e.g. the dynamics of communicating cells or physical particles. Learning the dynamics of such systems is essential for predicting the temporal evolution of populations across novel samples and unseen environments. Flow-based models allow for learning these dynamics at the population level - they model the evolution of the entire distribution of samples. However, current flow-based models are limited to a single initial population and a set of predefined conditions which describe different dynamics. We argue that multiple processes in natural sciences have to be represented as vector fields on the Wasserstein manifold of probability densities. That is, the change of the population at any moment in time depends on the population itself due to the interactions between samples. In particular, this is crucial for personalized medicine where the development of diseases and their respective treatment response depends on the microenvironment of cells specific to each patient. We propose Meta Flow Matching (MFM), a practical approach to integrating along these vector fields on the Wasserstein manifold by amortizing the flow model over the initial populations. Namely, we embed the population of samples using a Graph Neural Network (GNN) and use these embeddings to train a Flow Matching model. This gives MFM the ability to generalize over the initial distributions unlike previously proposed methods. We demonstrate the ability of MFM to improve prediction of individual treatment responses on a large scale multi-patient single-cell drug screen dataset.
 </div>
 
 </td>
