@@ -2,7 +2,7 @@
 I am a research scientist in the
 <b>Fundamental AI Research (FAIR)</b>
 group at
-<b>Meta</b> in NYC and
+<b>Meta</b> in NYC and also
 teach machine learning at <b>Cornell Tech</b>.
 I study foundational topics in <b>machine learning</b> and
 <b>optimization</b>, recently involving
