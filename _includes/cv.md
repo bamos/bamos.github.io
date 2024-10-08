@@ -3246,7 +3246,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
 <tr>
   <td style='padding-right:0;'>
     <span class='cvdate'>2021&nbsp;-&nbsp;2022</span>
-        <a href="https://www.linkedin.com/in/arnaudfickinger/">Arnaud Fickinger</a> (visiting FAIR from Berkeley)
+        <a href="https://www.linkedin.com/in/arnaudfickinger/">Arnaud Fickinger</a> ((visiting FAIR from Berkeley))
   </td>
 </tr>
 <tr>
