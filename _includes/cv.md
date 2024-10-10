@@ -204,7 +204,7 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 
 ## <i class="fa fa-chevron-right"></i> Publications
 
-[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 8.9k+ citations and an h-index of 37] <br>
+[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 9k+ citations and an h-index of 37] <br>
 Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted.</span>
 
 <br>
@@ -705,8 +705,8 @@ computationally expensive high-dimensional problems.
 16.
 </td>
 <td>
-<a href='https://differentiable.xyz/papers/paper_45.pdf' target='_blank'><img src="images/publications/retchin2023koopman.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://differentiable.xyz/papers/paper_45.pdf' target='_blank'>Koopman Constrained Policy Optimization: A Koopman operator theoretic method for differentiable optimal control in robotics</a> </em> 
+<a href='https://openreview.net/pdf?id=3W7vPqWCeM' target='_blank'><img src="images/publications/retchin2023koopman.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://openreview.net/pdf?id=3W7vPqWCeM' target='_blank'>Koopman Constrained Policy Optimization: A Koopman operator theoretic method for differentiable optimal control in robotics</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_retchin2023koopman").toggle()'>abs</a>]<br>
 <a href='https://www.linkedin.com/in/matthew-retchin/' target='_blank'>Matthew&nbsp;Retchin</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.eigensteve.com/' target='_blank'>Steven&nbsp;Brunton</a>, and <a href='https://shurans.github.io/' target='_blank'>Shuran&nbsp;Song</a><br>
@@ -2621,7 +2621,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a> |
-    <i class="fa fas fa-star"></i> 242 |
+    <i class="fa fas fa-star"></i> 244 |
     <em>Differentiable MPC experiments</em>
     <!--  -->
     <!--     locuslab/differentiable-mpc  -->
@@ -2681,7 +2681,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/block">bamos/block</a> |
-    <i class="fa fas fa-star"></i> 297 |
+    <i class="fa fas fa-star"></i> 298 |
     <em>Intelligent block matrix constructions</em>
     <!--  -->
     <!--     bamos/block  -->
@@ -2753,7 +2753,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2014</span>
     <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a> |
-    <i class="fa fas fa-star"></i> 224 |
+    <i class="fa fas fa-star"></i> 225 |
     <em>Analyze and plot your zsh history</em>
     <!--  -->
     <!--     bamos/zsh-history-analysis  -->
@@ -2801,7 +2801,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
-    <i class="fa fas fa-star"></i> 398 |
+    <i class="fa fas fa-star"></i> 400 |
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
     <!--  -->
     <!--     bamos/cv  -->
@@ -3246,7 +3246,7 @@ Slides for my major presentations are open-sourced with a CC-BY license at
 <tr>
   <td style='padding-right:0;'>
     <span class='cvdate'>2021&nbsp;-&nbsp;2022</span>
-        <a href="https://www.linkedin.com/in/arnaudfickinger/">Arnaud Fickinger</a> ((visiting FAIR from Berkeley))
+        <a href="https://www.linkedin.com/in/arnaudfickinger/">Arnaud Fickinger</a> (visiting FAIR from Berkeley)
   </td>
 </tr>
 <tr>
