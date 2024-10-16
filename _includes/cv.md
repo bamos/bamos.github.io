@@ -204,7 +204,7 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 
 ## <i class="fa fa-chevron-right"></i> Publications
 
-[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 9k+ citations and an h-index of 37] <br>
+[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 8.9k+ citations and an h-index of 37] <br>
 Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted.</span>
 
 <br>
@@ -384,9 +384,15 @@ Many real-world optimization problems contain parameters that are unknown before
 </td>
 <td>
 <a href='https://arxiv.org/abs/2410.09303' target='_blank'><img src="images/publications/phan2024exactbytelevelprobabilitiestokenized.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2410.09303' target='_blank'>Exact Byte-Level Probabilities from Tokenized Language Models for FIM-Tasks and Model Ensembles</a> </em> <br>
+<em><a href='https://arxiv.org/abs/2410.09303' target='_blank'>Exact Byte-Level Probabilities from Tokenized Language Models for FIM-Tasks and Model Ensembles</a> </em> 
+[<a href='javascript:;'
+    onclick='$("#abs_phan2024exactbytelevelprobabilitiestokenized").toggle()'>abs</a>]<br>
 <a href='https://truongbuu.github.io/' target='_blank'>Buu&nbsp;Phan</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://itaigat.com/' target='_blank'>Itai&nbsp;Gat</a>, <a href='https://mhavasi.github.io/' target='_blank'>Marton&nbsp;Havasi</a>, <a href='https://mmuckley.github.io/' target='_blank'>Matthew&nbsp;Muckley</a>, and <a href='https://karenullrich.info/' target='_blank'>Karen&nbsp;Ullrich</a><br>
 arXiv 2024  <br>
+
+<div id="abs_phan2024exactbytelevelprobabilitiestokenized" style="text-align: justify; display: none" markdown="1">
+Tokenization is associated with many poorly understood shortcomings in language models (LMs), yet remains an important component for long sequence scaling purposes. This work studies how tokenization impacts model performance by analyzing and comparing the stochastic behavior of tokenized models with their byte-level, or token-free, counterparts. We discover that, even when the two models are statistically equivalent, their predictive distributions over the next byte can be substantially different, a phenomenon we term as "tokenization bias". To fully characterize this phenomenon, we introduce the Byte-Token Representation Lemma, a framework that establishes a mapping between the learned token distribution and its equivalent byte-level distribution. From this result, we develop a next-byte sampling algorithm that eliminates tokenization bias without requiring further training or optimization. In other words, this enables zero-shot conversion of tokenized LMs into statistically equivalent token-free ones. We demonstrate its broad applicability with two use cases: fill-in-the-middle (FIM) tasks and model ensembles. In FIM tasks where input prompts may terminate mid-token, leading to out-of-distribution tokenization, our method mitigates performance degradation and achieves an approximately 18% improvement in FIM coding benchmarks, consistently outperforming the standard token healing fix. For model ensembles where each model employs a distinct vocabulary, our approach enables seamless integration, resulting in improved performance (up to 3.7%) over individual models across various standard baselines in reasoning, knowledge, and coding.
+</div>
 
 </td>
 </tr>
@@ -2423,7 +2429,7 @@ malware machine learning classifiers.
 
 
 ## <i class="fa fa-chevron-right"></i> Open Source Repositories
-29.7k+ GitHub stars across all repositories.
+29.6k+ GitHub stars across all repositories.
 
 <table class="table table-hover">
 <tr>
@@ -2431,7 +2437,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/advprompter">facebookresearch/advprompter</a> |
-    <i class="fa fas fa-star"></i> 114 |
+    <i class="fa fas fa-star"></i>&nbsp;114 |
     <em>Fast Adaptive Adversarial Prompting for LLMs</em>
     <!--  -->
     <!--     facebookresearch/advprompter  -->
@@ -2443,7 +2449,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/lagrangian-ot">facebookresearch/lagrangian-ot</a> |
-    <i class="fa fas fa-star"></i> 43 |
+    <i class="fa fas fa-star"></i>&nbsp;42 |
     <em>Lagrangian OT</em>
     <!--  -->
     <!--     facebookresearch/lagrangian-ot  -->
@@ -2455,7 +2461,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2023</span>
     <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a> |
-    <i class="fa fas fa-star"></i> 236 |
+    <i class="fa fas fa-star"></i>&nbsp;236 |
     <em>Tutorial on amortized optimization</em>
     <!--  -->
     <!--     facebookresearch/amortized-optimization-tutorial  -->
@@ -2467,7 +2473,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2023</span>
     <a href="https://github.com/facebookresearch/taskmet">facebookresearch/taskmet</a> |
-    <i class="fa fas fa-star"></i> 18 |
+    <i class="fa fas fa-star"></i>&nbsp;18 |
     <em>TaskMet: Task-Driven Metric Learning for Model Learning</em>
     <!--  -->
     <!--     facebookresearch/taskmet  -->
@@ -2479,7 +2485,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2023</span>
     <a href="https://github.com/facebookresearch/w2ot">facebookresearch/w2ot</a> |
-    <i class="fa fas fa-star"></i> 43 |
+    <i class="fa fas fa-star"></i>&nbsp;43 |
     <em>Wasserstein-2 optimal transport in JAX</em>
     <!--  -->
     <!--     facebookresearch/w2ot  -->
@@ -2491,7 +2497,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/theseus">facebookresearch/theseus</a> |
-    <i class="fa fas fa-star"></i> 1.8k |
+    <i class="fa fas fa-star"></i>&nbsp;1.7k |
     <em>Differentiable non-linear optimization library</em>
     <!--  -->
     <!--     facebookresearch/theseus  -->
@@ -2503,7 +2509,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/meta-ot">facebookresearch/meta-ot</a> |
-    <i class="fa fas fa-star"></i> 95 |
+    <i class="fa fas fa-star"></i>&nbsp;95 |
     <em>Meta Optimal Transport</em>
     <!--  -->
     <!--     facebookresearch/meta-ot  -->
@@ -2515,7 +2521,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/bamos/presentations">bamos/presentations</a> |
-    <i class="fa fas fa-star"></i> 141 |
+    <i class="fa fas fa-star"></i>&nbsp;141 |
     <em>Source for my major presentations</em>
     <!--  -->
     <!--     bamos/presentations  -->
@@ -2527,7 +2533,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/rcpm">facebookresearch/rcpm</a> |
-    <i class="fa fas fa-star"></i> 68 |
+    <i class="fa fas fa-star"></i>&nbsp;68 |
     <em>Riemannian Convex Potential Maps</em>
     <!--  -->
     <!--     facebookresearch/rcpm  -->
@@ -2539,7 +2545,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/svg">facebookresearch/svg</a> |
-    <i class="fa fas fa-star"></i> 54 |
+    <i class="fa fas fa-star"></i>&nbsp;54 |
     <em>Model-based stochastic value gradient</em>
     <!--  -->
     <!--     facebookresearch/svg  -->
@@ -2551,7 +2557,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
-    <i class="fa fas fa-star"></i> 955 |
+    <i class="fa fas fa-star"></i>&nbsp;955 |
     <em>Model-based reinforcement learning library</em>
     <!--  -->
     <!--     facebookresearch/mbrl-lib  -->
@@ -2563,7 +2569,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2020</span>
     <a href="https://github.com/facebookresearch/dcem">facebookresearch/dcem</a> |
-    <i class="fa fas fa-star"></i> 123 |
+    <i class="fa fas fa-star"></i>&nbsp;123 |
     <em>The Differentiable Cross-Entropy Method</em>
     <!--  -->
     <!--     facebookresearch/dcem  -->
@@ -2575,7 +2581,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2019</span>
     <a href="https://github.com/facebookresearch/higher">facebookresearch/higher</a> |
-    <i class="fa fas fa-star"></i> 1.6k |
+    <i class="fa fas fa-star"></i>&nbsp;1.6k |
     <em>PyTorch higher-order gradient and optimization library</em>
     <!--  -->
     <!--     facebookresearch/higher  -->
@@ -2587,7 +2593,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2019</span>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a> |
-    <i class="fa fas fa-star"></i> 318 |
+    <i class="fa fas fa-star"></i>&nbsp;318 |
     <em>Ph.D. Thesis LaTeX source code</em>
     <!--  -->
     <!--     bamos/thesis  -->
@@ -2599,7 +2605,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2019</span>
     <a href="https://github.com/cvxgrp/cvxpylayers">cvxgrp/cvxpylayers</a> |
-    <i class="fa fas fa-star"></i> 1.8k |
+    <i class="fa fas fa-star"></i>&nbsp;1.8k |
     <em>Differentiable Convex Optimization Layers</em>
     <!--  -->
     <!--     cvxgrp/cvxpylayers  -->
@@ -2611,7 +2617,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2019</span>
     <a href="https://github.com/locuslab/lml">locuslab/lml</a> |
-    <i class="fa fas fa-star"></i> 58 |
+    <i class="fa fas fa-star"></i>&nbsp;58 |
     <em>The Limited Multi-Label Projection Layer</em>
     <!--  -->
     <!--     locuslab/lml  -->
@@ -2623,7 +2629,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
-    <i class="fa fas fa-star"></i> 872 |
+    <i class="fa fas fa-star"></i>&nbsp;870 |
     <em>Differentiable PyTorch Model Predictive Control library</em>
     <!--  -->
     <!--     locuslab/mpc.pytorch  -->
@@ -2635,7 +2641,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a> |
-    <i class="fa fas fa-star"></i> 244 |
+    <i class="fa fas fa-star"></i>&nbsp;242 |
     <em>Differentiable MPC experiments</em>
     <!--  -->
     <!--     locuslab/differentiable-mpc  -->
@@ -2647,7 +2653,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a> |
-    <i class="fa fas fa-star"></i> 275 |
+    <i class="fa fas fa-star"></i>&nbsp;275 |
     <em>Input Convex Neural Network experiments</em>
     <!--  -->
     <!--     locuslab/icnn  -->
@@ -2659,7 +2665,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a> |
-    <i class="fa fas fa-star"></i> 509 |
+    <i class="fa fas fa-star"></i>&nbsp;508 |
     <em>OptNet experiments</em>
     <!--  -->
     <!--     locuslab/optnet  -->
@@ -2671,7 +2677,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
-    <i class="fa fas fa-star"></i> 675 |
+    <i class="fa fas fa-star"></i>&nbsp;674 |
     <em>Differentiable PyTorch QP solver</em>
     <!--  -->
     <!--     locuslab/qpth  -->
@@ -2683,7 +2689,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a> |
-    <i class="fa fas fa-star"></i> 824 |
+    <i class="fa fas fa-star"></i>&nbsp;823 |
     <em>PyTorch DenseNet implementation</em>
     <!--  -->
     <!--     bamos/densenet.pytorch  -->
@@ -2695,7 +2701,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/block">bamos/block</a> |
-    <i class="fa fas fa-star"></i> 298 |
+    <i class="fa fas fa-star"></i>&nbsp;297 |
     <em>Intelligent block matrix constructions</em>
     <!--  -->
     <!--     bamos/block  -->
@@ -2707,7 +2713,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/setGPU">bamos/setGPU</a> |
-    <i class="fa fas fa-star"></i> 106 |
+    <i class="fa fas fa-star"></i>&nbsp;106 |
     <em>Automatically use the least-loaded GPU</em>
     <!--  -->
     <!--     bamos/setGPU  -->
@@ -2719,7 +2725,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2016</span>
     <a href="https://github.com/bamos/dcgan-completion.tensorflow">bamos/dcgan-completion.tensorflow</a> |
-    <i class="fa fas fa-star"></i> 1.3k |
+    <i class="fa fas fa-star"></i>&nbsp;1.3k |
     <em>Image completion with GANs</em>
     <!--  -->
     <!--     bamos/dcgan-completion.tensorflow  -->
@@ -2731,7 +2737,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2015</span>
     <a href="https://github.com/cmusatyalab/openface">cmusatyalab/openface</a> |
-    <i class="fa fas fa-star"></i> 15.1k |
+    <i class="fa fas fa-star"></i>&nbsp;15.1k |
     <em>Face recognition with deep neural networks</em>
     <!--  -->
     <!--     cmusatyalab/openface  -->
@@ -2743,7 +2749,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2014</span>
     <a href="https://github.com/vtopt/qnstop">vtopt/qnstop</a> |
-    <i class="fa fas fa-star"></i> 10 |
+    <i class="fa fas fa-star"></i>&nbsp;10 |
     <em>Fortran quasi-Newton stochastic optimization library</em>
     <!--  -->
     <!--     vtopt/qnstop  -->
@@ -2755,7 +2761,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2014</span>
     <a href="https://github.com/bamos/snowglobe">bamos/snowglobe</a> |
-    <i class="fa fas fa-star"></i> 27 |
+    <i class="fa fas fa-star"></i>&nbsp;27 |
     <em>Haskell-driven, self-hosted web analytics with minimal configuration</em>
     <!--  -->
     <!--     bamos/snowglobe  -->
@@ -2767,7 +2773,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2014</span>
     <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a> |
-    <i class="fa fas fa-star"></i> 226 |
+    <i class="fa fas fa-star"></i>&nbsp;224 |
     <em>Analyze and plot your zsh history</em>
     <!--  -->
     <!--     bamos/zsh-history-analysis  -->
@@ -2779,7 +2785,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2014</span>
     <a href="https://github.com/bamos/beamer-snippets">bamos/beamer-snippets</a> |
-    <i class="fa fas fa-star"></i> 109 |
+    <i class="fa fas fa-star"></i>&nbsp;109 |
     <em>Beamer and TikZ snippets</em>
     <!--  -->
     <!--     bamos/beamer-snippets  -->
@@ -2791,7 +2797,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/latex-templates">bamos/latex-templates</a> |
-    <i class="fa fas fa-star"></i> 366 |
+    <i class="fa fas fa-star"></i>&nbsp;366 |
     <em>LaTeX templates</em>
     <!--  -->
     <!--     bamos/latex-templates  -->
@@ -2803,7 +2809,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a> |
-    <i class="fa fas fa-star"></i> 336 |
+    <i class="fa fas fa-star"></i>&nbsp;336 |
     <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em>
     <!--  -->
     <!--     cparse/cparse  -->
@@ -2815,7 +2821,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
-    <i class="fa fas fa-star"></i> 400 |
+    <i class="fa fas fa-star"></i>&nbsp;398 |
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
     <!--  -->
     <!--     bamos/cv  -->
@@ -2827,7 +2833,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/python-scripts">bamos/python-scripts</a> |
-    <i class="fa fas fa-star"></i> 197 |
+    <i class="fa fas fa-star"></i>&nbsp;197 |
     <em>Short and fun Python scripts</em>
     <!--  -->
     <!--     bamos/python-scripts  -->
@@ -2839,7 +2845,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/reading-list">bamos/reading-list</a> |
-    <i class="fa fas fa-star"></i> 185 |
+    <i class="fa fas fa-star"></i>&nbsp;185 |
     <em>YAML reading list and notes system</em>
     <!--  -->
     <!--     bamos/reading-list  -->
@@ -2851,7 +2857,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2012</span>
     <a href="https://github.com/bamos/dotfiles">bamos/dotfiles</a> |
-    <i class="fa fas fa-star"></i> 238 |
+    <i class="fa fas fa-star"></i>&nbsp;238 |
     <em><i class="fa fas fa-heart"></i> Linux, xmonad, emacs, vim, zsh, tmux</em>
     <!--  -->
     <!--     bamos/dotfiles  -->
