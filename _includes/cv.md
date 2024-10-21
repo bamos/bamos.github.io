@@ -204,7 +204,7 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 
 ## <i class="fa fa-chevron-right"></i> Publications
 
-[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 8.9k+ citations and an h-index of 37] <br>
+[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 9k+ citations and an h-index of 37] <br>
 Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted.</span>
 
 <br>
@@ -2449,7 +2449,7 @@ malware machine learning classifiers.
 
 
 ## <i class="fa fa-chevron-right"></i> Open Source Repositories
-29.6k+ GitHub stars across all repositories.
+29.7k+ GitHub stars across all repositories.
 
 <table class="table table-hover">
 <tr>
@@ -2457,7 +2457,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/advprompter">facebookresearch/advprompter</a> |
-    <i class="fa fas fa-star"></i>&nbsp;114 |
+    <i class="fa fas fa-star"></i>&nbsp;117 |
     <em>Fast Adaptive Adversarial Prompting for LLMs</em>
     <!--  -->
     <!--     facebookresearch/advprompter  -->
@@ -2469,7 +2469,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/lagrangian-ot">facebookresearch/lagrangian-ot</a> |
-    <i class="fa fas fa-star"></i>&nbsp;42 |
+    <i class="fa fas fa-star"></i>&nbsp;47 |
     <em>Lagrangian OT</em>
     <!--  -->
     <!--     facebookresearch/lagrangian-ot  -->
@@ -2517,7 +2517,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/theseus">facebookresearch/theseus</a> |
-    <i class="fa fas fa-star"></i>&nbsp;1.7k |
+    <i class="fa fas fa-star"></i>&nbsp;1.8k |
     <em>Differentiable non-linear optimization library</em>
     <!--  -->
     <!--     facebookresearch/theseus  -->
@@ -2565,7 +2565,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/svg">facebookresearch/svg</a> |
-    <i class="fa fas fa-star"></i>&nbsp;54 |
+    <i class="fa fas fa-star"></i>&nbsp;55 |
     <em>Model-based stochastic value gradient</em>
     <!--  -->
     <!--     facebookresearch/svg  -->
@@ -2649,7 +2649,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
-    <i class="fa fas fa-star"></i>&nbsp;870 |
+    <i class="fa fas fa-star"></i>&nbsp;874 |
     <em>Differentiable PyTorch Model Predictive Control library</em>
     <!--  -->
     <!--     locuslab/mpc.pytorch  -->
@@ -2661,7 +2661,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a> |
-    <i class="fa fas fa-star"></i>&nbsp;242 |
+    <i class="fa fas fa-star"></i>&nbsp;243 |
     <em>Differentiable MPC experiments</em>
     <!--  -->
     <!--     locuslab/differentiable-mpc  -->
@@ -2673,7 +2673,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a> |
-    <i class="fa fas fa-star"></i>&nbsp;275 |
+    <i class="fa fas fa-star"></i>&nbsp;277 |
     <em>Input Convex Neural Network experiments</em>
     <!--  -->
     <!--     locuslab/icnn  -->
@@ -2685,7 +2685,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a> |
-    <i class="fa fas fa-star"></i>&nbsp;508 |
+    <i class="fa fas fa-star"></i>&nbsp;509 |
     <em>OptNet experiments</em>
     <!--  -->
     <!--     locuslab/optnet  -->
@@ -2697,7 +2697,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
-    <i class="fa fas fa-star"></i>&nbsp;674 |
+    <i class="fa fas fa-star"></i>&nbsp;678 |
     <em>Differentiable PyTorch QP solver</em>
     <!--  -->
     <!--     locuslab/qpth  -->
@@ -2709,7 +2709,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a> |
-    <i class="fa fas fa-star"></i>&nbsp;823 |
+    <i class="fa fas fa-star"></i>&nbsp;825 |
     <em>PyTorch DenseNet implementation</em>
     <!--  -->
     <!--     bamos/densenet.pytorch  -->
@@ -2721,7 +2721,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/block">bamos/block</a> |
-    <i class="fa fas fa-star"></i>&nbsp;297 |
+    <i class="fa fas fa-star"></i>&nbsp;298 |
     <em>Intelligent block matrix constructions</em>
     <!--  -->
     <!--     bamos/block  -->
@@ -2793,7 +2793,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2014</span>
     <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a> |
-    <i class="fa fas fa-star"></i>&nbsp;224 |
+    <i class="fa fas fa-star"></i>&nbsp;226 |
     <em>Analyze and plot your zsh history</em>
     <!--  -->
     <!--     bamos/zsh-history-analysis  -->
@@ -2841,7 +2841,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
-    <i class="fa fas fa-star"></i>&nbsp;398 |
+    <i class="fa fas fa-star"></i>&nbsp;400 |
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
     <!--  -->
     <!--     bamos/cv  -->
@@ -2877,7 +2877,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2012</span>
     <a href="https://github.com/bamos/dotfiles">bamos/dotfiles</a> |
-    <i class="fa fas fa-star"></i>&nbsp;238 |
+    <i class="fa fas fa-star"></i>&nbsp;239 |
     <em><i class="fa fas fa-heart"></i> Linux, xmonad, emacs, vim, zsh, tmux</em>
     <!--  -->
     <!--     bamos/dotfiles  -->
