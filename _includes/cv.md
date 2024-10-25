@@ -204,7 +204,7 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 
 ## <i class="fa fa-chevron-right"></i> Publications
 
-[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 9k+ citations and an h-index of 37] <br>
+[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 9.1k+ citations and an h-index of 38] <br>
 Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted.</span>
 
 <br>
@@ -403,8 +403,8 @@ Tokenization is associated with many poorly understood shortcomings in language 
 9.
 </td>
 <td>
-<a href='https://openreview.net/forum?id=tddSwc692A' target='_blank'><img src="images/publications/ju2024to.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://openreview.net/forum?id=tddSwc692A' target='_blank'>To the Globe (TTG): Towards Language-Driven Guaranteed Travel Planning</a> </em> 
+<a href='https://arxiv.org/abs/2410.16456' target='_blank'><img src="images/publications/ju2024to.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://arxiv.org/abs/2410.16456' target='_blank'>To the Globe (TTG): Towards Language-Driven Guaranteed Travel Planning</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_ju2024to").toggle()'>abs</a>]<br>
 <a href='https://scholar.google.com/citations?user=YW5jp5QAAAA' target='_blank'>Da&nbsp;JU</a>, <a href='https://scholar.google.com/citations?user=SjbhMQEAAAAJ' target='_blank'>Song&nbsp;Jiang</a>, <a href='https://scholar.google.com/citations?user=v1Frtb0AAAAJ' target='_blank'>Andrew&nbsp;Cohen</a>, <a href='https://openreview.net/profile?id=~Aaron_Foss1' target='_blank'>Aaron&nbsp;Foss</a>, <a href='https://scholar.google.com/citations?user=ncFsSKMAAAAJ' target='_blank'>Sasha&nbsp;Mitts</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=v_sIgawAAAAJ' target='_blank'>Xian&nbsp;Li</a>, <a href='https://scholar.google.com/citations?hl=es&user=Y9BLeTAAAAAJ' target='_blank'>Justine&nbsp;T&nbsp;Kao</a>, <a href='https://scholar.google.com/citations?user=7-a1MKEAAAAJ' target='_blank'>Maryam&nbsp;Fazel-Zarandi</a>, and <a href='https://yuandong-tian.com/' target='_blank'>Yuandong&nbsp;Tian</a><br>
@@ -2541,7 +2541,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/bamos/presentations">bamos/presentations</a> |
-    <i class="fa fas fa-star"></i>&nbsp;141 |
+    <i class="fa fas fa-star"></i>&nbsp;142 |
     <em>Source for my major presentations</em>
     <!--  -->
     <!--     bamos/presentations  -->
@@ -2577,7 +2577,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
-    <i class="fa fas fa-star"></i>&nbsp;955 |
+    <i class="fa fas fa-star"></i>&nbsp;957 |
     <em>Model-based reinforcement learning library</em>
     <!--  -->
     <!--     facebookresearch/mbrl-lib  -->
@@ -2637,7 +2637,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2019</span>
     <a href="https://github.com/locuslab/lml">locuslab/lml</a> |
-    <i class="fa fas fa-star"></i>&nbsp;58 |
+    <i class="fa fas fa-star"></i>&nbsp;57 |
     <em>The Limited Multi-Label Projection Layer</em>
     <!--  -->
     <!--     locuslab/lml  -->
@@ -2649,7 +2649,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
-    <i class="fa fas fa-star"></i>&nbsp;874 |
+    <i class="fa fas fa-star"></i>&nbsp;875 |
     <em>Differentiable PyTorch Model Predictive Control library</em>
     <!--  -->
     <!--     locuslab/mpc.pytorch  -->
@@ -2685,7 +2685,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a> |
-    <i class="fa fas fa-star"></i>&nbsp;509 |
+    <i class="fa fas fa-star"></i>&nbsp;510 |
     <em>OptNet experiments</em>
     <!--  -->
     <!--     locuslab/optnet  -->
@@ -2697,7 +2697,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
-    <i class="fa fas fa-star"></i>&nbsp;678 |
+    <i class="fa fas fa-star"></i>&nbsp;679 |
     <em>Differentiable PyTorch QP solver</em>
     <!--  -->
     <!--     locuslab/qpth  -->
@@ -2709,7 +2709,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a> |
-    <i class="fa fas fa-star"></i>&nbsp;825 |
+    <i class="fa fas fa-star"></i>&nbsp;827 |
     <em>PyTorch DenseNet implementation</em>
     <!--  -->
     <!--     bamos/densenet.pytorch  -->
@@ -2829,7 +2829,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a> |
-    <i class="fa fas fa-star"></i>&nbsp;336 |
+    <i class="fa fas fa-star"></i>&nbsp;335 |
     <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em>
     <!--  -->
     <!--     cparse/cparse  -->
@@ -2841,7 +2841,7 @@ malware machine learning classifiers.
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
-    <i class="fa fas fa-star"></i>&nbsp;400 |
+    <i class="fa fas fa-star"></i>&nbsp;401 |
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
     <!--  -->
     <!--     bamos/cv  -->
