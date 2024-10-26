@@ -358,9 +358,29 @@ Numerous biological and physical processes can be modeled as systems of interact
 </tr>
 
 
-<tr id="tr-silvestri2024score" >
+<tr id="tr-ju2024to" >
 <td align='right' style='padding-left:0;padding-right:0;'>
 7.
+</td>
+<td>
+<a href='https://arxiv.org/abs/2410.16456' target='_blank'><img src="images/publications/ju2024to.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://arxiv.org/abs/2410.16456' target='_blank'>To the Globe (TTG): Towards Language-Driven Guaranteed Travel Planning</a> </em> 
+[<a href='javascript:;'
+    onclick='$("#abs_ju2024to").toggle()'>abs</a>]<br>
+<a href='https://scholar.google.com/citations?user=YW5jp5QAAAAJ' target='_blank'>Da&nbsp;JU</a>, <a href='https://scholar.google.com/citations?user=SjbhMQEAAAAJ' target='_blank'>Song&nbsp;Jiang</a>, <a href='https://scholar.google.com/citations?user=v1Frtb0AAAAJ' target='_blank'>Andrew&nbsp;Cohen</a>, <a href='https://openreview.net/profile?id=~Aaron_Foss1' target='_blank'>Aaron&nbsp;Foss</a>, <a href='https://scholar.google.com/citations?user=ncFsSKMAAAAJ' target='_blank'>Sasha&nbsp;Mitts</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=v_sIgawAAAAJ' target='_blank'>Xian&nbsp;Li</a>, <a href='https://scholar.google.com/citations?hl=es&user=Y9BLeTAAAAAJ' target='_blank'>Justine&nbsp;T&nbsp;Kao</a>, <a href='https://scholar.google.com/citations?user=7-a1MKEAAAAJ' target='_blank'>Maryam&nbsp;Fazel-Zarandi</a>, and <a href='https://yuandong-tian.com/' target='_blank'>Yuandong&nbsp;Tian</a><br>
+EMNLP Demo 2024  <br>
+
+<div id="abs_ju2024to" style="text-align: justify; display: none" markdown="1">
+Travel planning is a challenging and time-consuming task that aims to find an itinerary which satisfies multiple, interdependent constraints regarding flights, accommodations, attractions, and other travel arrangements. In this paper, we propose To the Globe (TTG), a real-time demo system that takes natural language requests from users, translates it to symbolic form via a fine-tuned Large Language Model, and produces optimal travel itineraries with Mixed Integer Linear Programming solvers. The overall system takes ~5 seconds to reply to the user request with guaranteed itineraries. To train TTG, we develop a synthetic data pipeline that generates user requests, flight and hotel information in symbolic form without human annotations, based on the statistics of real-world datasets, and fine-tune an LLM to translate NL user requests to their symbolic form, which is sent to the symbolic solver to compute optimal itineraries. Our NL-symbolic translation achieves ~91% exact match in a backtranslation metric (i.e., whether the estimated symbolic form of generated natural language matches the groundtruth), and its returned itineraries have a ratio of 0.979 compared to the optimal cost of the ground truth user request. When evaluated by users, TTG achieves consistently high Net Promoter Scores (NPS) of 35-40% on generated itinerary.
+</div>
+
+</td>
+</tr>
+
+
+<tr id="tr-silvestri2024score" >
+<td align='right' style='padding-left:0;padding-right:0;'>
+8.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2307.05213' target='_blank'><img src="images/publications/silvestri2024score.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -380,7 +400,7 @@ Many real-world optimization problems contain parameters that are unknown before
 
 <tr id="tr-phan2024exactbytelevelprobabilitiestokenized" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-8.
+9.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2410.09303' target='_blank'><img src="images/publications/phan2024exactbytelevelprobabilitiestokenized.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -392,26 +412,6 @@ arXiv 2024  <br>
 
 <div id="abs_phan2024exactbytelevelprobabilitiestokenized" style="text-align: justify; display: none" markdown="1">
 Tokenization is associated with many poorly understood shortcomings in language models (LMs), yet remains an important component for long sequence scaling purposes. This work studies how tokenization impacts model performance by analyzing and comparing the stochastic behavior of tokenized models with their byte-level, or token-free, counterparts. We discover that, even when the two models are statistically equivalent, their predictive distributions over the next byte can be substantially different, a phenomenon we term as "tokenization bias". To fully characterize this phenomenon, we introduce the Byte-Token Representation Lemma, a framework that establishes a mapping between the learned token distribution and its equivalent byte-level distribution. From this result, we develop a next-byte sampling algorithm that eliminates tokenization bias without requiring further training or optimization. In other words, this enables zero-shot conversion of tokenized LMs into statistically equivalent token-free ones. We demonstrate its broad applicability with two use cases: fill-in-the-middle (FIM) tasks and model ensembles. In FIM tasks where input prompts may terminate mid-token, leading to out-of-distribution tokenization, our method mitigates performance degradation and achieves an approximately 18% improvement in FIM coding benchmarks, consistently outperforming the standard token healing fix. For model ensembles where each model employs a distinct vocabulary, our approach enables seamless integration, resulting in improved performance (up to 3.7%) over individual models across various standard baselines in reasoning, knowledge, and coding.
-</div>
-
-</td>
-</tr>
-
-
-<tr id="tr-ju2024to" >
-<td align='right' style='padding-left:0;padding-right:0;'>
-9.
-</td>
-<td>
-<a href='https://arxiv.org/abs/2410.16456' target='_blank'><img src="images/publications/ju2024to.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2410.16456' target='_blank'>To the Globe (TTG): Towards Language-Driven Guaranteed Travel Planning</a> </em> 
-[<a href='javascript:;'
-    onclick='$("#abs_ju2024to").toggle()'>abs</a>]<br>
-<a href='https://scholar.google.com/citations?user=YW5jp5QAAAAJ' target='_blank'>Da&nbsp;JU</a>, <a href='https://scholar.google.com/citations?user=SjbhMQEAAAAJ' target='_blank'>Song&nbsp;Jiang</a>, <a href='https://scholar.google.com/citations?user=v1Frtb0AAAAJ' target='_blank'>Andrew&nbsp;Cohen</a>, <a href='https://openreview.net/profile?id=~Aaron_Foss1' target='_blank'>Aaron&nbsp;Foss</a>, <a href='https://scholar.google.com/citations?user=ncFsSKMAAAAJ' target='_blank'>Sasha&nbsp;Mitts</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=v_sIgawAAAAJ' target='_blank'>Xian&nbsp;Li</a>, <a href='https://scholar.google.com/citations?hl=es&user=Y9BLeTAAAAAJ' target='_blank'>Justine&nbsp;T&nbsp;Kao</a>, <a href='https://scholar.google.com/citations?user=7-a1MKEAAAAJ' target='_blank'>Maryam&nbsp;Fazel-Zarandi</a>, and <a href='https://yuandong-tian.com/' target='_blank'>Yuandong&nbsp;Tian</a><br>
-EMNLP Demo 2024  <br>
-
-<div id="abs_ju2024to" style="text-align: justify; display: none" markdown="1">
-Travel planning is a challenging and time-consuming task that aims to find an itinerary which satisfies multiple, interdependent constraints regarding flights, accommodations, attractions, and other travel arrangements. In this paper, we propose To the Globe (TTG), a real-time demo system that takes natural language requests from users, translates it to symbolic form via a fine-tuned Large Language Model, and produces optimal travel itineraries with Mixed Integer Linear Programming solvers. The overall system takes ~5 seconds to reply to the user request with guaranteed itineraries. To train TTG, we develop a synthetic data pipeline that generates user requests, flight and hotel information in symbolic form without human annotations, based on the statistics of real-world datasets, and fine-tune an LLM to translate NL user requests to their symbolic form, which is sent to the symbolic solver to compute optimal itineraries. Our NL-symbolic translation achieves ~91% exact match in a backtranslation metric (i.e., whether the estimated symbolic form of generated natural language matches the groundtruth), and its returned itineraries have a ratio of 0.979 compared to the optimal cost of the ground truth user request. When evaluated by users, TTG achieves consistently high Net Promoter Scores (NPS) of 35-40% on generated itinerary.
 </div>
 
 </td>
