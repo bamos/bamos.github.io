@@ -2449,7 +2449,7 @@ malware machine learning classifiers.
 
 
 ## <i class="fa fa-chevron-right"></i> Open Source Repositories
-29.8k+ GitHub stars across all repositories.
+35.9k+ GitHub stars across all repositories.
 
 <table class="table table-hover">
 <tr>
@@ -2539,6 +2539,18 @@ malware machine learning classifiers.
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>8.</td>
   <td>
+    <span class='cvdate'>2023</span>
+    <a href="https://github.com/facebookresearch/LANCER">facebookresearch/LANCER</a> |
+    <i class="fa fas fa-star"></i>&nbsp;34 |
+    <em>Landscape Surrogate Learning Decision Losses</em>
+    <!--  -->
+    <!--     facebookresearch/LANCER  -->
+    <!--  -->
+  </td>
+</tr>
+<tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>9.</td>
+  <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/theseus">facebookresearch/theseus</a> |
     <i class="fa fas fa-star"></i>&nbsp;1.8k |
@@ -2549,7 +2561,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>9.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>10.</td>
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/meta-ot">facebookresearch/meta-ot</a> |
@@ -2561,7 +2573,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>10.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>11.</td>
   <td>
     <span class='cvdate'>2022</span>
     <a href="https://github.com/bamos/presentations">bamos/presentations</a> |
@@ -2573,7 +2585,31 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>11.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>12.</td>
+  <td>
+    <span class='cvdate'>2022</span>
+    <a href="https://github.com/facebookresearch/gwil">facebookresearch/gwil</a> |
+    <i class="fa fas fa-star"></i>&nbsp;23 |
+    <em>Gromov-Wasserstein Cross Domain Imitation Learning</em>
+    <!--  -->
+    <!--     facebookresearch/gwil  -->
+    <!--  -->
+  </td>
+</tr>
+<tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>13.</td>
+  <td>
+    <span class='cvdate'>2022</span>
+    <a href="https://github.com/facebookresearch/nocturne">facebookresearch/nocturne</a> |
+    <i class="fa fas fa-star"></i>&nbsp;263 |
+    <em>A partially-observable multi-agent driving simulator</em>
+    <!--  -->
+    <!--     facebookresearch/nocturne  -->
+    <!--  -->
+  </td>
+</tr>
+<tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>14.</td>
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/rcpm">facebookresearch/rcpm</a> |
@@ -2585,7 +2621,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>12.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>15.</td>
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/svg">facebookresearch/svg</a> |
@@ -2597,7 +2633,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>13.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>16.</td>
   <td>
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
@@ -2609,7 +2645,67 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>14.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>17.</td>
+  <td>
+    <span class='cvdate'>2021</span>
+    <a href="https://github.com/martius-lab/CombOptNet">martius-lab/CombOptNet</a> |
+    <i class="fa fas fa-star"></i>&nbsp;72 |
+    <em>CombOptNet</em>
+    <!--  -->
+    <!--     martius-lab/CombOptNet  -->
+    <!--  -->
+  </td>
+</tr>
+<tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>18.</td>
+  <td>
+    <span class='cvdate'>2021</span>
+    <a href="https://github.com/samcohen16/Aligning-Time-Series">samcohen16/Aligning-Time-Series</a> |
+    <i class="fa fas fa-star"></i>&nbsp;49 |
+    <em>Aligning time series on incomparable spaces</em>
+    <!--  -->
+    <!--     samcohen16/Aligning-Time-Series  -->
+    <!--  -->
+  </td>
+</tr>
+<tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>19.</td>
+  <td>
+    <span class='cvdate'>2021</span>
+    <a href="https://github.com/facebookresearch/neural_stpp">facebookresearch/neural_stpp</a> |
+    <i class="fa fas fa-star"></i>&nbsp;97 |
+    <em>Neural Spatio-Temporal Point Processes</em>
+    <!--  -->
+    <!--     facebookresearch/neural_stpp  -->
+    <!--  -->
+  </td>
+</tr>
+<tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>20.</td>
+  <td>
+    <span class='cvdate'>2021</span>
+    <a href="https://github.com/facebookresearch/neural-scs">facebookresearch/neural-scs</a> |
+    <i class="fa fas fa-star"></i>&nbsp;29 |
+    <em>Neural Fixed-Point Acceleration for SCS</em>
+    <!--  -->
+    <!--     facebookresearch/neural-scs  -->
+    <!--  -->
+  </td>
+</tr>
+<tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>21.</td>
+  <td>
+    <span class='cvdate'>2021</span>
+    <a href="https://github.com/rtqichen/torchdiffeq">rtqichen/torchdiffeq</a> |
+    <i class="fa fas fa-star"></i>&nbsp;5.5k |
+    <em>PyTorch Differentiable ODE Solvers (differentiable event handling)</em>
+    <!--  -->
+    <!--     rtqichen/torchdiffeq  -->
+    <!--  -->
+  </td>
+</tr>
+<tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>22.</td>
   <td>
     <span class='cvdate'>2020</span>
     <a href="https://github.com/facebookresearch/dcem">facebookresearch/dcem</a> |
@@ -2621,7 +2717,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>15.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>23.</td>
   <td>
     <span class='cvdate'>2019</span>
     <a href="https://github.com/facebookresearch/higher">facebookresearch/higher</a> |
@@ -2633,7 +2729,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>16.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>24.</td>
   <td>
     <span class='cvdate'>2019</span>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a> |
@@ -2645,7 +2741,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>17.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>25.</td>
   <td>
     <span class='cvdate'>2019</span>
     <a href="https://github.com/cvxgrp/cvxpylayers">cvxgrp/cvxpylayers</a> |
@@ -2657,7 +2753,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>18.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>26.</td>
   <td>
     <span class='cvdate'>2019</span>
     <a href="https://github.com/locuslab/lml">locuslab/lml</a> |
@@ -2669,7 +2765,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>19.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>27.</td>
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
@@ -2681,7 +2777,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>20.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>28.</td>
   <td>
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a> |
@@ -2693,7 +2789,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>21.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>29.</td>
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a> |
@@ -2705,7 +2801,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>22.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>30.</td>
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a> |
@@ -2717,7 +2813,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>23.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>31.</td>
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
@@ -2729,7 +2825,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>24.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>32.</td>
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a> |
@@ -2741,7 +2837,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>25.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>33.</td>
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/block">bamos/block</a> |
@@ -2753,7 +2849,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>26.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>34.</td>
   <td>
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/setGPU">bamos/setGPU</a> |
@@ -2765,7 +2861,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>27.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>35.</td>
   <td>
     <span class='cvdate'>2016</span>
     <a href="https://github.com/bamos/dcgan-completion.tensorflow">bamos/dcgan-completion.tensorflow</a> |
@@ -2777,7 +2873,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>28.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>36.</td>
   <td>
     <span class='cvdate'>2015</span>
     <a href="https://github.com/cmusatyalab/openface">cmusatyalab/openface</a> |
@@ -2789,7 +2885,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>29.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>37.</td>
   <td>
     <span class='cvdate'>2014</span>
     <a href="https://github.com/vtopt/qnstop">vtopt/qnstop</a> |
@@ -2801,7 +2897,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>30.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>38.</td>
   <td>
     <span class='cvdate'>2014</span>
     <a href="https://github.com/bamos/snowglobe">bamos/snowglobe</a> |
@@ -2813,7 +2909,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>31.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>39.</td>
   <td>
     <span class='cvdate'>2014</span>
     <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a> |
@@ -2825,7 +2921,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>32.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>40.</td>
   <td>
     <span class='cvdate'>2014</span>
     <a href="https://github.com/bamos/beamer-snippets">bamos/beamer-snippets</a> |
@@ -2837,7 +2933,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>33.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>41.</td>
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/latex-templates">bamos/latex-templates</a> |
@@ -2849,7 +2945,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>34.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>42.</td>
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a> |
@@ -2861,7 +2957,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>35.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>43.</td>
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a> |
@@ -2873,7 +2969,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>36.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>44.</td>
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/python-scripts">bamos/python-scripts</a> |
@@ -2885,7 +2981,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>37.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>45.</td>
   <td>
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/reading-list">bamos/reading-list</a> |
@@ -2897,7 +2993,7 @@ malware machine learning classifiers.
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>38.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>46.</td>
   <td>
     <span class='cvdate'>2012</span>
     <a href="https://github.com/bamos/dotfiles">bamos/dotfiles</a> |
