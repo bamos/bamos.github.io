@@ -204,10 +204,11 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 
 ## <i class="fa fa-chevron-right"></i> Publications
 
-[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 9.1k+ citations and an h-index of 38] <br>
-Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted.</span>
-
-<br>
+I usually publish at machine learning conferences,
+including NeurIPS (11 papers), ICML (10 papers), and ICLR (5 papers).
+<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>
+reports 9.1k+ citations and an h-index of 38.
+The selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted.</span>
 
 <h2>2024</h2>
 <table class="table table-hover">
