@@ -2501,595 +2501,546 @@ malware machine learning classifiers.
 
 
 ## <i class="fa fa-chevron-right"></i> Open Source Repositories
-36.1k+ GitHub stars across all repositories.
+36.2k+ GitHub stars across all repositories.
 
 <table class="table table-hover">
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>1.</td>
   <td>
     <span class='cvdate'>2024</span>
-    <a href="https://github.com/facebookresearch/advprompter">facebookresearch/advprompter</a> |
-    <i class="fa fas fa-star"></i>&nbsp;117 |
+    <a href="https://github.com/facebookresearch/advprompter">facebookresearch/advprompter</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;120 |
+    </span>
     <em>Fast Adaptive Adversarial Prompting for LLMs</em>
-    <!--  -->
-    <!--     facebookresearch/advprompter  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>2.</td>
   <td>
     <span class='cvdate'>2024</span>
-    <a href="https://github.com/facebookresearch/lagrangian-ot">facebookresearch/lagrangian-ot</a> |
-    <i class="fa fas fa-star"></i>&nbsp;47 |
+    <a href="https://github.com/facebookresearch/lagrangian-ot">facebookresearch/lagrangian-ot</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;47 |
+    </span>
     <em>Lagrangian OT</em>
-    <!--  -->
-    <!--     facebookresearch/lagrangian-ot  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>3.</td>
   <td>
     <span class='cvdate'>2024</span>
-    <a href="https://github.com/lazaratan/meta-flow-matching">lazaratan/meta-flow-matching</a> |
-    <i class="fa fas fa-star"></i>&nbsp;37 |
+    <a href="https://github.com/lazaratan/meta-flow-matching">lazaratan/meta-flow-matching</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;38 |
+    </span>
     <em>Meta Flow Matching</em>
-    <!--  -->
-    <!--     lazaratan/meta-flow-matching  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>4.</td>
   <td>
     <span class='cvdate'>2024</span>
-    <a href="https://github.com/facebookresearch/soc-matching">facebookresearch/soc-matching</a> |
-    <i class="fa fas fa-star"></i>&nbsp;23 |
+    <a href="https://github.com/facebookresearch/soc-matching">facebookresearch/soc-matching</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;27 |
+    </span>
     <em>Stochastic Optimal Control Matching</em>
-    <!--  -->
-    <!--     facebookresearch/soc-matching  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>5.</td>
   <td>
     <span class='cvdate'>2023</span>
-    <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a> |
-    <i class="fa fas fa-star"></i>&nbsp;236 |
+    <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;236 |
+    </span>
     <em>Tutorial on amortized optimization</em>
-    <!--  -->
-    <!--     facebookresearch/amortized-optimization-tutorial  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>6.</td>
   <td>
     <span class='cvdate'>2023</span>
-    <a href="https://github.com/facebookresearch/taskmet">facebookresearch/taskmet</a> |
-    <i class="fa fas fa-star"></i>&nbsp;18 |
+    <a href="https://github.com/facebookresearch/taskmet">facebookresearch/taskmet</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;18 |
+    </span>
     <em>TaskMet: Task-Driven Metric Learning for Model Learning</em>
-    <!--  -->
-    <!--     facebookresearch/taskmet  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>7.</td>
   <td>
     <span class='cvdate'>2023</span>
-    <a href="https://github.com/facebookresearch/w2ot">facebookresearch/w2ot</a> |
-    <i class="fa fas fa-star"></i>&nbsp;43 |
+    <a href="https://github.com/facebookresearch/w2ot">facebookresearch/w2ot</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;43 |
+    </span>
     <em>Wasserstein-2 optimal transport in JAX</em>
-    <!--  -->
-    <!--     facebookresearch/w2ot  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>8.</td>
   <td>
     <span class='cvdate'>2023</span>
-    <a href="https://github.com/facebookresearch/LANCER">facebookresearch/LANCER</a> |
-    <i class="fa fas fa-star"></i>&nbsp;34 |
+    <a href="https://github.com/facebookresearch/LANCER">facebookresearch/LANCER</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;35 |
+    </span>
     <em>Landscape Surrogate Learning Decision Losses</em>
-    <!--  -->
-    <!--     facebookresearch/LANCER  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>9.</td>
   <td>
     <span class='cvdate'>2022</span>
-    <a href="https://github.com/facebookresearch/theseus">facebookresearch/theseus</a> |
-    <i class="fa fas fa-star"></i>&nbsp;1.8k |
+    <a href="https://github.com/facebookresearch/theseus">facebookresearch/theseus</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;1.8k |
+    </span>
     <em>Differentiable non-linear optimization library</em>
-    <!--  -->
-    <!--     facebookresearch/theseus  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>10.</td>
   <td>
     <span class='cvdate'>2022</span>
-    <a href="https://github.com/facebookresearch/meta-ot">facebookresearch/meta-ot</a> |
-    <i class="fa fas fa-star"></i>&nbsp;95 |
+    <a href="https://github.com/facebookresearch/meta-ot">facebookresearch/meta-ot</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;95 |
+    </span>
     <em>Meta Optimal Transport</em>
-    <!--  -->
-    <!--     facebookresearch/meta-ot  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>11.</td>
   <td>
     <span class='cvdate'>2022</span>
-    <a href="https://github.com/bamos/presentations">bamos/presentations</a> |
-    <i class="fa fas fa-star"></i>&nbsp;142 |
+    <a href="https://github.com/bamos/presentations">bamos/presentations</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;142 |
+    </span>
     <em>Source for my major presentations</em>
-    <!--  -->
-    <!--     bamos/presentations  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>12.</td>
   <td>
     <span class='cvdate'>2022</span>
-    <a href="https://github.com/facebookresearch/gwil">facebookresearch/gwil</a> |
-    <i class="fa fas fa-star"></i>&nbsp;23 |
+    <a href="https://github.com/facebookresearch/gwil">facebookresearch/gwil</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;23 |
+    </span>
     <em>Gromov-Wasserstein Cross Domain Imitation Learning</em>
-    <!--  -->
-    <!--     facebookresearch/gwil  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>13.</td>
   <td>
     <span class='cvdate'>2022</span>
-    <a href="https://github.com/facebookresearch/nocturne">facebookresearch/nocturne</a> |
-    <i class="fa fas fa-star"></i>&nbsp;263 |
+    <a href="https://github.com/facebookresearch/nocturne">facebookresearch/nocturne</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;264 |
+    </span>
     <em>A partially-observable multi-agent driving simulator</em>
-    <!--  -->
-    <!--     facebookresearch/nocturne  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>14.</td>
   <td>
     <span class='cvdate'>2021</span>
-    <a href="https://github.com/facebookresearch/rcpm">facebookresearch/rcpm</a> |
-    <i class="fa fas fa-star"></i>&nbsp;68 |
+    <a href="https://github.com/facebookresearch/rcpm">facebookresearch/rcpm</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;68 |
+    </span>
     <em>Riemannian Convex Potential Maps</em>
-    <!--  -->
-    <!--     facebookresearch/rcpm  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>15.</td>
   <td>
     <span class='cvdate'>2021</span>
-    <a href="https://github.com/facebookresearch/svg">facebookresearch/svg</a> |
-    <i class="fa fas fa-star"></i>&nbsp;55 |
+    <a href="https://github.com/facebookresearch/svg">facebookresearch/svg</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;55 |
+    </span>
     <em>Model-based stochastic value gradient</em>
-    <!--  -->
-    <!--     facebookresearch/svg  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>16.</td>
   <td>
     <span class='cvdate'>2021</span>
-    <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a> |
-    <i class="fa fas fa-star"></i>&nbsp;957 |
+    <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;960 |
+    </span>
     <em>Model-based reinforcement learning library</em>
-    <!--  -->
-    <!--     facebookresearch/mbrl-lib  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>17.</td>
   <td>
     <span class='cvdate'>2021</span>
-    <a href="https://github.com/martius-lab/CombOptNet">martius-lab/CombOptNet</a> |
-    <i class="fa fas fa-star"></i>&nbsp;72 |
+    <a href="https://github.com/martius-lab/CombOptNet">martius-lab/CombOptNet</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;72 |
+    </span>
     <em>CombOptNet</em>
-    <!--  -->
-    <!--     martius-lab/CombOptNet  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>18.</td>
   <td>
     <span class='cvdate'>2021</span>
-    <a href="https://github.com/samcohen16/Aligning-Time-Series">samcohen16/Aligning-Time-Series</a> |
-    <i class="fa fas fa-star"></i>&nbsp;49 |
+    <a href="https://github.com/samcohen16/Aligning-Time-Series">samcohen16/Aligning-Time-Series</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;49 |
+    </span>
     <em>Aligning time series on incomparable spaces</em>
-    <!--  -->
-    <!--     samcohen16/Aligning-Time-Series  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>19.</td>
   <td>
     <span class='cvdate'>2021</span>
-    <a href="https://github.com/facebookresearch/neural_stpp">facebookresearch/neural_stpp</a> |
-    <i class="fa fas fa-star"></i>&nbsp;97 |
+    <a href="https://github.com/facebookresearch/neural_stpp">facebookresearch/neural_stpp</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;97 |
+    </span>
     <em>Neural Spatio-Temporal Point Processes</em>
-    <!--  -->
-    <!--     facebookresearch/neural_stpp  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>20.</td>
   <td>
     <span class='cvdate'>2021</span>
-    <a href="https://github.com/facebookresearch/neural-scs">facebookresearch/neural-scs</a> |
-    <i class="fa fas fa-star"></i>&nbsp;29 |
+    <a href="https://github.com/facebookresearch/neural-scs">facebookresearch/neural-scs</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;29 |
+    </span>
     <em>Neural Fixed-Point Acceleration for SCS</em>
-    <!--  -->
-    <!--     facebookresearch/neural-scs  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>21.</td>
   <td>
     <span class='cvdate'>2021</span>
-    <a href="https://github.com/rtqichen/torchdiffeq">rtqichen/torchdiffeq</a> |
-    <i class="fa fas fa-star"></i>&nbsp;5.5k |
+    <a href="https://github.com/rtqichen/torchdiffeq">rtqichen/torchdiffeq</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;5.6k |
+    </span>
     <em>PyTorch Differentiable ODE Solvers (differentiable event handling)</em>
-    <!--  -->
-    <!--     rtqichen/torchdiffeq  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>22.</td>
   <td>
     <span class='cvdate'>2020</span>
-    <a href="https://github.com/facebookresearch/dcem">facebookresearch/dcem</a> |
-    <i class="fa fas fa-star"></i>&nbsp;123 |
+    <a href="https://github.com/facebookresearch/dcem">facebookresearch/dcem</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;123 |
+    </span>
     <em>The Differentiable Cross-Entropy Method</em>
-    <!--  -->
-    <!--     facebookresearch/dcem  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>23.</td>
   <td>
     <span class='cvdate'>2019</span>
-    <a href="https://github.com/facebookresearch/higher">facebookresearch/higher</a> |
-    <i class="fa fas fa-star"></i>&nbsp;1.6k |
+    <a href="https://github.com/facebookresearch/higher">facebookresearch/higher</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;1.6k |
+    </span>
     <em>PyTorch higher-order gradient and optimization library</em>
-    <!--  -->
-    <!--     facebookresearch/higher  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>24.</td>
   <td>
     <span class='cvdate'>2019</span>
-    <a href="https://github.com/bamos/thesis">bamos/thesis</a> |
-    <i class="fa fas fa-star"></i>&nbsp;318 |
+    <a href="https://github.com/bamos/thesis">bamos/thesis</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;320 |
+    </span>
     <em>Ph.D. Thesis LaTeX source code</em>
-    <!--  -->
-    <!--     bamos/thesis  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>25.</td>
   <td>
     <span class='cvdate'>2019</span>
-    <a href="https://github.com/cvxgrp/cvxpylayers">cvxgrp/cvxpylayers</a> |
-    <i class="fa fas fa-star"></i>&nbsp;1.8k |
+    <a href="https://github.com/cvxgrp/cvxpylayers">cvxgrp/cvxpylayers</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;1.8k |
+    </span>
     <em>Differentiable Convex Optimization Layers</em>
-    <!--  -->
-    <!--     cvxgrp/cvxpylayers  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>26.</td>
   <td>
     <span class='cvdate'>2019</span>
-    <a href="https://github.com/locuslab/lml">locuslab/lml</a> |
-    <i class="fa fas fa-star"></i>&nbsp;57 |
+    <a href="https://github.com/locuslab/lml">locuslab/lml</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;57 |
+    </span>
     <em>The Limited Multi-Label Projection Layer</em>
-    <!--  -->
-    <!--     locuslab/lml  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>27.</td>
   <td>
     <span class='cvdate'>2018</span>
-    <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a> |
-    <i class="fa fas fa-star"></i>&nbsp;875 |
+    <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;882 |
+    </span>
     <em>Differentiable PyTorch Model Predictive Control library</em>
-    <!--  -->
-    <!--     locuslab/mpc.pytorch  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>28.</td>
   <td>
     <span class='cvdate'>2018</span>
-    <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a> |
-    <i class="fa fas fa-star"></i>&nbsp;243 |
+    <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;247 |
+    </span>
     <em>Differentiable MPC experiments</em>
-    <!--  -->
-    <!--     locuslab/differentiable-mpc  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>29.</td>
   <td>
     <span class='cvdate'>2017</span>
-    <a href="https://github.com/locuslab/icnn">locuslab/icnn</a> |
-    <i class="fa fas fa-star"></i>&nbsp;277 |
+    <a href="https://github.com/locuslab/icnn">locuslab/icnn</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;278 |
+    </span>
     <em>Input Convex Neural Network experiments</em>
-    <!--  -->
-    <!--     locuslab/icnn  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>30.</td>
   <td>
     <span class='cvdate'>2017</span>
-    <a href="https://github.com/locuslab/optnet">locuslab/optnet</a> |
-    <i class="fa fas fa-star"></i>&nbsp;510 |
+    <a href="https://github.com/locuslab/optnet">locuslab/optnet</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;511 |
+    </span>
     <em>OptNet experiments</em>
-    <!--  -->
-    <!--     locuslab/optnet  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>31.</td>
   <td>
     <span class='cvdate'>2017</span>
-    <a href="https://github.com/locuslab/qpth">locuslab/qpth</a> |
-    <i class="fa fas fa-star"></i>&nbsp;679 |
+    <a href="https://github.com/locuslab/qpth">locuslab/qpth</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;680 |
+    </span>
     <em>Differentiable PyTorch QP solver</em>
-    <!--  -->
-    <!--     locuslab/qpth  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>32.</td>
   <td>
     <span class='cvdate'>2017</span>
-    <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a> |
-    <i class="fa fas fa-star"></i>&nbsp;827 |
+    <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;829 |
+    </span>
     <em>PyTorch DenseNet implementation</em>
-    <!--  -->
-    <!--     bamos/densenet.pytorch  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>33.</td>
   <td>
     <span class='cvdate'>2017</span>
-    <a href="https://github.com/bamos/block">bamos/block</a> |
-    <i class="fa fas fa-star"></i>&nbsp;298 |
+    <a href="https://github.com/bamos/block">bamos/block</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;298 |
+    </span>
     <em>Intelligent block matrix constructions</em>
-    <!--  -->
-    <!--     bamos/block  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>34.</td>
   <td>
     <span class='cvdate'>2017</span>
-    <a href="https://github.com/bamos/setGPU">bamos/setGPU</a> |
-    <i class="fa fas fa-star"></i>&nbsp;106 |
+    <a href="https://github.com/bamos/setGPU">bamos/setGPU</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;106 |
+    </span>
     <em>Automatically use the least-loaded GPU</em>
-    <!--  -->
-    <!--     bamos/setGPU  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>35.</td>
   <td>
     <span class='cvdate'>2016</span>
-    <a href="https://github.com/bamos/dcgan-completion.tensorflow">bamos/dcgan-completion.tensorflow</a> |
-    <i class="fa fas fa-star"></i>&nbsp;1.3k |
+    <a href="https://github.com/bamos/dcgan-completion.tensorflow">bamos/dcgan-completion.tensorflow</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;1.3k |
+    </span>
     <em>Image completion with GANs</em>
-    <!--  -->
-    <!--     bamos/dcgan-completion.tensorflow  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>36.</td>
   <td>
     <span class='cvdate'>2015</span>
-    <a href="https://github.com/cmusatyalab/openface">cmusatyalab/openface</a> |
-    <i class="fa fas fa-star"></i>&nbsp;15.1k |
+    <a href="https://github.com/cmusatyalab/openface">cmusatyalab/openface</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;15.1k |
+    </span>
     <em>Face recognition with deep neural networks</em>
-    <!--  -->
-    <!--     cmusatyalab/openface  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>37.</td>
   <td>
     <span class='cvdate'>2015</span>
-    <a href="https://github.com/bamos/girl">bamos/girl</a> |
-    <i class="fa fas fa-star"></i>&nbsp;70 |
+    <a href="https://github.com/bamos/girl">bamos/girl</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;70 |
+    </span>
     <em>GitHub README link checker</em>
-    <!--  -->
-    <!--     bamos/girl  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>38.</td>
   <td>
     <span class='cvdate'>2015</span>
-    <a href="https://github.com/bamos/conference-tracker">bamos/conference-tracker</a> |
-    <i class="fa fas fa-star"></i>&nbsp;71 |
+    <a href="https://github.com/bamos/conference-tracker">bamos/conference-tracker</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;71 |
+    </span>
     <em>Minimal conference tracker</em>
-    <!--  -->
-    <!--     bamos/conference-tracker  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>39.</td>
   <td>
     <span class='cvdate'>2014</span>
-    <a href="https://github.com/vtopt/qnstop">vtopt/qnstop</a> |
-    <i class="fa fas fa-star"></i>&nbsp;10 |
+    <a href="https://github.com/vtopt/qnstop">vtopt/qnstop</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;10 |
+    </span>
     <em>Fortran quasi-Newton stochastic optimization library</em>
-    <!--  -->
-    <!--     vtopt/qnstop  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>40.</td>
   <td>
     <span class='cvdate'>2014</span>
-    <a href="https://github.com/bamos/snowglobe">bamos/snowglobe</a> |
-    <i class="fa fas fa-star"></i>&nbsp;27 |
+    <a href="https://github.com/bamos/snowglobe">bamos/snowglobe</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;27 |
+    </span>
     <em>Haskell-driven, self-hosted web analytics with minimal configuration</em>
-    <!--  -->
-    <!--     bamos/snowglobe  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>41.</td>
   <td>
     <span class='cvdate'>2014</span>
-    <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a> |
-    <i class="fa fas fa-star"></i>&nbsp;226 |
+    <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;226 |
+    </span>
     <em>Analyze and plot your zsh history</em>
-    <!--  -->
-    <!--     bamos/zsh-history-analysis  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>42.</td>
   <td>
     <span class='cvdate'>2014</span>
-    <a href="https://github.com/bamos/beamer-snippets">bamos/beamer-snippets</a> |
-    <i class="fa fas fa-star"></i>&nbsp;109 |
+    <a href="https://github.com/bamos/beamer-snippets">bamos/beamer-snippets</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;109 |
+    </span>
     <em>Beamer and TikZ snippets</em>
-    <!--  -->
-    <!--     bamos/beamer-snippets  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>43.</td>
   <td>
     <span class='cvdate'>2013</span>
-    <a href="https://github.com/bamos/latex-templates">bamos/latex-templates</a> |
-    <i class="fa fas fa-star"></i>&nbsp;366 |
+    <a href="https://github.com/bamos/latex-templates">bamos/latex-templates</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;366 |
+    </span>
     <em>LaTeX templates</em>
-    <!--  -->
-    <!--     bamos/latex-templates  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>44.</td>
   <td>
     <span class='cvdate'>2013</span>
-    <a href="https://github.com/cparse/cparse">cparse/cparse</a> |
-    <i class="fa fas fa-star"></i>&nbsp;335 |
+    <a href="https://github.com/cparse/cparse">cparse/cparse</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;335 |
+    </span>
     <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em>
-    <!--  -->
-    <!--     cparse/cparse  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>45.</td>
   <td>
     <span class='cvdate'>2013</span>
-    <a href="https://github.com/bamos/cv">bamos/cv</a> |
-    <i class="fa fas fa-star"></i>&nbsp;401 |
+    <a href="https://github.com/bamos/cv">bamos/cv</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;401 |
+    </span>
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
-    <!--  -->
-    <!--     bamos/cv  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>46.</td>
   <td>
     <span class='cvdate'>2013</span>
-    <a href="https://github.com/bamos/parsec-benchmark">bamos/parsec-benchmark</a> |
-    <i class="fa fas fa-star"></i>&nbsp;98 |
+    <a href="https://github.com/bamos/parsec-benchmark">bamos/parsec-benchmark</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;98 |
+    </span>
     <em>PARSEC benchmark support for Arch Linux</em>
-    <!--  -->
-    <!--     bamos/parsec-benchmark  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>47.</td>
   <td>
     <span class='cvdate'>2013</span>
-    <a href="https://github.com/bamos/python-scripts">bamos/python-scripts</a> |
-    <i class="fa fas fa-star"></i>&nbsp;197 |
+    <a href="https://github.com/bamos/python-scripts">bamos/python-scripts</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;198 |
+    </span>
     <em>Short and fun Python scripts</em>
-    <!--  -->
-    <!--     bamos/python-scripts  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>48.</td>
   <td>
     <span class='cvdate'>2013</span>
-    <a href="https://github.com/bamos/reading-list">bamos/reading-list</a> |
-    <i class="fa fas fa-star"></i>&nbsp;185 |
+    <a href="https://github.com/bamos/reading-list">bamos/reading-list</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;185 |
+    </span>
     <em>YAML reading list and notes system</em>
-    <!--  -->
-    <!--     bamos/reading-list  -->
-    <!--  -->
   </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>49.</td>
   <td>
     <span class='cvdate'>2012</span>
-    <a href="https://github.com/bamos/dotfiles">bamos/dotfiles</a> |
-    <i class="fa fas fa-star"></i>&nbsp;239 |
+    <a href="https://github.com/bamos/dotfiles">bamos/dotfiles</a>
+    <span style="white-space: nowrap">
+    | <i class="fa fas fa-star"></i>&nbsp;239 |
+    </span>
     <em><i class="fa fas fa-heart"></i> Linux, xmonad, emacs, vim, zsh, tmux</em>
-    <!--  -->
-    <!--     bamos/dotfiles  -->
-    <!--  -->
   </td>
 </tr>
 </table>
