@@ -3116,7 +3116,7 @@ under a CC-BY license.
   <td align='right' style='padding-right:0;padding-left:0;'>1.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2024</span>
-     <em>Transport and flows on distributions over distributions</em> &mdash;
+     <em>Transport and flows between distributions over distributions</em> &mdash;
         Genesis Therapeutics
   </td>
 </tr>
@@ -3124,7 +3124,7 @@ under a CC-BY license.
   <td align='right' style='padding-right:0;padding-left:0;'>2.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2024</span>
-     <em>Transport and flows on distributions over distributions</em> &mdash;
+     <em>Transport and flows between distributions over distributions</em> &mdash;
         UT Austin
   </td>
 </tr>
