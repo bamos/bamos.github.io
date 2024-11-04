@@ -483,7 +483,7 @@ external datasets nor source code.
 <em><a href='https://arxiv.org/abs/2411.00698' target='_blank'>Wasserstein Flow Matching: Generative modeling over families of distributions</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_haviv2024wasserstein").toggle()'>abs</a>] [<a href='https://github.com/DoronHav/WassersteinFlowMatching' target='_blank'>code</a>] <br>
-<a href='https://scholar.google.co.il/citations?user=tWeeha4AAAAJ' target='_blank'>Doron&nbsp;Haviv</a>, <a href='https://arampooladian.com/' target='_blank'>Aram-Alexandre&nbsp;Pooladian</a>, <a href='https://scholar.google.com/citations?user=aJOeGRoAAAAJ' target='_blank'>Dana&nbsp;Pe'er</a>, and <strong>Brandon&nbsp;Amos</strong><br>
+<a href='https://doronhav.github.io/' target='_blank'>Doron&nbsp;Haviv</a>, <a href='https://arampooladian.com/' target='_blank'>Aram-Alexandre&nbsp;Pooladian</a>, <a href='https://scholar.google.com/citations?user=aJOeGRoAAAAJ' target='_blank'>Dana&nbsp;Pe'er</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 arXiv 2024  <br>
 
 <div id="abs_haviv2024wasserstein" style="text-align: justify; display: none" markdown="1">
