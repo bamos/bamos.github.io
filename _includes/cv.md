@@ -2605,7 +2605,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;403 |
     </span>
-    <em>Cornell CS5785 Slides</em>
+    <em>Slides for our applied ML course</em>
   </td>
 </tr>
 <tr>
