@@ -496,7 +496,7 @@ genomics, samples (say, point-clouds) from datasets
 can themselves be viewed as distributions (as, say, discrete measures). In these settings, the standard
 generative modeling paradigm of flow matching would
 ignore the relevant geometry of the samples. To
-remedy this, we propose \emphWasserstein flow
+remedy this, we propose Wasserstein flow
 matching (WFM), which appropriately lifts flow
 matching onto families of distributions by appealing
 to the Riemannian nature of the Wasserstein
