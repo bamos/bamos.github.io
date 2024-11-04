@@ -2856,7 +2856,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;883 |
+    | <i class="fa fas fa-star"></i>&nbsp;885 |
     </span>
     <em>Differentiable PyTorch Model Predictive Control library</em>
   </td>
@@ -2900,7 +2900,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;680 |
+    | <i class="fa fas fa-star"></i>&nbsp;681 |
     </span>
     <em>Differentiable PyTorch QP solver</em>
   </td>
