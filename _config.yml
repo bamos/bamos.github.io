@@ -13,6 +13,7 @@ permalink: pretty
 #paginate: 5
 plugins:
   - jekyll-sitemap
+  - jekyll-datapage-generator
 
 exclude:
   - .travis.yml

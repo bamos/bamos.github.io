@@ -1,0 +1,95 @@
+- title: LOT
+  date: 2024-06-01
+  img_url: https://private-user-images.githubusercontent.com/707462/349953844-c6ed8892-5998-47d1-928a-ee97d8e49ae9.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzE3Nzc5NTMsIm5iZiI6MTczMTc3NzY1MywicGF0aCI6Ii83MDc0NjIvMzQ5OTUzODQ0LWM2ZWQ4ODkyLTU5OTgtNDdkMS05MjhhLWVlOTdkOGU0OWFlOS5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMTE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTExNlQxNzIwNTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05NmExZTFlMGM1NTZkNzE4YzRiMjkzOWVjZWEzOTFkZmZmZWVmZDI1ODdmMDM2YWVmMDQ2NDcwYWI1YWIzZmZhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.oZ4sdTmwAcSWw1o76m7GRC7Izn6MuxU02LMtknZ_K9M
+  source_url: https://github.com/facebookresearch/lagrangian-ot
+- title: Gaussian maximum entropy distribution
+  date: 2023-01-24
+  img_url: https://raw.githubusercontent.com/facebookresearch/amortized-optimization-tutorial/refs/heads/main/paper/fig/maxent.gif
+  source_url: https://github.com/facebookresearch/amortized-optimization-tutorial/blob/main/code/figures/maxent-animation.py
+- title: W2OT Gaussian to mixture
+  date: 2022-10-24
+  img_url: https://user-images.githubusercontent.com/707462/197360329-f5b406ea-93ac-4b7a-b040-e99ae02f3a18.gif
+  source_url: https://github.com/facebookresearch/w2ot
+- title: W2OT grid warping
+  date: 2022-10-24
+  img_url: https://user-images.githubusercontent.com/707462/197359233-2ecdef57-cb1e-4609-b244-4b46703f1ea6.gif
+  source_url: https://github.com/facebookresearch/w2ot
+- title: W2OT mixture
+  date: 2022-10-24
+  img_url: https://user-images.githubusercontent.com/707462/197360434-faf6d1f5-358f-4356-bf94-663351a77d16.gif
+  source_url: https://github.com/facebookresearch/w2ot
+- title: W2OT more transports
+  date: 2022-10-24
+  img_url: https://user-images.githubusercontent.com/707462/197428151-3f0e4c23-43e1-41fe-8dd6-7696d9ec9e06.gif
+  source_url: https://github.com/facebookresearch/w2ot
+- title: W2OT even more transports
+  date: 2022-10-24
+  img_url: https://user-images.githubusercontent.com/707462/197429888-069d2eb2-9517-4af2-9a02-4bfea9c88461.gif
+  source_url: https://github.com/facebookresearch/w2ot
+- title: W2OT logo transport
+  date: 2022-10-24
+  img_url: https://user-images.githubusercontent.com/707462/208504865-0efd3dea-6dc6-40ad-8aa5-7819d03ddf0f.gif
+  source_url: https://github.com/facebookresearch/w2ot
+- title: Meta OT MNIST
+  date: 2022-07-01
+  img_url: https://user-images.githubusercontent.com/707462/200144352-18b9ee3a-00e7-4306-bec3-ea8ae89f7ca9.gif
+  source_url: https://github.com/facebookresearch/meta-ot
+- title: Meta OT Sphere
+  date: 2022-07-01
+  img_url: https://user-images.githubusercontent.com/707462/200144374-ba403ab2-cfdd-45b4-8956-f07f28d6c3d7.gif
+  source_url: https://github.com/facebookresearch/meta-ot
+- title: Meta OT Color Palette Transfer
+  date: 2022-07-01
+  img_url: https://github.com/facebookresearch/meta-ot/assets/707462/995dfe43-967e-4f48-a5c3-ed417e984293
+  source_url: https://github.com/facebookresearch/meta-ot
+  # description: 'TODO: fix this link'
+- title: Nocturne scenes
+  date: 2022-01-01
+  img_url: https://github.com/facebookresearch/nocturne/blob/main/docs/readme_files/nocturne_3_by_3_scenes.gif?raw=true
+- title: Nocturne visibility
+  date: 2022-01-01
+  img_url: https://github.com/facebookresearch/nocturne/blob/main/docs/readme_files/git_intersection_combined.gif?raw=true
+# - title: TODO: GWIL?
+#   date: 2022-05-05
+#   img_url: https://arnaudfickinger.github.io/gwil/
+# - title: TODO: GDTW?
+#   date: 2022-05-05
+- title: SVG humanoid
+  date: 2020-08-28
+  custom_html: <iframe src="https://drive.google.com/file/d/1O15V86_rCne0Kvp3VNnj0wwEl7l8PhlR/preview" width="640" height="480" allow="autoplay"></iframe>
+  source_url: https://github.com/facebookresearch/svg
+- title: DCEM simple example
+  date: 2019-08-27
+  img_url: https://raw.githubusercontent.com/facebookresearch/dcem/main/fig/learning.gif
+- title: MPC
+  img_url: https://locuslab.github.io/mpc.pytorch/images/pendulum-swingup.gif
+  date: 2018-12-12
+- title: Learning awareness models diagnostic
+  date: 2018-05-01
+  custom_html: <iframe width="560" height="315" src="https://www.youtube.com/embed/fCm7iQdFXCs?si=Yhov3khLnv01DZR9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  source_url: https://arxiv.org/abs/1804.06318
+- title: Learning awareness models predictions
+  date: 2018-05-01
+  custom_html: <iframe width="560" height="315" src="https://www.youtube.com/embed/BogIU66kfpo?si=stYkxPhtBjf4t6mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  source_url: https://arxiv.org/abs/1804.06318
+- title: Learning constraints (OptNet)
+  date: 2017-06-01
+  img_url: https://raw.githubusercontent.com/bamos/thesis/master/cvxpyth/polytopes-ellipsoids.gif
+  source_url: https://github.com/bamos/thesis
+  # description: TODO
+- title: Image completion with a GAN
+  img_url: /data/2016-08-09/completion.gif
+  date: 2016-08-09
+  source_url: /2016/08/09/deep-completion/
+- title: Image completion (ICNNs)
+  date: 2016-06-01
+  img_url: https://github.com/locuslab/icnn/blob/master/images/completion.gif?raw=true
+  source_url: https://github.com/locuslab/icnn
+- title: OpenFace sphere
+  date: 2015-10-13
+  img_url: https://raw.githubusercontent.com/cmusatyalab/openface/master/images/sphere-demo/demo.gif
+  source_url: https://github.com/cmusatyalab/openface
+- title: OpenFace demo
+  date: 2015-10-13
+  img_url: https://raw.githubusercontent.com/cmusatyalab/openface/master/images/youtube-web.gif
+  source_url: https://github.com/cmusatyalab/openface
