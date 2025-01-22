@@ -211,20 +211,63 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 ## <i class="fa fa-chevron-right"></i> Publications
 
 <!-- I usually publish at machine learning conferences, -->
-<!-- including NeurIPS (11 papers), ICML (10 papers), and ICLR (5 papers). -->
+<!-- including NeurIPS (11 papers), ICML (10 papers), and ICLR (7 papers). -->
 <!-- <a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a> -->
-<!-- reports 9.4k+ citations and an h-index of 39. -->
+<!-- reports 9.6k+ citations and an h-index of 39. -->
 <!-- The selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted.</span> -->
 
-[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 9.4k+ citations and an h-index of 39] <br>
+[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 9.6k+ citations and an h-index of 39] <br>
 Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted.</span>
 
+<h2>2025</h2>
+<table class="table table-hover">
+
+<tr id="tr-phan2024exactbytelevelprobabilitiestokenized" >
+<td align='right' style='padding-left:0;padding-right:0;'>
+1.
+</td>
+<td>
+<a href='https://arxiv.org/abs/2410.09303' target='_blank'><img src="images/publications/phan2024exactbytelevelprobabilitiestokenized.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://arxiv.org/abs/2410.09303' target='_blank'>Exact Byte-Level Probabilities from Tokenized Language Models for FIM-Tasks and Model Ensembles</a> </em> 
+[<a href='javascript:;'
+    onclick='$("#abs_phan2024exactbytelevelprobabilitiestokenized").toggle()'>abs</a>]<br>
+<a href='https://truongbuu.github.io/' target='_blank'>Buu&nbsp;Phan</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://itaigat.com/' target='_blank'>Itai&nbsp;Gat</a>, <a href='https://mhavasi.github.io/' target='_blank'>Marton&nbsp;Havasi</a>, <a href='https://mmuckley.github.io/' target='_blank'>Matthew&nbsp;Muckley</a>, and <a href='https://karenullrich.info/' target='_blank'>Karen&nbsp;Ullrich</a><br>
+ICLR 2025  <br>
+
+<div id="abs_phan2024exactbytelevelprobabilitiestokenized" style="text-align: justify; display: none" markdown="1">
+Tokenization is associated with many poorly understood shortcomings in language models (LMs), yet remains an important component for long sequence scaling purposes. This work studies how tokenization impacts model performance by analyzing and comparing the stochastic behavior of tokenized models with their byte-level, or token-free, counterparts. We discover that, even when the two models are statistically equivalent, their predictive distributions over the next byte can be substantially different, a phenomenon we term as "tokenization bias". To fully characterize this phenomenon, we introduce the Byte-Token Representation Lemma, a framework that establishes a mapping between the learned token distribution and its equivalent byte-level distribution. From this result, we develop a next-byte sampling algorithm that eliminates tokenization bias without requiring further training or optimization. In other words, this enables zero-shot conversion of tokenized LMs into statistically equivalent token-free ones. We demonstrate its broad applicability with two use cases: fill-in-the-middle (FIM) tasks and model ensembles. In FIM tasks where input prompts may terminate mid-token, leading to out-of-distribution tokenization, our method mitigates performance degradation and achieves an approximately 18% improvement in FIM coding benchmarks, consistently outperforming the standard token healing fix. For model ensembles where each model employs a distinct vocabulary, our approach enables seamless integration, resulting in improved performance (up to 3.7%) over individual models across various standard baselines in reasoning, knowledge, and coding.
+</div>
+
+</td>
+</tr>
+
+
+<tr id="tr-atanackovic2024meta" >
+<td align='right' style='padding-left:0;padding-right:0;'>
+2.
+</td>
+<td>
+<a href='https://arxiv.org/abs/2408.14608' target='_blank'><img src="images/publications/atanackovic2024meta.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://arxiv.org/abs/2408.14608' target='_blank'>Meta Flow Matching:  Integrating Vector Fields on the Wasserstein Manifold</a> </em> 
+[<a href='javascript:;'
+    onclick='$("#abs_atanackovic2024meta").toggle()'>abs</a>] [<a href='https://github.com/lazaratan/meta-flow-matching' target='_blank'>code</a>] <br>
+<a href='https://lazaratan.github.io/' target='_blank'>Lazar&nbsp;Atanackovic</a>, <a href='https://scholar.google.com/citations?user=CblgXekAAAAJ' target='_blank'>Xi&nbsp;Zhang</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.cs.mcgill.ca/~blanchem/' target='_blank'>Mathieu&nbsp;Blanchette</a>, <a href='https://scholar.google.ca/citations?user=DN3LoTEAAAAJ' target='_blank'>Leo&nbsp;J&nbsp;Lee</a>, <a href='https://yoshuabengio.org/profile/' target='_blank'>Yoshua&nbsp;Bengio</a>, <a href='https://www.alextong.net/' target='_blank'>Alexander&nbsp;Tong</a>, and <a href='https://necludov.github.io/' target='_blank'>Kirill&nbsp;Neklyudov</a><br>
+ICLR 2025  <br>
+
+<div id="abs_atanackovic2024meta" style="text-align: justify; display: none" markdown="1">
+Numerous biological and physical processes can be modeled as systems of interacting entities evolving continuously over time, e.g. the dynamics of communicating cells or physical particles. Learning the dynamics of such systems is essential for predicting the temporal evolution of populations across novel samples and unseen environments. Flow-based models allow for learning these dynamics at the population level - they model the evolution of the entire distribution of samples. However, current flow-based models are limited to a single initial population and a set of predefined conditions which describe different dynamics. We argue that multiple processes in natural sciences have to be represented as vector fields on the Wasserstein manifold of probability densities. That is, the change of the population at any moment in time depends on the population itself due to the interactions between samples. In particular, this is crucial for personalized medicine where the development of diseases and their respective treatment response depends on the microenvironment of cells specific to each patient. We propose Meta Flow Matching (MFM), a practical approach to integrating along these vector fields on the Wasserstein manifold by amortizing the flow model over the initial populations. Namely, we embed the population of samples using a Graph Neural Network (GNN) and use these embeddings to train a Flow Matching model. This gives MFM the ability to generalize over the initial distributions unlike previously proposed methods. We demonstrate the ability of MFM to improve prediction of individual treatment responses on a large scale multi-patient single-cell drug screen dataset.
+</div>
+
+</td>
+</tr>
+
+</table>
 <h2>2024</h2>
 <table class="table table-hover">
 
 <tr id="tr-paulus2024advprompter" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-1.
+3.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2404.16873' target='_blank'><img src="images/publications/paulus2024advprompter.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -246,7 +289,7 @@ We train the AdvPrompter using a novel algorithm that does not require access to
 
 <tr id="tr-pooladian2024neural" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-2.
+4.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2406.00288' target='_blank'><img src="images/publications/pooladian2024neural.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -266,7 +309,7 @@ We investigate the optimal transport problem between probability measures when t
 
 <tr id="tr-sambharya2024learning" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-3.
+5.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2309.07835' target='_blank'><img src="images/publications/sambharya2024learning.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -286,7 +329,7 @@ We introduce a machine-learning framework to warm-start fixed-point optimization
 
 <tr id="tr-lotfi2024unlocking" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-4.
+6.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2407.18158' target='_blank'><img src="images/publications/lotfi2024unlocking.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -330,7 +373,7 @@ high-quality text.
 
 <tr id="tr-domingoenrich2024stochastic" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-5.
+7.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2312.02027' target='_blank'><img src="images/publications/domingoenrich2024stochastic.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -348,29 +391,9 @@ Stochastic optimal control, which has the goal of driving the behavior of noisy 
 </tr>
 
 
-<tr id="tr-atanackovic2024meta" >
-<td align='right' style='padding-left:0;padding-right:0;'>
-6.
-</td>
-<td>
-<a href='https://arxiv.org/abs/2408.14608' target='_blank'><img src="images/publications/atanackovic2024meta.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2408.14608' target='_blank'>Meta Flow Matching:  Integrating Vector Fields on the Wasserstein Manifold</a> </em> 
-[<a href='javascript:;'
-    onclick='$("#abs_atanackovic2024meta").toggle()'>abs</a>] [<a href='https://github.com/lazaratan/meta-flow-matching' target='_blank'>code</a>] <br>
-<a href='https://lazaratan.github.io/' target='_blank'>Lazar&nbsp;Atanackovic</a>, <a href='https://scholar.google.com/citations?user=CblgXekAAAAJ' target='_blank'>Xi&nbsp;Zhang</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.cs.mcgill.ca/~blanchem/' target='_blank'>Mathieu&nbsp;Blanchette</a>, <a href='https://scholar.google.ca/citations?user=DN3LoTEAAAAJ' target='_blank'>Leo&nbsp;J&nbsp;Lee</a>, <a href='https://yoshuabengio.org/profile/' target='_blank'>Yoshua&nbsp;Bengio</a>, <a href='https://www.alextong.net/' target='_blank'>Alexander&nbsp;Tong</a>, and <a href='https://necludov.github.io/' target='_blank'>Kirill&nbsp;Neklyudov</a><br>
-ICML GRaM Workshop 2024  <br>
-
-<div id="abs_atanackovic2024meta" style="text-align: justify; display: none" markdown="1">
-Numerous biological and physical processes can be modeled as systems of interacting entities evolving continuously over time, e.g. the dynamics of communicating cells or physical particles. Learning the dynamics of such systems is essential for predicting the temporal evolution of populations across novel samples and unseen environments. Flow-based models allow for learning these dynamics at the population level - they model the evolution of the entire distribution of samples. However, current flow-based models are limited to a single initial population and a set of predefined conditions which describe different dynamics. We argue that multiple processes in natural sciences have to be represented as vector fields on the Wasserstein manifold of probability densities. That is, the change of the population at any moment in time depends on the population itself due to the interactions between samples. In particular, this is crucial for personalized medicine where the development of diseases and their respective treatment response depends on the microenvironment of cells specific to each patient. We propose Meta Flow Matching (MFM), a practical approach to integrating along these vector fields on the Wasserstein manifold by amortizing the flow model over the initial populations. Namely, we embed the population of samples using a Graph Neural Network (GNN) and use these embeddings to train a Flow Matching model. This gives MFM the ability to generalize over the initial distributions unlike previously proposed methods. We demonstrate the ability of MFM to improve prediction of individual treatment responses on a large scale multi-patient single-cell drug screen dataset.
-</div>
-
-</td>
-</tr>
-
-
 <tr id="tr-ju2024to" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-7.
+8.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2410.16456' target='_blank'><img src="images/publications/ju2024to.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -390,7 +413,7 @@ Travel planning is a challenging and time-consuming task that aims to find an it
 
 <tr id="tr-silvestri2024score" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-8.
+9.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2307.05213' target='_blank'><img src="images/publications/silvestri2024score.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -402,26 +425,6 @@ arXiv 2024  <br>
 
 <div id="abs_silvestri2024score" style="text-align: justify; display: none" markdown="1">
 Many real-world optimization problems contain parameters that are unknown before deployment time, either due to stochasticity or to lack of information (e.g., demand or travel times in delivery problems). A common strategy in such cases is to estimate said parameters via machine learning (ML) models trained to minimize the prediction error, which however is not necessarily aligned with the downstream task-level error. The decision-focused learning (DFL) paradigm overcomes this limitation by training to directly minimize a task loss, e.g. regret. Since the latter has non-informative gradients for combinatorial problems, state-of-the-art DFL methods introduce surrogates and approximations that enable training. But these methods exploit specific assumptions about the problem structures (e.g., convex or linear problems, unknown parameters only in the objective function). We propose an alternative method that makes no such assumptions, it combines stochastic smoothing with score function gradient estimation which works on any task loss. This opens up the use of DFL methods to nonlinear objectives, uncertain parameters in the problem constraints, and even two-stage stochastic optimization. Experiments show that it typically requires more epochs, but that it is on par with specialized methods and performs especially well for the difficult case of problems with uncertainty in the constraints, in terms of solution quality, scalability, or both.
-</div>
-
-</td>
-</tr>
-
-
-<tr id="tr-phan2024exactbytelevelprobabilitiestokenized" >
-<td align='right' style='padding-left:0;padding-right:0;'>
-9.
-</td>
-<td>
-<a href='https://arxiv.org/abs/2410.09303' target='_blank'><img src="images/publications/phan2024exactbytelevelprobabilitiestokenized.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2410.09303' target='_blank'>Exact Byte-Level Probabilities from Tokenized Language Models for FIM-Tasks and Model Ensembles</a> </em> 
-[<a href='javascript:;'
-    onclick='$("#abs_phan2024exactbytelevelprobabilitiestokenized").toggle()'>abs</a>]<br>
-<a href='https://truongbuu.github.io/' target='_blank'>Buu&nbsp;Phan</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://itaigat.com/' target='_blank'>Itai&nbsp;Gat</a>, <a href='https://mhavasi.github.io/' target='_blank'>Marton&nbsp;Havasi</a>, <a href='https://mmuckley.github.io/' target='_blank'>Matthew&nbsp;Muckley</a>, and <a href='https://karenullrich.info/' target='_blank'>Karen&nbsp;Ullrich</a><br>
-arXiv 2024  <br>
-
-<div id="abs_phan2024exactbytelevelprobabilitiestokenized" style="text-align: justify; display: none" markdown="1">
-Tokenization is associated with many poorly understood shortcomings in language models (LMs), yet remains an important component for long sequence scaling purposes. This work studies how tokenization impacts model performance by analyzing and comparing the stochastic behavior of tokenized models with their byte-level, or token-free, counterparts. We discover that, even when the two models are statistically equivalent, their predictive distributions over the next byte can be substantially different, a phenomenon we term as "tokenization bias". To fully characterize this phenomenon, we introduce the Byte-Token Representation Lemma, a framework that establishes a mapping between the learned token distribution and its equivalent byte-level distribution. From this result, we develop a next-byte sampling algorithm that eliminates tokenization bias without requiring further training or optimization. In other words, this enables zero-shot conversion of tokenized LMs into statistically equivalent token-free ones. We demonstrate its broad applicability with two use cases: fill-in-the-middle (FIM) tasks and model ensembles. In FIM tasks where input prompts may terminate mid-token, leading to out-of-distribution tokenization, our method mitigates performance degradation and achieves an approximately 18% improvement in FIM coding benchmarks, consistently outperforming the standard token healing fix. For model ensembles where each model employs a distinct vocabulary, our approach enables seamless integration, resulting in improved performance (up to 3.7%) over individual models across various standard baselines in reasoning, knowledge, and coding.
 </div>
 
 </td>
@@ -2598,7 +2601,7 @@ malware machine learning classifiers.
 
 
 ## <i class="fa fa-chevron-right"></i> Open Source Repositories
-37k+ GitHub stars across all repositories.
+37.2k+ GitHub stars across all repositories.
 
 <table class="table table-hover">
 <tr>
@@ -2607,7 +2610,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/oni">facebookresearch/oni</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;4 |
+    | <i class="fa fas fa-star"></i>&nbsp;33 |
     </span>
     <em>Online LLM intrinsic rewards for NetHack</em>
   </td>
@@ -2618,7 +2621,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/advprompter">facebookresearch/advprompter</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;129 |
+    | <i class="fa fas fa-star"></i>&nbsp;134 |
     </span>
     <em>Fast Adaptive Adversarial Prompting for LLMs</em>
   </td>
@@ -2640,7 +2643,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/lazaratan/meta-flow-matching">lazaratan/meta-flow-matching</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;42 |
+    | <i class="fa fas fa-star"></i>&nbsp;44 |
     </span>
     <em>Meta Flow Matching</em>
   </td>
@@ -2651,7 +2654,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/soc-matching">facebookresearch/soc-matching</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;29 |
+    | <i class="fa fas fa-star"></i>&nbsp;30 |
     </span>
     <em>Stochastic Optimal Control Matching</em>
   </td>
@@ -2662,7 +2665,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/kuleshov/cornell-cs5785-2024-applied-ml">kuleshov/cornell-cs5785-2024-applied-ml</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;459 |
+    | <i class="fa fas fa-star"></i>&nbsp;469 |
     </span>
     <em>Slides for our applied ML course</em>
   </td>
@@ -2673,7 +2676,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2023</span>
     <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;237 |
+    | <i class="fa fas fa-star"></i>&nbsp;236 |
     </span>
     <em>Tutorial on amortized optimization</em>
   </td>
@@ -2728,7 +2731,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/meta-ot">facebookresearch/meta-ot</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;97 |
+    | <i class="fa fas fa-star"></i>&nbsp;98 |
     </span>
     <em>Meta Optimal Transport</em>
   </td>
@@ -2739,7 +2742,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/bamos/presentations">bamos/presentations</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;143 |
+    | <i class="fa fas fa-star"></i>&nbsp;144 |
     </span>
     <em>Source for my major presentations</em>
   </td>
@@ -2750,7 +2753,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/gwil">facebookresearch/gwil</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;22 |
+    | <i class="fa fas fa-star"></i>&nbsp;24 |
     </span>
     <em>Gromov-Wasserstein Cross Domain Imitation Learning</em>
   </td>
@@ -2761,7 +2764,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/nocturne">facebookresearch/nocturne</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;267 |
+    | <i class="fa fas fa-star"></i>&nbsp;270 |
     </span>
     <em>A partially-observable multi-agent driving simulator</em>
   </td>
@@ -2772,7 +2775,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/rcpm">facebookresearch/rcpm</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;68 |
+    | <i class="fa fas fa-star"></i>&nbsp;67 |
     </span>
     <em>Riemannian Convex Potential Maps</em>
   </td>
@@ -2794,7 +2797,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;974 |
+    | <i class="fa fas fa-star"></i>&nbsp;979 |
     </span>
     <em>Model-based reinforcement learning library</em>
   </td>
@@ -2807,7 +2810,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;72 |
     </span>
-    <em>Fit the Right NP-Hard Problem by Learning Integer Programming Constraints</em>
+    <em>Combinatorial OptNet</em>
   </td>
 </tr>
 <tr>
@@ -2816,7 +2819,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/samcohen16/Aligning-Time-Series">samcohen16/Aligning-Time-Series</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;49 |
+    | <i class="fa fas fa-star"></i>&nbsp;50 |
     </span>
     <em>Aligning time series on incomparable spaces</em>
   </td>
@@ -2827,7 +2830,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/neural_stpp">facebookresearch/neural_stpp</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;100 |
+    | <i class="fa fas fa-star"></i>&nbsp;101 |
     </span>
     <em>Neural Spatio-Temporal Point Processes</em>
   </td>
@@ -2860,7 +2863,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2020</span>
     <a href="https://github.com/facebookresearch/dcem">facebookresearch/dcem</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;123 |
+    | <i class="fa fas fa-star"></i>&nbsp;125 |
     </span>
     <em>The Differentiable Cross-Entropy Method</em>
   </td>
@@ -2893,7 +2896,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2019</span>
     <a href="https://github.com/cvxgrp/cvxpylayers">cvxgrp/cvxpylayers</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;1.8k |
+    | <i class="fa fas fa-star"></i>&nbsp;1.9k |
     </span>
     <em>Differentiable Convex Optimization Layers</em>
   </td>
@@ -2904,7 +2907,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2019</span>
     <a href="https://github.com/locuslab/lml">locuslab/lml</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;57 |
+    | <i class="fa fas fa-star"></i>&nbsp;58 |
     </span>
     <em>The Limited Multi-Label Projection Layer</em>
   </td>
@@ -2915,7 +2918,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;902 |
+    | <i class="fa fas fa-star"></i>&nbsp;909 |
     </span>
     <em>Differentiable PyTorch Model Predictive Control library</em>
   </td>
@@ -2926,7 +2929,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;251 |
+    | <i class="fa fas fa-star"></i>&nbsp;258 |
     </span>
     <em>Differentiable MPC experiments</em>
   </td>
@@ -2937,7 +2940,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;282 |
+    | <i class="fa fas fa-star"></i>&nbsp;285 |
     </span>
     <em>Input Convex Neural Network experiments</em>
   </td>
@@ -2948,7 +2951,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;517 |
+    | <i class="fa fas fa-star"></i>&nbsp;520 |
     </span>
     <em>OptNet experiments</em>
   </td>
@@ -2959,7 +2962,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;692 |
+    | <i class="fa fas fa-star"></i>&nbsp;695 |
     </span>
     <em>Differentiable PyTorch QP solver</em>
   </td>
@@ -2981,7 +2984,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/block">bamos/block</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;300 |
+    | <i class="fa fas fa-star"></i>&nbsp;301 |
     </span>
     <em>Intelligent block matrix constructions</em>
   </td>
@@ -2992,7 +2995,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/setGPU">bamos/setGPU</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;107 |
+    | <i class="fa fas fa-star"></i>&nbsp;106 |
     </span>
     <em>Automatically use the least-loaded GPU</em>
   </td>
@@ -3102,7 +3105,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;340 |
+    | <i class="fa fas fa-star"></i>&nbsp;341 |
     </span>
     <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em>
   </td>
@@ -3113,7 +3116,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;403 |
+    | <i class="fa fas fa-star"></i>&nbsp;405 |
     </span>
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
   </td>
@@ -3124,7 +3127,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/parsec-benchmark">bamos/parsec-benchmark</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;101 |
+    | <i class="fa fas fa-star"></i>&nbsp;102 |
     </span>
     <em>PARSEC benchmark support for Arch Linux</em>
   </td>
@@ -3546,7 +3549,7 @@ under a CC-BY license.
 <table class="table table-hover">
 <tr>
   <td style='padding-right:0;'>
-    <span class='cvdate'>2024&nbsp;-&nbsp;present</span>
+    <span class='cvdate'>2024&nbsp;-&nbsp;2025</span>
         <a href="https://scholar.google.com/citations?user=HBAXF6YAAAAJ">Aaron Havens</a> (visiting FAIR from UIUC)
   </td>
 </tr>
@@ -3737,10 +3740,10 @@ under a CC-BY license.
   <td style='padding-right:0;'>International Conference on Learning Representations (ICLR) Blog Posts</td>
 </tr>
 <tr>
-  <td style='padding-right:0;'>International Conference on Machine Learning (ICML) SODS Workshop</td>
+  <td style='padding-right:0;'>International Conference on Machine Learning (ICML)</td>
 </tr>
 <tr>
-  <td style='padding-right:0;'>International Conference on Machine Learning (ICML)</td>
+  <td style='padding-right:0;'>International Conference on Machine Learning (ICML) SODS Workshop</td>
 </tr>
 <tr>
   <td style='padding-right:0;'>International Conference on the Constraint Programming, AI, and Operations Research (CPAIOR)</td>
@@ -3755,6 +3758,9 @@ under a CC-BY license.
   <td style='padding-right:0;'>Mathematical Programming Computation (MPC)</td>
 </tr>
 <tr>
+  <td style='padding-right:0;'>Neural Information Processing Systems (NeurIPS)</td>
+</tr>
+<tr>
   <td style='padding-right:0;'>Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track</td>
 </tr>
 <tr>
@@ -3765,9 +3771,6 @@ under a CC-BY license.
 </tr>
 <tr>
   <td style='padding-right:0;'>Neural Information Processing Systems (NeurIPS) OPT Workshop</td>
-</tr>
-<tr>
-  <td style='padding-right:0;'>Neural Information Processing Systems (NeurIPS)</td>
 </tr>
 <tr>
   <td style='padding-right:0;'>Optimization Letters</td>
