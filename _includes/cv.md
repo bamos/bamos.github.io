@@ -5,7 +5,7 @@ group at
 <b>Meta</b> in NYC
 and study foundational topics in <b>machine learning</b> and
 <b>optimization</b>, recently involving
-reinforcement learning, control, optimal transport, and geometry.
+reinforcement learning, control, transport, flows, and diffusion.
 My research is on learning systems that understand and interact with our world
 and focuses on integrating structural information and domain knowledge into
 these systems to represent non-trivial reasoning operations.
@@ -213,10 +213,10 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 <!-- I usually publish at machine learning conferences, -->
 <!-- including NeurIPS (11 papers), ICML (10 papers), and ICLR (7 papers). -->
 <!-- <a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a> -->
-<!-- reports 10k+ citations and an h-index of 40. -->
+<!-- reports 10.2k+ citations and an h-index of 40. -->
 <!-- The selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted.</span> -->
 
-[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 10k+ citations and an h-index of 40] <br>
+[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 10.2k+ citations and an h-index of 40] <br>
 Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted.</span>
 
 <h2>2025</h2>
@@ -261,13 +261,27 @@ Numerous biological and physical processes can be modeled as systems of interact
 </td>
 </tr>
 
+
+<tr id="tr-havens2025adjointsamplinghighlyscalable" >
+<td align='right' style='padding-left:0;padding-right:0;'>
+3.
+</td>
+<td>
+<a href='https://arxiv.org/abs/2504.11713' target='_blank'><img src="images/publications/havens2025adjointsamplinghighlyscalable.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://arxiv.org/abs/2504.11713' target='_blank'>Adjoint Sampling: Highly Scalable Diffusion Samplers via Adjoint Matching</a> </em> <br>
+<a href='https://aaronhavens.github.io/' target='_blank'>Aaron&nbsp;Havens</a>, <a href='https://scholar.google.com/citations?user=IrCdg_wAAAAJ' target='_blank'>Benjamin&nbsp;Kurt&nbsp;Miller</a>, <a href='https://scholar.google.com/citations?user=337w9-V_WxIC' target='_blank'>Bing&nbsp;Yan</a>, <a href='https://cdenrich.github.io/' target='_blank'>Carles&nbsp;Domingo-Enrich</a>, <a href='https://scholar.google.com/citations?user=D4uRc_UAAAAJ' target='_blank'>Anuroop&nbsp;Sriram</a>, <a href='https://scholar.google.com/citations?user=KbqboRgAAAAJ' target='_blank'>Brandon&nbsp;Wood</a>, <a href='https://scholar.google.com/citations?user=AcE5Wt4AAAAJ' target='_blank'>Daniel&nbsp;Levine</a>, <a href='https://scholar.google.com/citations?user=o3tVp68AAAAJ' target='_blank'>Bin&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=Wewcpo4AAAAJ' target='_blank'>Brian&nbsp;Karrer</a>, <a href='https://scholar.google.com/citations?user=Cb-ZgHEAAAAJ' target='_blank'>Xiang&nbsp;Fu</a>, <a href='https://scholar.google.com/citations?user=2Dt0VJ4AAAAJ' target='_blank'>Guan-Horng&nbsp;Liu</a>, and <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a><br>
+arXiv 2025  <br>
+
+</td>
+</tr>
+
 </table>
 <h2>2024</h2>
 <table class="table table-hover">
 
 <tr id="tr-paulus2024advprompter" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-3.
+4.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2404.16873' target='_blank'><img src="images/publications/paulus2024advprompter.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -289,7 +303,7 @@ We train the AdvPrompter using a novel algorithm that does not require access to
 
 <tr id="tr-pooladian2024neural" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-4.
+5.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2406.00288' target='_blank'><img src="images/publications/pooladian2024neural.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -309,7 +323,7 @@ We investigate the optimal transport problem between probability measures when t
 
 <tr id="tr-sambharya2024learning" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-5.
+6.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2309.07835' target='_blank'><img src="images/publications/sambharya2024learning.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -329,7 +343,7 @@ We introduce a machine-learning framework to warm-start fixed-point optimization
 
 <tr id="tr-lotfi2024unlocking" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-6.
+7.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2407.18158' target='_blank'><img src="images/publications/lotfi2024unlocking.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -373,7 +387,7 @@ high-quality text.
 
 <tr id="tr-domingoenrich2024stochastic" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-7.
+8.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2312.02027' target='_blank'><img src="images/publications/domingoenrich2024stochastic.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -393,7 +407,7 @@ Stochastic optimal control, which has the goal of driving the behavior of noisy 
 
 <tr id="tr-ju2024to" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-8.
+9.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2410.16456' target='_blank'><img src="images/publications/ju2024to.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -413,7 +427,7 @@ Travel planning is a challenging and time-consuming task that aims to find an it
 
 <tr id="tr-silvestri2024score" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-9.
+10.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2307.05213' target='_blank'><img src="images/publications/silvestri2024score.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -433,7 +447,7 @@ Many real-world optimization problems contain parameters that are unknown before
 
 <tr id="tr-zheng2024onlineintrinsicrewardsdecision" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-10.
+11.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2410.23022' target='_blank'><img src="images/publications/zheng2024onlineintrinsicrewardsdecision.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -485,7 +499,7 @@ external datasets nor source code.
 
 <tr id="tr-haviv2024wasserstein" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-11.
+12.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2411.00698' target='_blank'><img src="images/publications/haviv2024wasserstein.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -530,7 +544,7 @@ datasets.
 
 <tr id="tr-zhu2024advprefixobjectivenuancedllm" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-12.
+13.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2412.10321' target='_blank'><img src="images/publications/zhu2024advprefixobjectivenuancedllm.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -575,7 +589,7 @@ nuanced jailbreaks.
 
 <tr id="tr-amos2023tutorial" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-13.
+14.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2202.00665' target='_blank'><img src="images/publications/amos2023tutorial.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -610,7 +624,7 @@ transport, and deep equilibrium networks.
 
 <tr id="tr-amos2023amortizing" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-14.
+15.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2210.12153' target='_blank'><img src="images/publications/amos2023amortizing.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -644,7 +658,7 @@ flows considered in the literature.
 
 <tr id="tr-sambharya2023l2a" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-15.
+16.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2212.08260' target='_blank'><img src="images/publications/sambharya2023l2a.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -688,7 +702,7 @@ high-quality solutions.
 
 <tr id="tr-amos2023meta" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-16.
+17.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2206.05262' target='_blank'><img src="images/publications/amos2023meta.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -722,7 +736,7 @@ and continuous transport settings between images, spherical data, and color pale
 
 <tr id="tr-pooladian2023multisample" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-17.
+18.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2304.14772' target='_blank'><img src="images/publications/pooladian2023multisample.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -764,7 +778,7 @@ sets, and lead to better low-cost sample generation.
 
 <tr id="tr-zheng2023semi" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-18.
+19.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2210.06518' target='_blank'><img src="images/publications/zheng2023semi.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -812,7 +826,7 @@ datasets.
 
 <tr id="tr-bansal2023taskmet" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-19.
+20.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2312.05250' target='_blank'><img src="images/publications/bansal2023taskmet.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -849,7 +863,7 @@ distracting states.
 
 <tr id="tr-zharmagambetov2023landscape" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-20.
+21.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2307.08964' target='_blank'><img src="images/publications/zharmagambetov2023landscape.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -894,7 +908,7 @@ computationally expensive high-dimensional problems.
 
 <tr id="tr-retchin2023koopman" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-21.
+22.
 </td>
 <td>
 <a href='https://openreview.net/pdf?id=3W7vPqWCeM' target='_blank'><img src="images/publications/retchin2023koopman.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -930,7 +944,7 @@ after training.
 
 <tr id="tr-fickinger2021crossdomain" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-22.
+23.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2110.03684' target='_blank'><img src="images/publications/fickinger2021crossdomain.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -968,7 +982,7 @@ state-action space.
 
 <tr id="tr-benhamu2022matching" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-23.
+24.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2207.04711' target='_blank'><img src="images/publications/benhamu2022matching.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1012,7 +1026,7 @@ manifolds.
 
 <tr id="tr-chen2022semi" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-24.
+25.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2203.06832' target='_blank'><img src="images/publications/chen2022semi.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1058,7 +1072,7 @@ to a baseline model.
 
 <tr id="tr-pineda2022theseus" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-25.
+26.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2207.09442' target='_blank'><img src="images/publications/pineda2022theseus.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1096,7 +1110,7 @@ incorporated.
 
 <tr id="tr-vinitsky2022nocturne" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-26.
+27.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2206.09889' target='_blank'><img src="images/publications/vinitsky2022nocturne.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1142,7 +1156,7 @@ trajectories.
 
 <tr id="tr-amos2021modelbased" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-27.
+28.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2008.12775' target='_blank'><img src="images/publications/amos2021modelbased.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1189,7 +1203,7 @@ an ensemble.
 
 <tr id="tr-cohen2021riemannian" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-28.
+29.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2106.10272' target='_blank'><img src="images/publications/cohen2021riemannian.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1220,7 +1234,7 @@ model standard distributions on spheres, and tori, on synthetic and geological d
 
 <tr id="tr-paulus2021comboptnet" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-29.
+30.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2105.02343' target='_blank'><img src="images/publications/paulus2021comboptnet.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1257,7 +1271,7 @@ vision keypoint matching benchmark.
 
 <tr id="tr-fickinger2021scalable" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-30.
+31.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2109.15316' target='_blank'><img src="images/publications/fickinger2021scalable.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1291,7 +1305,7 @@ tabular search in the Atari game Ms. Pacman.
 
 <tr id="tr-cohen2020aligning" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-31.
+32.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2006.12648' target='_blank'><img src="images/publications/cohen2020aligning.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1328,7 +1342,7 @@ imitation learning.
 
 <tr id="tr-chen2021learning" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-32.
+33.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2011.03902' target='_blank'><img src="images/publications/chen2021learning.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1360,7 +1374,7 @@ with applications in discrete control.
 
 <tr id="tr-chen2021neural" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-33.
+34.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2011.04583' target='_blank'><img src="images/publications/chen2021neural.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1393,7 +1407,7 @@ mobility, and neuroscience.
 
 <tr id="tr-yarats2021improving" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-34.
+35.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1910.01741' target='_blank'><img src="images/publications/yarats2021improving.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1434,7 +1448,7 @@ future research on image-based RL.
 
 <tr id="tr-venkataraman2021neural" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-35.
+36.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2107.10254' target='_blank'><img src="images/publications/venkataraman2021neural.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1467,7 +1481,7 @@ optimization problem expressible with CVXPY.
 
 <tr id="tr-cohen2021sliced" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-36.
+37.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2102.07115' target='_blank'><img src="images/publications/cohen2021sliced.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1509,7 +1523,7 @@ multi-dynamics reinforcement learning problems.
 
 <tr id="tr-richterpowell2021input" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-37.
+38.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2111.12187' target='_blank'><img src="images/publications/richterpowell2021input.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1545,7 +1559,7 @@ from Riemannian geometry.
 
 <tr id="tr-cohen2021imitation" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-38.
+39.
 </td>
 <td>
 <a href='https://openreview.net/pdf?id=Xe5MFhFvYGX' target='_blank'><img src="images/publications/cohen2021imitation.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1582,7 +1596,7 @@ our methods and expert demonstrations.
 
 <tr id="tr-pineda2021mbrl" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-39.
+40.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2104.10159' target='_blank'><img src="images/publications/pineda2021mbrl.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1617,7 +1631,7 @@ deploying state-of-the-art algorithms.
 
 <tr id="tr-amos2020differentiable" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-40.
+41.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1909.12830' target='_blank'><img src="images/publications/amos2020differentiable.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1652,7 +1666,7 @@ towards combining model-based and model-free RL.
 
 <tr id="tr-lambert2020objective" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-41.
+42.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2002.04523' target='_blank'><img src="images/publications/lambert2020objective.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1672,7 +1686,7 @@ Model-based reinforcement learning (MBRL) has been shown to be a powerful framew
 
 <tr id="tr-amos2020QNSTOP" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-42.
+43.
 </td>
 <td>
 <a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'><img src="images/publications/amos2020QNSTOP.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1700,7 +1714,7 @@ biology problems is given.
 
 <tr id="tr-sercu2020neural" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-43.
+44.
 </td>
 <td>
 <a href='https://www.biorxiv.org/content/10.1101/2021.04.08.439084v1.abstract' target='_blank'><img src="images/publications/sercu2020neural.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1734,7 +1748,7 @@ database with broad coverage of protein sequences.
 
 <tr id="tr-lou2020riemannian" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-44.
+45.
 </td>
 <td>
 <a href='https://drive.google.com/file/d/1Ewro0Ne1tvK15nHyYopY4wZ59QTVB-1c/view' target='_blank'><img src="images/publications/lou2020riemannian.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1764,7 +1778,7 @@ in graph embedding tasks.
 
 <tr id="tr-amos2019differentiable" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-45.
+46.
 </td>
 <td>
 <a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'><img src="images/publications/amos2019differentiable.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1797,7 +1811,7 @@ enables rapid prototyping of the approaches in this thesis.
 
 <tr id="tr-amos2019differentiable3" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-46.
+47.
 </td>
 <td>
 <a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'><img src="images/publications/amos2019differentiable3.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1817,7 +1831,7 @@ Recent work has shown how to embed differentiable optimization problems (that is
 
 <tr id="tr-amos2019limited" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-47.
+48.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1906.08707' target='_blank'><img src="images/publications/amos2019limited.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1848,7 +1862,7 @@ classification.
 
 <tr id="tr-grefenstette2019generalized" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-48.
+49.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1910.01727' target='_blank'><img src="images/publications/grefenstette2019generalized.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1885,7 +1899,7 @@ facilitate.
 
 <tr id="tr-amos2018learning" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-49.
+50.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1804.06318' target='_blank'><img src="images/publications/amos2018learning.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1927,7 +1941,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
 
 <tr id="tr-amos2018end" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-50.
+51.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1810.13400' target='_blank'><img src="images/publications/amos2018end.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1947,7 +1961,7 @@ In this paper we present foundations for using model predictive control (MPC) as
 
 <tr id="tr-brown2018depth" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-51.
+52.
 </td>
 <td>
 <a href='http://arxiv.org/abs/1805.08195' target='_blank'><img src="images/publications/brown2018depth.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1967,7 +1981,7 @@ A fundamental challenge in imperfect-information games is that states do not hav
 
 <tr id="tr-wang2018enabling" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-52.
+53.
 </td>
 <td>
 <a href='https://dl.acm.org/citation.cfm?id=3209659' target='_blank'><img src="images/publications/wang2018enabling.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2004,7 +2018,7 @@ video streams and analytics services.
 
 <tr id="tr-amos2017optnet" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-53.
+54.
 </td>
 <td>
 <a href='http://arxiv.org/abs/1703.00443' target='_blank'><img src="images/publications/amos2017optnet.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2043,7 +2057,7 @@ constraints better than other neural architectures.
 
 <tr id="tr-amos2017input" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-54.
+55.
 </td>
 <td>
 <a href='http://arxiv.org/abs/1609.07152' target='_blank'><img src="images/publications/amos2017input.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2078,7 +2092,7 @@ improvement over the existing state of the art in many cases.
 
 <tr id="tr-donti2017task" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-55.
+56.
 </td>
 <td>
 <a href='http://arxiv.org/abs/1703.04529' target='_blank'><img src="images/publications/donti2017task.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2110,7 +2124,7 @@ approach and a purely black-box policy optimization approach.
 
 <tr id="tr-chen2017quasi" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-56.
+57.
 </td>
 <td>
 <a href='https://par.nsf.gov/servlets/purl/10111392' target='_blank'><img src="images/publications/chen2017quasi.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2152,7 +2166,7 @@ stochastic model.
 
 <tr id="tr-ha2017you" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-57.
+58.
 </td>
 <td>
 <a href='https://dl.acm.org/doi/10.1145/3132211.3134453' target='_blank'><img src="images/publications/ha2017you.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2183,7 +2197,7 @@ than live migration at those bandwidths.
 
 <tr id="tr-chen2017empirical" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-58.
+59.
 </td>
 <td>
 <a href='https://www.cs.cmu.edu/~zhuoc/papers/latency2017.pdf' target='_blank'><img src="images/publications/chen2017empirical.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2214,7 +2228,7 @@ computing is crucial to meeting these targets.
 
 <tr id="tr-wang2017scalable" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-59.
+60.
 </td>
 <td>
 <a href='http://elijah.cs.cmu.edu/DOCS/wang-mmsys2017.pdf' target='_blank'><img src="images/publications/wang2017scalable.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2243,7 +2257,7 @@ retrospective policy exceptions. Finally, we present a scalable, privacy-aware a
 
 <tr id="tr-amos2016openface" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-60.
+61.
 </td>
 <td>
 <a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'><img src="images/publications/amos2016openface.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2276,7 +2290,7 @@ the Apache 2.0 license. It is available at:
 
 <tr id="tr-zhao2016collapsed" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-61.
+62.
 </td>
 <td>
 <a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'><img src="images/publications/zhao2016collapsed.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2309,7 +2323,7 @@ with a maximum likelihood based approach.
 
 <tr id="tr-hu2016quantifying" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-62.
+63.
 </td>
 <td>
 <a href='https://dl.acm.org/doi/10.1145/2967360.2967369' target='_blank'><img src="images/publications/hu2016quantifying.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2336,7 +2350,7 @@ for highly interactive mobile applications.
 
 <tr id="tr-davies2016privacy" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-63.
+64.
 </td>
 <td>
 <a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf' target='_blank'><img src="images/publications/davies2016privacy.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2373,7 +2387,7 @@ and organizational boundaries of trust and responsibility.
 
 <tr id="tr-satyanarayanan2015edge" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-64.
+65.
 </td>
 <td>
 <a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'><img src="images/publications/satyanarayanan2015edge.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2402,7 +2416,7 @@ is part of a special issue on smart spaces.
 
 <tr id="tr-turner2015bad" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-65.
+66.
 </td>
 <td>
 <a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094' target='_blank'><img src="images/publications/turner2015bad.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2430,7 +2444,7 @@ manufacturing security topics.
 
 <tr id="tr-chen2015early" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-66.
+67.
 </td>
 <td>
 <a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'><img src="images/publications/chen2015early.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2459,7 +2473,7 @@ simplify the creation of similar applications.
 
 <tr id="tr-hu2014case" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-67.
+68.
 </td>
 <td>
 <a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'><img src="images/publications/hu2014case.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2484,7 +2498,7 @@ demand, with little loss of application-level fidelity
 
 <tr id="tr-gao2015cloudlets" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-68.
+69.
 </td>
 <td>
 <a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'><img src="images/publications/gao2015cloudlets.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2513,7 +2527,7 @@ consumption in a mobile device by up to 42% compared to cloud offload.
 
 <tr id="tr-ha2015adaptive" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-69.
+70.
 </td>
 <td>
 <a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'><img src="images/publications/ha2015adaptive.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2542,7 +2556,7 @@ changing network conditions and processing capacity
 
 <tr id="tr-andrew2014global" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-70.
+71.
 </td>
 <td>
 <a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'><img src="images/publications/andrew2014global.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2573,7 +2587,7 @@ compared.
 
 <tr id="tr-amos2013applying" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-71.
+72.
 </td>
 <td>
 <a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'><img src="images/publications/amos2013applying.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2601,7 +2615,7 @@ malware machine learning classifiers.
 
 
 ## <i class="fa fa-chevron-right"></i> Open Source Repositories
-37.5k+ GitHub stars across all repositories.
+37.8k+ GitHub stars across all repositories.
 
 <table class="table table-hover">
 <tr>
@@ -2610,7 +2624,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/oni">facebookresearch/oni</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;34 |
+    | <i class="fa fas fa-star"></i>&nbsp;35 |
     </span>
     <em>Online LLM intrinsic rewards for NetHack</em>
   </td>
@@ -2621,7 +2635,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/advprompter">facebookresearch/advprompter</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;144 |
+    | <i class="fa fas fa-star"></i>&nbsp;150 |
     </span>
     <em>Fast Adaptive Adversarial Prompting for LLMs</em>
   </td>
@@ -2632,7 +2646,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/lagrangian-ot">facebookresearch/lagrangian-ot</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;54 |
+    | <i class="fa fas fa-star"></i>&nbsp;55 |
     </span>
     <em>Lagrangian Optimal Transport</em>
   </td>
@@ -2643,7 +2657,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/lazaratan/meta-flow-matching">lazaratan/meta-flow-matching</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;48 |
+    | <i class="fa fas fa-star"></i>&nbsp;52 |
     </span>
     <em>Meta Flow Matching</em>
   </td>
@@ -2654,7 +2668,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/soc-matching">facebookresearch/soc-matching</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;30 |
+    | <i class="fa fas fa-star"></i>&nbsp;33 |
     </span>
     <em>Stochastic Optimal Control Matching</em>
   </td>
@@ -2665,7 +2679,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/kuleshov/cornell-cs5785-2024-applied-ml">kuleshov/cornell-cs5785-2024-applied-ml</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;476 |
+    | <i class="fa fas fa-star"></i>&nbsp;481 |
     </span>
     <em>Slides for our applied ML course</em>
   </td>
@@ -2676,7 +2690,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2023</span>
     <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;238 |
+    | <i class="fa fas fa-star"></i>&nbsp;240 |
     </span>
     <em>Tutorial on amortized optimization</em>
   </td>
@@ -2698,7 +2712,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2023</span>
     <a href="https://github.com/facebookresearch/w2ot">facebookresearch/w2ot</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;46 |
+    | <i class="fa fas fa-star"></i>&nbsp;47 |
     </span>
     <em>Wasserstein-2 optimal transport in JAX</em>
   </td>
@@ -2731,7 +2745,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/meta-ot">facebookresearch/meta-ot</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;100 |
+    | <i class="fa fas fa-star"></i>&nbsp;102 |
     </span>
     <em>Meta Optimal Transport</em>
   </td>
@@ -2742,7 +2756,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/bamos/presentations">bamos/presentations</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;144 |
+    | <i class="fa fas fa-star"></i>&nbsp;145 |
     </span>
     <em>Source for my major presentations</em>
   </td>
@@ -2764,7 +2778,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/nocturne">facebookresearch/nocturne</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;273 |
+    | <i class="fa fas fa-star"></i>&nbsp;278 |
     </span>
     <em>A partially-observable multi-agent driving simulator</em>
   </td>
@@ -2797,7 +2811,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;987 |
+    | <i class="fa fas fa-star"></i>&nbsp;994 |
     </span>
     <em>Model-based reinforcement learning library</em>
   </td>
@@ -2830,7 +2844,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/neural_stpp">facebookresearch/neural_stpp</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;101 |
+    | <i class="fa fas fa-star"></i>&nbsp;105 |
     </span>
     <em>Neural Spatio-Temporal Point Processes</em>
   </td>
@@ -2852,7 +2866,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/rtqichen/torchdiffeq">rtqichen/torchdiffeq</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;5.8k |
+    | <i class="fa fas fa-star"></i>&nbsp;5.9k |
     </span>
     <em>PyTorch Differentiable ODE Solvers (differentiable event handling)</em>
   </td>
@@ -2885,7 +2899,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2019</span>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;332 |
+    | <i class="fa fas fa-star"></i>&nbsp;335 |
     </span>
     <em>Ph.D. Thesis LaTeX source code</em>
   </td>
@@ -2918,7 +2932,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;925 |
+    | <i class="fa fas fa-star"></i>&nbsp;936 |
     </span>
     <em>Differentiable PyTorch Model Predictive Control library</em>
   </td>
@@ -2929,7 +2943,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;266 |
+    | <i class="fa fas fa-star"></i>&nbsp;269 |
     </span>
     <em>Differentiable MPC experiments</em>
   </td>
@@ -2940,7 +2954,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;286 |
+    | <i class="fa fas fa-star"></i>&nbsp;289 |
     </span>
     <em>Input Convex Neural Network experiments</em>
   </td>
@@ -2951,7 +2965,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;523 |
+    | <i class="fa fas fa-star"></i>&nbsp;531 |
     </span>
     <em>OptNet experiments</em>
   </td>
@@ -2962,7 +2976,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;700 |
+    | <i class="fa fas fa-star"></i>&nbsp;707 |
     </span>
     <em>Differentiable PyTorch QP solver</em>
   </td>
@@ -2973,7 +2987,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;836 |
+    | <i class="fa fas fa-star"></i>&nbsp;838 |
     </span>
     <em>PyTorch DenseNet implementation</em>
   </td>
@@ -2984,7 +2998,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/block">bamos/block</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;303 |
+    | <i class="fa fas fa-star"></i>&nbsp;306 |
     </span>
     <em>Intelligent block matrix constructions</em>
   </td>
@@ -3017,7 +3031,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2015</span>
     <a href="https://github.com/cmusatyalab/openface">cmusatyalab/openface</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;15.2k |
+    | <i class="fa fas fa-star"></i>&nbsp;15.3k |
     </span>
     <em>Face recognition with deep neural networks</em>
   </td>
@@ -3039,7 +3053,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2015</span>
     <a href="https://github.com/bamos/conference-tracker">bamos/conference-tracker</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;72 |
+    | <i class="fa fas fa-star"></i>&nbsp;71 |
     </span>
     <em>Minimal conference tracker</em>
   </td>
@@ -3072,7 +3086,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2014</span>
     <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;233 |
+    | <i class="fa fas fa-star"></i>&nbsp;235 |
     </span>
     <em>Analyze and plot your zsh history</em>
   </td>
@@ -3094,7 +3108,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/latex-templates">bamos/latex-templates</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;364 |
+    | <i class="fa fas fa-star"></i>&nbsp;365 |
     </span>
     <em>LaTeX templates</em>
   </td>
@@ -3105,7 +3119,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;348 |
+    | <i class="fa fas fa-star"></i>&nbsp;350 |
     </span>
     <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em>
   </td>
@@ -3116,7 +3130,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;408 |
+    | <i class="fa fas fa-star"></i>&nbsp;409 |
     </span>
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
   </td>
@@ -3127,7 +3141,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/parsec-benchmark">bamos/parsec-benchmark</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;104 |
+    | <i class="fa fas fa-star"></i>&nbsp;106 |
     </span>
     <em>PARSEC benchmark support for Arch Linux</em>
   </td>
@@ -3138,7 +3152,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/python-scripts">bamos/python-scripts</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;197 |
+    | <i class="fa fas fa-star"></i>&nbsp;198 |
     </span>
     <em>Short and fun Python scripts</em>
   </td>
