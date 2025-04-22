@@ -154,6 +154,15 @@ these systems to represent non-trivial reasoning operations.
 <table class="table table-hover">
 <tr>
   <td>
+  <div style='float: right'>2025</div>
+  <div>
+        <a href="https://aistats.org/aistats2025/awards.html">AISTATS Best Reviewer</a>
+  </div>
+  </td>
+  <!-- <td class='col-md-2' style='text-align:right;'>2025</td> -->
+</tr>
+<tr>
+  <td>
   <div style='float: right'>2022</div>
   <div>
         <a href="https://neurips.cc/Conferences/2022/ProgramCommittee">NeurIPS Top Reviewer</a>
@@ -230,7 +239,7 @@ Selected publications I am a primary author on are <span style='background-color
 <a href='https://arxiv.org/abs/2410.09303' target='_blank'><img src="images/publications/phan2024exactbytelevelprobabilitiestokenized.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2410.09303' target='_blank'>Exact Byte-Level Probabilities from Tokenized Language Models for FIM-Tasks and Model Ensembles</a> </em> 
 [<a href='javascript:;'
-    onclick='$("#abs_phan2024exactbytelevelprobabilitiestokenized").toggle()'>abs</a>]<br>
+    onclick='$("#abs_phan2024exactbytelevelprobabilitiestokenized").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/Exact-Byte-Level-Probabilities-from-Tokenized-LMs' target='_blank'>code</a>] <br>
 <a href='https://truongbuu.github.io/' target='_blank'>Buu&nbsp;Phan</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://itaigat.com/' target='_blank'>Itai&nbsp;Gat</a>, <a href='https://mhavasi.github.io/' target='_blank'>Marton&nbsp;Havasi</a>, <a href='https://mmuckley.github.io/' target='_blank'>Matthew&nbsp;Muckley</a>, and <a href='https://karenullrich.info/' target='_blank'>Karen&nbsp;Ullrich</a><br>
 ICLR 2025  <br>
 
