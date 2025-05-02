@@ -3202,7 +3202,7 @@ under a CC-BY license.
   <td style='padding-right:0;'>
     <span class='cvdate'>2025</span>
      <a href="https://bamos.github.io/presentations/2025/05/01/amortization-rl-bio.html"><em>On amortized optimization for RL, Bayesian optimization, and biology</em></a> &mdash;
-        Artificial Intelligence laboratory for Bioscience (ai
+        <a href="https://ai4b.io">ai4b.io</a>
   </td>
 </tr>
 <tr>
