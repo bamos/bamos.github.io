@@ -3588,6 +3588,18 @@ under a CC-BY license.
 <table class="table table-hover">
 <tr>
   <td style='padding-right:0;'>
+    <span class='cvdate'>2025</span>
+        <a href="https://ollieliu.com/">Ollie Liu</a> (visiting FAIR from USC)
+  </td>
+</tr>
+<tr>
+  <td style='padding-right:0;'>
+    <span class='cvdate'>2025</span>
+        <a href="https://doronhav.github.io/">Doron Haviv</a> (MSKCC PhD committee)
+  </td>
+</tr>
+<tr>
+  <td style='padding-right:0;'>
     <span class='cvdate'>2024&nbsp;-&nbsp;2025</span>
         <a href="https://scholar.google.com/citations?user=HBAXF6YAAAAJ">Aaron Havens</a> (visiting FAIR from UIUC)
   </td>
@@ -3595,7 +3607,7 @@ under a CC-BY license.
 <tr>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022&nbsp;-&nbsp;2024</span>
-        <a href="https://arampooladian.com/">Aram-Alexandre Pooladian</a> (visiting FAIR from NYU)
+        <a href="https://arampooladian.com/">Aram-Alexandre Pooladian</a> (visiting FAIR from NYU, now at Yale)
   </td>
 </tr>
 <tr>
@@ -3625,7 +3637,7 @@ under a CC-BY license.
 <tr>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022&nbsp;-&nbsp;2023</span>
-        <a href="https://dishank-b.github.io">Dishank Bansal</a> (AI resident at FAIR)
+        <a href="https://dishank-b.github.io">Dishank Bansal</a> (AI resident at FAIR, now at the UK AI Safety Institute)
   </td>
 </tr>
 <tr>
