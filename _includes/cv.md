@@ -163,6 +163,15 @@ these systems to represent non-trivial reasoning operations.
 </tr>
 <tr>
   <td>
+  <div style='float: right'>2024</div>
+  <div>
+        <a href="https://icml.cc/virtual/2024/39245">Outstandird Paper Award at the ICML 2024 Theoretical Foundations Workshop</a>
+  </div>
+  </td>
+  <!-- <td class='col-md-2' style='text-align:right;'>2024</td> -->
+</tr>
+<tr>
+  <td>
   <div style='float: right'>2022</div>
   <div>
         <a href="https://neurips.cc/Conferences/2022/ProgramCommittee">NeurIPS Top Reviewer</a>
@@ -187,6 +196,15 @@ these systems to represent non-trivial reasoning operations.
   </div>
   </td>
   <!-- <td class='col-md-2' style='text-align:right;'>2019</td> -->
+</tr>
+<tr>
+  <td>
+  <div style='float: right'>2017</div>
+  <div>
+        Best Paper Award at ACM MMSys
+  </div>
+  </td>
+  <!-- <td class='col-md-2' style='text-align:right;'>2017</td> -->
 </tr>
 <tr>
   <td>
@@ -231,9 +249,61 @@ Selected publications I am a primary author on are <span style='background-color
 <h2>2025</h2>
 <table class="table table-hover">
 
-<tr id="tr-paulus2024advprompter" style="background-color: #ffffd0">
+<tr id="tr-zheng2024onlineintrinsicrewardsdecision" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
 1.
+</td>
+<td>
+<a href='https://arxiv.org/abs/2410.23022' target='_blank'><img src="images/publications/zheng2024onlineintrinsicrewardsdecision.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://arxiv.org/abs/2410.23022' target='_blank'>Online Intrinsic Rewards for Decision Making Agents from Large Language Model Feedback</a> </em> 
+[<a href='javascript:;'
+    onclick='$("#abs_zheng2024onlineintrinsicrewardsdecision").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/oni' target='_blank'>code</a>] <br>
+<a href='https://enosair.github.io/' target='_blank'>Qinqing&nbsp;Zheng</a>, <a href='https://www.mikaelhenaff.com/' target='_blank'>Mikael&nbsp;Henaff</a>, <a href='https://amyzhang.github.io/' target='_blank'>Amy&nbsp;Zhang</a>, <a href='https://aditya-grover.github.io/' target='_blank'>Aditya&nbsp;Grover</a>, and <strong>Brandon&nbsp;Amos</strong><br>
+RLC 2025  <br>
+
+<div id="abs_zheng2024onlineintrinsicrewardsdecision" style="text-align: justify; display: none" markdown="1">
+Automatically synthesizing dense rewards from natural language
+descriptions is a promising paradigm in
+reinforcement learning (RL), with applications to
+sparse reward problems, open-ended exploration, and
+hierarchical skill design. Recent works have made
+promising steps by exploiting the prior knowledge of
+large language models (LLMs). However, these
+approaches suffer from important limitations: they
+are either not scalable to problems requiring
+billions of environment samples; or are limited to
+reward functions expressible by compact code, which
+may require source code and have difficulty
+capturing nuanced semantics; or require a diverse
+offline dataset, which may not exist or be
+impossible to collect. In this work, we address
+these limitations through a combination of
+algorithmic and systems-level contributions. We
+propose ONI, a distributed architecture that
+simultaneously learns an RL policy and an intrinsic
+reward function using LLM feedback. Our approach
+annotates the agent's collected experience via an
+asynchronous LLM server, which is then distilled
+into an intrinsic reward model. We explore a range
+of algorithmic choices for reward modeling with
+varying complexity, including hashing, classification, and ranking models. By studying
+their relative tradeoffs, we shed light on questions
+regarding intrinsic reward design for sparse reward
+problems. Our approach achieves state-of-the-art
+performance across a range of challenging, sparse
+reward tasks from the NetHack Learning Environment
+in a simple unified process, solely using the
+agent's gathered experience, without requiring
+external datasets nor source code.
+</div>
+
+</td>
+</tr>
+
+
+<tr id="tr-paulus2024advprompter" style="background-color: #ffffd0">
+<td align='right' style='padding-left:0;padding-right:0;'>
+2.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2404.16873' target='_blank'><img src="images/publications/paulus2024advprompter.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -255,7 +325,7 @@ We train the AdvPrompter using a novel algorithm that does not require access to
 
 <tr id="tr-haviv2024wasserstein" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-2.
+3.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2411.00698' target='_blank'><img src="images/publications/haviv2024wasserstein.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -300,7 +370,7 @@ datasets.
 
 <tr id="tr-havens2025adjointsamplinghighlyscalable" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-3.
+4.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2504.11713' target='_blank'><img src="images/publications/havens2025adjointsamplinghighlyscalable.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -314,7 +384,7 @@ ICML 2025  <br>
 
 <tr id="tr-phan2024exactbytelevelprobabilitiestokenized" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-4.
+5.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2410.09303' target='_blank'><img src="images/publications/phan2024exactbytelevelprobabilitiestokenized.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -334,7 +404,7 @@ Tokenization is associated with many poorly understood shortcomings in language 
 
 <tr id="tr-atanackovic2024meta" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-5.
+6.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2408.14608' target='_blank'><img src="images/publications/atanackovic2024meta.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -357,7 +427,7 @@ Numerous biological and physical processes can be modeled as systems of interact
 
 <tr id="tr-pooladian2024neural" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-6.
+7.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2406.00288' target='_blank'><img src="images/publications/pooladian2024neural.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -377,7 +447,7 @@ We investigate the optimal transport problem between probability measures when t
 
 <tr id="tr-sambharya2024learning" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-7.
+8.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2309.07835' target='_blank'><img src="images/publications/sambharya2024learning.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -397,7 +467,7 @@ We introduce a machine-learning framework to warm-start fixed-point optimization
 
 <tr id="tr-lotfi2024unlocking" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-8.
+9.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2407.18158' target='_blank'><img src="images/publications/lotfi2024unlocking.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -441,7 +511,7 @@ high-quality text.
 
 <tr id="tr-domingoenrich2024stochastic" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-9.
+10.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2312.02027' target='_blank'><img src="images/publications/domingoenrich2024stochastic.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -461,7 +531,7 @@ Stochastic optimal control, which has the goal of driving the behavior of noisy 
 
 <tr id="tr-ju2024to" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-10.
+11.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2410.16456' target='_blank'><img src="images/publications/ju2024to.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -481,7 +551,7 @@ Travel planning is a challenging and time-consuming task that aims to find an it
 
 <tr id="tr-silvestri2024score" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-11.
+12.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2307.05213' target='_blank'><img src="images/publications/silvestri2024score.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -493,58 +563,6 @@ arXiv 2024  <br>
 
 <div id="abs_silvestri2024score" style="text-align: justify; display: none" markdown="1">
 Many real-world optimization problems contain parameters that are unknown before deployment time, either due to stochasticity or to lack of information (e.g., demand or travel times in delivery problems). A common strategy in such cases is to estimate said parameters via machine learning (ML) models trained to minimize the prediction error, which however is not necessarily aligned with the downstream task-level error. The decision-focused learning (DFL) paradigm overcomes this limitation by training to directly minimize a task loss, e.g. regret. Since the latter has non-informative gradients for combinatorial problems, state-of-the-art DFL methods introduce surrogates and approximations that enable training. But these methods exploit specific assumptions about the problem structures (e.g., convex or linear problems, unknown parameters only in the objective function). We propose an alternative method that makes no such assumptions, it combines stochastic smoothing with score function gradient estimation which works on any task loss. This opens up the use of DFL methods to nonlinear objectives, uncertain parameters in the problem constraints, and even two-stage stochastic optimization. Experiments show that it typically requires more epochs, but that it is on par with specialized methods and performs especially well for the difficult case of problems with uncertainty in the constraints, in terms of solution quality, scalability, or both.
-</div>
-
-</td>
-</tr>
-
-
-<tr id="tr-zheng2024onlineintrinsicrewardsdecision" >
-<td align='right' style='padding-left:0;padding-right:0;'>
-12.
-</td>
-<td>
-<a href='https://arxiv.org/abs/2410.23022' target='_blank'><img src="images/publications/zheng2024onlineintrinsicrewardsdecision.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2410.23022' target='_blank'>Online Intrinsic Rewards for Decision Making Agents from Large Language Model Feedback</a> </em> 
-[<a href='javascript:;'
-    onclick='$("#abs_zheng2024onlineintrinsicrewardsdecision").toggle()'>abs</a>] [<a href='https://github.com/facebookresearch/oni' target='_blank'>code</a>] <br>
-<a href='https://enosair.github.io/' target='_blank'>Qinqing&nbsp;Zheng</a>, <a href='https://www.mikaelhenaff.com/' target='_blank'>Mikael&nbsp;Henaff</a>, <a href='https://amyzhang.github.io/' target='_blank'>Amy&nbsp;Zhang</a>, <a href='https://aditya-grover.github.io/' target='_blank'>Aditya&nbsp;Grover</a>, and <strong>Brandon&nbsp;Amos</strong><br>
-arXiv 2024  <br>
-
-<div id="abs_zheng2024onlineintrinsicrewardsdecision" style="text-align: justify; display: none" markdown="1">
-Automatically synthesizing dense rewards from natural language
-descriptions is a promising paradigm in
-reinforcement learning (RL), with applications to
-sparse reward problems, open-ended exploration, and
-hierarchical skill design. Recent works have made
-promising steps by exploiting the prior knowledge of
-large language models (LLMs). However, these
-approaches suffer from important limitations: they
-are either not scalable to problems requiring
-billions of environment samples; or are limited to
-reward functions expressible by compact code, which
-may require source code and have difficulty
-capturing nuanced semantics; or require a diverse
-offline dataset, which may not exist or be
-impossible to collect. In this work, we address
-these limitations through a combination of
-algorithmic and systems-level contributions. We
-propose ONI, a distributed architecture that
-simultaneously learns an RL policy and an intrinsic
-reward function using LLM feedback. Our approach
-annotates the agent's collected experience via an
-asynchronous LLM server, which is then distilled
-into an intrinsic reward model. We explore a range
-of algorithmic choices for reward modeling with
-varying complexity, including hashing, classification, and ranking models. By studying
-their relative tradeoffs, we shed light on questions
-regarding intrinsic reward design for sparse reward
-problems. Our approach achieves state-of-the-art
-performance across a range of challenging, sparse
-reward tasks from the NetHack Learning Environment
-in a simple unified process, solely using the
-agent's gathered experience, without requiring
-external datasets nor source code.
 </div>
 
 </td>
