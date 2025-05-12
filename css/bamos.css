@@ -62,6 +62,11 @@ img {
     border: none;
 }
 
+/* .navbar li { */
+/*   font-family: "Georgia", "Times New Roman", Times, serif; */
+/*   font-weight: bold; */
+/* } */
+
 @media (max-width: 767px) {
     .idxHdr {
         width: 100%;
