@@ -465,13 +465,77 @@ Numerous biological and physical processes can be modeled as systems of interact
 </td>
 </tr>
 
+
+<tr id="tr-zhang2025cultivating" >
+<td align='right' style='padding-left:0;padding-right:0;'>
+7.
+</td>
+<td>
+<a href='https://openreview.net/pdf?id=4hbwVQ6OMd' target='_blank'><img src="images/publications/zhang2025cultivating.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://openreview.net/pdf?id=4hbwVQ6OMd' target='_blank'>Cultivating Pluralism In Algorithmic Monoculture: The Community Alignment Dataset</a> </em> 
+[<a href='javascript:;'
+    onclick='$("#abs_zhang2025cultivating").toggle()'>abs</a>]<br>
+<a href='https://lhz1029.github.io/' target='_blank'>Lily&nbsp;H&nbsp;Zhang</a>, <a href='http://smithamilli.com/' target='_blank'>Smitha&nbsp;Milli</a>, <a href='https://scholar.google.com/citations?user=O924n4AAAAAJ' target='_blank'>Karen&nbsp;Long&nbsp;Jusko</a>, <a href='https://scholar.google.com/citations?user=URWZ--QAAAAJ' target='_blank'>Jonathan&nbsp;Smith</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=QDtbGtIAAAAJ' target='_blank'>Wassim&nbsp;Bouaziz</a>, <a href='https://openreview.net/profile?id=~Jack_Kussman1' target='_blank'>Jack&nbsp;Kussman</a>, <a href='https://scholar.google.com/citations?user=dEvt4JoAAAAJ' target='_blank'>Manon&nbsp;Revel</a>, <a href='https://scholar.google.com/citations?user=v2Wni-EAAAAJg' target='_blank'>Lisa&nbsp;Titus</a>, <a href='https://scholar.google.com/citations?user=IkQv0loAAAAJg' target='_blank'>Bhaktipriya&nbsp;Radharapu</a>, <a href='https://scholar.google.com/citations?user=ev8Ilx0AAAAJg' target='_blank'>Jane&nbsp;Yu</a>, <a href='https://www.linkedin.com/in/vidyasarma' target='_blank'>Vidya&nbsp;Sarma</a>, <a href='https://openreview.net/profile?id=~Kristopher_Rose1' target='_blank'>Kristopher&nbsp;Rose</a>, and <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a><br>
+ICML MoFA Workshop 2025  <br>
+
+<div id="abs_zhang2025cultivating" style="text-align: justify; display: none" markdown="1">
+How can large language models (LLMs) serve users with varying preferences that may conflict across cultural, political, or other dimensions? To advance this challenge, this paper establishes four key results. First, we demonstrate, through a large-scale multilingual human study with representative samples from five countries (N=15,000), that humans exhibit significantly more variation in preferences than the responses of 21 state-of-the-art LLMs. Second, we show that existing methods for preference dataset collection are insufficient for learning the diversity of human preferences even along two of the most salient dimensions of variability in global values, due to the underlying homogeneity of candidate responses. Third, we argue that this motivates the need for negatively-correlated sampling when generating candidate sets, and we show that simple prompt-based techniques for doing so significantly enhance the performance of alignment methods in learning heterogeneous preferences. Fourth, based on this novel candidate sampling approach, we collect and open-source Community Alignment, the largest and most representative multilingual and multi-turn preference dataset to date, featuring almost 200,000 comparisons from annotators spanning five countries. We hope that the Community Alignment dataset will be a valuable resource for improving the effectiveness of LLMs for a diverse global population.
+</div>
+
+</td>
+</tr>
+
+
+<tr id="tr-press2025algotune" >
+<td align='right' style='padding-left:0;padding-right:0;'>
+8.
+</td>
+<td>
+<a href='https://algotune.io/paper.pdf' target='_blank'><img src="images/publications/press2025algotune.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://algotune.io/paper.pdf' target='_blank'>AlgoTune: Can Language Models Speed Up General-Purpose Numerical Programs?</a> </em> 
+[<a href='javascript:;'
+    onclick='$("#abs_press2025algotune").toggle()'>abs</a>]<br>
+<a href='https://oripress.com/' target='_blank'>Ori&nbsp;Press</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://hyzhao.me/' target='_blank'>Haoyu&nbsp;Zhao</a>, <a href='https://yikai-wu.github.io/' target='_blank'>Yikai&nbsp;Wu</a>, <a href='https://samlikes.pizza/' target='_blank'>Samuel&nbsp;K.&nbsp;Ainsworth</a>, <a href='https://krupke.cc/' target='_blank'>Dominik&nbsp;Krupke</a>, <a href='https://kidger.site/' target='_blank'>Patrick&nbsp;Kidger</a>, <a href='https://www.linkedin.com/in/touqir-sajed-6a95b1126/' target='_blank'>Touqir&nbsp;Sajed</a>, <a href='https://stellato.io/' target='_blank'>Bartolomeo&nbsp;Stellato</a>, <a href='https://jisunp515.github.io/' target='_blank'>Jisun&nbsp;Park</a>, <a href='https://nathanaelbosch.github.io/' target='_blank'>Nathanael&nbsp;Bosch</a>, <a href='https://openreview.net/profile?id=~Eli_Meril1' target='_blank'>Eli&nbsp;Meril</a>, <a href='https://scholar.google.com/citations?user=_nbf9ZIAAAAJ' target='_blank'>Albert&nbsp;Steppi</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <a href='https://fangzhaoz.github.io/' target='_blank'>Fangzhao&nbsp;Zhang</a>, <a href='https://davidppineiro.com/' target='_blank'>David&nbsp;Pérez-Piñeiro</a>, <a href='https://scholar.google.it/citations?user=a5HqhwUAAAAJ' target='_blank'>Alberto&nbsp;Mercurio</a>, <a href='https://jennyzhanni.com/' target='_blank'>Ni&nbsp;Zhan</a>, <a href='https://scholar.google.com/citations?user=mdd52kMAAAAJ' target='_blank'>Talor&nbsp;Abramovich</a>, <a href='https://www.lieret.net/' target='_blank'>Kilian&nbsp;Lieret</a>, <a href='https://hanlin-zhang.com/' target='_blank'>Hanlin&nbsp;Zhang</a>, <a href='https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1542499' target='_blank'>Shirley&nbsp;Huang</a>, <a href='https://scholar.google.com/citations?user=0z0fNxUAAAAJ' target='_blank'>Matthias&nbsp;Bethge</a>, and <a href='https://ofir.io/about' target='_blank'>Ofir&nbsp;Press</a><br>
+preprint 2025  <br>
+
+<div id="abs_press2025algotune" style="text-align: justify; display: none" markdown="1">
+Despite progress in language model (LM) capabilities, evaluations
+have thus far focused on models’ performance on
+tasks that humans have previously solved, including
+in programming (Jimenez et al., 2024) and
+mathematics (Glazer et al., 2024). We therefore
+propose testing models’ ability to design and
+implement algorithms in an open-ended benchmark: We
+task LMs with writing code that efficiently solves
+computationally challenging problems in computer
+science, physics, and mathematics. Our AlgoTune
+benchmark consists of 155 coding tasks collected
+from domain experts and a framework for validating
+and timing LM-synthesized solution code, which is
+compared to reference implementations from popular
+opensource packages. In addition, we develop a
+baseline LM agent, AlgoTuner, and evaluate its
+performance across a suite of frontier
+models. AlgoTuner achieves an average 1.76x speedup
+against our reference solvers, which use libraries
+such as SciPy, sk-learn and CVXPY. However, we find
+that current models fail to discover algorithmic
+innovations, instead preferring surface-level
+optimizations. We hope that AlgoTune catalyzes the
+development of LM agents exhibiting creative problem
+solving beyond state-of-the-art human performance.
+</div>
+
+</td>
+</tr>
+
 </table>
 <h2>2024</h2>
 <table class="table table-hover">
 
 <tr id="tr-pooladian2024neural" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-7.
+9.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2406.00288' target='_blank'><img src="images/publications/pooladian2024neural.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -491,7 +555,7 @@ We investigate the optimal transport problem between probability measures when t
 
 <tr id="tr-sambharya2024learning" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-8.
+10.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2309.07835' target='_blank'><img src="images/publications/sambharya2024learning.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -511,7 +575,7 @@ We introduce a machine-learning framework to warm-start fixed-point optimization
 
 <tr id="tr-lotfi2024unlocking" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-9.
+11.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2407.18158' target='_blank'><img src="images/publications/lotfi2024unlocking.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -555,7 +619,7 @@ high-quality text.
 
 <tr id="tr-domingoenrich2024stochastic" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-10.
+12.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2312.02027' target='_blank'><img src="images/publications/domingoenrich2024stochastic.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -575,14 +639,14 @@ Stochastic optimal control, which has the goal of driving the behavior of noisy 
 
 <tr id="tr-ju2024to" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-11.
+13.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2410.16456' target='_blank'><img src="images/publications/ju2024to.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2410.16456' target='_blank'>To the Globe (TTG): Towards Language-Driven Guaranteed Travel Planning</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_ju2024to").toggle()'>abs</a>]<br>
-<a href='https://scholar.google.com/citations?user=YW5jp5QAAAAJ' target='_blank'>Da&nbsp;JU</a>, <a href='https://scholar.google.com/citations?user=SjbhMQEAAAAJ' target='_blank'>Song&nbsp;Jiang</a>, <a href='https://scholar.google.com/citations?user=v1Frtb0AAAAJ' target='_blank'>Andrew&nbsp;Cohen</a>, <a href='https://openreview.net/profile?id=~Aaron_Foss1' target='_blank'>Aaron&nbsp;Foss</a>, <a href='https://scholar.google.com/citations?user=ncFsSKMAAAAJ' target='_blank'>Sasha&nbsp;Mitts</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=v_sIgawAAAAJ' target='_blank'>Xian&nbsp;Li</a>, <a href='https://scholar.google.com/citations?hl=es&user=Y9BLeTAAAAAJ' target='_blank'>Justine&nbsp;T&nbsp;Kao</a>, <a href='https://scholar.google.com/citations?user=7-a1MKEAAAAJ' target='_blank'>Maryam&nbsp;Fazel-Zarandi</a>, and <a href='https://yuandong-tian.com/' target='_blank'>Yuandong&nbsp;Tian</a><br>
+<a href='https://scholar.google.com/citations?user=YW5jp5QAAAAJ' target='_blank'>Da&nbsp;JU</a>, <a href='https://scholar.google.com/citations?user=SjbhMQEAAAAJ' target='_blank'>Song&nbsp;Jiang</a>, <a href='https://scholar.google.com/citations?user=v1Frtb0AAAAJ' target='_blank'>Andrew&nbsp;Cohen</a>, <a href='https://openreview.net/profile?id=~Aaron_Foss1' target='_blank'>Aaron&nbsp;Foss</a>, <a href='https://scholar.google.com/citations?user=ncFsSKMAAAAJ' target='_blank'>Sasha&nbsp;Mitts</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=v_sIgawAAAAJ' target='_blank'>Xian&nbsp;Li</a>, <a href='https://scholar.google.com/citations?user=Y9BLeTAAAAAJ' target='_blank'>Justine&nbsp;T&nbsp;Kao</a>, <a href='https://scholar.google.com/citations?user=7-a1MKEAAAAJ' target='_blank'>Maryam&nbsp;Fazel-Zarandi</a>, and <a href='https://yuandong-tian.com/' target='_blank'>Yuandong&nbsp;Tian</a><br>
 EMNLP Demo 2024  <br>
 
 <div id="abs_ju2024to" style="text-align: justify; display: none" markdown="1">
@@ -595,7 +659,7 @@ Travel planning is a challenging and time-consuming task that aims to find an it
 
 <tr id="tr-silvestri2024score" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-12.
+14.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2307.05213' target='_blank'><img src="images/publications/silvestri2024score.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -615,7 +679,7 @@ Many real-world optimization problems contain parameters that are unknown before
 
 <tr id="tr-zhu2024advprefixobjectivenuancedllm" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-13.
+15.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2412.10321' target='_blank'><img src="images/publications/zhu2024advprefixobjectivenuancedllm.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -660,7 +724,7 @@ nuanced jailbreaks.
 
 <tr id="tr-amos2023tutorial" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-14.
+16.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2202.00665' target='_blank'><img src="images/publications/amos2023tutorial.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -695,7 +759,7 @@ transport, and deep equilibrium networks.
 
 <tr id="tr-amos2023amortizing" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-15.
+17.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2210.12153' target='_blank'><img src="images/publications/amos2023amortizing.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -729,7 +793,7 @@ flows considered in the literature.
 
 <tr id="tr-sambharya2023l2a" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-16.
+18.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2212.08260' target='_blank'><img src="images/publications/sambharya2023l2a.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -773,7 +837,7 @@ high-quality solutions.
 
 <tr id="tr-amos2023meta" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-17.
+19.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2206.05262' target='_blank'><img src="images/publications/amos2023meta.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -807,7 +871,7 @@ and continuous transport settings between images, spherical data, and color pale
 
 <tr id="tr-pooladian2023multisample" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-18.
+20.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2304.14772' target='_blank'><img src="images/publications/pooladian2023multisample.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -849,7 +913,7 @@ sets, and lead to better low-cost sample generation.
 
 <tr id="tr-zheng2023semi" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-19.
+21.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2210.06518' target='_blank'><img src="images/publications/zheng2023semi.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -897,7 +961,7 @@ datasets.
 
 <tr id="tr-bansal2023taskmet" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-20.
+22.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2312.05250' target='_blank'><img src="images/publications/bansal2023taskmet.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -934,7 +998,7 @@ distracting states.
 
 <tr id="tr-zharmagambetov2023landscape" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-21.
+23.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2307.08964' target='_blank'><img src="images/publications/zharmagambetov2023landscape.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -979,7 +1043,7 @@ computationally expensive high-dimensional problems.
 
 <tr id="tr-retchin2023koopman" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-22.
+24.
 </td>
 <td>
 <a href='https://openreview.net/pdf?id=3W7vPqWCeM' target='_blank'><img src="images/publications/retchin2023koopman.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1015,7 +1079,7 @@ after training.
 
 <tr id="tr-fickinger2021crossdomain" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-23.
+25.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2110.03684' target='_blank'><img src="images/publications/fickinger2021crossdomain.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1053,7 +1117,7 @@ state-action space.
 
 <tr id="tr-benhamu2022matching" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-24.
+26.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2207.04711' target='_blank'><img src="images/publications/benhamu2022matching.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1097,7 +1161,7 @@ manifolds.
 
 <tr id="tr-chen2022semi" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-25.
+27.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2203.06832' target='_blank'><img src="images/publications/chen2022semi.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1143,7 +1207,7 @@ to a baseline model.
 
 <tr id="tr-pineda2022theseus" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-26.
+28.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2207.09442' target='_blank'><img src="images/publications/pineda2022theseus.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1181,7 +1245,7 @@ incorporated.
 
 <tr id="tr-vinitsky2022nocturne" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-27.
+29.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2206.09889' target='_blank'><img src="images/publications/vinitsky2022nocturne.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1227,7 +1291,7 @@ trajectories.
 
 <tr id="tr-amos2021modelbased" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-28.
+30.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2008.12775' target='_blank'><img src="images/publications/amos2021modelbased.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1274,7 +1338,7 @@ an ensemble.
 
 <tr id="tr-cohen2021riemannian" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-29.
+31.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2106.10272' target='_blank'><img src="images/publications/cohen2021riemannian.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1305,7 +1369,7 @@ model standard distributions on spheres, and tori, on synthetic and geological d
 
 <tr id="tr-paulus2021comboptnet" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-30.
+32.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2105.02343' target='_blank'><img src="images/publications/paulus2021comboptnet.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1342,7 +1406,7 @@ vision keypoint matching benchmark.
 
 <tr id="tr-fickinger2021scalable" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-31.
+33.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2109.15316' target='_blank'><img src="images/publications/fickinger2021scalable.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1376,7 +1440,7 @@ tabular search in the Atari game Ms. Pacman.
 
 <tr id="tr-cohen2020aligning" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-32.
+34.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2006.12648' target='_blank'><img src="images/publications/cohen2020aligning.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1413,7 +1477,7 @@ imitation learning.
 
 <tr id="tr-chen2021learning" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-33.
+35.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2011.03902' target='_blank'><img src="images/publications/chen2021learning.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1445,7 +1509,7 @@ with applications in discrete control.
 
 <tr id="tr-chen2021neural" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-34.
+36.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2011.04583' target='_blank'><img src="images/publications/chen2021neural.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1478,7 +1542,7 @@ mobility, and neuroscience.
 
 <tr id="tr-yarats2021improving" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-35.
+37.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1910.01741' target='_blank'><img src="images/publications/yarats2021improving.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1519,7 +1583,7 @@ future research on image-based RL.
 
 <tr id="tr-venkataraman2021neural" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-36.
+38.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2107.10254' target='_blank'><img src="images/publications/venkataraman2021neural.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1552,7 +1616,7 @@ optimization problem expressible with CVXPY.
 
 <tr id="tr-cohen2021sliced" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-37.
+39.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2102.07115' target='_blank'><img src="images/publications/cohen2021sliced.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1594,14 +1658,14 @@ multi-dynamics reinforcement learning problems.
 
 <tr id="tr-richterpowell2021input" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-38.
+40.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2111.12187' target='_blank'><img src="images/publications/richterpowell2021input.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2111.12187' target='_blank'>Input Convex Gradient Networks</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_richterpowell2021input").toggle()'>abs</a>]<br>
-<a href='https://scholar.google.com/citations?hl=es&user=L78pVMMAAAAJ' target='_blank'>Jack&nbsp;Richter-Powell</a>, <a href='https://scholar.google.com/citations?user=Hzf8bu0AAAAJ' target='_blank'>Jonathan&nbsp;Lorraine</a>, and <strong>Brandon&nbsp;Amos</strong><br>
+<a href='https://scholar.google.com/citations?user=L78pVMMAAAAJ' target='_blank'>Jack&nbsp;Richter-Powell</a>, <a href='https://scholar.google.com/citations?user=Hzf8bu0AAAAJ' target='_blank'>Jonathan&nbsp;Lorraine</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 NeurIPS OTML Workshop 2021  <br>
 
 <div id="abs_richterpowell2021input" style="text-align: justify; display: none" markdown="1">
@@ -1630,7 +1694,7 @@ from Riemannian geometry.
 
 <tr id="tr-cohen2021imitation" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-39.
+41.
 </td>
 <td>
 <a href='https://openreview.net/pdf?id=Xe5MFhFvYGX' target='_blank'><img src="images/publications/cohen2021imitation.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1667,7 +1731,7 @@ our methods and expert demonstrations.
 
 <tr id="tr-pineda2021mbrl" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-40.
+42.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2104.10159' target='_blank'><img src="images/publications/pineda2021mbrl.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1702,7 +1766,7 @@ deploying state-of-the-art algorithms.
 
 <tr id="tr-amos2020differentiable" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-41.
+43.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1909.12830' target='_blank'><img src="images/publications/amos2020differentiable.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1737,7 +1801,7 @@ towards combining model-based and model-free RL.
 
 <tr id="tr-lambert2020objective" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-42.
+44.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2002.04523' target='_blank'><img src="images/publications/lambert2020objective.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1757,7 +1821,7 @@ Model-based reinforcement learning (MBRL) has been shown to be a powerful framew
 
 <tr id="tr-amos2020QNSTOP" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-43.
+45.
 </td>
 <td>
 <a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'><img src="images/publications/amos2020QNSTOP.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1785,7 +1849,7 @@ biology problems is given.
 
 <tr id="tr-sercu2020neural" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-44.
+46.
 </td>
 <td>
 <a href='https://www.biorxiv.org/content/10.1101/2021.04.08.439084v1.abstract' target='_blank'><img src="images/publications/sercu2020neural.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1819,7 +1883,7 @@ database with broad coverage of protein sequences.
 
 <tr id="tr-lou2020riemannian" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-45.
+47.
 </td>
 <td>
 <a href='https://drive.google.com/file/d/1Ewro0Ne1tvK15nHyYopY4wZ59QTVB-1c/view' target='_blank'><img src="images/publications/lou2020riemannian.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1849,7 +1913,7 @@ in graph embedding tasks.
 
 <tr id="tr-amos2019differentiable" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-46.
+48.
 </td>
 <td>
 <a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'><img src="images/publications/amos2019differentiable.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1882,7 +1946,7 @@ enables rapid prototyping of the approaches in this thesis.
 
 <tr id="tr-amos2019differentiable3" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-47.
+49.
 </td>
 <td>
 <a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'><img src="images/publications/amos2019differentiable3.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1902,7 +1966,7 @@ Recent work has shown how to embed differentiable optimization problems (that is
 
 <tr id="tr-amos2019limited" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-48.
+50.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1906.08707' target='_blank'><img src="images/publications/amos2019limited.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1933,7 +1997,7 @@ classification.
 
 <tr id="tr-grefenstette2019generalized" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-49.
+51.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1910.01727' target='_blank'><img src="images/publications/grefenstette2019generalized.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -1970,7 +2034,7 @@ facilitate.
 
 <tr id="tr-amos2018learning" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-50.
+52.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1804.06318' target='_blank'><img src="images/publications/amos2018learning.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2012,7 +2076,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
 
 <tr id="tr-amos2018end" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-51.
+53.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1810.13400' target='_blank'><img src="images/publications/amos2018end.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2032,7 +2096,7 @@ In this paper we present foundations for using model predictive control (MPC) as
 
 <tr id="tr-brown2018depth" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-52.
+54.
 </td>
 <td>
 <a href='http://arxiv.org/abs/1805.08195' target='_blank'><img src="images/publications/brown2018depth.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2052,7 +2116,7 @@ A fundamental challenge in imperfect-information games is that states do not hav
 
 <tr id="tr-wang2018enabling" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-53.
+55.
 </td>
 <td>
 <a href='https://dl.acm.org/citation.cfm?id=3209659' target='_blank'><img src="images/publications/wang2018enabling.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2089,7 +2153,7 @@ video streams and analytics services.
 
 <tr id="tr-amos2017optnet" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-54.
+56.
 </td>
 <td>
 <a href='http://arxiv.org/abs/1703.00443' target='_blank'><img src="images/publications/amos2017optnet.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2128,7 +2192,7 @@ constraints better than other neural architectures.
 
 <tr id="tr-amos2017input" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-55.
+57.
 </td>
 <td>
 <a href='http://arxiv.org/abs/1609.07152' target='_blank'><img src="images/publications/amos2017input.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2163,7 +2227,7 @@ improvement over the existing state of the art in many cases.
 
 <tr id="tr-donti2017task" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-56.
+58.
 </td>
 <td>
 <a href='http://arxiv.org/abs/1703.04529' target='_blank'><img src="images/publications/donti2017task.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2195,7 +2259,7 @@ approach and a purely black-box policy optimization approach.
 
 <tr id="tr-chen2017quasi" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-57.
+59.
 </td>
 <td>
 <a href='https://par.nsf.gov/servlets/purl/10111392' target='_blank'><img src="images/publications/chen2017quasi.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2237,7 +2301,7 @@ stochastic model.
 
 <tr id="tr-ha2017you" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-58.
+60.
 </td>
 <td>
 <a href='https://dl.acm.org/doi/10.1145/3132211.3134453' target='_blank'><img src="images/publications/ha2017you.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2268,7 +2332,7 @@ than live migration at those bandwidths.
 
 <tr id="tr-chen2017empirical" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-59.
+61.
 </td>
 <td>
 <a href='https://www.cs.cmu.edu/~zhuoc/papers/latency2017.pdf' target='_blank'><img src="images/publications/chen2017empirical.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2299,7 +2363,7 @@ computing is crucial to meeting these targets.
 
 <tr id="tr-wang2017scalable" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-60.
+62.
 </td>
 <td>
 <a href='http://elijah.cs.cmu.edu/DOCS/wang-mmsys2017.pdf' target='_blank'><img src="images/publications/wang2017scalable.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2328,7 +2392,7 @@ retrospective policy exceptions. Finally, we present a scalable, privacy-aware a
 
 <tr id="tr-amos2016openface" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-61.
+63.
 </td>
 <td>
 <a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf' target='_blank'><img src="images/publications/amos2016openface.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2361,7 +2425,7 @@ the Apache 2.0 license. It is available at:
 
 <tr id="tr-zhao2016collapsed" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-62.
+64.
 </td>
 <td>
 <a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'><img src="images/publications/zhao2016collapsed.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2394,7 +2458,7 @@ with a maximum likelihood based approach.
 
 <tr id="tr-hu2016quantifying" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-63.
+65.
 </td>
 <td>
 <a href='https://dl.acm.org/doi/10.1145/2967360.2967369' target='_blank'><img src="images/publications/hu2016quantifying.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2421,7 +2485,7 @@ for highly interactive mobile applications.
 
 <tr id="tr-davies2016privacy" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-64.
+66.
 </td>
 <td>
 <a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf' target='_blank'><img src="images/publications/davies2016privacy.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2458,7 +2522,7 @@ and organizational boundaries of trust and responsibility.
 
 <tr id="tr-satyanarayanan2015edge" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-65.
+67.
 </td>
 <td>
 <a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'><img src="images/publications/satyanarayanan2015edge.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2487,7 +2551,7 @@ is part of a special issue on smart spaces.
 
 <tr id="tr-turner2015bad" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-66.
+68.
 </td>
 <td>
 <a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094' target='_blank'><img src="images/publications/turner2015bad.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2515,7 +2579,7 @@ manufacturing security topics.
 
 <tr id="tr-chen2015early" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-67.
+69.
 </td>
 <td>
 <a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'><img src="images/publications/chen2015early.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2544,7 +2608,7 @@ simplify the creation of similar applications.
 
 <tr id="tr-hu2014case" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-68.
+70.
 </td>
 <td>
 <a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'><img src="images/publications/hu2014case.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2569,7 +2633,7 @@ demand, with little loss of application-level fidelity
 
 <tr id="tr-gao2015cloudlets" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-69.
+71.
 </td>
 <td>
 <a href='http://reports-archive.adm.cs.cmu.edu/anon/anon/2015/CMU-CS-15-139.pdf' target='_blank'><img src="images/publications/gao2015cloudlets.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2598,7 +2662,7 @@ consumption in a mobile device by up to 42% compared to cloud offload.
 
 <tr id="tr-ha2015adaptive" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-70.
+72.
 </td>
 <td>
 <a href='http://ra.adm.cs.cmu.edu/anon/2015/CMU-CS-15-113.pdf' target='_blank'><img src="images/publications/ha2015adaptive.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2627,7 +2691,7 @@ changing network conditions and processing capacity
 
 <tr id="tr-andrew2014global" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-71.
+73.
 </td>
 <td>
 <a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'><img src="images/publications/andrew2014global.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -2658,7 +2722,7 @@ compared.
 
 <tr id="tr-amos2013applying" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-72.
+74.
 </td>
 <td>
 <a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'><img src="images/publications/amos2013applying.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
