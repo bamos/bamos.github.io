@@ -18,22 +18,34 @@ A few major themes of my research involve:
   (in <a href="https://arxiv.org/abs/2404.16873">AdvPrompter</a>
   and <a href="https://arxiv.org/abs/2412.10321">AdvPrefix</a>)</li>
 <li>
-  <b>extracting information from language models</b> to improve
-  game-playing agents (in <a href="https://arxiv.org/abs/2410.23022">ONI</a>)
+  <b>improving RL, control, and game-playing AI</b>
+  (in
+  <a href="https://arxiv.org/abs/1810.13400">differentiable MPC</a>,
+  <a href="https://arxiv.org/abs/1804.06318">learning awareness models</a>,
+  <a href="https://arxiv.org/abs/2008.12775">the model-based SVG</a>, and
+  <a href="https://arxiv.org/abs/2410.23022">ONI</a>)
 </li>
 <li>
-  <b>transport between distributions over distributions</b>
-  (in <a href="https://arxiv.org/abs/2206.05262">Meta Optimal Transport</a>,
+  <b>applied optimal transport and flows</b>
+  (in
+  <a href="https://arxiv.org/abs/2106.10272">Riemannian Convex Potential Maps</a>,
+  <a href="https://arxiv.org/abs/2110.03684">Gromov-Wasserstein Imitation Learning</a>,
+  <a href="https://arxiv.org/abs/2210.12153">amortized convex conjugates</a>,
+  <a href="https://arxiv.org/abs/2406.00288">Lagrangian OT</a>,
+  <a href="https://arxiv.org/abs/2206.05262">Meta Optimal Transport</a>,
   <a href="https://arxiv.org/abs/2408.14608">Meta Flow Matching</a>,
   <a href="https://arxiv.org/abs/2304.14772">Multisample Flow Matching</a>,
+  <a href="https://arxiv.org/abs/2504.11713">Adjoint Sampling</a>,
   and <a href="https://arxiv.org/abs/2411.00698">Wasserstein Flow Matching</a>
   — see also <a href="https://bamos.github.io/presentations/2024/11/05/transport-between-distributions-over-distributions.html">these slides</a>)
 </li>
 <li>
   <b>amortization, meta-optimization, and meta-learning</b> between tasks
-  (for <a href="https://arxiv.org/abs/2504.11713">sampling molecular conformers</a>,
-  <a href="https://arxiv.org/abs/2210.12153">convex conjugates and OT</a>,
-  and other <a href="https://arxiv.org/abs/2107.10254">convex optimization</a>
+  (for
+  <a href="https://arxiv.org/abs/2504.11713">sampling molecular conformers</a>,
+  <a href="https://arxiv.org/abs/2206.05262">optimal transport</a>,
+  <a href="https://arxiv.org/abs/2408.14608">flow matching</a>,
+  <a href="https://arxiv.org/abs/2107.10254">convex optimization</a>,
   and <a href="https://arxiv.org/abs/2309.07835">fixed point operations</a>
   — see also <a href="https://arxiv.org/abs/2202.00665">my tutorial</a>)
 </li>
@@ -3832,6 +3844,18 @@ under a CC-BY license.
 
 ## <i class="fa fa-chevron-right"></i> Professional Activities
 <table class="table table-hover">
+<tr>
+  <td style='padding-right:0;'>
+  <span class='cvdate'>2026</span>
+      AAAI Senior Program Committee
+  </td>
+</tr>
+<tr>
+  <td style='padding-right:0;'>
+  <span class='cvdate'>2025</span>
+      NeurIPS Area Chair
+  </td>
+</tr>
 <tr>
   <td style='padding-right:0;'>
   <span class='cvdate'>2025</span>
