@@ -46,6 +46,7 @@ A few major themes of my research involve:
   <a href="https://arxiv.org/abs/2206.05262">optimal transport</a>,
   <a href="https://arxiv.org/abs/2408.14608">flow matching</a>,
   <a href="https://arxiv.org/abs/2107.10254">convex optimization</a>,
+  <a href="https://arxiv.org/abs/2404.16873">language model attacks</a>,
   and <a href="https://arxiv.org/abs/2309.07835">fixed point operations</a>
   — see also <a href="https://arxiv.org/abs/2202.00665">my tutorial</a>)
 </li>
