@@ -291,10 +291,10 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 <!-- I usually publish at machine learning conferences, -->
 <!-- including ICML (13 papers), NeurIPS (11 papers), and ICLR (7 papers). -->
 <!-- <a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a> -->
-<!-- reports 10.4k+ citations and an h-index of 40. -->
+<!-- reports 10.9k+ citations and an h-index of 41. -->
 <!-- The selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted.</span> -->
 
-[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 10.4k+ citations and an h-index of 40] <br>
+[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 10.9k+ citations and an h-index of 41] <br>
 Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted.</span>
 
 <h2>2025</h2>
@@ -479,9 +479,29 @@ Numerous biological and physical processes can be modeled as systems of interact
 </tr>
 
 
-<tr id="tr-zhang2025cultivating" >
+<tr id="tr-silvestri2024score" >
 <td align='right' style='padding-left:0;padding-right:0;'>
 7.
+</td>
+<td>
+<a href='https://arxiv.org/abs/2307.05213' target='_blank'><img src="images/publications/silvestri2024score.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://arxiv.org/abs/2307.05213' target='_blank'>Score Function Gradient Estimation to Widen the Applicability of Decision-Focused Learning</a> </em> 
+[<a href='javascript:;'
+    onclick='$("#abs_silvestri2024score").toggle()'>abs</a>]<br>
+<a href='https://scholar.google.com/citations?user=yHEb8eAAAAAJ' target='_blank'>Mattia&nbsp;Silvestri</a>, <a href='https://scholar.google.com/citations?user=sMtjmx4AAAAJ' target='_blank'>Senne&nbsp;Berden</a>, <a href='https://jayantamandi.com/' target='_blank'>Jayanta&nbsp;Mandi</a>, <a href='https://scholar.google.com/citations?user=muyZLrYAAAAJ' target='_blank'>Ali&nbsp;İrfan&nbsp;Mahmutoğulları</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://people.cs.kuleuven.be/~tias.guns/' target='_blank'>Tias&nbsp;Guns</a>, and <a href='https://scholar.google.com/citations?user=lJJ6EOMAAAAJ' target='_blank'>Michele&nbsp;Lombardi</a><br>
+JAIR 2025  <br>
+
+<div id="abs_silvestri2024score" style="text-align: justify; display: none" markdown="1">
+Many real-world optimization problems contain parameters that are unknown before deployment time, either due to stochasticity or to lack of information (e.g., demand or travel times in delivery problems). A common strategy in such cases is to estimate said parameters via machine learning (ML) models trained to minimize the prediction error, which however is not necessarily aligned with the downstream task-level error. The decision-focused learning (DFL) paradigm overcomes this limitation by training to directly minimize a task loss, e.g. regret. Since the latter has non-informative gradients for combinatorial problems, state-of-the-art DFL methods introduce surrogates and approximations that enable training. But these methods exploit specific assumptions about the problem structures (e.g., convex or linear problems, unknown parameters only in the objective function). We propose an alternative method that makes no such assumptions, it combines stochastic smoothing with score function gradient estimation which works on any task loss. This opens up the use of DFL methods to nonlinear objectives, uncertain parameters in the problem constraints, and even two-stage stochastic optimization. Experiments show that it typically requires more epochs, but that it is on par with specialized methods and performs especially well for the difficult case of problems with uncertainty in the constraints, in terms of solution quality, scalability, or both.
+</div>
+
+</td>
+</tr>
+
+
+<tr id="tr-zhang2025cultivating" >
+<td align='right' style='padding-left:0;padding-right:0;'>
+8.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2507.09650' target='_blank'><img src="images/publications/zhang2025cultivating.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -501,7 +521,7 @@ How can large language models (LLMs) serve users with varying preferences that m
 
 <tr id="tr-press2025algotune" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-8.
+9.
 </td>
 <td>
 <a href='https://algotune.io/paper.pdf' target='_blank'><img src="images/publications/press2025algotune.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -548,7 +568,7 @@ solving beyond state-of-the-art human performance.
 
 <tr id="tr-pooladian2024neural" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-9.
+10.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2406.00288' target='_blank'><img src="images/publications/pooladian2024neural.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -568,7 +588,7 @@ We investigate the optimal transport problem between probability measures when t
 
 <tr id="tr-sambharya2024learning" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-10.
+11.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2309.07835' target='_blank'><img src="images/publications/sambharya2024learning.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -588,7 +608,7 @@ We introduce a machine-learning framework to warm-start fixed-point optimization
 
 <tr id="tr-lotfi2024unlocking" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-11.
+12.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2407.18158' target='_blank'><img src="images/publications/lotfi2024unlocking.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -632,7 +652,7 @@ high-quality text.
 
 <tr id="tr-domingoenrich2024stochastic" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-12.
+13.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2312.02027' target='_blank'><img src="images/publications/domingoenrich2024stochastic.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -652,7 +672,7 @@ Stochastic optimal control, which has the goal of driving the behavior of noisy 
 
 <tr id="tr-ju2024to" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-13.
+14.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2410.16456' target='_blank'><img src="images/publications/ju2024to.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -664,26 +684,6 @@ EMNLP Demo 2024  <br>
 
 <div id="abs_ju2024to" style="text-align: justify; display: none" markdown="1">
 Travel planning is a challenging and time-consuming task that aims to find an itinerary which satisfies multiple, interdependent constraints regarding flights, accommodations, attractions, and other travel arrangements. In this paper, we propose To the Globe (TTG), a real-time demo system that takes natural language requests from users, translates it to symbolic form via a fine-tuned Large Language Model, and produces optimal travel itineraries with Mixed Integer Linear Programming solvers. The overall system takes ~5 seconds to reply to the user request with guaranteed itineraries. To train TTG, we develop a synthetic data pipeline that generates user requests, flight and hotel information in symbolic form without human annotations, based on the statistics of real-world datasets, and fine-tune an LLM to translate NL user requests to their symbolic form, which is sent to the symbolic solver to compute optimal itineraries. Our NL-symbolic translation achieves ~91% exact match in a backtranslation metric (i.e., whether the estimated symbolic form of generated natural language matches the groundtruth), and its returned itineraries have a ratio of 0.979 compared to the optimal cost of the ground truth user request. When evaluated by users, TTG achieves consistently high Net Promoter Scores (NPS) of 35-40% on generated itinerary.
-</div>
-
-</td>
-</tr>
-
-
-<tr id="tr-silvestri2024score" >
-<td align='right' style='padding-left:0;padding-right:0;'>
-14.
-</td>
-<td>
-<a href='https://arxiv.org/abs/2307.05213' target='_blank'><img src="images/publications/silvestri2024score.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2307.05213' target='_blank'>Score Function Gradient Estimation to Widen the Applicability of Decision-Focused Learning</a> </em> 
-[<a href='javascript:;'
-    onclick='$("#abs_silvestri2024score").toggle()'>abs</a>]<br>
-<a href='https://scholar.google.com/citations?user=yHEb8eAAAAAJ' target='_blank'>Mattia&nbsp;Silvestri</a>, <a href='https://scholar.google.com/citations?user=sMtjmx4AAAAJ' target='_blank'>Senne&nbsp;Berden</a>, <a href='https://jayantamandi.com/' target='_blank'>Jayanta&nbsp;Mandi</a>, <a href='https://scholar.google.com/citations?user=muyZLrYAAAAJ' target='_blank'>Ali&nbsp;İrfan&nbsp;Mahmutoğulları</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://people.cs.kuleuven.be/~tias.guns/' target='_blank'>Tias&nbsp;Guns</a>, and <a href='https://scholar.google.com/citations?user=lJJ6EOMAAAAJ' target='_blank'>Michele&nbsp;Lombardi</a><br>
-arXiv 2024  <br>
-
-<div id="abs_silvestri2024score" style="text-align: justify; display: none" markdown="1">
-Many real-world optimization problems contain parameters that are unknown before deployment time, either due to stochasticity or to lack of information (e.g., demand or travel times in delivery problems). A common strategy in such cases is to estimate said parameters via machine learning (ML) models trained to minimize the prediction error, which however is not necessarily aligned with the downstream task-level error. The decision-focused learning (DFL) paradigm overcomes this limitation by training to directly minimize a task loss, e.g. regret. Since the latter has non-informative gradients for combinatorial problems, state-of-the-art DFL methods introduce surrogates and approximations that enable training. But these methods exploit specific assumptions about the problem structures (e.g., convex or linear problems, unknown parameters only in the objective function). We propose an alternative method that makes no such assumptions, it combines stochastic smoothing with score function gradient estimation which works on any task loss. This opens up the use of DFL methods to nonlinear objectives, uncertain parameters in the problem constraints, and even two-stage stochastic optimization. Experiments show that it typically requires more epochs, but that it is on par with specialized methods and performs especially well for the difficult case of problems with uncertainty in the constraints, in terms of solution quality, scalability, or both.
 </div>
 
 </td>
@@ -2763,7 +2763,7 @@ malware machine learning classifiers.
 
 
 ## <i class="fa fa-chevron-right"></i> Open Source Repositories
-38.1k+ GitHub stars across all repositories.
+38.4k+ GitHub stars across all repositories.
 
 <table class="table table-hover">
 <tr>
@@ -2772,7 +2772,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2025</span>
     <a href="https://github.com/facebookresearch/adjoint_sampling">facebookresearch/adjoint_sampling</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;101 |
+    | <i class="fa fas fa-star"></i>&nbsp;114 |
     </span>
     <em>Adjoint Sampling</em>
   </td>
@@ -2783,7 +2783,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/oni">facebookresearch/oni</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;37 |
+    | <i class="fa fas fa-star"></i>&nbsp;43 |
     </span>
     <em>Online LLM intrinsic rewards for NetHack</em>
   </td>
@@ -2794,7 +2794,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/advprompter">facebookresearch/advprompter</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;156 |
+    | <i class="fa fas fa-star"></i>&nbsp;160 |
     </span>
     <em>Fast Adaptive Adversarial Prompting for LLMs</em>
   </td>
@@ -2805,7 +2805,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/lagrangian-ot">facebookresearch/lagrangian-ot</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;56 |
+    | <i class="fa fas fa-star"></i>&nbsp;57 |
     </span>
     <em>Lagrangian Optimal Transport</em>
   </td>
@@ -2816,7 +2816,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/lazaratan/meta-flow-matching">lazaratan/meta-flow-matching</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;55 |
+    | <i class="fa fas fa-star"></i>&nbsp;58 |
     </span>
     <em>Meta Flow Matching</em>
   </td>
@@ -2827,7 +2827,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/soc-matching">facebookresearch/soc-matching</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;35 |
+    | <i class="fa fas fa-star"></i>&nbsp;36 |
     </span>
     <em>Stochastic Optimal Control Matching</em>
   </td>
@@ -2838,7 +2838,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/kuleshov/cornell-cs5785-2024-applied-ml">kuleshov/cornell-cs5785-2024-applied-ml</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;487 |
+    | <i class="fa fas fa-star"></i>&nbsp;494 |
     </span>
     <em>Slides for our applied ML course</em>
   </td>
@@ -2849,7 +2849,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2023</span>
     <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;242 |
+    | <i class="fa fas fa-star"></i>&nbsp;243 |
     </span>
     <em>Tutorial on amortized optimization</em>
   </td>
@@ -2904,7 +2904,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/meta-ot">facebookresearch/meta-ot</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;102 |
+    | <i class="fa fas fa-star"></i>&nbsp;103 |
     </span>
     <em>Meta Optimal Transport</em>
   </td>
@@ -2915,7 +2915,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/bamos/presentations">bamos/presentations</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;145 |
+    | <i class="fa fas fa-star"></i>&nbsp;144 |
     </span>
     <em>Source for my major presentations</em>
   </td>
@@ -2937,7 +2937,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/nocturne">facebookresearch/nocturne</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;282 |
+    | <i class="fa fas fa-star"></i>&nbsp;287 |
     </span>
     <em>A partially-observable multi-agent driving simulator</em>
   </td>
@@ -2959,7 +2959,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/svg">facebookresearch/svg</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;55 |
+    | <i class="fa fas fa-star"></i>&nbsp;56 |
     </span>
     <em>Model-based stochastic value gradient</em>
   </td>
@@ -2970,7 +2970,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;999 |
+    | <i class="fa fas fa-star"></i>&nbsp;1k |
     </span>
     <em>Model-based reinforcement learning library</em>
   </td>
@@ -2981,7 +2981,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/martius-lab/CombOptNet">martius-lab/CombOptNet</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;73 |
+    | <i class="fa fas fa-star"></i>&nbsp;72 |
     </span>
     <em>Combinatorial OptNet</em>
   </td>
@@ -3003,7 +3003,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/neural_stpp">facebookresearch/neural_stpp</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;105 |
+    | <i class="fa fas fa-star"></i>&nbsp;104 |
     </span>
     <em>Neural Spatio-Temporal Point Processes</em>
   </td>
@@ -3025,7 +3025,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/rtqichen/torchdiffeq">rtqichen/torchdiffeq</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;6k |
+    | <i class="fa fas fa-star"></i>&nbsp;6.1k |
     </span>
     <em>PyTorch Differentiable ODE Solvers (differentiable event handling)</em>
   </td>
@@ -3036,7 +3036,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2020</span>
     <a href="https://github.com/facebookresearch/dcem">facebookresearch/dcem</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;126 |
+    | <i class="fa fas fa-star"></i>&nbsp;123 |
     </span>
     <em>The Differentiable Cross-Entropy Method</em>
   </td>
@@ -3058,7 +3058,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2019</span>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;337 |
+    | <i class="fa fas fa-star"></i>&nbsp;339 |
     </span>
     <em>Ph.D. Thesis LaTeX source code</em>
   </td>
@@ -3069,7 +3069,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2019</span>
     <a href="https://github.com/cvxgrp/cvxpylayers">cvxgrp/cvxpylayers</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;1.9k |
+    | <i class="fa fas fa-star"></i>&nbsp;2k |
     </span>
     <em>Differentiable Convex Optimization Layers</em>
   </td>
@@ -3080,7 +3080,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2019</span>
     <a href="https://github.com/locuslab/lml">locuslab/lml</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;58 |
+    | <i class="fa fas fa-star"></i>&nbsp;59 |
     </span>
     <em>The Limited Multi-Label Projection Layer</em>
   </td>
@@ -3091,7 +3091,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;952 |
+    | <i class="fa fas fa-star"></i>&nbsp;975 |
     </span>
     <em>Differentiable PyTorch Model Predictive Control library</em>
   </td>
@@ -3102,7 +3102,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;283 |
+    | <i class="fa fas fa-star"></i>&nbsp;291 |
     </span>
     <em>Differentiable MPC experiments</em>
   </td>
@@ -3113,7 +3113,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;292 |
+    | <i class="fa fas fa-star"></i>&nbsp;295 |
     </span>
     <em>Input Convex Neural Network experiments</em>
   </td>
@@ -3124,7 +3124,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;536 |
+    | <i class="fa fas fa-star"></i>&nbsp;543 |
     </span>
     <em>OptNet experiments</em>
   </td>
@@ -3135,7 +3135,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;720 |
+    | <i class="fa fas fa-star"></i>&nbsp;746 |
     </span>
     <em>Differentiable PyTorch QP solver</em>
   </td>
@@ -3146,7 +3146,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;841 |
+    | <i class="fa fas fa-star"></i>&nbsp;838 |
     </span>
     <em>PyTorch DenseNet implementation</em>
   </td>
@@ -3157,7 +3157,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/block">bamos/block</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;308 |
+    | <i class="fa fas fa-star"></i>&nbsp;310 |
     </span>
     <em>Intelligent block matrix constructions</em>
   </td>
@@ -3234,7 +3234,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2014</span>
     <a href="https://github.com/bamos/snowglobe">bamos/snowglobe</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;27 |
+    | <i class="fa fas fa-star"></i>&nbsp;28 |
     </span>
     <em>Haskell-driven, self-hosted web analytics with minimal configuration</em>
   </td>
@@ -3245,7 +3245,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2014</span>
     <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;236 |
+    | <i class="fa fas fa-star"></i>&nbsp;241 |
     </span>
     <em>Analyze and plot your zsh history</em>
   </td>
@@ -3256,7 +3256,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2014</span>
     <a href="https://github.com/bamos/beamer-snippets">bamos/beamer-snippets</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;110 |
+    | <i class="fa fas fa-star"></i>&nbsp;111 |
     </span>
     <em>Beamer and TikZ snippets</em>
   </td>
@@ -3267,7 +3267,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/latex-templates">bamos/latex-templates</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;364 |
+    | <i class="fa fas fa-star"></i>&nbsp;366 |
     </span>
     <em>LaTeX templates</em>
   </td>
@@ -3278,7 +3278,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;353 |
+    | <i class="fa fas fa-star"></i>&nbsp;357 |
     </span>
     <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em>
   </td>
@@ -3289,7 +3289,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;409 |
+    | <i class="fa fas fa-star"></i>&nbsp;412 |
     </span>
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
   </td>
@@ -3300,7 +3300,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/parsec-benchmark">bamos/parsec-benchmark</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;111 |
+    | <i class="fa fas fa-star"></i>&nbsp;116 |
     </span>
     <em>PARSEC benchmark support for Arch Linux</em>
   </td>
@@ -3311,7 +3311,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/python-scripts">bamos/python-scripts</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;197 |
+    | <i class="fa fas fa-star"></i>&nbsp;196 |
     </span>
     <em>Short and fun Python scripts</em>
   </td>
@@ -3333,7 +3333,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2012</span>
     <a href="https://github.com/bamos/dotfiles">bamos/dotfiles</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;241 |
+    | <i class="fa fas fa-star"></i>&nbsp;239 |
     </span>
     <em><i class="fa fas fa-heart"></i> Linux, xmonad, emacs, vim, zsh, tmux</em>
   </td>
