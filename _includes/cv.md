@@ -2794,7 +2794,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/advprompter">facebookresearch/advprompter</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;160 |
+    | <i class="fa fas fa-star"></i>&nbsp;159 |
     </span>
     <em>Fast Adaptive Adversarial Prompting for LLMs</em>
   </td>
@@ -2937,7 +2937,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/nocturne">facebookresearch/nocturne</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;287 |
+    | <i class="fa fas fa-star"></i>&nbsp;286 |
     </span>
     <em>A partially-observable multi-agent driving simulator</em>
   </td>
@@ -3091,7 +3091,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;975 |
+    | <i class="fa fas fa-star"></i>&nbsp;976 |
     </span>
     <em>Differentiable PyTorch Model Predictive Control library</em>
   </td>
@@ -3124,7 +3124,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;543 |
+    | <i class="fa fas fa-star"></i>&nbsp;544 |
     </span>
     <em>OptNet experiments</em>
   </td>
@@ -3135,7 +3135,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;746 |
+    | <i class="fa fas fa-star"></i>&nbsp;747 |
     </span>
     <em>Differentiable PyTorch QP solver</em>
   </td>
@@ -3146,7 +3146,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;838 |
+    | <i class="fa fas fa-star"></i>&nbsp;839 |
     </span>
     <em>PyTorch DenseNet implementation</em>
   </td>
@@ -3300,7 +3300,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/parsec-benchmark">bamos/parsec-benchmark</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;116 |
+    | <i class="fa fas fa-star"></i>&nbsp;117 |
     </span>
     <em>PARSEC benchmark support for Arch Linux</em>
   </td>
