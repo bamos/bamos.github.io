@@ -289,12 +289,12 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 ## <i class="fa fa-chevron-right"></i> Publications
 
 <!-- I usually publish at machine learning conferences, -->
-<!-- including ICML (13 papers), NeurIPS (11 papers), and ICLR (7 papers). -->
+<!-- including ICML (13 papers), NeurIPS (12 papers), and ICLR (7 papers). -->
 <!-- <a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a> -->
-<!-- reports 10.9k+ citations and an h-index of 41. -->
+<!-- reports 11.2k+ citations and an h-index of 41. -->
 <!-- The selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted.</span> -->
 
-[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 10.9k+ citations and an h-index of 41] <br>
+[<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ">Google Scholar</a>: 11.2k+ citations and an h-index of 41] <br>
 Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted.</span>
 
 <h2>2025</h2>
@@ -499,20 +499,42 @@ Many real-world optimization problems contain parameters that are unknown before
 </tr>
 
 
-<tr id="tr-zhang2025cultivating" >
+<tr id="tr-zhu2025advprefixobjectivenuancedllm" >
 <td align='right' style='padding-left:0;padding-right:0;'>
 8.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2507.09650' target='_blank'><img src="images/publications/zhang2025cultivating.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2507.09650' target='_blank'>Cultivating Pluralism In Algorithmic Monoculture: The Community Alignment Dataset</a> </em> 
+<a href='https://arxiv.org/abs/2412.10321' target='_blank'><img src="images/publications/zhu2025advprefixobjectivenuancedllm.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://arxiv.org/abs/2412.10321' target='_blank'>AdvPrefix: An Objective for Nuanced LLM Jailbreaks</a> </em> 
 [<a href='javascript:;'
-    onclick='$("#abs_zhang2025cultivating").toggle()'>abs</a>]<br>
-<a href='https://lhz1029.github.io/' target='_blank'>Lily&nbsp;H&nbsp;Zhang</a>, <a href='http://smithamilli.com/' target='_blank'>Smitha&nbsp;Milli</a>, <a href='https://scholar.google.com/citations?user=O924n4AAAAAJ' target='_blank'>Karen&nbsp;Long&nbsp;Jusko</a>, <a href='https://scholar.google.com/citations?user=URWZ--QAAAAJ' target='_blank'>Jonathan&nbsp;Smith</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=QDtbGtIAAAAJ' target='_blank'>Wassim&nbsp;Bouaziz</a>, <a href='https://openreview.net/profile?id=~Jack_Kussman1' target='_blank'>Jack&nbsp;Kussman</a>, <a href='https://scholar.google.com/citations?user=dEvt4JoAAAAJ' target='_blank'>Manon&nbsp;Revel</a>, <a href='https://scholar.google.com/citations?user=v2Wni-EAAAAJg' target='_blank'>Lisa&nbsp;Titus</a>, <a href='https://scholar.google.com/citations?user=IkQv0loAAAAJg' target='_blank'>Bhaktipriya&nbsp;Radharapu</a>, <a href='https://scholar.google.com/citations?user=ev8Ilx0AAAAJg' target='_blank'>Jane&nbsp;Yu</a>, <a href='https://www.linkedin.com/in/vidyasarma' target='_blank'>Vidya&nbsp;Sarma</a>, <a href='https://openreview.net/profile?id=~Kristopher_Rose1' target='_blank'>Kristopher&nbsp;Rose</a>, and <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a><br>
-ICML MoFA Workshop 2025  <br>
+    onclick='$("#abs_zhu2025advprefixobjectivenuancedllm").toggle()'>abs</a>]<br>
+<a href='https://schzhu.github.io/' target='_blank'>Sicheng&nbsp;Zhu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://yuandong-tian.com/' target='_blank'>Yuandong&nbsp;Tian</a>, <a href='https://sites.google.com/view/chuanguo' target='_blank'>Chuan&nbsp;Guo</a>, and <a href='https://ivanevtimov.eu/' target='_blank'>Ivan&nbsp;Evtimov</a><br>
+NeurIPS 2025  <br>
 
-<div id="abs_zhang2025cultivating" style="text-align: justify; display: none" markdown="1">
-How can large language models (LLMs) serve users with varying preferences that may conflict across cultural, political, or other dimensions? To advance this challenge, this paper establishes four key results. First, we demonstrate, through a large-scale multilingual human study with representative samples from five countries (N=15,000), that humans exhibit significantly more variation in preferences than the responses of 21 state-of-the-art LLMs. Second, we show that existing methods for preference dataset collection are insufficient for learning the diversity of human preferences even along two of the most salient dimensions of variability in global values, due to the underlying homogeneity of candidate responses. Third, we argue that this motivates the need for negatively-correlated sampling when generating candidate sets, and we show that simple prompt-based techniques for doing so significantly enhance the performance of alignment methods in learning heterogeneous preferences. Fourth, based on this novel candidate sampling approach, we collect and open-source Community Alignment, the largest and most representative multilingual and multi-turn preference dataset to date, featuring almost 200,000 comparisons from annotators spanning five countries. We hope that the Community Alignment dataset will be a valuable resource for improving the effectiveness of LLMs for a diverse global population.
+<div id="abs_zhu2025advprefixobjectivenuancedllm" style="text-align: justify; display: none" markdown="1">
+Many jailbreak attacks on large language models (LLMs) rely on a
+common objective: making the model respond with the
+prefix "Sure, here is (harmful request)". While
+straightforward, this objective has two limitations:
+limited control over model behaviors, often
+resulting in incomplete or unrealistic responses, and a rigid format that hinders optimization. To
+address these limitations, we introduce AdvPrefix, a
+new prefix-forcing objective that enables more
+nuanced control over model behavior while being easy
+to optimize. Our objective leverages model-dependent
+prefixes, automatically selected based on two
+criteria: high prefilling attack success rates and
+low negative log-likelihood. It can further simplify
+optimization by using multiple prefixes for a single
+user request. AdvPrefix can integrate seamlessly
+into existing jailbreak attacks to improve their
+performance for free. For example, simply replacing
+GCG attack's target prefixes with ours on Llama-3
+improves nuanced attack success rates from 14% to
+80%, suggesting that current alignment struggles to
+generalize to unseen prefixes. Our work demonstrates
+the importance of jailbreak objectives in achieving
+nuanced jailbreaks.
 </div>
 
 </td>
@@ -529,7 +551,7 @@ How can large language models (LLMs) serve users with varying preferences that m
 [<a href='javascript:;'
     onclick='$("#abs_press2025algotune").toggle()'>abs</a>]<br>
 <a href='https://oripress.com/' target='_blank'>Ori&nbsp;Press</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://hyzhao.me/' target='_blank'>Haoyu&nbsp;Zhao</a>, <a href='https://yikai-wu.github.io/' target='_blank'>Yikai&nbsp;Wu</a>, <a href='https://samlikes.pizza/' target='_blank'>Samuel&nbsp;K.&nbsp;Ainsworth</a>, <a href='https://krupke.cc/' target='_blank'>Dominik&nbsp;Krupke</a>, <a href='https://kidger.site/' target='_blank'>Patrick&nbsp;Kidger</a>, <a href='https://www.linkedin.com/in/touqir-sajed-6a95b1126/' target='_blank'>Touqir&nbsp;Sajed</a>, <a href='https://stellato.io/' target='_blank'>Bartolomeo&nbsp;Stellato</a>, <a href='https://jisunp515.github.io/' target='_blank'>Jisun&nbsp;Park</a>, <a href='https://nathanaelbosch.github.io/' target='_blank'>Nathanael&nbsp;Bosch</a>, <a href='https://openreview.net/profile?id=~Eli_Meril1' target='_blank'>Eli&nbsp;Meril</a>, <a href='https://scholar.google.com/citations?user=_nbf9ZIAAAAJ' target='_blank'>Albert&nbsp;Steppi</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <a href='https://fangzhaoz.github.io/' target='_blank'>Fangzhao&nbsp;Zhang</a>, <a href='https://davidppineiro.com/' target='_blank'>David&nbsp;Pérez-Piñeiro</a>, <a href='https://scholar.google.it/citations?user=a5HqhwUAAAAJ' target='_blank'>Alberto&nbsp;Mercurio</a>, <a href='https://jennyzhanni.com/' target='_blank'>Ni&nbsp;Zhan</a>, <a href='https://scholar.google.com/citations?user=mdd52kMAAAAJ' target='_blank'>Talor&nbsp;Abramovich</a>, <a href='https://www.lieret.net/' target='_blank'>Kilian&nbsp;Lieret</a>, <a href='https://hanlin-zhang.com/' target='_blank'>Hanlin&nbsp;Zhang</a>, <a href='https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1542499' target='_blank'>Shirley&nbsp;Huang</a>, <a href='https://scholar.google.com/citations?user=0z0fNxUAAAAJ' target='_blank'>Matthias&nbsp;Bethge</a>, and <a href='https://ofir.io/about' target='_blank'>Ofir&nbsp;Press</a><br>
-preprint 2025  <br>
+NeurIPS Datasets and Benchmarks Track 2025  <br>
 
 <div id="abs_press2025algotune" style="text-align: justify; display: none" markdown="1">
 Despite progress in language model (LM) capabilities, evaluations
@@ -562,13 +584,33 @@ solving beyond state-of-the-art human performance.
 </td>
 </tr>
 
+
+<tr id="tr-zhang2025cultivating" >
+<td align='right' style='padding-left:0;padding-right:0;'>
+10.
+</td>
+<td>
+<a href='https://arxiv.org/abs/2507.09650' target='_blank'><img src="images/publications/zhang2025cultivating.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://arxiv.org/abs/2507.09650' target='_blank'>Cultivating Pluralism In Algorithmic Monoculture: The Community Alignment Dataset</a> </em> 
+[<a href='javascript:;'
+    onclick='$("#abs_zhang2025cultivating").toggle()'>abs</a>]<br>
+<a href='https://lhz1029.github.io/' target='_blank'>Lily&nbsp;H&nbsp;Zhang</a>, <a href='http://smithamilli.com/' target='_blank'>Smitha&nbsp;Milli</a>, <a href='https://scholar.google.com/citations?user=O924n4AAAAAJ' target='_blank'>Karen&nbsp;Long&nbsp;Jusko</a>, <a href='https://scholar.google.com/citations?user=URWZ--QAAAAJ' target='_blank'>Jonathan&nbsp;Smith</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=QDtbGtIAAAAJ' target='_blank'>Wassim&nbsp;Bouaziz</a>, <a href='https://openreview.net/profile?id=~Jack_Kussman1' target='_blank'>Jack&nbsp;Kussman</a>, <a href='https://scholar.google.com/citations?user=dEvt4JoAAAAJ' target='_blank'>Manon&nbsp;Revel</a>, <a href='https://scholar.google.com/citations?user=v2Wni-EAAAAJg' target='_blank'>Lisa&nbsp;Titus</a>, <a href='https://scholar.google.com/citations?user=IkQv0loAAAAJg' target='_blank'>Bhaktipriya&nbsp;Radharapu</a>, <a href='https://scholar.google.com/citations?user=ev8Ilx0AAAAJg' target='_blank'>Jane&nbsp;Yu</a>, <a href='https://www.linkedin.com/in/vidyasarma' target='_blank'>Vidya&nbsp;Sarma</a>, <a href='https://openreview.net/profile?id=~Kristopher_Rose1' target='_blank'>Kristopher&nbsp;Rose</a>, and <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a><br>
+ICML MoFA Workshop 2025  <br>
+
+<div id="abs_zhang2025cultivating" style="text-align: justify; display: none" markdown="1">
+How can large language models (LLMs) serve users with varying preferences that may conflict across cultural, political, or other dimensions? To advance this challenge, this paper establishes four key results. First, we demonstrate, through a large-scale multilingual human study with representative samples from five countries (N=15,000), that humans exhibit significantly more variation in preferences than the responses of 21 state-of-the-art LLMs. Second, we show that existing methods for preference dataset collection are insufficient for learning the diversity of human preferences even along two of the most salient dimensions of variability in global values, due to the underlying homogeneity of candidate responses. Third, we argue that this motivates the need for negatively-correlated sampling when generating candidate sets, and we show that simple prompt-based techniques for doing so significantly enhance the performance of alignment methods in learning heterogeneous preferences. Fourth, based on this novel candidate sampling approach, we collect and open-source Community Alignment, the largest and most representative multilingual and multi-turn preference dataset to date, featuring almost 200,000 comparisons from annotators spanning five countries. We hope that the Community Alignment dataset will be a valuable resource for improving the effectiveness of LLMs for a diverse global population.
+</div>
+
+</td>
+</tr>
+
 </table>
 <h2>2024</h2>
 <table class="table table-hover">
 
 <tr id="tr-pooladian2024neural" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-10.
+11.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2406.00288' target='_blank'><img src="images/publications/pooladian2024neural.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -588,7 +630,7 @@ We investigate the optimal transport problem between probability measures when t
 
 <tr id="tr-sambharya2024learning" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-11.
+12.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2309.07835' target='_blank'><img src="images/publications/sambharya2024learning.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -608,7 +650,7 @@ We introduce a machine-learning framework to warm-start fixed-point optimization
 
 <tr id="tr-lotfi2024unlocking" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-12.
+13.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2407.18158' target='_blank'><img src="images/publications/lotfi2024unlocking.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -652,7 +694,7 @@ high-quality text.
 
 <tr id="tr-domingoenrich2024stochastic" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-13.
+14.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2312.02027' target='_blank'><img src="images/publications/domingoenrich2024stochastic.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -672,7 +714,7 @@ Stochastic optimal control, which has the goal of driving the behavior of noisy 
 
 <tr id="tr-ju2024to" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-14.
+15.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2410.16456' target='_blank'><img src="images/publications/ju2024to.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
@@ -684,48 +726,6 @@ EMNLP Demo 2024  <br>
 
 <div id="abs_ju2024to" style="text-align: justify; display: none" markdown="1">
 Travel planning is a challenging and time-consuming task that aims to find an itinerary which satisfies multiple, interdependent constraints regarding flights, accommodations, attractions, and other travel arrangements. In this paper, we propose To the Globe (TTG), a real-time demo system that takes natural language requests from users, translates it to symbolic form via a fine-tuned Large Language Model, and produces optimal travel itineraries with Mixed Integer Linear Programming solvers. The overall system takes ~5 seconds to reply to the user request with guaranteed itineraries. To train TTG, we develop a synthetic data pipeline that generates user requests, flight and hotel information in symbolic form without human annotations, based on the statistics of real-world datasets, and fine-tune an LLM to translate NL user requests to their symbolic form, which is sent to the symbolic solver to compute optimal itineraries. Our NL-symbolic translation achieves ~91% exact match in a backtranslation metric (i.e., whether the estimated symbolic form of generated natural language matches the groundtruth), and its returned itineraries have a ratio of 0.979 compared to the optimal cost of the ground truth user request. When evaluated by users, TTG achieves consistently high Net Promoter Scores (NPS) of 35-40% on generated itinerary.
-</div>
-
-</td>
-</tr>
-
-
-<tr id="tr-zhu2024advprefixobjectivenuancedllm" >
-<td align='right' style='padding-left:0;padding-right:0;'>
-15.
-</td>
-<td>
-<a href='https://arxiv.org/abs/2412.10321' target='_blank'><img src="images/publications/zhu2024advprefixobjectivenuancedllm.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2412.10321' target='_blank'>AdvPrefix: An Objective for Nuanced LLM Jailbreaks</a> </em> 
-[<a href='javascript:;'
-    onclick='$("#abs_zhu2024advprefixobjectivenuancedllm").toggle()'>abs</a>]<br>
-<a href='https://schzhu.github.io/' target='_blank'>Sicheng&nbsp;Zhu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://yuandong-tian.com/' target='_blank'>Yuandong&nbsp;Tian</a>, <a href='https://sites.google.com/view/chuanguo' target='_blank'>Chuan&nbsp;Guo</a>, and <a href='https://ivanevtimov.eu/' target='_blank'>Ivan&nbsp;Evtimov</a><br>
-arXiv 2024  <br>
-
-<div id="abs_zhu2024advprefixobjectivenuancedllm" style="text-align: justify; display: none" markdown="1">
-Many jailbreak attacks on large language models (LLMs) rely on a
-common objective: making the model respond with the
-prefix "Sure, here is (harmful request)". While
-straightforward, this objective has two limitations:
-limited control over model behaviors, often
-resulting in incomplete or unrealistic responses, and a rigid format that hinders optimization. To
-address these limitations, we introduce AdvPrefix, a
-new prefix-forcing objective that enables more
-nuanced control over model behavior while being easy
-to optimize. Our objective leverages model-dependent
-prefixes, automatically selected based on two
-criteria: high prefilling attack success rates and
-low negative log-likelihood. It can further simplify
-optimization by using multiple prefixes for a single
-user request. AdvPrefix can integrate seamlessly
-into existing jailbreak attacks to improve their
-performance for free. For example, simply replacing
-GCG attack's target prefixes with ours on Llama-3
-improves nuanced attack success rates from 14% to
-80%, suggesting that current alignment struggles to
-generalize to unseen prefixes. Our work demonstrates
-the importance of jailbreak objectives in achieving
-nuanced jailbreaks.
 </div>
 
 </td>
@@ -2763,7 +2763,7 @@ malware machine learning classifiers.
 
 
 ## <i class="fa fa-chevron-right"></i> Open Source Repositories
-38.4k+ GitHub stars across all repositories.
+38.5k+ GitHub stars across all repositories.
 
 <table class="table table-hover">
 <tr>
@@ -2772,7 +2772,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2025</span>
     <a href="https://github.com/facebookresearch/adjoint_sampling">facebookresearch/adjoint_sampling</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;114 |
+    | <i class="fa fas fa-star"></i>&nbsp;121 |
     </span>
     <em>Adjoint Sampling</em>
   </td>
@@ -2794,7 +2794,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/advprompter">facebookresearch/advprompter</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;159 |
+    | <i class="fa fas fa-star"></i>&nbsp;164 |
     </span>
     <em>Fast Adaptive Adversarial Prompting for LLMs</em>
   </td>
@@ -2816,7 +2816,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/lazaratan/meta-flow-matching">lazaratan/meta-flow-matching</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;58 |
+    | <i class="fa fas fa-star"></i>&nbsp;61 |
     </span>
     <em>Meta Flow Matching</em>
   </td>
@@ -2827,7 +2827,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/soc-matching">facebookresearch/soc-matching</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;36 |
+    | <i class="fa fas fa-star"></i>&nbsp;37 |
     </span>
     <em>Stochastic Optimal Control Matching</em>
   </td>
@@ -2838,7 +2838,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/kuleshov/cornell-cs5785-2024-applied-ml">kuleshov/cornell-cs5785-2024-applied-ml</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;494 |
+    | <i class="fa fas fa-star"></i>&nbsp;510 |
     </span>
     <em>Slides for our applied ML course</em>
   </td>
@@ -2915,7 +2915,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/bamos/presentations">bamos/presentations</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;144 |
+    | <i class="fa fas fa-star"></i>&nbsp;143 |
     </span>
     <em>Source for my major presentations</em>
   </td>
@@ -2937,7 +2937,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/nocturne">facebookresearch/nocturne</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;286 |
+    | <i class="fa fas fa-star"></i>&nbsp;285 |
     </span>
     <em>A partially-observable multi-agent driving simulator</em>
   </td>
@@ -3091,7 +3091,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;976 |
+    | <i class="fa fas fa-star"></i>&nbsp;985 |
     </span>
     <em>Differentiable PyTorch Model Predictive Control library</em>
   </td>
@@ -3102,7 +3102,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;291 |
+    | <i class="fa fas fa-star"></i>&nbsp;296 |
     </span>
     <em>Differentiable MPC experiments</em>
   </td>
@@ -3113,7 +3113,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;295 |
+    | <i class="fa fas fa-star"></i>&nbsp;297 |
     </span>
     <em>Input Convex Neural Network experiments</em>
   </td>
@@ -3124,7 +3124,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;544 |
+    | <i class="fa fas fa-star"></i>&nbsp;548 |
     </span>
     <em>OptNet experiments</em>
   </td>
@@ -3135,7 +3135,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;747 |
+    | <i class="fa fas fa-star"></i>&nbsp;752 |
     </span>
     <em>Differentiable PyTorch QP solver</em>
   </td>
@@ -3146,7 +3146,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;839 |
+    | <i class="fa fas fa-star"></i>&nbsp;838 |
     </span>
     <em>PyTorch DenseNet implementation</em>
   </td>
@@ -3168,7 +3168,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/setGPU">bamos/setGPU</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;107 |
+    | <i class="fa fas fa-star"></i>&nbsp;108 |
     </span>
     <em>Automatically use the least-loaded GPU</em>
   </td>
@@ -3256,7 +3256,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2014</span>
     <a href="https://github.com/bamos/beamer-snippets">bamos/beamer-snippets</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;111 |
+    | <i class="fa fas fa-star"></i>&nbsp;110 |
     </span>
     <em>Beamer and TikZ snippets</em>
   </td>
@@ -3278,7 +3278,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;357 |
+    | <i class="fa fas fa-star"></i>&nbsp;360 |
     </span>
     <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em>
   </td>
@@ -3289,7 +3289,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;412 |
+    | <i class="fa fas fa-star"></i>&nbsp;411 |
     </span>
     <em>Source for this CV: Creates LaTeX/Markdown from YAML/BibTeX</em>
   </td>
@@ -3300,7 +3300,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/parsec-benchmark">bamos/parsec-benchmark</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;117 |
+    | <i class="fa fas fa-star"></i>&nbsp;119 |
     </span>
     <em>PARSEC benchmark support for Arch Linux</em>
   </td>
@@ -3333,7 +3333,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2012</span>
     <a href="https://github.com/bamos/dotfiles">bamos/dotfiles</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;239 |
+    | <i class="fa fas fa-star"></i>&nbsp;238 |
     </span>
     <em><i class="fa fas fa-heart"></i> Linux, xmonad, emacs, vim, zsh, tmux</em>
   </td>
