@@ -1,4 +1,4 @@
-Brandon Amos is a Research Scientist in Meta Superintelligence Labs in NYC.
+Brandon Amos is a Research Scientist at Meta Superintelligence Labs in NYC.
 He holds a PhD in Computer Science from Carnegie Mellon University where
 he was supported by the NSF Graduate Research Fellowship.
 Prior to joining Meta, he also worked at Adobe Research,
