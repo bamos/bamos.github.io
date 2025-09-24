@@ -1,8 +1,7 @@
 <p>
-I am a research scientist in the
-<b>Fundamental AI Research (FAIR)</b>
-group at
-<b>Meta</b> in NYC
+I am a research scientist at
+<b>Meta Superintelligence Labs</b>
+in NYC
 and study foundational topics spanning <b>machine learning</b>,
 <b>optimization</b>, <b>reinforcement learning</b>, and <b>control</b>.
 I am interested in building safe intelligent systems that
@@ -14,15 +13,23 @@ A few major themes of my research involve:
 
 <ol>
 <li>
-  <b>attacking language models</b> to improve safety and alignment
-  (in <a href="https://arxiv.org/abs/2404.16873">AdvPrompter</a>
-  and <a href="https://arxiv.org/abs/2412.10321">AdvPrefix</a>)</li>
+  <b>improving language models</b>
+  (on attacks to improve safety and alignment in
+  <a href="https://arxiv.org/abs/2404.16873">AdvPrompter</a> and
+  <a href="https://arxiv.org/abs/2412.10321">AdvPrefix</a>,
+  coding agents in <a href="https://arxiv.org/abs/2507.15887">AlgoTune</a>,
+  RL post-training for social value alignment in <a href="https://arxiv.org/abs/2507.15887">community alignment</a>,
+  and understanding how to
+  <a href="https://arxiv.org/abs/2410.09303">fix broken tokens</a> and
+  <a href="https://arxiv.org/abs/2407.18158">improve generalization bounds</a>)
+</li>
 <li>
   <b>improving RL, control, and game-playing AI</b>
   (in
   <a href="https://arxiv.org/abs/1810.13400">differentiable MPC</a>,
   <a href="https://arxiv.org/abs/1804.06318">learning awareness models</a>,
   <a href="https://arxiv.org/abs/2008.12775">the model-based SVG</a>, and
+  with language-based intrinsic rewards in
   <a href="https://arxiv.org/abs/2410.23022">ONI</a>)
 </li>
 <li>
@@ -546,8 +553,8 @@ nuanced jailbreaks.
 9.
 </td>
 <td>
-<a href='https://algotune.io/paper.pdf' target='_blank'><img src="images/publications/press2025algotune.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
-<em><a href='https://algotune.io/paper.pdf' target='_blank'>AlgoTune: Can Language Models Speed Up General-Purpose Numerical Programs?</a> </em> 
+<a href='https://arxiv.org/abs/2507.15887' target='_blank'><img src="images/publications/press2025algotune.png" onerror="this.style.display='none'" class="publicationImg" /></a> 
+<em><a href='https://arxiv.org/abs/2507.15887' target='_blank'>AlgoTune: Can Language Models Speed Up General-Purpose Numerical Programs?</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_press2025algotune").toggle()'>abs</a>]<br>
 <a href='https://oripress.com/' target='_blank'>Ori&nbsp;Press</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://hyzhao.me/' target='_blank'>Haoyu&nbsp;Zhao</a>, <a href='https://yikai-wu.github.io/' target='_blank'>Yikai&nbsp;Wu</a>, <a href='https://samlikes.pizza/' target='_blank'>Samuel&nbsp;K.&nbsp;Ainsworth</a>, <a href='https://krupke.cc/' target='_blank'>Dominik&nbsp;Krupke</a>, <a href='https://kidger.site/' target='_blank'>Patrick&nbsp;Kidger</a>, <a href='https://www.linkedin.com/in/touqir-sajed-6a95b1126/' target='_blank'>Touqir&nbsp;Sajed</a>, <a href='https://stellato.io/' target='_blank'>Bartolomeo&nbsp;Stellato</a>, <a href='https://jisunp515.github.io/' target='_blank'>Jisun&nbsp;Park</a>, <a href='https://nathanaelbosch.github.io/' target='_blank'>Nathanael&nbsp;Bosch</a>, <a href='https://openreview.net/profile?id=~Eli_Meril1' target='_blank'>Eli&nbsp;Meril</a>, <a href='https://scholar.google.com/citations?user=_nbf9ZIAAAAJ' target='_blank'>Albert&nbsp;Steppi</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <a href='https://fangzhaoz.github.io/' target='_blank'>Fangzhao&nbsp;Zhang</a>, <a href='https://davidppineiro.com/' target='_blank'>David&nbsp;Pérez-Piñeiro</a>, <a href='https://scholar.google.it/citations?user=a5HqhwUAAAAJ' target='_blank'>Alberto&nbsp;Mercurio</a>, <a href='https://jennyzhanni.com/' target='_blank'>Ni&nbsp;Zhan</a>, <a href='https://scholar.google.com/citations?user=mdd52kMAAAAJ' target='_blank'>Talor&nbsp;Abramovich</a>, <a href='https://www.lieret.net/' target='_blank'>Kilian&nbsp;Lieret</a>, <a href='https://hanlin-zhang.com/' target='_blank'>Hanlin&nbsp;Zhang</a>, <a href='https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1542499' target='_blank'>Shirley&nbsp;Huang</a>, <a href='https://scholar.google.com/citations?user=0z0fNxUAAAAJ' target='_blank'>Matthias&nbsp;Bethge</a>, and <a href='https://ofir.io/about' target='_blank'>Ofir&nbsp;Press</a><br>
@@ -2763,7 +2770,7 @@ malware machine learning classifiers.
 
 
 ## <i class="fa fa-chevron-right"></i> Open Source Repositories
-38.5k+ GitHub stars across all repositories.
+38.6k+ GitHub stars across all repositories.
 
 <table class="table table-hover">
 <tr>
@@ -2805,7 +2812,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/lagrangian-ot">facebookresearch/lagrangian-ot</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;57 |
+    | <i class="fa fas fa-star"></i>&nbsp;58 |
     </span>
     <em>Lagrangian Optimal Transport</em>
   </td>
@@ -2838,7 +2845,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/kuleshov/cornell-cs5785-2024-applied-ml">kuleshov/cornell-cs5785-2024-applied-ml</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;510 |
+    | <i class="fa fas fa-star"></i>&nbsp;511 |
     </span>
     <em>Slides for our applied ML course</em>
   </td>
@@ -2915,7 +2922,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/bamos/presentations">bamos/presentations</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;143 |
+    | <i class="fa fas fa-star"></i>&nbsp;142 |
     </span>
     <em>Source for my major presentations</em>
   </td>
@@ -2959,7 +2966,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/svg">facebookresearch/svg</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;56 |
+    | <i class="fa fas fa-star"></i>&nbsp;57 |
     </span>
     <em>Model-based stochastic value gradient</em>
   </td>
@@ -3025,7 +3032,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/rtqichen/torchdiffeq">rtqichen/torchdiffeq</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;6.1k |
+    | <i class="fa fas fa-star"></i>&nbsp;6.2k |
     </span>
     <em>PyTorch Differentiable ODE Solvers (differentiable event handling)</em>
   </td>
@@ -3058,7 +3065,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2019</span>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;339 |
+    | <i class="fa fas fa-star"></i>&nbsp;340 |
     </span>
     <em>Ph.D. Thesis LaTeX source code</em>
   </td>
@@ -3091,7 +3098,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;985 |
+    | <i class="fa fas fa-star"></i>&nbsp;986 |
     </span>
     <em>Differentiable PyTorch Model Predictive Control library</em>
   </td>
@@ -3113,7 +3120,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;297 |
+    | <i class="fa fas fa-star"></i>&nbsp;298 |
     </span>
     <em>Input Convex Neural Network experiments</em>
   </td>
@@ -3300,7 +3307,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/parsec-benchmark">bamos/parsec-benchmark</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;119 |
+    | <i class="fa fas fa-star"></i>&nbsp;120 |
     </span>
     <em>PARSEC benchmark support for Arch Linux</em>
   </td>
@@ -3333,7 +3340,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2012</span>
     <a href="https://github.com/bamos/dotfiles">bamos/dotfiles</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;238 |
+    | <i class="fa fas fa-star"></i>&nbsp;237 |
     </span>
     <em><i class="fa fas fa-heart"></i> Linux, xmonad, emacs, vim, zsh, tmux</em>
   </td>
