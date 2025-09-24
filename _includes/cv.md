@@ -3760,13 +3760,13 @@ under a CC-BY license.
 <tr>
   <td style='padding-right:0;'>
     <span class='cvdate'>2025</span>
-        <a href="https://doronhav.github.io/">Doron Haviv</a> (MSKCC PhD committee)
+        <a href="https://doronhav.github.io/">Doron Haviv</a> (MSKCC PhD committee, now an Genentech)
   </td>
 </tr>
 <tr>
   <td style='padding-right:0;'>
     <span class='cvdate'>2024&nbsp;-&nbsp;2025</span>
-        <a href="https://scholar.google.com/citations?user=HBAXF6YAAAAJ">Aaron Havens</a> (visiting FAIR from UIUC)
+        <a href="https://scholar.google.com/citations?user=HBAXF6YAAAAJ">Aaron Havens</a> (visiting FAIR from UIUC, now at FAIR)
   </td>
 </tr>
 <tr>
