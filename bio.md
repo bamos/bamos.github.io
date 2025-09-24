@@ -2,7 +2,8 @@ Brandon Amos is a Research Scientist at Meta Superintelligence Labs in NYC.
 He holds a PhD in Computer Science from Carnegie Mellon University where
 he was supported by the NSF Graduate Research Fellowship.
 Prior to joining Meta, he also worked at Adobe Research,
-Google DeepMind, and Intel Labs.
+Google DeepMind, and Intel Labs, and served as a visiting
+lecturer at Cornell Tech.
 He has received best reviewer awards at AISTATS, NeurIPS, ICML, and ICLR,
 and best paper awards at the ICML Theoretical Foundations Workshop
 and ACM MMSys.
