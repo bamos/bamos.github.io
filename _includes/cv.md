@@ -3760,13 +3760,13 @@ under a CC-BY license.
 <tr>
   <td style='padding-right:0;'>
     <span class='cvdate'>2025</span>
-        <a href="https://doronhav.github.io/">Doron Haviv</a> (MSKCC PhD committee, now an Genentech)
+        <a href="https://doronhav.github.io/">Doron Haviv</a> (MSKCC PhD committee, now at Genentech)
   </td>
 </tr>
 <tr>
   <td style='padding-right:0;'>
     <span class='cvdate'>2024&nbsp;-&nbsp;2025</span>
-        <a href="https://scholar.google.com/citations?user=HBAXF6YAAAAJ">Aaron Havens</a> (visiting FAIR from UIUC, now at FAIR)
+        <a href="https://scholar.google.com/citations?user=HBAXF6YAAAAJ">Aaron Havens</a> (visiting FAIR from UIUC, now postdoc at FAIR)
   </td>
 </tr>
 <tr>
@@ -3796,7 +3796,7 @@ under a CC-BY license.
 <tr>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022&nbsp;-&nbsp;2023</span>
-        <a href="https://sanaelotfi.github.io/">Sanae Lotfi</a> (visiting FAIR from NYU)
+        <a href="https://sanaelotfi.github.io/">Sanae Lotfi</a> (visiting FAIR from NYU, now scientist at FAIR)
   </td>
 </tr>
 <tr>
