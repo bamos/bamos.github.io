@@ -3359,7 +3359,7 @@ under a CC-BY license.
   <td style='padding-right:0;'>
     <span class='cvdate'>2025</span>
      <a href="https://bamos.github.io/presentations/2025/09/30/advprompter-algotune.html"><em>On meta prompt optimization and coding agents</em></a> &mdash;
-        Flatiron ML Seminar
+        <a href="https://www.simonsfoundation.org/event/machine-learning-at-the-flatiron-institute-brandon-amos/">Flatiron ML Seminar</a>
   </td>
 </tr>
 <tr>
