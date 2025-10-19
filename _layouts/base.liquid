@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
@@ -20,6 +22,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 	<div class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
@@ -27,8 +30,16 @@
 				<div class="col-md-10 col-md-offset-1">
 					<div class="navbar-header">
                   <div class='navbar-brand'>
-                    <a href='/images/me.jpg'><img src="/images/me-face.jpg" class="img-circle"></img></a>
-                    <a href="/">Brandon Amos</a>
+                    <!--<a href='/images/me.jpg'><img src="/images/me-face.jpg" class="img-circle"></img></a>-->
+                    <a href="/" style="text-decoration: none; position: relative; top: 2px;">Brandon Amos</a>
+                    <span class="navbar-icons">
+                      <a href="#" id="email-link" title="Email" style="margin-left: 15px;">
+                        <i class="fa fa-envelope"></i></a>
+                      <a href="http://github.com/bamos" target="_blank" title="GitHub" style="margin-left: 15px;">
+                        <i class="fa fa-github"></i></a>
+                      <a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank" title="Google Scholar" style="margin-left: 15px;">
+                        <i class="ai ai-google-scholar"></i></a>
+                    </span>
                   </div>
 						<button class="navbar-toggle" type="button" data-toggle="collapse"
                     data-target="#navbar-main">
@@ -39,34 +50,13 @@
 					</div>
 					<div class="navbar-collapse collapse" id="navbar-main">
 						<ul class="nav navbar-nav">
-							<!-- <li> -->
-							<!-- 	<a href="/">About</a> -->
-							<!-- </li> -->
 							<li>
-								<a href="/blog/">Blog</a>
+								<a href="/data/cv.pdf" target="_blank" style="position: relative; top: 2px;">CV</a>
 							</li>
 							<li>
-								<a href="/presentations/">Presentations</a>
+								<a href="/presentations/" style="position: relative; top: 2px;">Presentations</a>
 							</li>
 						</ul>
-						<!-- <ul class="nav navbar-nav navbar-right" style="font-size: 1.5em"> -->
-						<!-- 	<li> -->
-						<!-- 		<a href="http://github.com/bamos" target="_blank"> -->
-						<!-- 			<i class="fa fa-lg fa-github"></i></a> -->
-						<!-- 	</li> -->
-						<!-- 	<li> -->
-						<!-- 		<a href="http://twitter.com/brandondamos" target="_blank"> -->
-						<!-- 			<i class="fa fa-lg fa-twitter"></i></a> -->
-						<!-- 	</li> -->
-            <!--   <li> -->
-            <!--     <a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank"> -->
-            <!--       <i class="ai ai-google-scholar"></i></a> -->
-            <!--   </li> -->
-            <!--   <li> -->
-            <!--       <a href="/atom.xml" target="_blank"> -->
-            <!--           <i class="fa fa-rss"></i></a> -->
-            <!--   </li> -->
-						<!-- </ul> -->
 					</div>
 				</div>
 			</div>
@@ -80,6 +70,15 @@
   <script src="/vendor/js/anchor.min.js"></script>
   <script src="/vendor/js/jquery.toc.js"></script>
   <script type="text/javascript">
+   // Email obfuscation - hex encoded
+   (function() {
+     var hex = "6272616e646f6e2e616d6f732e637340676d61696c2e636f6d";
+     var email = hex.match(/.{1,2}/g).map(function(byte) {
+       return String.fromCharCode(parseInt(byte, 16));
+     }).join('');
+     $('#email-link').attr('href', 'mailto:' + email);
+   })();
+
    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -87,12 +86,6 @@
 
    ga('create', 'UA-102191838-1', 'auto');
    ga('send', 'pageview');
-   // $("#toc").toc({
-   //     'headings': 'h2,h3'
-   // });
-   // anchors.add('h2,h3');
   </script>
-
 </body>
-
 </html>
