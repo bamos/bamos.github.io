@@ -95,7 +95,7 @@ A few major themes of my research involve:
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Previous Positions
+## <i class="fa fa-chevron-right"></i> Positions
 <table class="table table-hover">
 <tr>
   <td style='padding-right:0;'>
@@ -607,7 +607,7 @@ solving beyond state-of-the-art human performance.
 <em><a href='https://arxiv.org/abs/2507.09650' target='_blank'>Cultivating Pluralism In Algorithmic Monoculture: The Community Alignment Dataset</a> </em> 
 [<a href='javascript:;'
     onclick='$("#abs_zhang2025cultivating").toggle()'>abs</a>]<br>
-<a href='https://lhz1029.github.io/' target='_blank'>Lily&nbsp;H&nbsp;Zhang</a>, <a href='http://smithamilli.com/' target='_blank'>Smitha&nbsp;Milli</a>, <a href='https://scholar.google.com/citations?user=O924n4AAAAAJ' target='_blank'>Karen&nbsp;Long&nbsp;Jusko</a>, <a href='https://scholar.google.com/citations?user=URWZ--QAAAAJ' target='_blank'>Jonathan&nbsp;Smith</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=QDtbGtIAAAAJ' target='_blank'>Wassim&nbsp;Bouaziz</a>, <a href='https://openreview.net/profile?id=~Jack_Kussman1' target='_blank'>Jack&nbsp;Kussman</a>, <a href='https://scholar.google.com/citations?user=dEvt4JoAAAAJ' target='_blank'>Manon&nbsp;Revel</a>, <a href='https://scholar.google.com/citations?user=v2Wni-EAAAAJg' target='_blank'>Lisa&nbsp;Titus</a>, <a href='https://scholar.google.com/citations?user=IkQv0loAAAAJg' target='_blank'>Bhaktipriya&nbsp;Radharapu</a>, <a href='https://scholar.google.com/citations?user=ev8Ilx0AAAAJg' target='_blank'>Jane&nbsp;Yu</a>, <a href='https://www.linkedin.com/in/vidyasarma' target='_blank'>Vidya&nbsp;Sarma</a>, <a href='https://openreview.net/profile?id=~Kristopher_Rose1' target='_blank'>Kristopher&nbsp;Rose</a>, and <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a><br>
+<a href='https://lhz1029.github.io/' target='_blank'>Lily&nbsp;H&nbsp;Zhang</a>, <a href='http://smithamilli.com/' target='_blank'>Smitha&nbsp;Milli</a>, <a href='https://scholar.google.com/citations?user=O924n4AAAAAJ' target='_blank'>Karen&nbsp;Long&nbsp;Jusko</a>, <a href='https://scholar.google.com/citations?user=URWZ--QAAAAJ' target='_blank'>Jonathan&nbsp;Smith</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=QDtbGtIAAAAJ' target='_blank'>Wassim&nbsp;Bouaziz</a>, <a href='https://openreview.net/profile?id=~Jack_Kussman1' target='_blank'>Jack&nbsp;Kussman</a>, <a href='https://scholar.google.com/citations?user=dEvt4JoAAAAJ' target='_blank'>Manon&nbsp;Revel</a>, <a href='https://scholar.google.com/citations?user=v2Wni-EAAAAJ' target='_blank'>Lisa&nbsp;Titus</a>, <a href='https://scholar.google.com/citations?user=IkQv0loAAAAJ' target='_blank'>Bhaktipriya&nbsp;Radharapu</a>, <a href='https://scholar.google.com/citations?user=ev8Ilx0AAAAJ' target='_blank'>Jane&nbsp;Yu</a>, <a href='https://www.linkedin.com/in/vidyasarma' target='_blank'>Vidya&nbsp;Sarma</a>, <a href='https://openreview.net/profile?id=~Kristopher_Rose1' target='_blank'>Kristopher&nbsp;Rose</a>, and <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a><br>
 ICML MoFA Workshop 2025  <br>
 
 <div id="abs_zhang2025cultivating" style="text-align: justify; display: none" markdown="1">
@@ -4135,4 +4135,4 @@ Linux, emacs, vim, evil, org, mu4e, xmonad, git, tmux, zsh
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on October 18, 2025.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on October 19, 2025.</p>
