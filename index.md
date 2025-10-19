@@ -2810,7 +2810,7 @@ malware machine learning classifiers.
 
 
 ## <i class="fa fa-chevron-right"></i> Open Source Repositories
-38.9k+ GitHub stars across all repositories.
+*38.9k+ GitHub stars across all repositories.*
 
 <table class="table table-hover">
 <tr>
@@ -3347,9 +3347,9 @@ malware machine learning classifiers.
 
 
 ## <i class="fa fa-chevron-right"></i> Invited Talks
-Slides for my major presentations are available
+*Slides for my major presentations are available
 [here](https://bamos.github.io/presentations/)
-under a CC-BY license.
+under a CC-BY license.*
 
 <table class="table table-hover">
 <tr>
