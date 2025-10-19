@@ -6,6 +6,14 @@ body {
     padding-top: 6em;
     background-color: #faf8f3;
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* Fix Raleway number alignment */
+    font-variant-numeric: lining-nums;
+    -moz-font-feature-settings: "lnum" 1;
+    -moz-font-feature-settings: "lnum=1";
+    -ms-font-feature-settings: "lnum" 1;
+    -o-font-feature-settings: "lnum" 1;
+    -webkit-font-feature-settings: "lnum" 1;
+    font-feature-settings: "lnum" 1;
 }
 
 /* Override Bootstrap heading font */
