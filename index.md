@@ -7,7 +7,7 @@ title: Brandon Amos
 I am a person in NYC.
 I study <b>intelligent systems</b> that
 understand and interact with our world.
-A few themes of my research involve:
+My research involves:
 </p>
 
 <ol>
@@ -4076,4 +4076,4 @@ Linux, emacs, vim, evil, org, mu4e, xmonad, git, tmux, zsh
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on October 20, 2025.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on October 23, 2025.</p>
