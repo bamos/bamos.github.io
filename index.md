@@ -5,9 +5,8 @@ title: Brandon Amos
 
 <p style="text-align: justify;">
 I am a person in NYC.
-I study <b>intelligent systems</b> that
-understand and interact with our world.
-My research involves:
+I build <b>intelligent systems</b> that
+understand and interact with our world, including:
 </p>
 
 <ol>
@@ -17,7 +16,7 @@ My research involves:
   <a href="https://arxiv.org/abs/2404.16873">AdvPrompter</a> and
   <a href="https://arxiv.org/abs/2412.10321">AdvPrefix</a>,
   coding agents in <a href="https://arxiv.org/abs/2507.15887">AlgoTune</a>,
-  RL post-training for social value alignment in <a href="https://arxiv.org/abs/2507.09650">community alignment</a>,
+  RL post-training for social values in <a href="https://arxiv.org/abs/2507.09650">community alignment</a>,
   and understanding how to
   <a href="https://arxiv.org/abs/2410.09303">fix broken tokens</a> and
   <a href="https://arxiv.org/abs/2407.18158">improve generalization bounds</a>)
@@ -4076,4 +4075,4 @@ Linux, emacs, vim, evil, org, mu4e, xmonad, git, tmux, zsh
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on October 23, 2025.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on October 29, 2025.</p>
