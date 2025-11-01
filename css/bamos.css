@@ -1,5 +1,6 @@
 :root {
     --navbar-text-color: #333;
+    --navbar-hover-text-color: #b1782b;
 }
 
 body {
@@ -14,6 +15,22 @@ body {
     -o-font-feature-settings: "lnum" 1;
     -webkit-font-feature-settings: "lnum" 1;
     font-feature-settings: "lnum" 1;
+}
+
+a {
+    color: #4582ec;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+a:visited {
+    color: #4582ec;
+}
+
+a:hover,
+a:focus {
+    color: var(--navbar-hover-text-color);
+    text-decoration: none;
 }
 
 /* Override Bootstrap heading font */
@@ -43,11 +60,43 @@ h1, h2, h3, h4, h5, h6,
 
 .navbar-default .navbar-nav > li > a {
     color: var(--navbar-text-color);
+    background-color: transparent;
+    transition: color 0.2s ease-in-out;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    color: var(--navbar-text-color);
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:active {
+    color: var(--navbar-hover-text-color);
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent !important;
+    color: var(--navbar-hover-text-color);
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus,
+.nav > li > a:active {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none;
+}
+
+.navbar-default .navbar-nav > li:hover,
+.navbar-default .navbar-nav > li:focus,
+.navbar-default .navbar-nav > li:active {
+    background-color: transparent !important;
 }
 
 .navbar-default .navbar-collapse {
@@ -110,11 +159,12 @@ img {
 
 .navbar-brand a {
     color: var(--navbar-text-color);
+    transition: color 0.2s ease-in-out;
 }
 
 .navbar-brand a:hover,
 .navbar-brand a:focus {
-    color: var(--navbar-text-color);
+    color: var(--navbar-hover-text-color);
     text-decoration: none;
 }
 
@@ -132,11 +182,21 @@ img {
 .navbar-icons a {
     color: var(--navbar-text-color);
     text-decoration: none;
+    transition: color 0.2s ease-in-out;
 }
 
 .navbar-icons a:hover,
 .navbar-icons a:focus {
-    color: var(--navbar-text-color);
+    color: var(--navbar-hover-text-color);
+}
+
+.navbar-icons,
+.navbar-icons a,
+.navbar-icons i {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 @media (max-width: 767px) {
