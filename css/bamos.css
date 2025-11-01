@@ -273,6 +273,53 @@ img {
     margin-left: .5em;
 }
 
+.pub-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.16em 0.5em;
+    border-radius: 9999px;
+    background: rgba(17, 24, 39, 0.08);
+    font-size: 0.72em;
+    color: #566074;
+    text-decoration: none;
+    transition: background 0.15s ease;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    transform: translateY(-2px);
+}
+
+.pub-pill + .pub-pill {
+    margin-left: 0.35em;
+}
+
+.pub-pill:hover {
+    background: rgba(17, 24, 39, 0.14);
+    color: #566074;
+}
+
+.pub-pill:focus,
+.pub-pill:visited {
+    color: #566074;
+}
+
+.abstract-box {
+    margin-top: 0.6em;
+    padding: 0.3em 0.7em;
+    border-radius: 12px;
+    border: 1px solid rgba(17, 24, 39, 0.12);
+    background: rgba(17, 24, 39, 0.04);
+    box-shadow: 0 2px 6px rgba(15, 23, 42, 0.06);
+    font-size: 0.92em;
+    color: #4b5563;
+    line-height: 1.55;
+    text-align: justify;
+}
+
+.abstract-box p:last-child {
+    margin-bottom: 0;
+}
+
 .intro-text p {
     text-align: justify;
 }
