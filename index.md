@@ -436,7 +436,7 @@ We introduce Adjoint Sampling, a highly scalable and efficient algorithm for lea
 <td>
 
 <em><a href='https://arxiv.org/abs/2410.09303' target='_blank'>Exact Byte-Level Probabilities from Tokenized Language Models for FIM-Tasks and Model Ensembles</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_phan2024exactbytelevelprobabilitiestokenized").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/Exact-Byte-Level-Probabilities-from-Tokenized-LMs' target='_blank'>code</a><br>
-<a href='https://truongbuu.github.io/' target='_blank'>Buu&nbsp;Phan</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://itaigat.com/' target='_blank'>Itai&nbsp;Gat</a>, <a href='https://mhavasi.github.io/' target='_blank'>Marton&nbsp;Havasi</a>, <a href='https://mmuckley.github.io/' target='_blank'>Matthew&nbsp;Muckley</a>, and <a href='https://karenullrich.info/' target='_blank'>Karen&nbsp;Ullrich</a><br>
+<a href='https://truongbuu.github.io/' target='_blank'>Buu&nbsp;Phan</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://itaigat.com/' target='_blank'>Itai&nbsp;Gat</a>, <a href='https://scholar.google.com/citations?user=EaYZfmoAAAAJ' target='_blank'>Marton&nbsp;Havasi</a>, <a href='https://mmuckley.github.io/' target='_blank'>Matthew&nbsp;Muckley</a>, and <a href='https://karenullrich.info/' target='_blank'>Karen&nbsp;Ullrich</a><br>
 ICLR 2025  <br>
 <div id="abs_phan2024exactbytelevelprobabilitiestokenized" class="abstract-box" style="display: none" markdown="1">
 Tokenization is associated with many poorly understood shortcomings in language models (LMs), yet remains an important component for long sequence scaling purposes. This work studies how tokenization impacts model performance by analyzing and comparing the stochastic behavior of tokenized models with their byte-level, or token-free, counterparts. We discover that, even when the two models are statistically equivalent, their predictive distributions over the next byte can be substantially different, a phenomenon we term as "tokenization bias". To fully characterize this phenomenon, we introduce the Byte-Token Representation Lemma, a framework that establishes a mapping between the learned token distribution and its equivalent byte-level distribution. From this result, we develop a next-byte sampling algorithm that eliminates tokenization bias without requiring further training or optimization. In other words, this enables zero-shot conversion of tokenized LMs into statistically equivalent token-free ones. We demonstrate its broad applicability with two use cases: fill-in-the-middle (FIM) tasks and model ensembles. In FIM tasks where input prompts may terminate mid-token, leading to out-of-distribution tokenization, our method mitigates performance degradation and achieves an approximately 18% improvement in FIM coding benchmarks, consistently outperforming the standard token healing fix. For model ensembles where each model employs a distinct vocabulary, our approach enables seamless integration, resulting in improved performance (up to 3.7%) over individual models across various standard baselines in reasoning, knowledge, and coding.
@@ -1139,7 +1139,7 @@ to a baseline model.
 <td>
 
 <em><a href='https://arxiv.org/abs/2207.09442' target='_blank'>Theseus: A Library for Differentiable Nonlinear Optimization</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_pineda2022theseus").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/theseus' target='_blank'>code</a><br>
-<a href='https://scholar.google.com/citations?user=rebEn8oAAAAJ' target='_blank'>Luis&nbsp;Pineda</a>, <a href='https://scholar.google.com/citations?user=3PJeg1wAAAAJ' target='_blank'>Taosha&nbsp;Fan</a>, <a href='https://scholar.google.com/citations?user=gpgb4LgAAAAJ' target='_blank'>Maurizio&nbsp;Monge</a>, <a href='https://scholar.google.com/citations?user=BFWurDEAAAAJ' target='_blank'>Shobha&nbsp;Venkataraman</a>, <a href='https://psodhi.github.io/' target='_blank'>Paloma&nbsp;Sodhi</a>, <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;Chen</a>, <a href='https://joeaortiz.github.io/' target='_blank'>Joseph&nbsp;Ortiz</a>, <a href='https://danieldetone.com/' target='_blank'>Daniel&nbsp;DeTone</a>, <a href='https://scholar.google.com/citations?user=keDqjK0AAAAJ' target='_blank'>Austin&nbsp;Wang</a>, <a href='https://scholar.google.com/citations?user=8orqBsYAAAAJ' target='_blank'>Stuart&nbsp;Anderson</a>, <a href='https://www.linkedin.com/in/jing-dong-24b26ab3/' target='_blank'>Jing&nbsp;Dong</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://www.mustafamukadam.com/' target='_blank'>Mustafa&nbsp;Mukadam</a><br>
+<a href='https://scholar.google.com/citations?user=rebEn8oAAAAJ' target='_blank'>Luis&nbsp;Pineda</a>, <a href='https://scholar.google.com/citations?user=3PJeg1wAAAAJ' target='_blank'>Taosha&nbsp;Fan</a>, <a href='https://scholar.google.com/citations?user=gpgb4LgAAAAJ' target='_blank'>Maurizio&nbsp;Monge</a>, <a href='https://scholar.google.com/citations?user=BFWurDEAAAAJ' target='_blank'>Shobha&nbsp;Venkataraman</a>, <a href='https://scholar.google.com/citations?user=LI7rp1QAAAAJ' target='_blank'>Paloma&nbsp;Sodhi</a>, <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;Chen</a>, <a href='https://joeaortiz.github.io/' target='_blank'>Joseph&nbsp;Ortiz</a>, <a href='https://danieldetone.com/' target='_blank'>Daniel&nbsp;DeTone</a>, <a href='https://scholar.google.com/citations?user=keDqjK0AAAAJ' target='_blank'>Austin&nbsp;Wang</a>, <a href='https://scholar.google.com/citations?user=8orqBsYAAAAJ' target='_blank'>Stuart&nbsp;Anderson</a>, <a href='https://www.linkedin.com/in/jing-dong-24b26ab3/' target='_blank'>Jing&nbsp;Dong</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://www.mustafamukadam.com/' target='_blank'>Mustafa&nbsp;Mukadam</a><br>
 NeurIPS 2022  <br>
 <div id="abs_pineda2022theseus" class="abstract-box" style="display: none" markdown="1">
 We present Theseus, an efficient application-agnostic open source
@@ -1173,7 +1173,7 @@ incorporated.
 <td>
 
 <em><a href='https://arxiv.org/abs/2206.09889' target='_blank'>Nocturne: a driving benchmark for multi-agent learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_vinitsky2022nocturne").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/nocturne' target='_blank'>code</a><br>
-<a href='https://www.eugenevinitsky.com' target='_blank'>Eugene&nbsp;Vinitsky</a>, <a href='https://www.nathanlct.com/about' target='_blank'>Nathan&nbsp;Lichtlé</a>, <a href='https://www.linkedin.com/in/xiaomeng-yang-356a976b/' target='_blank'>Xiaomeng&nbsp;Yang</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://www.jakobfoerster.com/' target='_blank'>Jakob&nbsp;Foerster</a><br>
+<a href='https://www.eugenevinitsky.com' target='_blank'>Eugene&nbsp;Vinitsky</a>, <a href='https://www.nathanlct.com' target='_blank'>Nathan&nbsp;Lichtlé</a>, <a href='https://www.linkedin.com/in/xiaomeng-yang-356a976b/' target='_blank'>Xiaomeng&nbsp;Yang</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://www.jakobfoerster.com/' target='_blank'>Jakob&nbsp;Foerster</a><br>
 NeurIPS Datasets and Benchmarks Track 2022  <br>
 <div id="abs_vinitsky2022nocturne" class="abstract-box" style="display: none" markdown="1">
 We introduce Nocturne, a new 2D driving simulator for
@@ -1215,7 +1215,7 @@ trajectories.
 <td>
 <a href='https://arxiv.org/abs/2008.12775' target='_blank'><img src="images/publications/amos2021modelbased.png" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2008.12775' target='_blank'>On the model-based stochastic value gradient for continuous reinforcement learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2021modelbased").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/svg' target='_blank'>code</a><a class='pub-pill' href='http://bamos.github.io/data/slides/2021.svg.pdf' target='_blank'>slides</a><br>
-<strong>Brandon&nbsp;Amos</strong>, <a href='https://samuelstanton.github.io/' target='_blank'>Samuel&nbsp;Stanton</a>, <a href='https://cs.nyu.edu/~dy1042/' target='_blank'>Denis&nbsp;Yarats</a>, and <a href='https://cims.nyu.edu/~andrewgw/' target='_blank'>Andrew&nbsp;Gordon&nbsp;Wilson</a><br>
+<strong>Brandon&nbsp;Amos</strong>, <a href='https://samuelstanton.github.io/' target='_blank'>Samuel&nbsp;Stanton</a>, <a href='https://scholar.google.com/citations?user=7kaXqgMAAAAJ' target='_blank'>Denis&nbsp;Yarats</a>, and <a href='https://cims.nyu.edu/~andrewgw/' target='_blank'>Andrew&nbsp;Gordon&nbsp;Wilson</a><br>
 L4DC 2021 (Oral) <br>
 <div id="abs_amos2021modelbased" class="abstract-box" style="display: none" markdown="1">
 Model-based reinforcement learning approaches add explicit domain
@@ -1438,7 +1438,7 @@ mobility, and neuroscience.
 <td>
 
 <em><a href='https://arxiv.org/abs/1910.01741' target='_blank'>Improving Sample Efficiency in Model-Free Reinforcement Learning from Images</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_yarats2021improving").toggle()'>abstract</a><a class='pub-pill' href='https://sites.google.com/view/sac-ae' target='_blank'>code</a><br>
-<a href='https://cs.nyu.edu/~dy1042/' target='_blank'>Denis&nbsp;Yarats</a>, <a href='https://amyzhang.github.io/' target='_blank'>Amy&nbsp;Zhang</a>, <a href='https://scholar.google.com/citations?user=PTS2AOgAAAAJ' target='_blank'>Ilya&nbsp;Kostrikov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.cs.mcgill.ca/~jpineau/' target='_blank'>Joelle&nbsp;Pineau</a>, and <a href='https://scholar.google.com/citations?user=GgQ9GEkAAAAJ&h' target='_blank'>Rob&nbsp;Fergus</a><br>
+<a href='https://scholar.google.com/citations?user=7kaXqgMAAAAJ' target='_blank'>Denis&nbsp;Yarats</a>, <a href='https://amyzhang.github.io/' target='_blank'>Amy&nbsp;Zhang</a>, <a href='https://scholar.google.com/citations?user=PTS2AOgAAAAJ' target='_blank'>Ilya&nbsp;Kostrikov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.cs.mcgill.ca/~jpineau/' target='_blank'>Joelle&nbsp;Pineau</a>, and <a href='https://scholar.google.com/citations?user=GgQ9GEkAAAAJ&h' target='_blank'>Rob&nbsp;Fergus</a><br>
 AAAI 2021  <br>
 <div id="abs_yarats2021improving" class="abstract-box" style="display: none" markdown="1">
 Training an agent to solve control tasks directly from
@@ -1574,7 +1574,7 @@ from Riemannian geometry.
 <td>
 
 <em><a href='https://openreview.net/pdf?id=Xe5MFhFvYGX' target='_blank'>Imitation Learning from Pixel Observations for Continuous Control</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_cohen2021imitation").toggle()'>abstract</a><br>
-<a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.deisenroth.cc/' target='_blank'>Marc&nbsp;Peter&nbsp;Deisenroth</a>, <a href='https://www.mikaelhenaff.com/' target='_blank'>Mikael&nbsp;Henaff</a>, <a href='https://www.eugenevinitsky.com' target='_blank'>Eugene&nbsp;Vinitsky</a>, and <a href='https://cs.nyu.edu/~dy1042/' target='_blank'>Denis&nbsp;Yarats</a><br>
+<a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.deisenroth.cc/' target='_blank'>Marc&nbsp;Peter&nbsp;Deisenroth</a>, <a href='https://www.mikaelhenaff.com/' target='_blank'>Mikael&nbsp;Henaff</a>, <a href='https://www.eugenevinitsky.com' target='_blank'>Eugene&nbsp;Vinitsky</a>, and <a href='https://scholar.google.com/citations?user=7kaXqgMAAAAJ' target='_blank'>Denis&nbsp;Yarats</a><br>
 NeurIPS DeepRL Workshop 2021  <br>
 <div id="abs_cohen2021imitation" class="abstract-box" style="display: none" markdown="1">
 We study imitation learning from visual observations only for
@@ -1638,7 +1638,7 @@ deploying state-of-the-art algorithms.
 <td>
 
 <em><a href='https://arxiv.org/abs/1909.12830' target='_blank'>The Differentiable Cross-Entropy Method</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2020differentiable").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/dcem' target='_blank'>code</a><a class='pub-pill' href='http://bamos.github.io/data/slides/2020.dcem.pdf' target='_blank'>slides</a><br>
-<strong>Brandon&nbsp;Amos</strong> and <a href='https://cs.nyu.edu/~dy1042/' target='_blank'>Denis&nbsp;Yarats</a><br>
+<strong>Brandon&nbsp;Amos</strong> and <a href='https://scholar.google.com/citations?user=7kaXqgMAAAAJ' target='_blank'>Denis&nbsp;Yarats</a><br>
 ICML 2020  <br>
 <div id="abs_amos2020differentiable" class="abstract-box" style="display: none" markdown="1">
 We study the Cross-Entropy Method (CEM) for the non-convex
@@ -1837,7 +1837,7 @@ classification.
 <td>
 
 <em><a href='https://arxiv.org/abs/1910.01727' target='_blank'>Generalized Inner Loop Meta-Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_grefenstette2019generalized").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/higher' target='_blank'>code</a><br>
-<a href='https://www.egrefen.com/' target='_blank'>Edward&nbsp;Grefenstette</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://cs.nyu.edu/~dy1042/' target='_blank'>Denis&nbsp;Yarats</a>, <a href='https://phumonhtut.me/' target='_blank'>Phu&nbsp;Mon&nbsp;Htut</a>, <a href='https://amolchanov86.github.io/' target='_blank'>Artem&nbsp;Molchanov</a>, <a href='https://fmeier.github.io/' target='_blank'>Franziska&nbsp;Meier</a>, <a href='https://douwekiela.github.io/' target='_blank'>Douwe&nbsp;Kiela</a>, <a href='https://kyunghyuncho.me/' target='_blank'>Kyunghyun&nbsp;Cho</a>, and <a href='https://soumith.ch/' target='_blank'>Soumith&nbsp;Chintala</a><br>
+<a href='https://www.egrefen.com/' target='_blank'>Edward&nbsp;Grefenstette</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=7kaXqgMAAAAJ' target='_blank'>Denis&nbsp;Yarats</a>, <a href='https://phu-pmh.github.io/' target='_blank'>Phu&nbsp;Mon&nbsp;Htut</a>, <a href='https://amolchanov86.github.io/' target='_blank'>Artem&nbsp;Molchanov</a>, <a href='https://fmeier.github.io/' target='_blank'>Franziska&nbsp;Meier</a>, <a href='https://douwekiela.github.io/' target='_blank'>Douwe&nbsp;Kiela</a>, <a href='https://kyunghyuncho.me/' target='_blank'>Kyunghyun&nbsp;Cho</a>, and <a href='https://soumith.ch/' target='_blank'>Soumith&nbsp;Chintala</a><br>
 arXiv 2019  <br>
 <div id="abs_grefenstette2019generalized" class="abstract-box" style="display: none" markdown="1">
 Many (but not all) approaches self-qualifying as "meta-learning" in
@@ -2314,7 +2314,7 @@ and organizational boundaries of trust and responsibility.
 <td>
 
 <em><a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'>Edge Analytics in the Internet of Things</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_satyanarayanan2015edge").toggle()'>abstract</a><br>
-<a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a>, <a href='https://www.ugent.be/ea/idlab/en/members/pieter-simoens.htm' target='_blank'>Pieter&nbsp;Simoens</a>, <a href='https://scholar.google.com/citations?user=ZeRhyWsAAAAJ' target='_blank'>Yu&nbsp;Xiao</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, and <strong>Brandon&nbsp;Amos</strong><br>
+<a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a>, <a href='https://scholar.google.com/citations?user=vAPWme0AAAAJ' target='_blank'>Pieter&nbsp;Simoens</a>, <a href='https://scholar.google.com/citations?user=ZeRhyWsAAAAJ' target='_blank'>Yu&nbsp;Xiao</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 IEEE Pervasive Computing 2015  <br>
 <div id="abs_satyanarayanan2015edge" class="abstract-box" style="display: none" markdown="1">
 High-data-rate sensors, such as video cameras, are becoming ubiquitous in the
@@ -3051,7 +3051,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>1.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2025</span>
-     <a href="https://bamos.github.io/presentations/2025/09/30/advprompter-algotune.html"><em>On meta prompt optimization and coding agents</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2025/12/07/advprompter-algotune.html"><em>On meta prompt optimization and coding agents</em></a> &mdash;
         <a href="https://www.simonsfoundation.org/event/machine-learning-at-the-flatiron-institute-brandon-amos/">Flatiron ML Seminar</a>
   </td>
 </tr>
@@ -3771,4 +3771,4 @@ Linux, emacs, vim, evil, org, mu4e, xmonad, git, tmux, zsh
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on November 01, 2025.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on November 04, 2025.</p>
