@@ -336,13 +336,13 @@ Here, it's 5x5.
 %}
 
 As a side-note, there are many names for convolutional layers that upsample:
-[full convolution](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf),
+[full convolution](https://openreview.net/pdf?id=SNHz8GbW2Ry),
 in-network upsampling, fractionally-strided convolution,
 backwards convolution, deconvolution, upconvolution, or
 transposed convolution. Using the term 'deconvolution' for this is
 strongly discouraged because it's an over-loaded term:
 [the mathematical operation](https://en.wikipedia.org/wiki/Deconvolution)
-or [other uses in computer vision](http://www.matthewzeiler.com/pubs/iccv2011/iccv2011.pdf)
+or [other uses in computer vision](https://cs.nyu.edu/~fergus/drafts/deconv_iccv_names.pdf)
 have a completely different meaning.
 
 Now that we have fractionally-strided convolutions as building blocks,
@@ -720,9 +720,9 @@ have labels or not, we'll get rid of them.
 A non-exhaustive list of options are:
 [MS-Celeb-1M](https://www.microsoft.com/en-us/research/project/msr-image-recognition-challenge-irc/),
 [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html),
-[CASIA-WebFace](http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html),
+[CASIA-WebFace](https://arxiv.org/abs/1411.7923),
 [FaceScrub](http://vintage.winklerbros.net/facescrub.html),
-[LFW](http://vis-www.cs.umass.edu/lfw/),
+[LFW](https://people.cs.umass.edu/~elm/papers/lfw.pdf),
 and
 [MegaFace](http://megaface.cs.washington.edu/).
 Place the dataset in `dcgan-completion.tensorflow/data/your-dataset/raw`
@@ -745,8 +745,7 @@ cd ../../..
 {% endhighlight %}
 
 We're ready to train the DCGAN.
-After [installing TensorFlow](https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html#download-and-setup),
-start the training.
+After installing TensorFlow, start the training.
 
 {% highlight bash %}
 ./train-dcgan.py --dataset ./data/your-dataset/aligned --epoch 20
@@ -764,7 +763,7 @@ I had them on hand. After 14 epochs, the samples from mine look like:
 %}
 
 You can also view the TensorFlow graphs and loss functions
-with [TensorBoard](https://www.tensorflow.org/versions/r0.10/how_tos/summaries_and_tensorboard/index.html).
+with TensorBoard.
 
 {% highlight bash %}
 tensorboard --logdir ./logs
@@ -944,7 +943,7 @@ if config.maskType == 'center':
 {% endhighlight %}
 
 For gradient descent, we'll use
-[projected gradient descent](http://www.stats.ox.ac.uk/~lienart/blog_opti_pgd.html)
+projected gradient descent
 with minibatches and momentum to project $z$ to be in $[-1,1]$.
 
 {% highlight python %}
@@ -1062,7 +1061,7 @@ Accessed: [Insert date here]
   "[Semantic Image Inpainting with Perceptual and Contextual Losses](https://arxiv.org/abs/1607.07539):"
   Paper this post was based on.
 + D. Pathak et al.
-  [Context Encoders: Feature Learning by Inpainting](https://people.eecs.berkeley.edu/~pathak/context_encoder/) at CVPR 2016:
+  [Context Encoders: Feature Learning by Inpainting](https://arxiv.org/abs/1604.07379) at CVPR 2016:
   Another recent method for inpainting that use similar loss functions
   and have released code
   on GitHub at [pathak22/context-encoder](https://github.com/pathak22/context-encoder).
@@ -1124,7 +1123,7 @@ frameworks, it's easy to not have references to everything.
 + Having Python support is critical for my research.
   I love the scientific Python programming stack and libraries like
   [matplotlib](http://matplotlib.org/) and
-  [cvxpy](http://www.cvxpy.org/en/latest/)
+  [cvxpy](http://www.cvxpy.org),
   that don't have an equivalent in Lua.
   This is why I wrote [OpenFace](http://cmusatyalab.github.io/openface)
   to use Torch for training the neural network,
@@ -1175,8 +1174,7 @@ frameworks, it's easy to not have references to everything.
   fast as Torch.
   I love nngraph's visualizations, they're much clearer than
   TensorBoard's in my experiences.
-+ [TensorBoard](https://www.tensorflow.org/versions/r0.10/how_tos/summaries_and_tensorboard/index.html)
-  is convenient and okay, but I am currently **not** using it for a few reasons.
++ TensorBoard is convenient and okay, but I am currently **not** using it for a few reasons.
   (In this post, I only used it because
   [carpedm20/DCGAN-tensorflow](https://github.com/carpedm20/DCGAN-tensorflow)
   uses it.)
@@ -1208,9 +1206,6 @@ frameworks, it's easy to not have references to everything.
 + I am not surprised to learn about useful under-documented features
   in Torch and TensorFlow by reading through somebody else's source code
   on GitHub.
-  I described in my [last blog post](http://bamos.github.io/2016/01/19/openface-0.2.0/)
-  that I found a under-documented way to reduce Torch model sizes
-  in OpenFace.
 + I prefer how models can be saved and loaded in Torch by passing
   the object to a function that serializes it and saves it to
   a single file on disk.
