@@ -1,0 +1,48 @@
+name: Check URLs
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check-urls:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run URL checks
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+
+          files=()
+          while IFS= read -r -d '' file; do
+            files+=("$file")
+          done < <(find _posts -type f \( -name '*.md' -o -name '*.markdown' \) -print0)
+
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "No posts found in _posts"
+            exit 0
+          fi
+
+          for file in "${files[@]}"; do
+            echo "Checking $file"
+            python check-urls.py "$file"
+          done
