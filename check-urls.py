@@ -15,12 +15,35 @@ headers = {
 }
 
 def extract_urls(file_path):
-    url_pattern = r'(https?://[^\s\'\"\}\)\<\>]+)'
+    url_pattern = re.compile(r'https?://[^\s<>\"]+')
+    trailing_punct = '.,;:!?"\''
+    paren_pairs = {')': '(', ']': '[', '}': '{'}
+
+    def clean_url(raw_url):
+        url = raw_url
+        while url:
+            last_char = url[-1]
+            if last_char in paren_pairs:
+                opener = paren_pairs[last_char]
+                if url.count(last_char) > url.count(opener):
+                    url = url[:-1]
+                    continue
+            if last_char in trailing_punct:
+                url = url[:-1]
+                continue
+            break
+        return url
+
     with open(file_path, 'r') as file:
         content = file.read()
-    urls = re.findall(url_pattern, content)
-    urls = list(set(urls))
-    return urls
+    urls = set()
+    for match in url_pattern.finditer(content):
+        url = clean_url(match.group(0))
+
+        if url:
+            urls.add(url)
+
+    return list(urls)
 
 def check_url(url):
     if 'scholar' in url or 'linkedin' in url:
