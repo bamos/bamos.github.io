@@ -28,8 +28,13 @@ a:visited {
 }
 
 a:hover,
-a:focus {
+a:focus-visible {
     color: var(--navbar-hover-text-color);
+    text-decoration: none;
+}
+
+a:focus:not(:hover) {
+    color: #4582ec;
     text-decoration: none;
 }
 
@@ -67,7 +72,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:focus-visible,
 .navbar-default .navbar-nav > li > a:active {
     color: var(--navbar-hover-text-color);
     background-color: transparent !important;
@@ -163,7 +168,7 @@ img {
 }
 
 .navbar-brand a:hover,
-.navbar-brand a:focus {
+.navbar-brand a:focus-visible {
     color: var(--navbar-hover-text-color);
     text-decoration: none;
 }
@@ -186,8 +191,14 @@ img {
 }
 
 .navbar-icons a:hover,
-.navbar-icons a:focus {
+.navbar-icons a:focus-visible {
     color: var(--navbar-hover-text-color);
+}
+
+.navbar-default .navbar-nav > li > a:focus:not(:focus-visible),
+.navbar-brand a:focus:not(:focus-visible),
+.navbar-icons a:focus:not(:focus-visible) {
+    color: var(--navbar-text-color);
 }
 
 .navbar-icons,

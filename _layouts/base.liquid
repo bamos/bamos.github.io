@@ -85,6 +85,19 @@
 
    ga('create', 'UA-102191838-1', 'auto');
    ga('send', 'pageview');
+   // Remove focus highlight on navbar links after pointer activation.
+   document.addEventListener('DOMContentLoaded', function () {
+     var navbarLinks = document.querySelectorAll('.navbar a');
+     navbarLinks.forEach(function (link) {
+       link.addEventListener('mouseup', function (event) {
+         if (event.button === 0 || event.button === 1) {
+           window.requestAnimationFrame(function () {
+             link.blur();
+           });
+         }
+       });
+     });
+   });
   </script>
 </body>
 </html>
