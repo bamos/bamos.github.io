@@ -314,6 +314,10 @@ img {
     color: #566074;
 }
 
+.pub-pill:focus:not(:hover) {
+    color: #566074;
+}
+
 .abstract-box {
     margin-top: 0.6em;
     padding: 0.3em 0.7em;
