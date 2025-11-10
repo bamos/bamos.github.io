@@ -41,8 +41,7 @@ understand and interact with our world, including:
   <a href="https://arxiv.org/abs/2408.14608" target="_blank">Meta Flow Matching</a>,
   <a href="https://arxiv.org/abs/2304.14772" target="_blank">Multisample Flow Matching</a>,
   <a href="https://arxiv.org/abs/2504.11713" target="_blank">Adjoint Sampling</a>,
-  and <a href="https://arxiv.org/abs/2411.00698" target="_blank">Wasserstein Flow Matching</a>
-  — see also <a href="https://bamos.github.io/presentations/2024/11/05/transport-between-distributions-over-distributions.html" target="_blank">these slides</a>)
+  and <a href="https://arxiv.org/abs/2411.00698" target="_blank">Wasserstein Flow Matching</a>—see also <a href="https://bamos.github.io/presentations/2024/11/05/transport-between-distributions-over-distributions.html" target="_blank">these slides</a>)
 </li>
 <li>
   <b>amortization, meta-optimization, and meta-learning</b> between tasks
@@ -52,8 +51,7 @@ understand and interact with our world, including:
   <a href="https://arxiv.org/abs/2408.14608" target="_blank">flow matching</a>,
   <a href="https://arxiv.org/abs/2107.10254" target="_blank">convex optimization</a>,
   <a href="https://arxiv.org/abs/2404.16873" target="_blank">language model attacks</a>,
-  and <a href="https://arxiv.org/abs/2309.07835" target="_blank">fixed point operations</a>
-  — see also <a href="https://arxiv.org/abs/2202.00665" target="_blank">my tutorial</a>)
+  and <a href="https://arxiv.org/abs/2309.07835" target="_blank">fixed point operations</a>—see also <a href="https://arxiv.org/abs/2202.00665" target="_blank">my tutorial</a>)
 </li>
 <li>
   <b>integrating structural information</b> and
@@ -73,7 +71,7 @@ understand and interact with our world, including:
 <table class="table table-hover">
   <tr>
     <td>
-      <span class='cvdate'>2014&nbsp;-&nbsp;2019</span>
+      <span class='cvdate'>2014&ndash;2019</span>
       <strong>Ph.D. in Computer Science</strong>, <em>Carnegie Mellon University</em>
         (0.00/0.00)
       <br>
@@ -85,7 +83,7 @@ understand and interact with our world, including:
   </tr>
   <tr>
     <td>
-      <span class='cvdate'>2011&nbsp;-&nbsp;2014</span>
+      <span class='cvdate'>2011&ndash;2014</span>
       <strong>B.S. in Computer Science</strong>, <em>Virginia Tech</em>
         (3.99/4.00)
       <br>
@@ -98,7 +96,7 @@ understand and interact with our world, including:
 <table class="table table-hover">
 <tr>
   <td style='padding-right:0;'>
-<span class='cvdate'>2019&nbsp;-&nbsp;2025</span>
+<span class='cvdate'>2019&ndash;2025</span>
 <p markdown="1" style='margin: 0'><strong>Research Scientist</strong>, <em>Meta Superintelligence Labs</em>, New York City
 </p>
   </td>
@@ -112,7 +110,7 @@ understand and interact with our world, including:
 </tr>
 <tr>
   <td style='padding-right:0;'>
-<span class='cvdate'>2016&nbsp;-&nbsp;2019</span>
+<span class='cvdate'>2016&ndash;2019</span>
 <p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Carnegie Mellon University</em><span markdown="1" style="color:grey;font-size:1.3rem;margin: 0">
 (with <a href="https://zicokolter.com" target="_blank">J. Zico Kolter</a> on ML and optimization)
 </span></p>
@@ -138,7 +136,7 @@ understand and interact with our world, including:
 </tr>
 <tr>
   <td style='padding-right:0;'>
-<span class='cvdate'>2014&nbsp;-&nbsp;2016</span>
+<span class='cvdate'>2014&ndash;2016</span>
 <p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Carnegie Mellon University</em><span markdown="1" style="color:grey;font-size:1.3rem;margin: 0">
 (with <a href="https://www.cs.cmu.edu/~satya/" target="_blank">Mahadev Satyanarayanan</a> on mobile systems)
 </span></p>
@@ -155,7 +153,7 @@ understand and interact with our world, including:
 </tr>
 <tr>
   <td style='padding-right:0;'>
-<span class='cvdate'>2013&nbsp;-&nbsp;2014</span>
+<span class='cvdate'>2013&ndash;2014</span>
 <p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Virginia Tech</em><span markdown="1" style="color:grey;font-size:1.3rem;margin: 0">
 (with <a href="https://people.cs.vt.edu/~ltw/shortvita.html" target="_blank">Layne Watson</a> and <a href="https://dblp.org/pid/75/8682.html" target="_blank">David Easterling</a> on optimization)
 </span></p>
@@ -163,7 +161,7 @@ understand and interact with our world, including:
 </tr>
 <tr>
   <td style='padding-right:0;'>
-<span class='cvdate'>2012&nbsp;-&nbsp;2014</span>
+<span class='cvdate'>2012&ndash;2014</span>
 <p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Virginia Tech</em><span markdown="1" style="color:grey;font-size:1.3rem;margin: 0">
 (with <a href="https://www.magnum.io/people/jules.html" target="_blank">Jules White</a> and <a href="https://scholar.google.com/citations?user=MRKab9cAAAAJ" target="_blank">Hamilton Turner</a> on mobile systems)
 </span></p>
@@ -171,7 +169,7 @@ understand and interact with our world, including:
 </tr>
 <tr>
   <td style='padding-right:0;'>
-<span class='cvdate'>2012&nbsp;-&nbsp;2014</span>
+<span class='cvdate'>2012&ndash;2014</span>
 <p markdown="1" style='margin: 0'><strong>Research Assistant</strong>, <em>Virginia Tech</em><span markdown="1" style="color:grey;font-size:1.3rem;margin: 0">
 (with <a href="https://www.ssrg.ece.vt.edu/" target="_blank">Binoy Ravindran</a> and <a href="https://scholar.google.com/citations?user=UG5yHRIAAAAJ" target="_blank">Alastair Murray</a> on compilers)
 </span></p>
@@ -179,7 +177,7 @@ understand and interact with our world, including:
 </tr>
 <tr>
   <td style='padding-right:0;'>
-<span class='cvdate'>2013&nbsp;-&nbsp;2014</span>
+<span class='cvdate'>2013&ndash;2014</span>
 <p markdown="1" style='margin: 0'><strong>Software Intern</strong>, <em>Snowplow</em><span markdown="1" style="color:grey;font-size:1.3rem;margin: 0">
 (Scala development)
 </span></p>
@@ -271,20 +269,20 @@ understand and interact with our world, including:
 </tr>
 <tr>
   <td>
-  <div style='float: right'>2016&nbsp;-&nbsp;2019</div>
+  <div style='float: right'>2016&ndash;2019</div>
   <div>
         NSF Graduate Research Fellowship
   </div>
   </td>
-  <!-- <td class='col-md-2' style='text-align:right;'>2016&nbsp;-&nbsp;2019</td> -->
+  <!-- <td class='col-md-2' style='text-align:right;'>2016&ndash;2019</td> -->
 </tr>
 <tr>
   <td>
-  <div style='float: right'>2011&nbsp;-&nbsp;2014</div>
+  <div style='float: right'>2011&ndash;2014</div>
   <div>
         Nine undergraduate scholarships
     <br><p style="color:grey;font-size:1.2rem">Roanoke County Public Schools Engineering,
-Salem-Roanoke County Chamber of Commerce,
+Salem&ndash;Roanoke County Chamber of Commerce,
 Papa John's,
 Scottish Rite of Freemasonry,
 VT Intelligence Community Center for Academic Excellence,
@@ -293,7 +291,7 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 </p>
   </div>
   </td>
-  <!-- <td class='col-md-2' style='text-align:right;'>2011&nbsp;-&nbsp;2014</td> -->
+  <!-- <td class='col-md-2' style='text-align:right;'>2011&ndash;2014</td> -->
 </tr>
 </table>
 
@@ -361,7 +359,7 @@ external datasets nor source code.
 <td>
 
 <em><a href='https://arxiv.org/abs/2404.16873' target='_blank'>AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_paulus2024advprompter").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/advprompter' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2025/05/09/advprompter.html' target='_blank'>slides</a><br>
-<a href='https://scholar.google.com/citations?user=njZL5CQAAAAJ' target='_blank'>Anselm&nbsp;Paulus*</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov*</a>, <a href='https://sites.google.com/view/chuanguo' target='_blank'>Chuan&nbsp;Guo</a>, <strong>Brandon&nbsp;Amos<sup>&dagger;</sup></strong>, and <a href='https://yuandong-tian.com/' target='_blank'>Yuandong&nbsp;Tian<sup>&dagger;</sup></a><br>
+<a href='https://scholar.google.com/citations?user=njZL5CQAAAAJ' target='_blank'>Anselm&nbsp;Paulus*</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov*</a>, <a href='https://sites.google.com/view/chuanguo' target='_blank'>Chuan&nbsp;Guo</a>, <strong>Brandon&nbsp;Amos<sup style="font-family: Georgia, serif;">&dagger;</sup></strong>, and <a href='https://yuandong-tian.com/' target='_blank'>Yuandong&nbsp;Tian<sup style="font-family: Georgia, serif;">&dagger;</sup></a><br>
 ICML 2025  <br>
 <div id="abs_paulus2024advprompter" class="abstract-box" style="display: none" markdown="1">
 While recently Large Language Models (LLMs) have achieved remarkable successes, they are vulnerable to certain jailbreaking attacks that lead to generation of inappropriate or harmful content. Manual red-teaming requires finding adversarial prompts that cause such jailbreaking, e.g. by appending a suffix to a given instruction, which is inefficient and time-consuming.
@@ -892,7 +890,7 @@ the labelled data to obtain proxy-labels for the
 unlabelled data, followed by the use of any offline
 RL algorithm on the true and proxy-labelled
 trajectories. Empirically, we find this simple
-pipeline to be highly successful&nbsp;-&nbsp;on several D4RL
+pipeline to be highly successful&ndash;on several D4RL
 benchmarks, certain offline RL
 algorithms can match the performance of variants
 trained on a fully labeled dataset even when we
@@ -1617,7 +1615,7 @@ subcomponents that need to be carefully selected and
 tuned. As a result the entry-bar for researchers to
 approach the field and to deploy it in real-world
 tasks can be daunting. In this paper, we present
-MBRL-Lib&nbsp;-&nbsp;a machine learning library for
+MBRL-Lib&ndash;a machine learning library for
 model-based reinforcement learning in continuous
 state-action spaces based on PyTorch. MBRL-Lib is
 designed as a platform for both researchers, to
@@ -1672,7 +1670,7 @@ towards combining model-based and model-free RL.
 <a href='https://www.natolambert.com/' target='_blank'>Nathan&nbsp;Lambert</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=zSsW478AAAAJ' target='_blank'>Omry&nbsp;Yadan</a>, and <a href='https://www.robertocalandra.com/about/' target='_blank'>Roberto&nbsp;Calandra</a><br>
 L4DC 2020  <br>
 <div id="abs_lambert2020objective" class="abstract-box" style="display: none" markdown="1">
-Model-based reinforcement learning (MBRL) has been shown to be a powerful framework for data-efficiently learning control of continuous tasks. Recent work in MBRL has mostly focused on using more advanced function approximators and planning schemes, with little development of the general framework. In this paper, we identify a fundamental issue of the standard MBRL framework-what we call the objective mismatch issue. Objective mismatch arises when one objective is optimized in the hope that a second, often uncorrelated, metric will also be optimized. In the context of MBRL, we characterize the objective mismatch between training the forward dynamics model with respect to the likelihood of the one-step ahead prediction, and the overall goal of improving performance on a downstream control task. For example, this issue can emerge with the realization that dynamics models effective for a specific task do not necessarily need to be globally accurate, and vice versa globally accurate models might not be sufficiently accurate locally to obtain good control performance on a specific task. In our experiments, we study this objective mismatch issue and demonstrate that the likelihood of one-step ahead predictions is not always correlated with control performance. This observation highlights a critical limitation in the MBRL framework which will require further research to be fully understood and addressed. We propose an initial method to mitigate the mismatch issue by re-weighting dynamics model training. Building on it, we conclude with a discussion about other potential directions of research for addressing this issue.
+Model-based reinforcement learning (MBRL) has been shown to be a powerful framework for data-efficiently learning control of continuous tasks. Recent work in MBRL has mostly focused on using more advanced function approximators and planning schemes, with little development of the general framework. In this paper, we identify a fundamental issue of the standard MBRL framework&ndash;what we call the objective mismatch issue. Objective mismatch arises when one objective is optimized in the hope that a second, often uncorrelated, metric will also be optimized. In the context of MBRL, we characterize the objective mismatch between training the forward dynamics model with respect to the likelihood of the one-step ahead prediction, and the overall goal of improving performance on a downstream control task. For example, this issue can emerge with the realization that dynamics models effective for a specific task do not necessarily need to be globally accurate, and vice versa globally accurate models might not be sufficiently accurate locally to obtain good control performance on a specific task. In our experiments, we study this objective mismatch issue and demonstrate that the likelihood of one-step ahead predictions is not always correlated with control performance. This observation highlights a critical limitation in the MBRL framework which will require further research to be fully understood and addressed. We propose an initial method to mitigate the mismatch issue by re-weighting dynamics model training. Building on it, we conclude with a discussion about other potential directions of research for addressing this issue.
 </div>
 </td>
 </tr>
@@ -1889,8 +1887,8 @@ demonstrate that even when the body is no longer in contact
 with an object, the latent variables of the dynamics model
 continue to represent its shape. We show that active data
 collection by maximizing the entropy of predictions about the
-body-touch sensors, proprioception and vestibular
-information-leads to learning of dynamic models that show
+body&ndash;touch sensors, proprioception and vestibular
+information&ndash;leads to learning of dynamic models that show
 superior performance when used for control. We also collect
 data from a real robotic hand and show that the same models
 can be used to answer questions about properties of objects in
@@ -2536,7 +2534,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;43
     </span>
- <em style="color: gray;">&mdash; Online LLM intrinsic rewards for NetHack</em>  </td>
+ <span style='color: gray;'>| <em>Online LLM intrinsic rewards for NetHack</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>4.</td>
@@ -2546,7 +2544,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;167
     </span>
- <em style="color: gray;">&mdash; Fast Adaptive Adversarial Prompting for LLMs</em>  </td>
+ <span style='color: gray;'>| <em>Fast Adaptive Adversarial Prompting for LLMs</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>5.</td>
@@ -2576,7 +2574,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;37
     </span>
- <em style="color: gray;">&mdash; Stochastic Optimal Control Matching</em>  </td>
+ <span style='color: gray;'>| <em>Stochastic Optimal Control Matching</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>8.</td>
@@ -2586,7 +2584,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;513
     </span>
- <em style="color: gray;">&mdash; Slides for our applied ML course</em>  </td>
+ <span style='color: gray;'>| <em>Slides for our applied ML course</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>9.</td>
@@ -2606,7 +2604,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;19
     </span>
- <em style="color: gray;">&mdash; Task-Driven Metric Learning for Model Learning</em>  </td>
+ <span style='color: gray;'>| <em>Task-Driven Metric Learning for Model Learning</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>11.</td>
@@ -2616,7 +2614,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;47
     </span>
- <em style="color: gray;">&mdash; Wasserstein-2 optimal transport</em>  </td>
+ <span style='color: gray;'>| <em>Wasserstein-2 optimal transport</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>12.</td>
@@ -2626,7 +2624,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;36
     </span>
- <em style="color: gray;">&mdash; Landscape Surrogate Learning Decision Losses</em>  </td>
+ <span style='color: gray;'>| <em>Landscape Surrogate Learning Decision Losses</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>13.</td>
@@ -2636,7 +2634,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;2k
     </span>
- <em style="color: gray;">&mdash; Differentiable non-linear optimization library</em>  </td>
+ <span style='color: gray;'>| <em>Differentiable non-linear optimization library</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>14.</td>
@@ -2666,7 +2664,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;25
     </span>
- <em style="color: gray;">&mdash; Gromov-Wasserstein Cross Domain Imitation Learning</em>  </td>
+ <span style='color: gray;'>| <em>Gromov-Wasserstein Cross Domain Imitation Learning</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>17.</td>
@@ -2676,7 +2674,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;287
     </span>
- <em style="color: gray;">&mdash; A partially-observable multi-agent driving simulator</em>  </td>
+ <span style='color: gray;'>| <em>A partially-observable multi-agent driving simulator</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>18.</td>
@@ -2686,7 +2684,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;67
     </span>
- <em style="color: gray;">&mdash; Riemannian Convex Potential Maps</em>  </td>
+ <span style='color: gray;'>| <em>Riemannian Convex Potential Maps</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>19.</td>
@@ -2696,7 +2694,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;57
     </span>
- <em style="color: gray;">&mdash; Model-based stochastic value gradient</em>  </td>
+ <span style='color: gray;'>| <em>Model-based stochastic value gradient</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>20.</td>
@@ -2706,7 +2704,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;1k
     </span>
- <em style="color: gray;">&mdash; Model-based reinforcement learning library</em>  </td>
+ <span style='color: gray;'>| <em>Model-based reinforcement learning library</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>21.</td>
@@ -2726,7 +2724,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;51
     </span>
- <em style="color: gray;">&mdash; Aligning time series on incomparable spaces</em>  </td>
+ <span style='color: gray;'>| <em>Aligning time series on incomparable spaces</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>23.</td>
@@ -2736,7 +2734,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;104
     </span>
- <em style="color: gray;">&mdash; Neural Spatio-Temporal Point Processes</em>  </td>
+ <span style='color: gray;'>| <em>Neural Spatio-Temporal Point Processes</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>24.</td>
@@ -2746,7 +2744,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;29
     </span>
- <em style="color: gray;">&mdash; Neural Fixed-Point Acceleration for SCS</em>  </td>
+ <span style='color: gray;'>| <em>Neural Fixed-Point Acceleration for SCS</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>25.</td>
@@ -2756,7 +2754,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;6.2k
     </span>
- <em style="color: gray;">&mdash; PyTorch Differentiable ODE Solvers (differentiable event handling)</em>  </td>
+ <span style='color: gray;'>| <em>PyTorch Differentiable ODE Solvers (differentiable event handling)</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>26.</td>
@@ -2766,7 +2764,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;124
     </span>
- <em style="color: gray;">&mdash; The Differentiable Cross-Entropy Method</em>  </td>
+ <span style='color: gray;'>| <em>The Differentiable Cross-Entropy Method</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>27.</td>
@@ -2776,7 +2774,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;1.6k
     </span>
- <em style="color: gray;">&mdash; PyTorch higher-order gradient and optimization library</em>  </td>
+ <span style='color: gray;'>| <em>PyTorch higher-order gradient and optimization library</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>28.</td>
@@ -2786,7 +2784,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;340
     </span>
- <em style="color: gray;">&mdash; Ph.D. Thesis LaTeX source code</em>  </td>
+ <span style='color: gray;'>| <em>Ph.D. Thesis LaTeX source code</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>29.</td>
@@ -2796,7 +2794,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;2k
     </span>
- <em style="color: gray;">&mdash; Differentiable Convex Optimization Layers</em>  </td>
+ <span style='color: gray;'>| <em>Differentiable Convex Optimization Layers</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>30.</td>
@@ -2806,7 +2804,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;59
     </span>
- <em style="color: gray;">&mdash; The Limited Multi-Label Projection Layer</em>  </td>
+ <span style='color: gray;'>| <em>The Limited Multi-Label Projection Layer</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>31.</td>
@@ -2816,7 +2814,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;988
     </span>
- <em style="color: gray;">&mdash; Differentiable PyTorch Model Predictive Control library</em>  </td>
+ <span style='color: gray;'>| <em>Differentiable PyTorch Model Predictive Control library</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>32.</td>
@@ -2836,7 +2834,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;300
     </span>
- <em style="color: gray;">&mdash; Input Convex Neural Network experiments</em>  </td>
+ <span style='color: gray;'>| <em>Input Convex Neural Network experiments</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>34.</td>
@@ -2856,7 +2854,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;761
     </span>
- <em style="color: gray;">&mdash; Differentiable PyTorch QP solver</em>  </td>
+ <span style='color: gray;'>| <em>Differentiable PyTorch QP solver</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>36.</td>
@@ -2876,7 +2874,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;310
     </span>
- <em style="color: gray;">&mdash; Intelligent block matrix constructions</em>  </td>
+ <span style='color: gray;'>| <em>Intelligent block matrix constructions</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>38.</td>
@@ -2886,7 +2884,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;111
     </span>
- <em style="color: gray;">&mdash; Automatically use the least-loaded GPU</em>  </td>
+ <span style='color: gray;'>| <em>Automatically use the least-loaded GPU</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>39.</td>
@@ -2896,7 +2894,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;1.3k
     </span>
- <em style="color: gray;">&mdash; Image completion with GANs</em>  </td>
+ <span style='color: gray;'>| <em>Image completion with GANs</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>40.</td>
@@ -2906,7 +2904,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;15.4k
     </span>
- <em style="color: gray;">&mdash; Face recognition with deep neural networks</em>  </td>
+ <span style='color: gray;'>| <em>Face recognition with deep neural networks</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>41.</td>
@@ -2916,7 +2914,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;70
     </span>
- <em style="color: gray;">&mdash; GitHub README link checker</em>  </td>
+ <span style='color: gray;'>| <em>GitHub README link checker</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>42.</td>
@@ -2936,7 +2934,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;10
     </span>
- <em style="color: gray;">&mdash; Fortran quasi-Newton stochastic optimization library</em>  </td>
+ <span style='color: gray;'>| <em>Fortran quasi-Newton stochastic optimization library</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>44.</td>
@@ -2946,7 +2944,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;28
     </span>
- <em style="color: gray;">&mdash; Haskell-driven, self-hosted web analytics</em>  </td>
+ <span style='color: gray;'>| <em>Haskell-driven, self-hosted web analytics</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>45.</td>
@@ -2986,7 +2984,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;360
     </span>
- <em style="color: gray;">&mdash; C++ expression parser using Dijkstra's shunting-yard algorithm</em>  </td>
+ <span style='color: gray;'>| <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>49.</td>
@@ -2996,7 +2994,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;412
     </span>
- <em style="color: gray;">&mdash; Source for this CV: creates LaTeX/Markdown from YAML/BibTeX</em>  </td>
+ <span style='color: gray;'>| <em>Source for this CV: creates LaTeX/Markdown from YAML/BibTeX</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>50.</td>
@@ -3006,7 +3004,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;121
     </span>
- <em style="color: gray;">&mdash; PARSEC benchmark support for Arch Linux</em>  </td>
+ <span style='color: gray;'>| <em>PARSEC benchmark support for Arch Linux</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>51.</td>
@@ -3026,7 +3024,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;186
     </span>
- <em style="color: gray;">&mdash; YAML reading list and notes system</em>  </td>
+ <span style='color: gray;'>| <em>YAML reading list and notes system</em></span>  </td>
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>53.</td>
@@ -3036,7 +3034,7 @@ malware machine learning classifiers.
     <span style="white-space: nowrap">
     | <i class="fa fas fa-star"></i>&nbsp;237
     </span>
- <em style="color: gray;">&mdash; <i class="fa fas fa-heart"></i> Linux, xmonad, emacs, vim, zsh, tmux</em>  </td>
+ <span style='color: gray;'>| <em><i class="fa fas fa-heart"></i> Linux, xmonad, emacs, vim, zsh, tmux</em></span>  </td>
 </tr>
 </table>
 
@@ -3051,7 +3049,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>1.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2025</span>
-     <a href="https://bamos.github.io/presentations/2025/12/07/advprompter-algotune.html"><em>On meta prompt optimization and coding agents</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2025/12/07/advprompter-algotune.html"><em>On meta prompt optimization and coding agents</em></a>,
         <a href="https://www.simonsfoundation.org/event/machine-learning-at-the-flatiron-institute-brandon-amos/">Flatiron ML Seminar</a>
   </td>
 </tr>
@@ -3059,7 +3057,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>2.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2025</span>
-     <a href="https://bamos.github.io/presentations/2025/05/09/advprompter.html"><em>AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2025/05/09/advprompter.html"><em>AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs</em></a>,
         USC
   </td>
 </tr>
@@ -3067,7 +3065,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>3.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2025</span>
-     <a href="https://bamos.github.io/presentations/2025/05/01/amortization-rl-bio.html"><em>On amortized optimization for RL, Bayesian optimization, and biology</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2025/05/01/amortization-rl-bio.html"><em>On amortized optimization for RL, Bayesian optimization, and biology</em></a>,
         <a href="https://ai4b.io">ai4b.io</a>
   </td>
 </tr>
@@ -3075,7 +3073,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>4.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2025</span>
-     <a href="https://bamos.github.io/presentations/2024/11/05/transport-between-distributions-over-distributions.html"><em>Transport and flows between distributions over distributions</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2024/11/05/transport-between-distributions-over-distributions.html"><em>Transport and flows between distributions over distributions</em></a>,
         Columbia University
   </td>
 </tr>
@@ -3083,7 +3081,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>5.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2024</span>
-     <a href="https://bamos.github.io/presentations/2024/11/05/transport-between-distributions-over-distributions.html"><em>Transport and flows between distributions over distributions</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2024/11/05/transport-between-distributions-over-distributions.html"><em>Transport and flows between distributions over distributions</em></a>,
         Genesis Therapeutics
   </td>
 </tr>
@@ -3091,7 +3089,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>6.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2024</span>
-     <a href="https://bamos.github.io/presentations/2024/11/05/transport-between-distributions-over-distributions.html"><em>Transport and flows between distributions over distributions</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2024/11/05/transport-between-distributions-over-distributions.html"><em>Transport and flows between distributions over distributions</em></a>,
         UT Austin
   </td>
 </tr>
@@ -3099,7 +3097,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>7.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2024</span>
-     <a href="https://bamos.github.io/presentations/2024/10/27/prompt-optimization-and-amortization.html"><em>On LLM prompt optimization and amortization</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2024/10/27/prompt-optimization-and-amortization.html"><em>On LLM prompt optimization and amortization</em></a>,
         <a href="https://www.dagstuhl.de/24441">Dagstuhl Seminar on ML for CO</a>
   </td>
 </tr>
@@ -3107,7 +3105,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>8.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2024</span>
-     <a href="https://bamos.github.io/presentations/2024/07/01/amortized-optimization-for-OT-and-LLMs.html"><em>Amortized optimization for optimal transport and LLM attacks</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2024/07/01/amortized-optimization-for-OT-and-LLMs.html"><em>Amortized optimization for optimal transport and LLM attacks</em></a>,
         ISMP
   </td>
 </tr>
@@ -3115,7 +3113,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>9.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2024</span>
-     <a href="https://bamos.github.io/presentations/2024/07/01/differentiable-optimization-and-robotics.html"><em>Differentiable optimization for robotics</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2024/07/01/differentiable-optimization-and-robotics.html"><em>Differentiable optimization for robotics</em></a>,
         <a href="https://sites.google.com/robotics.utias.utoronto.ca/frontiers-optimization-rss24/schedule">RSS Optimization for Robotics Workshop</a>
   </td>
 </tr>
@@ -3123,7 +3121,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>10.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2024</span>
-     <a href="https://bamos.github.io/presentations/2024/07/01/amortized-optimization-and-AI.html"><em>Amortized optimization-based reasoning for AI</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2024/07/01/amortized-optimization-and-AI.html"><em>Amortized optimization-based reasoning for AI</em></a>,
         University of Amsterdam
   </td>
 </tr>
@@ -3131,7 +3129,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>11.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2024</span>
-     <a href="https://bamos.github.io/presentations/2024/02/01/e2e-geometries.html"><em>End-to-end learning geometries for graphs, dynamical systems, and regression</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2024/02/01/e2e-geometries.html"><em>End-to-end learning geometries for graphs, dynamical systems, and regression</em></a>,
         <a href="https://logmeetupnyc.github.io/">LoG New York</a>
   </td>
 </tr>
@@ -3139,7 +3137,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>12.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2023</span>
-     <a href="https://bamos.github.io/presentations/2023/01/01/amortized-optimal-transport.html"><em>Amortized optimization for optimal transport</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2023/01/01/amortized-optimal-transport.html"><em>Amortized optimization for optimal transport</em></a>,
         <a href="https://otmlworkshop.github.io/schedule/">NeurIPS Optimal Transport and ML Workshop</a>
   </td>
 </tr>
@@ -3147,7 +3145,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>13.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2023</span>
-     <a href="https://bamos.github.io/presentations/2023/01/01/control-learning.html"><em>On optimal control and machine learning</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2023/01/01/control-learning.html"><em>On optimal control and machine learning</em></a>,
         <a href="https://frontiers4lcd.github.io/">ICML Control and Dynamical Systems Workshop</a>
   </td>
 </tr>
@@ -3155,7 +3153,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>14.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2023</span>
-     <a href="https://bamos.github.io/presentations/2023/01/01/amortized-optimization.html"><em>Tutorial on amortized optimization</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2023/01/01/amortized-optimization.html"><em>Tutorial on amortized optimization</em></a>,
         Brown University
   </td>
 </tr>
@@ -3163,7 +3161,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>15.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2023</span>
-     <a href="https://bamos.github.io/presentations/2023/01/01/differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2023/01/01/differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a>,
         NYU AI Seminar
   </td>
 </tr>
@@ -3171,7 +3169,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>16.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2023</span>
-     <a href="https://bamos.github.io/presentations/2023/01/01/differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2023/01/01/differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a>,
         Vanderbilt ML Seminar
   </td>
 </tr>
@@ -3179,7 +3177,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>17.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
-     <a href="https://bamos.github.io/presentations/2023/01/01/differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2023/01/01/differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a>,
         Microsoft Research
   </td>
 </tr>
@@ -3187,7 +3185,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>18.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/amortized-optimal-transport.html"><em>Amortized optimization for computing optimal transport maps</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/amortized-optimal-transport.html"><em>Amortized optimization for computing optimal transport maps</em></a>,
         <a href="https://sites.google.com/view/sampling-transport-diffusions/home">Flatiron Workshop</a>
   </td>
 </tr>
@@ -3195,7 +3193,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>19.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
-     <a href="https://bamos.github.io/presentations/2023/01/01/differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2023/01/01/differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a>,
         Cornell AI Seminar
   </td>
 </tr>
@@ -3203,7 +3201,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>20.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
-     <a href="https://bamos.github.io/presentations/2023/01/01/differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2023/01/01/differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a>,
         Cornell Tech Seminar
   </td>
 </tr>
@@ -3211,7 +3209,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>21.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
-     <a href="https://bamos.github.io/presentations/2023/01/01/differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2023/01/01/differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a>,
         Argonne National Laboratory
   </td>
 </tr>
@@ -3219,7 +3217,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>22.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
-     <a href="https://slideslive.com/38992360/theseus-a-library-for-differentiable-nonlinear-optimization"><em>Theseus: A library for differentiable nonlinear optimization</em></a> &mdash;
+     <a href="https://slideslive.com/38992360/theseus-a-library-for-differentiable-nonlinear-optimization"><em>Theseus: A library for differentiable nonlinear optimization</em></a>,
         NYU
   </td>
 </tr>
@@ -3227,7 +3225,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>23.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
-     <a href="https://slideslive.com/38992360/theseus-a-library-for-differentiable-nonlinear-optimization"><em>Theseus: A library for differentiable nonlinear optimization</em></a> &mdash;
+     <a href="https://slideslive.com/38992360/theseus-a-library-for-differentiable-nonlinear-optimization"><em>Theseus: A library for differentiable nonlinear optimization</em></a>,
         University of Zurich
   </td>
 </tr>
@@ -3235,7 +3233,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>24.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>,
         Colorado Mines AMS Colloquium
   </td>
 </tr>
@@ -3243,7 +3241,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>25.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization</em></a>,
         <a href="https://guaguakai.github.io/IJCAI22-differentiable-optimization/">IJCAI Tutorial</a>
   </td>
 </tr>
@@ -3251,7 +3249,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>26.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-control.html"><em>Differentiable optimization for control and RL</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-control.html"><em>Differentiable optimization for control and RL</em></a>,
         <a href="https://darl-workshop.github.io/">ICML Workshop on Decision Awareness in RL</a>
   </td>
 </tr>
@@ -3259,7 +3257,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>27.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>,
         <a href="https://sites.google.com/usc.edu/cpaior-2022/master_class">CPAIOR Master Class</a>
   </td>
 </tr>
@@ -3267,7 +3265,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>28.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/amortized-optimization.html"><em>Tutorial on amortized optimization</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/amortized-optimization.html"><em>Tutorial on amortized optimization</em></a>,
         ICCOPT
   </td>
 </tr>
@@ -3275,7 +3273,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>29.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-control.html"><em>Differentiable optimization for control and RL</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-control.html"><em>Differentiable optimization for control and RL</em></a>,
         Gridmatic
   </td>
 </tr>
@@ -3283,7 +3281,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>30.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2021</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-control.html"><em>Learning for control with differentiable optimization and ODEs</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-control.html"><em>Learning for control with differentiable optimization and ODEs</em></a>,
         Columbia University
   </td>
 </tr>
@@ -3291,7 +3289,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>31.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2021</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>,
         IBM Research
   </td>
 </tr>
@@ -3299,7 +3297,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>32.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2020</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-control.html"><em>Differentiable optimization for control</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-control.html"><em>Differentiable optimization for control</em></a>,
         Max Planck Institute (Tübingen)
   </td>
 </tr>
@@ -3307,7 +3305,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>33.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2020</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>,
         Mila Seminar
   </td>
 </tr>
@@ -3315,7 +3313,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>34.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2020</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Deep Declarative Networks</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Deep Declarative Networks</em></a>,
         <a href="https://anucvml.github.io/ddn-eccvt2020/">ECCV Tutorial</a>
   </td>
 </tr>
@@ -3323,7 +3321,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>35.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2020</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>On differentiable optimization for control and vision</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>On differentiable optimization for control and vision</em></a>,
         <a href="https://anucvml.github.io/ddn-cvprw2020/">CVPR Deep Declarative Networks Workshop</a>
   </td>
 </tr>
@@ -3331,7 +3329,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>36.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2020</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>,
         <a href="https://sites.google.com/view/cs-159-spring-2020/lectures">Caltech CS 159 (Guest Lecture)</a>
   </td>
 </tr>
@@ -3339,7 +3337,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>37.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2020</span>
-     <a href="https://bamos.github.io/presentations/2020/01/01/dcem.html"><em>Unrolled optimization for learning deep energy models</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2020/01/01/dcem.html"><em>Unrolled optimization for learning deep energy models</em></a>,
         <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=67922">SIAM MDS Minisymposium</a>
   </td>
 </tr>
@@ -3347,7 +3345,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>38.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2019</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>,
         NYU CILVR Seminar
   </td>
 </tr>
@@ -3355,7 +3353,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>39.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2019</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>,
         INFORMS
   </td>
 </tr>
@@ -3363,7 +3361,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>40.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2019</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>,
         Facebook AI Research
   </td>
 </tr>
@@ -3371,7 +3369,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>41.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>,
         ISMP
   </td>
 </tr>
@@ -3379,7 +3377,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>42.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>,
         Google Brain
   </td>
 </tr>
@@ -3387,7 +3385,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>43.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>,
         Bosch Center for AI
   </td>
 </tr>
@@ -3395,7 +3393,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>44.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>,
         Waymo Research
   </td>
 </tr>
@@ -3403,7 +3401,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>45.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>,
         Tesla AI
   </td>
 </tr>
@@ -3411,7 +3409,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>46.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>,
         NVIDIA Robotics
   </td>
 </tr>
@@ -3419,7 +3417,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>47.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>,
         Salesforce Research
   </td>
 </tr>
@@ -3427,7 +3425,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>48.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>,
         OpenAI
   </td>
 </tr>
@@ -3435,7 +3433,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>49.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>,
         NNAISENSE
   </td>
 </tr>
@@ -3443,7 +3441,7 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>50.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
-     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-control.html"><em>Differentiable optimization and control</em></a> &mdash;
+     <a href="https://bamos.github.io/presentations/2022/01/01/differentiable-control.html"><em>Differentiable optimization and control</em></a>,
         UC Berkeley
   </td>
 </tr>
@@ -3478,25 +3476,25 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td style='padding-right:0;'>
-    <span class='cvdate'>2024&nbsp;-&nbsp;2025</span>
+    <span class='cvdate'>2024&ndash;2025</span>
         <a href="https://scholar.google.com/citations?user=HBAXF6YAAAAJ">Aaron Havens</a> (visiting FAIR from UIUC, now postdoc at FAIR)
   </td>
 </tr>
 <tr>
   <td style='padding-right:0;'>
-    <span class='cvdate'>2022&nbsp;-&nbsp;2024</span>
+    <span class='cvdate'>2022&ndash;2024</span>
         <a href="https://arampooladian.com/">Aram-Alexandre Pooladian</a> (visiting FAIR from NYU, now at Yale)
   </td>
 </tr>
 <tr>
   <td style='padding-right:0;'>
-    <span class='cvdate'>2022&nbsp;-&nbsp;2024</span>
+    <span class='cvdate'>2022&ndash;2024</span>
         <a href="https://cdenrich.github.io/">Carles Domingo-Enrich</a> (visiting FAIR from NYU, now at MSR)
   </td>
 </tr>
 <tr>
   <td style='padding-right:0;'>
-    <span class='cvdate'>2023&nbsp;-&nbsp;2024</span>
+    <span class='cvdate'>2023&ndash;2024</span>
         <a href="https://scholar.google.com/citations?user=njZL5CQAAAAJ">Anselm Paulus</a> (visiting FAIR from Max Planck Institute, Tübingen)
   </td>
 </tr>
@@ -3508,37 +3506,37 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td style='padding-right:0;'>
-    <span class='cvdate'>2022&nbsp;-&nbsp;2023</span>
+    <span class='cvdate'>2022&ndash;2023</span>
         <a href="https://sanaelotfi.github.io/">Sanae Lotfi</a> (visiting FAIR from NYU, now scientist at FAIR)
   </td>
 </tr>
 <tr>
   <td style='padding-right:0;'>
-    <span class='cvdate'>2022&nbsp;-&nbsp;2023</span>
+    <span class='cvdate'>2022&ndash;2023</span>
         <a href="https://dishank-b.github.io">Dishank Bansal</a> (AI resident at FAIR, now at the UK AI Safety Institute)
   </td>
 </tr>
 <tr>
   <td style='padding-right:0;'>
-    <span class='cvdate'>2021&nbsp;-&nbsp;2022</span>
+    <span class='cvdate'>2021&ndash;2022</span>
         <a href="https://www.linkedin.com/in/arnaudfickinger/">Arnaud Fickinger</a> (visiting FAIR from Berkeley)
   </td>
 </tr>
 <tr>
   <td style='padding-right:0;'>
-    <span class='cvdate'>2020&nbsp;-&nbsp;2022</span>
+    <span class='cvdate'>2020&ndash;2022</span>
         <a href="https://aaronlou.com/">Aaron Lou</a> (visiting FAIR from Cornell and Stanford, now scientist at OpenAI)
   </td>
 </tr>
 <tr>
   <td style='padding-right:0;'>
-    <span class='cvdate'>2021&nbsp;-&nbsp;2022</span>
+    <span class='cvdate'>2021&ndash;2022</span>
         <a href="https://www.eugenevinitsky.com">Eugene Vinitsky</a> (visiting FAIR from Berkeley, now professor at NYU)
   </td>
 </tr>
 <tr>
   <td style='padding-right:0;'>
-    <span class='cvdate'>2021&nbsp;-&nbsp;2022</span>
+    <span class='cvdate'>2021&ndash;2022</span>
         <a href="https://scholar.google.com/citations?user=CmdjfTsAAAAJ">Samuel Cohen</a> (visiting FAIR from UCL, now CEO at FairGen)
   </td>
 </tr>
@@ -3639,7 +3637,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td style='padding-right:0;'>
-  <span class='cvdate'>2014&nbsp;-&nbsp;2015</span>
+  <span class='cvdate'>2014&ndash;2015</span>
       CMU CSD MS Admissions
   </td>
 </tr>
@@ -3771,4 +3769,4 @@ Linux, emacs, vim, evil, org, mu4e, xmonad, git, tmux, zsh
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on November 05, 2025.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on November 09, 2025.</p>
