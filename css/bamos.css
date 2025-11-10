@@ -362,7 +362,7 @@ img {
 }
 
 .index-profile-img {
-    border-radius: 20px;
+    border-radius: 10px;
     width: 200px;
     height: auto;
     object-fit: cover;
