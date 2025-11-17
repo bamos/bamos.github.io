@@ -1,6 +1,7 @@
 :root {
-    --navbar-text-color: #333;
-    --navbar-hover-text-color: #b1782b;
+    --navbar-text-color: #264653;
+    --navbar-hover-text-color: #f0a35e;
+    --link-hover-color: #f0a35e;
 }
 
 body {
@@ -19,23 +20,23 @@ body {
 }
 
 a {
-    color: #4582ec;
+    color: #2b6f82;
     text-decoration: none;
     transition: color 0.2s ease-in-out;
 }
 
 a:visited {
-    color: #4582ec;
+    color: #2b6f82;
 }
 
 a:hover,
 a:focus-visible {
-    color: var(--navbar-hover-text-color);
+    color: var(--link-hover-color);
     text-decoration: none;
 }
 
 a:focus:not(:hover) {
-    color: #4582ec;
+    color: #2b6f82;
     text-decoration: none;
 }
 
@@ -46,7 +47,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .navbar-default {
-    background-color: #eadaf6;
+    background-color: #ecf6fe;
     border-color: var(--navbar-text-color);
 }
 
