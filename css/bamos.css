@@ -5,7 +5,8 @@
 
 body {
     padding-top: 6em;
-    background-color: #faf8f3;
+    /* background-color: #faf8f3; */
+    background-color: #ffffff;
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     /* Fix Raleway number alignment */
     font-variant-numeric: lining-nums;
