@@ -518,7 +518,7 @@ nuanced jailbreaks.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2507.15887' target='_blank'>AlgoTune: Can Language Models Speed Up General-Purpose Numerical Programs?</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_press2025algotune").toggle()'>abstract</a><br>
+<em><a href='https://arxiv.org/abs/2507.15887' target='_blank'>AlgoTune: Can Language Models Speed Up General-Purpose Numerical Programs?</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_press2025algotune").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/oripress/AlgoTune' target='_blank'>code</a><br>
 <a href='https://oripress.com/' target='_blank'>Ori&nbsp;Press</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://hyzhao.me/' target='_blank'>Haoyu&nbsp;Zhao</a>, <a href='https://yikai-wu.github.io/' target='_blank'>Yikai&nbsp;Wu</a>, <a href='https://samlikes.pizza/' target='_blank'>Samuel&nbsp;K.&nbsp;Ainsworth</a>, <a href='https://krupke.cc/' target='_blank'>Dominik&nbsp;Krupke</a>, <a href='https://kidger.site/' target='_blank'>Patrick&nbsp;Kidger</a>, <a href='https://www.linkedin.com/in/touqir-sajed-6a95b1126/' target='_blank'>Touqir&nbsp;Sajed</a>, <a href='https://stellato.io/' target='_blank'>Bartolomeo&nbsp;Stellato</a>, <a href='https://jisunp515.github.io/' target='_blank'>Jisun&nbsp;Park</a>, <a href='https://nathanaelbosch.github.io/' target='_blank'>Nathanael&nbsp;Bosch</a>, <a href='https://openreview.net/profile?id=~Eli_Meril1' target='_blank'>Eli&nbsp;Meril</a>, <a href='https://scholar.google.com/citations?user=_nbf9ZIAAAAJ' target='_blank'>Albert&nbsp;Steppi</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <a href='https://fangzhaoz.github.io/' target='_blank'>Fangzhao&nbsp;Zhang</a>, <a href='https://davidppineiro.com/' target='_blank'>David&nbsp;Pérez-Piñeiro</a>, <a href='https://scholar.google.it/citations?user=a5HqhwUAAAAJ' target='_blank'>Alberto&nbsp;Mercurio</a>, <a href='https://jennyzhanni.com/' target='_blank'>Ni&nbsp;Zhan</a>, <a href='https://scholar.google.com/citations?user=mdd52kMAAAAJ' target='_blank'>Talor&nbsp;Abramovich</a>, <a href='https://www.lieret.net/' target='_blank'>Kilian&nbsp;Lieret</a>, <a href='https://hanlin-zhang.com/' target='_blank'>Hanlin&nbsp;Zhang</a>, <a href='https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1542499' target='_blank'>Shirley&nbsp;Huang</a>, <a href='https://scholar.google.com/citations?user=0z0fNxUAAAAJ' target='_blank'>Matthias&nbsp;Bethge</a>, and <a href='https://ofir.io/about' target='_blank'>Ofir&nbsp;Press</a><br>
 NeurIPS Datasets and Benchmarks Track 2025  <br>
 <div id="abs_press2025algotune" class="abstract-box" style="display: none" markdown="1">
@@ -869,7 +869,7 @@ sets, and lead to better low-cost sample generation.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2210.06518' target='_blank'>Semi-Supervised Offline Reinforcement Learning with Action-Free Trajectories</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zheng2023semi").toggle()'>abstract</a><br>
+<em><a href='https://arxiv.org/abs/2210.06518' target='_blank'>Semi-Supervised Offline Reinforcement Learning with Action-Free Trajectories</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zheng2023semi").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/ssorl/' target='_blank'>code</a><br>
 <a href='https://enosair.github.io/' target='_blank'>Qinqing&nbsp;Zheng</a>, <a href='https://www.mikaelhenaff.com/' target='_blank'>Mikael&nbsp;Henaff</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://aditya-grover.github.io/' target='_blank'>Aditya&nbsp;Grover</a><br>
 ICML 2023  <br>
 <div id="abs_zheng2023semi" class="abstract-box" style="display: none" markdown="1">
@@ -987,7 +987,7 @@ computationally expensive high-dimensional problems.
 </td>
 <td>
 
-<em><a href='https://openreview.net/pdf?id=3W7vPqWCeM' target='_blank'>Koopman Constrained Policy Optimization: A Koopman operator theoretic method for differentiable optimal control in robotics</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_retchin2023koopman").toggle()'>abstract</a><br>
+<em><a href='https://openreview.net/pdf?id=3W7vPqWCeM' target='_blank'>Koopman Constrained Policy Optimization: A Koopman operator theoretic method for differentiable optimal control in robotics</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_retchin2023koopman").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/mhr/kcpo-icml' target='_blank'>code</a><br>
 <a href='https://www.linkedin.com/in/matthew-retchin/' target='_blank'>Matthew&nbsp;Retchin</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.eigensteve.com/' target='_blank'>Steven&nbsp;Brunton</a>, and <a href='https://shurans.github.io/' target='_blank'>Shuran&nbsp;Song</a><br>
 ICML Differentiable Almost Everything Workshop 2023  <br>
 <div id="abs_retchin2023koopman" class="abstract-box" style="display: none" markdown="1">
@@ -2209,9 +2209,9 @@ the Apache 2.0 license. It is available at:
 </td>
 <td>
 
-<em><a href='https://bamos.github.io/2016/08/09/deep-completion/' target='_blank'>Image Completion with Deep Learning in TensorFlow</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2016deepcompletion").toggle()'>abstract</a><br>
+<em><a href='https://bamos.github.io/2016/08/09/deep-completion/' target='_blank'>Image Completion with Deep Learning in TensorFlow</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2016deepcompletion").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/bamos/dcgan-completion.tensorflow' target='_blank'>code</a><br>
 <strong>Brandon&nbsp;Amos</strong><br>
-Blog Post 2016  <br>
+Blog 2016  <br>
 <div id="abs_amos2016deepcompletion" class="abstract-box" style="display: none" markdown="1">
 Content-aware fill is a powerful tool designers and photographers use to fill in unwanted or missing parts of images. Image completion and inpainting are closely related technologies used to fill in missing or corrupted parts of images. There are many ways to do content-aware fill, image completion, and inpainting. In this blog post, I present Raymond Yeh and Chen Chen et al.'s paper "Semantic Image Inpainting with Perceptual and Contextual Losses," which was just posted on arXiv on July 26, 2016. This paper shows how to use deep learning for image completion with a DCGAN.
 </div>
