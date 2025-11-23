@@ -64,28 +64,27 @@
 
 {{ content }}
 
-  <script src="/js/sp.js"></script>
-  <script src="/vendor/js/bootstrap.min.js"></script>
-  <script src="/vendor/js/anchor.min.js"></script>
-  <script src="/vendor/js/jquery.toc.js"></script>
-  <script type="text/javascript">
-   // Email obfuscation - hex encoded
-   (function() {
-     var hex = "6272616e646f6e2e616d6f732e637340676d61696c2e636f6d";
-     var email = hex.match(/.{1,2}/g).map(function(byte) {
-       return String.fromCharCode(parseInt(byte, 16));
-     }).join('');
-     $('#email-link').attr('href', 'mailto:' + email);
-   })();
+        <script src="/vendor/js/bootstrap.min.js"></script>
+        <script src="/vendor/js/anchor.min.js"></script>
+        <script src="/vendor/js/jquery.toc.js"></script>
+        <script type="text/javascript">
+          // Email obfuscation - hex encoded
+          (function() {
+              var hex = "6272616e646f6e2e616d6f732e637340676d61696c2e636f6d";
+              var email = hex.match(/.{1,2}/g).map(function(byte) {
+                  return String.fromCharCode(parseInt(byte, 16));
+              }).join('');
+              $('#email-link').attr('href', 'mailto:' + email);
+          })();
 
-   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                                   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-   ga('create', 'UA-102191838-1', 'auto');
-   ga('send', 'pageview');
-   // Remove focus highlight on navbar links after pointer activation.
+          ga('create', 'UA-102191838-1', 'auto');
+          ga('send', 'pageview');
+          // Remove focus highlight on navbar links after pointer activation.
    document.addEventListener('DOMContentLoaded', function () {
      var navbarLinks = document.querySelectorAll('.navbar a');
      navbarLinks.forEach(function (link) {
