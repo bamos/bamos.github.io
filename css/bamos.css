@@ -6,10 +6,15 @@
 
 body {
     padding-top: 6em;
+}
+
+body, .navbar, h1, h2 {
     /* background-color: #faf8f3; */
-    background-color: #ffffff;
-    font-family: BlinkMacSystemFont, "Source Sans Pro", sans-serif;
-    font-weight: 200;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+body, .navbar {
+    font-weight: 300;
 }
 
 a {
@@ -31,12 +36,6 @@ a:focus-visible {
 a:focus:not(:hover) {
     color: #2b6f82;
     text-decoration: none;
-}
-
-/* Override Bootstrap heading font */
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: BlinkMacSystemFont, "Source Sans Pro", sans-serif;
 }
 
 .navbar-default {

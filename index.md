@@ -65,7 +65,7 @@ understand and interact with our world, including:
 <br>
 
 
-## <i class="fa fa-chevron-right"></i> Education
+## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Education
 
 <table class="table table-hover">
   <tr>
@@ -91,7 +91,7 @@ understand and interact with our world, including:
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Positions
+## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Positions
 <table class="table table-hover">
 <tr>
   <td style='padding-right:0;'>
@@ -210,7 +210,7 @@ understand and interact with our world, including:
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Honors & Awards
+## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Honors & Awards
 <table class="table table-hover">
 <tr>
   <td>
@@ -295,9 +295,9 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Publications
+## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Publications
 
-<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 11.6k+ citations and an h-index of 42. <br>
+<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 11.7k+ citations and an h-index of 42. <br>
 *Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted</span>.*
 
 <h2>2025</h2>
@@ -2501,7 +2501,7 @@ malware machine learning classifiers.
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Open Source Repositories
+## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Open Source Repositories
 *39k+ GitHub stars across all repositories.*
 
 <table class="table table-hover">
@@ -2511,7 +2511,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2025</span>
     <a href="https://github.com/oripress/AlgoTune">oripress/AlgoTune</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;69
+    | <i class="fa fas fa-star"></i>&nbsp;71
     </span>
   </td>
 </tr>
@@ -2581,7 +2581,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/kuleshov/cornell-cs5785-2024-applied-ml">kuleshov/cornell-cs5785-2024-applied-ml</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;517
+    | <i class="fa fas fa-star"></i>&nbsp;518
     </span>
  <span style='color: gray;'>| <em>Slides for our applied ML course</em></span>  </td>
 </tr>
@@ -2621,7 +2621,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2023</span>
     <a href="https://github.com/facebookresearch/LANCER">facebookresearch/LANCER</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;37
+    | <i class="fa fas fa-star"></i>&nbsp;38
     </span>
  <span style='color: gray;'>| <em>Landscape Surrogate Learning Decision Losses</em></span>  </td>
 </tr>
@@ -2641,7 +2641,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/meta-ot">facebookresearch/meta-ot</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;104
+    | <i class="fa fas fa-star"></i>&nbsp;105
     </span>
   </td>
 </tr>
@@ -2811,7 +2811,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;995
+    | <i class="fa fas fa-star"></i>&nbsp;996
     </span>
  <span style='color: gray;'>| <em>Differentiable PyTorch Model Predictive Control library</em></span>  </td>
 </tr>
@@ -2831,7 +2831,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;303
+    | <i class="fa fas fa-star"></i>&nbsp;306
     </span>
  <span style='color: gray;'>| <em>Input Convex Neural Network experiments</em></span>  </td>
 </tr>
@@ -2841,7 +2841,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;563
+    | <i class="fa fas fa-star"></i>&nbsp;564
     </span>
   </td>
 </tr>
@@ -2851,7 +2851,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;769
+    | <i class="fa fas fa-star"></i>&nbsp;770
     </span>
  <span style='color: gray;'>| <em>Differentiable PyTorch QP solver</em></span>  </td>
 </tr>
@@ -2991,7 +2991,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;412
+    | <i class="fa fas fa-star"></i>&nbsp;413
     </span>
  <span style='color: gray;'>| <em>Source for this CV: creates LaTeX/Markdown from YAML/BibTeX</em></span>  </td>
 </tr>
@@ -3038,7 +3038,7 @@ malware machine learning classifiers.
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Invited Talks
+## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Invited Talks
 *Slides for my major presentations are available
 [here](https://bamos.github.io/presentations/)
 under a CC-BY license.*
@@ -3471,7 +3471,7 @@ under a CC-BY license.*
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Interns and Students
+## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Interns and Students
 <table class="table table-hover">
 <tr>
   <td style='padding-right:0;'>
@@ -3584,7 +3584,7 @@ under a CC-BY license.*
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Professional Activities
+## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Professional Activities
 <table class="table table-hover">
 <tr>
   <td style='padding-right:0;'>
@@ -3752,7 +3752,7 @@ under a CC-BY license.*
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Teaching
+## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Teaching
 <table class="table table-hover">
 <tr>
   <td style='padding-right:0'><strong>Applied Machine Learning</strong>, <em>Cornell Tech CS5785</em>, Co-instructor</td>
@@ -3773,7 +3773,7 @@ under a CC-BY license.*
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Skills
+## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Skills
 <table class="table table-hover">
 <tr>
   <td class='col-md-2'><strong>Programming</strong></td>
@@ -3798,4 +3798,4 @@ Linux, emacs, vim, evil, org, mu4e, xmonad, git, tmux, zsh
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on November 17, 2025.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on November 24, 2025.</p>
