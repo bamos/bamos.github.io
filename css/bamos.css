@@ -8,18 +8,8 @@ body {
     padding-top: 6em;
     /* background-color: #faf8f3; */
     background-color: #ffffff;
-    font-family: BlinkMacSystemFont, "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: BlinkMacSystemFont, "Source Sans Pro", sans-serif;
     font-weight: 200;
-
-    /* Fix Raleway number/ligature alignment */
-    /* font-variant-numeric: lining-nums; */
-    /* -moz-font-feature-settings: "lnum" 1, "liga" 0, "clig" 0; */
-    /* -moz-font-feature-settings: "lnum=1", "liga=0", "clig=0"; */
-    /* -ms-font-feature-settings: "lnum" 1, "liga" 0, "clig" 0; */
-    /* -o-font-feature-settings: "lnum" 1, "liga" 0, "clig" 0; */
-    /* -webkit-font-feature-settings: "lnum" 1, "liga" 0, "clig" 0; */
-    /* font-feature-settings: "lnum" 1, "liga" 0, "clig" 0; */
-    /* font-variant-ligatures: none; */
 }
 
 a {
@@ -46,7 +36,7 @@ a:focus:not(:hover) {
 /* Override Bootstrap heading font */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: BlinkMacSystemFont, "Source Sans Pro", sans-serif;
 }
 
 .navbar-default {

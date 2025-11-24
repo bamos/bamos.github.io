@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap");
 /*!
  * bootswatch v3.3.6
  * Homepage: http://bootswatch.com
@@ -1188,7 +1188,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   line-height: 1.1;
   color: inherit;
@@ -6759,7 +6759,7 @@ button.close {
   }
 }
 .navbar {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .navbar-nav,
 .navbar-form {
@@ -6801,13 +6801,13 @@ button.close {
   }
 }
 .btn {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 legend {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .input-group-addon {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .nav .open > a,
 .nav .open > a:hover,
@@ -6815,14 +6815,14 @@ legend {
   border: 1px solid #ddd;
 }
 .pagination {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .pagination-lg > li > a,
 .pagination-lg > li > span {
   padding: 14px 24px;
 }
 .pager {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .pager a {
   color: #333333;
@@ -6850,7 +6850,7 @@ legend {
   text-decoration: underline;
 }
 .label {
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 .label-default {
@@ -6860,7 +6860,7 @@ legend {
 .badge {
   padding: 1px 7px 5px;
   vertical-align: 2px;
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 .panel {
