@@ -53,7 +53,7 @@ a:focus:not(:hover) {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #edebe5;
+    background-color: #ecf6fe;
     border-color: var(--navbar-text-color);
 }
 
