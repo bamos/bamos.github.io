@@ -95,6 +95,13 @@ understand and interact with our world, including:
 <table class="table table-hover">
 <tr>
   <td style='padding-right:0;'>
+<span class='cvdate'>2025&ndash;</span>
+<p markdown="1" style='margin: 0'><strong>Member of Technical Staff</strong>, <em>Reflection AI</em>, New York City
+</p>
+  </td>
+</tr>
+<tr>
+  <td style='padding-right:0;'>
 <span class='cvdate'>2019&ndash;2025</span>
 <p markdown="1" style='margin: 0'><strong>Research Scientist</strong>, <em>Meta Superintelligence Labs</em>, New York City
 </p>
@@ -3056,12 +3063,20 @@ under a CC-BY license.*
   <td align='right' style='padding-right:0;padding-left:0;'>2.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2025</span>
+     <a href="https://bamos.github.io/presentations/2025.alignment-and-tools.html"><em>Language model alignment and tool use</em></a> •
+        Cornell Tech CS5785 Guest Lecture
+  </td>
+</tr>
+<tr>
+  <td align='right' style='padding-right:0;padding-left:0;'>3.</td>
+  <td style='padding-right:0;'>
+    <span class='cvdate'>2025</span>
      <a href="https://bamos.github.io/presentations/2025.transport-flows-physics.html"><em>On transport, flows, and physics</em></a> •
         <a href="https://pcts.princeton.edu/events/2025/physics-john-hopfield">The Physics of John Hopfield Workshop at Princeton University</a>
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>3.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>4.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2025</span>
      <a href="https://bamos.github.io/presentations/2025.demystifying-lms.html"><em>Demystifying language models</em></a> •
@@ -3069,7 +3084,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>4.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>5.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2025</span>
      <a href="https://bamos.github.io/presentations/2025.advprompter-algotune.html"><em>On meta prompt optimization and coding agents</em></a> •
@@ -3077,7 +3092,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>5.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>6.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2025</span>
      <a href="https://bamos.github.io/presentations/2025.advprompter.html"><em>AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs</em></a> •
@@ -3085,7 +3100,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>6.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>7.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2025</span>
      <a href="https://bamos.github.io/presentations/2025.amortization-rl-bio.html"><em>On amortized optimization for RL, Bayesian optimization, and biology</em></a> •
@@ -3093,7 +3108,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>7.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>8.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2025</span>
      <a href="https://bamos.github.io/presentations/2024.transport-between-distributions-over-distributions.html"><em>Transport and flows between distributions over distributions</em></a> •
@@ -3101,7 +3116,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>8.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>9.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2024</span>
      <a href="https://bamos.github.io/presentations/2024.transport-between-distributions-over-distributions.html"><em>Transport and flows between distributions over distributions</em></a> •
@@ -3109,7 +3124,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>9.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>10.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2024</span>
      <a href="https://bamos.github.io/presentations/2024.transport-between-distributions-over-distributions.html"><em>Transport and flows between distributions over distributions</em></a> •
@@ -3117,7 +3132,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>10.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>11.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2024</span>
      <a href="https://bamos.github.io/presentations/2024.prompt-optimization-and-amortization.html"><em>On LLM prompt optimization and amortization</em></a> •
@@ -3125,7 +3140,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>11.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>12.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2024</span>
      <a href="https://bamos.github.io/presentations/2024.amortized-optimization-for-OT-and-LLMs.html"><em>Amortized optimization for optimal transport and LLM attacks</em></a> •
@@ -3133,7 +3148,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>12.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>13.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2024</span>
      <a href="https://bamos.github.io/presentations/2024.differentiable-optimization-and-robotics.html"><em>Differentiable optimization for robotics</em></a> •
@@ -3141,7 +3156,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>13.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>14.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2024</span>
      <a href="https://bamos.github.io/presentations/2024.amortized-optimization-and-AI.html"><em>Amortized optimization-based reasoning for AI</em></a> •
@@ -3149,7 +3164,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>14.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>15.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2024</span>
      <a href="https://bamos.github.io/presentations/2024.e2e-geometries.html"><em>End-to-end learning geometries for graphs, dynamical systems, and regression</em></a> •
@@ -3157,7 +3172,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>15.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>16.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2023</span>
      <a href="https://bamos.github.io/presentations/2023.amortized-optimal-transport.html"><em>Amortized optimization for optimal transport</em></a> •
@@ -3165,7 +3180,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>16.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>17.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2023</span>
      <a href="https://bamos.github.io/presentations/2023.control-learning.html"><em>On optimal control and machine learning</em></a> •
@@ -3173,7 +3188,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>17.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>18.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2023</span>
      <a href="https://bamos.github.io/presentations/2023.amortized-optimization.html"><em>Tutorial on amortized optimization</em></a> •
@@ -3181,7 +3196,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>18.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>19.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2023</span>
      <a href="https://bamos.github.io/presentations/2023.differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a> •
@@ -3189,7 +3204,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>19.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>20.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2023</span>
      <a href="https://bamos.github.io/presentations/2023.differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a> •
@@ -3197,7 +3212,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>20.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>21.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2023.differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a> •
@@ -3205,7 +3220,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>21.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>22.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2022.amortized-optimal-transport.html"><em>Amortized optimization for computing optimal transport maps</em></a> •
@@ -3213,7 +3228,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>22.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>23.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2023.differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a> •
@@ -3221,7 +3236,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>23.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>24.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2023.differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a> •
@@ -3229,7 +3244,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>24.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>25.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2023.differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a> •
@@ -3237,7 +3252,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>25.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>26.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <a href="https://slideslive.com/38992360/theseus-a-library-for-differentiable-nonlinear-optimization"><em>Theseus: A library for differentiable nonlinear optimization</em></a> •
@@ -3245,7 +3260,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>26.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>27.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <a href="https://slideslive.com/38992360/theseus-a-library-for-differentiable-nonlinear-optimization"><em>Theseus: A library for differentiable nonlinear optimization</em></a> •
@@ -3253,7 +3268,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>27.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>28.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> •
@@ -3261,7 +3276,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>28.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>29.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization</em></a> •
@@ -3269,7 +3284,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>29.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>30.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-control.html"><em>Differentiable optimization for control and RL</em></a> •
@@ -3277,7 +3292,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>30.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>31.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> •
@@ -3285,7 +3300,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>31.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>32.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2022.amortized-optimization.html"><em>Tutorial on amortized optimization</em></a> •
@@ -3293,7 +3308,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>32.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>33.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-control.html"><em>Differentiable optimization for control and RL</em></a> •
@@ -3301,7 +3316,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>33.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>34.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2021</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-control.html"><em>Learning for control with differentiable optimization and ODEs</em></a> •
@@ -3309,7 +3324,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>34.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>35.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2021</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> •
@@ -3317,7 +3332,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>35.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>36.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2020</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-control.html"><em>Differentiable optimization for control</em></a> •
@@ -3325,7 +3340,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>36.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>37.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2020</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> •
@@ -3333,7 +3348,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>37.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>38.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2020</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Deep Declarative Networks</em></a> •
@@ -3341,7 +3356,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>38.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>39.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2020</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>On differentiable optimization for control and vision</em></a> •
@@ -3349,15 +3364,15 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>39.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>40.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2020</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> •
-        <a href="https://sites.google.com/view/cs-159-spring-2020/lectures">Caltech CS 159 (Guest Lecture)</a>
+        <a href="https://sites.google.com/view/cs-159-spring-2020/lectures">Caltech CS159 Guest Lecture</a>
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>40.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>41.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2020</span>
      <a href="https://bamos.github.io/presentations/2020.dcem.html"><em>Unrolled optimization for learning deep energy models</em></a> •
@@ -3365,7 +3380,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>41.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>42.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2019</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> •
@@ -3373,7 +3388,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>42.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>43.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2019</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> •
@@ -3381,7 +3396,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>43.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>44.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2019</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> •
@@ -3389,7 +3404,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>44.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>45.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> •
@@ -3397,7 +3412,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>45.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>46.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> •
@@ -3405,7 +3420,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>46.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>47.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> •
@@ -3413,7 +3428,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>47.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>48.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> •
@@ -3421,7 +3436,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>48.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>49.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> •
@@ -3429,7 +3444,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>49.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>50.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> •
@@ -3437,7 +3452,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>50.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>51.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> •
@@ -3445,7 +3460,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>51.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>52.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> •
@@ -3453,7 +3468,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>52.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>53.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a> •
@@ -3461,7 +3476,7 @@ under a CC-BY license.*
   </td>
 </tr>
 <tr>
-  <td align='right' style='padding-right:0;padding-left:0;'>53.</td>
+  <td align='right' style='padding-right:0;padding-left:0;'>54.</td>
   <td style='padding-right:0;'>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-control.html"><em>Differentiable optimization and control</em></a> •
@@ -3586,6 +3601,12 @@ under a CC-BY license.*
 
 ## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Professional Activities
 <table class="table table-hover">
+<tr>
+  <td style='padding-right:0;'>
+  <span class='cvdate'>2026</span>
+      ICML Area Chair
+  </td>
+</tr>
 <tr>
   <td style='padding-right:0;'>
   <span class='cvdate'>2026</span>
@@ -3798,4 +3819,4 @@ Linux, emacs, vim, evil, org, mu4e, xmonad, git, tmux, zsh
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on November 24, 2025.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on December 08, 2025.</p>
