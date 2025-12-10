@@ -96,21 +96,21 @@ understand and interact with our world, including:
 <tr>
   <td style='padding-right:0;'>
 <span class='cvdate'>2025&ndash;</span>
-<p markdown="1" style='margin: 0'><strong>Member of Technical Staff</strong>, <em>Reflection AI</em>, New York City
+<p markdown="1" style='margin: 0'><strong>Member of Technical Staff in Post-Training</strong>, <em>Reflection AI</em>, New York City
 </p>
   </td>
 </tr>
 <tr>
   <td style='padding-right:0;'>
 <span class='cvdate'>2019&ndash;2025</span>
-<p markdown="1" style='margin: 0'><strong>Research Scientist</strong>, <em>Meta Superintelligence Labs</em>, New York City
+<p markdown="1" style='margin: 0'><strong>Research Scientist in FAIR</strong>, <em>Meta Superintelligence Labs</em>, New York City
 </p>
   </td>
 </tr>
 <tr>
   <td style='padding-right:0;'>
 <span class='cvdate'>2024</span>
-<p markdown="1" style='margin: 0'><strong>Visiting Lecturer</strong>, <em>Cornell Tech</em>, New York City
+<p markdown="1" style='margin: 0'><strong>Visiting Lecturer of Computer Science</strong>, <em>Cornell Tech</em>, New York City
 </p>
   </td>
 </tr>
@@ -304,7 +304,7 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 
 ## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Publications
 
-<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 11.7k+ citations and an h-index of 42. <br>
+<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 11.8k+ citations and an h-index of 42. <br>
 *Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted</span>.*
 
 <h2>2025</h2>
@@ -317,7 +317,7 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 <td>
 
 <em><a href='https://arxiv.org/abs/2410.23022' target='_blank'>Online Intrinsic Rewards for Decision Making Agents from Large Language Model Feedback</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zheng2024onlineintrinsicrewardsdecision").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/oni' target='_blank'>code</a><br>
-<a href='https://enosair.github.io/' target='_blank'>Qinqing&nbsp;Zheng</a>, <a href='https://www.mikaelhenaff.com/' target='_blank'>Mikael&nbsp;Henaff</a>, <a href='https://amyzhang.github.io/' target='_blank'>Amy&nbsp;Zhang</a>, <a href='https://aditya-grover.github.io/' target='_blank'>Aditya&nbsp;Grover</a>, and <strong>Brandon&nbsp;Amos</strong><br>
+<a href='https://enosair.github.io/' target='_blank'>Qinqing&nbsp;Zheng</a>, <a href='https://scholar.google.com/citations?user=bX__wkYAAAAJ' target='_blank'>Mikael&nbsp;Henaff</a>, <a href='https://amyzhang.github.io/' target='_blank'>Amy&nbsp;Zhang</a>, <a href='https://aditya-grover.github.io/' target='_blank'>Aditya&nbsp;Grover</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 RLC 2025  <br>
 <div id="abs_zheng2024onlineintrinsicrewardsdecision" class="abstract-box" style="display: none" markdown="1">
 Automatically synthesizing dense rewards from natural language
@@ -365,7 +365,7 @@ external datasets nor source code.
 <td>
 
 <em><a href='https://arxiv.org/abs/2404.16873' target='_blank'>AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_paulus2024advprompter").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/advprompter' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2025.advprompter.html' target='_blank'>slides</a><br>
-<a href='https://scholar.google.com/citations?user=njZL5CQAAAAJ' target='_blank'>Anselm&nbsp;Paulus*</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov*</a>, <a href='https://sites.google.com/view/chuanguo' target='_blank'>Chuan&nbsp;Guo</a>, <strong>Brandon&nbsp;Amos<sup style="font-family: Georgia, serif;">&dagger;</sup></strong>, and <a href='https://yuandong-tian.com/' target='_blank'>Yuandong&nbsp;Tian<sup style="font-family: Georgia, serif;">&dagger;</sup></a><br>
+<a href='https://scholar.google.com/citations?user=njZL5CQAAAAJ' target='_blank'>Anselm&nbsp;Paulus*</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov*</a>, <a href='https://sites.google.com/view/chuanguo' target='_blank'>Chuan&nbsp;Guo</a>, <strong>Brandon&nbsp;Amos<sup style="font-family: Georgia, serif;">&dagger;</sup></strong>, and <a href='https://scholar.google.com/citations?user=0mgEF28AAAAJ' target='_blank'>Yuandong&nbsp;Tian<sup style="font-family: Georgia, serif;">&dagger;</sup></a><br>
 ICML 2025  <br>
 <div id="abs_paulus2024advprompter" class="abstract-box" style="display: none" markdown="1">
 While recently Large Language Models (LLMs) have achieved remarkable successes, they are vulnerable to certain jailbreaking attacks that lead to generation of inappropriate or harmful content. Manual red-teaming requires finding adversarial prompts that cause such jailbreaking, e.g. by appending a suffix to a given instruction, which is inefficient and time-consuming.
@@ -488,7 +488,7 @@ Many real-world optimization problems contain parameters that are unknown before
 <td>
 
 <em><a href='https://arxiv.org/abs/2412.10321' target='_blank'>AdvPrefix: An Objective for Nuanced LLM Jailbreaks</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhu2025advprefixobjectivenuancedllm").toggle()'>abstract</a><br>
-<a href='https://schzhu.github.io/' target='_blank'>Sicheng&nbsp;Zhu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://yuandong-tian.com/' target='_blank'>Yuandong&nbsp;Tian</a>, <a href='https://sites.google.com/view/chuanguo' target='_blank'>Chuan&nbsp;Guo</a>, and <a href='https://ivanevtimov.eu/' target='_blank'>Ivan&nbsp;Evtimov</a><br>
+<a href='https://schzhu.github.io/' target='_blank'>Sicheng&nbsp;Zhu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=0mgEF28AAAAJ' target='_blank'>Yuandong&nbsp;Tian</a>, <a href='https://sites.google.com/view/chuanguo' target='_blank'>Chuan&nbsp;Guo</a>, and <a href='https://ivanevtimov.eu/' target='_blank'>Ivan&nbsp;Evtimov</a><br>
 NeurIPS 2025  <br>
 <div id="abs_zhu2025advprefixobjectivenuancedllm" class="abstract-box" style="display: none" markdown="1">
 Many jailbreak attacks on large language models (LLMs) rely on a
@@ -705,7 +705,7 @@ Stochastic optimal control, which has the goal of driving the behavior of noisy 
 <td>
 
 <em><a href='https://arxiv.org/abs/2410.16456' target='_blank'>To the Globe (TTG): Towards Language-Driven Guaranteed Travel Planning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_ju2024to").toggle()'>abstract</a><br>
-<a href='https://scholar.google.com/citations?user=YW5jp5QAAAAJ' target='_blank'>Da&nbsp;JU</a>, <a href='https://scholar.google.com/citations?user=SjbhMQEAAAAJ' target='_blank'>Song&nbsp;Jiang</a>, <a href='https://scholar.google.com/citations?user=v1Frtb0AAAAJ' target='_blank'>Andrew&nbsp;Cohen</a>, <a href='https://openreview.net/profile?id=~Aaron_Foss1' target='_blank'>Aaron&nbsp;Foss</a>, <a href='https://scholar.google.com/citations?user=ncFsSKMAAAAJ' target='_blank'>Sasha&nbsp;Mitts</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=v_sIgawAAAAJ' target='_blank'>Xian&nbsp;Li</a>, <a href='https://scholar.google.com/citations?user=Y9BLeTAAAAAJ' target='_blank'>Justine&nbsp;T&nbsp;Kao</a>, <a href='https://scholar.google.com/citations?user=7-a1MKEAAAAJ' target='_blank'>Maryam&nbsp;Fazel-Zarandi</a>, and <a href='https://yuandong-tian.com/' target='_blank'>Yuandong&nbsp;Tian</a><br>
+<a href='https://scholar.google.com/citations?user=YW5jp5QAAAAJ' target='_blank'>Da&nbsp;JU</a>, <a href='https://scholar.google.com/citations?user=SjbhMQEAAAAJ' target='_blank'>Song&nbsp;Jiang</a>, <a href='https://scholar.google.com/citations?user=v1Frtb0AAAAJ' target='_blank'>Andrew&nbsp;Cohen</a>, <a href='https://openreview.net/profile?id=~Aaron_Foss1' target='_blank'>Aaron&nbsp;Foss</a>, <a href='https://scholar.google.com/citations?user=ncFsSKMAAAAJ' target='_blank'>Sasha&nbsp;Mitts</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=v_sIgawAAAAJ' target='_blank'>Xian&nbsp;Li</a>, <a href='https://scholar.google.com/citations?user=Y9BLeTAAAAAJ' target='_blank'>Justine&nbsp;T&nbsp;Kao</a>, <a href='https://scholar.google.com/citations?user=7-a1MKEAAAAJ' target='_blank'>Maryam&nbsp;Fazel-Zarandi</a>, and <a href='https://scholar.google.com/citations?user=0mgEF28AAAAJ' target='_blank'>Yuandong&nbsp;Tian</a><br>
 EMNLP Demo 2024  <br>
 <div id="abs_ju2024to" class="abstract-box" style="display: none" markdown="1">
 Travel planning is a challenging and time-consuming task that aims to find an itinerary which satisfies multiple, interdependent constraints regarding flights, accommodations, attractions, and other travel arrangements. In this paper, we propose To the Globe (TTG), a real-time demo system that takes natural language requests from users, translates it to symbolic form via a fine-tuned Large Language Model, and produces optimal travel itineraries with Mixed Integer Linear Programming solvers. The overall system takes ~5 seconds to reply to the user request with guaranteed itineraries. To train TTG, we develop a synthetic data pipeline that generates user requests, flight and hotel information in symbolic form without human annotations, based on the statistics of real-world datasets, and fine-tune an LLM to translate NL user requests to their symbolic form, which is sent to the symbolic solver to compute optimal itineraries. Our NL-symbolic translation achieves ~91% exact match in a backtranslation metric (i.e., whether the estimated symbolic form of generated natural language matches the groundtruth), and its returned itineraries have a ratio of 0.979 compared to the optimal cost of the ground truth user request. When evaluated by users, TTG achieves consistently high Net Promoter Scores (NPS) of 35-40% on generated itinerary.
@@ -893,7 +893,7 @@ sets, and lead to better low-cost sample generation.
 <td>
 
 <em><a href='https://arxiv.org/abs/2210.06518' target='_blank'>Semi-Supervised Offline Reinforcement Learning with Action-Free Trajectories</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zheng2023semi").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/ssorl/' target='_blank'>code</a><br>
-<a href='https://enosair.github.io/' target='_blank'>Qinqing&nbsp;Zheng</a>, <a href='https://www.mikaelhenaff.com/' target='_blank'>Mikael&nbsp;Henaff</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://aditya-grover.github.io/' target='_blank'>Aditya&nbsp;Grover</a><br>
+<a href='https://enosair.github.io/' target='_blank'>Qinqing&nbsp;Zheng</a>, <a href='https://scholar.google.com/citations?user=bX__wkYAAAAJ' target='_blank'>Mikael&nbsp;Henaff</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://aditya-grover.github.io/' target='_blank'>Aditya&nbsp;Grover</a><br>
 ICML 2023  <br>
 <div id="abs_zheng2023semi" class="abstract-box" style="display: none" markdown="1">
 Natural agents can effectively learn from multiple data sources that
@@ -970,7 +970,7 @@ distracting states.
 <td>
 
 <em><a href='https://arxiv.org/abs/2307.08964' target='_blank'>Landscape Surrogate: Learning Decision Losses for Mathematical Optimization Under Partial Information</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zharmagambetov2023landscape").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/LANCER' target='_blank'>code</a><br>
-<a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=TuVq07oAAAAJ' target='_blank'>Aaron&nbsp;Ferber</a>, <a href='https://taoanhuang.github.io/' target='_blank'>Taoan&nbsp;Huang</a>, <a href='https://scholar.google.com/citations?user=1jjyaBYAAAAJ' target='_blank'>Bistra&nbsp;Dilkina</a>, and <a href='https://yuandong-tian.com/' target='_blank'>Yuandong&nbsp;Tian</a><br>
+<a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=TuVq07oAAAAJ' target='_blank'>Aaron&nbsp;Ferber</a>, <a href='https://taoanhuang.github.io/' target='_blank'>Taoan&nbsp;Huang</a>, <a href='https://scholar.google.com/citations?user=1jjyaBYAAAAJ' target='_blank'>Bistra&nbsp;Dilkina</a>, and <a href='https://scholar.google.com/citations?user=0mgEF28AAAAJ' target='_blank'>Yuandong&nbsp;Tian</a><br>
 NeurIPS 2023  <br>
 <div id="abs_zharmagambetov2023landscape" class="abstract-box" style="display: none" markdown="1">
 Recent works in learning-integrated optimization have shown promise in
@@ -1594,7 +1594,7 @@ from Riemannian geometry.
 <td>
 
 <em><a href='https://openreview.net/pdf?id=Xe5MFhFvYGX' target='_blank'>Imitation Learning from Pixel Observations for Continuous Control</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_cohen2021imitation").toggle()'>abstract</a><br>
-<a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.deisenroth.cc/' target='_blank'>Marc&nbsp;Peter&nbsp;Deisenroth</a>, <a href='https://www.mikaelhenaff.com/' target='_blank'>Mikael&nbsp;Henaff</a>, <a href='https://www.eugenevinitsky.com' target='_blank'>Eugene&nbsp;Vinitsky</a>, and <a href='https://scholar.google.com/citations?user=7kaXqgMAAAAJ' target='_blank'>Denis&nbsp;Yarats</a><br>
+<a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.deisenroth.cc/' target='_blank'>Marc&nbsp;Peter&nbsp;Deisenroth</a>, <a href='https://scholar.google.com/citations?user=bX__wkYAAAAJ' target='_blank'>Mikael&nbsp;Henaff</a>, <a href='https://www.eugenevinitsky.com' target='_blank'>Eugene&nbsp;Vinitsky</a>, and <a href='https://scholar.google.com/citations?user=7kaXqgMAAAAJ' target='_blank'>Denis&nbsp;Yarats</a><br>
 NeurIPS DeepRL Workshop 2021  <br>
 <div id="abs_cohen2021imitation" class="abstract-box" style="display: none" markdown="1">
 We study imitation learning from visual observations only for
@@ -2525,7 +2525,7 @@ malware machine learning classifiers.
 
 
 ## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Open Source Repositories
-*39k+ GitHub stars across all repositories.*
+*39.1k+ GitHub stars across all repositories.*
 
 <table class="table table-hover">
 <tr>
@@ -2534,7 +2534,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2025</span>
     <a href="https://github.com/oripress/AlgoTune">oripress/AlgoTune</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;71
+    | <i class="fa fas fa-star"></i>&nbsp;74
     </span>
   </td>
 </tr>
@@ -2544,7 +2544,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2025</span>
     <a href="https://github.com/facebookresearch/adjoint_sampling">facebookresearch/adjoint_sampling</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;125
+    | <i class="fa fas fa-star"></i>&nbsp;128
     </span>
   </td>
 </tr>
@@ -2564,7 +2564,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/advprompter">facebookresearch/advprompter</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;170
+    | <i class="fa fas fa-star"></i>&nbsp;171
     </span>
  <span style='color: gray;'>| <em>Fast Adaptive Adversarial Prompting for LLMs</em></span>  </td>
 </tr>
@@ -2584,7 +2584,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/lazaratan/meta-flow-matching">lazaratan/meta-flow-matching</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;66
+    | <i class="fa fas fa-star"></i>&nbsp;69
     </span>
   </td>
 </tr>
@@ -2604,7 +2604,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/kuleshov/cornell-cs5785-2024-applied-ml">kuleshov/cornell-cs5785-2024-applied-ml</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;518
+    | <i class="fa fas fa-star"></i>&nbsp;521
     </span>
  <span style='color: gray;'>| <em>Slides for our applied ML course</em></span>  </td>
 </tr>
@@ -2614,7 +2614,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2023</span>
     <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;248
+    | <i class="fa fas fa-star"></i>&nbsp;249
     </span>
   </td>
 </tr>
@@ -2624,7 +2624,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2023</span>
     <a href="https://github.com/facebookresearch/taskmet">facebookresearch/taskmet</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;19
+    | <i class="fa fas fa-star"></i>&nbsp;20
     </span>
  <span style='color: gray;'>| <em>Task-Driven Metric Learning for Model Learning</em></span>  </td>
 </tr>
@@ -2754,7 +2754,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/neural_stpp">facebookresearch/neural_stpp</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;105
+    | <i class="fa fas fa-star"></i>&nbsp;106
     </span>
  <span style='color: gray;'>| <em>Neural Spatio-Temporal Point Processes</em></span>  </td>
 </tr>
@@ -2774,7 +2774,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/rtqichen/torchdiffeq">rtqichen/torchdiffeq</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;6.2k
+    | <i class="fa fas fa-star"></i>&nbsp;6.3k
     </span>
  <span style='color: gray;'>| <em>PyTorch Differentiable ODE Solvers (differentiable event handling)</em></span>  </td>
 </tr>
@@ -2804,7 +2804,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2019</span>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;343
+    | <i class="fa fas fa-star"></i>&nbsp;344
     </span>
  <span style='color: gray;'>| <em>Ph.D. Thesis LaTeX source code</em></span>  </td>
 </tr>
@@ -2834,7 +2834,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;996
+    | <i class="fa fas fa-star"></i>&nbsp;1k
     </span>
  <span style='color: gray;'>| <em>Differentiable PyTorch Model Predictive Control library</em></span>  </td>
 </tr>
@@ -2844,7 +2844,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;303
+    | <i class="fa fas fa-star"></i>&nbsp;305
     </span>
   </td>
 </tr>
@@ -2854,7 +2854,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;306
+    | <i class="fa fas fa-star"></i>&nbsp;307
     </span>
  <span style='color: gray;'>| <em>Input Convex Neural Network experiments</em></span>  </td>
 </tr>
@@ -2864,7 +2864,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;564
+    | <i class="fa fas fa-star"></i>&nbsp;566
     </span>
   </td>
 </tr>
@@ -2874,7 +2874,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;770
+    | <i class="fa fas fa-star"></i>&nbsp;772
     </span>
  <span style='color: gray;'>| <em>Differentiable PyTorch QP solver</em></span>  </td>
 </tr>
@@ -2884,7 +2884,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;842
+    | <i class="fa fas fa-star"></i>&nbsp;844
     </span>
   </td>
 </tr>
@@ -2974,7 +2974,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2014</span>
     <a href="https://github.com/bamos/zsh-history-analysis">bamos/zsh-history-analysis</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;242
+    | <i class="fa fas fa-star"></i>&nbsp;241
     </span>
   </td>
 </tr>
@@ -3014,7 +3014,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;413
+    | <i class="fa fas fa-star"></i>&nbsp;414
     </span>
  <span style='color: gray;'>| <em>Source for this CV: creates LaTeX/Markdown from YAML/BibTeX</em></span>  </td>
 </tr>
@@ -3024,7 +3024,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/parsec-benchmark">bamos/parsec-benchmark</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;122
+    | <i class="fa fas fa-star"></i>&nbsp;124
     </span>
  <span style='color: gray;'>| <em>PARSEC benchmark support for Arch Linux</em></span>  </td>
 </tr>
