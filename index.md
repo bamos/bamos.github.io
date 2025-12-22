@@ -304,7 +304,7 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 
 ## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Publications
 
-<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 11.8k+ citations and an h-index of 42. <br>
+<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 11.9k+ citations and an h-index of 42. <br>
 *Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted</span>.*
 
 <h2>2025</h2>
@@ -597,7 +597,7 @@ Today's generative models thrive with large amounts of supervised data and infor
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2512.02494' target='_blank'>A Fully First-Order Layer for Differentiable Optimization</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhao2025fullyfirstorderlayerdifferentiable").toggle()'>abstract</a><br>
+<em><a href='https://arxiv.org/abs/2512.02494' target='_blank'>A Fully First-Order Layer for Differentiable Optimization</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhao2025fullyfirstorderlayerdifferentiable").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/guaguakai/FFOLayer' target='_blank'>code</a><br>
 <a href='https://scholar.google.com/citations?user=825UyCgAAAAJ' target='_blank'>Zihao&nbsp;Zhao</a>, <a href='https://www.linkedin.com/in/kai-chia-mo-300ab3165/' target='_blank'>Kai-Chia&nbsp;Mo</a>, <a href='https://scholar.google.com/citations?user=_NcwyFkAAAAJ' target='_blank'>Shing-Hei&nbsp;Ho</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://scholar.google.com/citations?user=spWVns8AAAAJ' target='_blank'>Kai&nbsp;Wang</a><br>
 arXiv 2025  <br>
 <div id="abs_zhao2025fullyfirstorderlayerdifferentiable" class="abstract-box" style="display: none" markdown="1">
@@ -2534,7 +2534,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2025</span>
     <a href="https://github.com/oripress/AlgoTune">oripress/AlgoTune</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;74
+    | <i class="fa fas fa-star"></i>&nbsp;76
     </span>
   </td>
 </tr>
@@ -2544,7 +2544,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2025</span>
     <a href="https://github.com/facebookresearch/adjoint_sampling">facebookresearch/adjoint_sampling</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;128
+    | <i class="fa fas fa-star"></i>&nbsp;130
     </span>
   </td>
 </tr>
@@ -2564,7 +2564,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/advprompter">facebookresearch/advprompter</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;171
+    | <i class="fa fas fa-star"></i>&nbsp;172
     </span>
  <span style='color: gray;'>| <em>Fast Adaptive Adversarial Prompting for LLMs</em></span>  </td>
 </tr>
@@ -2604,7 +2604,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/kuleshov/cornell-cs5785-2024-applied-ml">kuleshov/cornell-cs5785-2024-applied-ml</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;521
+    | <i class="fa fas fa-star"></i>&nbsp;522
     </span>
  <span style='color: gray;'>| <em>Slides for our applied ML course</em></span>  </td>
 </tr>
@@ -2694,7 +2694,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/nocturne">facebookresearch/nocturne</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;289
+    | <i class="fa fas fa-star"></i>&nbsp;290
     </span>
  <span style='color: gray;'>| <em>A partially-observable multi-agent driving simulator</em></span>  </td>
 </tr>
@@ -2754,7 +2754,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/neural_stpp">facebookresearch/neural_stpp</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;106
+    | <i class="fa fas fa-star"></i>&nbsp;107
     </span>
  <span style='color: gray;'>| <em>Neural Spatio-Temporal Point Processes</em></span>  </td>
 </tr>
@@ -2844,7 +2844,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;305
+    | <i class="fa fas fa-star"></i>&nbsp;307
     </span>
   </td>
 </tr>
@@ -2864,7 +2864,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;566
+    | <i class="fa fas fa-star"></i>&nbsp;570
     </span>
   </td>
 </tr>
@@ -2874,7 +2874,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;772
+    | <i class="fa fas fa-star"></i>&nbsp;773
     </span>
  <span style='color: gray;'>| <em>Differentiable PyTorch QP solver</em></span>  </td>
 </tr>
@@ -2884,7 +2884,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;844
+    | <i class="fa fas fa-star"></i>&nbsp;846
     </span>
   </td>
 </tr>
@@ -3014,7 +3014,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;414
+    | <i class="fa fas fa-star"></i>&nbsp;415
     </span>
  <span style='color: gray;'>| <em>Source for this CV: creates LaTeX/Markdown from YAML/BibTeX</em></span>  </td>
 </tr>
@@ -3024,7 +3024,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/parsec-benchmark">bamos/parsec-benchmark</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;124
+    | <i class="fa fas fa-star"></i>&nbsp;126
     </span>
  <span style='color: gray;'>| <em>PARSEC benchmark support for Arch Linux</em></span>  </td>
 </tr>
@@ -3034,7 +3034,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/python-scripts">bamos/python-scripts</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;196
+    | <i class="fa fas fa-star"></i>&nbsp;197
     </span>
   </td>
 </tr>
@@ -3619,72 +3619,6 @@ under a CC-BY license.*
 <table class="table table-hover">
 <tr>
   <td style='padding-right:0;'>
-  <span class='cvdate'>2026</span>
-      ICML Area Chair
-  </td>
-</tr>
-<tr>
-  <td style='padding-right:0;'>
-  <span class='cvdate'>2026</span>
-      AAAI Senior Program Committee
-  </td>
-</tr>
-<tr>
-  <td style='padding-right:0;'>
-  <span class='cvdate'>2026</span>
-      AISTATS Area Chair
-  </td>
-</tr>
-<tr>
-  <td style='padding-right:0;'>
-  <span class='cvdate'>2025</span>
-      NeurIPS Area Chair
-  </td>
-</tr>
-<tr>
-  <td style='padding-right:0;'>
-  <span class='cvdate'>2025</span>
-      AAAI Senior Program Committee
-  </td>
-</tr>
-<tr>
-  <td style='padding-right:0;'>
-  <span class='cvdate'>2024</span>
-      NeurIPS Area Chair
-  </td>
-</tr>
-<tr>
-  <td style='padding-right:0;'>
-  <span class='cvdate'>2024</span>
-      NeurIPS Datasets and Benchmarks Area Chair
-  </td>
-</tr>
-<tr>
-  <td style='padding-right:0;'>
-  <span class='cvdate'>2024</span>
-      AAAI Senior Program Committee
-  </td>
-</tr>
-<tr>
-  <td style='padding-right:0;'>
-  <span class='cvdate'>2023</span>
-      NeurIPS Area Chair
-  </td>
-</tr>
-<tr>
-  <td style='padding-right:0;'>
-  <span class='cvdate'>2023</span>
-      NeurIPS Datasets and Benchmarks Area Chair
-  </td>
-</tr>
-<tr>
-  <td style='padding-right:0;'>
-  <span class='cvdate'>2023</span>
-      AAAI Senior Program Committee
-  </td>
-</tr>
-<tr>
-  <td style='padding-right:0;'>
   <span class='cvdate'>2020</span>
      <a href="https://sites.google.com/view/lmca2020/home">NeurIPS Learning Meets Combinatorial Optimization Workshop Organizer</a>
   </td>
@@ -3709,16 +3643,38 @@ under a CC-BY license.*
 </tr>
 </table>
 
-### Reviewing
+### Area Chair
 <table class="table table-hover">
 <tr>
-  <td style='padding-right:0;'>AAAI Conference on Artificial Intelligence</td>
+  <td style='padding-right:0;'>Artificial Intelligence and Statistics (AISTATS)</td>
 </tr>
+<tr>
+  <td style='padding-right:0;'>Association for the Advancement of Artificial Intelligence (AAAI)</td>
+</tr>
+<tr>
+  <td style='padding-right:0;'>International Conference on Learning Representations (ICLR)</td>
+</tr>
+<tr>
+  <td style='padding-right:0;'>International Conference on Machine Learning (ICML)</td>
+</tr>
+<tr>
+  <td style='padding-right:0;'>Neural Information Processing Systems (NeurIPS)</td>
+</tr>
+<tr>
+  <td style='padding-right:0;'>Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks</td>
+</tr>
+</table>
+
+### Reviewing
+<table class="table table-hover">
 <tr>
   <td style='padding-right:0;'>American Controls Conference (ACC)</td>
 </tr>
 <tr>
   <td style='padding-right:0;'>Artificial Intelligence and Statistics (AISTATS)</td>
+</tr>
+<tr>
+  <td style='padding-right:0;'>Association for the Advancement of Artificial Intelligence (AAAI)</td>
 </tr>
 <tr>
   <td style='padding-right:0;'>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</td>
@@ -3835,4 +3791,4 @@ Linux, emacs, vim, evil, org, mu4e, xmonad, git, tmux, zsh
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on December 10, 2025.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on December 21, 2025.</p>
