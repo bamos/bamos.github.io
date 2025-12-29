@@ -153,7 +153,7 @@ understand and interact with our world, including:
 <span class='cvdate'>2014</span>
 <p markdown="1" style='margin: 0'><strong>Research Intern</strong>, <em>Adobe Research</em>, San Jose
 <span markdown="1" style="color:grey;font-size:1.3rem;margin: 0">
-(with <a href="https://research.adobe.com/person/david-tompkins/" target="_blank">David Tompkins</a> on distributed systems)
+(with <a href="https://www.linkedin.com/in/davidtompkins" target="_blank">David Tompkins</a> on distributed systems)
 </span></p>
   </td>
 </tr>
@@ -304,7 +304,7 @@ VT Benjamin F. Bock, VT Gay B. Shober, VT I. Luck Gravett
 
 ## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Publications
 
-<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 11.9k+ citations and an h-index of 42. <br>
+<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 12k+ citations and an h-index of 42. <br>
 *Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted</span>.*
 
 <h2>2025</h2>
@@ -606,13 +606,49 @@ Differentiable optimization layers enable learning systems to make decisions by 
 </td>
 </tr>
 
+
+<tr id="tr-paulus2025safetyalignmentlmsnoncooperative" >
+<td align='right' style='padding-left:0;padding-right:0;'>
+13.
+</td>
+<td>
+
+<em><a href='https://arxiv.org/abs/2512.20806' target='_blank'>Safety Alignment of LMs via Non-cooperative Games</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_paulus2025safetyalignmentlmsnoncooperative").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/advgame' target='_blank'>code</a><br>
+<a href='https://scholar.google.com/citations?user=njZL5CQAAAAJ' target='_blank'>Anselm&nbsp;Paulus</a>, <a href='https://scholar.google.com/citations?user=fN7fYXIAAAAJ' target='_blank'>Ilia&nbsp;Kulikov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=OvKEnVwAAAAJ' target='_blank'>Rémi&nbsp;Munos</a>, <a href='https://ivanevtimov.eu/' target='_blank'>Ivan&nbsp;Evtimov</a>, <a href='https://scholar.google.com/citations?user=X8H76XIAAAAJ' target='_blank'>Kamalika&nbsp;Chaudhuri</a>, and <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a><br>
+arXiv 2025  <br>
+<div id="abs_paulus2025safetyalignmentlmsnoncooperative" class="abstract-box" style="display: none" markdown="1">
+Ensuring the safety of language models (LMs) while
+maintaining their usefulness remains a critical
+challenge in AI alignment. Current approaches rely
+on sequential adversarial training: generating
+adversarial prompts and fine-tuning LMs to defend
+against them. We introduce a different paradigm:
+framing safety alignment as a non-zero-sum game
+between an Attacker LM and a Defender LM trained
+jointly via online reinforcement learning. Each LM
+continuously adapts to the other's evolving
+strategies, driving iterative improvement. Our
+method uses a preference-based reward signal derived
+from pairwise comparisons instead of point-wise
+scores, providing more robust supervision and
+potentially reducing reward hacking. Our RL recipe, AdvGame, shifts the Pareto frontier of safety and
+utility, yielding a Defender LM that is
+simultaneously more helpful and more resilient to
+adversarial attacks. In addition, the resulting
+Attacker LM converges into a strong, general-purpose
+red-teaming agent that can be directly deployed to
+probe arbitrary target models.
+</div>
+</td>
+</tr>
+
 </table>
 <h2>2024</h2>
 <table class="table table-hover">
 
 <tr id="tr-pooladian2024neural" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-13.
+14.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2406.00288' target='_blank'><img src="images/publications/pooladian2024neural.png" class="publicationImg" /></a> 
@@ -628,7 +664,7 @@ We investigate the optimal transport problem between probability measures when t
 
 <tr id="tr-sambharya2024learning" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-14.
+15.
 </td>
 <td>
 
@@ -644,7 +680,7 @@ We introduce a machine-learning framework to warm-start fixed-point optimization
 
 <tr id="tr-lotfi2024unlocking" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-15.
+16.
 </td>
 <td>
 
@@ -684,7 +720,7 @@ high-quality text.
 
 <tr id="tr-domingoenrich2024stochastic" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-16.
+17.
 </td>
 <td>
 
@@ -700,7 +736,7 @@ Stochastic optimal control, which has the goal of driving the behavior of noisy 
 
 <tr id="tr-ju2024to" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-17.
+18.
 </td>
 <td>
 
@@ -719,7 +755,7 @@ Travel planning is a challenging and time-consuming task that aims to find an it
 
 <tr id="tr-amos2023tutorial" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-18.
+19.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2202.00665' target='_blank'><img src="images/publications/amos2023tutorial.png" class="publicationImg" /></a> 
@@ -750,7 +786,7 @@ transport, and deep equilibrium networks.
 
 <tr id="tr-amos2023amortizing" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-19.
+20.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2210.12153' target='_blank'><img src="images/publications/amos2023amortizing.png" class="publicationImg" /></a> 
@@ -780,7 +816,7 @@ flows considered in the literature.
 
 <tr id="tr-sambharya2023l2a" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-20.
+21.
 </td>
 <td>
 
@@ -820,7 +856,7 @@ high-quality solutions.
 
 <tr id="tr-amos2023meta" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-21.
+22.
 </td>
 <td>
 
@@ -850,7 +886,7 @@ and continuous transport settings between images, spherical data, and color pale
 
 <tr id="tr-pooladian2023multisample" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-22.
+23.
 </td>
 <td>
 
@@ -888,7 +924,7 @@ sets, and lead to better low-cost sample generation.
 
 <tr id="tr-zheng2023semi" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-23.
+24.
 </td>
 <td>
 
@@ -932,7 +968,7 @@ datasets.
 
 <tr id="tr-bansal2023taskmet" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-24.
+25.
 </td>
 <td>
 
@@ -965,7 +1001,7 @@ distracting states.
 
 <tr id="tr-zharmagambetov2023landscape" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-25.
+26.
 </td>
 <td>
 
@@ -1006,7 +1042,7 @@ computationally expensive high-dimensional problems.
 
 <tr id="tr-retchin2023koopman" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-26.
+27.
 </td>
 <td>
 
@@ -1038,7 +1074,7 @@ after training.
 
 <tr id="tr-fickinger2021crossdomain" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-27.
+28.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2110.03684' target='_blank'><img src="images/publications/fickinger2021crossdomain.png" class="publicationImg" /></a> 
@@ -1072,7 +1108,7 @@ state-action space.
 
 <tr id="tr-benhamu2022matching" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-28.
+29.
 </td>
 <td>
 
@@ -1112,7 +1148,7 @@ manifolds.
 
 <tr id="tr-chen2022semi" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-29.
+30.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2203.06832' target='_blank'><img src="images/publications/chen2022semi.png" class="publicationImg" /></a> 
@@ -1154,7 +1190,7 @@ to a baseline model.
 
 <tr id="tr-pineda2022theseus" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-30.
+31.
 </td>
 <td>
 
@@ -1188,7 +1224,7 @@ incorporated.
 
 <tr id="tr-vinitsky2022nocturne" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-31.
+32.
 </td>
 <td>
 
@@ -1230,7 +1266,7 @@ trajectories.
 
 <tr id="tr-amos2021modelbased" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-32.
+33.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2008.12775' target='_blank'><img src="images/publications/amos2021modelbased.png" class="publicationImg" /></a> 
@@ -1273,7 +1309,7 @@ an ensemble.
 
 <tr id="tr-cohen2021riemannian" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-33.
+34.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2106.10272' target='_blank'><img src="images/publications/cohen2021riemannian.png" class="publicationImg" /></a> 
@@ -1300,7 +1336,7 @@ model standard distributions on spheres, and tori, on synthetic and geological d
 
 <tr id="tr-paulus2021comboptnet" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-34.
+35.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2105.02343' target='_blank'><img src="images/publications/paulus2021comboptnet.png" class="publicationImg" /></a> 
@@ -1333,7 +1369,7 @@ vision keypoint matching benchmark.
 
 <tr id="tr-fickinger2021scalable" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-35.
+36.
 </td>
 <td>
 
@@ -1363,7 +1399,7 @@ tabular search in the Atari game Ms. Pacman.
 
 <tr id="tr-cohen2020aligning" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-36.
+37.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2006.12648' target='_blank'><img src="images/publications/cohen2020aligning.png" class="publicationImg" /></a> 
@@ -1396,7 +1432,7 @@ imitation learning.
 
 <tr id="tr-chen2021learning" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-37.
+38.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2011.03902' target='_blank'><img src="images/publications/chen2021learning.png" class="publicationImg" /></a> 
@@ -1424,7 +1460,7 @@ with applications in discrete control.
 
 <tr id="tr-chen2021neural" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-38.
+39.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2011.04583' target='_blank'><img src="images/publications/chen2021neural.png" class="publicationImg" /></a> 
@@ -1453,7 +1489,7 @@ mobility, and neuroscience.
 
 <tr id="tr-yarats2021improving" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-39.
+40.
 </td>
 <td>
 
@@ -1490,7 +1526,7 @@ future research on image-based RL.
 
 <tr id="tr-venkataraman2021neural" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-40.
+41.
 </td>
 <td>
 
@@ -1519,7 +1555,7 @@ optimization problem expressible with CVXPY.
 
 <tr id="tr-cohen2021sliced" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-41.
+42.
 </td>
 <td>
 
@@ -1557,7 +1593,7 @@ multi-dynamics reinforcement learning problems.
 
 <tr id="tr-richterpowell2021input" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-42.
+43.
 </td>
 <td>
 
@@ -1589,7 +1625,7 @@ from Riemannian geometry.
 
 <tr id="tr-cohen2021imitation" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-43.
+44.
 </td>
 <td>
 
@@ -1622,7 +1658,7 @@ our methods and expert demonstrations.
 
 <tr id="tr-pineda2021mbrl" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-44.
+45.
 </td>
 <td>
 
@@ -1653,7 +1689,7 @@ deploying state-of-the-art algorithms.
 
 <tr id="tr-amos2020differentiable" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-45.
+46.
 </td>
 <td>
 
@@ -1684,7 +1720,7 @@ towards combining model-based and model-free RL.
 
 <tr id="tr-lambert2020objective" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-46.
+47.
 </td>
 <td>
 
@@ -1700,7 +1736,7 @@ Model-based reinforcement learning (MBRL) has been shown to be a powerful framew
 
 <tr id="tr-amos2020QNSTOP" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-47.
+48.
 </td>
 <td>
 
@@ -1724,7 +1760,7 @@ biology problems is given.
 
 <tr id="tr-sercu2020neural" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-48.
+49.
 </td>
 <td>
 <a href='https://www.biorxiv.org/content/10.1101/2021.04.08.439084v1.abstract' target='_blank'><img src="images/publications/sercu2020neural.png" class="publicationImg" /></a> 
@@ -1754,7 +1790,7 @@ database with broad coverage of protein sequences.
 
 <tr id="tr-lou2020riemannian" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-49.
+50.
 </td>
 <td>
 <a href='https://drive.google.com/file/d/1Ewro0Ne1tvK15nHyYopY4wZ59QTVB-1c/view' target='_blank'><img src="images/publications/lou2020riemannian.png" class="publicationImg" /></a> 
@@ -1780,7 +1816,7 @@ in graph embedding tasks.
 
 <tr id="tr-amos2019differentiable" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-50.
+51.
 </td>
 <td>
 
@@ -1809,7 +1845,7 @@ enables rapid prototyping of the approaches in this thesis.
 
 <tr id="tr-amos2019differentiable3" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-51.
+52.
 </td>
 <td>
 
@@ -1825,7 +1861,7 @@ Recent work has shown how to embed differentiable optimization problems (that is
 
 <tr id="tr-amos2019limited" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-52.
+53.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1906.08707' target='_blank'><img src="images/publications/amos2019limited.png" class="publicationImg" /></a> 
@@ -1852,7 +1888,7 @@ classification.
 
 <tr id="tr-grefenstette2019generalized" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-53.
+54.
 </td>
 <td>
 
@@ -1885,7 +1921,7 @@ facilitate.
 
 <tr id="tr-amos2018learning" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-54.
+55.
 </td>
 <td>
 <a href='https://arxiv.org/abs/1804.06318' target='_blank'><img src="images/publications/amos2018learning.png" class="publicationImg" /></a> 
@@ -1923,7 +1959,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
 
 <tr id="tr-amos2018end" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-55.
+56.
 </td>
 <td>
 
@@ -1939,7 +1975,7 @@ In this paper we present foundations for using model predictive control (MPC) as
 
 <tr id="tr-brown2018depth" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-56.
+57.
 </td>
 <td>
 
@@ -1955,7 +1991,7 @@ A fundamental challenge in imperfect-information games is that states do not hav
 
 <tr id="tr-wang2018enabling" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-57.
+58.
 </td>
 <td>
 
@@ -1988,7 +2024,7 @@ video streams and analytics services.
 
 <tr id="tr-amos2017optnet" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-58.
+59.
 </td>
 <td>
 
@@ -2023,7 +2059,7 @@ constraints better than other neural architectures.
 
 <tr id="tr-amos2017input" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-59.
+60.
 </td>
 <td>
 
@@ -2054,7 +2090,7 @@ improvement over the existing state of the art in many cases.
 
 <tr id="tr-donti2017task" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-60.
+61.
 </td>
 <td>
 
@@ -2082,7 +2118,7 @@ approach and a purely black-box policy optimization approach.
 
 <tr id="tr-chen2017quasi" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-61.
+62.
 </td>
 <td>
 
@@ -2120,7 +2156,7 @@ stochastic model.
 
 <tr id="tr-ha2017you" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-62.
+63.
 </td>
 <td>
 
@@ -2147,7 +2183,7 @@ than live migration at those bandwidths.
 
 <tr id="tr-chen2017empirical" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-63.
+64.
 </td>
 <td>
 
@@ -2174,7 +2210,7 @@ computing is crucial to meeting these targets.
 
 <tr id="tr-wang2017scalable" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-64.
+65.
 </td>
 <td>
 
@@ -2199,7 +2235,7 @@ retrospective policy exceptions. Finally, we present a scalable, privacy-aware a
 
 <tr id="tr-amos2016openface" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-65.
+66.
 </td>
 <td>
 
@@ -2228,7 +2264,7 @@ the Apache 2.0 license. It is available at:
 
 <tr id="tr-amos2016deepcompletion" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-66.
+67.
 </td>
 <td>
 
@@ -2244,7 +2280,7 @@ Content-aware fill is a powerful tool designers and photographers use to fill in
 
 <tr id="tr-zhao2016collapsed" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-67.
+68.
 </td>
 <td>
 
@@ -2273,7 +2309,7 @@ with a maximum likelihood based approach.
 
 <tr id="tr-hu2016quantifying" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-68.
+69.
 </td>
 <td>
 
@@ -2296,7 +2332,7 @@ for highly interactive mobile applications.
 
 <tr id="tr-davies2016privacy" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-69.
+70.
 </td>
 <td>
 
@@ -2329,7 +2365,7 @@ and organizational boundaries of trust and responsibility.
 
 <tr id="tr-satyanarayanan2015edge" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-70.
+71.
 </td>
 <td>
 
@@ -2354,7 +2390,7 @@ is part of a special issue on smart spaces.
 
 <tr id="tr-turner2015bad" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-71.
+72.
 </td>
 <td>
 
@@ -2378,7 +2414,7 @@ manufacturing security topics.
 
 <tr id="tr-chen2015early" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-72.
+73.
 </td>
 <td>
 
@@ -2403,7 +2439,7 @@ simplify the creation of similar applications.
 
 <tr id="tr-hu2014case" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-73.
+74.
 </td>
 <td>
 
@@ -2424,7 +2460,7 @@ demand, with little loss of application-level fidelity
 
 <tr id="tr-gao2015cloudlets" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-74.
+75.
 </td>
 <td>
 
@@ -2449,7 +2485,7 @@ consumption in a mobile device by up to 42% compared to cloud offload.
 
 <tr id="tr-ha2015adaptive" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-75.
+76.
 </td>
 <td>
 
@@ -2474,7 +2510,7 @@ changing network conditions and processing capacity
 
 <tr id="tr-andrew2014global" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-76.
+77.
 </td>
 <td>
 
@@ -2501,7 +2537,7 @@ compared.
 
 <tr id="tr-amos2013applying" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-77.
+78.
 </td>
 <td>
 
@@ -2534,7 +2570,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2025</span>
     <a href="https://github.com/oripress/AlgoTune">oripress/AlgoTune</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;76
+    | <i class="fa fas fa-star"></i>&nbsp;79
     </span>
   </td>
 </tr>
@@ -2604,7 +2640,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/kuleshov/cornell-cs5785-2024-applied-ml">kuleshov/cornell-cs5785-2024-applied-ml</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;522
+    | <i class="fa fas fa-star"></i>&nbsp;523
     </span>
  <span style='color: gray;'>| <em>Slides for our applied ML course</em></span>  </td>
 </tr>
@@ -2694,7 +2730,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/nocturne">facebookresearch/nocturne</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;290
+    | <i class="fa fas fa-star"></i>&nbsp;291
     </span>
  <span style='color: gray;'>| <em>A partially-observable multi-agent driving simulator</em></span>  </td>
 </tr>
@@ -2844,7 +2880,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;307
+    | <i class="fa fas fa-star"></i>&nbsp;310
     </span>
   </td>
 </tr>
@@ -2854,7 +2890,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;307
+    | <i class="fa fas fa-star"></i>&nbsp;308
     </span>
  <span style='color: gray;'>| <em>Input Convex Neural Network experiments</em></span>  </td>
 </tr>
@@ -2864,7 +2900,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;570
+    | <i class="fa fas fa-star"></i>&nbsp;571
     </span>
   </td>
 </tr>
@@ -2884,7 +2920,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;846
+    | <i class="fa fas fa-star"></i>&nbsp;845
     </span>
   </td>
 </tr>
@@ -3044,7 +3080,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/reading-list">bamos/reading-list</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;186
+    | <i class="fa fas fa-star"></i>&nbsp;185
     </span>
  <span style='color: gray;'>| <em>YAML reading list and notes system</em></span>  </td>
 </tr>
@@ -3791,4 +3827,4 @@ Linux, emacs, vim, evil, org, mu4e, xmonad, git, tmux, zsh
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on December 21, 2025.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on December 29, 2025.</p>
