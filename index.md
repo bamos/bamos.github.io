@@ -12,9 +12,10 @@ understand and interact with our world, including:
 <ol>
 <li>
   <b>language models</b>
-  (on attacks to improve safety and alignment in
-  <a href="https://arxiv.org/abs/2404.16873" target="_blank">AdvPrompter</a> and
+  (on attacks and defenses for safety in
+  <a href="https://arxiv.org/abs/2404.16873" target="_blank">AdvPrompter</a>,
   <a href="https://arxiv.org/abs/2412.10321" target="_blank">AdvPrefix</a>,
+  and <a href="https://arxiv.org/abs/2512.20806" target="_blank">AdvGame</a>,
   coding agents in <a href="https://arxiv.org/abs/2507.15887" target="_blank">AlgoTune</a>,
   RL post-training for social values in <a href="https://arxiv.org/abs/2507.09650" target="_blank">community alignment</a>,
   <a href="https://arxiv.org/abs/2410.09303" target="_blank">fixing broken tokens</a>, and
@@ -3827,4 +3828,4 @@ Linux, emacs, vim, evil, org, mu4e, xmonad, git, tmux, zsh
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on December 29, 2025.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on January 02, 2026.</p>
