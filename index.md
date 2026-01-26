@@ -4,7 +4,7 @@ title: Brandon Amos
 ---
 
 <p style="text-align: justify;">
-Hi! I am a member of technical staff in post-training RL at
+Hi! I am a member of technical staff in post-training at
 <a href="https://www.reflection.ai/" target="_blank" rel="noopener">Reflection AI</a> in New York City.
 </p>
 
