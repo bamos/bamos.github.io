@@ -29,15 +29,34 @@ and
 
 ## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Publications
 
-<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 12k+ citations and an h-index of 42. <br>
+<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 12.2k+ citations and an h-index of 42. <br>
 *Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted</span>.*
 
+<h2>2026</h2>
+<table class="table table-hover">
+
+<tr id="tr-zhang2026cultivating" >
+<td align='right' style='padding-left:0;padding-right:0;'>
+1.
+</td>
+<td>
+
+<em><a href='https://arxiv.org/abs/2507.09650' target='_blank'>Cultivating Pluralism In Algorithmic Monoculture: The Community Alignment Dataset</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhang2026cultivating").toggle()'>abstract</a><br>
+<a href='https://lhz1029.github.io/' target='_blank'>Lily&nbsp;H&nbsp;Zhang</a>, <a href='http://smithamilli.com/' target='_blank'>Smitha&nbsp;Milli</a>, <a href='https://scholar.google.com/citations?user=O924n4AAAAAJ' target='_blank'>Karen&nbsp;Long&nbsp;Jusko</a>, <a href='https://scholar.google.com/citations?user=URWZ--QAAAAJ' target='_blank'>Jonathan&nbsp;Smith</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=QDtbGtIAAAAJ' target='_blank'>Wassim&nbsp;Bouaziz</a>, <a href='https://openreview.net/profile?id=~Jack_Kussman1' target='_blank'>Jack&nbsp;Kussman</a>, <a href='https://scholar.google.com/citations?user=dEvt4JoAAAAJ' target='_blank'>Manon&nbsp;Revel</a>, <a href='https://scholar.google.com/citations?user=v2Wni-EAAAAJ' target='_blank'>Lisa&nbsp;Titus</a>, <a href='https://scholar.google.com/citations?user=IkQv0loAAAAJ' target='_blank'>Bhaktipriya&nbsp;Radharapu</a>, <a href='https://scholar.google.com/citations?user=ev8Ilx0AAAAJ' target='_blank'>Jane&nbsp;Yu</a>, <a href='https://www.linkedin.com/in/vidyasarma' target='_blank'>Vidya&nbsp;Sarma</a>, <a href='https://openreview.net/profile?id=~Kristopher_Rose1' target='_blank'>Kristopher&nbsp;Rose</a>, and <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a><br>
+ICLR 2026  <br>
+<div id="abs_zhang2026cultivating" class="abstract-box" style="display: none" markdown="1">
+How can large language models (LLMs) serve users with varying preferences that may conflict across cultural, political, or other dimensions? To advance this challenge, this paper establishes four key results. First, we demonstrate, through a large-scale multilingual human study with representative samples from five countries (N=15,000), that humans exhibit significantly more variation in preferences than the responses of 21 state-of-the-art LLMs. Second, we show that existing methods for preference dataset collection are insufficient for learning the diversity of human preferences even along two of the most salient dimensions of variability in global values, due to the underlying homogeneity of candidate responses. Third, we argue that this motivates the need for negatively-correlated sampling when generating candidate sets, and we show that simple prompt-based techniques for doing so significantly enhance the performance of alignment methods in learning heterogeneous preferences. Fourth, based on this novel candidate sampling approach, we collect and open-source Community Alignment, the largest and most representative multilingual and multi-turn preference dataset to date, featuring almost 200,000 comparisons from annotators spanning five countries. We hope that the Community Alignment dataset will be a valuable resource for improving the effectiveness of LLMs for a diverse global population.
+</div>
+</td>
+</tr>
+
+</table>
 <h2>2025</h2>
 <table class="table table-hover">
 
 <tr id="tr-zheng2024onlineintrinsicrewardsdecision" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-1.
+2.
 </td>
 <td>
 
@@ -85,7 +104,7 @@ external datasets nor source code.
 
 <tr id="tr-paulus2024advprompter" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-2.
+3.
 </td>
 <td>
 
@@ -103,7 +122,7 @@ We train the AdvPrompter using a novel algorithm that does not require access to
 
 <tr id="tr-haviv2024wasserstein" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-3.
+4.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2411.00698' target='_blank'><img src="images/publications/haviv2024wasserstein.png" class="publicationImg" /></a> 
@@ -144,7 +163,7 @@ datasets.
 
 <tr id="tr-havens2025adjointsamplinghighlyscalable" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-4.
+5.
 </td>
 <td>
 
@@ -160,7 +179,7 @@ We introduce Adjoint Sampling, a highly scalable and efficient algorithm for lea
 
 <tr id="tr-phan2024exactbytelevelprobabilitiestokenized" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-5.
+6.
 </td>
 <td>
 
@@ -176,7 +195,7 @@ Tokenization is associated with many poorly understood shortcomings in language 
 
 <tr id="tr-atanackovic2024meta" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-6.
+7.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2408.14608' target='_blank'><img src="images/publications/atanackovic2024meta.png" class="publicationImg" /></a> 
@@ -192,7 +211,7 @@ Numerous biological and physical processes can be modeled as systems of interact
 
 <tr id="tr-silvestri2024score" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-7.
+8.
 </td>
 <td>
 
@@ -208,7 +227,7 @@ Many real-world optimization problems contain parameters that are unknown before
 
 <tr id="tr-zhu2025advprefixobjectivenuancedllm" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-8.
+9.
 </td>
 <td>
 
@@ -246,7 +265,7 @@ nuanced jailbreaks.
 
 <tr id="tr-press2025algotune" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-9.
+10.
 </td>
 <td>
 
@@ -279,22 +298,6 @@ innovations, instead preferring surface-level
 optimizations. We hope that AlgoTune catalyzes the
 development of LM agents exhibiting creative problem
 solving beyond state-of-the-art human performance.
-</div>
-</td>
-</tr>
-
-
-<tr id="tr-zhang2025cultivating" >
-<td align='right' style='padding-left:0;padding-right:0;'>
-10.
-</td>
-<td>
-
-<em><a href='https://arxiv.org/abs/2507.09650' target='_blank'>Cultivating Pluralism In Algorithmic Monoculture: The Community Alignment Dataset</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhang2025cultivating").toggle()'>abstract</a><br>
-<a href='https://lhz1029.github.io/' target='_blank'>Lily&nbsp;H&nbsp;Zhang</a>, <a href='http://smithamilli.com/' target='_blank'>Smitha&nbsp;Milli</a>, <a href='https://scholar.google.com/citations?user=O924n4AAAAAJ' target='_blank'>Karen&nbsp;Long&nbsp;Jusko</a>, <a href='https://scholar.google.com/citations?user=URWZ--QAAAAJ' target='_blank'>Jonathan&nbsp;Smith</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=QDtbGtIAAAAJ' target='_blank'>Wassim&nbsp;Bouaziz</a>, <a href='https://openreview.net/profile?id=~Jack_Kussman1' target='_blank'>Jack&nbsp;Kussman</a>, <a href='https://scholar.google.com/citations?user=dEvt4JoAAAAJ' target='_blank'>Manon&nbsp;Revel</a>, <a href='https://scholar.google.com/citations?user=v2Wni-EAAAAJ' target='_blank'>Lisa&nbsp;Titus</a>, <a href='https://scholar.google.com/citations?user=IkQv0loAAAAJ' target='_blank'>Bhaktipriya&nbsp;Radharapu</a>, <a href='https://scholar.google.com/citations?user=ev8Ilx0AAAAJ' target='_blank'>Jane&nbsp;Yu</a>, <a href='https://www.linkedin.com/in/vidyasarma' target='_blank'>Vidya&nbsp;Sarma</a>, <a href='https://openreview.net/profile?id=~Kristopher_Rose1' target='_blank'>Kristopher&nbsp;Rose</a>, and <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a><br>
-ICML MoFA Workshop 2025  <br>
-<div id="abs_zhang2025cultivating" class="abstract-box" style="display: none" markdown="1">
-How can large language models (LLMs) serve users with varying preferences that may conflict across cultural, political, or other dimensions? To advance this challenge, this paper establishes four key results. First, we demonstrate, through a large-scale multilingual human study with representative samples from five countries (N=15,000), that humans exhibit significantly more variation in preferences than the responses of 21 state-of-the-art LLMs. Second, we show that existing methods for preference dataset collection are insufficient for learning the diversity of human preferences even along two of the most salient dimensions of variability in global values, due to the underlying homogeneity of candidate responses. Third, we argue that this motivates the need for negatively-correlated sampling when generating candidate sets, and we show that simple prompt-based techniques for doing so significantly enhance the performance of alignment methods in learning heterogeneous preferences. Fourth, based on this novel candidate sampling approach, we collect and open-source Community Alignment, the largest and most representative multilingual and multi-turn preference dataset to date, featuring almost 200,000 comparisons from annotators spanning five countries. We hope that the Community Alignment dataset will be a valuable resource for improving the effectiveness of LLMs for a diverse global population.
 </div>
 </td>
 </tr>
@@ -2286,7 +2289,7 @@ malware machine learning classifiers.
 
 
 ## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Open Source Repositories
-*39.1k+ GitHub stars across all repositories.*
+*39.2k+ GitHub stars across all repositories.*
 
 <table class="table table-hover">
 <tr>
@@ -2295,7 +2298,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2025</span>
     <a href="https://github.com/oripress/AlgoTune">oripress/AlgoTune</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;79
+    | <i class="fa fas fa-star"></i>&nbsp;85
     </span>
   </td>
 </tr>
@@ -2305,7 +2308,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2025</span>
     <a href="https://github.com/facebookresearch/adjoint_sampling">facebookresearch/adjoint_sampling</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;130
+    | <i class="fa fas fa-star"></i>&nbsp;129
     </span>
   </td>
 </tr>
@@ -2325,7 +2328,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/advprompter">facebookresearch/advprompter</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;172
+    | <i class="fa fas fa-star"></i>&nbsp;174
     </span>
  <span style='color: gray;'>| <em>Fast Adaptive Adversarial Prompting for LLMs</em></span>  </td>
 </tr>
@@ -2335,7 +2338,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/lagrangian-ot">facebookresearch/lagrangian-ot</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;60
+    | <i class="fa fas fa-star"></i>&nbsp;61
     </span>
   </td>
 </tr>
@@ -2365,7 +2368,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/kuleshov/cornell-cs5785-2024-applied-ml">kuleshov/cornell-cs5785-2024-applied-ml</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;523
+    | <i class="fa fas fa-star"></i>&nbsp;526
     </span>
  <span style='color: gray;'>| <em>Slides for our applied ML course</em></span>  </td>
 </tr>
@@ -2375,7 +2378,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2023</span>
     <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;249
+    | <i class="fa fas fa-star"></i>&nbsp;248
     </span>
   </td>
 </tr>
@@ -2425,7 +2428,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/meta-ot">facebookresearch/meta-ot</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;105
+    | <i class="fa fas fa-star"></i>&nbsp;106
     </span>
   </td>
 </tr>
@@ -2455,7 +2458,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/nocturne">facebookresearch/nocturne</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;291
+    | <i class="fa fas fa-star"></i>&nbsp;293
     </span>
  <span style='color: gray;'>| <em>A partially-observable multi-agent driving simulator</em></span>  </td>
 </tr>
@@ -2565,7 +2568,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2019</span>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;344
+    | <i class="fa fas fa-star"></i>&nbsp;346
     </span>
  <span style='color: gray;'>| <em>Ph.D. Thesis LaTeX source code</em></span>  </td>
 </tr>
@@ -2605,7 +2608,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;310
+    | <i class="fa fas fa-star"></i>&nbsp;317
     </span>
   </td>
 </tr>
@@ -2615,7 +2618,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;308
+    | <i class="fa fas fa-star"></i>&nbsp;311
     </span>
  <span style='color: gray;'>| <em>Input Convex Neural Network experiments</em></span>  </td>
 </tr>
@@ -2625,7 +2628,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;571
+    | <i class="fa fas fa-star"></i>&nbsp;575
     </span>
   </td>
 </tr>
@@ -2635,7 +2638,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;773
+    | <i class="fa fas fa-star"></i>&nbsp;776
     </span>
  <span style='color: gray;'>| <em>Differentiable PyTorch QP solver</em></span>  </td>
 </tr>
@@ -2645,7 +2648,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/densenet.pytorch">bamos/densenet.pytorch</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;845
+    | <i class="fa fas fa-star"></i>&nbsp;842
     </span>
   </td>
 </tr>
@@ -2715,7 +2718,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2014</span>
     <a href="https://github.com/vtopt/qnstop">vtopt/qnstop</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;10
+    | <i class="fa fas fa-star"></i>&nbsp;11
     </span>
  <span style='color: gray;'>| <em>Fortran quasi-Newton stochastic optimization library</em></span>  </td>
 </tr>
@@ -2755,7 +2758,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/latex-templates">bamos/latex-templates</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;366
+    | <i class="fa fas fa-star"></i>&nbsp;368
     </span>
   </td>
 </tr>
@@ -2765,7 +2768,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;360
+    | <i class="fa fas fa-star"></i>&nbsp;359
     </span>
  <span style='color: gray;'>| <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em></span>  </td>
 </tr>
@@ -2775,7 +2778,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;415
+    | <i class="fa fas fa-star"></i>&nbsp;416
     </span>
  <span style='color: gray;'>| <em>Source for this CV: creates LaTeX/Markdown from YAML/BibTeX</em></span>  </td>
 </tr>
@@ -2785,7 +2788,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/parsec-benchmark">bamos/parsec-benchmark</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;126
+    | <i class="fa fas fa-star"></i>&nbsp;129
     </span>
  <span style='color: gray;'>| <em>PARSEC benchmark support for Arch Linux</em></span>  </td>
 </tr>
@@ -2795,7 +2798,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/python-scripts">bamos/python-scripts</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;197
+    | <i class="fa fas fa-star"></i>&nbsp;195
     </span>
   </td>
 </tr>
@@ -3265,4 +3268,4 @@ under a CC-BY license.*
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on January 25, 2026.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on January 26, 2026.</p>
