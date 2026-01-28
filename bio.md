@@ -1,3 +1,7 @@
+---
+layout: singlePage
+title: Brandon Amos
+---
 Brandon Amos is a Member of Technical Staff in Post-Training
 at Reflection AI in NYC.
 Previously, he was a Research Scientist in Fundamental AI Research
