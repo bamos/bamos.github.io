@@ -4,7 +4,7 @@ title: Brandon Amos
 ---
 
 <p style="text-align: justify;">
-Hi! I am a member of technical staff in post-training at
+Hi! I am a member of technical staff at
 <a href="https://www.reflection.ai/" target="_blank" rel="noopener">Reflection AI</a> in New York City.
 </p>
 
@@ -3268,4 +3268,4 @@ under a CC-BY license.*
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on January 26, 2026.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on February 03, 2026.</p>
