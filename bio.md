@@ -2,7 +2,7 @@
 layout: singlePage
 title: Brandon Amos
 ---
-Brandon Amos is a Member of Technical Staff in Post-Training
+Brandon Amos is a Member of Technical Staff
 at Reflection AI in NYC.
 His research spans machine learning, optimization,
 reinforcement learning, and control
