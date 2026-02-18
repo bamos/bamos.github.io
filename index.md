@@ -2850,7 +2850,7 @@ under a CC-BY license.*
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>1.</td>
   <td style='padding-right:0;'>
-    <span class='cvdate'>2025</span>
+    <span class='cvdate'>2026</span>
      <a href="https://bamos.github.io/presentations/2025.advprompter-algotune.html"><em>On meta prompt optimization and coding agents</em></a> •
         Netflix
   </td>
