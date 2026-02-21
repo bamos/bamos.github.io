@@ -51,25 +51,9 @@ How can large language models (LLMs) serve users with varying preferences that m
 </tr>
 
 
-<tr id="tr-chang2026surprisingdifficultysearchmodelbased" >
-<td align='right' style='padding-left:0;padding-right:0;'>
-2.
-</td>
-<td>
-
-<em><a href='https://arxiv.org/abs/2601.21306' target='_blank'>The Surprising Difficulty of Search in Model-Based Reinforcement Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_chang2026surprisingdifficultysearchmodelbased").toggle()'>abstract</a><br>
-<a href='https://scholar.google.com/citations?user=1EW9Jt4AAAAJ' target='_blank'>Wei-Di&nbsp;Chang</a>, <a href='https://scholar.google.com/citations?user=bX__wkYAAAAJ' target='_blank'>Mikael&nbsp;Henaff</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=BSORuFoAAAAJ' target='_blank'>Gregory&nbsp;Dudek</a>, and <a href='https://scholar.google.com/citations?user=1Nk3WZoAAAAJ' target='_blank'>Scott&nbsp;Fujimoto</a><br>
-arXiv 2026  <br>
-<div id="abs_chang2026surprisingdifficultysearchmodelbased" class="abstract-box" style="display: none" markdown="1">
-This paper investigates search in model-based reinforcement learning (RL). Conventional wisdom holds that long-term predictions and compounding errors are the primary obstacles for model-based RL. We challenge this view, showing that search is not a plug-and-play replacement for a learned policy. Surprisingly, we find that search can harm performance even when the model is highly accurate. Instead, we show that mitigating distribution shift matters more than improving model or value function accuracy. Building on this insight, we identify key techniques for enabling effective search, achieving state-of-the-art performance across multiple popular benchmark domains.
-</div>
-</td>
-</tr>
-
-
 <tr id="tr-silvestri2026score" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-3.
+2.
 </td>
 <td>
 
@@ -78,6 +62,22 @@ This paper investigates search in model-based reinforcement learning (RL). Conve
 JAIR 2026  <br>
 <div id="abs_silvestri2026score" class="abstract-box" style="display: none" markdown="1">
 Many real-world optimization problems contain parameters that are unknown before deployment time, either due to stochasticity or to lack of information (e.g., demand or travel times in delivery problems). A common strategy in such cases is to estimate said parameters via machine learning (ML) models trained to minimize the prediction error, which however is not necessarily aligned with the downstream task-level error. The decision-focused learning (DFL) paradigm overcomes this limitation by training to directly minimize a task loss, e.g. regret. Since the latter has non-informative gradients for combinatorial problems, state-of-the-art DFL methods introduce surrogates and approximations that enable training. But these methods exploit specific assumptions about the problem structures (e.g., convex or linear problems, unknown parameters only in the objective function). We propose an alternative method that makes no such assumptions, it combines stochastic smoothing with score function gradient estimation which works on any task loss. This opens up the use of DFL methods to nonlinear objectives, uncertain parameters in the problem constraints, and even two-stage stochastic optimization. Experiments show that it typically requires more epochs, but that it is on par with specialized methods and performs especially well for the difficult case of problems with uncertainty in the constraints, in terms of solution quality, scalability, or both.
+</div>
+</td>
+</tr>
+
+
+<tr id="tr-chang2026surprisingdifficultysearchmodelbased" >
+<td align='right' style='padding-left:0;padding-right:0;'>
+3.
+</td>
+<td>
+
+<em><a href='https://arxiv.org/abs/2601.21306' target='_blank'>The Surprising Difficulty of Search in Model-Based Reinforcement Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_chang2026surprisingdifficultysearchmodelbased").toggle()'>abstract</a><br>
+<a href='https://scholar.google.com/citations?user=1EW9Jt4AAAAJ' target='_blank'>Wei-Di&nbsp;Chang</a>, <a href='https://scholar.google.com/citations?user=bX__wkYAAAAJ' target='_blank'>Mikael&nbsp;Henaff</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=BSORuFoAAAAJ' target='_blank'>Gregory&nbsp;Dudek</a>, and <a href='https://scholar.google.com/citations?user=1Nk3WZoAAAAJ' target='_blank'>Scott&nbsp;Fujimoto</a><br>
+arXiv 2026  <br>
+<div id="abs_chang2026surprisingdifficultysearchmodelbased" class="abstract-box" style="display: none" markdown="1">
+This paper investigates search in model-based reinforcement learning (RL). Conventional wisdom holds that long-term predictions and compounding errors are the primary obstacles for model-based RL. We challenge this view, showing that search is not a plug-and-play replacement for a learned policy. Surprisingly, we find that search can harm performance even when the model is highly accurate. Instead, we show that mitigating distribution shift matters more than improving model or value function accuracy. Building on this insight, we identify key techniques for enabling effective search, achieving state-of-the-art performance across multiple popular benchmark domains.
 </div>
 </td>
 </tr>
