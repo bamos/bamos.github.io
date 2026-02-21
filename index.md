@@ -66,13 +66,29 @@ This paper investigates search in model-based reinforcement learning (RL). Conve
 </td>
 </tr>
 
+
+<tr id="tr-silvestri2026score" >
+<td align='right' style='padding-left:0;padding-right:0;'>
+3.
+</td>
+<td>
+
+<em><a href='https://arxiv.org/abs/2307.05213' target='_blank'>Score Function Gradient Estimation to Widen the Applicability of Decision-Focused Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_silvestri2026score").toggle()'>abstract</a><br>
+<a href='https://scholar.google.com/citations?user=yHEb8eAAAAAJ' target='_blank'>Mattia&nbsp;Silvestri</a>, <a href='https://scholar.google.com/citations?user=sMtjmx4AAAAJ' target='_blank'>Senne&nbsp;Berden</a>, <a href='https://jayantamandi.com/' target='_blank'>Jayanta&nbsp;Mandi</a>, <a href='https://scholar.google.com/citations?user=muyZLrYAAAAJ' target='_blank'>Ali&nbsp;İrfan&nbsp;Mahmutoğulları</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://people.cs.kuleuven.be/~tias.guns/' target='_blank'>Tias&nbsp;Guns</a>, and <a href='https://scholar.google.com/citations?user=lJJ6EOMAAAAJ' target='_blank'>Michele&nbsp;Lombardi</a><br>
+JAIR 2026  <br>
+<div id="abs_silvestri2026score" class="abstract-box" style="display: none" markdown="1">
+Many real-world optimization problems contain parameters that are unknown before deployment time, either due to stochasticity or to lack of information (e.g., demand or travel times in delivery problems). A common strategy in such cases is to estimate said parameters via machine learning (ML) models trained to minimize the prediction error, which however is not necessarily aligned with the downstream task-level error. The decision-focused learning (DFL) paradigm overcomes this limitation by training to directly minimize a task loss, e.g. regret. Since the latter has non-informative gradients for combinatorial problems, state-of-the-art DFL methods introduce surrogates and approximations that enable training. But these methods exploit specific assumptions about the problem structures (e.g., convex or linear problems, unknown parameters only in the objective function). We propose an alternative method that makes no such assumptions, it combines stochastic smoothing with score function gradient estimation which works on any task loss. This opens up the use of DFL methods to nonlinear objectives, uncertain parameters in the problem constraints, and even two-stage stochastic optimization. Experiments show that it typically requires more epochs, but that it is on par with specialized methods and performs especially well for the difficult case of problems with uncertainty in the constraints, in terms of solution quality, scalability, or both.
+</div>
+</td>
+</tr>
+
 </table>
 <h2>2025</h2>
 <table class="table table-hover">
 
 <tr id="tr-zheng2024onlineintrinsicrewardsdecision" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-3.
+4.
 </td>
 <td>
 
@@ -120,7 +136,7 @@ external datasets nor source code.
 
 <tr id="tr-paulus2024advprompter" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-4.
+5.
 </td>
 <td>
 
@@ -138,7 +154,7 @@ We train the AdvPrompter using a novel algorithm that does not require access to
 
 <tr id="tr-haviv2024wasserstein" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-5.
+6.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2411.00698' target='_blank'><img src="images/publications/haviv2024wasserstein.png" class="publicationImg" /></a> 
@@ -179,7 +195,7 @@ datasets.
 
 <tr id="tr-havens2025adjointsamplinghighlyscalable" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-6.
+7.
 </td>
 <td>
 
@@ -195,7 +211,7 @@ We introduce Adjoint Sampling, a highly scalable and efficient algorithm for lea
 
 <tr id="tr-phan2024exactbytelevelprobabilitiestokenized" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-7.
+8.
 </td>
 <td>
 
@@ -211,7 +227,7 @@ Tokenization is associated with many poorly understood shortcomings in language 
 
 <tr id="tr-atanackovic2024meta" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-8.
+9.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2408.14608' target='_blank'><img src="images/publications/atanackovic2024meta.png" class="publicationImg" /></a> 
@@ -220,22 +236,6 @@ Tokenization is associated with many poorly understood shortcomings in language 
 ICLR 2025  <br>
 <div id="abs_atanackovic2024meta" class="abstract-box" style="display: none" markdown="1">
 Numerous biological and physical processes can be modeled as systems of interacting entities evolving continuously over time, e.g. the dynamics of communicating cells or physical particles. Learning the dynamics of such systems is essential for predicting the temporal evolution of populations across novel samples and unseen environments. Flow-based models allow for learning these dynamics at the population level - they model the evolution of the entire distribution of samples. However, current flow-based models are limited to a single initial population and a set of predefined conditions which describe different dynamics. We argue that multiple processes in natural sciences have to be represented as vector fields on the Wasserstein manifold of probability densities. That is, the change of the population at any moment in time depends on the population itself due to the interactions between samples. In particular, this is crucial for personalized medicine where the development of diseases and their respective treatment response depends on the microenvironment of cells specific to each patient. We propose Meta Flow Matching (MFM), a practical approach to integrating along these vector fields on the Wasserstein manifold by amortizing the flow model over the initial populations. Namely, we embed the population of samples using a Graph Neural Network (GNN) and use these embeddings to train a Flow Matching model. This gives MFM the ability to generalize over the initial distributions unlike previously proposed methods. We demonstrate the ability of MFM to improve prediction of individual treatment responses on a large scale multi-patient single-cell drug screen dataset.
-</div>
-</td>
-</tr>
-
-
-<tr id="tr-silvestri2024score" >
-<td align='right' style='padding-left:0;padding-right:0;'>
-9.
-</td>
-<td>
-
-<em><a href='https://arxiv.org/abs/2307.05213' target='_blank'>Score Function Gradient Estimation to Widen the Applicability of Decision-Focused Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_silvestri2024score").toggle()'>abstract</a><br>
-<a href='https://scholar.google.com/citations?user=yHEb8eAAAAAJ' target='_blank'>Mattia&nbsp;Silvestri</a>, <a href='https://scholar.google.com/citations?user=sMtjmx4AAAAJ' target='_blank'>Senne&nbsp;Berden</a>, <a href='https://jayantamandi.com/' target='_blank'>Jayanta&nbsp;Mandi</a>, <a href='https://scholar.google.com/citations?user=muyZLrYAAAAJ' target='_blank'>Ali&nbsp;İrfan&nbsp;Mahmutoğulları</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://people.cs.kuleuven.be/~tias.guns/' target='_blank'>Tias&nbsp;Guns</a>, and <a href='https://scholar.google.com/citations?user=lJJ6EOMAAAAJ' target='_blank'>Michele&nbsp;Lombardi</a><br>
-JAIR 2025  <br>
-<div id="abs_silvestri2024score" class="abstract-box" style="display: none" markdown="1">
-Many real-world optimization problems contain parameters that are unknown before deployment time, either due to stochasticity or to lack of information (e.g., demand or travel times in delivery problems). A common strategy in such cases is to estimate said parameters via machine learning (ML) models trained to minimize the prediction error, which however is not necessarily aligned with the downstream task-level error. The decision-focused learning (DFL) paradigm overcomes this limitation by training to directly minimize a task loss, e.g. regret. Since the latter has non-informative gradients for combinatorial problems, state-of-the-art DFL methods introduce surrogates and approximations that enable training. But these methods exploit specific assumptions about the problem structures (e.g., convex or linear problems, unknown parameters only in the objective function). We propose an alternative method that makes no such assumptions, it combines stochastic smoothing with score function gradient estimation which works on any task loss. This opens up the use of DFL methods to nonlinear objectives, uncertain parameters in the problem constraints, and even two-stage stochastic optimization. Experiments show that it typically requires more epochs, but that it is on par with specialized methods and performs especially well for the difficult case of problems with uncertainty in the constraints, in terms of solution quality, scalability, or both.
 </div>
 </td>
 </tr>
@@ -3300,4 +3300,4 @@ under a CC-BY license.*
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on February 19, 2026.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on February 21, 2026.</p>
