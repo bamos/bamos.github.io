@@ -29,7 +29,7 @@ and
 
 ## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Publications
 
-<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 12.3k+ citations and an h-index of 43. <br>
+<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 12.5k+ citations and an h-index of 42. <br>
 *Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted</span>.*
 
 <h2>2026</h2>
@@ -2305,7 +2305,7 @@ malware machine learning classifiers.
 
 
 ## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Open Source Repositories
-*39.3k+ GitHub stars across all repositories.*
+*39.5k+ GitHub stars across all repositories.*
 
 <table class="table table-hover">
 <tr>
@@ -2314,7 +2314,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2025</span>
     <a href="https://github.com/oripress/AlgoTune">oripress/AlgoTune</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;89
+    | <i class="fa fas fa-star"></i>&nbsp;92
     </span>
   </td>
 </tr>
@@ -2344,7 +2344,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/advprompter">facebookresearch/advprompter</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;177
+    | <i class="fa fas fa-star"></i>&nbsp;179
     </span>
  <span style='color: gray;'>| <em>Fast Adaptive Adversarial Prompting for LLMs</em></span>  </td>
 </tr>
@@ -2384,7 +2384,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/kuleshov/cornell-cs5785-2024-applied-ml">kuleshov/cornell-cs5785-2024-applied-ml</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;526
+    | <i class="fa fas fa-star"></i>&nbsp;528
     </span>
  <span style='color: gray;'>| <em>Slides for our applied ML course</em></span>  </td>
 </tr>
@@ -2474,7 +2474,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/nocturne">facebookresearch/nocturne</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;295
+    | <i class="fa fas fa-star"></i>&nbsp;297
     </span>
  <span style='color: gray;'>| <em>A partially-observable multi-agent driving simulator</em></span>  </td>
 </tr>
@@ -2504,7 +2504,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;1k
+    | <i class="fa fas fa-star"></i>&nbsp;1.1k
     </span>
  <span style='color: gray;'>| <em>Model-based reinforcement learning library</em></span>  </td>
 </tr>
@@ -2554,7 +2554,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/rtqichen/torchdiffeq">rtqichen/torchdiffeq</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;6.3k
+    | <i class="fa fas fa-star"></i>&nbsp;6.4k
     </span>
  <span style='color: gray;'>| <em>PyTorch Differentiable ODE Solvers (differentiable event handling)</em></span>  </td>
 </tr>
@@ -2564,7 +2564,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2020</span>
     <a href="https://github.com/facebookresearch/dcem">facebookresearch/dcem</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;124
+    | <i class="fa fas fa-star"></i>&nbsp;125
     </span>
  <span style='color: gray;'>| <em>The Differentiable Cross-Entropy Method</em></span>  </td>
 </tr>
@@ -2584,7 +2584,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2019</span>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;347
+    | <i class="fa fas fa-star"></i>&nbsp;346
     </span>
  <span style='color: gray;'>| <em>Ph.D. Thesis LaTeX source code</em></span>  </td>
 </tr>
@@ -2654,7 +2654,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;779
+    | <i class="fa fas fa-star"></i>&nbsp;784
     </span>
  <span style='color: gray;'>| <em>Differentiable PyTorch QP solver</em></span>  </td>
 </tr>
@@ -2674,7 +2674,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/block">bamos/block</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;311
+    | <i class="fa fas fa-star"></i>&nbsp;310
     </span>
  <span style='color: gray;'>| <em>Intelligent block matrix constructions</em></span>  </td>
 </tr>
