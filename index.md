@@ -5,7 +5,8 @@ title: Brandon Amos
 
 <p style="text-align: justify;">
 Hi! I am a member of technical staff at
-<a href="https://www.reflection.ai/" target="_blank" rel="noopener">Reflection AI</a> in New York City.
+<a href="https://www.reflection.ai/" target="_blank" rel="noopener">Reflection AI</a> in New York City
+building our RL systems and methods.
 </p>
 
 <p style="text-align: justify;">
@@ -3316,4 +3317,4 @@ under a CC-BY license.*
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on March 03, 2026.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on April 01, 2026.</p>
