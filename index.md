@@ -30,7 +30,7 @@ and
 
 ## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Publications
 
-<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 12.7k+ citations and an h-index of 42. <br>
+<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 12.8k+ citations and an h-index of 44. <br>
 *Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted</span>.*
 
 <h2>2026</h2>
@@ -2306,7 +2306,7 @@ malware machine learning classifiers.
 
 
 ## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Open Source Repositories
-*39.5k+ GitHub stars across all repositories.*
+*39.7k+ GitHub stars across all repositories.*
 
 <table class="table table-hover">
 <tr>
@@ -2325,7 +2325,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2025</span>
     <a href="https://github.com/facebookresearch/adjoint_sampling">facebookresearch/adjoint_sampling</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;131
+    | <i class="fa fas fa-star"></i>&nbsp;134
     </span>
   </td>
 </tr>
@@ -2395,7 +2395,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2023</span>
     <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;249
+    | <i class="fa fas fa-star"></i>&nbsp;253
     </span>
   </td>
 </tr>
@@ -2415,7 +2415,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2023</span>
     <a href="https://github.com/facebookresearch/w2ot">facebookresearch/w2ot</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;46
+    | <i class="fa fas fa-star"></i>&nbsp;48
     </span>
  <span style='color: gray;'>| <em>Wasserstein-2 optimal transport</em></span>  </td>
 </tr>
@@ -2475,7 +2475,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/nocturne">facebookresearch/nocturne</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;296
+    | <i class="fa fas fa-star"></i>&nbsp;299
     </span>
  <span style='color: gray;'>| <em>A partially-observable multi-agent driving simulator</em></span>  </td>
 </tr>
@@ -2585,7 +2585,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2019</span>
     <a href="https://github.com/bamos/thesis">bamos/thesis</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;347
+    | <i class="fa fas fa-star"></i>&nbsp;350
     </span>
  <span style='color: gray;'>| <em>Ph.D. Thesis LaTeX source code</em></span>  </td>
 </tr>
@@ -2615,7 +2615,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;1k
+    | <i class="fa fas fa-star"></i>&nbsp;1.1k
     </span>
  <span style='color: gray;'>| <em>Differentiable PyTorch Model Predictive Control library</em></span>  </td>
 </tr>
@@ -2625,7 +2625,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;323
+    | <i class="fa fas fa-star"></i>&nbsp;326
     </span>
   </td>
 </tr>
@@ -2635,7 +2635,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/icnn">locuslab/icnn</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;313
+    | <i class="fa fas fa-star"></i>&nbsp;314
     </span>
  <span style='color: gray;'>| <em>Input Convex Neural Network experiments</em></span>  </td>
 </tr>
@@ -2645,7 +2645,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;579
+    | <i class="fa fas fa-star"></i>&nbsp;580
     </span>
   </td>
 </tr>
@@ -2655,7 +2655,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;786
+    | <i class="fa fas fa-star"></i>&nbsp;789
     </span>
  <span style='color: gray;'>| <em>Differentiable PyTorch QP solver</em></span>  </td>
 </tr>
@@ -2685,7 +2685,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/setGPU">bamos/setGPU</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;111
+    | <i class="fa fas fa-star"></i>&nbsp;112
     </span>
  <span style='color: gray;'>| <em>Automatically use the least-loaded GPU</em></span>  </td>
 </tr>
@@ -2785,7 +2785,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;361
+    | <i class="fa fas fa-star"></i>&nbsp;362
     </span>
  <span style='color: gray;'>| <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em></span>  </td>
 </tr>
@@ -2795,7 +2795,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;419
+    | <i class="fa fas fa-star"></i>&nbsp;420
     </span>
  <span style='color: gray;'>| <em>Source for this CV: creates LaTeX/Markdown from YAML/BibTeX</em></span>  </td>
 </tr>
@@ -3325,4 +3325,4 @@ under a CC-BY license.*
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on April 03, 2026.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on April 24, 2026.</p>
