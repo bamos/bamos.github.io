@@ -30,7 +30,7 @@ and
 
 ## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Publications
 
-<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 12.8k+ citations and an h-index of 44. <br>
+<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 12.9k+ citations and an h-index of 44. <br>
 *Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted</span>.*
 
 <h2>2026</h2>
@@ -52,9 +52,77 @@ How can large language models (LLMs) serve users with varying preferences that m
 </tr>
 
 
-<tr id="tr-silvestri2026score" >
+<tr id="tr-chang2026surprisingdifficultysearchmodelbased" >
 <td align='right' style='padding-left:0;padding-right:0;'>
 2.
+</td>
+<td>
+
+<em><a href='https://arxiv.org/abs/2601.21306' target='_blank'>The Surprising Difficulty of Search in Model-Based Reinforcement Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_chang2026surprisingdifficultysearchmodelbased").toggle()'>abstract</a><br>
+<a href='https://scholar.google.com/citations?user=1EW9Jt4AAAAJ' target='_blank'>Wei-Di&nbsp;Chang</a>, <a href='https://scholar.google.com/citations?user=bX__wkYAAAAJ' target='_blank'>Mikael&nbsp;Henaff</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=BSORuFoAAAAJ' target='_blank'>Gregory&nbsp;Dudek</a>, and <a href='https://scholar.google.com/citations?user=1Nk3WZoAAAAJ' target='_blank'>Scott&nbsp;Fujimoto</a><br>
+ICML 2026  <br>
+<div id="abs_chang2026surprisingdifficultysearchmodelbased" class="abstract-box" style="display: none" markdown="1">
+This paper investigates search in model-based reinforcement learning (RL). Conventional wisdom holds that long-term predictions and compounding errors are the primary obstacles for model-based RL. We challenge this view, showing that search is not a plug-and-play replacement for a learned policy. Surprisingly, we find that search can harm performance even when the model is highly accurate. Instead, we show that mitigating distribution shift matters more than improving model or value function accuracy. Building on this insight, we identify key techniques for enabling effective search, achieving state-of-the-art performance across multiple popular benchmark domains.
+</div>
+</td>
+</tr>
+
+
+<tr id="tr-paulus2025safetyalignmentlmsnoncooperative" >
+<td align='right' style='padding-left:0;padding-right:0;'>
+3.
+</td>
+<td>
+
+<em><a href='https://arxiv.org/abs/2512.20806' target='_blank'>Safety Alignment of LMs via Non-cooperative Games</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_paulus2025safetyalignmentlmsnoncooperative").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/advgame' target='_blank'>code</a><br>
+<a href='https://scholar.google.com/citations?user=njZL5CQAAAAJ' target='_blank'>Anselm&nbsp;Paulus</a>, <a href='https://scholar.google.com/citations?user=fN7fYXIAAAAJ' target='_blank'>Ilia&nbsp;Kulikov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=OvKEnVwAAAAJ' target='_blank'>Rémi&nbsp;Munos</a>, <a href='https://ivanevtimov.eu/' target='_blank'>Ivan&nbsp;Evtimov</a>, <a href='https://scholar.google.com/citations?user=X8H76XIAAAAJ' target='_blank'>Kamalika&nbsp;Chaudhuri</a>, and <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a><br>
+ICML 2026  <br>
+<div id="abs_paulus2025safetyalignmentlmsnoncooperative" class="abstract-box" style="display: none" markdown="1">
+Ensuring the safety of language models (LMs) while
+maintaining their usefulness remains a critical
+challenge in AI alignment. Current approaches rely
+on sequential adversarial training: generating
+adversarial prompts and fine-tuning LMs to defend
+against them. We introduce a different paradigm:
+framing safety alignment as a non-zero-sum game
+between an Attacker LM and a Defender LM trained
+jointly via online reinforcement learning. Each LM
+continuously adapts to the other's evolving
+strategies, driving iterative improvement. Our
+method uses a preference-based reward signal derived
+from pairwise comparisons instead of point-wise
+scores, providing more robust supervision and
+potentially reducing reward hacking. Our RL recipe, AdvGame, shifts the Pareto frontier of safety and
+utility, yielding a Defender LM that is
+simultaneously more helpful and more resilient to
+adversarial attacks. In addition, the resulting
+Attacker LM converges into a strong, general-purpose
+red-teaming agent that can be directly deployed to
+probe arbitrary target models.
+</div>
+</td>
+</tr>
+
+
+<tr id="tr-zhao2025fullyfirstorderlayerdifferentiable" >
+<td align='right' style='padding-left:0;padding-right:0;'>
+4.
+</td>
+<td>
+
+<em><a href='https://arxiv.org/abs/2512.02494' target='_blank'>A Fully First-Order Layer for Differentiable Optimization</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhao2025fullyfirstorderlayerdifferentiable").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/guaguakai/FFOLayer' target='_blank'>code</a><br>
+<a href='https://scholar.google.com/citations?user=825UyCgAAAAJ' target='_blank'>Zihao&nbsp;Zhao</a>, <a href='https://www.linkedin.com/in/kai-chia-mo-300ab3165/' target='_blank'>Kai-Chia&nbsp;Mo</a>, <a href='https://scholar.google.com/citations?user=_NcwyFkAAAAJ' target='_blank'>Shing-Hei&nbsp;Ho</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://scholar.google.com/citations?user=spWVns8AAAAJ' target='_blank'>Kai&nbsp;Wang</a><br>
+ICML 2026  <br>
+<div id="abs_zhao2025fullyfirstorderlayerdifferentiable" class="abstract-box" style="display: none" markdown="1">
+Differentiable optimization layers enable learning systems to make decisions by solving embedded optimization problems. However, computing gradients via implicit differentiation requires solving a linear system with Hessian terms, which is both compute- and memory-intensive. To address this challenge, we propose a novel algorithm that computes the gradient using only first-order information. The key insight is to rewrite the differentiable optimization as a bilevel optimization problem and leverage recent advances in bilevel methods. Specifically, we introduce an active-set Lagrangian hypergradient oracle that avoids Hessian evaluations and provides finite-time, non-asymptotic approximation guarantees. We show that an approximate hypergradient can be computed using only first-order information in about constant time (up to logarithmic factors), leading to an overall complexity on the order of δ⁻¹ε⁻³ for constrained bilevel optimization, which matches the best known rate for non-smooth non-convex optimization. Furthermore, we release an open-source Python library that can be easily adapted from existing solvers.
+</div>
+</td>
+</tr>
+
+
+<tr id="tr-silvestri2026score" >
+<td align='right' style='padding-left:0;padding-right:0;'>
+5.
 </td>
 <td>
 
@@ -67,29 +135,13 @@ Many real-world optimization problems contain parameters that are unknown before
 </td>
 </tr>
 
-
-<tr id="tr-chang2026surprisingdifficultysearchmodelbased" >
-<td align='right' style='padding-left:0;padding-right:0;'>
-3.
-</td>
-<td>
-
-<em><a href='https://arxiv.org/abs/2601.21306' target='_blank'>The Surprising Difficulty of Search in Model-Based Reinforcement Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_chang2026surprisingdifficultysearchmodelbased").toggle()'>abstract</a><br>
-<a href='https://scholar.google.com/citations?user=1EW9Jt4AAAAJ' target='_blank'>Wei-Di&nbsp;Chang</a>, <a href='https://scholar.google.com/citations?user=bX__wkYAAAAJ' target='_blank'>Mikael&nbsp;Henaff</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=BSORuFoAAAAJ' target='_blank'>Gregory&nbsp;Dudek</a>, and <a href='https://scholar.google.com/citations?user=1Nk3WZoAAAAJ' target='_blank'>Scott&nbsp;Fujimoto</a><br>
-arXiv 2026  <br>
-<div id="abs_chang2026surprisingdifficultysearchmodelbased" class="abstract-box" style="display: none" markdown="1">
-This paper investigates search in model-based reinforcement learning (RL). Conventional wisdom holds that long-term predictions and compounding errors are the primary obstacles for model-based RL. We challenge this view, showing that search is not a plug-and-play replacement for a learned policy. Surprisingly, we find that search can harm performance even when the model is highly accurate. Instead, we show that mitigating distribution shift matters more than improving model or value function accuracy. Building on this insight, we identify key techniques for enabling effective search, achieving state-of-the-art performance across multiple popular benchmark domains.
-</div>
-</td>
-</tr>
-
 </table>
 <h2>2025</h2>
 <table class="table table-hover">
 
 <tr id="tr-zheng2024onlineintrinsicrewardsdecision" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-4.
+6.
 </td>
 <td>
 
@@ -137,7 +189,7 @@ external datasets nor source code.
 
 <tr id="tr-paulus2024advprompter" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-5.
+7.
 </td>
 <td>
 
@@ -155,7 +207,7 @@ We train the AdvPrompter using a novel algorithm that does not require access to
 
 <tr id="tr-haviv2024wasserstein" style="background-color: #ffffd0">
 <td align='right' style='padding-left:0;padding-right:0;'>
-6.
+8.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2411.00698' target='_blank'><img src="images/publications/haviv2024wasserstein.png" class="publicationImg" /></a> 
@@ -196,7 +248,7 @@ datasets.
 
 <tr id="tr-havens2025adjointsamplinghighlyscalable" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-7.
+9.
 </td>
 <td>
 
@@ -212,7 +264,7 @@ We introduce Adjoint Sampling, a highly scalable and efficient algorithm for lea
 
 <tr id="tr-phan2024exactbytelevelprobabilitiestokenized" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-8.
+10.
 </td>
 <td>
 
@@ -228,7 +280,7 @@ Tokenization is associated with many poorly understood shortcomings in language 
 
 <tr id="tr-atanackovic2024meta" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-9.
+11.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2408.14608' target='_blank'><img src="images/publications/atanackovic2024meta.png" class="publicationImg" /></a> 
@@ -244,7 +296,7 @@ Numerous biological and physical processes can be modeled as systems of interact
 
 <tr id="tr-zhu2025advprefixobjectivenuancedllm" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-10.
+12.
 </td>
 <td>
 
@@ -282,7 +334,7 @@ nuanced jailbreaks.
 
 <tr id="tr-press2025algotune" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-11.
+13.
 </td>
 <td>
 
@@ -322,7 +374,7 @@ solving beyond state-of-the-art human performance.
 
 <tr id="tr-lee2025banelexplorationposteriorsgenerative" >
 <td align='right' style='padding-left:0;padding-right:0;'>
-12.
+14.
 </td>
 <td>
 
@@ -331,58 +383,6 @@ solving beyond state-of-the-art human performance.
 arXiv 2025  <br>
 <div id="abs_lee2025banelexplorationposteriorsgenerative" class="abstract-box" style="display: none" markdown="1">
 Today's generative models thrive with large amounts of supervised data and informative reward functions characterizing the quality of the generation. They work under the assumptions that the supervised data provides knowledge to pre-train the model, and the reward function provides dense information about how to further improve the generation quality and correctness. However, in the hardest instances of important problems, two problems arise: (1) the base generative model attains a near-zero reward signal, and (2) calls to the reward oracle are expensive. This setting poses a fundamentally different learning challenge than standard reward-based post-training. To address this, we propose BaNEL (Bayesian Negative Evidence Learning), an algorithm that post-trains the model using failed attempts only, while minimizing the number of reward evaluations (NREs). Our method is based on the idea that the problem of learning regularities underlying failures can be cast as another, in-loop generative modeling problem. We then leverage this model to assess whether new data resembles previously seen failures and steer the generation away from them. We show that BaNEL can improve model performance without observing a single successful sample on several sparse-reward tasks, outperforming existing novelty-bonus approaches by up to several orders of magnitude in success rate, while using fewer reward evaluations.
-</div>
-</td>
-</tr>
-
-
-<tr id="tr-zhao2025fullyfirstorderlayerdifferentiable" >
-<td align='right' style='padding-left:0;padding-right:0;'>
-13.
-</td>
-<td>
-
-<em><a href='https://arxiv.org/abs/2512.02494' target='_blank'>A Fully First-Order Layer for Differentiable Optimization</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhao2025fullyfirstorderlayerdifferentiable").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/guaguakai/FFOLayer' target='_blank'>code</a><br>
-<a href='https://scholar.google.com/citations?user=825UyCgAAAAJ' target='_blank'>Zihao&nbsp;Zhao</a>, <a href='https://www.linkedin.com/in/kai-chia-mo-300ab3165/' target='_blank'>Kai-Chia&nbsp;Mo</a>, <a href='https://scholar.google.com/citations?user=_NcwyFkAAAAJ' target='_blank'>Shing-Hei&nbsp;Ho</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://scholar.google.com/citations?user=spWVns8AAAAJ' target='_blank'>Kai&nbsp;Wang</a><br>
-arXiv 2025  <br>
-<div id="abs_zhao2025fullyfirstorderlayerdifferentiable" class="abstract-box" style="display: none" markdown="1">
-Differentiable optimization layers enable learning systems to make decisions by solving embedded optimization problems. However, computing gradients via implicit differentiation requires solving a linear system with Hessian terms, which is both compute- and memory-intensive. To address this challenge, we propose a novel algorithm that computes the gradient using only first-order information. The key insight is to rewrite the differentiable optimization as a bilevel optimization problem and leverage recent advances in bilevel methods. Specifically, we introduce an active-set Lagrangian hypergradient oracle that avoids Hessian evaluations and provides finite-time, non-asymptotic approximation guarantees. We show that an approximate hypergradient can be computed using only first-order information in about constant time (up to logarithmic factors), leading to an overall complexity on the order of δ⁻¹ε⁻³ for constrained bilevel optimization, which matches the best known rate for non-smooth non-convex optimization. Furthermore, we release an open-source Python library that can be easily adapted from existing solvers.
-</div>
-</td>
-</tr>
-
-
-<tr id="tr-paulus2025safetyalignmentlmsnoncooperative" >
-<td align='right' style='padding-left:0;padding-right:0;'>
-14.
-</td>
-<td>
-
-<em><a href='https://arxiv.org/abs/2512.20806' target='_blank'>Safety Alignment of LMs via Non-cooperative Games</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_paulus2025safetyalignmentlmsnoncooperative").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/advgame' target='_blank'>code</a><br>
-<a href='https://scholar.google.com/citations?user=njZL5CQAAAAJ' target='_blank'>Anselm&nbsp;Paulus</a>, <a href='https://scholar.google.com/citations?user=fN7fYXIAAAAJ' target='_blank'>Ilia&nbsp;Kulikov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=OvKEnVwAAAAJ' target='_blank'>Rémi&nbsp;Munos</a>, <a href='https://ivanevtimov.eu/' target='_blank'>Ivan&nbsp;Evtimov</a>, <a href='https://scholar.google.com/citations?user=X8H76XIAAAAJ' target='_blank'>Kamalika&nbsp;Chaudhuri</a>, and <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a><br>
-arXiv 2025  <br>
-<div id="abs_paulus2025safetyalignmentlmsnoncooperative" class="abstract-box" style="display: none" markdown="1">
-Ensuring the safety of language models (LMs) while
-maintaining their usefulness remains a critical
-challenge in AI alignment. Current approaches rely
-on sequential adversarial training: generating
-adversarial prompts and fine-tuning LMs to defend
-against them. We introduce a different paradigm:
-framing safety alignment as a non-zero-sum game
-between an Attacker LM and a Defender LM trained
-jointly via online reinforcement learning. Each LM
-continuously adapts to the other's evolving
-strategies, driving iterative improvement. Our
-method uses a preference-based reward signal derived
-from pairwise comparisons instead of point-wise
-scores, providing more robust supervision and
-potentially reducing reward hacking. Our RL recipe, AdvGame, shifts the Pareto frontier of safety and
-utility, yielding a Defender LM that is
-simultaneously more helpful and more resilient to
-adversarial attacks. In addition, the resulting
-Attacker LM converges into a strong, general-purpose
-red-teaming agent that can be directly deployed to
-probe arbitrary target models.
 </div>
 </td>
 </tr>
@@ -2315,7 +2315,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2025</span>
     <a href="https://github.com/oripress/AlgoTune">oripress/AlgoTune</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;95
+    | <i class="fa fas fa-star"></i>&nbsp;96
     </span>
   </td>
 </tr>
@@ -2385,7 +2385,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/kuleshov/cornell-cs5785-2024-applied-ml">kuleshov/cornell-cs5785-2024-applied-ml</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;532
+    | <i class="fa fas fa-star"></i>&nbsp;533
     </span>
  <span style='color: gray;'>| <em>Slides for our applied ML course</em></span>  </td>
 </tr>
@@ -2475,7 +2475,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/nocturne">facebookresearch/nocturne</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;299
+    | <i class="fa fas fa-star"></i>&nbsp;300
     </span>
  <span style='color: gray;'>| <em>A partially-observable multi-agent driving simulator</em></span>  </td>
 </tr>
@@ -2625,7 +2625,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;326
+    | <i class="fa fas fa-star"></i>&nbsp;328
     </span>
   </td>
 </tr>
@@ -2675,7 +2675,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/bamos/block">bamos/block</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;310
+    | <i class="fa fas fa-star"></i>&nbsp;307
     </span>
  <span style='color: gray;'>| <em>Intelligent block matrix constructions</em></span>  </td>
 </tr>
@@ -3325,4 +3325,4 @@ under a CC-BY license.*
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on April 24, 2026.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on April 30, 2026.</p>
