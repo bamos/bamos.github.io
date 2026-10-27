@@ -182,7 +182,7 @@ Many real-world optimization problems contain parameters that are unknown before
 </td>
 <td>
 
-<em><a href='https://openreview.net/forum?id=xX1qb7SNt8' target='_blank'>Social Choice Foundations for Simulation-Augmented Generation</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_kraiczy2026social").toggle()'>abstract</a><br>
+<em><a href='https://arxiv.org/abs/2609.38287' target='_blank'>Social Choice Foundations for Simulation-Augmented Generation</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_kraiczy2026social").toggle()'>abstract</a><br>
 <a href='https://www.sonja.uk/' target='_blank'>Sonja&nbsp;Kraiczy</a>, <a href='http://smithamilli.com/' target='_blank'>Smitha&nbsp;Milli</a>, <a href='https://www.eminberker.com/' target='_blank'>Ratip&nbsp;Emin&nbsp;Berker</a>, <a href='https://avinandan22.github.io/' target='_blank'>Avinandan&nbsp;Bose</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.jamellewd.com/' target='_blank'>Jamelle&nbsp;Watson-Daniels</a>, <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a>, <a href='https://sagemath.openbsd.amsterdam/edith/' target='_blank'>Edith&nbsp;Elkind</a>, and <a href='https://procaccia.info/' target='_blank'>Ariel&nbsp;D.&nbsp;Procaccia</a><br>
 NeurIPS 2026 2026 <br>
 
@@ -3459,4 +3459,4 @@ under a CC-BY license.*
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on October 26, 2026.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on October 27, 2026.</p>
