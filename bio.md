@@ -14,7 +14,8 @@ a Visiting Lecturer at Cornell Tech, and has also worked at
 Adobe Research, Google DeepMind, and Intel Labs.
 He holds a Ph.D. in Computer Science from Carnegie Mellon University
 and was supported by the NSF Graduate Research Fellowship (GRFP).
-He has received best paper awards at the
+He has received an Honorable Mention for the 2026
+INFORMS Computing Society Prize, best paper awards at the
 ICML Theoretical Foundations Workshop and ACM MMSys,
 best reviewer awards at NeurIPS, ICML, ICLR, and AISTATS,
 and is an area chair for AAAI, AISTATS, ICML, ICLR, and NeurIPS.
