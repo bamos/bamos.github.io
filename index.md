@@ -41,7 +41,7 @@ title: Brandon Amos
 <p style="text-align: justify;">
 Hi! I am a member of technical staff at
 <a href="https://www.reflection.ai/" target="_blank" rel="noopener">Reflection AI</a> in New York City
-building our RL systems.
+building our post-training systems.
 </p>
 
 <p style="text-align: justify;">
