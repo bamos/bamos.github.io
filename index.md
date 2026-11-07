@@ -2470,7 +2470,7 @@ malware machine learning classifiers.
 </table>
 
 
-## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Open Source Repositories
+## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Code
 *40k+ GitHub stars across all repositories.*
 
 <table class="table table-hover">
@@ -3007,7 +3007,7 @@ malware machine learning classifiers.
 </table>
 
 
-## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Invited Talks
+## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Talks
 *Slides for my major presentations are available
 [here](https://bamos.github.io/presentations/)
 under a CC-BY license.*
