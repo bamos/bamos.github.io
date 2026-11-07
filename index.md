@@ -77,11 +77,27 @@ and
 </td>
 <td>
 
-<em><a href='https://reflection.ai/documents/beam-model-tech-report' target='_blank'>Beam Model Technical Report</a> </em> <br>
+<em><a href='https://reflection.ai/documents/beam-model-tech-report' target='_blank'>Beam Model Technical Report</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_reflection2026beam").toggle()'>abstract</a><br>
 <a href="https://reflection.ai/" target="_blank">Reflection Team</a><br>
 2026 <br>
 
-
+<div id="abs_reflection2026beam" class="abstract-box" style="display: none" markdown="1">
+Beam is a sparse Mixture-of-Experts (MoE) model with 501.3B total parameters and 23.4B
+active parameters, specifically built and optimized for coding, reasoning, and agentic workloads.
+Beam delivers frontier level reasoning, while requiring 3-4x less inference compute than many
+models of its class. Pretrained on 23.8T diverse, curated, high-quality tokens, Beam features
+a 1M-token context window achieved through a novel two-stage midtraining phase, built on
+verifiable, correctness-anchored data. Post-training leveraged a large-scale, fully asynchronous
+reinforcement learning (RL) campaign across 10.5K GB300 GPUs, generating over 100M rollouts
+over 4 weeks of training. We believe this is one of the largest scale RL runs conducted by any open
+lab to date. Across our evaluation suite, capabilities continued to improve as we increased RL
+compute, with no sign of a plateau. Supported by deep hardware-model co-design, FP8/NVFP4
+quantization, and a 1.93B-parameter speculative decoding drafter (DFlash 2), Beam maximizes
+serving throughput with efficient, flexible deployment. Averaged across conversation turns and
+harm categories, Beam refuses or pivots on 88.9% of harmful requests while complying with
+81.5% of harmless requests, achieving the highest refusal/pivot rate on harmful requests among
+open-weight models on the Pareto frontier.
+</div>
 </td>
 </tr>
 
@@ -126,7 +142,7 @@ This paper investigates search in model-based reinforcement learning (RL). Conve
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2512.20806' target='_blank'>Safety Alignment of LMs via Non-cooperative Games</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_paulus2025safetyalignmentlmsnoncooperative").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/advgame' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2512.20806' target='_blank'>Safety Alignment of LMs via Non-cooperative Games</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_paulus2025safetyalignmentlmsnoncooperative").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/advgame' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2026.advprompter-algotune.html' target='_blank'>slides</a><br>
 <a href='https://scholar.google.com/citations?user=njZL5CQAAAAJ' target='_blank'>Anselm&nbsp;Paulus</a>, <a href='https://scholar.google.com/citations?user=fN7fYXIAAAAJ' target='_blank'>Ilia&nbsp;Kulikov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=OvKEnVwAAAAJ' target='_blank'>Rémi&nbsp;Munos</a>, <a href='https://ivanevtimov.eu/' target='_blank'>Ivan&nbsp;Evtimov</a>, <a href='https://scholar.google.com/citations?user=X8H76XIAAAAJ' target='_blank'>Kamalika&nbsp;Chaudhuri</a>, and <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a><br>
 ICML 2026 <br>
 
@@ -285,7 +301,7 @@ We train the AdvPrompter using a novel algorithm that does not require access to
 </td>
 <td>
 <a href='https://arxiv.org/abs/2411.00698' target='_blank'><img src="images/publications/haviv2024wasserstein.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2411.00698' target='_blank'>Wasserstein Flow Matching: Generative modeling over families of distributions</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_haviv2024wasserstein").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/DoronHav/WassersteinFlowMatching' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2411.00698' target='_blank'>Wasserstein Flow Matching: Generative modeling over families of distributions</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_haviv2024wasserstein").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/DoronHav/WassersteinFlowMatching' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2024.transport-between-distributions-over-distributions.html' target='_blank'>slides</a><br>
 <a href='https://doronhav.github.io/' target='_blank'>Doron&nbsp;Haviv</a>, <a href='https://arampooladian.com/' target='_blank'>Aram-Alexandre&nbsp;Pooladian</a>, <a href='https://scholar.google.com/citations?user=aJOeGRoAAAAJ' target='_blank'>Dana&nbsp;Pe'er</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 ICML 2025 <br>
 
@@ -361,7 +377,7 @@ Tokenization is associated with many poorly understood shortcomings in language 
 </td>
 <td>
 <a href='https://arxiv.org/abs/2408.14608' target='_blank'><img src="images/publications/atanackovic2024meta.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2408.14608' target='_blank'>Meta Flow Matching:  Integrating Vector Fields on the Wasserstein Manifold</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_atanackovic2024meta").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/lazaratan/meta-flow-matching' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2408.14608' target='_blank'>Meta Flow Matching:  Integrating Vector Fields on the Wasserstein Manifold</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_atanackovic2024meta").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/lazaratan/meta-flow-matching' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2024.transport-between-distributions-over-distributions.html' target='_blank'>slides</a><br>
 <a href='https://lazaratan.github.io/' target='_blank'>Lazar&nbsp;Atanackovic</a>, <a href='https://scholar.google.com/citations?user=CblgXekAAAAJ' target='_blank'>Xi&nbsp;Zhang</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.cs.mcgill.ca/~blanchem/' target='_blank'>Mathieu&nbsp;Blanchette</a>, <a href='https://scholar.google.ca/citations?user=DN3LoTEAAAAJ' target='_blank'>Leo&nbsp;J&nbsp;Lee</a>, <a href='https://yoshuabengio.org/profile/' target='_blank'>Yoshua&nbsp;Bengio</a>, <a href='https://www.alextong.net/' target='_blank'>Alexander&nbsp;Tong</a>, and <a href='https://necludov.github.io/' target='_blank'>Kirill&nbsp;Neklyudov</a><br>
 ICLR 2025 <br>
 
@@ -378,7 +394,7 @@ Numerous biological and physical processes can be modeled as systems of interact
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2412.10321' target='_blank'>AdvPrefix: An Objective for Nuanced LLM Jailbreaks</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhu2025advprefixobjectivenuancedllm").toggle()'>abstract</a><br>
+<em><a href='https://arxiv.org/abs/2412.10321' target='_blank'>AdvPrefix: An Objective for Nuanced LLM Jailbreaks</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhu2025advprefixobjectivenuancedllm").toggle()'>abstract</a><a class='pub-pill' href='https://bamos.github.io/presentations/2026.advprompter-algotune.html' target='_blank'>slides</a><br>
 <a href='https://schzhu.github.io/' target='_blank'>Sicheng&nbsp;Zhu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=0mgEF28AAAAJ' target='_blank'>Yuandong&nbsp;Tian</a>, <a href='https://sites.google.com/view/chuanguo' target='_blank'>Chuan&nbsp;Guo</a>, and <a href='https://ivanevtimov.eu/' target='_blank'>Ivan&nbsp;Evtimov</a><br>
 NeurIPS 2025 <br>
 
@@ -417,7 +433,7 @@ nuanced jailbreaks.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2507.15887' target='_blank'>AlgoTune: Can Language Models Speed Up General-Purpose Numerical Programs?</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_press2025algotune").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/oripress/AlgoTune' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2507.15887' target='_blank'>AlgoTune: Can Language Models Speed Up General-Purpose Numerical Programs?</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_press2025algotune").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/oripress/AlgoTune' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2026.advprompter-algotune.html' target='_blank'>slides</a><br>
 <a href='https://oripress.com/' target='_blank'>Ori&nbsp;Press</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://hyzhao.me/' target='_blank'>Haoyu&nbsp;Zhao</a>, <a href='https://yikai-wu.github.io/' target='_blank'>Yikai&nbsp;Wu</a>, <a href='https://samlikes.pizza/' target='_blank'>Samuel&nbsp;K.&nbsp;Ainsworth</a>, <a href='https://krupke.cc/' target='_blank'>Dominik&nbsp;Krupke</a>, <a href='https://kidger.site/' target='_blank'>Patrick&nbsp;Kidger</a>, <a href='https://www.linkedin.com/in/touqir-sajed-6a95b1126/' target='_blank'>Touqir&nbsp;Sajed</a>, <a href='https://stellato.io/' target='_blank'>Bartolomeo&nbsp;Stellato</a>, <a href='https://jisunp515.github.io/' target='_blank'>Jisun&nbsp;Park</a>, <a href='https://nathanaelbosch.github.io/' target='_blank'>Nathanael&nbsp;Bosch</a>, <a href='https://openreview.net/profile?id=~Eli_Meril1' target='_blank'>Eli&nbsp;Meril</a>, <a href='https://scholar.google.com/citations?user=_nbf9ZIAAAAJ' target='_blank'>Albert&nbsp;Steppi</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <a href='https://fangzhaoz.github.io/' target='_blank'>Fangzhao&nbsp;Zhang</a>, <a href='https://davidppineiro.com/' target='_blank'>David&nbsp;Pérez-Piñeiro</a>, <a href='https://scholar.google.it/citations?user=a5HqhwUAAAAJ' target='_blank'>Alberto&nbsp;Mercurio</a>, <a href='https://jennyzhanni.com/' target='_blank'>Ni&nbsp;Zhan</a>, <a href='https://scholar.google.com/citations?user=mdd52kMAAAAJ' target='_blank'>Talor&nbsp;Abramovich</a>, <a href='https://www.lieret.net/' target='_blank'>Kilian&nbsp;Lieret</a>, <a href='https://hanlin-zhang.com/' target='_blank'>Hanlin&nbsp;Zhang</a>, <a href='https://scholar.google.com/citations?user=qNjmSUEAAAAJ' target='_blank'>Shirley&nbsp;Huang</a>, <a href='https://scholar.google.com/citations?user=0z0fNxUAAAAJ' target='_blank'>Matthias&nbsp;Bethge</a>, and <a href='https://ofir.io/about' target='_blank'>Ofir&nbsp;Press</a><br>
 NeurIPS Datasets and Benchmarks Track 2025 <br>
 
@@ -478,7 +494,7 @@ Today's generative models thrive with large amounts of supervised data and infor
 </td>
 <td>
 <a href='https://arxiv.org/abs/2406.00288' target='_blank'><img src="images/publications/pooladian2024neural.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2406.00288' target='_blank'>Neural Optimal Transport with Lagrangian Costs</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_pooladian2024neural").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/lagrangian-ot' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2406.00288' target='_blank'>Neural Optimal Transport with Lagrangian Costs</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_pooladian2024neural").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/lagrangian-ot' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2025.transport-flows-physics.html' target='_blank'>slides</a><br>
 <a href='https://arampooladian.com/' target='_blank'>Aram-Alexandre&nbsp;Pooladian</a>, <a href='https://cdenrich.github.io/' target='_blank'>Carles&nbsp;Domingo-Enrich</a>, <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 UAI 2024 <br>
 
@@ -592,7 +608,7 @@ Travel planning is a challenging and time-consuming task that aims to find an it
 </td>
 <td>
 <a href='https://arxiv.org/abs/2202.00665' target='_blank'><img src="images/publications/amos2023tutorial.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2202.00665' target='_blank'>Tutorial on amortized optimization</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2023tutorial").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/amortized-optimization-tutorial' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2202.00665' target='_blank'>Tutorial on amortized optimization</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2023tutorial").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/amortized-optimization-tutorial' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2023.amortized-optimization.html' target='_blank'>slides</a><br>
 <strong>Brandon&nbsp;Amos</strong><br>
 Foundations and Trends in Machine Learning 2023 <br>
 
@@ -624,7 +640,7 @@ transport, and deep equilibrium networks.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2210.12153' target='_blank'><img src="images/publications/amos2023amortizing.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2210.12153' target='_blank'>On amortizing convex conjugates for optimal transport</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2023amortizing").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/w2ot' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2210.12153' target='_blank'>On amortizing convex conjugates for optimal transport</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2023amortizing").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/w2ot' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2023.w2ot.html' target='_blank'>slides</a><br>
 <strong>Brandon&nbsp;Amos</strong><br>
 ICLR 2023 <br>
 
@@ -696,7 +712,7 @@ high-quality solutions.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2206.05262' target='_blank'>Meta Optimal Transport</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2023meta").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/meta-ot' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2206.05262' target='_blank'>Meta Optimal Transport</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2023meta").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/meta-ot' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2023.meta-ot.html' target='_blank'>slides</a><br>
 <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <a href='https://giulslu.github.io/' target='_blank'>Giulia&nbsp;Luise</a>, and <a href='https://ievred.github.io' target='_blank'>Ievgen&nbsp;Redko</a><br>
 ICML 2023 <br>
 
@@ -811,7 +827,7 @@ datasets.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2312.05250' target='_blank'>TaskMet: Task-Driven Metric Learning for Model Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_bansal2023taskmet").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/taskmet' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2312.05250' target='_blank'>TaskMet: Task-Driven Metric Learning for Model Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_bansal2023taskmet").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/taskmet' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2024.e2e-geometries.html' target='_blank'>slides</a><br>
 <a href='https://dishank-b.github.io/' target='_blank'>Dishank&nbsp;Bansal</a>, <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a>, <a href='https://www.mustafamukadam.com/' target='_blank'>Mustafa&nbsp;Mukadam</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 NeurIPS 2023 <br>
 
@@ -920,7 +936,7 @@ after training.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2110.03684' target='_blank'><img src="images/publications/fickinger2021crossdomain.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2110.03684' target='_blank'>Cross-Domain Imitation Learning via Optimal Transport</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_fickinger2021crossdomain").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/gwil' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2110.03684' target='_blank'>Cross-Domain Imitation Learning via Optimal Transport</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_fickinger2021crossdomain").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/gwil' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2025.transport-flows-physics.html' target='_blank'>slides</a><br>
 <a href='https://scholar.google.com/citations?user=bBFN_qwAAAAJ' target='_blank'>Arnaud&nbsp;Fickinger</a>, <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <a href='http://people.eecs.berkeley.edu/~russell/' target='_blank'>Stuart&nbsp;Russell</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 ICLR 2022 <br>
 
@@ -1039,7 +1055,7 @@ to a baseline model.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2207.09442' target='_blank'>Theseus: A Library for Differentiable Nonlinear Optimization</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_pineda2022theseus").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/theseus' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2207.09442' target='_blank'>Theseus: A Library for Differentiable Nonlinear Optimization</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_pineda2022theseus").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/theseus' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2024.differentiable-optimization-and-robotics.html' target='_blank'>slides</a><br>
 <a href='https://scholar.google.com/citations?user=rebEn8oAAAAJ' target='_blank'>Luis&nbsp;Pineda</a>, <a href='https://scholar.google.com/citations?user=3PJeg1wAAAAJ' target='_blank'>Taosha&nbsp;Fan</a>, <a href='https://scholar.google.com/citations?user=gpgb4LgAAAAJ' target='_blank'>Maurizio&nbsp;Monge</a>, <a href='https://scholar.google.com/citations?user=BFWurDEAAAAJ' target='_blank'>Shobha&nbsp;Venkataraman</a>, <a href='https://scholar.google.com/citations?user=LI7rp1QAAAAJ' target='_blank'>Paloma&nbsp;Sodhi</a>, <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;Chen</a>, <a href='https://joeaortiz.github.io/' target='_blank'>Joseph&nbsp;Ortiz</a>, <a href='https://danieldetone.com/' target='_blank'>Daniel&nbsp;DeTone</a>, <a href='https://scholar.google.com/citations?user=keDqjK0AAAAJ' target='_blank'>Austin&nbsp;Wang</a>, <a href='https://scholar.google.com/citations?user=8orqBsYAAAAJ' target='_blank'>Stuart&nbsp;Anderson</a>, <a href='https://www.linkedin.com/in/jing-dong-24b26ab3/' target='_blank'>Jing&nbsp;Dong</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://www.mustafamukadam.com/' target='_blank'>Mustafa&nbsp;Mukadam</a><br>
 NeurIPS 2022 <br>
 
@@ -1117,7 +1133,7 @@ trajectories.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2008.12775' target='_blank'><img src="images/publications/amos2021modelbased.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2008.12775' target='_blank'>On the model-based stochastic value gradient for continuous reinforcement learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2021modelbased").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/svg' target='_blank'>code</a><a class='pub-pill' href='http://bamos.github.io/data/slides/2021.svg.pdf' target='_blank'>slides</a><br>
+<em><a href='https://arxiv.org/abs/2008.12775' target='_blank'>On the model-based stochastic value gradient for continuous reinforcement learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2021modelbased").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/svg' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2021.svg.html' target='_blank'>slides</a><br>
 <strong>Brandon&nbsp;Amos</strong>, <a href='https://samuelstanton.github.io/' target='_blank'>Samuel&nbsp;Stanton</a>, <a href='https://scholar.google.com/citations?user=7kaXqgMAAAAJ' target='_blank'>Denis&nbsp;Yarats</a>, and <a href='https://cims.nyu.edu/~andrewgw/' target='_blank'>Andrew&nbsp;Gordon&nbsp;Wilson</a><br>
 L4DC 2021 (Oral)<br>
 
@@ -1161,7 +1177,7 @@ an ensemble.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2106.10272' target='_blank'><img src="images/publications/cohen2021riemannian.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2106.10272' target='_blank'>Riemannian Convex Potential Maps</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_cohen2021riemannian").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/rcpm' target='_blank'>code</a><a class='pub-pill' href='http://bamos.github.io/data/slides/2021.rcpm.pdf' target='_blank'>slides</a><br>
+<em><a href='https://arxiv.org/abs/2106.10272' target='_blank'>Riemannian Convex Potential Maps</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_cohen2021riemannian").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/rcpm' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2021.rcpm.html' target='_blank'>slides</a><br>
 <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen*</a>, <strong>Brandon&nbsp;Amos*</strong>, and <a href='https://www.wisdom.weizmann.ac.il/~ylipman/' target='_blank'>Yaron&nbsp;Lipman</a><br>
 ICML 2021 <br>
 
@@ -1254,7 +1270,7 @@ tabular search in the Atari game Ms. Pacman.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2006.12648' target='_blank'><img src="images/publications/cohen2020aligning.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2006.12648' target='_blank'>Aligning Time Series on Incomparable Spaces</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_cohen2020aligning").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/samcohen16/Aligning-Time-Series' target='_blank'>code</a><a class='pub-pill' href='http://bamos.github.io/data/slides/2021.gdtw.pdf' target='_blank'>slides</a><br>
+<em><a href='https://arxiv.org/abs/2006.12648' target='_blank'>Aligning Time Series on Incomparable Spaces</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_cohen2020aligning").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/samcohen16/Aligning-Time-Series' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/data/slides/2021.gdtw.pdf' target='_blank'>slides</a><br>
 <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <a href='https://giulslu.github.io/' target='_blank'>Giulia&nbsp;Luise</a>, <a href='https://avt.im/' target='_blank'>Alexander&nbsp;Terenin</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://www.deisenroth.cc/' target='_blank'>Marc&nbsp;Peter&nbsp;Deisenroth</a><br>
 AISTATS 2021 <br>
 
@@ -1553,7 +1569,7 @@ deploying state-of-the-art algorithms.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/1909.12830' target='_blank'>The Differentiable Cross-Entropy Method</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2020differentiable").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/dcem' target='_blank'>code</a><a class='pub-pill' href='http://bamos.github.io/data/slides/2020.dcem.pdf' target='_blank'>slides</a><br>
+<em><a href='https://arxiv.org/abs/1909.12830' target='_blank'>The Differentiable Cross-Entropy Method</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2020differentiable").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/dcem' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2020.dcem.html' target='_blank'>slides</a><br>
 <strong>Brandon&nbsp;Amos</strong> and <a href='https://scholar.google.com/citations?user=7kaXqgMAAAAJ' target='_blank'>Denis&nbsp;Yarats</a><br>
 ICML 2020 <br>
 
@@ -1658,7 +1674,7 @@ database with broad coverage of protein sequences.
 </td>
 <td>
 <a href='https://drive.google.com/file/d/1Ewro0Ne1tvK15nHyYopY4wZ59QTVB-1c/view' target='_blank'><img src="images/publications/lou2020riemannian.png" class="publicationImg" /></a> 
-<em><a href='https://drive.google.com/file/d/1Ewro0Ne1tvK15nHyYopY4wZ59QTVB-1c/view' target='_blank'>Deep Riemannian Manifold Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_lou2020riemannian").toggle()'>abstract</a><br>
+<em><a href='https://drive.google.com/file/d/1Ewro0Ne1tvK15nHyYopY4wZ59QTVB-1c/view' target='_blank'>Deep Riemannian Manifold Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_lou2020riemannian").toggle()'>abstract</a><a class='pub-pill' href='https://bamos.github.io/presentations/2024.e2e-geometries.html' target='_blank'>slides</a><br>
 <a href='https://aaronlou.com/' target='_blank'>Aaron&nbsp;Lou</a>, <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 NeurIPS Geo4dl Workshop 2020 <br>
 
@@ -1685,7 +1701,7 @@ in graph embedding tasks.
 </td>
 <td>
 
-<em><a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>Differentiable Optimization-Based Modeling for Machine Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2019differentiable").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/bamos/thesis' target='_blank'>code</a><br>
+<em><a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>Differentiable Optimization-Based Modeling for Machine Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2019differentiable").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/bamos/thesis' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2019.thesis.html' target='_blank'>slides</a><br>
 <strong>Brandon&nbsp;Amos</strong><br>
 Ph.D. Thesis 2019 <br>
 
@@ -1715,7 +1731,7 @@ enables rapid prototyping of the approaches in this thesis.
 </td>
 <td>
 
-<em><a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'>Differentiable Convex Optimization Layers</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2019differentiable3").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/cvxgrp/cvxpylayers' target='_blank'>code</a><br>
+<em><a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'>Differentiable Convex Optimization Layers</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2019differentiable3").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/cvxgrp/cvxpylayers' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2022.differentiable-optimization.html' target='_blank'>slides</a><br>
 <a href='https://www.akshayagrawal.com/' target='_blank'>Akshay&nbsp;Agrawal*</a>, <strong>Brandon&nbsp;Amos*</strong>, <a href='https://scholar.google.com/citations?user=HmCZLyoAAAAJ' target='_blank'>Shane&nbsp;Barratt*</a>, <a href='https://web.stanford.edu/~boyd/' target='_blank'>Stephen&nbsp;Boyd*</a>, <a href='https://stevendiamond.me/' target='_blank'>Steven&nbsp;Diamond*</a>, and <a href='https://zicokolter.com/' target='_blank'>J.&nbsp;Zico&nbsp;Kolter*</a><br>
 NeurIPS 2019 <br>
 
@@ -1833,7 +1849,7 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/1810.13400' target='_blank'>Differentiable MPC for End-to-end Planning and Control</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2018end").toggle()'>abstract</a><a class='pub-pill' href='https://locuslab.github.io/mpc.pytorch/' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/1810.13400' target='_blank'>Differentiable MPC for End-to-end Planning and Control</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2018end").toggle()'>abstract</a><a class='pub-pill' href='https://locuslab.github.io/mpc.pytorch/' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2018.differentiable-mpc.html' target='_blank'>slides</a><br>
 <strong>Brandon&nbsp;Amos</strong>, <a href='https://ivandariojr.io/' target='_blank'>Ivan&nbsp;Dario&nbsp;Jimenez&nbsp;Rodriguez</a>, <a href='https://scholar.google.com/citations?user=Th4PuGkAAAAJ' target='_blank'>Jacob&nbsp;Sacks</a>, <a href='https://homes.cs.washington.edu/~bboots/' target='_blank'>Byron&nbsp;Boots</a>, and <a href='https://zicokolter.com/' target='_blank'>J.&nbsp;Zico&nbsp;Kolter</a><br>
 NeurIPS 2018 <br>
 
@@ -1901,7 +1917,7 @@ video streams and analytics services.
 </td>
 <td>
 
-<em><a href='http://arxiv.org/abs/1703.00443' target='_blank'>OptNet: Differentiable Optimization as a Layer in Neural Networks</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2017optnet").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/locuslab/optnet' target='_blank'>code</a><a class='pub-pill' href='http://bamos.github.io/data/slides/2017.optnet.pdf' target='_blank'>slides</a><br>
+<em><a href='http://arxiv.org/abs/1703.00443' target='_blank'>OptNet: Differentiable Optimization as a Layer in Neural Networks</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2017optnet").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/locuslab/optnet' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2017.optnet.html' target='_blank'>slides</a><br>
 <strong>Brandon&nbsp;Amos</strong> and <a href='https://zicokolter.com/' target='_blank'>J.&nbsp;Zico&nbsp;Kolter</a><br>
 ICML 2017 <br>
 
@@ -1937,7 +1953,7 @@ constraints better than other neural architectures.
 </td>
 <td>
 
-<em><a href='http://arxiv.org/abs/1609.07152' target='_blank'>Input Convex Neural Networks</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2017input").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/locuslab/icnn' target='_blank'>code</a><a class='pub-pill' href='http://bamos.github.io/data/slides/2017.icnn.pdf' target='_blank'>slides</a><br>
+<em><a href='http://arxiv.org/abs/1609.07152' target='_blank'>Input Convex Neural Networks</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2017input").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/locuslab/icnn' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2017.icnn.html' target='_blank'>slides</a><br>
 <strong>Brandon&nbsp;Amos</strong>, <a href='https://leixx.io/' target='_blank'>Lei&nbsp;Xu</a>, and <a href='https://zicokolter.com/' target='_blank'>J.&nbsp;Zico&nbsp;Kolter</a><br>
 ICML 2017 <br>
 
@@ -1969,7 +1985,7 @@ improvement over the existing state of the art in many cases.
 </td>
 <td>
 
-<em><a href='http://arxiv.org/abs/1703.04529' target='_blank'>Task-based End-to-end Model Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_donti2017task").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a><br>
+<em><a href='http://arxiv.org/abs/1703.04529' target='_blank'>Task-based End-to-end Model Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_donti2017task").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2018.optnet.ismp.html' target='_blank'>slides</a><br>
 <a href='https://priyadonti.com/' target='_blank'>Priya&nbsp;L.&nbsp;Donti</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://zicokolter.com/' target='_blank'>J.&nbsp;Zico&nbsp;Kolter</a><br>
 NeurIPS 2017 <br>
 
@@ -3474,4 +3490,4 @@ under a CC-BY license.*
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on November 06, 2026.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on November 07, 2026.</p>
