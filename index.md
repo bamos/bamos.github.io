@@ -51,7 +51,7 @@ and a visiting lecturer at
 </p>
 
 <p style="text-align: justify; margin-bottom: 20px;">
-Even earlier, I received my Ph.D. from
+Before that, I received my Ph.D. from
 <a href="https://www.cmu.edu/" target="_blank" rel="noopener">Carnegie Mellon University</a>
 and my undergrad from
 <a href="https://www.vt.edu/" target="_blank" rel="noopener">Virginia Tech</a>.
