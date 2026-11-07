@@ -108,7 +108,7 @@ open-weight models on the Pareto frontier.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2507.09650' target='_blank'>Cultivating Pluralism In Algorithmic Monoculture: The Community Alignment Dataset</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhang2026cultivating").toggle()'>abstract</a><br>
+<em><a href='https://arxiv.org/abs/2507.09650' target='_blank'>Cultivating Pluralism In Algorithmic Monoculture: The Community Alignment Dataset</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhang2026cultivating").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/community-alignment-dataset' target='_blank'>data</a><br>
 <a href='https://lhz1029.github.io/' target='_blank'>Lily&nbsp;H&nbsp;Zhang</a>, <a href='http://smithamilli.com/' target='_blank'>Smitha&nbsp;Milli</a>, <a href='https://scholar.google.com/citations?user=O924n4AAAAAJ' target='_blank'>Karen&nbsp;Long&nbsp;Jusko</a>, <a href='https://scholar.google.com/citations?user=URWZ--QAAAAJ' target='_blank'>Jonathan&nbsp;Smith</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=QDtbGtIAAAAJ' target='_blank'>Wassim&nbsp;Bouaziz</a>, <a href='https://openreview.net/profile?id=~Jack_Kussman1' target='_blank'>Jack&nbsp;Kussman</a>, <a href='https://scholar.google.com/citations?user=dEvt4JoAAAAJ' target='_blank'>Manon&nbsp;Revel</a>, <a href='https://scholar.google.com/citations?user=v2Wni-EAAAAJ' target='_blank'>Lisa&nbsp;Titus</a>, <a href='https://scholar.google.com/citations?user=IkQv0loAAAAJ' target='_blank'>Bhaktipriya&nbsp;Radharapu</a>, <a href='https://scholar.google.com/citations?user=ev8Ilx0AAAAJ' target='_blank'>Jane&nbsp;Yu</a>, <a href='https://www.linkedin.com/in/vidyasarma' target='_blank'>Vidya&nbsp;Sarma</a>, <a href='https://openreview.net/profile?id=~Kristopher_Rose1' target='_blank'>Kristopher&nbsp;Rose</a>, and <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a><br>
 ICLR 2026 <br>
 
@@ -125,7 +125,7 @@ How can large language models (LLMs) serve users with varying preferences that m
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2601.21306' target='_blank'>The Surprising Difficulty of Search in Model-Based Reinforcement Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_chang2026surprisingdifficultysearchmodelbased").toggle()'>abstract</a><br>
+<em><a href='https://arxiv.org/abs/2601.21306' target='_blank'>The Surprising Difficulty of Search in Model-Based Reinforcement Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_chang2026surprisingdifficultysearchmodelbased").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/MRSQ' target='_blank'>code</a><br>
 <a href='https://scholar.google.com/citations?user=1EW9Jt4AAAAJ' target='_blank'>Wei-Di&nbsp;Chang</a>, <a href='https://scholar.google.com/citations?user=bX__wkYAAAAJ' target='_blank'>Mikael&nbsp;Henaff</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=BSORuFoAAAAJ' target='_blank'>Gregory&nbsp;Dudek</a>, and <a href='https://scholar.google.com/citations?user=1Nk3WZoAAAAJ' target='_blank'>Scott&nbsp;Fujimoto</a><br>
 ICML 2026 <br>
 
@@ -196,7 +196,7 @@ Differentiable optimization layers enable learning systems to make decisions by 
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2307.05213' target='_blank'>Score Function Gradient Estimation to Widen the Applicability of Decision-Focused Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_silvestri2026score").toggle()'>abstract</a><br>
+<em><a href='https://arxiv.org/abs/2307.05213' target='_blank'>Score Function Gradient Estimation to Widen the Applicability of Decision-Focused Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_silvestri2026score").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/matsilv/sfge-dfl' target='_blank'>code</a><br>
 <a href='https://scholar.google.com/citations?user=yHEb8eAAAAAJ' target='_blank'>Mattia&nbsp;Silvestri</a>, <a href='https://scholar.google.com/citations?user=sMtjmx4AAAAJ' target='_blank'>Senne&nbsp;Berden</a>, <a href='https://jayantamandi.com/' target='_blank'>Jayanta&nbsp;Mandi</a>, <a href='https://scholar.google.com/citations?user=muyZLrYAAAAJ' target='_blank'>Ali&nbsp;İrfan&nbsp;Mahmutoğulları</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://people.cs.kuleuven.be/~tias.guns/' target='_blank'>Tias&nbsp;Guns</a>, and <a href='https://scholar.google.com/citations?user=lJJ6EOMAAAAJ' target='_blank'>Michele&nbsp;Lombardi</a><br>
 JAIR 2026 <br>
 
@@ -394,7 +394,7 @@ Numerous biological and physical processes can be modeled as systems of interact
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2412.10321' target='_blank'>AdvPrefix: An Objective for Nuanced LLM Jailbreaks</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhu2025advprefixobjectivenuancedllm").toggle()'>abstract</a><a class='pub-pill' href='https://bamos.github.io/presentations/2026.advprompter-algotune.html' target='_blank'>slides</a><br>
+<em><a href='https://arxiv.org/abs/2412.10321' target='_blank'>AdvPrefix: An Objective for Nuanced LLM Jailbreaks</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhu2025advprefixobjectivenuancedllm").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/jailbreak-objectives' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2026.advprompter-algotune.html' target='_blank'>slides</a><br>
 <a href='https://schzhu.github.io/' target='_blank'>Sicheng&nbsp;Zhu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=0mgEF28AAAAJ' target='_blank'>Yuandong&nbsp;Tian</a>, <a href='https://sites.google.com/view/chuanguo' target='_blank'>Chuan&nbsp;Guo</a>, and <a href='https://ivanevtimov.eu/' target='_blank'>Ivan&nbsp;Evtimov</a><br>
 NeurIPS 2025 <br>
 
@@ -1012,7 +1012,7 @@ manifolds.
 </td>
 <td>
 <a href='https://arxiv.org/abs/2203.06832' target='_blank'><img src="images/publications/chen2022semi.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2203.06832' target='_blank'>Semi-Discrete Normalizing Flows through Differentiable Tessellation</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_chen2022semi").toggle()'>abstract</a><br>
+<em><a href='https://arxiv.org/abs/2203.06832' target='_blank'>Semi-Discrete Normalizing Flows through Differentiable Tessellation</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_chen2022semi").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/semi-discrete-flow' target='_blank'>code</a><br>
 <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a><br>
 NeurIPS 2022 <br>
 
@@ -2183,7 +2183,7 @@ Content-aware fill is a powerful tool designers and photographers use to fill in
 </td>
 <td>
 
-<em><a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'>Collapsed Variational Inference for Sum-Product Networks</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhao2016collapsed").toggle()'>abstract</a><br>
+<em><a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'>Collapsed Variational Inference for Sum-Product Networks</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhao2016collapsed").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/uiuctml/Sum-Product-Networks' target='_blank'>code</a><br>
 <a href='https://hanzhaoml.github.io/' target='_blank'>Han&nbsp;Zhao</a>, <a href='https://tameemadel.wordpress.com/' target='_blank'>Tameem&nbsp;Adel</a>, <a href='http://www.cs.cmu.edu/~ggordon/' target='_blank'>Geoff&nbsp;Gordon</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 ICML 2016 <br>
 
