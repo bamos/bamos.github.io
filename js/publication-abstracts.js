@@ -1,6 +1,8 @@
 // Keep the illustration in place while the abstract's outline follows the float.
 // Text clearance is set independently in bamos.css, including below the image.
 export function abstractOutline(width, height, notchX = width, notchY = 0) {
+    // A short abstract may end above the image: no artificial lower shelf.
+    if (notchY > 0 && notchY >= height - 12) return abstractOutline(Math.min(width, notchX), height);
     const w = Math.max(1, width - 1), h = Math.max(1, height - 1);
     const radius = Math.min(12, w / 4, h / 4);
     const x = Math.max(radius * 2, Math.min(w, notchX));
@@ -32,11 +34,11 @@ export function initAbstracts(root = document) {
             const b = box.getBoundingClientRect(), picture = image.getBoundingClientRect();
             if (!b.width || !b.height) return;
             const overlaps = picture.bottom > b.top && picture.top < b.bottom && picture.left > b.left && picture.left < b.right;
-            const gap = 12;
+            const sideGap = 10, bottomGap = 6;
             svg.setAttribute('viewBox', `0 0 ${b.width} ${b.height}`);
             path.setAttribute('d', abstractOutline(b.width, b.height,
-                overlaps ? picture.left - b.left - gap : b.width,
-                overlaps ? picture.bottom - b.top + gap : 0));
+                overlaps ? picture.left - b.left - sideGap : b.width,
+                overlaps ? picture.bottom - b.top + bottomGap : 0));
         }
         const schedule = () => { if (!pending) pending = requestAnimationFrame(update); };
         const resize = new ResizeObserver(schedule);

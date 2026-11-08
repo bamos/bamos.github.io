@@ -1,4 +1,6 @@
 :root {
+    --publication-image-side-clearance: 28px;
+    --publication-image-bottom-clearance: 12px;
     --navbar-text-color: #264653;
     --navbar-hover-text-color: #8d674b;
     --link-hover-color: #8d674b;
@@ -254,6 +256,8 @@ img {
    The generated CV sets this cell's padding inline. */
 .table > tbody > tr > td[align="right"]:first-child {
     padding-left: 12px !important;
+    width: 1%;
+    white-space: nowrap;
 }
 
 .publicationImg {
@@ -277,8 +281,8 @@ img {
         float: right;
         /* Reserve text padding on both sides of the notched outline.
            The right-aligned image itself stays in the same position. */
-        margin-left: 32px;
-        margin-bottom: 32px;
+        margin-left: var(--publication-image-side-clearance);
+        margin-bottom: var(--publication-image-bottom-clearance);
     }
 }
 

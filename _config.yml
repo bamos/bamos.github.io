@@ -16,6 +16,7 @@ plugins:
   - jekyll-datapage-generator
 
 exclude:
+  - tests
   - .travis.yml
   - validate.rb
   - README.md
