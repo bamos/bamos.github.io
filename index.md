@@ -76,7 +76,7 @@ and
 1.
 </td>
 <td>
-
+<a href='https://reflection.ai/documents/beam-model-tech-report' target='_blank'><img src="images/publications/reflection2026beam.png" class="publicationImg" /></a>
 <em><a href='https://reflection.ai/documents/beam-model-tech-report' target='_blank'>Beam Model Technical Report</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_reflection2026beam").toggle()'>abstract</a><br>
 <a href="https://reflection.ai/" target="_blank">Reflection Team</a><br>
 2026 <br>

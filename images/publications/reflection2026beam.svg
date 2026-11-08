@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="64" viewBox="0 0 240 128">
+  <title>Beam</title>
+  <desc>Deep green winking circular mark on a transparent background.</desc>
+  <g stroke="#233c0b" stroke-width="8" fill="none">
+    <circle cx="64" cy="64" r="45"/>
+    <circle cx="64" cy="83" r="26"/>
+  </g>
+  <circle cx="170" cy="64" r="49" fill="#233c0b"/>
+</svg>
