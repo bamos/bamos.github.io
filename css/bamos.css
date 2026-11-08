@@ -250,6 +250,12 @@ img {
     }
 }
 
+/* Leave breathing room before entry numbers, including highlighted rows.
+   The generated CV sets this cell's padding inline. */
+.table > tbody > tr > td[align="right"]:first-child {
+    padding-left: 12px !important;
+}
+
 .publicationImg {
     border: none;
     max-height: 125px;
