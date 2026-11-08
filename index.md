@@ -76,7 +76,7 @@ and
 1.
 </td>
 <td>
-<a href='https://reflection.ai/documents/beam-model-tech-report' target='_blank'><img src="images/publications/reflection2026beam.png" class="publicationImg" /></a>
+<a href='https://reflection.ai/documents/beam-model-tech-report' target='_blank'><img src="images/publications/reflection2026beam.png" class="publicationImg" /></a> 
 <em><a href='https://reflection.ai/documents/beam-model-tech-report' target='_blank'>Beam Model Technical Report</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_reflection2026beam").toggle()'>abstract</a><br>
 <a href="https://reflection.ai/" target="_blank">Reflection Team</a><br>
 2026 <br>
@@ -109,7 +109,7 @@ open-weight models on the Pareto frontier.
 <td>
 
 <em><a href='https://arxiv.org/abs/2507.09650' target='_blank'>Cultivating Pluralism In Algorithmic Monoculture: The Community Alignment Dataset</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhang2026cultivating").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/community-alignment-dataset' target='_blank'>data</a><br>
-<a href='https://lhz1029.github.io/' target='_blank'>Lily&nbsp;H&nbsp;Zhang</a>, <a href='http://smithamilli.com/' target='_blank'>Smitha&nbsp;Milli</a>, <a href='https://scholar.google.com/citations?user=O924n4AAAAAJ' target='_blank'>Karen&nbsp;Long&nbsp;Jusko</a>, <a href='https://scholar.google.com/citations?user=URWZ--QAAAAJ' target='_blank'>Jonathan&nbsp;Smith</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=QDtbGtIAAAAJ' target='_blank'>Wassim&nbsp;Bouaziz</a>, <a href='https://openreview.net/profile?id=~Jack_Kussman1' target='_blank'>Jack&nbsp;Kussman</a>, <a href='https://scholar.google.com/citations?user=dEvt4JoAAAAJ' target='_blank'>Manon&nbsp;Revel</a>, <a href='https://scholar.google.com/citations?user=v2Wni-EAAAAJ' target='_blank'>Lisa&nbsp;Titus</a>, <a href='https://scholar.google.com/citations?user=IkQv0loAAAAJ' target='_blank'>Bhaktipriya&nbsp;Radharapu</a>, <a href='https://scholar.google.com/citations?user=ev8Ilx0AAAAJ' target='_blank'>Jane&nbsp;Yu</a>, <a href='https://www.linkedin.com/in/vidyasarma' target='_blank'>Vidya&nbsp;Sarma</a>, <a href='https://openreview.net/profile?id=~Kristopher_Rose1' target='_blank'>Kristopher&nbsp;Rose</a>, and <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a><br>
+<a href='https://lhz1029.github.io/' target='_blank'>Lily&nbsp;H&nbsp;Zhang</a>, <a href='https://smithamilli.com/' target='_blank'>Smitha&nbsp;Milli</a>, <a href='https://scholar.google.com/citations?user=O924n4AAAAAJ' target='_blank'>Karen&nbsp;Long&nbsp;Jusko</a>, <a href='https://scholar.google.com/citations?user=URWZ--QAAAAJ' target='_blank'>Jonathan&nbsp;Smith</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=QDtbGtIAAAAJ' target='_blank'>Wassim&nbsp;Bouaziz</a>, <a href='https://openreview.net/profile?id=~Jack_Kussman1' target='_blank'>Jack&nbsp;Kussman</a>, <a href='https://scholar.google.com/citations?user=dEvt4JoAAAAJ' target='_blank'>Manon&nbsp;Revel</a>, <a href='https://scholar.google.com/citations?user=v2Wni-EAAAAJ' target='_blank'>Lisa&nbsp;Titus</a>, <a href='https://scholar.google.com/citations?user=IkQv0loAAAAJ' target='_blank'>Bhaktipriya&nbsp;Radharapu</a>, <a href='https://scholar.google.com/citations?user=ev8Ilx0AAAAJ' target='_blank'>Jane&nbsp;Yu</a>, <a href='https://www.linkedin.com/in/vidyasarma' target='_blank'>Vidya&nbsp;Sarma</a>, <a href='https://openreview.net/profile?id=~Kristopher_Rose1' target='_blank'>Kristopher&nbsp;Rose</a>, and <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a><br>
 ICLR 2026 <br>
 
 <div id="abs_zhang2026cultivating" class="abstract-box" style="display: none" markdown="1">
@@ -214,7 +214,7 @@ Many real-world optimization problems contain parameters that are unknown before
 <td>
 
 <em><a href='https://arxiv.org/abs/2609.38287' target='_blank'>Social Choice Foundations for Simulation-Augmented Generation</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_kraiczy2026social").toggle()'>abstract</a><br>
-<a href='https://www.sonja.uk/' target='_blank'>Sonja&nbsp;Kraiczy</a>, <a href='http://smithamilli.com/' target='_blank'>Smitha&nbsp;Milli</a>, <a href='https://www.eminberker.com/' target='_blank'>Ratip&nbsp;Emin&nbsp;Berker</a>, <a href='https://avinandan22.github.io/' target='_blank'>Avinandan&nbsp;Bose</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.jamellewd.com/' target='_blank'>Jamelle&nbsp;Watson-Daniels</a>, <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a>, <a href='https://sagemath.openbsd.amsterdam/edith/' target='_blank'>Edith&nbsp;Elkind</a>, and <a href='https://procaccia.info/' target='_blank'>Ariel&nbsp;D.&nbsp;Procaccia</a><br>
+<a href='https://www.sonja.uk/' target='_blank'>Sonja&nbsp;Kraiczy</a>, <a href='https://smithamilli.com/' target='_blank'>Smitha&nbsp;Milli</a>, <a href='https://www.eminberker.com/' target='_blank'>Ratip&nbsp;Emin&nbsp;Berker</a>, <a href='https://avinandan22.github.io/' target='_blank'>Avinandan&nbsp;Bose</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.jamellewd.com/' target='_blank'>Jamelle&nbsp;Watson-Daniels</a>, <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a>, <a href='https://sagemath.openbsd.amsterdam/edith/' target='_blank'>Edith&nbsp;Elkind</a>, and <a href='https://procaccia.info/' target='_blank'>Ariel&nbsp;D.&nbsp;Procaccia</a><br>
 NeurIPS 2026 <br>
 
 <div id="abs_kraiczy2026social" class="abstract-box" style="display: none" markdown="1">
@@ -378,7 +378,7 @@ Tokenization is associated with many poorly understood shortcomings in language 
 <td>
 <a href='https://arxiv.org/abs/2408.14608' target='_blank'><img src="images/publications/atanackovic2024meta.png" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2408.14608' target='_blank'>Meta Flow Matching:  Integrating Vector Fields on the Wasserstein Manifold</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_atanackovic2024meta").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/lazaratan/meta-flow-matching' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2024.transport-between-distributions-over-distributions.html' target='_blank'>slides</a><br>
-<a href='https://lazaratan.github.io/' target='_blank'>Lazar&nbsp;Atanackovic</a>, <a href='https://scholar.google.com/citations?user=CblgXekAAAAJ' target='_blank'>Xi&nbsp;Zhang</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.cs.mcgill.ca/~blanchem/' target='_blank'>Mathieu&nbsp;Blanchette</a>, <a href='https://scholar.google.ca/citations?user=DN3LoTEAAAAJ' target='_blank'>Leo&nbsp;J&nbsp;Lee</a>, <a href='https://yoshuabengio.org/profile/' target='_blank'>Yoshua&nbsp;Bengio</a>, <a href='https://www.alextong.net/' target='_blank'>Alexander&nbsp;Tong</a>, and <a href='https://necludov.github.io/' target='_blank'>Kirill&nbsp;Neklyudov</a><br>
+<a href='https://lazaratan.github.io/' target='_blank'>Lazar&nbsp;Atanackovic</a>, <a href='https://scholar.google.com/citations?user=CblgXekAAAAJ' target='_blank'>Xi&nbsp;Zhang</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.cs.mcgill.ca/~blanchem/' target='_blank'>Mathieu&nbsp;Blanchette</a>, <a href='https://scholar.google.ca/citations?user=DN3LoTEAAAAJ' target='_blank'>Leo&nbsp;J&nbsp;Lee</a>, <a href='https://yoshuabengio.org/en' target='_blank'>Yoshua&nbsp;Bengio</a>, <a href='https://www.alextong.net/' target='_blank'>Alexander&nbsp;Tong</a>, and <a href='https://necludov.github.io/' target='_blank'>Kirill&nbsp;Neklyudov</a><br>
 ICLR 2025 <br>
 
 <div id="abs_atanackovic2024meta" class="abstract-box" style="display: none" markdown="1">
@@ -434,7 +434,7 @@ nuanced jailbreaks.
 <td>
 
 <em><a href='https://arxiv.org/abs/2507.15887' target='_blank'>AlgoTune: Can Language Models Speed Up General-Purpose Numerical Programs?</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_press2025algotune").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/oripress/AlgoTune' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2026.advprompter-algotune.html' target='_blank'>slides</a><br>
-<a href='https://oripress.com/' target='_blank'>Ori&nbsp;Press</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://hyzhao.me/' target='_blank'>Haoyu&nbsp;Zhao</a>, <a href='https://yikai-wu.github.io/' target='_blank'>Yikai&nbsp;Wu</a>, <a href='https://samlikes.pizza/' target='_blank'>Samuel&nbsp;K.&nbsp;Ainsworth</a>, <a href='https://krupke.cc/' target='_blank'>Dominik&nbsp;Krupke</a>, <a href='https://kidger.site/' target='_blank'>Patrick&nbsp;Kidger</a>, <a href='https://www.linkedin.com/in/touqir-sajed-6a95b1126/' target='_blank'>Touqir&nbsp;Sajed</a>, <a href='https://stellato.io/' target='_blank'>Bartolomeo&nbsp;Stellato</a>, <a href='https://jisunp515.github.io/' target='_blank'>Jisun&nbsp;Park</a>, <a href='https://nathanaelbosch.github.io/' target='_blank'>Nathanael&nbsp;Bosch</a>, <a href='https://openreview.net/profile?id=~Eli_Meril1' target='_blank'>Eli&nbsp;Meril</a>, <a href='https://scholar.google.com/citations?user=_nbf9ZIAAAAJ' target='_blank'>Albert&nbsp;Steppi</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <a href='https://fangzhaoz.github.io/' target='_blank'>Fangzhao&nbsp;Zhang</a>, <a href='https://davidppineiro.com/' target='_blank'>David&nbsp;Pérez-Piñeiro</a>, <a href='https://scholar.google.it/citations?user=a5HqhwUAAAAJ' target='_blank'>Alberto&nbsp;Mercurio</a>, <a href='https://jennyzhanni.com/' target='_blank'>Ni&nbsp;Zhan</a>, <a href='https://scholar.google.com/citations?user=mdd52kMAAAAJ' target='_blank'>Talor&nbsp;Abramovich</a>, <a href='https://www.lieret.net/' target='_blank'>Kilian&nbsp;Lieret</a>, <a href='https://hanlin-zhang.com/' target='_blank'>Hanlin&nbsp;Zhang</a>, <a href='https://scholar.google.com/citations?user=qNjmSUEAAAAJ' target='_blank'>Shirley&nbsp;Huang</a>, <a href='https://scholar.google.com/citations?user=0z0fNxUAAAAJ' target='_blank'>Matthias&nbsp;Bethge</a>, and <a href='https://ofir.io/about' target='_blank'>Ofir&nbsp;Press</a><br>
+<a href='https://oripress.com/' target='_blank'>Ori&nbsp;Press</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://hyzhao.me/' target='_blank'>Haoyu&nbsp;Zhao</a>, <a href='https://yikai-wu.github.io/' target='_blank'>Yikai&nbsp;Wu</a>, <a href='https://samlikes.pizza/' target='_blank'>Samuel&nbsp;K.&nbsp;Ainsworth</a>, <a href='https://krupke.cc/' target='_blank'>Dominik&nbsp;Krupke</a>, <a href='https://kidger.site/' target='_blank'>Patrick&nbsp;Kidger</a>, <a href='https://www.linkedin.com/in/touqir-sajed-6a95b1126/' target='_blank'>Touqir&nbsp;Sajed</a>, <a href='https://stella.to/' target='_blank'>Bartolomeo&nbsp;Stellato</a>, <a href='https://jisunp515.github.io/' target='_blank'>Jisun&nbsp;Park</a>, <a href='https://nathanaelbosch.github.io/' target='_blank'>Nathanael&nbsp;Bosch</a>, <a href='https://openreview.net/profile?id=~Eli_Meril1' target='_blank'>Eli&nbsp;Meril</a>, <a href='https://scholar.google.com/citations?user=_nbf9ZIAAAAJ' target='_blank'>Albert&nbsp;Steppi</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <a href='https://fangzhaoz.github.io/' target='_blank'>Fangzhao&nbsp;Zhang</a>, <a href='https://davidppineiro.com/' target='_blank'>David&nbsp;Pérez-Piñeiro</a>, <a href='https://scholar.google.it/citations?user=a5HqhwUAAAAJ' target='_blank'>Alberto&nbsp;Mercurio</a>, <a href='https://jennyzhanni.com/' target='_blank'>Ni&nbsp;Zhan</a>, <a href='https://scholar.google.com/citations?user=mdd52kMAAAAJ' target='_blank'>Talor&nbsp;Abramovich</a>, <a href='https://www.lieret.net/' target='_blank'>Kilian&nbsp;Lieret</a>, <a href='https://hanlin-zhang.com/' target='_blank'>Hanlin&nbsp;Zhang</a>, <a href='https://scholar.google.com/citations?user=qNjmSUEAAAAJ' target='_blank'>Shirley&nbsp;Huang</a>, <a href='https://scholar.google.com/citations?user=0z0fNxUAAAAJ' target='_blank'>Matthias&nbsp;Bethge</a>, and <a href='https://ofir.io/about' target='_blank'>Ofir&nbsp;Press</a><br>
 NeurIPS Datasets and Benchmarks Track 2025 <br>
 
 <div id="abs_press2025algotune" class="abstract-box" style="display: none" markdown="1">
@@ -512,7 +512,7 @@ We investigate the optimal transport problem between probability measures when t
 <td>
 
 <em><a href='https://arxiv.org/abs/2309.07835' target='_blank'>Learning to Warm-Start Fixed-Point Optimization Algorithms</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_sambharya2024learning").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/stellatogrp/l2ws' target='_blank'>code</a><br>
-<a href='https://rajivsambharya.github.io/' target='_blank'>Rajiv&nbsp;Sambharya</a>, <a href='https://sites.google.com/view/georgina-hall' target='_blank'>Georgina&nbsp;Hall</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://stellato.io/' target='_blank'>Bartolomeo&nbsp;Stellato</a><br>
+<a href='https://rajivsambharya.github.io/' target='_blank'>Rajiv&nbsp;Sambharya</a>, <a href='https://sites.google.com/view/georgina-hall' target='_blank'>Georgina&nbsp;Hall</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://stella.to/' target='_blank'>Bartolomeo&nbsp;Stellato</a><br>
 JMLR 2024 <br>
 <div class="publication-award-row"><span class="publication-award"><a href="https://connect.informs.org/computing/awards/ics-prize/ics-prize-2022-2026" target="_blank"><i class="fa fa-trophy" aria-hidden="true"></i> INFORMS Computing Society Prize, Honorable Mention</a></span></div>
 
@@ -672,7 +672,7 @@ flows considered in the literature.
 <td>
 
 <em><a href='https://arxiv.org/abs/2212.08260' target='_blank'>End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_sambharya2023l2a").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/stellatogrp/l2ws' target='_blank'>code</a><br>
-<a href='https://rajivsambharya.github.io/' target='_blank'>Rajiv&nbsp;Sambharya</a>, <a href='https://sites.google.com/view/georgina-hall' target='_blank'>Georgina&nbsp;Hall</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://stellato.io/' target='_blank'>Bartolomeo&nbsp;Stellato</a><br>
+<a href='https://rajivsambharya.github.io/' target='_blank'>Rajiv&nbsp;Sambharya</a>, <a href='https://sites.google.com/view/georgina-hall' target='_blank'>Georgina&nbsp;Hall</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://stella.to/' target='_blank'>Bartolomeo&nbsp;Stellato</a><br>
 L4DC 2023 <br>
 
 <div id="abs_sambharya2023l2a" class="abstract-box" style="display: none" markdown="1">
@@ -937,7 +937,7 @@ after training.
 <td>
 <a href='https://arxiv.org/abs/2110.03684' target='_blank'><img src="images/publications/fickinger2021crossdomain.png" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2110.03684' target='_blank'>Cross-Domain Imitation Learning via Optimal Transport</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_fickinger2021crossdomain").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/gwil' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2025.transport-flows-physics.html' target='_blank'>slides</a><br>
-<a href='https://scholar.google.com/citations?user=bBFN_qwAAAAJ' target='_blank'>Arnaud&nbsp;Fickinger</a>, <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <a href='http://people.eecs.berkeley.edu/~russell/' target='_blank'>Stuart&nbsp;Russell</a>, and <strong>Brandon&nbsp;Amos</strong><br>
+<a href='https://scholar.google.com/citations?user=bBFN_qwAAAAJ' target='_blank'>Arnaud&nbsp;Fickinger</a>, <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <a href='https://people.eecs.berkeley.edu/~russell/' target='_blank'>Stuart&nbsp;Russell</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 ICLR 2022 <br>
 
 <div id="abs_fickinger2021crossdomain" class="abstract-box" style="display: none" markdown="1">
@@ -1056,7 +1056,7 @@ to a baseline model.
 <td>
 
 <em><a href='https://arxiv.org/abs/2207.09442' target='_blank'>Theseus: A Library for Differentiable Nonlinear Optimization</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_pineda2022theseus").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/theseus' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2024.differentiable-optimization-and-robotics.html' target='_blank'>slides</a><br>
-<a href='https://scholar.google.com/citations?user=rebEn8oAAAAJ' target='_blank'>Luis&nbsp;Pineda</a>, <a href='https://scholar.google.com/citations?user=3PJeg1wAAAAJ' target='_blank'>Taosha&nbsp;Fan</a>, <a href='https://scholar.google.com/citations?user=gpgb4LgAAAAJ' target='_blank'>Maurizio&nbsp;Monge</a>, <a href='https://scholar.google.com/citations?user=BFWurDEAAAAJ' target='_blank'>Shobha&nbsp;Venkataraman</a>, <a href='https://scholar.google.com/citations?user=LI7rp1QAAAAJ' target='_blank'>Paloma&nbsp;Sodhi</a>, <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;Chen</a>, <a href='https://joeaortiz.github.io/' target='_blank'>Joseph&nbsp;Ortiz</a>, <a href='https://danieldetone.com/' target='_blank'>Daniel&nbsp;DeTone</a>, <a href='https://scholar.google.com/citations?user=keDqjK0AAAAJ' target='_blank'>Austin&nbsp;Wang</a>, <a href='https://scholar.google.com/citations?user=8orqBsYAAAAJ' target='_blank'>Stuart&nbsp;Anderson</a>, <a href='https://www.linkedin.com/in/jing-dong-24b26ab3/' target='_blank'>Jing&nbsp;Dong</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://www.mustafamukadam.com/' target='_blank'>Mustafa&nbsp;Mukadam</a><br>
+<a href='https://scholar.google.com/citations?user=rebEn8oAAAAJ' target='_blank'>Luis&nbsp;Pineda</a>, <a href='https://scholar.google.com/citations?user=3PJeg1wAAAAJ' target='_blank'>Taosha&nbsp;Fan</a>, <a href='https://scholar.google.com/citations?user=gpgb4LgAAAAJ' target='_blank'>Maurizio&nbsp;Monge</a>, <a href='https://scholar.google.com/citations?user=BFWurDEAAAAJ' target='_blank'>Shobha&nbsp;Venkataraman</a>, <a href='https://scholar.google.com/citations?user=LI7rp1QAAAAJ' target='_blank'>Paloma&nbsp;Sodhi</a>, <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;Chen</a>, <a href='https://joeaortiz.github.io/' target='_blank'>Joseph&nbsp;Ortiz</a>, <a href='https://danieldetone.com/' target='_blank'>Daniel&nbsp;DeTone</a>, <a href='https://scholar.google.com/citations?user=keDqjK0AAAAJ' target='_blank'>Austin&nbsp;Wang</a>, <a href='https://dblp.org/pid/16/397.html' target='_blank'>Stuart&nbsp;Anderson</a>, <a href='https://www.linkedin.com/in/jing-dong-24b26ab3/' target='_blank'>Jing&nbsp;Dong</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://www.mustafamukadam.com/' target='_blank'>Mustafa&nbsp;Mukadam</a><br>
 NeurIPS 2022 <br>
 
 <div id="abs_pineda2022theseus" class="abstract-box" style="display: none" markdown="1">
@@ -1091,7 +1091,7 @@ incorporated.
 <td>
 
 <em><a href='https://arxiv.org/abs/2206.09889' target='_blank'>Nocturne: a driving benchmark for multi-agent learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_vinitsky2022nocturne").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/nocturne' target='_blank'>code</a><br>
-<a href='https://www.eugenevinitsky.com' target='_blank'>Eugene&nbsp;Vinitsky</a>, <a href='https://www.nathanlct.com' target='_blank'>Nathan&nbsp;Lichtlé</a>, <a href='https://www.linkedin.com/in/xiaomeng-yang-356a976b/' target='_blank'>Xiaomeng&nbsp;Yang</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://www.jakobfoerster.com/' target='_blank'>Jakob&nbsp;Foerster</a><br>
+<a href='https://www.eugenevinitsky.com' target='_blank'>Eugene&nbsp;Vinitsky</a>, <a href='https://www.nathanlichtle.com/' target='_blank'>Nathan&nbsp;Lichtlé</a>, <a href='https://www.linkedin.com/in/xiaomeng-yang-356a976b/' target='_blank'>Xiaomeng&nbsp;Yang</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://www.jakobfoerster.com/' target='_blank'>Jakob&nbsp;Foerster</a><br>
 NeurIPS Datasets and Benchmarks Track 2022 <br>
 
 <div id="abs_vinitsky2022nocturne" class="abstract-box" style="display: none" markdown="1">
@@ -1206,7 +1206,7 @@ model standard distributions on spheres, and tori, on synthetic and geological d
 <td>
 <a href='https://arxiv.org/abs/2105.02343' target='_blank'><img src="images/publications/paulus2021comboptnet.png" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/2105.02343' target='_blank'>CombOptNet: Fit the Right NP-Hard Problem by Learning Integer Programming Constraints</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_paulus2021comboptnet").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/martius-lab/CombOptNet' target='_blank'>code</a><br>
-<a href='https://scholar.google.com/citations?user=njZL5CQAAAAJ' target='_blank'>Anselm&nbsp;Paulus</a>, <a href='https://mrolinek.github.io/' target='_blank'>Michal&nbsp;Rol&iacute;nek</a>, <a href='https://scholar.google.com/citations?user=hA1rlU4AAAAJ' target='_blank'>V&iacute;t&nbsp;Musil</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://al.is.mpg.de/person/gmartius' target='_blank'>Georg&nbsp;Martius</a><br>
+<a href='https://scholar.google.com/citations?user=njZL5CQAAAAJ' target='_blank'>Anselm&nbsp;Paulus</a>, <a href='https://mrolinek.github.io/' target='_blank'>Michal&nbsp;Rol&iacute;nek</a>, <a href='https://scholar.google.com/citations?user=hA1rlU4AAAAJ' target='_blank'>V&iacute;t&nbsp;Musil</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://martius-lab.github.io/members/georg-martius.html' target='_blank'>Georg&nbsp;Martius</a><br>
 ICML 2021 <br>
 
 <div id="abs_paulus2021comboptnet" class="abstract-box" style="display: none" markdown="1">
@@ -1240,7 +1240,7 @@ vision keypoint matching benchmark.
 <td>
 
 <em><a href='https://arxiv.org/abs/2109.15316' target='_blank'>Scalable Online Planning via Reinforcement Learning Fine-Tuning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_fickinger2021scalable").toggle()'>abstract</a><br>
-<a href='https://scholar.google.com/citations?user=bBFN_qwAAAAJ' target='_blank'>Arnaud&nbsp;Fickinger</a>, <a href='https://scholar.google.com/citations?user=oF46lMIAAAAJ' target='_blank'>Hengyuan&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='http://people.eecs.berkeley.edu/~russell/' target='_blank'>Stuart&nbsp;Russell</a>, and <a href='https://noambrown.github.io/' target='_blank'>Noam&nbsp;Brown</a><br>
+<a href='https://scholar.google.com/citations?user=bBFN_qwAAAAJ' target='_blank'>Arnaud&nbsp;Fickinger</a>, <a href='https://scholar.google.com/citations?user=oF46lMIAAAAJ' target='_blank'>Hengyuan&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://people.eecs.berkeley.edu/~russell/' target='_blank'>Stuart&nbsp;Russell</a>, and <a href='https://noambrown.com/' target='_blank'>Noam&nbsp;Brown</a><br>
 NeurIPS 2021 <br>
 
 <div id="abs_fickinger2021scalable" class="abstract-box" style="display: none" markdown="1">
@@ -1538,7 +1538,7 @@ our methods and expert demonstrations.
 <td>
 
 <em><a href='https://arxiv.org/abs/2104.10159' target='_blank'>MBRL-Lib: A Modular Library for Model-based Reinforcement Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_pineda2021mbrl").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/mbrl-lib' target='_blank'>code</a><br>
-<a href='https://scholar.google.com/citations?user=rebEn8oAAAAJ' target='_blank'>Luis&nbsp;Pineda</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://amyzhang.github.io/' target='_blank'>Amy&nbsp;Zhang</a>, <a href='https://www.natolambert.com/' target='_blank'>Nathan&nbsp;Lambert</a>, and <a href='https://www.robertocalandra.com/about/' target='_blank'>Roberto&nbsp;Calandra</a><br>
+<a href='https://scholar.google.com/citations?user=rebEn8oAAAAJ' target='_blank'>Luis&nbsp;Pineda</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://amyzhang.github.io/' target='_blank'>Amy&nbsp;Zhang</a>, <a href='https://natolambert.com/' target='_blank'>Nathan&nbsp;Lambert</a>, and <a href='https://www.robertocalandra.com/about/' target='_blank'>Roberto&nbsp;Calandra</a><br>
 arXiv 2021 <br>
 
 <div id="abs_pineda2021mbrl" class="abstract-box" style="display: none" markdown="1">
@@ -1602,7 +1602,7 @@ towards combining model-based and model-free RL.
 <td>
 
 <em><a href='https://arxiv.org/abs/2002.04523' target='_blank'>Objective Mismatch in Model-based Reinforcement Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_lambert2020objective").toggle()'>abstract</a><br>
-<a href='https://www.natolambert.com/' target='_blank'>Nathan&nbsp;Lambert</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=zSsW478AAAAJ' target='_blank'>Omry&nbsp;Yadan</a>, and <a href='https://www.robertocalandra.com/about/' target='_blank'>Roberto&nbsp;Calandra</a><br>
+<a href='https://natolambert.com/' target='_blank'>Nathan&nbsp;Lambert</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=zSsW478AAAAJ' target='_blank'>Omry&nbsp;Yadan</a>, and <a href='https://www.robertocalandra.com/about/' target='_blank'>Roberto&nbsp;Calandra</a><br>
 L4DC 2020 <br>
 
 <div id="abs_lambert2020objective" class="abstract-box" style="display: none" markdown="1">
@@ -1749,7 +1749,7 @@ Recent work has shown how to embed differentiable optimization problems (that is
 <td>
 <a href='https://arxiv.org/abs/1906.08707' target='_blank'><img src="images/publications/amos2019limited.png" class="publicationImg" /></a> 
 <em><a href='https://arxiv.org/abs/1906.08707' target='_blank'>The Limited Multi-Label Projection Layer</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2019limited").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/locuslab/lml' target='_blank'>code</a><br>
-<strong>Brandon&nbsp;Amos</strong>, <a href='http://vladlen.info/' target='_blank'>Vladlen&nbsp;Koltun</a>, and <a href='https://zicokolter.com/' target='_blank'>J.&nbsp;Zico&nbsp;Kolter</a><br>
+<strong>Brandon&nbsp;Amos</strong>, <a href='https://vladlen.info/' target='_blank'>Vladlen&nbsp;Koltun</a>, and <a href='https://zicokolter.com/' target='_blank'>J.&nbsp;Zico&nbsp;Kolter</a><br>
 arXiv 2019 <br>
 
 <div id="abs_amos2019limited" class="abstract-box" style="display: none" markdown="1">
@@ -1867,7 +1867,7 @@ In this paper we present foundations for using model predictive control (MPC) as
 <td>
 
 <em><a href='http://arxiv.org/abs/1805.08195' target='_blank'>Depth-Limited Solving for Imperfect-Information Games</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_brown2018depth").toggle()'>abstract</a><br>
-<a href='https://noambrown.github.io/' target='_blank'>Noam&nbsp;Brown</a>, <a href='http://www.cs.cmu.edu/~sandholm/' target='_blank'>Tuomas&nbsp;Sandholm</a>, and <strong>Brandon&nbsp;Amos</strong><br>
+<a href='https://noambrown.com/' target='_blank'>Noam&nbsp;Brown</a>, <a href='https://www.cs.cmu.edu/~sandholm/' target='_blank'>Tuomas&nbsp;Sandholm</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 NeurIPS 2018 <br>
 
 <div id="abs_brown2018depth" class="abstract-box" style="display: none" markdown="1">
@@ -2015,7 +2015,7 @@ approach and a purely black-box policy optimization approach.
 <td>
 
 <em><a href='https://par.nsf.gov/servlets/purl/10111392' target='_blank'>Quasi-Newton Stochastic Optimization Algorithm for Parameter Estimation of a Stochastic Model of the Budding Yeast Cell Cycle</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_chen2017quasi").toggle()'>abstract</a><br>
-<a href='https://chenm.sites.wfu.edu/publications/' target='_blank'>Minghan&nbsp;Chen</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://people.cs.vt.edu/~ltw/shortvita.html' target='_blank'>Layne&nbsp;T.&nbsp;Watson</a>, <a href='https://scholar.google.com/citations?user=syETjMMAAAAJ' target='_blank'>John&nbsp;Tyson</a>, <a href='https://people.cs.vt.edu/~ycao/' target='_blank'>Yang&nbsp;Cao</a>, <a href='https://people.cs.vt.edu/shaffer/' target='_blank'>Cliff&nbsp;Shaffer</a>, <a href='https://mtrosset.pages.iu.edu/' target='_blank'>Michael&nbsp;Trosset</a>, <a href='https://scholar.google.com/citations?user=Z4534DUAAAAJ' target='_blank'>Cihan&nbsp;Oguz</a>, and <a href='https://dblp.org/pid/235/5473.html' target='_blank'>Gisella&nbsp;Kakoti</a><br>
+<a href='https://chenm19.github.io/' target='_blank'>Minghan&nbsp;Chen</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://people.cs.vt.edu/~ltw/shortvita.html' target='_blank'>Layne&nbsp;T.&nbsp;Watson</a>, <a href='https://scholar.google.com/citations?user=syETjMMAAAAJ' target='_blank'>John&nbsp;Tyson</a>, <a href='https://people.cs.vt.edu/~ycao/' target='_blank'>Yang&nbsp;Cao</a>, <a href='https://people.cs.vt.edu/shaffer/' target='_blank'>Cliff&nbsp;Shaffer</a>, <a href='https://mtrosset.pages.iu.edu/' target='_blank'>Michael&nbsp;Trosset</a>, <a href='https://scholar.google.com/citations?user=Z4534DUAAAAJ' target='_blank'>Cihan&nbsp;Oguz</a>, and <a href='https://dblp.org/pid/235/5473.html' target='_blank'>Gisella&nbsp;Kakoti</a><br>
 IEEE/ACM TCBB 2017 <br>
 
 <div id="abs_chen2017quasi" class="abstract-box" style="display: none" markdown="1">
@@ -2054,7 +2054,7 @@ stochastic model.
 <td>
 
 <em><a href='https://dl.acm.org/doi/10.1145/3132211.3134453' target='_blank'>You can teach elephants to dance: agile VM handoff for edge computing</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_ha2017you").toggle()'>abstract</a><br>
-<a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://dblp.org/pid/18/1620.html' target='_blank'>Yoshihisa&nbsp;Abe</a>, <a href='https://dblp.org/pid/207/9122.html' target='_blank'>Thomas&nbsp;Eiszler</a>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://dblp.org/pid/207/9123.html' target='_blank'>Rohit&nbsp;Upadhyaya</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
+<a href='https://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://dblp.org/pid/18/1620.html' target='_blank'>Yoshihisa&nbsp;Abe</a>, <a href='https://dblp.org/pid/207/9122.html' target='_blank'>Thomas&nbsp;Eiszler</a>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='https://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://dblp.org/pid/207/9123.html' target='_blank'>Rohit&nbsp;Upadhyaya</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
 SEC 2017 <br>
 
 <div id="abs_ha2017you" class="abstract-box" style="display: none" markdown="1">
@@ -2082,7 +2082,7 @@ than live migration at those bandwidths.
 <td>
 
 <em><a href='https://www.cs.cmu.edu/~zhuoc/papers/latency2017.pdf' target='_blank'>An Empirical Study of Latency in an Emerging Class of Edge Computing Applications for Wearable Cognitive Assistance</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_chen2017empirical").toggle()'>abstract</a><br>
-<a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='https://www.junjuewang.com' target='_blank'>Junjue&nbsp;Wang</a>, <a href='https://scholar.google.com/citations?user=0OpjwCMAAAAJ' target='_blank'>Siyan&nbsp;Zhao</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=0pF6i38AAAAJ' target='_blank'>Guanhang&nbsp;Wu</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://scholar.google.com/citations?user=R9r5_GIAAAAJ' target='_blank'>Khalid&nbsp;Elgazzar</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://scholar.google.com/citations?user=wUPKh58AAAAJ' target='_blank'>Roberta&nbsp;Klatzky</a>, <a href='http://www.cs.cmu.edu/~dps/' target='_blank'>Daniel&nbsp;Siewiorek</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
+<a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='https://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='https://www.junjuewang.com' target='_blank'>Junjue&nbsp;Wang</a>, <a href='https://scholar.google.com/citations?user=0OpjwCMAAAAJ' target='_blank'>Siyan&nbsp;Zhao</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=0pF6i38AAAAJ' target='_blank'>Guanhang&nbsp;Wu</a>, <a href='https://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://scholar.google.com/citations?user=R9r5_GIAAAAJ' target='_blank'>Khalid&nbsp;Elgazzar</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://scholar.google.com/citations?user=wUPKh58AAAAJ' target='_blank'>Roberta&nbsp;Klatzky</a>, <a href='https://www.cs.cmu.edu/~dps/' target='_blank'>Daniel&nbsp;Siewiorek</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
 SEC 2017 <br>
 
 <div id="abs_chen2017empirical" class="abstract-box" style="display: none" markdown="1">
@@ -2184,7 +2184,7 @@ Content-aware fill is a powerful tool designers and photographers use to fill in
 <td>
 
 <em><a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'>Collapsed Variational Inference for Sum-Product Networks</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhao2016collapsed").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/uiuctml/Sum-Product-Networks' target='_blank'>code</a><br>
-<a href='https://hanzhaoml.github.io/' target='_blank'>Han&nbsp;Zhao</a>, <a href='https://tameemadel.wordpress.com/' target='_blank'>Tameem&nbsp;Adel</a>, <a href='http://www.cs.cmu.edu/~ggordon/' target='_blank'>Geoff&nbsp;Gordon</a>, and <strong>Brandon&nbsp;Amos</strong><br>
+<a href='https://hanzhaoml.github.io/' target='_blank'>Han&nbsp;Zhao</a>, <a href='https://tameemadel.wordpress.com/' target='_blank'>Tameem&nbsp;Adel</a>, <a href='https://www.cs.cmu.edu/~ggordon/' target='_blank'>Geoff&nbsp;Gordon</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 ICML 2016 <br>
 
 <div id="abs_zhao2016collapsed" class="abstract-box" style="display: none" markdown="1">
@@ -2214,7 +2214,7 @@ with a maximum likelihood based approach.
 <td>
 
 <em><a href='https://dl.acm.org/doi/10.1145/2967360.2967369' target='_blank'>Quantifying the impact of edge computing on mobile applications</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_hu2016quantifying").toggle()'>abstract</a><br>
-<a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='https://www.linkedin.com/in/joelyinggao/' target='_blank'>Ying&nbsp;Gao</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://www.junjuewang.com' target='_blank'>Junjue&nbsp;Wang</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
+<a href='https://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='https://www.linkedin.com/in/joelyinggao/' target='_blank'>Ying&nbsp;Gao</a>, <a href='https://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://www.junjuewang.com' target='_blank'>Junjue&nbsp;Wang</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
 ACM SIGOPS 2016 <br>
 
 <div id="abs_hu2016quantifying" class="abstract-box" style="display: none" markdown="1">
@@ -2238,7 +2238,7 @@ for highly interactive mobile applications.
 <td>
 
 <em><a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf' target='_blank'>Privacy mediators: helping IoT cross the chasm</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_davies2016privacy").toggle()'>abstract</a><br>
-<a href='https://www.lancaster.ac.uk/sci-tech/about-us/people/nigel-davies' target='_blank'>Nigel&nbsp;Davies</a>, <a href='https://scholar.google.com/citations?user=BItCgjYAAAAJ' target='_blank'>Nina&nbsp;Taft</a>, <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a>, <a href='http://www.sclinch.com/' target='_blank'>Sarah&nbsp;Clinch</a>, and <strong>Brandon&nbsp;Amos</strong><br>
+<a href='https://www.lancaster.ac.uk/sci-tech/about-us/people/nigel-davies' target='_blank'>Nigel&nbsp;Davies</a>, <a href='https://scholar.google.com/citations?user=BItCgjYAAAAJ' target='_blank'>Nina&nbsp;Taft</a>, <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a>, <a href='https://www.sclinch.com/' target='_blank'>Sarah&nbsp;Clinch</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 HotMobile 2016 <br>
 
 <div id="abs_davies2016privacy" class="abstract-box" style="display: none" markdown="1">
@@ -2272,7 +2272,7 @@ and organizational boundaries of trust and responsibility.
 <td>
 
 <em><a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'>Edge Analytics in the Internet of Things</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_satyanarayanan2015edge").toggle()'>abstract</a><br>
-<a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a>, <a href='https://scholar.google.com/citations?user=vAPWme0AAAAJ' target='_blank'>Pieter&nbsp;Simoens</a>, <a href='https://scholar.google.com/citations?user=ZeRhyWsAAAAJ' target='_blank'>Yu&nbsp;Xiao</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, and <strong>Brandon&nbsp;Amos</strong><br>
+<a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a>, <a href='https://scholar.google.com/citations?user=vAPWme0AAAAJ' target='_blank'>Pieter&nbsp;Simoens</a>, <a href='https://scholar.google.com/citations?user=ZeRhyWsAAAAJ' target='_blank'>Yu&nbsp;Xiao</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='https://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 IEEE Pervasive Computing 2015 <br>
 
 <div id="abs_satyanarayanan2015edge" class="abstract-box" style="display: none" markdown="1">
@@ -2323,7 +2323,7 @@ manufacturing security topics.
 <td>
 
 <em><a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'>Early Implementation Experience with Wearable Cognitive Assistance Applications</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_chen2015early").toggle()'>abstract</a><br>
-<a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://www.lujiang.info/' target='_blank'>Lu&nbsp;Jiang</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='http://www.cs.cmu.edu/~alex/' target='_blank'>Alex&nbsp;Hauptmann</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
+<a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='https://www.lujiang.info/' target='_blank'>Lu&nbsp;Jiang</a>, <a href='https://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='https://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://www.cs.cmu.edu/~alex/' target='_blank'>Alex&nbsp;Hauptmann</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
 WearSys 2015 <br>
 
 <div id="abs_chen2015early" class="abstract-box" style="display: none" markdown="1">
@@ -2349,7 +2349,7 @@ simplify the creation of similar applications.
 <td>
 
 <em><a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'>The Case for Offload Shaping</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_hu2014case").toggle()'>abstract</a><br>
-<a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://scholar.google.com/citations?user=vU6bKxEAAAAJ' target='_blank'>Wolfgang&nbsp;Richter</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://github.com/bgilbert' target='_blank'>Benjamin&nbsp;Gilbert</a>, <a href='https://scholar.google.com/citations?user=jj5tN8sAAAAJ' target='_blank'>Jan&nbsp;Harkes</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
+<a href='https://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='https://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://dblp.org/pid/60/9827-1.html' target='_blank'>Wolfgang&nbsp;Richter</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://github.com/bgilbert' target='_blank'>Benjamin&nbsp;Gilbert</a>, <a href='https://scholar.google.com/citations?user=jj5tN8sAAAAJ' target='_blank'>Jan&nbsp;Harkes</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
 HotMobile 2015 <br>
 
 <div id="abs_hu2014case" class="abstract-box" style="display: none" markdown="1">
@@ -2371,7 +2371,7 @@ demand, with little loss of application-level fidelity
 <td>
 
 <em><a href='https://www.cs.cmu.edu/~satya/docdir/CMU-CS-15-139.pdf' target='_blank'>Are Cloudlets Necessary?</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_gao2015cloudlets").toggle()'>abstract</a><br>
-<a href='https://www.linkedin.com/in/joelyinggao/' target='_blank'>Ying&nbsp;Gao</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
+<a href='https://www.linkedin.com/in/joelyinggao/' target='_blank'>Ying&nbsp;Gao</a>, <a href='https://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='https://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
 CMU 2015 <br>
 
 <div id="abs_gao2015cloudlets" class="abstract-box" style="display: none" markdown="1">
@@ -2397,7 +2397,7 @@ consumption in a mobile device by up to 42% compared to cloud offload.
 <td>
 
 <em><a href='https://www.cs.cmu.edu/~satya/docdir/CMU-CS-15-113.pdf' target='_blank'>Adaptive VM handoff across cloudlets</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_ha2015adaptive").toggle()'>abstract</a><br>
-<a href='http://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://dblp.org/pid/18/1620.html' target='_blank'>Yoshihisa&nbsp;Abe</a>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='http://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
+<a href='https://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://dblp.org/pid/18/1620.html' target='_blank'>Yoshihisa&nbsp;Abe</a>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='https://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
 CMU 2015 <br>
 
 <div id="abs_ha2015adaptive" class="abstract-box" style="display: none" markdown="1">
