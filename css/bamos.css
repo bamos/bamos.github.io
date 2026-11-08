@@ -275,7 +275,10 @@ img {
 @media (min-width: 767px) {
     .publicationImg {
         float: right;
-        margin-left: 1em;
+        /* Reserve text padding on both sides of the notched outline.
+           The right-aligned image itself stays in the same position. */
+        margin-left: 32px;
+        margin-bottom: 32px;
     }
 }
 
@@ -329,6 +332,29 @@ img {
     color: #4b5563;
     line-height: 1.55;
     text-align: justify;
+}
+
+.abstract-box.shaped-abstract {
+    position: relative;
+    isolation: isolate;
+    background: none;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.abstract-outline {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.abstract-outline path {
+    fill: rgba(17, 24, 39, 0.04);
+    stroke: rgba(17, 24, 39, 0.12);
+    stroke-width: 1;
 }
 
 .abstract-box p:last-child {
