@@ -10,6 +10,8 @@ The browser review automatically measures 72 cases: six real publication
 illustrations (wide, tall, transparent and opaque), short/full abstracts, and
 320/390/767/768/1024/1440px viewports. It checks image position, viewport bounds,
 side/bottom text clearance, short-box outlines and excessive blank space.
+On phones it also checks that numbers align with titles and images sit below
+their citations, above the expandable abstracts, within the viewport.
 Inspect the affected case visually too, especially line breaks at the notch.
 These measurements catch layout regressions; they cannot guarantee aesthetics.
 

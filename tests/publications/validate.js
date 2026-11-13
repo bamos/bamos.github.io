@@ -19,6 +19,15 @@ async function validate(variant) {
         check(image.complete&&image.naturalWidth>0,'image failed to load');
         check(Math.abs(picture.left-r.left-positions[i][0])<1&&Math.abs(picture.top-r.top-positions[i][1])<1,'image moved when abstract opened');
         check(b.right<=innerWidth+1&&b.left>=0,'abstract overflows viewport');
+        check(picture.right<=innerWidth+1&&picture.left>=0,'image overflows viewport');
+        if(innerWidth<768) {
+            const title=row.querySelector('em').getBoundingClientRect();
+            const number=document.createRange();number.selectNodeContents(row.cells[0]);
+            check(Math.abs(number.getBoundingClientRect().top-title.top)<1,'number is not aligned with the title');
+            check(picture.top>=title.bottom+12,'image is not below the citation');
+            check(Math.abs(picture.left-title.left)<1,'image is not aligned with the citation');
+            check(b.top>=picture.bottom+8,'abstract is not below the image');
+        }
         const lines=[];
         for(const paragraph of box.querySelectorAll('p')) {
             const range=document.createRange();range.selectNodeContents(paragraph);

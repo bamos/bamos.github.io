@@ -269,14 +269,28 @@ img {
     margin-bottom: 0;
 }
 
+.publication-image-slot {
+    display: contents;
+}
+
 @media (max-width: 767px) {
+    .publication-image-slot {
+        display: flow-root;
+        width: fit-content;
+        max-width: 100%;
+        margin: 12px 0 4px;
+    }
+
     .publicationImg {
-        margin-left: 0em;
         display: block;
+        float: none;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .publicationImg {
         float: right;
         /* Reserve text padding on both sides of the notched outline.

@@ -17,7 +17,34 @@ export function abstractOutline(width, height, notchX = width, notchY = 0) {
     return path + `V${h - radius}Q${w},${h} ${w - radius},${h}H${radius}Q.5,${h} .5,${h - radius}V${radius}Q.5,.5 ${radius},.5Z`;
 }
 
+// Move one stable slot so image links and any interactive wrappers stay intact.
+// Keep the generated publication markup unchanged and restore its desktop order.
+function initPublicationImages(root) {
+    const slots = [];
+    root.querySelectorAll('.abstract-box').forEach(box => {
+        const cell = box.closest('td'), image = cell?.querySelector('.publicationImg');
+        if (!image || image.closest('.publication-image-slot')) return;
+        let illustration = image;
+        while (illustration.parentElement !== cell) illustration = illustration.parentElement;
+        const marker = document.createComment('Publication image desktop position');
+        const slot = document.createElement('span');
+        slot.className = 'publication-image-slot';
+        illustration.before(marker, slot);
+        slot.append(illustration);
+        slots.push({box, marker, slot});
+    });
+    if (!slots.length) return;
+    const mobile = matchMedia('(max-width: 767px)');
+    const positionImages = () => slots.forEach(({box, marker, slot}) => {
+        if (mobile.matches) box.before(slot);
+        else marker.after(slot);
+    });
+    positionImages();
+    mobile.addEventListener('change', positionImages);
+}
+
 export function initAbstracts(root = document) {
+    initPublicationImages(root);
     root.querySelectorAll('.abstract-box').forEach(box => {
         const cell = box.closest('td'), image = cell?.querySelector('.publicationImg');
         if (!image || box.querySelector('.abstract-outline')) return;
@@ -45,7 +72,7 @@ export function initAbstracts(root = document) {
         resize.observe(box);
         resize.observe(image);
         // Includes image movement, without coupling publication layout to a feature.
-        new MutationObserver(schedule).observe(cell, {subtree: true, attributes: true, attributeFilter: ['style']});
+        new MutationObserver(schedule).observe(cell, {subtree: true, childList: true, attributes: true, attributeFilter: ['style']});
         schedule();
     });
 }
