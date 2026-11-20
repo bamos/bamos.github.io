@@ -2626,7 +2626,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/theseus">facebookresearch/theseus</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;2062
+    | <i class="fa fas fa-star"></i>&nbsp;2.1k
     </span>
  <span style='color: gray;'>| <em>Differentiable non-linear optimization library</em></span>  </td>
 </tr>
@@ -2696,7 +2696,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/mbrl-lib">facebookresearch/mbrl-lib</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;1062
+    | <i class="fa fas fa-star"></i>&nbsp;1.1k
     </span>
  <span style='color: gray;'>| <em>Model-based reinforcement learning library</em></span>  </td>
 </tr>
@@ -2746,7 +2746,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/rtqichen/torchdiffeq">rtqichen/torchdiffeq</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;6492
+    | <i class="fa fas fa-star"></i>&nbsp;6.5k
     </span>
  <span style='color: gray;'>| <em>PyTorch Differentiable ODE Solvers (differentiable event handling)</em></span>  </td>
 </tr>
@@ -2766,7 +2766,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2019</span>
     <a href="https://github.com/facebookresearch/higher">facebookresearch/higher</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;1624
+    | <i class="fa fas fa-star"></i>&nbsp;1.6k
     </span>
  <span style='color: gray;'>| <em>PyTorch higher-order gradient and optimization library</em></span>  </td>
 </tr>
@@ -2786,7 +2786,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2019</span>
     <a href="https://github.com/cvxgrp/cvxpylayers">cvxgrp/cvxpylayers</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;2146
+    | <i class="fa fas fa-star"></i>&nbsp;2.1k
     </span>
  <span style='color: gray;'>| <em>Differentiable Convex Optimization Layers</em></span>  </td>
 </tr>
@@ -2806,7 +2806,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/mpc.pytorch">locuslab/mpc.pytorch</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;1080
+    | <i class="fa fas fa-star"></i>&nbsp;1.1k
     </span>
  <span style='color: gray;'>| <em>Differentiable PyTorch Model Predictive Control library</em></span>  </td>
 </tr>
@@ -2886,7 +2886,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2016</span>
     <a href="https://github.com/bamos/dcgan-completion.tensorflow">bamos/dcgan-completion.tensorflow</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;1317
+    | <i class="fa fas fa-star"></i>&nbsp;1.3k
     </span>
  <span style='color: gray;'>| <em>Image completion with GANs</em></span>  </td>
 </tr>
@@ -2896,7 +2896,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2015</span>
     <a href="https://github.com/cmusatyalab/openface">cmusatyalab/openface</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;15446
+    | <i class="fa fas fa-star"></i>&nbsp;15.4k
     </span>
  <span style='color: gray;'>| <em>Face recognition with deep neural networks</em></span>  </td>
 </tr>
