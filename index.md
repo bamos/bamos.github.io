@@ -3044,7 +3044,7 @@ under a CC-BY license.*
   <td style='padding-right:0;'>
     <span class='cvdate'>2026</span>
      <a href="https://bamos.github.io/presentations/2026.advgame.html"><em>Safety Alignment of LMs via Non-cooperative Games</em></a> •
-        <a href="https://asset.engineering.upenn.edu/event/brandon-amos-reflection-ai-advgame-safety-alignment-of-lms-via-non-cooperative-games/">Penn ASSET Center</a>
+        <a href="https://asset.engineering.upenn.edu/event/brandon-amos-reflection-ai-advgame-safety-alignment-of-lms-via-non-cooperative-games/">Penn ASSET Center Seminar</a>
   </td>
 </tr>
 <tr>
@@ -3524,4 +3524,4 @@ under a CC-BY license.*
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on November 18, 2026.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on November 19, 2026.</p>
