@@ -76,8 +76,8 @@ and
 1.
 </td>
 <td>
-<a href='https://reflection.ai/documents/beam-model-tech-report' target='_blank'><img src="images/publications/reflection2026beam.png" class="publicationImg" /></a> 
-<em><a href='https://reflection.ai/documents/beam-model-tech-report' target='_blank'>Beam Model Technical Report</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_reflection2026beam").toggle()'>abstract</a><br>
+<a href='https://arxiv.org/abs/2611.26358' target='_blank'><img src="images/publications/reflection2026beam.png" class="publicationImg" /></a> 
+<em><a href='https://arxiv.org/abs/2611.26358' target='_blank'>Beam Model Technical Report</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_reflection2026beam").toggle()'>abstract</a><br>
 <a href="https://reflection.ai/" target="_blank">Reflection Team</a><br>
 2026 <br>
 
@@ -3584,4 +3584,4 @@ under a CC-BY license.*
 
 
 
-<p style="font-size: 0.85em; color: #999;">Last updated on November 19, 2026.</p>
+<p style="font-size: 0.85em; color: #999;">Last updated on November 20, 2026.</p>
