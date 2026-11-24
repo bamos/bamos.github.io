@@ -55,7 +55,7 @@ and
 
 <h2 id="-publications"><i class="fa fa-chevron-right" style="font-size: 0.9em;"></i> Publications</h2>
 
-<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 15k+ citations and an h-index of 47. <br>
+<a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 15.4k+ citations and an h-index of 48. <br>
 *Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted</span>.*
 
 <h2>2026</h2>
@@ -2499,7 +2499,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2025</span>
     <a href="https://github.com/oripress/AlgoTune">oripress/AlgoTune</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;119
+    | <i class="fa fas fa-star"></i>&nbsp;121
     </span>
   </td>
 </tr>
@@ -2539,7 +2539,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/facebookresearch/lagrangian-ot">facebookresearch/lagrangian-ot</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;62
+    | <i class="fa fas fa-star"></i>&nbsp;64
     </span>
   </td>
 </tr>
@@ -2569,7 +2569,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2024</span>
     <a href="https://github.com/kuleshov/cornell-cs5785-2024-applied-ml">kuleshov/cornell-cs5785-2024-applied-ml</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;538
+    | <i class="fa fas fa-star"></i>&nbsp;539
     </span>
  <span style='color: gray;'>| <em>Slides for our applied ML course</em></span>  </td>
 </tr>
@@ -2579,7 +2579,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2023</span>
     <a href="https://github.com/facebookresearch/amortized-optimization-tutorial">facebookresearch/amortized-optimization-tutorial</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;267
+    | <i class="fa fas fa-star"></i>&nbsp;268
     </span>
   </td>
 </tr>
@@ -2659,7 +2659,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2022</span>
     <a href="https://github.com/facebookresearch/nocturne">facebookresearch/nocturne</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;299
+    | <i class="fa fas fa-star"></i>&nbsp;298
     </span>
  <span style='color: gray;'>| <em>A partially-observable multi-agent driving simulator</em></span>  </td>
 </tr>
@@ -2679,7 +2679,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2021</span>
     <a href="https://github.com/facebookresearch/svg">facebookresearch/svg</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;58
+    | <i class="fa fas fa-star"></i>&nbsp;59
     </span>
  <span style='color: gray;'>| <em>Model-based stochastic value gradient</em></span>  </td>
 </tr>
@@ -2779,7 +2779,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2019</span>
     <a href="https://github.com/cvxgrp/cvxpylayers">cvxgrp/cvxpylayers</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;2.1k
+    | <i class="fa fas fa-star"></i>&nbsp;2.2k
     </span>
  <span style='color: gray;'>| <em>Differentiable Convex Optimization Layers</em></span>  </td>
 </tr>
@@ -2809,7 +2809,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2018</span>
     <a href="https://github.com/locuslab/differentiable-mpc">locuslab/differentiable-mpc</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;341
+    | <i class="fa fas fa-star"></i>&nbsp;342
     </span>
   </td>
 </tr>
@@ -2829,7 +2829,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/optnet">locuslab/optnet</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;594
+    | <i class="fa fas fa-star"></i>&nbsp;597
     </span>
   </td>
 </tr>
@@ -2839,7 +2839,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2017</span>
     <a href="https://github.com/locuslab/qpth">locuslab/qpth</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;803
+    | <i class="fa fas fa-star"></i>&nbsp;807
     </span>
  <span style='color: gray;'>| <em>Differentiable PyTorch QP solver</em></span>  </td>
 </tr>
@@ -2889,7 +2889,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2015</span>
     <a href="https://github.com/cmusatyalab/openface">cmusatyalab/openface</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;15.4k
+    | <i class="fa fas fa-star"></i>&nbsp;15.5k
     </span>
  <span style='color: gray;'>| <em>Face recognition with deep neural networks</em></span>  </td>
 </tr>
@@ -2899,7 +2899,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2015</span>
     <a href="https://github.com/bamos/girl">bamos/girl</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;68
+    | <i class="fa fas fa-star"></i>&nbsp;67
     </span>
  <span style='color: gray;'>| <em>GitHub README link checker</em></span>  </td>
 </tr>
@@ -2929,7 +2929,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2014</span>
     <a href="https://github.com/bamos/snowglobe">bamos/snowglobe</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;28
+    | <i class="fa fas fa-star"></i>&nbsp;29
     </span>
  <span style='color: gray;'>| <em>Haskell-driven, self-hosted web analytics</em></span>  </td>
 </tr>
@@ -2959,7 +2959,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/latex-templates">bamos/latex-templates</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;369
+    | <i class="fa fas fa-star"></i>&nbsp;364
     </span>
   </td>
 </tr>
@@ -2969,7 +2969,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;368
+    | <i class="fa fas fa-star"></i>&nbsp;367
     </span>
  <span style='color: gray;'>| <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em></span>  </td>
 </tr>
@@ -2989,7 +2989,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/parsec-benchmark">bamos/parsec-benchmark</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;134
+    | <i class="fa fas fa-star"></i>&nbsp;135
     </span>
  <span style='color: gray;'>| <em>PARSEC benchmark support for Arch Linux</em></span>  </td>
 </tr>
