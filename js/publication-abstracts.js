@@ -77,4 +77,15 @@ export function initAbstracts(root = document) {
     });
 }
 
-if (typeof document !== 'undefined') initAbstracts();
+if (typeof document !== 'undefined') {
+    document.addEventListener('click', event => {
+        const button = event.target.closest('button.pub-pill[aria-controls]');
+        if (!button) return;
+        const box = document.getElementById(button.getAttribute('aria-controls'));
+        if (!box) return;
+        const expanded = button.getAttribute('aria-expanded') !== 'true';
+        box.style.display = expanded ? 'block' : 'none';
+        button.setAttribute('aria-expanded', String(expanded));
+    });
+    initAbstracts();
+}
