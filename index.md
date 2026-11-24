@@ -3,40 +3,7 @@ layout: index
 title: Brandon Amos
 ---
 
-<style>
-.publication-award-row { margin-top: 3px; }
-.publication-award {
-  display: inline-flex;
-  align-items: center;
-  padding: 2px 6px;
-  border: none;
-  border-radius: 5px;
-  background: #f1f2f3;
-  color: #4b535b;
-  font-size: inherit;
-  line-height: 1.25;
-  vertical-align: baseline;
-  transition: background-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
-}
-.publication-award a {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35em;
-  color: inherit;
-  text-decoration: none;
-}
-.publication-award i { color: inherit; line-height: 1; }
-.publication-award:hover,
-.publication-award:focus-within {
-  background: #e9ecef;
-  box-shadow: 0 2px 6px rgba(35, 45, 55, 0.14);
-  transform: translateY(-1px);
-}
-@media (prefers-reduced-motion: reduce) {
-  .publication-award { transition: none; }
-  .publication-award:hover, .publication-award:focus-within { transform: none; }
-}
-</style>
+<div id="about-intro" markdown="1">
 
 <p style="text-align: justify;">
 Hi! I am a member of technical staff at
@@ -62,8 +29,31 @@ and
 <a href="https://www.deepmind.com/" target="_blank" rel="noopener">Google DeepMind</a>.
 </p>
 
+</div>
 
-## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Publications
+<div id="bio" class="home-bio-formal" hidden markdown="1">
+
+{% comment %}Generated from about_formal in the CV YAML; bio.md also serves the standalone page.{% endcomment %}
+{% capture formal_bio %}{% include_relative bio.md %}{% endcapture %}
+{% assign bio_parts = formal_bio | split: '---' %}
+{{ bio_parts | slice: 2, bio_parts.size | join: '---' | normalize_whitespace | markdownify }}
+</div>
+
+<div class="home-sections" markdown="1">
+
+<div class="home-tabs-slot" markdown="0">
+<div class="home-navigation">
+<nav class="home-tabs" aria-label="Homepage sections">
+  <a id="tab-publications" href="#publications">Publications</a>
+  <a id="tab-code" href="#code">Code</a>
+  <a id="tab-talks" href="#talks">Talks</a>
+</nav>
+</div>
+</div>
+
+<section id="publications" class="home-section" markdown="1">
+
+<h2 id="-publications"><i class="fa fa-chevron-right" style="font-size: 0.9em;"></i> Publications</h2>
 
 <a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 15k+ citations and an h-index of 47. <br>
 *Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted</span>.*
@@ -76,12 +66,12 @@ and
 1.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2611.26358' target='_blank'><img src="images/publications/reflection2026beam.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2611.26358' target='_blank'>Beam Model Technical Report</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_reflection2026beam").toggle()'>abstract</a><br>
+<a href='https://arxiv.org/abs/2611.26358' target='_blank'><img src="images/publications/reflection2026beam.png" alt="Read Beam Model Technical Report" class="publicationImg" /></a>
+<em><a href='https://arxiv.org/abs/2611.26358' target='_blank'>Beam Model Technical Report</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_reflection2026beam" aria-expanded="false">abstract</button><br>
 <a href="https://reflection.ai/" target="_blank">Reflection Team</a><br>
 2026 <br>
 
-<div id="abs_reflection2026beam" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_reflection2026beam" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Beam is a sparse Mixture-of-Experts (MoE) model with 501.3B total parameters and 23.4B
 active parameters, specifically built and optimized for coding, reasoning, and agentic workloads.
 Beam delivers frontier level reasoning, while requiring 3-4x less inference compute than many
@@ -108,11 +98,11 @@ open-weight models on the Pareto frontier.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2611.18511' target='_blank'>On numerical issues of divergences between nearly equal distributions</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2026numerical").toggle()'>abstract</a><br>
+<em><a href='https://arxiv.org/abs/2611.18511' target='_blank'>On numerical issues of divergences between nearly equal distributions</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_amos2026numerical" aria-expanded="false">abstract</button><br>
 <strong>Brandon&nbsp;Amos</strong><br>
 2026 <br>
 
-<div id="abs_amos2026numerical" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_amos2026numerical" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Barron et al. (2026) recently identified numerical issues in the softmax and soft
 cross-entropy loss. We show that similar issues are present in standard divergence
 operations between categorical distributions. This includes the forward and
@@ -134,11 +124,11 @@ implementations for each setting, validated by property-based tests.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2507.09650' target='_blank'>Cultivating Pluralism In Algorithmic Monoculture: The Community Alignment Dataset</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhang2026cultivating").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/community-alignment-dataset' target='_blank'>data</a><br>
+<em><a href='https://arxiv.org/abs/2507.09650' target='_blank'>Cultivating Pluralism In Algorithmic Monoculture: The Community Alignment Dataset</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_zhang2026cultivating" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/community-alignment-dataset' target='_blank'>data</a><br>
 <a href='https://lhz1029.github.io/' target='_blank'>Lily&nbsp;H&nbsp;Zhang</a>, <a href='https://smithamilli.com/' target='_blank'>Smitha&nbsp;Milli</a>, <a href='https://scholar.google.com/citations?user=O924n4AAAAAJ' target='_blank'>Karen&nbsp;Long&nbsp;Jusko</a>, <a href='https://scholar.google.com/citations?user=URWZ--QAAAAJ' target='_blank'>Jonathan&nbsp;Smith</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=QDtbGtIAAAAJ' target='_blank'>Wassim&nbsp;Bouaziz</a>, <a href='https://openreview.net/profile?id=~Jack_Kussman1' target='_blank'>Jack&nbsp;Kussman</a>, <a href='https://scholar.google.com/citations?user=dEvt4JoAAAAJ' target='_blank'>Manon&nbsp;Revel</a>, <a href='https://scholar.google.com/citations?user=v2Wni-EAAAAJ' target='_blank'>Lisa&nbsp;Titus</a>, <a href='https://scholar.google.com/citations?user=IkQv0loAAAAJ' target='_blank'>Bhaktipriya&nbsp;Radharapu</a>, <a href='https://scholar.google.com/citations?user=ev8Ilx0AAAAJ' target='_blank'>Jane&nbsp;Yu</a>, <a href='https://www.linkedin.com/in/vidyasarma' target='_blank'>Vidya&nbsp;Sarma</a>, <a href='https://openreview.net/profile?id=~Kristopher_Rose1' target='_blank'>Kristopher&nbsp;Rose</a>, and <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a><br>
 ICLR 2026 <br>
 
-<div id="abs_zhang2026cultivating" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_zhang2026cultivating" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 How can large language models (LLMs) serve users with varying preferences that may conflict across cultural, political, or other dimensions? To advance this challenge, this paper establishes four key results. First, we demonstrate, through a large-scale multilingual human study with representative samples from five countries (N=15,000), that humans exhibit significantly more variation in preferences than the responses of 21 state-of-the-art LLMs. Second, we show that existing methods for preference dataset collection are insufficient for learning the diversity of human preferences even along two of the most salient dimensions of variability in global values, due to the underlying homogeneity of candidate responses. Third, we argue that this motivates the need for negatively-correlated sampling when generating candidate sets, and we show that simple prompt-based techniques for doing so significantly enhance the performance of alignment methods in learning heterogeneous preferences. Fourth, based on this novel candidate sampling approach, we collect and open-source Community Alignment, the largest and most representative multilingual and multi-turn preference dataset to date, featuring almost 200,000 comparisons from annotators spanning five countries. We hope that the Community Alignment dataset will be a valuable resource for improving the effectiveness of LLMs for a diverse global population.
 </div>
 </td>
@@ -151,11 +141,11 @@ How can large language models (LLMs) serve users with varying preferences that m
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2601.21306' target='_blank'>The Surprising Difficulty of Search in Model-Based Reinforcement Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_chang2026surprisingdifficultysearchmodelbased").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/MRSQ' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2601.21306' target='_blank'>The Surprising Difficulty of Search in Model-Based Reinforcement Learning</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_chang2026surprisingdifficultysearchmodelbased" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/MRSQ' target='_blank'>code</a><br>
 <a href='https://scholar.google.com/citations?user=1EW9Jt4AAAAJ' target='_blank'>Wei-Di&nbsp;Chang</a>, <a href='https://scholar.google.com/citations?user=bX__wkYAAAAJ' target='_blank'>Mikael&nbsp;Henaff</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=BSORuFoAAAAJ' target='_blank'>Gregory&nbsp;Dudek</a>, and <a href='https://scholar.google.com/citations?user=1Nk3WZoAAAAJ' target='_blank'>Scott&nbsp;Fujimoto</a><br>
 ICML 2026 <br>
 
-<div id="abs_chang2026surprisingdifficultysearchmodelbased" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_chang2026surprisingdifficultysearchmodelbased" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 This paper investigates search in model-based reinforcement learning (RL). Conventional wisdom holds that long-term predictions and compounding errors are the primary obstacles for model-based RL. We challenge this view, showing that search is not a plug-and-play replacement for a learned policy. Surprisingly, we find that search can harm performance even when the model is highly accurate. Instead, we show that mitigating distribution shift matters more than improving model or value function accuracy. Building on this insight, we identify key techniques for enabling effective search, achieving state-of-the-art performance across multiple popular benchmark domains.
 </div>
 </td>
@@ -168,11 +158,11 @@ This paper investigates search in model-based reinforcement learning (RL). Conve
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2512.20806' target='_blank'>Safety Alignment of LMs via Non-cooperative Games</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_paulus2025safetyalignmentlmsnoncooperative").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/advgame' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2026.advgame.html' target='_blank'>slides</a><br>
+<em><a href='https://arxiv.org/abs/2512.20806' target='_blank'>Safety Alignment of LMs via Non-cooperative Games</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_paulus2025safetyalignmentlmsnoncooperative" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/advgame' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2026.advgame.html' target='_blank'>slides</a><br>
 <a href='https://scholar.google.com/citations?user=njZL5CQAAAAJ' target='_blank'>Anselm&nbsp;Paulus</a>, <a href='https://scholar.google.com/citations?user=fN7fYXIAAAAJ' target='_blank'>Ilia&nbsp;Kulikov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=OvKEnVwAAAAJ' target='_blank'>Rémi&nbsp;Munos</a>, <a href='https://ivanevtimov.eu/' target='_blank'>Ivan&nbsp;Evtimov</a>, <a href='https://scholar.google.com/citations?user=X8H76XIAAAAJ' target='_blank'>Kamalika&nbsp;Chaudhuri</a>, and <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a><br>
 ICML 2026 <br>
 
-<div id="abs_paulus2025safetyalignmentlmsnoncooperative" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_paulus2025safetyalignmentlmsnoncooperative" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Ensuring the safety of language models (LMs) while
 maintaining their usefulness remains a critical
 challenge in AI alignment. Current approaches rely
@@ -205,11 +195,11 @@ probe arbitrary target models.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2512.02494' target='_blank'>A Fully First-Order Layer for Differentiable Optimization</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhao2025fullyfirstorderlayerdifferentiable").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/guaguakai/FFOLayer' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2512.02494' target='_blank'>A Fully First-Order Layer for Differentiable Optimization</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_zhao2025fullyfirstorderlayerdifferentiable" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/guaguakai/FFOLayer' target='_blank'>code</a><br>
 <a href='https://scholar.google.com/citations?user=825UyCgAAAAJ' target='_blank'>Zihao&nbsp;Zhao</a>, <a href='https://www.linkedin.com/in/kai-chia-mo-300ab3165/' target='_blank'>Kai-Chia&nbsp;Mo</a>, <a href='https://scholar.google.com/citations?user=_NcwyFkAAAAJ' target='_blank'>Shing-Hei&nbsp;Ho</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://scholar.google.com/citations?user=spWVns8AAAAJ' target='_blank'>Kai&nbsp;Wang</a><br>
 ICML 2026 <br>
 
-<div id="abs_zhao2025fullyfirstorderlayerdifferentiable" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_zhao2025fullyfirstorderlayerdifferentiable" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Differentiable optimization layers enable learning systems to make decisions by solving embedded optimization problems. However, computing gradients via implicit differentiation requires solving a linear system with Hessian terms, which is both compute- and memory-intensive. To address this challenge, we propose a novel algorithm that computes the gradient using only first-order information. The key insight is to rewrite the differentiable optimization as a bilevel optimization problem and leverage recent advances in bilevel methods. Specifically, we introduce an active-set Lagrangian hypergradient oracle that avoids Hessian evaluations and provides finite-time, non-asymptotic approximation guarantees. We show that an approximate hypergradient can be computed using only first-order information in about constant time (up to logarithmic factors), leading to an overall complexity on the order of δ⁻¹ε⁻³ for constrained bilevel optimization, which matches the best known rate for non-smooth non-convex optimization. Furthermore, we release an open-source Python library that can be easily adapted from existing solvers.
 </div>
 </td>
@@ -222,11 +212,11 @@ Differentiable optimization layers enable learning systems to make decisions by 
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2307.05213' target='_blank'>Score Function Gradient Estimation to Widen the Applicability of Decision-Focused Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_silvestri2026score").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/matsilv/sfge-dfl' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2307.05213' target='_blank'>Score Function Gradient Estimation to Widen the Applicability of Decision-Focused Learning</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_silvestri2026score" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/matsilv/sfge-dfl' target='_blank'>code</a><br>
 <a href='https://scholar.google.com/citations?user=yHEb8eAAAAAJ' target='_blank'>Mattia&nbsp;Silvestri</a>, <a href='https://scholar.google.com/citations?user=sMtjmx4AAAAJ' target='_blank'>Senne&nbsp;Berden</a>, <a href='https://jayantamandi.com/' target='_blank'>Jayanta&nbsp;Mandi</a>, <a href='https://scholar.google.com/citations?user=muyZLrYAAAAJ' target='_blank'>Ali&nbsp;İrfan&nbsp;Mahmutoğulları</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://people.cs.kuleuven.be/~tias.guns/' target='_blank'>Tias&nbsp;Guns</a>, and <a href='https://scholar.google.com/citations?user=lJJ6EOMAAAAJ' target='_blank'>Michele&nbsp;Lombardi</a><br>
 JAIR 2026 <br>
 
-<div id="abs_silvestri2026score" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_silvestri2026score" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Many real-world optimization problems contain parameters that are unknown before deployment time, either due to stochasticity or to lack of information (e.g., demand or travel times in delivery problems). A common strategy in such cases is to estimate said parameters via machine learning (ML) models trained to minimize the prediction error, which however is not necessarily aligned with the downstream task-level error. The decision-focused learning (DFL) paradigm overcomes this limitation by training to directly minimize a task loss, e.g. regret. Since the latter has non-informative gradients for combinatorial problems, state-of-the-art DFL methods introduce surrogates and approximations that enable training. But these methods exploit specific assumptions about the problem structures (e.g., convex or linear problems, unknown parameters only in the objective function). We propose an alternative method that makes no such assumptions, it combines stochastic smoothing with score function gradient estimation which works on any task loss. This opens up the use of DFL methods to nonlinear objectives, uncertain parameters in the problem constraints, and even two-stage stochastic optimization. Experiments show that it typically requires more epochs, but that it is on par with specialized methods and performs especially well for the difficult case of problems with uncertainty in the constraints, in terms of solution quality, scalability, or both.
 </div>
 </td>
@@ -239,11 +229,11 @@ Many real-world optimization problems contain parameters that are unknown before
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2609.38287' target='_blank'>Social Choice Foundations for Simulation-Augmented Generation</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_kraiczy2026social").toggle()'>abstract</a><br>
+<em><a href='https://arxiv.org/abs/2609.38287' target='_blank'>Social Choice Foundations for Simulation-Augmented Generation</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_kraiczy2026social" aria-expanded="false">abstract</button><br>
 <a href='https://www.sonja.uk/' target='_blank'>Sonja&nbsp;Kraiczy</a>, <a href='https://smithamilli.com/' target='_blank'>Smitha&nbsp;Milli</a>, <a href='https://www.eminberker.com/' target='_blank'>Ratip&nbsp;Emin&nbsp;Berker</a>, <a href='https://avinandan22.github.io/' target='_blank'>Avinandan&nbsp;Bose</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.jamellewd.com/' target='_blank'>Jamelle&nbsp;Watson-Daniels</a>, <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a>, <a href='https://sagemath.openbsd.amsterdam/edith/' target='_blank'>Edith&nbsp;Elkind</a>, and <a href='https://procaccia.info/' target='_blank'>Ariel&nbsp;D.&nbsp;Procaccia</a><br>
 NeurIPS 2026 <br>
 
-<div id="abs_kraiczy2026social" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_kraiczy2026social" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Users increasingly turn to AI systems for normative assistance—guidance on what one ought to do or think—yet models are often opaque about whose viewpoints they represent. A promising approach is simulation-augmented generation (SAGE), which involves querying generative simulations of individuals in a target population at inference time, soliciting their open-ended judgments, and synthesizing them into a response while transparently reporting whose viewpoints are reflected. However, inference-time simulation raises acute scalability constraints. Since the key benefit of simulation is improved representativeness, the core challenge is scaling simulation without sacrificing representation. We introduce the first formalization of this problem, grounded in proportional clustering concepts from social choice theory. We prove that to represent a population of m humans, we need only create n≪m simulations of them, and need only dynamically query k≪n of those simulations at inference time, while still maintaining approximate proportional representation guarantees for the full population. We empirically validate that our inference-time algorithm yields better representation&ndash;efficiency trade-offs than baseline approaches.
 </div>
 </td>
@@ -259,11 +249,11 @@ Users increasingly turn to AI systems for normative assistance—guidance on wha
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2410.23022' target='_blank'>Online Intrinsic Rewards for Decision Making Agents from Large Language Model Feedback</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zheng2024onlineintrinsicrewardsdecision").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/oni' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2410.23022' target='_blank'>Online Intrinsic Rewards for Decision Making Agents from Large Language Model Feedback</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_zheng2024onlineintrinsicrewardsdecision" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/oni' target='_blank'>code</a><br>
 <a href='https://enosair.github.io/' target='_blank'>Qinqing&nbsp;Zheng</a>, <a href='https://scholar.google.com/citations?user=bX__wkYAAAAJ' target='_blank'>Mikael&nbsp;Henaff</a>, <a href='https://amyzhang.github.io/' target='_blank'>Amy&nbsp;Zhang</a>, <a href='https://aditya-grover.github.io/' target='_blank'>Aditya&nbsp;Grover</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 RLC 2025 <br>
 
-<div id="abs_zheng2024onlineintrinsicrewardsdecision" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_zheng2024onlineintrinsicrewardsdecision" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Automatically synthesizing dense rewards from natural language
 descriptions is a promising paradigm in
 reinforcement learning (RL), with applications to
@@ -308,11 +298,11 @@ external datasets nor source code.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2404.16873' target='_blank'>AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_paulus2024advprompter").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/advprompter' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2025.advprompter.html' target='_blank'>slides</a><br>
+<em><a href='https://arxiv.org/abs/2404.16873' target='_blank'>AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_paulus2024advprompter" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/advprompter' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2025.advprompter.html' target='_blank'>slides</a><br>
 <a href='https://scholar.google.com/citations?user=njZL5CQAAAAJ' target='_blank'>Anselm&nbsp;Paulus*</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov*</a>, <a href='https://sites.google.com/view/chuanguo' target='_blank'>Chuan&nbsp;Guo</a>, <strong>Brandon&nbsp;Amos<sup style="font-family: Georgia, serif;">&dagger;</sup></strong>, and <a href='https://scholar.google.com/citations?user=0mgEF28AAAAJ' target='_blank'>Yuandong&nbsp;Tian<sup style="font-family: Georgia, serif;">&dagger;</sup></a><br>
 ICML 2025 <br>
 
-<div id="abs_paulus2024advprompter" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_paulus2024advprompter" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 While recently Large Language Models (LLMs) have achieved remarkable successes, they are vulnerable to certain jailbreaking attacks that lead to generation of inappropriate or harmful content. Manual red-teaming requires finding adversarial prompts that cause such jailbreaking, e.g. by appending a suffix to a given instruction, which is inefficient and time-consuming.
 On the other hand, automatic adversarial prompt generation often leads to semantically meaningless attacks that can easily be detected by perplexity-based filters, may require gradient information from the target LLM, or do not scale well due to time-consuming discrete optimization processes over the token space. In this paper, we present a novel method that uses another LLM, called the AdvPrompter, to generate human-readable adversarial prompts in seconds, approximately 800 times faster than existing optimization-based approaches.
 We train the AdvPrompter using a novel algorithm that does not require access to the gradients of the target LLM. This process alternates between two steps: (1) generating high-quality target adversarial suffixes by optimizing the AdvPrompter predictions, and (2) low-rank fine-tuning of the AdvPrompter with the generated adversarial suffixes. The trained AdvPrompter generates suffixes that veil the input instruction without changing its meaning, such that the target LLM is lured to give a harmful response. Experimental results on popular open source target LLMs show state-of-the-art results on the AdvBench dataset, that also transfer to closed-source black-box LLM APIs. Further, we demonstrate that by fine-tuning on a synthetic dataset generated by Advprompter, LLMs can be made more robust against jailbreaking attacks while maintaining performance, i.e. high MMLU scores.
@@ -326,12 +316,12 @@ We train the AdvPrompter using a novel algorithm that does not require access to
 11.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2411.00698' target='_blank'><img src="images/publications/haviv2024wasserstein.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2411.00698' target='_blank'>Wasserstein Flow Matching: Generative modeling over families of distributions</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_haviv2024wasserstein").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/DoronHav/WassersteinFlowMatching' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2024.transport-between-distributions-over-distributions.html' target='_blank'>slides</a><br>
+<a href='https://arxiv.org/abs/2411.00698' target='_blank'><img src="images/publications/haviv2024wasserstein.png" alt="Read Wasserstein Flow Matching: Generative modeling over families of distributions" class="publicationImg" /></a>
+<em><a href='https://arxiv.org/abs/2411.00698' target='_blank'>Wasserstein Flow Matching: Generative modeling over families of distributions</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_haviv2024wasserstein" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/DoronHav/WassersteinFlowMatching' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2024.transport-between-distributions-over-distributions.html' target='_blank'>slides</a><br>
 <a href='https://doronhav.github.io/' target='_blank'>Doron&nbsp;Haviv</a>, <a href='https://arampooladian.com/' target='_blank'>Aram-Alexandre&nbsp;Pooladian</a>, <a href='https://scholar.google.com/citations?user=aJOeGRoAAAAJ' target='_blank'>Dana&nbsp;Pe'er</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 ICML 2025 <br>
 
-<div id="abs_haviv2024wasserstein" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_haviv2024wasserstein" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Generative modeling typically concerns the transport of a single
 source distribution to a single target distribution
 by learning (i.e., regressing onto) simple
@@ -369,11 +359,11 @@ datasets.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2504.11713' target='_blank'>Adjoint Sampling: Highly Scalable Diffusion Samplers via Adjoint Matching</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_havens2025adjointsamplinghighlyscalable").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/adjoint_sampling' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2504.11713' target='_blank'>Adjoint Sampling: Highly Scalable Diffusion Samplers via Adjoint Matching</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_havens2025adjointsamplinghighlyscalable" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/adjoint_sampling' target='_blank'>code</a><br>
 <a href='https://aaronhavens.github.io/' target='_blank'>Aaron&nbsp;Havens</a>, <a href='https://scholar.google.com/citations?user=IrCdg_wAAAAJ' target='_blank'>Benjamin&nbsp;Kurt&nbsp;Miller</a>, <a href='https://scholar.google.com/citations?user=337w9-V_WxIC' target='_blank'>Bing&nbsp;Yan</a>, <a href='https://cdenrich.github.io/' target='_blank'>Carles&nbsp;Domingo-Enrich</a>, <a href='https://scholar.google.com/citations?user=D4uRc_UAAAAJ' target='_blank'>Anuroop&nbsp;Sriram</a>, <a href='https://scholar.google.com/citations?user=KbqboRgAAAAJ' target='_blank'>Brandon&nbsp;Wood</a>, <a href='https://scholar.google.com/citations?user=AcE5Wt4AAAAJ' target='_blank'>Daniel&nbsp;Levine</a>, <a href='https://scholar.google.com/citations?user=o3tVp68AAAAJ' target='_blank'>Bin&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=Wewcpo4AAAAJ' target='_blank'>Brian&nbsp;Karrer</a>, <a href='https://scholar.google.com/citations?user=Cb-ZgHEAAAAJ' target='_blank'>Xiang&nbsp;Fu</a>, <a href='https://scholar.google.com/citations?user=2Dt0VJ4AAAAJ' target='_blank'>Guan-Horng&nbsp;Liu</a>, and <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a><br>
 ICML 2025 <br>
 
-<div id="abs_havens2025adjointsamplinghighlyscalable" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_havens2025adjointsamplinghighlyscalable" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 We introduce Adjoint Sampling, a highly scalable and efficient algorithm for learning diffusion processes that sample from unnormalized densities, or energy functions. It is the first on-policy approach that allows significantly more gradient updates than the number of energy evaluations and model samples, allowing us to scale to much larger problem settings than previously explored by similar methods. Our framework is theoretically grounded in stochastic optimal control and shares the same theoretical guarantees as Adjoint Matching, being able to train without the need for corrective measures that push samples towards the target distribution. We show how to incorporate key symmetries, as well as periodic boundary conditions, for modeling molecules in both cartesian and torsional coordinates. We demonstrate the effectiveness of our approach through extensive experiments on classical energy functions, and further scale up to neural network-based energy models where we perform amortized conformer generation across many molecular systems. To encourage further research in developing highly scalable sampling methods, we open source these challenging benchmarks, where successful methods can directly impact progress in computational chemistry.
 </div>
 </td>
@@ -386,11 +376,11 @@ We introduce Adjoint Sampling, a highly scalable and efficient algorithm for lea
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2410.09303' target='_blank'>Exact Byte-Level Probabilities from Tokenized Language Models for FIM-Tasks and Model Ensembles</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_phan2024exactbytelevelprobabilitiestokenized").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/Exact-Byte-Level-Probabilities-from-Tokenized-LMs' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2410.09303' target='_blank'>Exact Byte-Level Probabilities from Tokenized Language Models for FIM-Tasks and Model Ensembles</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_phan2024exactbytelevelprobabilitiestokenized" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/Exact-Byte-Level-Probabilities-from-Tokenized-LMs' target='_blank'>code</a><br>
 <a href='https://truongbuu.github.io/' target='_blank'>Buu&nbsp;Phan</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://itaigat.com/' target='_blank'>Itai&nbsp;Gat</a>, <a href='https://scholar.google.com/citations?user=EaYZfmoAAAAJ' target='_blank'>Marton&nbsp;Havasi</a>, <a href='https://mmuckley.github.io/' target='_blank'>Matthew&nbsp;Muckley</a>, and <a href='https://karenullrich.info/' target='_blank'>Karen&nbsp;Ullrich</a><br>
 ICLR 2025 <br>
 
-<div id="abs_phan2024exactbytelevelprobabilitiestokenized" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_phan2024exactbytelevelprobabilitiestokenized" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Tokenization is associated with many poorly understood shortcomings in language models (LMs), yet remains an important component for long sequence scaling purposes. This work studies how tokenization impacts model performance by analyzing and comparing the stochastic behavior of tokenized models with their byte-level, or token-free, counterparts. We discover that, even when the two models are statistically equivalent, their predictive distributions over the next byte can be substantially different, a phenomenon we term as "tokenization bias". To fully characterize this phenomenon, we introduce the Byte-Token Representation Lemma, a framework that establishes a mapping between the learned token distribution and its equivalent byte-level distribution. From this result, we develop a next-byte sampling algorithm that eliminates tokenization bias without requiring further training or optimization. In other words, this enables zero-shot conversion of tokenized LMs into statistically equivalent token-free ones. We demonstrate its broad applicability with two use cases: fill-in-the-middle (FIM) tasks and model ensembles. In FIM tasks where input prompts may terminate mid-token, leading to out-of-distribution tokenization, our method mitigates performance degradation and achieves an approximately 18% improvement in FIM coding benchmarks, consistently outperforming the standard token healing fix. For model ensembles where each model employs a distinct vocabulary, our approach enables seamless integration, resulting in improved performance (up to 3.7%) over individual models across various standard baselines in reasoning, knowledge, and coding.
 </div>
 </td>
@@ -402,12 +392,12 @@ Tokenization is associated with many poorly understood shortcomings in language 
 14.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2408.14608' target='_blank'><img src="images/publications/atanackovic2024meta.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2408.14608' target='_blank'>Meta Flow Matching:  Integrating Vector Fields on the Wasserstein Manifold</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_atanackovic2024meta").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/lazaratan/meta-flow-matching' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2024.transport-between-distributions-over-distributions.html' target='_blank'>slides</a><br>
+<a href='https://arxiv.org/abs/2408.14608' target='_blank'><img src="images/publications/atanackovic2024meta.png" alt="Read Meta Flow Matching: Integrating Vector Fields on the Wasserstein Manifold" class="publicationImg" /></a>
+<em><a href='https://arxiv.org/abs/2408.14608' target='_blank'>Meta Flow Matching:  Integrating Vector Fields on the Wasserstein Manifold</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_atanackovic2024meta" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/lazaratan/meta-flow-matching' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2024.transport-between-distributions-over-distributions.html' target='_blank'>slides</a><br>
 <a href='https://lazaratan.github.io/' target='_blank'>Lazar&nbsp;Atanackovic</a>, <a href='https://scholar.google.com/citations?user=CblgXekAAAAJ' target='_blank'>Xi&nbsp;Zhang</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.cs.mcgill.ca/~blanchem/' target='_blank'>Mathieu&nbsp;Blanchette</a>, <a href='https://scholar.google.ca/citations?user=DN3LoTEAAAAJ' target='_blank'>Leo&nbsp;J&nbsp;Lee</a>, <a href='https://yoshuabengio.org/en' target='_blank'>Yoshua&nbsp;Bengio</a>, <a href='https://www.alextong.net/' target='_blank'>Alexander&nbsp;Tong</a>, and <a href='https://necludov.github.io/' target='_blank'>Kirill&nbsp;Neklyudov</a><br>
 ICLR 2025 <br>
 
-<div id="abs_atanackovic2024meta" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_atanackovic2024meta" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Numerous biological and physical processes can be modeled as systems of interacting entities evolving continuously over time, e.g. the dynamics of communicating cells or physical particles. Learning the dynamics of such systems is essential for predicting the temporal evolution of populations across novel samples and unseen environments. Flow-based models allow for learning these dynamics at the population level - they model the evolution of the entire distribution of samples. However, current flow-based models are limited to a single initial population and a set of predefined conditions which describe different dynamics. We argue that multiple processes in natural sciences have to be represented as vector fields on the Wasserstein manifold of probability densities. That is, the change of the population at any moment in time depends on the population itself due to the interactions between samples. In particular, this is crucial for personalized medicine where the development of diseases and their respective treatment response depends on the microenvironment of cells specific to each patient. We propose Meta Flow Matching (MFM), a practical approach to integrating along these vector fields on the Wasserstein manifold by amortizing the flow model over the initial populations. Namely, we embed the population of samples using a Graph Neural Network (GNN) and use these embeddings to train a Flow Matching model. This gives MFM the ability to generalize over the initial distributions unlike previously proposed methods. We demonstrate the ability of MFM to improve prediction of individual treatment responses on a large scale multi-patient single-cell drug screen dataset.
 </div>
 </td>
@@ -420,11 +410,11 @@ Numerous biological and physical processes can be modeled as systems of interact
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2412.10321' target='_blank'>AdvPrefix: An Objective for Nuanced LLM Jailbreaks</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhu2025advprefixobjectivenuancedllm").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/jailbreak-objectives' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2026.advprompter-algotune.html' target='_blank'>slides</a><br>
+<em><a href='https://arxiv.org/abs/2412.10321' target='_blank'>AdvPrefix: An Objective for Nuanced LLM Jailbreaks</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_zhu2025advprefixobjectivenuancedllm" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/jailbreak-objectives' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2026.advprompter-algotune.html' target='_blank'>slides</a><br>
 <a href='https://schzhu.github.io/' target='_blank'>Sicheng&nbsp;Zhu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=0mgEF28AAAAJ' target='_blank'>Yuandong&nbsp;Tian</a>, <a href='https://sites.google.com/view/chuanguo' target='_blank'>Chuan&nbsp;Guo</a>, and <a href='https://ivanevtimov.eu/' target='_blank'>Ivan&nbsp;Evtimov</a><br>
 NeurIPS 2025 <br>
 
-<div id="abs_zhu2025advprefixobjectivenuancedllm" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_zhu2025advprefixobjectivenuancedllm" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Many jailbreak attacks on large language models (LLMs) rely on a
 common objective: making the model respond with the
 prefix "Sure, here is (harmful request)". While
@@ -459,11 +449,11 @@ nuanced jailbreaks.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2507.15887' target='_blank'>AlgoTune: Can Language Models Speed Up General-Purpose Numerical Programs?</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_press2025algotune").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/oripress/AlgoTune' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2026.advprompter-algotune.html' target='_blank'>slides</a><br>
+<em><a href='https://arxiv.org/abs/2507.15887' target='_blank'>AlgoTune: Can Language Models Speed Up General-Purpose Numerical Programs?</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_press2025algotune" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/oripress/AlgoTune' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2026.advprompter-algotune.html' target='_blank'>slides</a><br>
 <a href='https://oripress.com/' target='_blank'>Ori&nbsp;Press</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://hyzhao.me/' target='_blank'>Haoyu&nbsp;Zhao</a>, <a href='https://yikai-wu.github.io/' target='_blank'>Yikai&nbsp;Wu</a>, <a href='https://samlikes.pizza/' target='_blank'>Samuel&nbsp;K.&nbsp;Ainsworth</a>, <a href='https://krupke.cc/' target='_blank'>Dominik&nbsp;Krupke</a>, <a href='https://kidger.site/' target='_blank'>Patrick&nbsp;Kidger</a>, <a href='https://www.linkedin.com/in/touqir-sajed-6a95b1126/' target='_blank'>Touqir&nbsp;Sajed</a>, <a href='https://stella.to/' target='_blank'>Bartolomeo&nbsp;Stellato</a>, <a href='https://jisunp515.github.io/' target='_blank'>Jisun&nbsp;Park</a>, <a href='https://nathanaelbosch.github.io/' target='_blank'>Nathanael&nbsp;Bosch</a>, <a href='https://openreview.net/profile?id=~Eli_Meril1' target='_blank'>Eli&nbsp;Meril</a>, <a href='https://scholar.google.com/citations?user=_nbf9ZIAAAAJ' target='_blank'>Albert&nbsp;Steppi</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <a href='https://fangzhaoz.github.io/' target='_blank'>Fangzhao&nbsp;Zhang</a>, <a href='https://davidppineiro.com/' target='_blank'>David&nbsp;Pérez-Piñeiro</a>, <a href='https://scholar.google.it/citations?user=a5HqhwUAAAAJ' target='_blank'>Alberto&nbsp;Mercurio</a>, <a href='https://jennyzhanni.com/' target='_blank'>Ni&nbsp;Zhan</a>, <a href='https://scholar.google.com/citations?user=mdd52kMAAAAJ' target='_blank'>Talor&nbsp;Abramovich</a>, <a href='https://www.lieret.net/' target='_blank'>Kilian&nbsp;Lieret</a>, <a href='https://hanlin-zhang.com/' target='_blank'>Hanlin&nbsp;Zhang</a>, <a href='https://scholar.google.com/citations?user=qNjmSUEAAAAJ' target='_blank'>Shirley&nbsp;Huang</a>, <a href='https://scholar.google.com/citations?user=0z0fNxUAAAAJ' target='_blank'>Matthias&nbsp;Bethge</a>, and <a href='https://ofir.io/about' target='_blank'>Ofir&nbsp;Press</a><br>
 NeurIPS Datasets and Benchmarks Track 2025 <br>
 
-<div id="abs_press2025algotune" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_press2025algotune" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Despite progress in language model (LM) capabilities, evaluations
 have thus far focused on models’ performance on
 tasks that humans have previously solved, including
@@ -500,11 +490,11 @@ solving beyond state-of-the-art human performance.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2510.09596' target='_blank'>BaNEL: Exploration Posteriors for Generative Modeling Using Only Negative Rewards</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_lee2025banelexplorationposteriorsgenerative").toggle()'>abstract</a><br>
+<em><a href='https://arxiv.org/abs/2510.09596' target='_blank'>BaNEL: Exploration Posteriors for Generative Modeling Using Only Negative Rewards</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_lee2025banelexplorationposteriorsgenerative" aria-expanded="false">abstract</button><br>
 <a href='https://sangyun884.github.io/about/' target='_blank'>Sangyun&nbsp;Lee</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://gfanti.github.io/' target='_blank'>Giulia&nbsp;Fanti</a><br>
 arXiv 2025 <br>
 
-<div id="abs_lee2025banelexplorationposteriorsgenerative" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_lee2025banelexplorationposteriorsgenerative" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Today's generative models thrive with large amounts of supervised data and informative reward functions characterizing the quality of the generation. They work under the assumptions that the supervised data provides knowledge to pre-train the model, and the reward function provides dense information about how to further improve the generation quality and correctness. However, in the hardest instances of important problems, two problems arise: (1) the base generative model attains a near-zero reward signal, and (2) calls to the reward oracle are expensive. This setting poses a fundamentally different learning challenge than standard reward-based post-training. To address this, we propose BaNEL (Bayesian Negative Evidence Learning), an algorithm that post-trains the model using failed attempts only, while minimizing the number of reward evaluations (NREs). Our method is based on the idea that the problem of learning regularities underlying failures can be cast as another, in-loop generative modeling problem. We then leverage this model to assess whether new data resembles previously seen failures and steer the generation away from them. We show that BaNEL can improve model performance without observing a single successful sample on several sparse-reward tasks, outperforming existing novelty-bonus approaches by up to several orders of magnitude in success rate, while using fewer reward evaluations.
 </div>
 </td>
@@ -519,12 +509,12 @@ Today's generative models thrive with large amounts of supervised data and infor
 18.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2406.00288' target='_blank'><img src="images/publications/pooladian2024neural.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2406.00288' target='_blank'>Neural Optimal Transport with Lagrangian Costs</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_pooladian2024neural").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/lagrangian-ot' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2025.transport-flows-physics.html' target='_blank'>slides</a><br>
+<a href='https://arxiv.org/abs/2406.00288' target='_blank'><img src="images/publications/pooladian2024neural.png" alt="Read Neural Optimal Transport with Lagrangian Costs" class="publicationImg" /></a>
+<em><a href='https://arxiv.org/abs/2406.00288' target='_blank'>Neural Optimal Transport with Lagrangian Costs</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_pooladian2024neural" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/lagrangian-ot' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2025.transport-flows-physics.html' target='_blank'>slides</a><br>
 <a href='https://arampooladian.com/' target='_blank'>Aram-Alexandre&nbsp;Pooladian</a>, <a href='https://cdenrich.github.io/' target='_blank'>Carles&nbsp;Domingo-Enrich</a>, <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 UAI 2024 <br>
 
-<div id="abs_pooladian2024neural" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_pooladian2024neural" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 We investigate the optimal transport problem between probability measures when the underlying cost function is understood to satisfy a least action principle, also known as a Lagrangian cost. These generalizations are useful when connecting observations from a physical system, where the transport dynamics are influenced by the geometry of the system, such as obstacles, (e.g., incorporating barrier functions in the Lagrangian) and allows practitioners to incorporate a priori knowledge of the underlying system such as non-Euclidean geometries (e.g., paths must be circular). Our contributions are of computational interest, where we demonstrate the ability to efficiently compute geodesics and amortize spline-based paths, which has not been done before, even in low dimensional problems. Unlike prior work, we also output the resulting Lagrangian optimal transport map without requiring an ODE solver. We demonstrate the effectiveness of our formulation on low-dimensional examples taken from  prior work.
 </div>
 </td>
@@ -537,12 +527,12 @@ We investigate the optimal transport problem between probability measures when t
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2309.07835' target='_blank'>Learning to Warm-Start Fixed-Point Optimization Algorithms</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_sambharya2024learning").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/stellatogrp/l2ws' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2309.07835' target='_blank'>Learning to Warm-Start Fixed-Point Optimization Algorithms</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_sambharya2024learning" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/stellatogrp/l2ws' target='_blank'>code</a><br>
 <a href='https://rajivsambharya.github.io/' target='_blank'>Rajiv&nbsp;Sambharya</a>, <a href='https://sites.google.com/view/georgina-hall' target='_blank'>Georgina&nbsp;Hall</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://stella.to/' target='_blank'>Bartolomeo&nbsp;Stellato</a><br>
 JMLR 2024 <br>
 <div class="publication-award-row"><span class="publication-award"><a href="https://connect.informs.org/computing/awards/ics-prize/ics-prize-2022-2026" target="_blank"><i class="fa fa-trophy" aria-hidden="true"></i> INFORMS Computing Society Prize, Honorable Mention</a></span></div>
 
-<div id="abs_sambharya2024learning" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_sambharya2024learning" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 We introduce a machine-learning framework to warm-start fixed-point optimization algorithms. Our architecture consists of a neural network mapping problem parameters to warm starts, followed by a predefined number of fixed-point iterations. We propose two loss functions designed to either minimize the fixed-point residual or the distance to a ground truth solution. In this way, the neural network predicts warm starts with the end-to-end goal of minimizing the downstream loss. An important feature of our architecture is its flexibility, in that it can predict a warm start for fixed-point algorithms run for any number of steps, without being limited to the number of steps it has been trained on. We provide PAC-Bayes generalization bounds on unseen data for common classes of fixed-point operators: contractive, linearly convergent, and averaged. Applying this framework to well-known applications in control, statistics, and signal processing, we observe a significant reduction in the number of iterations and solution time required to solve these problems, through learned warm starts.
 </div>
 </td>
@@ -555,12 +545,12 @@ We introduce a machine-learning framework to warm-start fixed-point optimization
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2407.18158' target='_blank'>Unlocking Tokens as Data Points for Generalization Bounds on Larger Language Models</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_lotfi2024unlocking").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/YilunKuang/token-bounds-for-llms' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2407.18158' target='_blank'>Unlocking Tokens as Data Points for Generalization Bounds on Larger Language Models</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_lotfi2024unlocking" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/YilunKuang/token-bounds-for-llms' target='_blank'>code</a><br>
 <a href='https://sanaelotfi.github.io/' target='_blank'>Sanae&nbsp;Lotfi</a>, <a href='https://yilunkuang.github.io/' target='_blank'>Yilun&nbsp;Kuang</a>, <a href='https://mfinzi.github.io/' target='_blank'>Marc&nbsp;Anton&nbsp;Finzi</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://goldblum.github.io/' target='_blank'>Micah&nbsp;Goldblum</a>, and <a href='https://cims.nyu.edu/~andrewgw/' target='_blank'>Andrew&nbsp;Gordon&nbsp;Wilson</a><br>
 NeurIPS 2024 <br>
 <div class="publication-award-row"><span class="publication-award"><a href="https://icml.cc/virtual/2024/39245" target="_blank"><i class="fa fa-trophy" aria-hidden="true"></i> Outstanding Paper Award at the ICML Theoretical Foundations Workshop</a></span></div>
 
-<div id="abs_lotfi2024unlocking" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_lotfi2024unlocking" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Large language models (LLMs) with billions of parameters excel at
 predicting the next token in a sequence. Recent work
 computes non-vacuous compression-based
@@ -597,11 +587,11 @@ high-quality text.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2312.02027' target='_blank'>Stochastic Optimal Control Matching</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_domingoenrich2024stochastic").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/soc-matching' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2312.02027' target='_blank'>Stochastic Optimal Control Matching</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_domingoenrich2024stochastic" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/soc-matching' target='_blank'>code</a><br>
 <a href='https://cdenrich.github.io/' target='_blank'>Carles&nbsp;Domingo-Enrich</a>, <a href='https://scholar.google.com/citations?user=el5gT4AAAAAJ' target='_blank'>Jiequn&nbsp;Han</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://cims.nyu.edu/~bruna/' target='_blank'>Joan&nbsp;Bruna</a>, and <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a><br>
 NeurIPS 2024 <br>
 
-<div id="abs_domingoenrich2024stochastic" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_domingoenrich2024stochastic" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Stochastic optimal control, which has the goal of driving the behavior of noisy systems, is broadly applicable in science, engineering and artificial intelligence. Our work introduces Stochastic Optimal Control Matching (SOCM), a novel Iterative Diffusion Optimization (IDO) technique for stochastic optimal control that stems from the same philosophy as the conditional score matching loss for diffusion models. That is, the control is learned via a least squares problem by trying to fit a matching vector field. The training loss, which is closely connected to the cross-entropy loss, is optimized with respect to both the control function and a family of reparameterization matrices which appear in the matching vector field. The optimization with respect to the reparameterization matrices aims at minimizing the variance of the matching vector field. Experimentally, our algorithm achieves lower error than all the existing IDO techniques for stochastic optimal control for four different control settings. The key idea underlying SOCM is the path-wise reparameterization trick, a novel technique that is of independent interest, e.g., for generative modeling.
 </div>
 </td>
@@ -614,11 +604,11 @@ Stochastic optimal control, which has the goal of driving the behavior of noisy 
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2410.16456' target='_blank'>To the Globe (TTG): Towards Language-Driven Guaranteed Travel Planning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_ju2024to").toggle()'>abstract</a><br>
+<em><a href='https://arxiv.org/abs/2410.16456' target='_blank'>To the Globe (TTG): Towards Language-Driven Guaranteed Travel Planning</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_ju2024to" aria-expanded="false">abstract</button><br>
 <a href='https://scholar.google.com/citations?user=YW5jp5QAAAAJ' target='_blank'>Da&nbsp;JU</a>, <a href='https://scholar.google.com/citations?user=SjbhMQEAAAAJ' target='_blank'>Song&nbsp;Jiang</a>, <a href='https://scholar.google.com/citations?user=v1Frtb0AAAAJ' target='_blank'>Andrew&nbsp;Cohen</a>, <a href='https://openreview.net/profile?id=~Aaron_Foss1' target='_blank'>Aaron&nbsp;Foss</a>, <a href='https://scholar.google.com/citations?user=ncFsSKMAAAAJ' target='_blank'>Sasha&nbsp;Mitts</a>, <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=v_sIgawAAAAJ' target='_blank'>Xian&nbsp;Li</a>, <a href='https://scholar.google.com/citations?user=Y9BLeTAAAAAJ' target='_blank'>Justine&nbsp;T&nbsp;Kao</a>, <a href='https://scholar.google.com/citations?user=7-a1MKEAAAAJ' target='_blank'>Maryam&nbsp;Fazel-Zarandi</a>, and <a href='https://scholar.google.com/citations?user=0mgEF28AAAAJ' target='_blank'>Yuandong&nbsp;Tian</a><br>
 EMNLP Demo 2024 <br>
 
-<div id="abs_ju2024to" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_ju2024to" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Travel planning is a challenging and time-consuming task that aims to find an itinerary which satisfies multiple, interdependent constraints regarding flights, accommodations, attractions, and other travel arrangements. In this paper, we propose To the Globe (TTG), a real-time demo system that takes natural language requests from users, translates it to symbolic form via a fine-tuned Large Language Model, and produces optimal travel itineraries with Mixed Integer Linear Programming solvers. The overall system takes ~5 seconds to reply to the user request with guaranteed itineraries. To train TTG, we develop a synthetic data pipeline that generates user requests, flight and hotel information in symbolic form without human annotations, based on the statistics of real-world datasets, and fine-tune an LLM to translate NL user requests to their symbolic form, which is sent to the symbolic solver to compute optimal itineraries. Our NL-symbolic translation achieves ~91% exact match in a backtranslation metric (i.e., whether the estimated symbolic form of generated natural language matches the groundtruth), and its returned itineraries have a ratio of 0.979 compared to the optimal cost of the ground truth user request. When evaluated by users, TTG achieves consistently high Net Promoter Scores (NPS) of 35-40% on generated itinerary.
 </div>
 </td>
@@ -633,12 +623,12 @@ Travel planning is a challenging and time-consuming task that aims to find an it
 23.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2202.00665' target='_blank'><img src="images/publications/amos2023tutorial.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2202.00665' target='_blank'>Tutorial on amortized optimization</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2023tutorial").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/amortized-optimization-tutorial' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2023.amortized-optimization.html' target='_blank'>slides</a><br>
+<a href='https://arxiv.org/abs/2202.00665' target='_blank'><img src="images/publications/amos2023tutorial.png" alt="Read Tutorial on amortized optimization" class="publicationImg" /></a>
+<em><a href='https://arxiv.org/abs/2202.00665' target='_blank'>Tutorial on amortized optimization</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_amos2023tutorial" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/amortized-optimization-tutorial' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2023.amortized-optimization.html' target='_blank'>slides</a><br>
 <strong>Brandon&nbsp;Amos</strong><br>
 Foundations and Trends in Machine Learning 2023 <br>
 
-<div id="abs_amos2023tutorial" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_amos2023tutorial" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Optimization is a ubiquitous modeling tool and is often deployed
 in settings which repeatedly solve similar instances
 of the same problem. Amortized optimization methods
@@ -665,12 +655,12 @@ transport, and deep equilibrium networks.
 24.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2210.12153' target='_blank'><img src="images/publications/amos2023amortizing.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2210.12153' target='_blank'>On amortizing convex conjugates for optimal transport</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2023amortizing").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/w2ot' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2023.w2ot.html' target='_blank'>slides</a><br>
+<a href='https://arxiv.org/abs/2210.12153' target='_blank'><img src="images/publications/amos2023amortizing.png" alt="Read On amortizing convex conjugates for optimal transport" class="publicationImg" /></a>
+<em><a href='https://arxiv.org/abs/2210.12153' target='_blank'>On amortizing convex conjugates for optimal transport</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_amos2023amortizing" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/w2ot' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2023.w2ot.html' target='_blank'>slides</a><br>
 <strong>Brandon&nbsp;Amos</strong><br>
 ICLR 2023 <br>
 
-<div id="abs_amos2023amortizing" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_amos2023amortizing" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 This paper focuses on computing the convex conjugate operation that
 arises when solving Euclidean Wasserstein-2 optimal
 transport problems. This conjugation, which is also
@@ -697,11 +687,11 @@ flows considered in the literature.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2212.08260' target='_blank'>End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_sambharya2023l2a").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/stellatogrp/l2ws' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2212.08260' target='_blank'>End-to-End Learning to Warm-Start for Real-Time Quadratic Optimization</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_sambharya2023l2a" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/stellatogrp/l2ws' target='_blank'>code</a><br>
 <a href='https://rajivsambharya.github.io/' target='_blank'>Rajiv&nbsp;Sambharya</a>, <a href='https://sites.google.com/view/georgina-hall' target='_blank'>Georgina&nbsp;Hall</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://stella.to/' target='_blank'>Bartolomeo&nbsp;Stellato</a><br>
 L4DC 2023 <br>
 
-<div id="abs_sambharya2023l2a" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_sambharya2023l2a" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 First-order methods are widely used to solve convex quadratic programs
 (QPs) in real-time applications because of their low
 per-iteration cost. However, they can suffer from
@@ -738,11 +728,11 @@ high-quality solutions.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2206.05262' target='_blank'>Meta Optimal Transport</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2023meta").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/meta-ot' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2023.meta-ot.html' target='_blank'>slides</a><br>
+<em><a href='https://arxiv.org/abs/2206.05262' target='_blank'>Meta Optimal Transport</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_amos2023meta" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/meta-ot' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2023.meta-ot.html' target='_blank'>slides</a><br>
 <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <a href='https://giulslu.github.io/' target='_blank'>Giulia&nbsp;Luise</a>, and <a href='https://ievred.github.io' target='_blank'>Ievgen&nbsp;Redko</a><br>
 ICML 2023 <br>
 
-<div id="abs_amos2023meta" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_amos2023meta" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 We study the use of amortized optimization to predict optimal
 transport (OT) maps from the input measures, which
 we call Meta OT. This helps repeatedly solve similar
@@ -769,11 +759,11 @@ and continuous transport settings between images, spherical data, and color pale
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2304.14772' target='_blank'>Multisample Flow Matching: Straightening Flows with Minibatch Couplings</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_pooladian2023multisample").toggle()'>abstract</a><br>
+<em><a href='https://arxiv.org/abs/2304.14772' target='_blank'>Multisample Flow Matching: Straightening Flows with Minibatch Couplings</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_pooladian2023multisample" aria-expanded="false">abstract</button><br>
 <a href='https://arampooladian.com/' target='_blank'>Aram-Alexandre&nbsp;Pooladian</a>, <a href='https://helibenhamu.github.io/' target='_blank'>Heli&nbsp;Ben-Hamu</a>, <a href='https://cdenrich.github.io/' target='_blank'>Carles&nbsp;Domingo-Enrich</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.wisdom.weizmann.ac.il/~ylipman/' target='_blank'>Yaron&nbsp;Lipman</a>, and <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a><br>
 ICML 2023 <br>
 
-<div id="abs_pooladian2023multisample" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_pooladian2023multisample" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Simulation-free methods for training continuous-time generative models
 construct probability paths that go between noise
 distributions and individual data samples. Recent
@@ -808,11 +798,11 @@ sets, and lead to better low-cost sample generation.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2210.06518' target='_blank'>Semi-Supervised Offline Reinforcement Learning with Action-Free Trajectories</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zheng2023semi").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/ssorl/' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2210.06518' target='_blank'>Semi-Supervised Offline Reinforcement Learning with Action-Free Trajectories</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_zheng2023semi" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/ssorl/' target='_blank'>code</a><br>
 <a href='https://enosair.github.io/' target='_blank'>Qinqing&nbsp;Zheng</a>, <a href='https://scholar.google.com/citations?user=bX__wkYAAAAJ' target='_blank'>Mikael&nbsp;Henaff</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://aditya-grover.github.io/' target='_blank'>Aditya&nbsp;Grover</a><br>
 ICML 2023 <br>
 
-<div id="abs_zheng2023semi" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_zheng2023semi" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Natural agents can effectively learn from multiple data sources that
 differ in size, quality, and types of
 measurements. We study this heterogeneity in the
@@ -853,11 +843,11 @@ datasets.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2312.05250' target='_blank'>TaskMet: Task-Driven Metric Learning for Model Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_bansal2023taskmet").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/taskmet' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2024.e2e-geometries.html' target='_blank'>slides</a><br>
+<em><a href='https://arxiv.org/abs/2312.05250' target='_blank'>TaskMet: Task-Driven Metric Learning for Model Learning</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_bansal2023taskmet" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/taskmet' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2024.e2e-geometries.html' target='_blank'>slides</a><br>
 <a href='https://dishank-b.github.io/' target='_blank'>Dishank&nbsp;Bansal</a>, <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a>, <a href='https://www.mustafamukadam.com/' target='_blank'>Mustafa&nbsp;Mukadam</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 NeurIPS 2023 <br>
 
-<div id="abs_bansal2023taskmet" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_bansal2023taskmet" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Deep learning models are often used with some downstream
 task. Models solely trained to achieve accurate
 predictions may struggle to perform well on
@@ -887,11 +877,11 @@ distracting states.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2307.08964' target='_blank'>Landscape Surrogate: Learning Decision Losses for Mathematical Optimization Under Partial Information</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zharmagambetov2023landscape").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/LANCER' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2307.08964' target='_blank'>Landscape Surrogate: Learning Decision Losses for Mathematical Optimization Under Partial Information</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_zharmagambetov2023landscape" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/LANCER' target='_blank'>code</a><br>
 <a href='https://arman-z.github.io/' target='_blank'>Arman&nbsp;Zharmagambetov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=TuVq07oAAAAJ' target='_blank'>Aaron&nbsp;Ferber</a>, <a href='https://taoanhuang.github.io/' target='_blank'>Taoan&nbsp;Huang</a>, <a href='https://scholar.google.com/citations?user=1jjyaBYAAAAJ' target='_blank'>Bistra&nbsp;Dilkina</a>, and <a href='https://scholar.google.com/citations?user=0mgEF28AAAAJ' target='_blank'>Yuandong&nbsp;Tian</a><br>
 NeurIPS 2023 <br>
 
-<div id="abs_zharmagambetov2023landscape" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_zharmagambetov2023landscape" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Recent works in learning-integrated optimization have shown promise in
 settings where the optimization problem is only
 partially observed or where general-purpose
@@ -929,11 +919,11 @@ computationally expensive high-dimensional problems.
 </td>
 <td>
 
-<em><a href='https://openreview.net/pdf?id=3W7vPqWCeM' target='_blank'>Koopman Constrained Policy Optimization: A Koopman operator theoretic method for differentiable optimal control in robotics</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_retchin2023koopman").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/mhr/kcpo-icml' target='_blank'>code</a><br>
+<em><a href='https://openreview.net/pdf?id=3W7vPqWCeM' target='_blank'>Koopman Constrained Policy Optimization: A Koopman operator theoretic method for differentiable optimal control in robotics</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_retchin2023koopman" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/mhr/kcpo-icml' target='_blank'>code</a><br>
 <a href='https://www.linkedin.com/in/matthew-retchin/' target='_blank'>Matthew&nbsp;Retchin</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.eigensteve.com/' target='_blank'>Steven&nbsp;Brunton</a>, and <a href='https://shurans.github.io/' target='_blank'>Shuran&nbsp;Song</a><br>
 ICML Differentiable Almost Everything Workshop 2023 <br>
 
-<div id="abs_retchin2023koopman" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_retchin2023koopman" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 We introduce Koopman Constrained Policy Optimization (KCPO), combining implicitly differentiable model predictive
 control with a deep Koopman autoencoder for robot
 learning in unknown and nonlinear dynamical
@@ -961,12 +951,12 @@ after training.
 32.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2110.03684' target='_blank'><img src="images/publications/fickinger2021crossdomain.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2110.03684' target='_blank'>Cross-Domain Imitation Learning via Optimal Transport</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_fickinger2021crossdomain").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/gwil' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2025.transport-flows-physics.html' target='_blank'>slides</a><br>
+<a href='https://arxiv.org/abs/2110.03684' target='_blank'><img src="images/publications/fickinger2021crossdomain.png" alt="Read Cross-Domain Imitation Learning via Optimal Transport" class="publicationImg" /></a>
+<em><a href='https://arxiv.org/abs/2110.03684' target='_blank'>Cross-Domain Imitation Learning via Optimal Transport</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_fickinger2021crossdomain" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/gwil' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2025.transport-flows-physics.html' target='_blank'>slides</a><br>
 <a href='https://scholar.google.com/citations?user=bBFN_qwAAAAJ' target='_blank'>Arnaud&nbsp;Fickinger</a>, <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <a href='https://people.eecs.berkeley.edu/~russell/' target='_blank'>Stuart&nbsp;Russell</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 ICLR 2022 <br>
 
-<div id="abs_fickinger2021crossdomain" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_fickinger2021crossdomain" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Cross-domain imitation learning studies how to leverage expert
 demonstrations of one agent to train an imitation
 agent with a different embodiment or
@@ -997,11 +987,11 @@ state-action space.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2207.04711' target='_blank'>Matching Normalizing Flows and Probability Paths on Manifolds</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_benhamu2022matching").toggle()'>abstract</a><br>
+<em><a href='https://arxiv.org/abs/2207.04711' target='_blank'>Matching Normalizing Flows and Probability Paths on Manifolds</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_benhamu2022matching" aria-expanded="false">abstract</button><br>
 <a href='https://helibenhamu.github.io/' target='_blank'>Heli&nbsp;Ben-Hamu*</a>, <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen*</a>, <a href='https://joeybose.github.io/' target='_blank'>Joey&nbsp;Bose</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://aditya-grover.github.io/' target='_blank'>Aditya&nbsp;Grover</a>, <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a>, <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a>, and <a href='https://www.wisdom.weizmann.ac.il/~ylipman/' target='_blank'>Yaron&nbsp;Lipman</a><br>
 ICML 2022 <br>
 
-<div id="abs_benhamu2022matching" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_benhamu2022matching" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Continuous Normalizing Flows (CNFs) are a class of generative models
 that transform a prior distribution to a model
 distribution by solving an ordinary differential
@@ -1037,12 +1027,12 @@ manifolds.
 34.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2203.06832' target='_blank'><img src="images/publications/chen2022semi.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2203.06832' target='_blank'>Semi-Discrete Normalizing Flows through Differentiable Tessellation</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_chen2022semi").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/semi-discrete-flow' target='_blank'>code</a><br>
+<a href='https://arxiv.org/abs/2203.06832' target='_blank'><img src="images/publications/chen2022semi.png" alt="Read Semi-Discrete Normalizing Flows through Differentiable Tessellation" class="publicationImg" /></a>
+<em><a href='https://arxiv.org/abs/2203.06832' target='_blank'>Semi-Discrete Normalizing Flows through Differentiable Tessellation</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_chen2022semi" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/semi-discrete-flow' target='_blank'>code</a><br>
 <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a><br>
 NeurIPS 2022 <br>
 
-<div id="abs_chen2022semi" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_chen2022semi" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Mapping between discrete and continuous distributions is a difficult
 task and many have had to resort to approximate or
 heuristical approaches. We propose a
@@ -1081,11 +1071,11 @@ to a baseline model.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2207.09442' target='_blank'>Theseus: A Library for Differentiable Nonlinear Optimization</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_pineda2022theseus").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/theseus' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2024.differentiable-optimization-and-robotics.html' target='_blank'>slides</a><br>
+<em><a href='https://arxiv.org/abs/2207.09442' target='_blank'>Theseus: A Library for Differentiable Nonlinear Optimization</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_pineda2022theseus" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/theseus' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2024.differentiable-optimization-and-robotics.html' target='_blank'>slides</a><br>
 <a href='https://scholar.google.com/citations?user=rebEn8oAAAAJ' target='_blank'>Luis&nbsp;Pineda</a>, <a href='https://scholar.google.com/citations?user=3PJeg1wAAAAJ' target='_blank'>Taosha&nbsp;Fan</a>, <a href='https://scholar.google.com/citations?user=gpgb4LgAAAAJ' target='_blank'>Maurizio&nbsp;Monge</a>, <a href='https://scholar.google.com/citations?user=BFWurDEAAAAJ' target='_blank'>Shobha&nbsp;Venkataraman</a>, <a href='https://scholar.google.com/citations?user=LI7rp1QAAAAJ' target='_blank'>Paloma&nbsp;Sodhi</a>, <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;Chen</a>, <a href='https://joeaortiz.github.io/' target='_blank'>Joseph&nbsp;Ortiz</a>, <a href='https://danieldetone.com/' target='_blank'>Daniel&nbsp;DeTone</a>, <a href='https://scholar.google.com/citations?user=keDqjK0AAAAJ' target='_blank'>Austin&nbsp;Wang</a>, <a href='https://dblp.org/pid/16/397.html' target='_blank'>Stuart&nbsp;Anderson</a>, <a href='https://www.linkedin.com/in/jing-dong-24b26ab3/' target='_blank'>Jing&nbsp;Dong</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://www.mustafamukadam.com/' target='_blank'>Mustafa&nbsp;Mukadam</a><br>
 NeurIPS 2022 <br>
 
-<div id="abs_pineda2022theseus" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_pineda2022theseus" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 We present Theseus, an efficient application-agnostic open source
 library for differentiable nonlinear least squares
 (DNLS) optimization built on PyTorch, providing a
@@ -1116,11 +1106,11 @@ incorporated.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2206.09889' target='_blank'>Nocturne: a driving benchmark for multi-agent learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_vinitsky2022nocturne").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/nocturne' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2206.09889' target='_blank'>Nocturne: a driving benchmark for multi-agent learning</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_vinitsky2022nocturne" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/nocturne' target='_blank'>code</a><br>
 <a href='https://www.eugenevinitsky.com' target='_blank'>Eugene&nbsp;Vinitsky</a>, <a href='https://www.nathanlichtle.com/' target='_blank'>Nathan&nbsp;Lichtlé</a>, <a href='https://www.linkedin.com/in/xiaomeng-yang-356a976b/' target='_blank'>Xiaomeng&nbsp;Yang</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://www.jakobfoerster.com/' target='_blank'>Jakob&nbsp;Foerster</a><br>
 NeurIPS Datasets and Benchmarks Track 2022 <br>
 
-<div id="abs_vinitsky2022nocturne" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_vinitsky2022nocturne" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 We introduce Nocturne, a new 2D driving simulator for
 investigating multi-agent coordination under partial
 observability. The focus of Nocturne is to enable
@@ -1158,12 +1148,12 @@ trajectories.
 37.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2008.12775' target='_blank'><img src="images/publications/amos2021modelbased.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2008.12775' target='_blank'>On the model-based stochastic value gradient for continuous reinforcement learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2021modelbased").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/svg' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2021.svg.html' target='_blank'>slides</a><br>
+<a href='https://arxiv.org/abs/2008.12775' target='_blank'><img src="images/publications/amos2021modelbased.png" alt="Read On the model-based stochastic value gradient for continuous reinforcement learning" class="publicationImg" /></a>
+<em><a href='https://arxiv.org/abs/2008.12775' target='_blank'>On the model-based stochastic value gradient for continuous reinforcement learning</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_amos2021modelbased" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/svg' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2021.svg.html' target='_blank'>slides</a><br>
 <strong>Brandon&nbsp;Amos</strong>, <a href='https://samuelstanton.github.io/' target='_blank'>Samuel&nbsp;Stanton</a>, <a href='https://scholar.google.com/citations?user=7kaXqgMAAAAJ' target='_blank'>Denis&nbsp;Yarats</a>, and <a href='https://cims.nyu.edu/~andrewgw/' target='_blank'>Andrew&nbsp;Gordon&nbsp;Wilson</a><br>
 L4DC 2021 (Oral)<br>
 
-<div id="abs_amos2021modelbased" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_amos2021modelbased" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Model-based reinforcement learning approaches add explicit domain
 knowledge to agents in hopes of improving the
 sample-efficiency in comparison to model-free
@@ -1202,12 +1192,12 @@ an ensemble.
 38.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2106.10272' target='_blank'><img src="images/publications/cohen2021riemannian.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2106.10272' target='_blank'>Riemannian Convex Potential Maps</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_cohen2021riemannian").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/rcpm' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2021.rcpm.html' target='_blank'>slides</a><br>
+<a href='https://arxiv.org/abs/2106.10272' target='_blank'><img src="images/publications/cohen2021riemannian.png" alt="Read Riemannian Convex Potential Maps" class="publicationImg" /></a>
+<em><a href='https://arxiv.org/abs/2106.10272' target='_blank'>Riemannian Convex Potential Maps</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_cohen2021riemannian" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/rcpm' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2021.rcpm.html' target='_blank'>slides</a><br>
 <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen*</a>, <strong>Brandon&nbsp;Amos*</strong>, and <a href='https://www.wisdom.weizmann.ac.il/~ylipman/' target='_blank'>Yaron&nbsp;Lipman</a><br>
 ICML 2021 <br>
 
-<div id="abs_cohen2021riemannian" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_cohen2021riemannian" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Modeling distributions on Riemannian manifolds is a crucial
 component in understanding non-Euclidean data that
 arises, e.g., in physics and geology. The budding
@@ -1230,12 +1220,12 @@ model standard distributions on spheres, and tori, on synthetic and geological d
 39.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2105.02343' target='_blank'><img src="images/publications/paulus2021comboptnet.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2105.02343' target='_blank'>CombOptNet: Fit the Right NP-Hard Problem by Learning Integer Programming Constraints</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_paulus2021comboptnet").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/martius-lab/CombOptNet' target='_blank'>code</a><br>
+<a href='https://arxiv.org/abs/2105.02343' target='_blank'><img src="images/publications/paulus2021comboptnet.png" alt="Read CombOptNet: Fit the Right NP-Hard Problem by Learning Integer Programming Constraints" class="publicationImg" /></a>
+<em><a href='https://arxiv.org/abs/2105.02343' target='_blank'>CombOptNet: Fit the Right NP-Hard Problem by Learning Integer Programming Constraints</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_paulus2021comboptnet" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/martius-lab/CombOptNet' target='_blank'>code</a><br>
 <a href='https://scholar.google.com/citations?user=njZL5CQAAAAJ' target='_blank'>Anselm&nbsp;Paulus</a>, <a href='https://mrolinek.github.io/' target='_blank'>Michal&nbsp;Rol&iacute;nek</a>, <a href='https://scholar.google.com/citations?user=hA1rlU4AAAAJ' target='_blank'>V&iacute;t&nbsp;Musil</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://martius-lab.github.io/members/georg-martius.html' target='_blank'>Georg&nbsp;Martius</a><br>
 ICML 2021 <br>
 
-<div id="abs_paulus2021comboptnet" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_paulus2021comboptnet" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Bridging logical and algorithmic reasoning with modern machine
 learning techniques is a fundamental challenge with
 potentially transformative impact. On the
@@ -1265,11 +1255,11 @@ vision keypoint matching benchmark.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2109.15316' target='_blank'>Scalable Online Planning via Reinforcement Learning Fine-Tuning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_fickinger2021scalable").toggle()'>abstract</a><br>
+<em><a href='https://arxiv.org/abs/2109.15316' target='_blank'>Scalable Online Planning via Reinforcement Learning Fine-Tuning</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_fickinger2021scalable" aria-expanded="false">abstract</button><br>
 <a href='https://scholar.google.com/citations?user=bBFN_qwAAAAJ' target='_blank'>Arnaud&nbsp;Fickinger</a>, <a href='https://scholar.google.com/citations?user=oF46lMIAAAAJ' target='_blank'>Hengyuan&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://people.eecs.berkeley.edu/~russell/' target='_blank'>Stuart&nbsp;Russell</a>, and <a href='https://noambrown.com/' target='_blank'>Noam&nbsp;Brown</a><br>
 NeurIPS 2021 <br>
 
-<div id="abs_fickinger2021scalable" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_fickinger2021scalable" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Lookahead search has been a critical component of recent AI successes, such as in the games of chess, go, and
 poker. However, the search methods used in these
 games, and in many other settings, are
@@ -1295,12 +1285,12 @@ tabular search in the Atari game Ms. Pacman.
 41.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2006.12648' target='_blank'><img src="images/publications/cohen2020aligning.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2006.12648' target='_blank'>Aligning Time Series on Incomparable Spaces</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_cohen2020aligning").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/samcohen16/Aligning-Time-Series' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/data/slides/2021.gdtw.pdf' target='_blank'>slides</a><br>
+<a href='https://arxiv.org/abs/2006.12648' target='_blank'><img src="images/publications/cohen2020aligning.png" alt="Read Aligning Time Series on Incomparable Spaces" class="publicationImg" /></a>
+<em><a href='https://arxiv.org/abs/2006.12648' target='_blank'>Aligning Time Series on Incomparable Spaces</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_cohen2020aligning" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/samcohen16/Aligning-Time-Series' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/data/slides/2021.gdtw.pdf' target='_blank'>slides</a><br>
 <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <a href='https://giulslu.github.io/' target='_blank'>Giulia&nbsp;Luise</a>, <a href='https://avt.im/' target='_blank'>Alexander&nbsp;Terenin</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://www.deisenroth.cc/' target='_blank'>Marc&nbsp;Peter&nbsp;Deisenroth</a><br>
 AISTATS 2021 <br>
 
-<div id="abs_cohen2020aligning" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_cohen2020aligning" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Dynamic time warping (DTW) is a useful method for aligning, comparing
 and combining time series, but it requires them to
 live in comparable spaces. In this work, we consider
@@ -1329,12 +1319,12 @@ imitation learning.
 42.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2011.03902' target='_blank'><img src="images/publications/chen2021learning.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2011.03902' target='_blank'>Learning Neural Event Functions for Ordinary Differential Equations</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_chen2021learning").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/rtqichen/torchdiffeq' target='_blank'>code</a><br>
+<a href='https://arxiv.org/abs/2011.03902' target='_blank'><img src="images/publications/chen2021learning.png" alt="Read Learning Neural Event Functions for Ordinary Differential Equations" class="publicationImg" /></a>
+<em><a href='https://arxiv.org/abs/2011.03902' target='_blank'>Learning Neural Event Functions for Ordinary Differential Equations</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_chen2021learning" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/rtqichen/torchdiffeq' target='_blank'>code</a><br>
 <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a><br>
 ICLR 2021 <br>
 
-<div id="abs_chen2021learning" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_chen2021learning" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 The existing Neural ODE formulation relies on an explicit
 knowledge of the termination time. We extend Neural
 ODEs to implicitly defined termination criteria
@@ -1358,12 +1348,12 @@ with applications in discrete control.
 43.
 </td>
 <td>
-<a href='https://arxiv.org/abs/2011.04583' target='_blank'><img src="images/publications/chen2021neural.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/2011.04583' target='_blank'>Neural Spatio-Temporal Point Processes</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_chen2021neural").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/neural_stpp' target='_blank'>code</a><br>
+<a href='https://arxiv.org/abs/2011.04583' target='_blank'><img src="images/publications/chen2021neural.png" alt="Read Neural Spatio-Temporal Point Processes" class="publicationImg" /></a>
+<em><a href='https://arxiv.org/abs/2011.04583' target='_blank'>Neural Spatio-Temporal Point Processes</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_chen2021neural" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/neural_stpp' target='_blank'>code</a><br>
 <a href='https://scholar.google.com/citations?user=7MxQd6UAAAAJ' target='_blank'>Ricky&nbsp;T.&nbsp;Q.&nbsp;Chen</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a><br>
 ICLR 2021 <br>
 
-<div id="abs_chen2021neural" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_chen2021neural" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 We propose a new class of parameterizations for spatio-temporal
 point processes which leverage Neural ODEs as a
 computational method and enable flexible, high-fidelity models of discrete events that are
@@ -1389,11 +1379,11 @@ mobility, and neuroscience.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/1910.01741' target='_blank'>Improving Sample Efficiency in Model-Free Reinforcement Learning from Images</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_yarats2021improving").toggle()'>abstract</a><a class='pub-pill' href='https://sites.google.com/view/sac-ae' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/1910.01741' target='_blank'>Improving Sample Efficiency in Model-Free Reinforcement Learning from Images</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_yarats2021improving" aria-expanded="false">abstract</button><a class='pub-pill' href='https://sites.google.com/view/sac-ae' target='_blank'>code</a><br>
 <a href='https://scholar.google.com/citations?user=7kaXqgMAAAAJ' target='_blank'>Denis&nbsp;Yarats</a>, <a href='https://amyzhang.github.io/' target='_blank'>Amy&nbsp;Zhang</a>, <a href='https://scholar.google.com/citations?user=PTS2AOgAAAAJ' target='_blank'>Ilya&nbsp;Kostrikov</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.cs.mcgill.ca/~jpineau/' target='_blank'>Joelle&nbsp;Pineau</a>, and <a href='https://scholar.google.com/citations?user=GgQ9GEkAAAAJ&h' target='_blank'>Rob&nbsp;Fergus</a><br>
 AAAI 2021 <br>
 
-<div id="abs_yarats2021improving" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_yarats2021improving" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Training an agent to solve control tasks directly from
 high-dimensional images with model-free
 reinforcement learning (RL) has proven
@@ -1427,11 +1417,11 @@ future research on image-based RL.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2107.10254' target='_blank'>Neural Fixed-Point Acceleration for Convex Optimization</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_venkataraman2021neural").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/neural-scs' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2107.10254' target='_blank'>Neural Fixed-Point Acceleration for Convex Optimization</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_venkataraman2021neural" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/neural-scs' target='_blank'>code</a><br>
 <a href='https://scholar.google.com/citations?user=BFWurDEAAAAJ' target='_blank'>Shobha&nbsp;Venkataraman*</a> and <strong>Brandon&nbsp;Amos*</strong><br>
 ICML AutoML Workshop 2021 <br>
 
-<div id="abs_venkataraman2021neural" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_venkataraman2021neural" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Fixed-point iterations are at the heart of numerical computing and
 are often a computational bottleneck in real-time
 applications that typically need a fast solution of
@@ -1457,11 +1447,11 @@ optimization problem expressible with CVXPY.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2102.07115' target='_blank'>Sliced Multi-Marginal Optimal Transport</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_cohen2021sliced").toggle()'>abstract</a><br>
+<em><a href='https://arxiv.org/abs/2102.07115' target='_blank'>Sliced Multi-Marginal Optimal Transport</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_cohen2021sliced" aria-expanded="false">abstract</button><br>
 <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <a href='https://avt.im/' target='_blank'>Alexander&nbsp;Terenin</a>, <a href='https://scholar.google.com/citations?user=jmM-JlIAAAAJ' target='_blank'>Yannik&nbsp;Pitcan</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.deisenroth.cc/' target='_blank'>Marc&nbsp;Peter&nbsp;Deisenroth</a>, and <a href='https://scholar.google.co.in/citations?user=FPVUA-YAAAAJ' target='_blank'>K&nbsp;S&nbsp;Sesh&nbsp;Kumar</a><br>
 NeurIPS OTML Workshop 2021 <br>
 
-<div id="abs_cohen2021sliced" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_cohen2021sliced" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Multi-marginal optimal transport enables one to compare multiple
 probability measures, which increasingly finds
 application in multi-task learning problems. One
@@ -1496,11 +1486,11 @@ multi-dynamics reinforcement learning problems.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2111.12187' target='_blank'>Input Convex Gradient Networks</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_richterpowell2021input").toggle()'>abstract</a><br>
+<em><a href='https://arxiv.org/abs/2111.12187' target='_blank'>Input Convex Gradient Networks</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_richterpowell2021input" aria-expanded="false">abstract</button><br>
 <a href='https://scholar.google.com/citations?user=L78pVMMAAAAJ' target='_blank'>Jack&nbsp;Richter-Powell</a>, <a href='https://scholar.google.com/citations?user=Hzf8bu0AAAAJ' target='_blank'>Jonathan&nbsp;Lorraine</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 NeurIPS OTML Workshop 2021 <br>
 
-<div id="abs_richterpowell2021input" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_richterpowell2021input" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 The gradients of convex functions are expressive models of non-trivial
 vector fields. For example, Brenier's theorem yields
 that the optimal transport map between any two
@@ -1529,11 +1519,11 @@ from Riemannian geometry.
 </td>
 <td>
 
-<em><a href='https://openreview.net/pdf?id=Xe5MFhFvYGX' target='_blank'>Imitation Learning from Pixel Observations for Continuous Control</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_cohen2021imitation").toggle()'>abstract</a><br>
+<em><a href='https://openreview.net/pdf?id=Xe5MFhFvYGX' target='_blank'>Imitation Learning from Pixel Observations for Continuous Control</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_cohen2021imitation" aria-expanded="false">abstract</button><br>
 <a href='https://scholar.google.com/citations?user=CmdjfTsAAAAJ' target='_blank'>Samuel&nbsp;Cohen</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.deisenroth.cc/' target='_blank'>Marc&nbsp;Peter&nbsp;Deisenroth</a>, <a href='https://scholar.google.com/citations?user=bX__wkYAAAAJ' target='_blank'>Mikael&nbsp;Henaff</a>, <a href='https://www.eugenevinitsky.com' target='_blank'>Eugene&nbsp;Vinitsky</a>, and <a href='https://scholar.google.com/citations?user=7kaXqgMAAAAJ' target='_blank'>Denis&nbsp;Yarats</a><br>
 NeurIPS DeepRL Workshop 2021 <br>
 
-<div id="abs_cohen2021imitation" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_cohen2021imitation" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 We study imitation learning from visual observations only for
 controlling dynamical systems with continuous states
 and actions. This setting is attractive due to the
@@ -1563,11 +1553,11 @@ our methods and expert demonstrations.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2104.10159' target='_blank'>MBRL-Lib: A Modular Library for Model-based Reinforcement Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_pineda2021mbrl").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/mbrl-lib' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/2104.10159' target='_blank'>MBRL-Lib: A Modular Library for Model-based Reinforcement Learning</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_pineda2021mbrl" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/mbrl-lib' target='_blank'>code</a><br>
 <a href='https://scholar.google.com/citations?user=rebEn8oAAAAJ' target='_blank'>Luis&nbsp;Pineda</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://amyzhang.github.io/' target='_blank'>Amy&nbsp;Zhang</a>, <a href='https://natolambert.com/' target='_blank'>Nathan&nbsp;Lambert</a>, and <a href='https://www.robertocalandra.com/about/' target='_blank'>Roberto&nbsp;Calandra</a><br>
 arXiv 2021 <br>
 
-<div id="abs_pineda2021mbrl" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_pineda2021mbrl" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Model-based reinforcement learning is a compelling framework for
 data-efficient learning of agents that interact with
 the world. This family of algorithms has many
@@ -1595,11 +1585,11 @@ deploying state-of-the-art algorithms.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/1909.12830' target='_blank'>The Differentiable Cross-Entropy Method</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2020differentiable").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/dcem' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2020.dcem.html' target='_blank'>slides</a><br>
+<em><a href='https://arxiv.org/abs/1909.12830' target='_blank'>The Differentiable Cross-Entropy Method</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_amos2020differentiable" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/dcem' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2020.dcem.html' target='_blank'>slides</a><br>
 <strong>Brandon&nbsp;Amos</strong> and <a href='https://scholar.google.com/citations?user=7kaXqgMAAAAJ' target='_blank'>Denis&nbsp;Yarats</a><br>
 ICML 2020 <br>
 
-<div id="abs_amos2020differentiable" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_amos2020differentiable" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 We study the Cross-Entropy Method (CEM) for the non-convex
 optimization of a continuous and parameterized
 objective function and introduce a differentiable
@@ -1627,11 +1617,11 @@ towards combining model-based and model-free RL.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/2002.04523' target='_blank'>Objective Mismatch in Model-based Reinforcement Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_lambert2020objective").toggle()'>abstract</a><br>
+<em><a href='https://arxiv.org/abs/2002.04523' target='_blank'>Objective Mismatch in Model-based Reinforcement Learning</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_lambert2020objective" aria-expanded="false">abstract</button><br>
 <a href='https://natolambert.com/' target='_blank'>Nathan&nbsp;Lambert</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=zSsW478AAAAJ' target='_blank'>Omry&nbsp;Yadan</a>, and <a href='https://www.robertocalandra.com/about/' target='_blank'>Roberto&nbsp;Calandra</a><br>
 L4DC 2020 <br>
 
-<div id="abs_lambert2020objective" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_lambert2020objective" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Model-based reinforcement learning (MBRL) has been shown to be a powerful framework for data-efficiently learning control of continuous tasks. Recent work in MBRL has mostly focused on using more advanced function approximators and planning schemes, with little development of the general framework. In this paper, we identify a fundamental issue of the standard MBRL framework&ndash;what we call the objective mismatch issue. Objective mismatch arises when one objective is optimized in the hope that a second, often uncorrelated, metric will also be optimized. In the context of MBRL, we characterize the objective mismatch between training the forward dynamics model with respect to the likelihood of the one-step ahead prediction, and the overall goal of improving performance on a downstream control task. For example, this issue can emerge with the realization that dynamics models effective for a specific task do not necessarily need to be globally accurate, and vice versa globally accurate models might not be sufficiently accurate locally to obtain good control performance on a specific task. In our experiments, we study this objective mismatch issue and demonstrate that the likelihood of one-step ahead predictions is not always correlated with control performance. This observation highlights a critical limitation in the MBRL framework which will require further research to be fully understood and addressed. We propose an initial method to mitigate the mismatch issue by re-weighting dynamics model training. Building on it, we conclude with a discussion about other potential directions of research for addressing this issue.
 </div>
 </td>
@@ -1644,11 +1634,11 @@ Model-based reinforcement learning (MBRL) has been shown to be a powerful framew
 </td>
 <td>
 
-<em><a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>QNSTOP: Quasi-Newton Algorithm for Stochastic Optimization</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2020QNSTOP").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/vtopt/qnstop' target='_blank'>code</a><br>
+<em><a href='https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf' target='_blank'>QNSTOP: Quasi-Newton Algorithm for Stochastic Optimization</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_amos2020QNSTOP" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/vtopt/qnstop' target='_blank'>code</a><br>
 <strong>Brandon&nbsp;Amos</strong>, <a href='https://dblp.org/pid/75/8682.html' target='_blank'>David&nbsp;Easterling</a>, <a href='https://people.cs.vt.edu/~ltw/shortvita.html' target='_blank'>Layne&nbsp;T.&nbsp;Watson</a>, <a href='https://scholar.google.com/citations?user=2I6IgikAAAAJ' target='_blank'>William&nbsp;Thacker</a>, <a href='https://dblp.org/pid/142/1258.html' target='_blank'>Brent&nbsp;Castle</a>, and <a href='https://mtrosset.pages.iu.edu/' target='_blank'>Michael&nbsp;Trosset</a><br>
 ACM TOMS 2020 <br>
 
-<div id="abs_amos2020QNSTOP" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_amos2020QNSTOP" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 QNSTOP consists of serial and parallel (OpenMP) Fortran 2003 codes for the
 quasi-Newton stochastic optimization method of Castle and Trosset. For
 stochastic problems, convergence theory exists for the particular
@@ -1668,12 +1658,12 @@ biology problems is given.
 53.
 </td>
 <td>
-<a href='https://www.biorxiv.org/content/10.1101/2021.04.08.439084v1.abstract' target='_blank'><img src="images/publications/sercu2020neural.png" class="publicationImg" /></a> 
-<em><a href='https://www.biorxiv.org/content/10.1101/2021.04.08.439084v1.abstract' target='_blank'>Neural Potts Model</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_sercu2020neural").toggle()'>abstract</a><br>
+<a href='https://www.biorxiv.org/content/10.1101/2021.04.08.439084v1.abstract' target='_blank'><img src="images/publications/sercu2020neural.png" alt="Read Neural Potts Model" class="publicationImg" /></a>
+<em><a href='https://www.biorxiv.org/content/10.1101/2021.04.08.439084v1.abstract' target='_blank'>Neural Potts Model</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_sercu2020neural" aria-expanded="false">abstract</button><br>
 <a href='https://tom.sercu.me/' target='_blank'>Tom&nbsp;Sercu</a>, <a href='https://dblp.org/pid/296/8930.html' target='_blank'>Robert&nbsp;Verkuil</a>, <a href='https://scholar.google.com/citations?user=2M0OltAAAAAJ' target='_blank'>Joshua&nbsp;Meier</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=ZDjmMuwAAAAJ' target='_blank'>Zeming&nbsp;Lin</a>, <a href='https://www.linkedin.com/in/caroline-chen/' target='_blank'>Caroline&nbsp;Chen</a>, <a href='https://www.linkedin.com/in/jasonliu6/' target='_blank'>Jason&nbsp;Liu</a>, <a href='http://yann.lecun.com/' target='_blank'>Yann&nbsp;LeCun</a>, and <a href='https://scholar.google.com/citations?user=vqb78-gAAAAJ' target='_blank'>Alexander&nbsp;Rives</a><br>
 MLCB 2020 <br>
 
-<div id="abs_sercu2020neural" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_sercu2020neural" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 We propose the Neural Potts Model objective as an amortized
 optimization problem. The objective enables training
 a single model with shared parameters to explicitly
@@ -1699,12 +1689,12 @@ database with broad coverage of protein sequences.
 54.
 </td>
 <td>
-<a href='https://drive.google.com/file/d/1Ewro0Ne1tvK15nHyYopY4wZ59QTVB-1c/view' target='_blank'><img src="images/publications/lou2020riemannian.png" class="publicationImg" /></a> 
-<em><a href='https://drive.google.com/file/d/1Ewro0Ne1tvK15nHyYopY4wZ59QTVB-1c/view' target='_blank'>Deep Riemannian Manifold Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_lou2020riemannian").toggle()'>abstract</a><a class='pub-pill' href='https://bamos.github.io/presentations/2024.e2e-geometries.html' target='_blank'>slides</a><br>
+<a href='https://drive.google.com/file/d/1Ewro0Ne1tvK15nHyYopY4wZ59QTVB-1c/view' target='_blank'><img src="images/publications/lou2020riemannian.png" alt="Read Deep Riemannian Manifold Learning" class="publicationImg" /></a>
+<em><a href='https://drive.google.com/file/d/1Ewro0Ne1tvK15nHyYopY4wZ59QTVB-1c/view' target='_blank'>Deep Riemannian Manifold Learning</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_lou2020riemannian" aria-expanded="false">abstract</button><a class='pub-pill' href='https://bamos.github.io/presentations/2024.e2e-geometries.html' target='_blank'>slides</a><br>
 <a href='https://aaronlou.com/' target='_blank'>Aaron&nbsp;Lou</a>, <a href='https://maxn.io/' target='_blank'>Maximilian&nbsp;Nickel</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 NeurIPS Geo4dl Workshop 2020 <br>
 
-<div id="abs_lou2020riemannian" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_lou2020riemannian" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 We present a new class of learnable Riemannian manifolds with a metric
 parameterized by a deep neural network. The core manifold operations–specifically
 the Riemannian exponential and logarithmic maps–are solved using approximate
@@ -1727,11 +1717,11 @@ in graph embedding tasks.
 </td>
 <td>
 
-<em><a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>Differentiable Optimization-Based Modeling for Machine Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2019differentiable").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/bamos/thesis' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2019.thesis.html' target='_blank'>slides</a><br>
+<em><a href='https://github.com/bamos/thesis/raw/master/bamos_thesis.pdf' target='_blank'>Differentiable Optimization-Based Modeling for Machine Learning</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_amos2019differentiable" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/bamos/thesis' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2019.thesis.html' target='_blank'>slides</a><br>
 <strong>Brandon&nbsp;Amos</strong><br>
 Ph.D. Thesis 2019 <br>
 
-<div id="abs_amos2019differentiable" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_amos2019differentiable" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Domain-specific modeling priors and specialized components are becoming
 increasingly important to the machine learning field. These components integrate specialized knowledge that we have as humans into model. We argue in
 this thesis that optimization methods provide an expressive set of operations
@@ -1757,11 +1747,11 @@ enables rapid prototyping of the approaches in this thesis.
 </td>
 <td>
 
-<em><a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'>Differentiable Convex Optimization Layers</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2019differentiable3").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/cvxgrp/cvxpylayers' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2022.differentiable-optimization.html' target='_blank'>slides</a><br>
+<em><a href='http://web.stanford.edu/~boyd/papers/pdf/diff_cvxpy.pdf' target='_blank'>Differentiable Convex Optimization Layers</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_amos2019differentiable3" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/cvxgrp/cvxpylayers' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2022.differentiable-optimization.html' target='_blank'>slides</a><br>
 <a href='https://www.akshayagrawal.com/' target='_blank'>Akshay&nbsp;Agrawal*</a>, <strong>Brandon&nbsp;Amos*</strong>, <a href='https://scholar.google.com/citations?user=HmCZLyoAAAAJ' target='_blank'>Shane&nbsp;Barratt*</a>, <a href='https://web.stanford.edu/~boyd/' target='_blank'>Stephen&nbsp;Boyd*</a>, <a href='https://stevendiamond.me/' target='_blank'>Steven&nbsp;Diamond*</a>, and <a href='https://zicokolter.com/' target='_blank'>J.&nbsp;Zico&nbsp;Kolter*</a><br>
 NeurIPS 2019 <br>
 
-<div id="abs_amos2019differentiable3" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_amos2019differentiable3" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Recent work has shown how to embed differentiable optimization problems (that is, problems whose solutions can be backpropagated through) as layers within deep learning architectures. This method provides a useful inductive bias for certain problems, but existing software for differentiable optimization layers is rigid and difficult to apply to new settings. In this paper, we propose an approach to differentiating through disciplined convex programs, a subclass of convex optimization problems used by domain-specific languages (DSLs) for convex optimization. We introduce disciplined parametrized programming, a subset of disciplined convex programming, and we show that every disciplined parametrized program can be represented as the composition of an affine map from parameters to problem data, a solver, and an affine map from the solver’s solution to a solution of the original problem (a new form we refer to as affine-solver-affine form). We then demonstrate how to efficiently differentiate through each of these components, allowing for end-to-end analytical differentiation through the entire convex program. We implement our methodology in version 1.1 of CVXPY, a popular Python-embedded DSL for convex optimization, and additionally implement differentiable layers for disciplined convex programs in PyTorch and TensorFlow 2.0. Our implementation significantly lowers the barrier to using convex optimization problems in differentiable programs. We present applications in linear machine learning models and in stochastic control, and we show that our layer is competitive (in execution time) compared to specialized differentiable solvers from past work.
 </div>
 </td>
@@ -1773,12 +1763,12 @@ Recent work has shown how to embed differentiable optimization problems (that is
 57.
 </td>
 <td>
-<a href='https://arxiv.org/abs/1906.08707' target='_blank'><img src="images/publications/amos2019limited.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/1906.08707' target='_blank'>The Limited Multi-Label Projection Layer</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2019limited").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/locuslab/lml' target='_blank'>code</a><br>
+<a href='https://arxiv.org/abs/1906.08707' target='_blank'><img src="images/publications/amos2019limited.png" alt="Read The Limited Multi-Label Projection Layer" class="publicationImg" /></a>
+<em><a href='https://arxiv.org/abs/1906.08707' target='_blank'>The Limited Multi-Label Projection Layer</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_amos2019limited" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/locuslab/lml' target='_blank'>code</a><br>
 <strong>Brandon&nbsp;Amos</strong>, <a href='https://vladlen.info/' target='_blank'>Vladlen&nbsp;Koltun</a>, and <a href='https://zicokolter.com/' target='_blank'>J.&nbsp;Zico&nbsp;Kolter</a><br>
 arXiv 2019 <br>
 
-<div id="abs_amos2019limited" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_amos2019limited" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 We propose the Limited Multi-Label (LML) projection layer as a new
 primitive operation for end-to-end learning systems. The LML layer
 provides a probabilistic way of modeling multi-label predictions
@@ -1802,11 +1792,11 @@ classification.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/1910.01727' target='_blank'>Generalized Inner Loop Meta-Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_grefenstette2019generalized").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/facebookresearch/higher' target='_blank'>code</a><br>
+<em><a href='https://arxiv.org/abs/1910.01727' target='_blank'>Generalized Inner Loop Meta-Learning</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_grefenstette2019generalized" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/facebookresearch/higher' target='_blank'>code</a><br>
 <a href='https://www.egrefen.com/' target='_blank'>Edward&nbsp;Grefenstette</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=7kaXqgMAAAAJ' target='_blank'>Denis&nbsp;Yarats</a>, <a href='https://phu-pmh.github.io/' target='_blank'>Phu&nbsp;Mon&nbsp;Htut</a>, <a href='https://amolchanov86.github.io/' target='_blank'>Artem&nbsp;Molchanov</a>, <a href='https://fmeier.github.io/' target='_blank'>Franziska&nbsp;Meier</a>, <a href='https://douwekiela.github.io/' target='_blank'>Douwe&nbsp;Kiela</a>, <a href='https://kyunghyuncho.me/' target='_blank'>Kyunghyun&nbsp;Cho</a>, and <a href='https://soumith.ch/' target='_blank'>Soumith&nbsp;Chintala</a><br>
 arXiv 2019 <br>
 
-<div id="abs_grefenstette2019generalized" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_grefenstette2019generalized" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Many (but not all) approaches self-qualifying as "meta-learning" in
 deep learning and reinforcement learning fit a
 common pattern of approximating the solution to a
@@ -1835,12 +1825,12 @@ facilitate.
 59.
 </td>
 <td>
-<a href='https://arxiv.org/abs/1804.06318' target='_blank'><img src="images/publications/amos2018learning.png" class="publicationImg" /></a> 
-<em><a href='https://arxiv.org/abs/1804.06318' target='_blank'>Learning Awareness Models</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2018learning").toggle()'>abstract</a><br>
+<a href='https://arxiv.org/abs/1804.06318' target='_blank'><img src="images/publications/amos2018learning.png" alt="Read Learning Awareness Models" class="publicationImg" /></a>
+<em><a href='https://arxiv.org/abs/1804.06318' target='_blank'>Learning Awareness Models</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_amos2018learning" aria-expanded="false">abstract</button><br>
 <strong>Brandon&nbsp;Amos</strong>, <a href='https://laurent-dinh.github.io/' target='_blank'>Laurent&nbsp;Dinh</a>, <a href='https://scholar.google.com/citations?user=l-HhJaUAAAAJ' target='_blank'>Serkan&nbsp;Cabi</a>, <a href='https://dblp.org/pid/188/6045.html' target='_blank'>Thomas&nbsp;Roth&ouml;rl</a>, <a href='https://scholar.google.com/citations?user=xCb0VwcAAAAJ' target='_blank'>Sergio&nbsp;G&oacute;mez&nbsp;Colmenarejo</a>, <a href='https://scholar.google.com/citations?user=YfgdfyYAAAAJ' target='_blank'>Alistair&nbsp;Muldal</a>, <a href='https://scholar.google.com/citations?user=gVFnjOcAAAAJ' target='_blank'>Tom&nbsp;Erez</a>, <a href='https://scholar.google.com/citations?user=CjOTm_4AAAAJ' target='_blank'>Yuval&nbsp;Tassa</a>, <a href='https://scholar.google.com/citations?user=nzEluBwAAAAJ' target='_blank'>Nando&nbsp;de&nbsp;Freitas</a>, and <a href='https://mdenil.com/' target='_blank'>Misha&nbsp;Denil</a><br>
 ICLR 2018 <br>
 
-<div id="abs_amos2018learning" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_amos2018learning" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 We consider the setting of an agent with a fixed body interacting with an
 unknown and uncertain external world. We show that models
 trained to predict proprioceptive information about the
@@ -1875,11 +1865,11 @@ are available <a href="https://goo.gl/mZuqAV">here</a>.
 </td>
 <td>
 
-<em><a href='https://arxiv.org/abs/1810.13400' target='_blank'>Differentiable MPC for End-to-end Planning and Control</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2018end").toggle()'>abstract</a><a class='pub-pill' href='https://locuslab.github.io/mpc.pytorch/' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2018.differentiable-mpc.html' target='_blank'>slides</a><br>
+<em><a href='https://arxiv.org/abs/1810.13400' target='_blank'>Differentiable MPC for End-to-end Planning and Control</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_amos2018end" aria-expanded="false">abstract</button><a class='pub-pill' href='https://locuslab.github.io/mpc.pytorch/' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2018.differentiable-mpc.html' target='_blank'>slides</a><br>
 <strong>Brandon&nbsp;Amos</strong>, <a href='https://ivandariojr.io/' target='_blank'>Ivan&nbsp;Dario&nbsp;Jimenez&nbsp;Rodriguez</a>, <a href='https://scholar.google.com/citations?user=Th4PuGkAAAAJ' target='_blank'>Jacob&nbsp;Sacks</a>, <a href='https://homes.cs.washington.edu/~bboots/' target='_blank'>Byron&nbsp;Boots</a>, and <a href='https://zicokolter.com/' target='_blank'>J.&nbsp;Zico&nbsp;Kolter</a><br>
 NeurIPS 2018 <br>
 
-<div id="abs_amos2018end" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_amos2018end" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 In this paper we present foundations for using model predictive control (MPC) as a differentiable policy class in reinforcement learning. Specifically, we differentiate through MPC by using the KKT conditions of the convex approximation at a fixed point of the solver. Using this strategy, we are able to learn the cost and dynamics of a controller via end-to-end learning in a larger system. We empirically show results in an imitation learning setting, demonstrating that we can recover the underlying dynamics and cost more efficiently and reliably than with a generic neural network policy class
 </div>
 </td>
@@ -1892,11 +1882,11 @@ In this paper we present foundations for using model predictive control (MPC) as
 </td>
 <td>
 
-<em><a href='http://arxiv.org/abs/1805.08195' target='_blank'>Depth-Limited Solving for Imperfect-Information Games</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_brown2018depth").toggle()'>abstract</a><br>
+<em><a href='http://arxiv.org/abs/1805.08195' target='_blank'>Depth-Limited Solving for Imperfect-Information Games</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_brown2018depth" aria-expanded="false">abstract</button><br>
 <a href='https://noambrown.com/' target='_blank'>Noam&nbsp;Brown</a>, <a href='https://www.cs.cmu.edu/~sandholm/' target='_blank'>Tuomas&nbsp;Sandholm</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 NeurIPS 2018 <br>
 
-<div id="abs_brown2018depth" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_brown2018depth" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 A fundamental challenge in imperfect-information games is that states do not have well-defined values. As a result, depth-limited search algorithms used in single-agent settings and perfect-information games do not apply. This paper introduces a principled way to conduct depth-limited solving in imperfect-information games by allowing the opponent to choose among a number of strategies for the remainder of the game at the depth limit. Each one of these strategies results in a different set of values for leaf nodes. This forces an agent to be robust to the different strategies an opponent may employ. We demonstrate the effectiveness of this approach by building a master-level heads-up no-limit Texas hold'em poker AI that defeats two prior top agents using only a 4-core CPU and 16 GB of memory. Developing such a powerful agent would have previously required a supercomputer.
 </div>
 </td>
@@ -1909,11 +1899,11 @@ A fundamental challenge in imperfect-information games is that states do not hav
 </td>
 <td>
 
-<em><a href='https://dl.acm.org/citation.cfm?id=3209659' target='_blank'>Enabling Live Video Analytics with a Scalable and Privacy-Aware Framework</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_wang2018enabling").toggle()'>abstract</a><br>
+<em><a href='https://dl.acm.org/citation.cfm?id=3209659' target='_blank'>Enabling Live Video Analytics with a Scalable and Privacy-Aware Framework</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_wang2018enabling" aria-expanded="false">abstract</button><br>
 <a href='https://www.junjuewang.com' target='_blank'>Junjue&nbsp;Wang</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://anupamdas.org/' target='_blank'>Anupam&nbsp;Das</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://www.normsadeh.org/' target='_blank'>Norman&nbsp;Sadeh</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
 ACM TOMM 2018 <br>
 
-<div id="abs_wang2018enabling" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_wang2018enabling" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 We show how to build the components of a privacy-aware, live video
 analytics ecosystem from the bottom up, starting
 with OpenFace, our new open-source face recognition
@@ -1943,11 +1933,11 @@ video streams and analytics services.
 </td>
 <td>
 
-<em><a href='http://arxiv.org/abs/1703.00443' target='_blank'>OptNet: Differentiable Optimization as a Layer in Neural Networks</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2017optnet").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/locuslab/optnet' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2017.optnet.html' target='_blank'>slides</a><br>
+<em><a href='http://arxiv.org/abs/1703.00443' target='_blank'>OptNet: Differentiable Optimization as a Layer in Neural Networks</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_amos2017optnet" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/locuslab/optnet' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2017.optnet.html' target='_blank'>slides</a><br>
 <strong>Brandon&nbsp;Amos</strong> and <a href='https://zicokolter.com/' target='_blank'>J.&nbsp;Zico&nbsp;Kolter</a><br>
 ICML 2017 <br>
 
-<div id="abs_amos2017optnet" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_amos2017optnet" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 This paper presents OptNet, a network architecture that integrates
 optimization problems (here, specifically in the form of quadratic programs)
 as individual layers in larger end-to-end trainable deep networks.
@@ -1979,11 +1969,11 @@ constraints better than other neural architectures.
 </td>
 <td>
 
-<em><a href='http://arxiv.org/abs/1609.07152' target='_blank'>Input Convex Neural Networks</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2017input").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/locuslab/icnn' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2017.icnn.html' target='_blank'>slides</a><br>
+<em><a href='http://arxiv.org/abs/1609.07152' target='_blank'>Input Convex Neural Networks</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_amos2017input" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/locuslab/icnn' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2017.icnn.html' target='_blank'>slides</a><br>
 <strong>Brandon&nbsp;Amos</strong>, <a href='https://leixx.io/' target='_blank'>Lei&nbsp;Xu</a>, and <a href='https://zicokolter.com/' target='_blank'>J.&nbsp;Zico&nbsp;Kolter</a><br>
 ICML 2017 <br>
 
-<div id="abs_amos2017input" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_amos2017input" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 This paper presents the input convex neural network
 architecture. These are scalar-valued (potentially deep) neural
 networks with constraints on the network parameters such that the
@@ -2011,11 +2001,11 @@ improvement over the existing state of the art in many cases.
 </td>
 <td>
 
-<em><a href='http://arxiv.org/abs/1703.04529' target='_blank'>Task-based End-to-end Model Learning</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_donti2017task").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2018.optnet.ismp.html' target='_blank'>slides</a><br>
+<em><a href='http://arxiv.org/abs/1703.04529' target='_blank'>Task-based End-to-end Model Learning</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_donti2017task" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/locuslab/e2e-model-learning' target='_blank'>code</a><a class='pub-pill' href='https://bamos.github.io/presentations/2018.optnet.ismp.html' target='_blank'>slides</a><br>
 <a href='https://priyadonti.com/' target='_blank'>Priya&nbsp;L.&nbsp;Donti</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://zicokolter.com/' target='_blank'>J.&nbsp;Zico&nbsp;Kolter</a><br>
 NeurIPS 2017 <br>
 
-<div id="abs_donti2017task" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_donti2017task" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 As machine learning techniques have become more ubiquitous, it has
 become common to see machine learning prediction algorithms operating
 within some larger process. However, the criteria by which we train
@@ -2040,11 +2030,11 @@ approach and a purely black-box policy optimization approach.
 </td>
 <td>
 
-<em><a href='https://par.nsf.gov/servlets/purl/10111392' target='_blank'>Quasi-Newton Stochastic Optimization Algorithm for Parameter Estimation of a Stochastic Model of the Budding Yeast Cell Cycle</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_chen2017quasi").toggle()'>abstract</a><br>
+<em><a href='https://par.nsf.gov/servlets/purl/10111392' target='_blank'>Quasi-Newton Stochastic Optimization Algorithm for Parameter Estimation of a Stochastic Model of the Budding Yeast Cell Cycle</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_chen2017quasi" aria-expanded="false">abstract</button><br>
 <a href='https://chenm19.github.io/' target='_blank'>Minghan&nbsp;Chen</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://people.cs.vt.edu/~ltw/shortvita.html' target='_blank'>Layne&nbsp;T.&nbsp;Watson</a>, <a href='https://scholar.google.com/citations?user=syETjMMAAAAJ' target='_blank'>John&nbsp;Tyson</a>, <a href='https://people.cs.vt.edu/~ycao/' target='_blank'>Yang&nbsp;Cao</a>, <a href='https://people.cs.vt.edu/shaffer/' target='_blank'>Cliff&nbsp;Shaffer</a>, <a href='https://mtrosset.pages.iu.edu/' target='_blank'>Michael&nbsp;Trosset</a>, <a href='https://scholar.google.com/citations?user=Z4534DUAAAAJ' target='_blank'>Cihan&nbsp;Oguz</a>, and <a href='https://dblp.org/pid/235/5473.html' target='_blank'>Gisella&nbsp;Kakoti</a><br>
 IEEE/ACM TCBB 2017 <br>
 
-<div id="abs_chen2017quasi" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_chen2017quasi" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Parameter estimation in discrete or continuous deterministic cell
 cycle models is challenging for several reasons, including the nature of what can be observed, and
 the accuracy and quantity of those observations. The
@@ -2079,11 +2069,11 @@ stochastic model.
 </td>
 <td>
 
-<em><a href='https://dl.acm.org/doi/10.1145/3132211.3134453' target='_blank'>You can teach elephants to dance: agile VM handoff for edge computing</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_ha2017you").toggle()'>abstract</a><br>
+<em><a href='https://dl.acm.org/doi/10.1145/3132211.3134453' target='_blank'>You can teach elephants to dance: agile VM handoff for edge computing</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_ha2017you" aria-expanded="false">abstract</button><br>
 <a href='https://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://dblp.org/pid/18/1620.html' target='_blank'>Yoshihisa&nbsp;Abe</a>, <a href='https://dblp.org/pid/207/9122.html' target='_blank'>Thomas&nbsp;Eiszler</a>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='https://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://dblp.org/pid/207/9123.html' target='_blank'>Rohit&nbsp;Upadhyaya</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
 SEC 2017 <br>
 
-<div id="abs_ha2017you" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_ha2017you" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 VM handoff enables rapid and transparent placement changes to
 executing code in edge computing use cases where the
 safety and management attributes of VM encapsulation
@@ -2107,11 +2097,11 @@ than live migration at those bandwidths.
 </td>
 <td>
 
-<em><a href='https://www.cs.cmu.edu/~zhuoc/papers/latency2017.pdf' target='_blank'>An Empirical Study of Latency in an Emerging Class of Edge Computing Applications for Wearable Cognitive Assistance</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_chen2017empirical").toggle()'>abstract</a><br>
+<em><a href='https://www.cs.cmu.edu/~zhuoc/papers/latency2017.pdf' target='_blank'>An Empirical Study of Latency in an Emerging Class of Edge Computing Applications for Wearable Cognitive Assistance</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_chen2017empirical" aria-expanded="false">abstract</button><br>
 <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='https://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='https://www.junjuewang.com' target='_blank'>Junjue&nbsp;Wang</a>, <a href='https://scholar.google.com/citations?user=0OpjwCMAAAAJ' target='_blank'>Siyan&nbsp;Zhao</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=0pF6i38AAAAJ' target='_blank'>Guanhang&nbsp;Wu</a>, <a href='https://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://scholar.google.com/citations?user=R9r5_GIAAAAJ' target='_blank'>Khalid&nbsp;Elgazzar</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://scholar.google.com/citations?user=wUPKh58AAAAJ' target='_blank'>Roberta&nbsp;Klatzky</a>, <a href='https://www.cs.cmu.edu/~dps/' target='_blank'>Daniel&nbsp;Siewiorek</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
 SEC 2017 <br>
 
-<div id="abs_chen2017empirical" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_chen2017empirical" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 An emerging class of interactive wearable cognitive assistance
 applications is poised to become one of the key
 demonstrators of edge computing infrastructure. In
@@ -2135,12 +2125,12 @@ computing is crucial to meeting these targets.
 </td>
 <td>
 
-<em><a href='http://elijah.cs.cmu.edu/DOCS/wang-mmsys2017.pdf' target='_blank'>A Scalable and Privacy-Aware IoT Service for Live Video Analytics</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_wang2017scalable").toggle()'>abstract</a><a class='pub-pill' href='http://cmusatyalab.github.io/openface/' target='_blank'>code</a><br>
+<em><a href='http://elijah.cs.cmu.edu/DOCS/wang-mmsys2017.pdf' target='_blank'>A Scalable and Privacy-Aware IoT Service for Live Video Analytics</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_wang2017scalable" aria-expanded="false">abstract</button><a class='pub-pill' href='http://cmusatyalab.github.io/openface/' target='_blank'>code</a><br>
 <a href='https://www.junjuewang.com' target='_blank'>Junjue&nbsp;Wang</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://anupamdas.org/' target='_blank'>Anupam&nbsp;Das</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://www.normsadeh.org/' target='_blank'>Norman&nbsp;Sadeh</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
 ACM MMSys 2017 <br>
 <div class="publication-award-row"><span class="publication-award"><a href="https://records.sigmm.org/2017/10/02/report-from-acm-mmsys-2017/" target="_blank"><i class="fa fa-trophy" aria-hidden="true"></i> Best Paper Award</a></span></div>
 
-<div id="abs_wang2017scalable" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_wang2017scalable" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 We present OpenFace, our new open-source face recognition system
 that approaches state-of-the-art accuracy. Integrating OpenFace with
 inter-frame tracking, we build RTFace, a mechanism for denaturing video
@@ -2162,11 +2152,11 @@ retrospective policy exceptions. Finally, we present a scalable, privacy-aware a
 </td>
 <td>
 
-<em><a href='https://www.cs.cmu.edu/~satya/docdir/CMU-CS-16-118.pdf' target='_blank'>OpenFace: A general-purpose face recognition library with mobile applications</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2016openface").toggle()'>abstract</a><a class='pub-pill' href='https://cmusatyalab.github.io/openface' target='_blank'>code</a><br>
+<em><a href='https://www.cs.cmu.edu/~satya/docdir/CMU-CS-16-118.pdf' target='_blank'>OpenFace: A general-purpose face recognition library with mobile applications</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_amos2016openface" aria-expanded="false">abstract</button><a class='pub-pill' href='https://cmusatyalab.github.io/openface' target='_blank'>code</a><br>
 <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.linkedin.com/in/bartosz-ludwiczuk-a677a760' target='_blank'>Bartosz&nbsp;Ludwiczuk</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
 CMU 2016 <br>
 
-<div id="abs_amos2016openface" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_amos2016openface" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Cameras are becoming ubiquitous in the Internet of Things (IoT) and
 can use face recognition technology to improve context. There is a
 large accuracy gap between today's publicly available face recognition
@@ -2192,11 +2182,11 @@ the Apache 2.0 license. It is available at:
 </td>
 <td>
 
-<em><a href='https://bamos.github.io/2016/08/09/deep-completion/' target='_blank'>Image Completion with Deep Learning in TensorFlow</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2016deepcompletion").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/bamos/dcgan-completion.tensorflow' target='_blank'>code</a><br>
+<em><a href='https://bamos.github.io/2016/08/09/deep-completion/' target='_blank'>Image Completion with Deep Learning in TensorFlow</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_amos2016deepcompletion" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/bamos/dcgan-completion.tensorflow' target='_blank'>code</a><br>
 <strong>Brandon&nbsp;Amos</strong><br>
 Blog 2016 <br>
 
-<div id="abs_amos2016deepcompletion" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_amos2016deepcompletion" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Content-aware fill is a powerful tool designers and photographers use to fill in unwanted or missing parts of images. Image completion and inpainting are closely related technologies used to fill in missing or corrupted parts of images. There are many ways to do content-aware fill, image completion, and inpainting. In this blog post, I present Raymond Yeh and Chen Chen et al.'s paper "Semantic Image Inpainting with Perceptual and Contextual Losses," which was just posted on arXiv on July 26, 2016. This paper shows how to use deep learning for image completion with a DCGAN.
 </div>
 </td>
@@ -2209,11 +2199,11 @@ Content-aware fill is a powerful tool designers and photographers use to fill in
 </td>
 <td>
 
-<em><a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'>Collapsed Variational Inference for Sum-Product Networks</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_zhao2016collapsed").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/uiuctml/Sum-Product-Networks' target='_blank'>code</a><br>
+<em><a href='http://proceedings.mlr.press/v48/zhaoa16.html' target='_blank'>Collapsed Variational Inference for Sum-Product Networks</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_zhao2016collapsed" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/uiuctml/Sum-Product-Networks' target='_blank'>code</a><br>
 <a href='https://hanzhaoml.github.io/' target='_blank'>Han&nbsp;Zhao</a>, <a href='https://tameemadel.wordpress.com/' target='_blank'>Tameem&nbsp;Adel</a>, <a href='https://www.cs.cmu.edu/~ggordon/' target='_blank'>Geoff&nbsp;Gordon</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 ICML 2016 <br>
 
-<div id="abs_zhao2016collapsed" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_zhao2016collapsed" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Sum-Product Networks (SPNs) are probabilistic inference machines that admit
 exact inference in linear time in the size of the network. Existing
 parameter learning approaches for SPNs are largely based on the maximum
@@ -2239,11 +2229,11 @@ with a maximum likelihood based approach.
 </td>
 <td>
 
-<em><a href='https://dl.acm.org/doi/10.1145/2967360.2967369' target='_blank'>Quantifying the impact of edge computing on mobile applications</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_hu2016quantifying").toggle()'>abstract</a><br>
+<em><a href='https://dl.acm.org/doi/10.1145/2967360.2967369' target='_blank'>Quantifying the impact of edge computing on mobile applications</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_hu2016quantifying" aria-expanded="false">abstract</button><br>
 <a href='https://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='https://www.linkedin.com/in/joelyinggao/' target='_blank'>Ying&nbsp;Gao</a>, <a href='https://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://www.junjuewang.com' target='_blank'>Junjue&nbsp;Wang</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
 ACM SIGOPS 2016 <br>
 
-<div id="abs_hu2016quantifying" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_hu2016quantifying" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Computational offloading services at the edge of the Internet for
 mobile devices are becoming a reality. Using a wide
 range of mobile applications, we explore how such
@@ -2263,11 +2253,11 @@ for highly interactive mobile applications.
 </td>
 <td>
 
-<em><a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf' target='_blank'>Privacy mediators: helping IoT cross the chasm</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_davies2016privacy").toggle()'>abstract</a><br>
+<em><a href='http://eprints.lancs.ac.uk/78255/1/44691.pdf' target='_blank'>Privacy mediators: helping IoT cross the chasm</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_davies2016privacy" aria-expanded="false">abstract</button><br>
 <a href='https://www.lancaster.ac.uk/sci-tech/about-us/people/nigel-davies' target='_blank'>Nigel&nbsp;Davies</a>, <a href='https://scholar.google.com/citations?user=BItCgjYAAAAJ' target='_blank'>Nina&nbsp;Taft</a>, <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a>, <a href='https://www.sclinch.com/' target='_blank'>Sarah&nbsp;Clinch</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 HotMobile 2016 <br>
 
-<div id="abs_davies2016privacy" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_davies2016privacy" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Unease over data privacy will retard consumer acceptance of IoT
 deployments. The primary source of discomfort is a lack of user
 control over raw data that is streamed directly from sensors to the
@@ -2297,11 +2287,11 @@ and organizational boundaries of trust and responsibility.
 </td>
 <td>
 
-<em><a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'>Edge Analytics in the Internet of Things</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_satyanarayanan2015edge").toggle()'>abstract</a><br>
+<em><a href='https://www.cs.cmu.edu/~satya/docdir/satya-edge2015.pdf' target='_blank'>Edge Analytics in the Internet of Things</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_satyanarayanan2015edge" aria-expanded="false">abstract</button><br>
 <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a>, <a href='https://scholar.google.com/citations?user=vAPWme0AAAAJ' target='_blank'>Pieter&nbsp;Simoens</a>, <a href='https://scholar.google.com/citations?user=ZeRhyWsAAAAJ' target='_blank'>Yu&nbsp;Xiao</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='https://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, and <strong>Brandon&nbsp;Amos</strong><br>
 IEEE Pervasive Computing 2015 <br>
 
-<div id="abs_satyanarayanan2015edge" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_satyanarayanan2015edge" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 High-data-rate sensors, such as video cameras, are becoming ubiquitous in the
 Internet of Things. This article describes GigaSight, an Internet-scale
 repository of crowd-sourced video content, with strong enforcement of privacy
@@ -2323,11 +2313,11 @@ is part of a special issue on smart spaces.
 </td>
 <td>
 
-<em><a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094' target='_blank'>Bad Parts: Are Our Manufacturing Systems at Risk of Silent Cyberattacks?</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_turner2015bad").toggle()'>abstract</a><br>
+<em><a href='http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7118094' target='_blank'>Bad Parts: Are Our Manufacturing Systems at Risk of Silent Cyberattacks?</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_turner2015bad" aria-expanded="false">abstract</button><br>
 <a href='https://scholar.google.com/citations?user=MRKab9cAAAAJ' target='_blank'>Hamilton&nbsp;Turner</a>, <a href='https://scholar.google.com/citations?user=10HSX90AAAAJ' target='_blank'>Jules&nbsp;White</a>, <a href='https://scholar.google.com/citations?user=h84PTmQAAAAJ' target='_blank'>Jaime&nbsp;A.&nbsp;Camelio</a>, <a href='https://scholar.google.com/citations?user=AW81mosAAAAJ' target='_blank'>Christopher&nbsp;Williams</a>, <strong>Brandon&nbsp;Amos</strong>, and <a href='https://ieeexplore.ieee.org/author/37085729541' target='_blank'>Robert&nbsp;Parker</a><br>
 IEEE Security & Privacy 2015 <br>
 
-<div id="abs_turner2015bad" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_turner2015bad" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Recent cyberattacks have highlighted the risk of physical equipment operating
 outside designed tolerances to produce catastrophic failures. A related
 threat is cyberattacks that change the design and manufacturing of a
@@ -2348,11 +2338,11 @@ manufacturing security topics.
 </td>
 <td>
 
-<em><a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'>Early Implementation Experience with Wearable Cognitive Assistance Applications</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_chen2015early").toggle()'>abstract</a><br>
+<em><a href='http://www.cs.cmu.edu/~satya/docdir/chen-wearsys2015.pdf' target='_blank'>Early Implementation Experience with Wearable Cognitive Assistance Applications</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_chen2015early" aria-expanded="false">abstract</button><br>
 <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='https://www.lujiang.info/' target='_blank'>Lu&nbsp;Jiang</a>, <a href='https://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='https://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://www.cs.cmu.edu/~alex/' target='_blank'>Alex&nbsp;Hauptmann</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
 WearSys 2015 <br>
 
-<div id="abs_chen2015early" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_chen2015early" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 A cognitive assistance application combines a wearable device such
 as Google Glass with cloudlet processing to provide step-by-step
 guidance on a complex task. In this paper, we focus on user assistance
@@ -2374,11 +2364,11 @@ simplify the creation of similar applications.
 </td>
 <td>
 
-<em><a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'>The Case for Offload Shaping</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_hu2014case").toggle()'>abstract</a><br>
+<em><a href='http://www.cs.cmu.edu/~satya/docdir/hu-hotmobile2015.pdf' target='_blank'>The Case for Offload Shaping</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_hu2014case" aria-expanded="false">abstract</button><br>
 <a href='https://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='https://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://dblp.org/pid/60/9827-1.html' target='_blank'>Wolfgang&nbsp;Richter</a>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, <a href='https://github.com/bgilbert' target='_blank'>Benjamin&nbsp;Gilbert</a>, <a href='https://scholar.google.com/citations?user=jj5tN8sAAAAJ' target='_blank'>Jan&nbsp;Harkes</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
 HotMobile 2015 <br>
 
-<div id="abs_hu2014case" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_hu2014case" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 When offloading computation from a mobile device, we show
 that it can pay to perform additional on-device work in order
 to reduce the offloading workload. We call this offload shaping, and demonstrate its application at many different levels
@@ -2396,11 +2386,11 @@ demand, with little loss of application-level fidelity
 </td>
 <td>
 
-<em><a href='https://www.cs.cmu.edu/~satya/docdir/CMU-CS-15-139.pdf' target='_blank'>Are Cloudlets Necessary?</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_gao2015cloudlets").toggle()'>abstract</a><br>
+<em><a href='https://www.cs.cmu.edu/~satya/docdir/CMU-CS-15-139.pdf' target='_blank'>Are Cloudlets Necessary?</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_gao2015cloudlets" aria-expanded="false">abstract</button><br>
 <a href='https://www.linkedin.com/in/joelyinggao/' target='_blank'>Ying&nbsp;Gao</a>, <a href='https://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <a href='https://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
 CMU 2015 <br>
 
-<div id="abs_gao2015cloudlets" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_gao2015cloudlets" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 We present experimental results from Wi-Fi and 4G LTE networks to validate the
 intuition that low end-to-end latency of cloud services improves application
 response time and reduces energy consumption on mobile devices. We focus
@@ -2422,11 +2412,11 @@ consumption in a mobile device by up to 42% compared to cloud offload.
 </td>
 <td>
 
-<em><a href='https://www.cs.cmu.edu/~satya/docdir/CMU-CS-15-113.pdf' target='_blank'>Adaptive VM handoff across cloudlets</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_ha2015adaptive").toggle()'>abstract</a><br>
+<em><a href='https://www.cs.cmu.edu/~satya/docdir/CMU-CS-15-113.pdf' target='_blank'>Adaptive VM handoff across cloudlets</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_ha2015adaptive" aria-expanded="false">abstract</button><br>
 <a href='https://krha.kr/' target='_blank'>Kiryong&nbsp;Ha</a>, <a href='https://dblp.org/pid/18/1620.html' target='_blank'>Yoshihisa&nbsp;Abe</a>, <a href='https://scholar.google.com/citations?user=-wKpBNkAAAAJ' target='_blank'>Zhuo&nbsp;Chen</a>, <a href='https://www.cs.cmu.edu/~wenluh/' target='_blank'>Wenlu&nbsp;Hu</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://www.andrew.cmu.edu/user/pspillai/' target='_blank'>Padmanabhan&nbsp;Pillai</a>, and <a href='https://www.cs.cmu.edu/~satya/' target='_blank'>Mahadev&nbsp;Satyanarayanan</a><br>
 CMU 2015 <br>
 
-<div id="abs_ha2015adaptive" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_ha2015adaptive" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 Cloudlet offload is a valuable technique for ensuring low end-to-end latency of
 resource-intensive cloud processing for many emerging mobile applications.
 This paper examines the impact of user mobility on cloudlet offload, and
@@ -2448,11 +2438,11 @@ changing network conditions and processing capacity
 </td>
 <td>
 
-<em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Global Parameter Estimation for a Eukaryotic Cell Cycle Model in Systems Biology</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_andrew2014global").toggle()'>abstract</a><br>
+<em><a href='http://dl.acm.org/citation.cfm?id=2685662' target='_blank'>Global Parameter Estimation for a Eukaryotic Cell Cycle Model in Systems Biology</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_andrew2014global" aria-expanded="false">abstract</button><br>
 <a href='https://scholar.google.com/citations?user=qpRt_KYAAAAJ' target='_blank'>Tricity&nbsp;Andrew</a>, <strong>Brandon&nbsp;Amos</strong>, <a href='https://dblp.org/pid/75/8682.html' target='_blank'>David&nbsp;Easterling</a>, <a href='https://scholar.google.com/citations?user=Z4534DUAAAAJ' target='_blank'>Cihan&nbsp;Oguz</a>, <a href='https://scholar.google.com/citations?user=fAmU38gAAAAJ' target='_blank'>William&nbsp;Baumann</a>, <a href='https://scholar.google.com/citations?user=syETjMMAAAAJ' target='_blank'>John&nbsp;Tyson</a>, and <a href='https://people.cs.vt.edu/~ltw/shortvita.html' target='_blank'>Layne&nbsp;T.&nbsp;Watson</a><br>
 SummerSim 2014 <br>
 
-<div id="abs_andrew2014global" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_andrew2014global" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 The complicated process by which a yeast cell divides, known as the cell
 cycle, has been modeled by a system of 26 nonlinear ordinary differential
 equations (ODEs) with 149 parameters. This model captures the chemical
@@ -2476,11 +2466,11 @@ compared.
 </td>
 <td>
 
-<em><a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'>Applying machine learning classifiers to dynamic Android malware detection at scale</a> </em> &nbsp;<a class='pub-pill' href='javascript:;' onclick='$("#abs_amos2013applying").toggle()'>abstract</a><a class='pub-pill' href='https://github.com/VT-Magnum-Research/antimalware' target='_blank'>code</a><br>
+<em><a href='http://bamos.github.io/data/papers/amos-iwcmc2013.pdf' target='_blank'>Applying machine learning classifiers to dynamic Android malware detection at scale</a> </em> &nbsp;<button type="button" class="pub-pill" aria-controls="abs_amos2013applying" aria-expanded="false">abstract</button><a class='pub-pill' href='https://github.com/VT-Magnum-Research/antimalware' target='_blank'>code</a><br>
 <strong>Brandon&nbsp;Amos</strong>, <a href='https://scholar.google.com/citations?user=MRKab9cAAAAJ' target='_blank'>Hamilton&nbsp;Turner</a>, and <a href='https://scholar.google.com/citations?user=10HSX90AAAAJ' target='_blank'>Jules&nbsp;White</a><br>
 IWCMC 2013 <br>
 
-<div id="abs_amos2013applying" class="abstract-box" style="display: none" markdown="1">
+<div id="abs_amos2013applying" class="abstract-box" data-nosnippet style="display: none" markdown="1">
 The widespread adoption and contextually sensitive
 nature of smartphone devices has increased concerns over smartphone
 malware. Machine learning classifiers are a current method
@@ -2495,8 +2485,11 @@ malware machine learning classifiers.
 
 </table>
 
+</section>
 
-## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Code
+<section id="code" class="home-section" markdown="1">
+
+<h2 id="-code"><i class="fa fa-chevron-right" style="font-size: 0.9em;"></i> Code</h2>
 *40k+ GitHub stars across all repositories.*
 
 <table class="table table-hover">
@@ -3032,16 +3025,19 @@ malware machine learning classifiers.
 </tr>
 </table>
 
+</section>
 
-## <i class="fa fa-chevron-right" style='font-size: 0.9em;'></i> Talks
+<section id="talks" class="home-section" markdown="1">
+
+<h2 id="-talks"><i class="fa fa-chevron-right" style="font-size: 0.9em;"></i> Talks</h2>
 *Slides for my major presentations are available
-[here](https://bamos.github.io/presentations/)
+[here](https://github.com/bamos/presentations)
 under a CC-BY license.*
 
 <table class="table table-hover">
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>1.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2026</span>
      <a href="https://bamos.github.io/presentations/2026.advgame.html"><em>Safety Alignment of LMs via Non-cooperative Games</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3050,7 +3046,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>2.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2026</span>
      <a href="https://bamos.github.io/presentations/2026.advprompter-algotune.html"><em>On prompt optimization and coding agents</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3059,7 +3055,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>3.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2026</span>
      <a href="https://bamos.github.io/presentations/2026.advprompter-algotune.html"><em>On prompt optimization and coding agents</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3068,7 +3064,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>4.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2026</span>
      <a href="https://bamos.github.io/presentations/2026.advprompter-algotune.html"><em>On prompt optimization and coding agents</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3077,7 +3073,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>5.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2026</span>
      <a href="https://bamos.github.io/presentations/2026.advprompter-algotune.html"><em>On prompt optimization and coding agents</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3086,7 +3082,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>6.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2026</span>
      <a href="https://bamos.github.io/presentations/2026.advprompter-algotune.html"><em>On prompt optimization and coding agents</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3095,7 +3091,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>7.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2025</span>
      <a href="https://bamos.github.io/presentations/2026.advprompter-algotune.html"><em>On prompt optimization and coding agents</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3104,7 +3100,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>8.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2025</span>
      <a href="https://bamos.github.io/presentations/2025.alignment-and-tools.html"><em>Language model alignment and tool use</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3113,7 +3109,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>9.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2025</span>
      <a href="https://bamos.github.io/presentations/2025.transport-flows-physics.html"><em>On transport, flows, and physics</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3122,7 +3118,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>10.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2025</span>
      <a href="https://bamos.github.io/presentations/2025.demystifying-lms.html"><em>Demystifying language models</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3131,7 +3127,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>11.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2025</span>
      <a href="https://bamos.github.io/presentations/2026.advprompter-algotune.html"><em>On prompt optimization and coding agents</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3140,7 +3136,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>12.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2025</span>
      <a href="https://bamos.github.io/presentations/2025.advprompter.html"><em>AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3149,7 +3145,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>13.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2025</span>
      <a href="https://bamos.github.io/presentations/2025.amortization-rl-bio.html"><em>On amortized optimization for RL, Bayesian optimization, and biology</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3158,7 +3154,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>14.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2025</span>
      <a href="https://bamos.github.io/presentations/2024.transport-between-distributions-over-distributions.html"><em>Transport and flows between distributions over distributions</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3167,7 +3163,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>15.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2024</span>
      <a href="https://bamos.github.io/presentations/2024.transport-between-distributions-over-distributions.html"><em>Transport and flows between distributions over distributions</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3176,7 +3172,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>16.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2024</span>
      <a href="https://bamos.github.io/presentations/2024.transport-between-distributions-over-distributions.html"><em>Transport and flows between distributions over distributions</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3185,7 +3181,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>17.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2024</span>
      <a href="https://bamos.github.io/presentations/2024.prompt-optimization-and-amortization.html"><em>On LLM prompt optimization and amortization</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3194,7 +3190,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>18.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2024</span>
      <a href="https://bamos.github.io/presentations/2024.amortized-optimization-for-OT-and-LLMs.html"><em>Amortized optimization for optimal transport and LLM attacks</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3203,7 +3199,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>19.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2024</span>
      <a href="https://bamos.github.io/presentations/2024.differentiable-optimization-and-robotics.html"><em>Differentiable optimization for robotics</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3212,7 +3208,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>20.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2024</span>
      <a href="https://bamos.github.io/presentations/2024.amortized-optimization-and-AI.html"><em>Amortized optimization-based reasoning for AI</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3221,7 +3217,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>21.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2024</span>
      <a href="https://bamos.github.io/presentations/2024.e2e-geometries.html"><em>End-to-end learning geometries for graphs, dynamical systems, and regression</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3230,7 +3226,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>22.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2023</span>
      <a href="https://bamos.github.io/presentations/2023.amortized-optimal-transport.html"><em>Amortized optimization for optimal transport</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3239,7 +3235,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>23.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2023</span>
      <a href="https://bamos.github.io/presentations/2023.control-learning.html"><em>On optimal control and machine learning</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3248,7 +3244,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>24.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2023</span>
      <a href="https://bamos.github.io/presentations/2023.amortized-optimization.html"><em>Tutorial on amortized optimization</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3257,7 +3253,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>25.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2023</span>
      <a href="https://bamos.github.io/presentations/2023.differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3266,7 +3262,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>26.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2023</span>
      <a href="https://bamos.github.io/presentations/2023.differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3275,7 +3271,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>27.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2023.differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3284,7 +3280,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>28.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2022.amortized-optimal-transport.html"><em>Amortized optimization for computing optimal transport maps</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3293,7 +3289,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>29.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2023.differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3302,7 +3298,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>30.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2023.differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3311,7 +3307,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>31.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2023.differentiable-amortized-optimization.html"><em>Learning with differentiable and amortized optimization</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3320,7 +3316,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>32.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2022</span>
      <a href="https://slideslive.com/38992360/theseus-a-library-for-differentiable-nonlinear-optimization"><em>Theseus: A library for differentiable nonlinear optimization</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3329,7 +3325,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>33.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2022</span>
      <a href="https://slideslive.com/38992360/theseus-a-library-for-differentiable-nonlinear-optimization"><em>Theseus: A library for differentiable nonlinear optimization</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3338,7 +3334,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>34.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3347,7 +3343,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>35.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3356,7 +3352,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>36.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-control.html"><em>Differentiable optimization for control and RL</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3365,7 +3361,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>37.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3374,7 +3370,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>38.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2022.amortized-optimization.html"><em>Tutorial on amortized optimization</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3383,7 +3379,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>39.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2022</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-control.html"><em>Differentiable optimization for control and RL</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3392,7 +3388,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>40.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2021</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-control.html"><em>Learning for control with differentiable optimization and ODEs</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3401,7 +3397,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>41.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2021</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3410,7 +3406,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>42.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2020</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-control.html"><em>Differentiable optimization for control</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3419,7 +3415,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>43.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2020</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3428,7 +3424,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>44.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2020</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Deep Declarative Networks</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3437,7 +3433,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>45.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2020</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>On differentiable optimization for control and vision</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3446,7 +3442,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>46.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2020</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3455,7 +3451,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>47.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2020</span>
      <a href="https://bamos.github.io/presentations/2020.dcem.html"><em>Unrolled optimization for learning deep energy models</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3464,7 +3460,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>48.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2019</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3473,7 +3469,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>49.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2019</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3482,7 +3478,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>50.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2019</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3491,7 +3487,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>51.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3500,7 +3496,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>52.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3509,7 +3505,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>53.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3518,7 +3514,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>54.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3527,7 +3523,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>55.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3536,7 +3532,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>56.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3545,7 +3541,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>57.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3554,7 +3550,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>58.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3563,7 +3559,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>59.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-optimization.html"><em>Differentiable optimization-based modeling for machine learning</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3572,7 +3568,7 @@ under a CC-BY license.*
 </tr>
 <tr>
   <td align='right' style='padding-right:0;padding-left:0;'>60.</td>
-  <td style='padding-right:0;'>
+  <td>
     <span class='cvdate'>2018</span>
      <a href="https://bamos.github.io/presentations/2022.differentiable-control.html"><em>Differentiable optimization and control</em></a>
     <span style="padding: 0 0.2em;">•</span>
@@ -3581,7 +3577,8 @@ under a CC-BY license.*
 </tr>
 </table>
 
+</section>
 
+</div>
 
-
-<p style="font-size: 0.85em; color: #999;">Last updated on November 20, 2026.</p>
+<p id="last-updated" style="font-size: 0.85em; color: #999;">Last updated on November 24, 2026.</p>
