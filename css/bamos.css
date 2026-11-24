@@ -567,11 +567,11 @@ html[data-home-formal="true"] #bio {
 #about-intro p,
 .home-bio-formal p,
 .abstract-box {
-    text-align: left;
+    text-align: justify;
     text-wrap: pretty;
     -webkit-hyphens: auto;
     hyphens: auto;
-    hyphenate-limit-chars: 8 3 3;
+    hyphenate-limit-chars: 10 4 4;
 }
 
 .abstract-box.shaped-abstract {
@@ -580,6 +580,10 @@ html[data-home-formal="true"] #bio {
     background: none;
     border-color: transparent;
     box-shadow: none;
+}
+
+.abstract-box.clear-publication-image {
+    clear: right;
 }
 
 .abstract-outline {

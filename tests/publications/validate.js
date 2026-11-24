@@ -35,6 +35,7 @@ async function validate(variant) {
         }
         const overlap=picture.bottom>b.top&&picture.left>b.left;
         if(overlap) {
+            check(picture.bottom-b.top>lineHeight,'tiny image overlap leaves a cramped first line and shallow notch');
             const beside=lines.filter(line=>line.top<picture.bottom&&line.bottom>picture.top);
             beside.forEach(line=>check(line.right<=picture.left-22,'text is too close to the image/inside corner'));
             const beneath=lines.filter(line=>line.top>=picture.bottom&&line.right>picture.left);

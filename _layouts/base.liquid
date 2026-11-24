@@ -17,6 +17,8 @@
   <meta name="description" content="{{ description | escape_once }}" />
   {% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preload" href="/vendor/fonts/source-sans-pro/source-sans-pro-300-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/vendor/fonts/source-sans-pro/source-sans-pro-700-latin.woff2" as="font" type="font/woff2" crossorigin>
   {% if page.layout == 'index' %}
   <script src="/js/home-view.js"></script>
   {% endif %}
@@ -27,7 +29,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
   <link href="/vendor/css/academicons.min.css" rel="stylesheet">
   <link href="/vendor/pygments/default.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700&display=swap" rel="stylesheet">
+  <link href="/css/fonts.css" rel="stylesheet">
   <link href="/css/bamos.css" rel="stylesheet">
   {% if page.layout == 'index' %}
   <script type="module" src="/js/home-tabs.js"></script>

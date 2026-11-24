@@ -60,8 +60,21 @@ export function initAbstracts(root = document) {
         let pending = 0;
         function update() {
             pending = 0;
-            const b = box.getBoundingClientRect(), picture = image.getBoundingClientRect();
+            // Measure the natural position again so resizing can restore wrapping.
+            box.classList.remove('clear-publication-image');
+            let b = box.getBoundingClientRect();
+            const picture = image.getBoundingClientRect();
             if (!b.width || !b.height) return;
+            const pictureStyle = getComputedStyle(image);
+            const floatBottom = picture.bottom + parseFloat(pictureStyle.marginBottom);
+            const lineHeight = parseFloat(getComputedStyle(box).lineHeight);
+            // An almost-finished float leaves a tiny notch and one cramped line.
+            // Clear it, including its existing bottom margin, without moving it.
+            if (pictureStyle.cssFloat === 'right' && picture.left > b.left &&
+                floatBottom > b.top && picture.bottom - b.top <= lineHeight) {
+                box.classList.add('clear-publication-image');
+                b = box.getBoundingClientRect();
+            }
             const overlaps = picture.bottom > b.top && picture.top < b.bottom && picture.left > b.left && picture.left < b.right;
             const sideGap = 10, bottomGap = 6;
             svg.setAttribute('viewBox', `0 0 ${b.width} ${b.height}`);
