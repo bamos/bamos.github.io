@@ -45,20 +45,6 @@ a:focus:not(:hover) {
     border-color: var(--navbar-text-color);
 }
 
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: var(--navbar-text-color);
-}
-
-.navbar-default .navbar-toggle {
-    border-color: var(--navbar-text-color);
-}
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    background-color: #ecf6fe;
-    border-color: var(--navbar-text-color);
-}
-
 .navbar-default .navbar-nav > li > a {
     color: var(--navbar-text-color);
     background-color: transparent;
@@ -100,10 +86,18 @@ a:focus:not(:hover) {
     background-color: transparent !important;
 }
 
-.navbar-default .navbar-collapse {
-    border-color: var(--navbar-text-color);
+.navbar-cv {
+    float: left;
 }
 
+.navbar-cv .navbar-nav {
+    margin: 0;
+}
+
+.navbar-cv .navbar-nav > li > a {
+    margin: 12.5px 6px;
+    padding: 8px 12px;
+}
 
 h1 {
     font-size: 2em;
@@ -177,6 +171,9 @@ img {
 }
 
 .navbar-icons {
+    position: absolute;
+    right: 15px;
+    top: 15px;
     font-size: 0.9em;
 }
 
@@ -213,27 +210,8 @@ img {
 }
 
 @media (max-width: 767px) {
-    .navbar-icons {
-        display: flex;
-        float: right;
-        margin-right: -15px;
-        align-items: center;
-        height: 50px;
-    }
-    
-    .navbar-icons a {
-        display: inline-flex;
-        align-items: center;
-        position: relative;
-        top: -3px;
-    }
-}
-
-@media (min-width: 768px) {
-    .navbar-icons {
-        position: absolute;
-        right: 15px;
-        top: 15px;
+    .navbar-header {
+        float: left;
     }
 }
 
@@ -569,8 +547,7 @@ html[data-home-formal="true"] #bio {
 }
 
 .pub-pill:focus-visible,
-.navbar a:focus-visible,
-.navbar-toggle:focus-visible {
+.navbar a:focus-visible {
     outline: 2px solid var(--navbar-text-color);
     outline-offset: 3px;
 }
@@ -584,8 +561,17 @@ html[data-home-formal="true"] #bio {
     box-shadow: 0 2px 6px rgba(15, 23, 42, 0.06);
     font-size: 0.92em;
     color: #4b5563;
-    line-height: 1.55;
-    text-align: justify;
+    line-height: inherit;
+}
+
+#about-intro p,
+.home-bio-formal p,
+.abstract-box {
+    text-align: left;
+    text-wrap: pretty;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    hyphenate-limit-chars: 8 3 3;
 }
 
 .abstract-box.shaped-abstract {
