@@ -1,0 +1,179 @@
+/* Homepage-only pond: a quiet reading area, with color at the edges. */
+.water-page {
+    background: #fff;
+}
+
+.water-scene {
+    --reading-width: 945px;
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    overflow: hidden;
+    pointer-events: none;
+    background: #fff;
+}
+
+/* Soften everything behind the text without adding a visible panel. */
+.water-scene::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg,
+        transparent,
+        rgba(255, 255, 255, .36) calc(50% - var(--reading-width) / 2),
+        rgba(255, 255, 255, .36) calc(50% + var(--reading-width) / 2),
+        transparent);
+}
+
+.water-contours, .water-ripples {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.water-contours { transition: translate 800ms cubic-bezier(.2,.6,.3,1); color: rgba(43, 111, 130, .14); transform-origin: center; }
+.water-running .water-contours { animation: water-breeze 24s ease-in-out infinite alternate; }
+@keyframes water-breeze {
+    from { transform: translate3d(-6px, 3px, 0) rotate(-.4deg) scale(1.02); }
+    to { transform: translate3d(8px, -5px, 0) rotate(.4deg) scale(1.035); }
+}
+.water-content { position: relative; z-index: 1; padding-bottom: 40px; pointer-events: none; }
+.water-content p, .water-content a, .water-content h2, .water-content table, .water-content img { pointer-events: auto; }
+.water-page .table-hover > tbody > tr:hover > td,
+.water-page .table-hover > tbody > tr:hover > th { background-color: transparent; }
+.water-page .table-hover > tbody > tr:hover { background-color: transparent; box-shadow: none; }
+
+.water-objects { position: absolute; top: 0; left: 0; right: 0; height: 0; z-index: 0; pointer-events: none; overflow: clip; }
+.water-drawings { position: absolute; inset: 0; pointer-events: none; }
+
+
+.water-float {
+    position: absolute;
+    width: 52px;
+    height: 44px;
+    color: #8b9c71;
+    opacity: .56;
+    transform: rotate(var(--turn));
+    translate: 0 var(--scroll-drift, 0px);
+    padding: 3px;
+    border: 0;
+    border-radius: 12px;
+    background: transparent;
+    pointer-events: none;
+    visibility: hidden;
+    cursor: grab;
+    touch-action: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.water-object { display: block; width: 100%; height: 100%; transition: filter 220ms ease; }
+.pond-ready .water-float.water-visible { visibility: visible; pointer-events: auto; }
+.water-float-one { left: 4%; top: 57%; --turn: -28deg; }
+.water-float-two { right: 4%; top: 48%; --turn: 128deg; color: #ac9c75; width: 46px; }
+.water-float-three { left: 6%; top: 82%; --turn: 35deg; width: 44px; color: #92a58a; }
+.water-float-four { right: 5%; top: 17%; --turn: 52deg; width: 48px; color: #a39b83; }
+.water-float-five { right: 7%; top: 77%; --turn: -35deg; width: 44px; }
+.water-petal { width: 12px; height: 7px; margin: auto; border-radius: 80% 15% 80% 25%; background: #c4b49a; }
+.water-float:focus-visible, .water-float.water-grabbed { opacity: .9; }
+.water-portrait:focus-visible:not(.water-pointer-focus) { outline: 2px solid #2b6f82; outline-offset: 4px; }
+.water-pointer-focus:focus { outline: none; }
+.water-grabbed { cursor: grabbing; z-index: 3; }
+.water-float.water-grabbed .water-object { filter: drop-shadow(0 8px 4px rgba(39, 78, 81, .2)); }
+.water-portrait { position: relative; transition: box-shadow 220ms ease; }
+.water-image-frame { position: relative; display: table; float: right; margin-left: var(--publication-image-side-clearance); margin-bottom: var(--publication-image-bottom-clearance); padding-bottom: 0; max-width: 100%; pointer-events: auto; }
+.water-image-frame img.publicationImg { float: none; margin: 0; max-width: 100%; }
+.water-dragging .water-content img { pointer-events: none; }
+.water-profile-frame { float: none; width: 200px; margin: 0; }
+.water-portrait.water-grabbed { cursor: grabbing; box-shadow: 0 15px 24px rgba(39, 78, 81, .2); }
+.water-lotus { right: 3%; top: 65%; width: 48px; height: 40px; --turn: -8deg; opacity: .4; }
+.water-fish-one { right: 3%; top: 33%; width: 62px; color: #8faeb4; --turn: -22deg; opacity: .4; }
+.water-fish-two { left: 4%; top: 92%; width: 52px; color: #b9ac8c; --turn: 165deg; opacity: .4; }
+.water-art { width: 70px; height: 66px; --turn: -5deg; }
+.water-currents { right: 60px; width: 78px; height: 78px; opacity: .85; --turn: 0deg; }
+.water-current-stream { position: absolute; left: 0; right: 0; width: 100%; height: 1px; opacity: .66; pointer-events: none; visibility: hidden; }
+.water-current-stream svg { width: 100%; height: 100%; }
+.pond-ready .water-current-stream { visibility: visible; }
+.water-running .water-float.water-swimmer { animation: none; transform: none; translate: none; }
+.water-swimmer .water-object { animation: none !important; }
+
+.water-running .water-float { animation: water-drift 22s ease-in-out infinite alternate; }
+.water-running .water-float:nth-of-type(even) { animation-delay: -12s; animation-duration: 31s; }
+.water-running .water-currents { animation: none; }
+.water-running .water-visible .water-object { animation: water-buoyancy 6s ease-in-out infinite alternate; }
+.water-running .water-visible:nth-of-type(even) .water-object { animation-delay: -3s; animation-duration: 8s; }
+.water-grabbed .water-object { animation-play-state: paused !important; }
+@keyframes water-buoyancy {
+    from { translate: 0 -1.5px; rotate: -2deg; }
+    to { translate: 0 2px; rotate: 2deg; }
+}
+
+@keyframes water-drift {
+    from { transform: translate3d(-3px, -5px, 0) rotate(calc(var(--turn) - 4deg)); }
+    to { transform: translate3d(11px, 9px, 0) rotate(calc(var(--turn) + 10deg)); }
+}
+
+@media (max-width: 1199px) {
+    .water-scene { --reading-width: 778px; }
+    .water-float-one { left: 2%; }
+    .water-float-two { right: 2%; }
+}
+
+@media (max-width: 991px) {
+    .water-scene { --reading-width: 690px; }
+    .water-float { opacity: .38; }
+}
+
+@media (max-width: 767px) {
+    .water-image-frame { float: none; margin-left: 0; padding-bottom: 0; }
+    /* Share narrow introductions with the band instead of squeezing it into
+       a sliver beside a fixed-width portrait. Keep the normal photo cap. */
+    .water-page .index-profile-img,
+    .water-page .water-profile-frame { width: min(200px, calc((100vw - 48px) * .55)); }
+    .water-scene { --reading-width: calc(100% - 60px); }
+    /* On phones the little pond sits beside the portrait and scrolls away,
+       leaving the narrow reading column and its links clear. */
+    .water-objects { height: 0; }
+    .water-float-one { left: 1px; top: 65%; }
+    .water-float-two { right: 20px; top: 110px; }
+    .water-float-three, .water-float-four, .water-float-five { display: none; }
+    .water-fish-two, .water-float-one { display: none; }
+    .water-art { width: 48px; height: 50px; }
+    .water-currents { right: 65px; width: 48px; height: 48px; }
+    .water-current-stream { opacity: .38; }
+    .water-lotus { right: 18px; top: 285px; width: 46px; height: 44px; }
+    .water-fish-one { right: 24px; top: 200px; width: 44px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .water-running .water-float { animation: none; }
+    .water-running .water-contours, .water-running .water-visible .water-object { animation: none; }
+    .water-object, .water-portrait, .water-contours { transition: none; }
+}
+
+@media (max-width: 380px) {
+    .water-page .navbar-brand { font-size: 18px; }
+    .water-page .navbar-toggle { margin-right: 0; }
+}
+
+@media print {
+    .water-scene, .water-objects { display: none; }
+    .water-page { background: white; }
+    .water-portrait { transform: none !important; box-shadow: none; }
+}
+
+
+/* Shared across the homepage, gallery and review surfaces. */
+.water-float:focus, .water-float:focus-visible { outline: none !important; box-shadow: none !important; }
+@media (max-width: 767px) {
+    .water-page .water-objects > .water-float,
+    .water-page .water-current-stream { display: none !important; }
+    .water-page .water-objects > .water-mobius,
+    .water-page .water-objects > .water-mobius-ball { display: block !important; }
+    .water-page .water-image-frame:not(.water-profile-frame),
+    .water-page .water-image-frame:not(.water-profile-frame) img { touch-action: auto; cursor: auto; }
+    .water-fish-one, .water-fish-two { display: none !important; }
+    [data-pond-study="piece"][data-piece="water-fish-one"],
+    [data-pond-study="piece"][data-piece="water-fish-two"] { display: none; }
+}

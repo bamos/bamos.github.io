@@ -19,12 +19,18 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700&display=swap" rel="stylesheet">
   <link href="/css/bamos.css" rel="stylesheet">
   {% if page.layout == 'index' %}<script type="module" src="/js/publication-abstracts.js"></script>{% endif %}
+  {% if page.layout == 'index' %}
+  {% include pond/assets.html %}
+  {% elsif page.pond_gallery %}
+  {% include pond/gallery-assets.html %}
+  {% endif %}
   <script src="/vendor/js/jquery.min.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body{% if page.layout == 'index' %} class="water-page"{% elsif page.pond_gallery %} class="pond-gallery"{% endif %}>
+  {% if page.layout == 'index' %}{% include pond/scene.html %}{% endif %}
 	<div class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="row">
@@ -34,11 +40,11 @@
                     <!--<a href='/images/me.jpg'><img src="/images/me-face.jpg" class="img-circle"></img></a>-->
                     <a href="/" style="text-decoration: none; position: relative; top: 2px;">Brandon Amos</a>
                     <span class="navbar-icons">
-                      <a href="#" id="email-link" title="Email" style="margin-left: 15px;">
+                      <a href="#" id="email-link" aria-label="Email" style="margin-left: 15px;">
                         <i class="fa fa-envelope"></i></a>
-                      <a href="http://github.com/bamos" target="_blank" title="GitHub" style="margin-left: 15px;">
+                      <a href="http://github.com/bamos" target="_blank" aria-label="GitHub" style="margin-left: 15px;">
                         <i class="fa fa-github"></i></a>
-                      <a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank" title="Google Scholar" style="margin-left: 11px;">
+                      <a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank" aria-label="Google Scholar" style="margin-left: 11px;">
                         <i class="ai ai-google-scholar"></i></a>
                     </span>
                   </div>

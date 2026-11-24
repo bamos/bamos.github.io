@@ -1,0 +1,36 @@
+.pond-gallery { background: #fff; }
+.pond-post { margin-bottom: 80px; }
+.pond-post > p { font-size: 18px; line-height: 1.65; margin: 18px 0 28px; }
+.pond-post > h2 { padding: 0; margin: 42px 0 18px; scroll-margin-top: 80px; }
+.pond-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 28px 22px; margin: 24px 0 36px; }
+.pond-grid section { min-width: 0; overflow: hidden; }
+.pond-grid h3 { padding: 0; margin: 0 0 12px; font-size: 17px; font-weight: 400; }
+.pond-grid canvas, .pond-grid > section > svg { display: block; width: 100%; height: auto; background: #fff; }
+.pond-fields { grid-template-columns: repeat(2,minmax(0,1fr)); }
+.pond-passage { grid-template-columns: 1fr; }
+.pond-images h3 { font-size: 16px; line-height: 1.35; }
+/* Keep SVG paint resources renderable; offscreen + inert hides the fixtures.
+   visibility:hidden on their ancestor suppresses filtered <use> instances. */
+#pond-fixtures { position: fixed; top: 0; left: -10000px; width: 800px; height: 800px; pointer-events: none; }
+#pond-fixtures .water-float { display: block; }
+.pond-gallery *, .pond-gallery *::before, .pond-gallery *::after { animation: none !important; transition: none !important; }
+
+.pond-preview { position: relative; height: 215px; overflow: hidden; isolation: isolate; background: #fff; }
+.pond-preview-field { height: 430px; }
+.pond-preview-wide { height: 400px; }
+.pond-preview > .pond-preview-ripples { position: absolute; inset: 0; width: 100%; height: 100%; background: none; pointer-events: none; z-index: 1; }
+.pond-preview .water-float { display: block; visibility: visible; pointer-events: auto; z-index: 2; opacity: .8; --turn: 0deg; translate: none; }
+.pond-preview .water-lorenz { position: absolute; mask-image: none; pointer-events: none; opacity: .8; }
+.pond-preview .water-current-stream { opacity: .7; }
+.pond-preview .water-float:focus-visible:not(.water-pointer-focus) { opacity: 1; }
+@media (max-width: 800px) {
+    .pond-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+    .pond-fields, .pond-passage { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+    .pond-grid { grid-template-columns: 1fr; }
+    .pond-preview-field, .pond-preview-wide { height: 360px; }
+}
+
+.pond-preview .water-float.water-currents, .pond-preview .water-float.water-lorenz-ball { opacity: 1; }
+.pond-preview .water-lotus { opacity: .5; }

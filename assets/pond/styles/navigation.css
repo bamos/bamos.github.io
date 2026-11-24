@@ -1,0 +1,18 @@
+.section-nav { position: fixed; left: 14px; top: 100px; z-index: 4; width: clamp(82px,calc(var(--section-gutter,160px) - 28px),144px); padding-left: 10px; border-left: 1px solid #d3e0dc; font-size: clamp(11.5px,1vw,13px); font-weight: 400; }
+.section-nav[hidden] { display: none; }
+body:not(.pond-ready) .section-nav { display: none; }
+.section-nav a { display: flex; align-items: center; min-height: 38px; padding: 6px 9px; border-radius: 6px; color: #647b7b; }
+.section-nav a[aria-current] { background: #e3eeeb; color: #264e57; }
+.section-nav a[aria-current] { font-weight: 600; }
+.section-nav a:focus-visible { outline: 2px solid #2b6f82; outline-offset: 3px; }
+.water-content .page-section-heading { padding: 0; margin: 20px 0 10px; scroll-margin-top: 84px; }
+@media (min-width: 768px) and (max-width: 991px) {
+    .water-content { width: 100%; padding-left: 132px; padding-right: 24px; }
+    .water-content > .row { margin: 0; }
+    .water-content > .row > div { padding: 0; }
+}
+@media (max-width: 767px) {
+    .section-nav { display: none; }
+    .water-content .page-section-heading { scroll-margin-top: 84px; }
+}
+@media print { .section-nav { display: none; } }

@@ -2,14 +2,14 @@
 layout: base
 ---
 
-<div class="container">
+<div class="container water-content">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
 <img src="/images/me.jpg"
   class="index-profile-img"
-  alt="me"/>
+  alt="Brandon Amos"/>
 <br>
-{{ content }}
+{{ content | replace: 'id="-publications"', 'id="publications"' | replace: 'id="-code"', 'id="code"' | replace: 'id="-talks"', 'id="talks"' }}
     </div>
   </div>
 </div>

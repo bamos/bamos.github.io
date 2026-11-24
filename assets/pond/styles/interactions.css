@@ -1,0 +1,19 @@
+/* Pointer hover is deliberately quiet. Keyboard focus remains explicit. */
+.water-page a:hover { color: #2b6f82; text-decoration: none; }
+.water-page .navbar a:hover { color: var(--navbar-text-color); background: transparent; }
+.water-page .navbar-toggle:hover { background: transparent; }
+.water-page .pub-pill:hover { background: rgba(17,24,39,.08); color: #566074; }
+.water-page .publication-award:hover { background: #f1f2f3; box-shadow: none; transform: none; }
+.water-page .publication-award a:hover { color: inherit; }
+.water-page .section-nav a:hover { color: #647b7b; background: none; }
+.water-page .section-nav a[aria-current] { color: #264e57; background: #e3eeeb; }
+.water-page a, .water-page .pub-pill, .water-page .publication-award { transition: none; }
+.water-page .water-float.water-pointer-focus:focus,
+.water-page .water-image-frame .water-pointer-focus:focus { outline: none !important; box-shadow: none; }
+.water-page a:focus-visible:not(.water-pointer-focus),
+.water-page button:focus-visible:not(.water-pointer-focus) { outline: 2px solid #2b6f82; outline-offset: 3px; }
+/* The object itself is the focus cue; never draw its rectangular hit area. */
+.water-page .water-float:focus,
+.water-page .water-float:focus-visible,
+.pond-gallery .water-float:focus,
+.pond-gallery .water-float:focus-visible { outline: none !important; box-shadow: none !important; }

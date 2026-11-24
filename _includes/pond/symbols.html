@@ -1,0 +1,48 @@
+    <defs>
+      <symbol id="water-leaf" viewBox="0 0 64 40">
+        <path d="M8 30C5 12 24 4 55 8C51 30 31 39 8 30Z" fill="currentColor" />
+        <path d="M4 34Q27 20 55 8M20 24L18 15M30 19L32 30M40 14L39 9" fill="none" stroke="#f4f7e9" stroke-width="1.2" />
+      </symbol>
+      <symbol id="water-twig" viewBox="0 0 64 40">
+        <path d="M6 32Q30 22 58 9M25 25L29 14M39 18L50 22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+      </symbol>
+      <symbol id="water-lotus" viewBox="0 0 72 56">
+        <path d="M10 38C14 29 56 29 62 38C56 47 17 48 10 38Z" fill="#acb9a5" />
+        <path d="M36 39C23 38 18 30 20 24C30 24 35 30 36 39M36 39C49 38 54 30 52 24C42 24 37 30 36 39Z" fill="#d1c5c0" />
+        <path d="M36 39C27 32 29 23 36 16C43 23 45 32 36 39Z" fill="#ded2cc" />
+        <path d="M28 35Q36 29 44 35Q36 43 28 35Z" fill="#e7dcd5" />
+      </symbol>
+      <symbol id="water-fish" viewBox="0 0 80 48">
+        <path class="water-fish-tail" d="M27 24L8 10L10 37Z" fill="currentColor" />
+        <path d="M22 24C35 5 58 7 71 24C58 41 35 43 22 24Z" fill="currentColor" />
+        <path class="water-fish-fin" d="M45 16L37 9L54 13M43 31L37 39L55 34" fill="currentColor" opacity=".7" />
+        <path d="M53 17Q49 24 53 31" fill="none" stroke="#eef5ed" stroke-width="1.3" />
+        <circle cx="62" cy="22" r="1.5" fill="#58716f" />
+      </symbol>
+      <symbol id="water-currents" viewBox="0 0 64 64">
+        <radialGradient id="water-chrome" cx=".31" cy=".29" r=".79">
+          <stop offset="0" stop-color="#aeb0ad"/><stop offset=".28" stop-color="#858884"/>
+          <stop offset=".52" stop-color="#555a53"/><stop offset=".78" stop-color="#252b22"/><stop offset="1" stop-color="#080e07"/>
+        </radialGradient>
+        <radialGradient id="water-chrome-rim" cx=".39" cy=".38" r=".68">
+          <stop offset=".58" stop-color="#b8bab4" stop-opacity="0"/><stop offset=".88" stop-color="#bcc0b8" stop-opacity=".12"/><stop offset="1" stop-color="#e0e2da" stop-opacity=".5"/>
+        </radialGradient>
+        <filter id="water-chrome-light" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="1.5"/></filter>
+        <filter id="water-chrome-small-light" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation=".7"/></filter>
+        <filter id="water-chrome-grain" x="0" y="0" width="100%" height="100%">
+          <feTurbulence type="fractalNoise" baseFrequency="1.4" numOctaves="3" seed="19" result="noise"/>
+          <feColorMatrix in="noise" type="saturate" values="0" result="gray"/>
+          <feComposite in="gray" in2="SourceAlpha" operator="in" result="grain"/>
+          <feComposite in="SourceGraphic" in2="grain" operator="arithmetic" k1="0" k2="1" k3=".22" k4="-.11"/>
+        </filter>
+        <clipPath id="water-chrome-clip"><circle cx="32" cy="32" r="28"/></clipPath>
+        <g clip-path="url(#water-chrome-clip)" filter="url(#water-chrome-grain)">
+          <circle cx="32" cy="32" r="28" fill="url(#water-chrome)"/>
+          <circle cx="32" cy="32" r="28" fill="url(#water-chrome-rim)"/>
+          <path d="M7 35C7 17 21 8 35 7" fill="none" stroke="#eff0e9" stroke-width="1.4" opacity=".45" filter="url(#water-chrome-light)"/>
+          <ellipse cx="20" cy="21" rx="6.7" ry="10.5" transform="rotate(26 20 21)" fill="#fff" opacity=".92" filter="url(#water-chrome-light)"/>
+          <ellipse cx="34" cy="16" rx="3.1" ry="3.6" fill="#fff" opacity=".9" filter="url(#water-chrome-small-light)"/>
+          <ellipse cx="25" cy="11" rx="7" ry="2.2" transform="rotate(-20 25 11)" fill="#fff" opacity=".3" filter="url(#water-chrome-light)"/>
+        </g>
+      </symbol>
+    </defs>

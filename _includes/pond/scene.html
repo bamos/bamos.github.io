@@ -1,0 +1,12 @@
+<div class="water-scene" aria-hidden="true">
+  <svg class="water-contours" viewBox="0 0 1440 900" preserveAspectRatio="none" focusable="false">
+    {% include pond/symbols.html %}
+    {% include pond/background.html %}
+  </svg>
+  <canvas class="water-ripples"></canvas>
+</div>
+<span id="water-object-help" class="sr-only">Drag to move and release to make waves. Use arrow keys to move, Enter or Space to drop, and Escape to return to the starting position.</span>
+<span id="water-image-help" class="sr-only">Drag the illustration to move it in the water. Use arrow keys to move, Space to drop, and Escape to return. Click or press Enter to open the paper.</span>
+<div class="water-objects" data-pond-bounds>
+  {% include pond/objects.html %}
+</div>

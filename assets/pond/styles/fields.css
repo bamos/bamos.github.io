@@ -1,0 +1,17 @@
+.water-lorenz { left: 6px; width: 330px; height: 395px; --turn: 0deg; opacity: .78; mask-image: linear-gradient(to right,#000 calc(var(--field-clear-width,240px) - 32px),transparent var(--field-clear-width,240px)); }
+.water-running .water-lorenz, .water-lorenz .water-object { animation: none !important; transform: none !important; translate: none; }
+.water-lorenz-ball { width: 56px; height: 56px; opacity: 1; --turn: 0deg; }
+.water-running .water-lorenz-ball, .water-running .water-lorenz-ball .water-object,
+.water-running .water-currents .water-object { animation: none !important; translate: none; }
+@media (max-width: 767px) {
+    .water-lorenz { left: 4px; width: 200px; height: 167px; opacity: .42; }
+    .water-lorenz-ball { width: 36px; height: 36px; }
+}
+
+.water-attractor { padding: 0; pointer-events: none !important; cursor: default; mask-image: none; }
+.water-running .water-attractor { animation: none !important; transform: none !important; translate: none !important; }
+.water-attractor .water-object { animation: none !important; transform: none !important; translate: none !important; }
+.water-extra-attractor { opacity: .72; }
+@media (max-width: 767px) { .water-extra-attractor, .water-mobius-ball { display: none; } }
+
+.water-float.water-currents, .water-float.water-lorenz-ball { opacity: 1; }

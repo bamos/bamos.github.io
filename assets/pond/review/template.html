@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pond studies</title>
+<link rel="stylesheet" href="/assets/pond/styles/pond.css">
+<link rel="stylesheet" href="/assets/pond/styles/fields.css">
+<style>
+body { margin:0; padding:24px; color:#304f55; background:#fff; font:15px/1.5 system-ui,sans-serif; }
+h1 { font-size:22px; font-weight:500; margin:0 0 12px; }
+header { display:flex; flex-wrap:wrap; align-items:center; gap:12px; margin-bottom:20px; }
+label { display:flex; align-items:center; gap:8px; } input[type=number] { width:60px; }
+button,select,input { font:inherit; } button,select { min-height:44px; padding:6px 12px; }
+input[type=range] { width:150px; } #status { width:100%; margin:0; font-size:13px; }
+#studies { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr)); gap:24px; }
+.trail-controls { grid-column:1/-1; } .trail-controls p { margin:0 0 12px; } .trail-controls button { margin-right:8px; }
+h2 { font-size:17px; font-weight:500; margin:0 0 10px; }
+figure { margin:0; max-width:420px; } figcaption { margin:4px 0; font-size:13px; }
+canvas { display:block; width:100%; height:auto; background:#fff; }
+.pond-demo { position:relative; width:100%; height:420px; overflow:clip; background:#fff; }
+.pond-demo .water-float { padding:3px; }
+#fixtures { position:absolute; left:-4000px; top:0; width:800px; pointer-events:none; }
+#fixtures .water-scene { position:relative; width:800px; height:10px; }
+#fixtures .water-objects { position:relative; }
+#fixtures .water-float { position:relative; top:auto!important; left:auto!important; right:auto!important; visibility:visible; transform:none; animation:none; }
+#fixtures img { display:block; width:180px; height:auto; }
+#fixtures .index-profile-img { border-radius:10px; border:2px solid #b0ada6; }
+@media(max-width:400px) { body { padding:14px; } header { gap:8px; } }
+</style></head><body>
+<h1>Pond studies</h1>
+<header>
+<label>Study <select id="group"><option>Clicks</option><option>Wakes</option><option>Trail options</option><option>Objects</option><option>Images</option><option>Currents</option><option>Chrome</option><option>Fish</option></select></label>
+<label>Seed <input id="seed" type="number" min="0" max="99" value="7"></label>
+<label>Time <input id="age" type="range" min="0.12" max="2.8" value="0.6" step="0.01"><output id="time">0.60 s</output></label>
+<button id="play" type="button">Play once</button>
+<p id="status" role="status">Preparing actual site silhouettes…</p>
+</header>
+<main id="studies"></main>
+<div id="fixtures" aria-hidden="true" inert><!-- FIXTURES --></div>
+<script type="module" src="/assets/pond/review/studies.js"></script>
+</body></html>

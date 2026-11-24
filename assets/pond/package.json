@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "review": "node review/serve.mjs",
+    "test:site": "node tests/site-smoke.mjs"
+  }
+}

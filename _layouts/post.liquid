@@ -8,4 +8,6 @@ layout: singlePage
 
 <hr>
 
+{% if page.pond_gallery %}<article class="pond-post">{% endif %}
 {{ content }}
+{% if page.pond_gallery %}</article>{% include pond/gallery-fixtures.html %}{% endif %}

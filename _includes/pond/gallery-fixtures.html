@@ -1,0 +1,15 @@
+<div id="pond-fixtures" inert aria-hidden="true">
+  <svg class="water-contours" viewBox="0 0 1440 900">{% include pond/symbols.html %}{% include pond/background.html %}</svg>
+  {% include pond/objects.html %}
+  <img class="index-profile-img" src="/images/me.jpg" alt="Headshot">
+  {% assign homepage = site.pages | where: "name", "index.md" | first %}
+  {% assign images = homepage.content | split: '<img src="' %}
+  {% for chunk in images offset:1 %}
+    {% if chunk contains 'class="publicationImg"' %}
+      {% assign source = chunk | split: '"' | first %}
+      {% assign title_chunk = chunk | split: '<em>' %}
+      {% assign label = title_chunk[1] | split: '</em>' | first | strip_html | strip %}
+      <img class="publicationImg" data-gallery-publication src="{{ source | relative_url }}" alt="{{ label | escape }}">
+    {% endif %}
+  {% endfor %}
+</div>

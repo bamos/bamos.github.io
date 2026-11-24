@@ -17,6 +17,11 @@ plugins:
 
 exclude:
   - tests
+  - assets/pond/tests
+  - assets/pond/review
+  - assets/pond/package.json
+  - assets/pond/AGENTS.md
+  - assets/pond/VALIDATION.md
   - .travis.yml
   - validate.rb
   - README.md
