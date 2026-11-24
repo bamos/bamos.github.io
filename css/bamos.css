@@ -191,6 +191,12 @@ img {
     color: var(--navbar-hover-text-color);
 }
 
+.navbar-x-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+}
+
 .navbar-default .navbar-nav > li > a:focus:not(:focus-visible),
 .navbar-brand a:focus:not(:focus-visible),
 .navbar-icons a:focus:not(:focus-visible) {
@@ -228,6 +234,16 @@ img {
         position: absolute;
         right: 15px;
         top: 15px;
+    }
+}
+
+@media (max-width: 374px) {
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .navbar-icons a {
+        margin-left: 6px !important;
     }
 }
 
