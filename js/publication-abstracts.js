@@ -6,11 +6,13 @@ export function abstractOutline(width, height, notchX = width, notchY = 0) {
     const w = Math.max(1, width - 1), h = Math.max(1, height - 1);
     const radius = Math.min(12, w / 4, h / 4);
     const x = Math.max(radius * 2, Math.min(w, notchX));
-    const y = Math.max(0, Math.min(h - radius * 2, notchY));
-    let path = `M${radius},.5H${y ? x - radius : w - radius}`;
+    const y = notchY > 0 ? Math.max(.5, Math.min(h - radius * 2, notchY)) : 0;
+    // The two notch curves must fit between the top border and the image bottom.
+    const notchRadius = Math.min(radius, Math.max(0, (y - .5) / 2));
+    let path = `M${radius},.5H${y ? x - notchRadius : w - radius}`;
     if (y) {
-        path += `Q${x},.5 ${x},${radius}V${Math.max(radius, y - radius)}`;
-        path += `Q${x},${y} ${x + radius},${y}H${w - radius}Q${w},${y} ${w},${y + radius}`;
+        path += `Q${x},.5 ${x},${.5 + notchRadius}V${y - notchRadius}`;
+        path += `Q${x},${y} ${x + notchRadius},${y}H${w - radius}Q${w},${y} ${w},${y + radius}`;
     } else {
         path += `Q${w},.5 ${w},${radius}`;
     }

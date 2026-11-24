@@ -47,6 +47,11 @@ async function validate(variant) {
         }
         const outline=box.querySelector('.abstract-outline path');
         check(outline&&!/NaN|Infinity/.test(outline.getAttribute('d')),'outline is invalid');
+        const notch=outline?.getAttribute('d').match(/^M[^H]+H[^Q]+Q([^ ]+) ([^V]+)V([^Q]+)Q([^ ]+) ([^H]+)/);
+        if(notch) {
+            const y=[.5,...notch.slice(1).map(point=>Number(point.split(',').at(-1)))];
+            check(y.every((value,index)=>index===0||value>=y[index-1]),'outline doubles back at the image notch');
+        }
         const name=`${innerWidth}px ${variant} ${row.id}`;
         const result=document.createElement('p');result.className='case-result';result.textContent=(errors.length?'FAIL: ':'PASS: ')+name+(errors.length?' — '+errors.join('; '):'');
         row.closest('table').after(result);

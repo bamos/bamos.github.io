@@ -6,13 +6,15 @@ This suite belongs to publication layout and runs without the pond.
 - `bundle exec jekyll build`
 - `node tests/publications/review.mjs`, then open `http://127.0.0.1:4003/`.
 
-The browser review automatically measures 72 cases: six real publication
+The browser review automatically measures 84 cases: seven real publication
 illustrations (wide, tall, transparent and opaque), short/full abstracts, and
 320/390/767/768/1024/1440px viewports. It checks image position, viewport bounds,
 side/bottom text clearance, short-box outlines and excessive blank space.
 On phones it also checks that numbers align with titles and images sit below
 their citations, above the expandable abstracts, within the viewport.
 Inspect the affected case visually too, especially line breaks at the notch.
+Learning Awareness Models covers a shallow notch where the image barely overlaps
+the abstract; the outline's two curves must fit without doubling back.
 These measurements catch layout regressions; they cannot guarantee aesthetics.
 
 When changing wrapping, repeat the two reported problem cases (model-based SVG
