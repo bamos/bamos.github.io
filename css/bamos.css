@@ -402,6 +402,10 @@ html[data-home-formal="true"] #bio {
     outline-offset: -2px;
 }
 
+.publication-selection-note {
+    color: #767676;
+}
+
 .home-section:focus-visible {
     outline: 2px solid var(--navbar-text-color);
     outline-offset: 4px;

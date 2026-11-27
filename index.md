@@ -59,7 +59,7 @@ and
 <h2 id="-publications"><i class="fa fa-chevron-right" style="font-size: 0.9em;"></i> Publications</h2>
 
 <a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank">Google Scholar</a>: 15.4k+ citations and an h-index of 48. <br>
-*Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted</span>.*
+<span class="publication-selection-note">Selected publications I am a primary author on are <span style='background-color: #ffffd0'>highlighted</span>.</span>
 
 <h2>2026</h2>
 <table class="table table-hover">
@@ -2493,7 +2493,7 @@ malware machine learning classifiers.
 <section id="code" class="home-section" markdown="1">
 
 <h2 id="-code"><i class="fa fa-chevron-right" style="font-size: 0.9em;"></i> Code</h2>
-*40k+ GitHub stars across all repositories.*
+40k+ GitHub stars across all repositories.
 
 <table class="table table-hover">
 <tr>
@@ -3033,9 +3033,9 @@ malware machine learning classifiers.
 <section id="talks" class="home-section" markdown="1">
 
 <h2 id="-talks"><i class="fa fa-chevron-right" style="font-size: 0.9em;"></i> Talks</h2>
-*Slides for my major presentations are available
+Slides for my major presentations are available
 [here](https://github.com/bamos/presentations)
-under a CC-BY license.*
+under a CC-BY license.
 
 <table class="table table-hover">
 <tr>
