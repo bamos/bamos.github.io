@@ -2,7 +2,7 @@
 layout: singlePage
 title: Brandon Amos
 ---
-Brandon Amos is a Member of Technical Staff in post-training at [Reflection AI](https://www.reflection.ai/) in NYC. His research spans machine learning, optimization, reinforcement learning, and control with the goal of building safe intelligent systems that understand and interact with our world.
+<span data-formal-bio-url="https://bamos.github.io">Brandon Amos</span> is a Member of Technical Staff in post-training at [Reflection AI](https://www.reflection.ai/) in NYC. His research spans machine learning, optimization, reinforcement learning, and control with the goal of building safe intelligent systems that understand and interact with our world.
 
 Previously, he was a Research Scientist in Fundamental AI Research
 (FAIR) at [Meta Superintelligence Labs](https://ai.meta.com/research/),

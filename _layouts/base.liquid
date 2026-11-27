@@ -79,6 +79,27 @@
         <script src="/vendor/js/anchor.min.js"></script>
         <script src="/vendor/js/jquery.toc.js"></script>
         <script type="text/javascript">
+          {% if page.layout == 'index' or page.path == 'bio.md' %}
+          document.addEventListener('copy', event => {
+              const bio = document.getElementById('bio');
+              const selection = document.getSelection();
+              if (!bio || !event.clipboardData || selection?.rangeCount !== 1 ||
+                  selection.isCollapsed) return;
+
+              const range = selection.getRangeAt(0);
+              if (!bio.contains(range.commonAncestorContainer)) return;
+
+              let text = selection.toString();
+              const bioName = bio.querySelector('[data-formal-bio-url]');
+              if (bioName && selection.containsNode(bioName.firstChild, false)) {
+                  const name = bioName.textContent;
+                  text = text.replace(name, name + ' (' + bioName.dataset.formalBioUrl + ')');
+              }
+              event.clipboardData.setData('text/plain', text);
+              event.preventDefault();
+          });
+          {% endif %}
+
           // Email obfuscation - hex encoded
           (function() {
               var hex = "6272616e646f6e2e616d6f732e637340676d61696c2e636f6d";
