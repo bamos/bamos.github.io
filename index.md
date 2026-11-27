@@ -2969,7 +2969,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/cparse/cparse">cparse/cparse</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;367
+    | <i class="fa fas fa-star"></i>&nbsp;368
     </span>
  <span style='color: gray;'>| <em>C++ expression parser using Dijkstra's shunting-yard algorithm</em></span>  </td>
 </tr>
@@ -2979,7 +2979,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/cv">bamos/cv</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;420
+    | <i class="fa fas fa-star"></i>&nbsp;421
     </span>
  <span style='color: gray;'>| <em>Source for this CV: creates LaTeX/Markdown from YAML/BibTeX</em></span>  </td>
 </tr>
@@ -2999,7 +2999,7 @@ malware machine learning classifiers.
     <span class='cvdate'>2013</span>
     <a href="https://github.com/bamos/python-scripts">bamos/python-scripts</a>
     <span style="white-space: nowrap">
-    | <i class="fa fas fa-star"></i>&nbsp;194
+    | <i class="fa fas fa-star"></i>&nbsp;193
     </span>
   </td>
 </tr>
@@ -3581,4 +3581,4 @@ under a CC-BY license.*
 
 </div>
 
-<p id="last-updated" style="font-size: 0.85em; color: #999;">Last updated on November 24, 2026.</p>
+<p id="last-updated" style="font-size: 0.85em; color: #999;">Last updated on November 27, 2026.</p>
