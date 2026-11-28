@@ -1,0 +1,44 @@
+{% assign x_handle = 'brandondamos' %}
+<nav class="navbar navbar-default navbar-fixed-top" aria-label="Main">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="{{ include.origin }}/" style="text-decoration: none; position: relative; top: 2px;">Brandon Amos</a>
+            <span class="navbar-icons">
+              <a href="#" id="email-link" title="Email" aria-label="Email" style="margin-left: 15px;">
+                <i class="fa fa-envelope"></i></a>
+              <a href="https://github.com/bamos" target="_blank" title="GitHub" aria-label="GitHub" style="margin-left: 15px;">
+                <i class="fa fa-github"></i></a>
+              <a href="https://x.com/{{ x_handle }}" target="_blank" rel="noopener" title="X" aria-label="X: {{ x_handle }}" style="margin-left: 15px;">
+                <svg class="navbar-x-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26L22.827 21.75H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.173 2.25H8l4.713 6.231zM17.083 19.77h1.833L7.084 4.126H5.117z"/>
+                </svg></a>
+              <a href="https://scholar.google.com/citations?user=d8gdZR4AAAAJ" target="_blank" title="Google Scholar" aria-label="Google Scholar" style="margin-left: 11px;">
+                <i class="ai ai-google-scholar"></i></a>
+            </span>
+          </div>
+        </div>
+        <div class="navbar-cv">
+          <ul class="nav navbar-nav">
+            <li><a href="{{ include.origin }}/cv.pdf" target="_blank" style="position: relative; top: 2px;">CV</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<script>
+  (() => {
+    const emailLink = document.getElementById('email-link');
+    const hex = '6272616e646f6e2e616d6f732e637340676d61696c2e636f6d';
+    emailLink.href = 'mailto:' + hex.match(/../g).map(byte => String.fromCharCode(parseInt(byte, 16))).join('');
+
+    // Clear focus after mouse activation while keeping keyboard focus visible.
+    emailLink.closest('nav').addEventListener('mouseup', event => {
+      const link = event.target.closest('a');
+      if (link && event.button === 0) requestAnimationFrame(() => link.blur());
+    });
+  })();
+</script>
